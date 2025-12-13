@@ -36,6 +36,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useI18n } from "@/lib/i18n/context"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { OfferBanner } from "@/components/offer-banner"
+import TourCard from "@/components/TourCard"
 
 // Signature Experiences Data
 export const signatureExperiences = [
@@ -90,175 +91,152 @@ export const signatureExperiences = [
 ]
 
 
-export const travelCollections = [
+export const travelCollections =[
   {
     id: 1,
+    category: "domestic",
+    imageUrl: "/destinations/Thumbnails/South-Goa-Cultural.webp",
     title: "South Goa – Cultural Goa",
+    price: "$80",
+    duration: "Full Day Tour",
     description:
       "Full-day cultural tour exploring Old Goa churches, Hindu temples, Miramar Beach, Dona Paula, and Panjim Market.",
-    imageUrl: "/destinations/Thumbnails/South-Goa-Cultural.webp",
-    rating: 4.6,
-    duration: "Full Day Tour",
     tags: ["Cultural", "UNESCO", "Heritage"],
-    badge: null,
+    link: "/itinerary/day-trips/South-Goa-1-Day-Cultural-and-Beach-Tour-package",
   },
   {
     id: 2,
+    category: "luxury",
+    imageUrl: "/destinations/Thumbnails/Yacht-goa.webp",
     title: "Luxury Yacht Tour Goa",
+    price: "Premium",
+    duration: "6 Hours",
     description:
       "Premium 6-hour luxury yacht experience with infinity pool, live DJ, gourmet dinner, and sunset cruise in Goa.",
-    imageUrl: "/destinations/Thumbnails/Yacht-goa.webp",
-    rating: 4.9,
-    duration: "6 Hours",
     tags: ["Luxury", "Yacht", "Premium"],
-    badge: "hot" as const,
+    link: "/itinerary/day-trips/luxury-yacht-tour-goa",
   },
   {
     id: 3,
+    category: "luxury",
+    imageUrl: "/destinations/Thumbnails/Cabo-Serai.webp",
     title: "Goa Luxury Serai Cabo",
+    price: "$370",
+    duration: "Custom Stay",
     description:
       "Experience ultimate luxury at Serai Cabo with private villas, world-class amenities, and personalized services.",
-    imageUrl: "/destinations/Thumbnails/Cabo-Serai.webp",
-    rating: 4.8,
-    duration: "Custom Stay",
     tags: ["Luxury", "Resort", "5-Star"],
-    badge: null,
+    link: "/itinerary/domestic-trips/Cabo-Serai-2N-3D-Luxury-Getaway",
   },
   {
     id: 4,
+    category: "domestic",
+    imageUrl: "/destinations/Thumbnails/Andaman.webp",
     title: "Andaman Islands",
+    price: "$970",
+    duration: "5–7 Days",
     description:
       "Discover pristine beaches, crystal waters, and exotic marine life in India's tropical paradise.",
-    imageUrl: "/destinations/Thumbnails/Andaman.webp",
-    rating: 4.7,
-    duration: "5–7 Days",
     tags: ["Islands", "Beaches", "Marine Life"],
-    badge: "new" as const,
+    link: "/itinerary/domestic-trips/andaman-tour-for-goa",
   },
   {
     id: 5,
+    category: "domestic",
+    imageUrl: "/destinations/Thumbnails/Goa2.webp",
     title: "North Goa – Portuguese Goa",
+    price: "$50",
+    duration: "Full Day Tour",
     description:
       "Full day North Goa tour covering Calangute, Baga, Anjuna beaches, Aguada Fort, and Portuguese churches.",
-    imageUrl: "/destinations/Thumbnails/Goa2.webp",
-    rating: 4.5,
-    duration: "Full Day Tour",
     tags: ["Beaches", "Portuguese", "Cultural"],
-    badge: null,
+    link: "/itinerary/day-trips/north-goa-english-tour",
   },
   {
     id: 6,
+    category: "domestic",
+    imageUrl: "/destinations/Thumbnails/Dudhsagar.webp",
     title: "Dudhsagar & Spice Plantation",
+    price: "$55",
+    duration: "Full Day Tour",
     description:
       "Visit the majestic Dudhsagar Waterfalls and explore aromatic spice plantations with guided tours.",
-    imageUrl: "/destinations/Thumbnails/Dudhsagar.webp",
-    rating: 4.6,
-    duration: "Full Day Tour",
     tags: ["Waterfalls", "Spices", "Nature"],
-    badge: null,
+    link: "/itinerary/day-trips/Dudhsagar-and-Spice-Plantation-Day-Trip-package",
   },
   {
     id: 7,
+    category: "domestic",
+    imageUrl: "/destinations/Thumbnails/elephant-safari.webp",
     title: "Elephant & Tiger Safari – Dandeli",
+    price: "$100",
+    duration: "1 Night / 2 Days",
     description:
       "Wildlife adventure in Dandeli with elephant interaction and tiger safari in natural reserves.",
-    imageUrl: "/destinations/Thumbnails/elephant-safari.webp",
-    rating: 4.9,
-    duration: "1 Night / 2 Days",
     tags: ["Wildlife", "Safari", "Adventure"],
-    badge: "hot" as const,
+    link: "/itinerary/domestic-trips/dandeli-elephant-tiger-safari-from-goa",
   },
   {
     id: 8,
+    category: "domestic",
+    imageUrl: "/destinations/Thumbnails/Gokarna.webp",
     title: "Gokarna and Murdeshwar",
+    price: "$70",
+    duration: "Full Day Tour",
     description:
       "Pilgrimage and beach tour to Gokarna's temples and Murdeshwar's Shiva statue and beaches.",
-    imageUrl: "/destinations/Thumbnails/Gokarna.webp",
-    rating: 4.5,
-    duration: "Full Day Tour",
     tags: ["Spiritual", "Beaches", "Temples"],
-    badge: null,
+    link: "/itinerary/day-trips/Gokarna-Murdeshwar-one-day-trip-package",
   },
   {
     id: 9,
-    title: "Golden Triangle Trip 3N/4D",
-    description:
-      "Discover India's iconic heritage with Delhi, Agra, and Jaipur including the Taj Mahal.",
+    category: "domestic",
     imageUrl: "/destinations/Thumbnails/GoldenTriangle.webp",
-    rating: 4.8,
+    title: "Golden Triangle Trip 3N/4D",
+    price: "$370",
     duration: "3 Nights / 4 Days",
+    description:
+      "Discover India's iconic heritage with Delhi, Agra, and Jaipur. Experience magnificent forts, palaces, and the Taj Mahal.",
     tags: ["Heritage", "Taj Mahal", "Cultural"],
-    badge: null,
+    link: "/itinerary/domestic-trips/golden-triangle-trip-3n4d",
   },
   {
     id: 10,
-    title: "Varanasi Trip 2N/3D",
-    description:
-      "Spiritual journey including Sarnath, Ganga Aarti, temple tours, and boat ride on the Ganges.",
+    category: "spiritual",
     imageUrl: "/destinations/Thumbnails/varanasi.webp",
-    rating: 4.7,
+    title: "Varanasi Trip 2N/3D",
+    price: "$500",
     duration: "2 Nights / 3 Days",
+    description:
+      "Spiritual journey to Varanasi including Sarnath, Ganga Aarti, temple tours, boat ride on Ganges. Flight included.",
     tags: ["Spiritual", "Pilgrimage", "Ganga Aarti"],
-    badge: null,
+    link: "/itinerary/domestic-trips/varanasi-2n3d-trip",
   },
   {
     id: 11,
-    title: "Jodhpur & Udaipur Tour",
-    description:
-      "Explore Mehrangarh Fort, City Palace, Lake Pichola, and royal heritage of Rajasthan.",
+    category: "domestic",
     imageUrl: "/hero/Jodhpur-Udaipur-hero.webp",
-    rating: 4.8,
+    title: "Jodhpur & Udaipur 4N/5D",
+    price: "$550",
     duration: "4 Nights / 5 Days",
+    description:
+      "Explore Jodhpur & Udaipur with guided tours of Mehrangarh Fort, City Palace, Lake Pichola, and cultural experiences.",
     tags: ["Rajasthan", "Palaces", "Cultural"],
-    badge: null,
+    link: "/itinerary/domestic-trips/jodhpur-udaipur-trip-4n5d",
   },
   {
     id: 12,
-    title: "Mathura – Vrindavan Tour",
-    description:
-      "Visit Shri Krishna Janmabhoomi and Banke Bihari Temple in a spiritual pilgrimage tour.",
-    imageUrl: "/hero/Mathura-Vrindavan-hero.webp",
-    rating: 4.6,
-    duration: "2 Nights / 3 Days",
-    tags: ["Spiritual", "Pilgrimage", "Cultural"],
-    badge: null,
-  },
-  {
-    id: 13,
-    title: "Ajanta & Ellora Tour",
-    description:
-      "Explore UNESCO World Heritage Sites Ajanta & Ellora Caves with guided tours.",
-    imageUrl: "/destinations/Ajanta/Ajanta-Caves.webp",
-    rating: 4.8,
-    duration: "1 Night / 2 Days",
-    tags: ["UNESCO", "Caves", "Heritage"],
-    badge: null,
-  },
-  {
-    id: 14,
-    title: "Hyderabad Trip 1N/2D",
-    description:
-      "Explore Golconda Fort, Charminar, Chowmahalla Palace, and Hyderabad’s heritage.",
-    imageUrl: "/hero/Hyderabad-hero.webp",
-    rating: 4.6,
-    duration: "1 Night / 2 Days",
-    tags: ["Heritage", "Cultural", "Historical"],
-    badge: null,
-  },
-  {
-    id: 15,
-    title: "Amritsar Trip 2N/3D",
-    description:
-      "Visit the Golden Temple, Wagah Border ceremony, Jallianwala Bagh, and cultural landmarks.",
+    category: "domestic",
     imageUrl: "/hero/Amritsar-hero.webp",
-    rating: 4.7,
+    title: "Amritsar Trip 2N/3D",
+    price: "$450",
     duration: "2 Nights / 3 Days",
+    description:
+      "Spiritual journey to the Golden Temple, Wagah Border ceremony, Jallianwala Bagh, and Amritsar's rich cultural heritage.",
     tags: ["Spiritual", "Cultural", "Historical"],
-    badge: null,
+    link: "/itinerary/domestic-trips/amritsar-trip-2n3d-from-goa",
   },
-]
-
-
+];
 // Premium Services
 const premiumServices = [
   {
@@ -354,6 +332,7 @@ useEffect(() => {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
+    email:"",
     destination: "",
   })
 
@@ -361,7 +340,7 @@ useEffect(() => {
     e.preventDefault()
     // Handle form submission
     alert("Thank you! We'll contact you shortly with your personalized quote.")
-    setFormData({ name: "", phone: "", destination: "" })
+    setFormData({ name: "", phone: "",email: "", destination: "" })
   }
 
   const scrollExperiences = (direction: "left" | "right") => {
@@ -415,79 +394,6 @@ const displayedCollections = isDesktop
       >
         Skip to booking form
       </a>
-
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-40 bg-transparent" role="banner">
-        <nav
-          className="container mx-auto px-4 py-3 sm:py-4 flex items-center justify-between"
-          aria-label="Main navigation"
-        >
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2" aria-label="Global Tourist Centre - Home">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary/90 flex items-center justify-center">
-              <Globe className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" aria-hidden="true" />
-            </div>
-          </Link>
-
-          {/* Navigation Links - Desktop */}
-          <div className="hidden md:flex items-center gap-6 lg:gap-8" role="menubar">
-            <Link
-              href="/"
-              className="text-white/90 hover:text-white text-sm font-medium transition-colors"
-              role="menuitem"
-            >
-              Home
-            </Link>
-            <Link
-              href="/destinations"
-              className="text-white/90 hover:text-white text-sm font-medium transition-colors"
-              role="menuitem"
-            >
-              Destinations
-            </Link>
-            <Link
-              href="/luxury-destinations"
-              className="text-white/90 hover:text-white text-sm font-medium transition-colors px-3 py-1.5 bg-amber-500/80 rounded-md"
-              role="menuitem"
-            >
-              Luxury Destinations
-            </Link>
-            <Link
-              href="/about"
-              className="text-white/90 hover:text-white text-sm font-medium transition-colors"
-              role="menuitem"
-            >
-              About
-            </Link>
-            <Link
-              href="/services"
-              className="text-white/90 hover:text-white text-sm font-medium transition-colors"
-              role="menuitem"
-            >
-              Services
-            </Link>
-            <Link
-              href="/contact"
-              className="text-white/90 hover:text-white text-sm font-medium transition-colors"
-              role="menuitem"
-            >
-              Contact
-            </Link>
-            <Link
-              href="/blog"
-              className="text-white/90 hover:text-white text-sm font-medium transition-colors"
-              role="menuitem"
-            >
-              Blog
-            </Link>
-          </div>
-
-          {/* Language Switcher */}
-          <div className="flex items-center gap-2">
-            <LanguageSwitcher />
-          </div>
-        </nav>
-      </header>
 
       {/* Hero Section */}
       <section className="relative min-h-[90vh] sm:min-h-screen flex items-center" aria-labelledby="hero-heading">
@@ -582,6 +488,22 @@ const displayedCollections = isDesktop
                   </div>
 
                   <div className="space-y-1.5">
+                    <Label htmlFor="lp-phone" className="text-sm font-medium">
+                      {t.form.email} <span className="text-destructive">*</span>
+                    </Label>
+                    <Input
+                      id="lp-phone"
+                      type="tel"
+                      placeholder="+91 98765 43210"
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      required
+                      className="h-11"
+                      aria-required="true"
+                    />
+                  </div>
+
+                  <div className="space-y-1.5">
                     <Label htmlFor="lp-destination" className="text-sm font-medium">
                       {t.form.destination} <span className="text-destructive">*</span>
                     </Label>
@@ -645,12 +567,19 @@ const displayedCollections = isDesktop
       >
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12">
-            <h2
-              id="experiences-heading"
-              className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4"
-            >
-              {t.experiences.title}
-            </h2>
+      <h2
+  id="experiences-heading"
+  className="relative font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4 pb-3"
+>
+  {t.experiences.title}
+
+  <span
+    aria-hidden="true"
+    className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
+               bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
+  />
+</h2>
+
             <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
               {t.experiences.subtitle}
             </p>
@@ -669,52 +598,124 @@ const displayedCollections = isDesktop
             </Button> */}
             <div
               ref={experiencesRef}
-              className="flex gap-4 sm:gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-4 px-2"
+           className="
+  flex gap-6 sm:gap-8
+  overflow-x-auto scrollbar-hide
+  snap-x snap-mandatory
+  pb-6
+  px-4 sm:px-6 lg:px-8
+"
+
               role="list"
               aria-label="Signature travel experiences"
             >
               {signatureExperiences.map((exp) => (
-               <div
+<div
   key={exp.id}
-  className="flex-shrink-0 w-[200px] sm:w-[240px] lg:w-[280px] snap-center"
+  className="flex-shrink-0 w-[260px] sm:w-[300px] lg:w-[340px] snap-start "
   role="listitem"
 >
-  <div className="relative rounded-xl overflow-hidden group cursor-pointer aspect-[3/4]">
+  <div
+    className="
+      relative h-[320px] rounded-[15px] overflow-hidden
+      bg-white shadow-lg
+      transition-all duration-500 ease-out
+      hover:-translate-y-2.5 hover:shadow-2xl
+      group cursor-pointer
+    "
+  >
+    {/* Image */}
     <img
       src={exp.imageUrl}
       alt={`${exp.title} travel destination`}
-      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+      className="
+        w-full h-full object-cover
+        transition-transform duration-700 ease-out
+        group-hover:scale-110
+      "
     />
 
-    <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
+    {/* Gradient overlay (matches ::before) */}
+    <div
+      aria-hidden="true"
+      className="
+        absolute inset-0 z-10
+        bg-gradient-to-t
+        from-black/80 via-black/40 to-transparent
+      "
+    />
 
-    {exp.popular && (
-      <Badge className="absolute top-3 right-3 bg-amber-400 text-amber-950">
-        Popular
-      </Badge>
-    )}
-
-    <div className="absolute bottom-4 left-4 right-4 space-y-1.5">
-      <h3 className="text-white font-semibold text-sm sm:text-base leading-tight">
+    {/* Content */}
+    <div className="absolute bottom-0 left-0 w-full p-5 z-20 text-white">
+      {/* Title */}
+      <h3
+        className="
+          font-serif text-[1.15rem] sm:text-[1.3rem]
+          leading-tight mb-1
+        "
+      >
         {exp.title}
       </h3>
 
-      <p className="text-white/80 text-xs">
-        {exp.duration} • {exp.price}
-      </p>
+      {/* Details */}
+      <div
+        className="
+          flex flex-wrap items-center gap-x-3 gap-y-1
+          text-[0.75rem] opacity-90 mb-2
+        "
+      >
+        <span className="flex items-center gap-1">
+          <Clock className="w-3.5 h-3.5" />
+          {exp.duration}
+        </span>
 
-      <p className="text-white/75 text-[11px] sm:text-xs line-clamp-2">
+        {exp.highlight && (
+          <span className="flex items-center gap-1">
+            <Sparkles className="w-3.5 h-3.5" />
+            {exp.highlight}
+          </span>
+        )}
+
+        <span
+          className="
+            flex items-center gap-1
+            bg-white/20 px-2 py-[2px]
+            rounded-full text-[0.8rem]
+            border border-white/30
+          "
+        >
+          ${exp.price}
+        </span>
+      </div>
+
+      {/* Description */}
+      <p
+        className="
+          text-white/90 text-[0.8rem] leading-snug
+          line-clamp-2 mb-3
+        "
+      >
         {exp.description}
       </p>
 
-      <Button
-        size="sm"
-        className="mt-2 bg-primary/90 hover:bg-primary text-primary-foreground text-xs sm:text-sm"
+      {/* Button */}
+      <a
+        href={exp.link}
+        className="
+          inline-flex items-center gap-2
+          px-4 py-2 rounded-full
+          text-[0.85rem] font-semibold
+          bg-white/20 backdrop-blur-md
+          border border-white/30
+          transition-all duration-300
+          hover:bg-white hover:text-slate-900
+          hover:translate-x-1
+        "
         aria-label={`Explore ${exp.title}`}
       >
         {t.experiences.explore}
-        <Play className="w-3 h-3 ml-1.5" aria-hidden="true" />
-      </Button>
+        <ArrowRight className="w-4 h-4" />
+      </a>
     </div>
   </div>
 </div>
@@ -736,16 +737,25 @@ const displayedCollections = isDesktop
       </section>
 
       {/* Curated Travel Collections - Shows 7 collections with View More on mobile */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-slate-50" aria-labelledby="collections-heading">
+      <section className=" relative py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-[#111827] to-[#1f2937]" aria-labelledby="collections-heading">
+        <div
+  aria-hidden="true"
+  className="pointer-events-none absolute inset-0 z-0 opacity-100"
+  style={{
+    backgroundImage:
+      "url(\"data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%230d9488' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E\")",
+  }}
+/>
+<div className="relative z-10 container mx-auto px-4">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12">
             <h2
               id="collections-heading"
-              className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4"
+              className="font-serif text-white text-2xl sm:text-3xl lg:text-4xl font-bold  mb-3 sm:mb-4"
             >
               {t.collections.title}
             </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
+            <p className="text-white/80 max-w-2xl mx-auto text-sm sm:text-base text-pretty">
               {t.collections.subtitle}
             </p>
           </div>
@@ -755,70 +765,18 @@ const displayedCollections = isDesktop
             role="list"
             aria-label="Travel package collections"
           >
-            {displayedCollections.map((item) => (
-              <Card
-                key={item.id}
-                className="overflow-hidden group hover:shadow-lg transition-shadow focus-within:ring-2 focus-within:ring-primary"
-                role="listitem"
-              >
-                <div className="relative aspect-[4/3] overflow-hidden">
-                  <img
-                    src={item.imageUrl}
-                    alt={`${item.title} travel package`}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  {item.badge && (
-                    <Badge
-                      variant={item.badge === "new" ? "default" : "destructive"}
-                      className="absolute top-2 right-2 sm:top-3 sm:right-3"
-                    >
-                      {item.badge === "new" ? t.collections.new : t.collections.hot}
-                    </Badge>
-                  )}
-                </div>
-                <CardContent className="p-3 sm:p-4">
-                  <div className="flex items-start justify-between gap-2 mb-1.5 sm:mb-2">
-                    <h3 className="font-serif font-semibold text-card-foreground text-sm sm:text-base leading-tight">
-                      {item.title}
-                    </h3>
-                    <div
-                      className="flex items-center gap-0.5 sm:gap-1 shrink-0"
-                      role="img"
-                      aria-label={`Rating: ${item.rating} out of 5 stars`}
-                    >
-                      <Star className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-yellow-500 fill-yellow-500" aria-hidden="true" />
-                      <span className="text-xs sm:text-sm font-medium">{item.rating}</span>
-                    </div>
-                  </div>
-                  <p className="text-muted-foreground text-xs sm:text-sm line-clamp-2 mb-2 sm:mb-3">
-                    {item.description}
-                  </p>
-                  {item.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-1 mb-2 sm:mb-3" role="list" aria-label="Tour features">
-                      {item.tags.map((tag) => (
-                        <span
-                          key={tag}
-                          className="px-1.5 sm:px-2 py-0.5 bg-muted text-muted-foreground text-[10px] sm:text-xs rounded"
-                          role="listitem"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                  <div className="flex items-center justify-between gap-2">
-                    <span className="text-xs text-primary font-medium">{item.duration}</span>
-                    <Button
-                      variant="link"
-                      size="sm"
-                      className="text-xs sm:text-sm h-auto p-0 font-medium"
-                      aria-label={`View details about ${item.title}`}
-                    >
-                      {t.destinations.viewDetails} →
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
+            {displayedCollections.map((tour) => (
+                <TourCard
+              key={tour.id}
+              imageUrl={tour.imageUrl}
+              title={tour.title}
+              price={tour.price}
+              duration={tour.duration}
+              description={tour.description}
+              features={tour.tags}
+              href={tour.link}
+              category={tour.category}
+            />
             ))}
           </div>
 
@@ -836,6 +794,7 @@ const displayedCollections = isDesktop
             </Button>
           </div>
         </div>
+        </div>
       </section>
 
 
@@ -848,6 +807,11 @@ const displayedCollections = isDesktop
               className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4"
             >
               {t.premiumServices.title}
+               <span
+    aria-hidden="true"
+    className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
+               bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
+  />
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
               {t.premiumServices.subtitle}
@@ -934,6 +898,11 @@ const displayedCollections = isDesktop
               className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4"
             >
               {t.testimonials.title}
+               <span
+    aria-hidden="true"
+    className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
+               bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
+  />
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
               {t.testimonials.subtitle}

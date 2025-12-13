@@ -9,47 +9,56 @@ export function Footer() {
   const { t } = useI18n()
 
   return (
-    <footer className="bg-[#1a2332] text-white" role="contentinfo">
+    <footer className="relative bg-[#1a2332] text-white" role="contentinfo">
+      {/* Gold gradient top border */}
+      <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#f8d56b] via-[#0d9488] to-[#f8d56b]" />
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+
           {/* Logo & Description */}
-          <div className="col-span-2 sm:col-span-2 lg:col-span-1">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary flex items-center justify-center mb-3 sm:mb-4">
-              <span className="text-primary-foreground font-bold text-sm sm:text-base">GTC</span>
-            </div>
-            <p className="text-gray-400 text-sm leading-relaxed">{t.footer.tagline}</p>
-            <div className="flex gap-2 sm:gap-3 mt-3 sm:mt-4" role="list" aria-label="Social media links">
-              <a
-                href="#"
-                className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-primary/20 flex items-center justify-center hover:bg-primary/40 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2332]"
-                aria-label="Follow us on Instagram"
-                role="listitem"
-              >
-                <Instagram className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
-              </a>
-              <a
-                href="#"
-                className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-primary/20 flex items-center justify-center hover:bg-primary/40 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2332]"
-                aria-label="Follow us on Facebook"
-                role="listitem"
-              >
-                <Facebook className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
-              </a>
-              <a
-                href="#"
-                className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-primary/20 flex items-center justify-center hover:bg-primary/40 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2332]"
-                aria-label="Contact us on WhatsApp"
-                role="listitem"
-              >
-                <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
-              </a>
+          <div className="col-span-2 lg:col-span-1">
+       <div className="w-15 h-15 rounded-full border-2 border-[#f8d56b] flex items-center justify-center mb-4">
+  <img
+    src="/logo.webp"
+    alt="Global Tourist Centre Logo"
+    className="h-15 w-auto rounded-full"
+  />
+</div>
+
+
+            <p className="text-gray-400 text-sm leading-relaxed">
+              {t.footer.tagline}
+            </p>
+
+            <div className="flex gap-3 mt-4" aria-label="Social media links">
+              {[ 
+                { href: "https://www.instagram.com/globaltouristcentre/", icon: Instagram, label: "Instagram" },
+                { href: "https://www.facebook.com/share/1H23K6UQPt/", icon: Facebook, label: "Facebook" },
+                { href: "https://wa.me/919067972295", icon: MessageCircle, label: "WhatsApp" },
+              ].map(({ href, icon: Icon, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  aria-label={label}
+                  className="w-10 h-10 rounded-full bg-[#f8d56b] text-[#111827]
+                             flex items-center justify-center
+                             transition-all hover:bg-white hover:-translate-y-0.5 hover:scale-105"
+                >
+                  <Icon className="w-5 h-5" />
+                </a>
+              ))}
             </div>
           </div>
 
           {/* Quick Links */}
           <nav aria-label="Quick links">
-            <h3 className="font-serif text-base sm:text-lg font-semibold mb-3 sm:mb-4">{t.footer.quickLinks}</h3>
-            <ul className="space-y-1.5 sm:space-y-2">
+            <h3 className="relative font-serif text-lg font-semibold mb-4 pb-2">
+              {t.footer.quickLinks}
+              <span className="absolute bottom-0 left-0 w-8 h-[2px] bg-gradient-to-r from-[#f8d56b] to-transparent" />
+            </h3>
+
+            <ul className="space-y-2">
               {[
                 { href: "/", label: t.nav.home },
                 { href: "/destinations", label: t.nav.destinations },
@@ -61,7 +70,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-gray-400 hover:text-white text-sm transition-colors focus:outline-none focus-visible:text-white focus-visible:underline"
+                    className="text-gray-400 text-sm transition-all hover:text-[#f8d56b] hover:translate-x-1"
                   >
                     {link.label}
                   </Link>
@@ -72,47 +81,47 @@ export function Footer() {
 
           {/* Popular Tours */}
           <nav aria-label="Popular tours">
-            <h3 className="font-serif text-base sm:text-lg font-semibold mb-3 sm:mb-4">{t.footer.popularTours}</h3>
-            <ul className="space-y-1.5 sm:space-y-2">
-              <li>
-                <Link
-                  href="#"
-                  className="text-gray-400 hover:text-white text-sm transition-colors focus:outline-none focus-visible:text-white focus-visible:underline"
-                >
-                  {t.footer.goaBeach}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-gray-400 hover:text-white text-sm transition-colors focus:outline-none focus-visible:text-white focus-visible:underline"
-                >
-                  {t.footer.exploreSikkim}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-gray-400 hover:text-white text-sm transition-colors focus:outline-none focus-visible:text-white focus-visible:underline"
-                >
-                  {t.footer.keralaBackwaters}
-                </Link>
-              </li>
+            <h3 className="relative font-serif text-lg font-semibold mb-4 pb-2">
+              {t.footer.popularTours}
+              <span className="absolute bottom-0 left-0 w-8 h-[2px] bg-gradient-to-r from-[#f8d56b] to-transparent" />
+            </h3>
+
+            <ul className="space-y-2">
+              {[t.footer.goaBeach, t.footer.exploreSikkim, t.footer.keralaBackwaters].map((item) => (
+                <li key={item}>
+                  <Link
+                    href="#"
+                    className="text-gray-400 text-sm transition-all hover:text-[#f8d56b] hover:translate-x-1"
+                  >
+                    {item}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </nav>
 
           {/* Instagram */}
-          <div className="col-span-2 sm:col-span-1">
-            <h3 className="font-serif text-base sm:text-lg font-semibold mb-3 sm:mb-4">{t.footer.latestInstagram}</h3>
-            <div className="bg-gray-800 rounded-lg aspect-video sm:aspect-square flex items-center justify-center max-w-[200px] sm:max-w-none">
-              <span className="text-gray-500 text-sm">Instagram Feed</span>
+          <div>
+            <h3 className="relative font-serif text-lg font-semibold mb-4 pb-2">
+              {t.footer.latestInstagram}
+              <span className="absolute bottom-0 left-0 w-8 h-[2px] bg-gradient-to-r from-[#f8d56b] to-transparent" />
+            </h3>
+
+            <div className="bg-gray-800 rounded-lg aspect-square flex items-center justify-center">
+              <a
+                href="https://www.instagram.com/globaltouristcentre/"
+                className="text-gray-500 text-sm hover:text-[#f8d56b]"
+              >
+                Instagram Feed
+              </a>
             </div>
+
             <Button
-              className="mt-3 sm:mt-4 w-full max-w-[200px] sm:max-w-none bg-primary hover:bg-primary/90 text-primary-foreground rounded-full text-sm"
+              className="mt-4 w-full bg-primary hover:bg-primary/90 rounded-full text-sm"
               asChild
             >
-              <a href="#" aria-label="Follow us on Instagram">
-                <Instagram className="w-4 h-4 mr-2" aria-hidden="true" />
+              <a href="https://www.instagram.com/globaltouristcentre/">
+                <Instagram className="w-4 h-4 mr-2" />
                 {t.footer.followUs}
               </a>
             </Button>
@@ -122,26 +131,19 @@ export function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-gray-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between text-xs sm:text-sm text-gray-400">
-            <p className="text-center sm:text-left">{t.footer.copyright}</p>
-            <div className="flex items-center justify-center gap-3 sm:gap-4">
-              <Link
-                href="#"
-                className="hover:text-white focus:outline-none focus-visible:text-white focus-visible:underline"
-              >
-                {t.footer.privacyPolicy}
-              </Link>
-              <span aria-hidden="true">|</span>
-              <Link
-                href="#"
-                className="hover:text-white focus:outline-none focus-visible:text-white focus-visible:underline"
-              >
-                {t.footer.termsConditions}
-              </Link>
-            </div>
-            <p className="text-center sm:text-right hidden lg:block">{t.footer.craftingJourneys}</p>
+        <div className="max-w-7xl mx-auto px-4 py-4 text-xs sm:text-sm text-gray-400 flex flex-col sm:flex-row justify-between gap-3">
+          <p>{t.footer.copyright}</p>
+
+          <div className="flex gap-4">
+            <Link href="#" className="hover:text-[#f8d56b]">
+              {t.footer.privacyPolicy}
+            </Link>
+            <Link href="#" className="hover:text-[#f8d56b]">
+              {t.footer.termsConditions}
+            </Link>
           </div>
+
+          <p className="hidden lg:block">{t.footer.craftingJourneys}</p>
         </div>
       </div>
     </footer>

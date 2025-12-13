@@ -66,14 +66,15 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className="font-sans antialiased min-h-screen flex flex-col">
+    <html lang="en" className="scroll-smooth {playfair.variable}">
+      <body className="font-sans antialiased min-h-screen flex flex-col relative >
+">
         <I18nProvider>
           {/* Main navigation header */}
           <Header />
 
           {/* Page content */}
-          <main id="main-content" className="pt-14 sm:pt-16 flex-1" role="main">
+          <main id="main-content" className=" flex-1" role="main">
             {children}
           </main>
 
