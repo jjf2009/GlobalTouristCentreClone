@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
-import { Geist, Playfair_Display } from "next/font/google"
+import { Playfair_Display } from "next/font/google"
+import { Inter } from 'next/font/google'
 import { Analytics } from "@vercel/analytics/next"
 import { I18nProvider } from "@/lib/i18n/context"
 import { Header } from "@/components/header"
@@ -15,7 +16,7 @@ import "./globals.css"
  * Using Geist for body text (modern, clean sans-serif)
  * Using Playfair Display for headings (elegant serif)
  */
-const _geistSans = Geist({ subsets: ["latin"] })
+// const _geistSans = Geist({ subsets: ["latin"] })
 const _playfair = Playfair_Display({ subsets: ["latin"] })
 
 /**
@@ -34,7 +35,6 @@ export const metadata: Metadata = {
     description: "We Don't Just Book Trips — We Design Lifetimes of Stories.",
     type: "website",
   },
-    generator: 'v0.app'
 }
 
 /**
@@ -85,7 +85,7 @@ export default function RootLayout({
 
           {/* Floating WhatsApp contact button */}
           <WhatsAppButton
-            phoneNumber="918421012788"
+            phoneNumber="919067972295"
             message="Hi! I am planning a trip, can you help me out?"
             tooltipText="Chat with us on WhatsApp"
           />

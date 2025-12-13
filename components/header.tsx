@@ -53,8 +53,15 @@ export function Header() {
             className="flex items-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-full"
             aria-label="Global Tourist Centre - Home"
           >
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xs sm:text-sm">GTC</span>
+         <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-primary flex items-center justify-center">
+              <span className="text-primary-foreground font-bold text-xs sm:text-sm">
+                  <img
+              src="/logo.webp"
+              alt=""
+               className="w-full h-full object-cover"
+              aria-hidden="true"
+               />
+              </span>
             </div>
           </Link>
 
@@ -93,7 +100,7 @@ export function Header() {
                   {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="w-[85vw] max-w-sm p-0">
+             <SheetContent side="right" className="w-[85vw] max-w-sm p-0 overflow-y-auto max-h-screen">
                 <SheetHeader className="p-4 border-b border-border">
                   <SheetTitle className="text-left">Menu</SheetTitle>
                 </SheetHeader>

@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useState, useRef } from "react"
+import { useState, useRef ,useEffect} from "react"
 import Link from "next/link"
 import {
   Star,
@@ -14,6 +14,9 @@ import {
   Instagram,
   Facebook,
   MessageCircle,
+  Hotel,
+  FileText,
+  Plane,
   ArrowRight,
   Quote,
   Play,
@@ -35,90 +38,226 @@ import { LanguageSwitcher } from "@/components/language-switcher"
 import { OfferBanner } from "@/components/offer-banner"
 
 // Signature Experiences Data
-const signatureExperiences = [
-  { id: 1, title: "Rajasthan", imageQuery: "Jaipur palace Rajasthan India", popular: true },
-  { id: 2, title: "Manali of Himachal", imageQuery: "Manali mountains snow Himachal Pradesh", popular: false },
-  { id: 3, title: "Taj Mahal Trip", imageQuery: "Taj Mahal Agra sunrise", popular: true },
-  { id: 4, title: "Kerala", imageQuery: "Kerala backwaters houseboat", popular: false },
-  { id: 5, title: "Temple of Hampi", imageQuery: "Hampi temples ruins Karnataka", popular: true },
-]
-
-const travelCollections = [
+export const signatureExperiences = [
   {
     id: 1,
-    title: "South Goa - Cultural tour",
+    title: "Palolem, Cola – Dolphin Spotting",
+    imageUrl: "/destinations/Thumbnails/Palolem.webp",
+    duration: "Full Day Tour",
+    highlight: "Dolphin Watching",
+    price: "$70",
     description:
-      "Only for those who desire to visit the Old Goa Churches, explore heritage, and enjoy Goan beaches and culture.",
-    imageQuery: "South Goa beach church heritage",
+      "Experience dolphin watching in the Arabian Sea and explore the pristine beaches of Palolem and Cola.",
+    link: "/itinerary/day-trips/South-Goa-1-Day-Trip-package",
+    popular: true,
+  },
+  {
+    id: 2,
+    title: "Mumbai – City of Lights",
+    imageUrl: "/destinations/Thumbnails/mumbai.webp",
+    duration: "Full Day Tour",
+    highlight: "City Tour",
+    price: "$360",
+    description:
+      "Full day Mumbai tour from Goa including airfare, Gateway of India, Taj Mahal Palace, Marine Drive, and cultural sites.",
+    link: "/itinerary/day-trips/Mumbai-day-trip-package",
+    popular: true,
+  },
+  {
+    id: 3,
+    title: "Taj Mahal Trip",
+    imageUrl: "/destinations/Thumbnails/agra.webp",
+    duration: "1 Night / 2 Days",
+    highlight: "World Wonder",
+    price: "$300",
+    description:
+      "Visit the iconic Taj Mahal, one of the Seven Wonders of the World, with guided tours and cultural experiences.",
+    link: "/itinerary/domestic-trips/Delhi-Agra-1N-2D-Trip-Package",
+    popular: true,
+  },
+  {
+    id: 4,
+    title: "Hampi & Badami Tour",
+    imageUrl: "/destinations/Thumbnails/Hampi.webp",
+    duration: "1 Night / 2 Days",
+    highlight: "UNESCO Heritage",
+    price: "$170",
+    description:
+      "Explore UNESCO World Heritage Sites, ancient temples, and Karnataka's heritage from Goa.",
+    link: "/itinerary/domestic-trips/Hampi-1N-2D-Trip-Package",
+    popular: false,
+  },
+]
+
+
+export const travelCollections = [
+  {
+    id: 1,
+    title: "South Goa – Cultural Goa",
+    description:
+      "Full-day cultural tour exploring Old Goa churches, Hindu temples, Miramar Beach, Dona Paula, and Panjim Market.",
+    imageUrl: "/destinations/Thumbnails/South-Goa-Cultural.webp",
     rating: 4.6,
-    duration: "6 Nights / 7 Days",
-    tags: ["Beach", "Heritage"],
+    duration: "Full Day Tour",
+    tags: ["Cultural", "UNESCO", "Heritage"],
     badge: null,
   },
   {
     id: 2,
-    title: "Luxury South Goa Tour",
+    title: "Luxury Yacht Tour Goa",
     description:
-      "Stay at 5 Star Goa Hotels and experience the best of Goa, Dona Paula, St. Mains, and Spice Plantation.",
-    imageQuery: "Luxury resort pool Goa",
+      "Premium 6-hour luxury yacht experience with infinity pool, live DJ, gourmet dinner, and sunset cruise in Goa.",
+    imageUrl: "/destinations/Thumbnails/Yacht-goa.webp",
     rating: 4.9,
-    duration: "6 Nights / 7 Days",
-    tags: ["Luxury", "Spa", "Beach"],
+    duration: "6 Hours",
+    tags: ["Luxury", "Yacht", "Premium"],
     badge: "hot" as const,
   },
   {
     id: 3,
-    title: "Goa Luxury Yacht Sales",
+    title: "Goa Luxury Serai Cabo",
     description:
-      "Discover and explore Goa in style with Yacht sales with stay included at the most luxury ships in the world.",
-    imageQuery: "Luxury yacht Goa Arabian sea",
+      "Experience ultimate luxury at Serai Cabo with private villas, world-class amenities, and personalized services.",
+    imageUrl: "/destinations/Thumbnails/Cabo-Serai.webp",
     rating: 4.8,
-    duration: "Customizable",
-    tags: ["Luxury", "Yacht"],
+    duration: "Custom Stay",
+    tags: ["Luxury", "Resort", "5-Star"],
     badge: null,
   },
   {
     id: 4,
     title: "Andaman Islands",
     description:
-      "Discover the pristine beauty of port Blair and all the Andaman islands with crystal clear water like Havelock.",
-    imageQuery: "Andaman islands beach turquoise water",
+      "Discover pristine beaches, crystal waters, and exotic marine life in India's tropical paradise.",
+    imageUrl: "/destinations/Thumbnails/Andaman.webp",
     rating: 4.7,
-    duration: "5 Nights / 6 Days",
-    tags: ["Beach", "Adventure"],
+    duration: "5–7 Days",
+    tags: ["Islands", "Beaches", "Marine Life"],
     badge: "new" as const,
   },
   {
     id: 5,
-    title: "North Goa - Nightlife tour",
-    description: "Experience the famous Goan nightlife at Candolim, Baga, Vagator, Anjuna & more.",
-    imageQuery: "Goa beach party nightlife",
+    title: "North Goa – Portuguese Goa",
+    description:
+      "Full day North Goa tour covering Calangute, Baga, Anjuna beaches, Aguada Fort, and Portuguese churches.",
+    imageUrl: "/destinations/Thumbnails/Goa2.webp",
     rating: 4.5,
-    duration: "4 Nights / 5 Days",
-    tags: ["Nightlife", "Beach"],
+    duration: "Full Day Tour",
+    tags: ["Beaches", "Portuguese", "Cultural"],
     badge: null,
   },
   {
     id: 6,
-    title: "Elephant & Tiger Safari",
-    description: "Experience wildlife up close with elephant rides and tiger spotting at Ranthambore or Bandhavgarh.",
-    imageQuery: "Tiger safari Ranthambore India",
-    rating: 4.9,
-    duration: "3 Days / 2 Nights",
-    tags: ["Wildlife", "Safari"],
-    badge: "hot" as const,
+    title: "Dudhsagar & Spice Plantation",
+    description:
+      "Visit the majestic Dudhsagar Waterfalls and explore aromatic spice plantations with guided tours.",
+    imageUrl: "/destinations/Thumbnails/Dudhsagar.webp",
+    rating: 4.6,
+    duration: "Full Day Tour",
+    tags: ["Waterfalls", "Spices", "Nature"],
+    badge: null,
   },
   {
     id: 7,
-    title: "Kashmir and Maneshwar",
-    description: "Explore the paradise on earth - Dal Lake, Gulmarg, Pahalgam with Ayurveda and wellness treatments.",
-    imageQuery: "Kashmir Dal Lake houseboat mountains",
+    title: "Elephant & Tiger Safari – Dandeli",
+    description:
+      "Wildlife adventure in Dandeli with elephant interaction and tiger safari in natural reserves.",
+    imageUrl: "/destinations/Thumbnails/elephant-safari.webp",
     rating: 4.9,
-    duration: "6 Nights / 7 Days",
-    tags: ["Mountains", "Wellness"],
+    duration: "1 Night / 2 Days",
+    tags: ["Wildlife", "Safari", "Adventure"],
+    badge: "hot" as const,
+  },
+  {
+    id: 8,
+    title: "Gokarna and Murdeshwar",
+    description:
+      "Pilgrimage and beach tour to Gokarna's temples and Murdeshwar's Shiva statue and beaches.",
+    imageUrl: "/destinations/Thumbnails/Gokarna.webp",
+    rating: 4.5,
+    duration: "Full Day Tour",
+    tags: ["Spiritual", "Beaches", "Temples"],
+    badge: null,
+  },
+  {
+    id: 9,
+    title: "Golden Triangle Trip 3N/4D",
+    description:
+      "Discover India's iconic heritage with Delhi, Agra, and Jaipur including the Taj Mahal.",
+    imageUrl: "/destinations/Thumbnails/GoldenTriangle.webp",
+    rating: 4.8,
+    duration: "3 Nights / 4 Days",
+    tags: ["Heritage", "Taj Mahal", "Cultural"],
+    badge: null,
+  },
+  {
+    id: 10,
+    title: "Varanasi Trip 2N/3D",
+    description:
+      "Spiritual journey including Sarnath, Ganga Aarti, temple tours, and boat ride on the Ganges.",
+    imageUrl: "/destinations/Thumbnails/varanasi.webp",
+    rating: 4.7,
+    duration: "2 Nights / 3 Days",
+    tags: ["Spiritual", "Pilgrimage", "Ganga Aarti"],
+    badge: null,
+  },
+  {
+    id: 11,
+    title: "Jodhpur & Udaipur Tour",
+    description:
+      "Explore Mehrangarh Fort, City Palace, Lake Pichola, and royal heritage of Rajasthan.",
+    imageUrl: "/hero/Jodhpur-Udaipur-hero.webp",
+    rating: 4.8,
+    duration: "4 Nights / 5 Days",
+    tags: ["Rajasthan", "Palaces", "Cultural"],
+    badge: null,
+  },
+  {
+    id: 12,
+    title: "Mathura – Vrindavan Tour",
+    description:
+      "Visit Shri Krishna Janmabhoomi and Banke Bihari Temple in a spiritual pilgrimage tour.",
+    imageUrl: "/hero/Mathura-Vrindavan-hero.webp",
+    rating: 4.6,
+    duration: "2 Nights / 3 Days",
+    tags: ["Spiritual", "Pilgrimage", "Cultural"],
+    badge: null,
+  },
+  {
+    id: 13,
+    title: "Ajanta & Ellora Tour",
+    description:
+      "Explore UNESCO World Heritage Sites Ajanta & Ellora Caves with guided tours.",
+    imageUrl: "/destinations/Ajanta/Ajanta-Caves.webp",
+    rating: 4.8,
+    duration: "1 Night / 2 Days",
+    tags: ["UNESCO", "Caves", "Heritage"],
+    badge: null,
+  },
+  {
+    id: 14,
+    title: "Hyderabad Trip 1N/2D",
+    description:
+      "Explore Golconda Fort, Charminar, Chowmahalla Palace, and Hyderabad’s heritage.",
+    imageUrl: "/hero/Hyderabad-hero.webp",
+    rating: 4.6,
+    duration: "1 Night / 2 Days",
+    tags: ["Heritage", "Cultural", "Historical"],
+    badge: null,
+  },
+  {
+    id: 15,
+    title: "Amritsar Trip 2N/3D",
+    description:
+      "Visit the Golden Temple, Wagah Border ceremony, Jallianwala Bagh, and cultural landmarks.",
+    imageUrl: "/hero/Amritsar-hero.webp",
+    rating: 4.7,
+    duration: "2 Nights / 3 Days",
+    tags: ["Spiritual", "Cultural", "Historical"],
     badge: null,
   },
 ]
+
 
 // Premium Services
 const premiumServices = [
@@ -130,9 +269,9 @@ const premiumServices = [
   },
   {
     id: 2,
-    title: "24/7 Travel Support",
-    description: "Round-the-clock assistance throughout your journey for peace of mind.",
-    icon: Clock,
+    title: "Luxury Accommodation",
+    description: "Access to premium hotels, resorts, and unique stays with exclusive benefits and best rates guaranteed.",
+    icon: Hotel,
   },
   {
     id: 3,
@@ -144,7 +283,13 @@ const premiumServices = [
     id: 4,
     title: "Visa Assistance",
     description: "Hassle-free visa documentation and processing services.",
-    icon: Globe,
+    icon: FileText,
+  },
+  {
+    id: 5,
+    title: "Flight Bookings",
+    description: "Competitive airfares on domestic and international routes with flexible booking options",
+    icon: Plane,
   },
 ]
 
@@ -178,12 +323,13 @@ const testimonials = [
 
 // Travel Memories Gallery
 const travelMemories = [
-  { id: 1, imageQuery: "tourists group photo Taj Mahal" },
-  { id: 2, imageQuery: "family vacation Kerala backwaters" },
-  { id: 3, imageQuery: "couple honeymoon Goa beach sunset" },
-  { id: 4, imageQuery: "group tour Rajasthan palace" },
-  { id: 5, imageQuery: "adventure trip Himalaya trekking" },
+  { id: 1, imageQuery: "tourists group photo Taj Mahal", imageurl: "/trips/trip9.webp" },
+  { id: 2, imageQuery: "female tourist at a temple", imageurl: "/trips/trip6.webp" },
+  { id: 3, imageQuery: "couple honeymoon trip", imageurl: "/trips/trip5.webp" },
+  { id: 4, imageQuery: "group tour Rajasthan palace", imageurl: "/trips/trip10.webp" },
+  { id: 5, imageQuery: "tourist couple at a temple", imageurl: "/trips/trip8.webp" },
 ]
+
 
 export default function LandingPage() {
   const { t } = useI18n()
@@ -191,6 +337,18 @@ export default function LandingPage() {
   const [activeTestimonialIndex, setActiveTestimonialIndex] = useState(0)
   const experiencesRef = useRef<HTMLDivElement>(null)
   const [showAllCollections, setShowAllCollections] = useState(false)
+  const [isDesktop, setIsDesktop] = useState(false)
+
+useEffect(() => {
+  const mediaQuery = window.matchMedia("(min-width: 1024px)")
+  setIsDesktop(mediaQuery.matches)
+
+  const handler = (e: MediaQueryListEvent) => setIsDesktop(e.matches)
+  mediaQuery.addEventListener("change", handler)
+
+  return () => mediaQuery.removeEventListener("change", handler)
+}, [])
+
 
   // Form state
   const [formData, setFormData] = useState({
@@ -221,6 +379,17 @@ export default function LandingPage() {
     setActiveServiceIndex((prev) => (prev - 1 + premiumServices.length) % premiumServices.length)
   }
 
+  useEffect(() => {
+  const interval = setInterval(() => {
+    setActiveServiceIndex((prev) =>
+      prev === premiumServices.length - 1 ? 0 : prev + 1
+    )
+  }, 5000) // 5 seconds
+
+  return () => clearInterval(interval)
+}, [])
+
+
   const nextTestimonial = () => {
     setActiveTestimonialIndex((prev) => (prev + 1) % testimonials.length)
   }
@@ -231,7 +400,11 @@ export default function LandingPage() {
 
   // On mobile: show 7 by default, all when expanded
   // On desktop: show all 7
-  const displayedCollections = showAllCollections ? travelCollections : travelCollections.slice(0, 7)
+const displayedCollections = isDesktop
+  ? travelCollections
+  : showAllCollections
+    ? travelCollections
+    : travelCollections.slice(0, 7)
 
   return (
     <div className="min-h-screen bg-background">
@@ -485,7 +658,7 @@ export default function LandingPage() {
 
           {/* Carousel */}
           <div className="relative">
-            <Button
+            {/* <Button
               variant="outline"
               size="icon"
               onClick={() => scrollExperiences("left")}
@@ -493,8 +666,7 @@ export default function LandingPage() {
               aria-label="Previous experiences"
             >
               <ChevronLeft className="w-5 h-5" aria-hidden="true" />
-            </Button>
-
+            </Button> */}
             <div
               ref={experiencesRef}
               className="flex gap-4 sm:gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-4 px-2"
@@ -502,38 +674,55 @@ export default function LandingPage() {
               aria-label="Signature travel experiences"
             >
               {signatureExperiences.map((exp) => (
-                <div
-                  key={exp.id}
-                  className="flex-shrink-0 w-[200px] sm:w-[240px] lg:w-[280px] snap-center"
-                  role="listitem"
-                >
-                  <div className="relative rounded-xl overflow-hidden group cursor-pointer aspect-[3/4]">
-                    <img
-                      src={`/.jpg?height=400&width=300&query=${encodeURIComponent(exp.imageQuery)}`}
-                      alt={`${exp.title} travel destination`}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                    {exp.popular && (
-                      <Badge className="absolute top-3 right-3 bg-amber-400 text-amber-950">Popular</Badge>
-                    )}
-                    <div className="absolute bottom-4 left-4 right-4">
-                      <h3 className="text-white font-semibold text-base sm:text-lg mb-2">{exp.title}</h3>
-                      <Button
-                        size="sm"
-                        className="bg-primary/90 hover:bg-primary text-primary-foreground text-xs sm:text-sm"
-                        aria-label={`Explore ${exp.title} tours`}
-                      >
-                        {t.experiences.explore}
-                        <Play className="w-3 h-3 ml-1.5" aria-hidden="true" />
-                      </Button>
-                    </div>
-                  </div>
-                </div>
+               <div
+  key={exp.id}
+  className="flex-shrink-0 w-[200px] sm:w-[240px] lg:w-[280px] snap-center"
+  role="listitem"
+>
+  <div className="relative rounded-xl overflow-hidden group cursor-pointer aspect-[3/4]">
+    <img
+      src={exp.imageUrl}
+      alt={`${exp.title} travel destination`}
+      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+    />
+
+    <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
+
+    {exp.popular && (
+      <Badge className="absolute top-3 right-3 bg-amber-400 text-amber-950">
+        Popular
+      </Badge>
+    )}
+
+    <div className="absolute bottom-4 left-4 right-4 space-y-1.5">
+      <h3 className="text-white font-semibold text-sm sm:text-base leading-tight">
+        {exp.title}
+      </h3>
+
+      <p className="text-white/80 text-xs">
+        {exp.duration} • {exp.price}
+      </p>
+
+      <p className="text-white/75 text-[11px] sm:text-xs line-clamp-2">
+        {exp.description}
+      </p>
+
+      <Button
+        size="sm"
+        className="mt-2 bg-primary/90 hover:bg-primary text-primary-foreground text-xs sm:text-sm"
+        aria-label={`Explore ${exp.title}`}
+      >
+        {t.experiences.explore}
+        <Play className="w-3 h-3 ml-1.5" aria-hidden="true" />
+      </Button>
+    </div>
+  </div>
+</div>
+
               ))}
             </div>
 
-            <Button
+            {/* <Button
               variant="outline"
               size="icon"
               onClick={() => scrollExperiences("right")}
@@ -541,7 +730,7 @@ export default function LandingPage() {
               aria-label="Next experiences"
             >
               <ChevronRight className="w-5 h-5" aria-hidden="true" />
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>
@@ -574,7 +763,7 @@ export default function LandingPage() {
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <img
-                    src={`/.jpg?height=300&width=400&query=${encodeURIComponent(item.imageQuery)}`}
+                    src={item.imageUrl}
                     alt={`${item.title} travel package`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -649,6 +838,7 @@ export default function LandingPage() {
         </div>
       </section>
 
+
       {/* Premium Services Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-white" aria-labelledby="services-heading">
         <div className="container mx-auto px-4">
@@ -677,7 +867,11 @@ export default function LandingPage() {
                 <ChevronLeft className="w-5 h-5" aria-hidden="true" />
               </Button>
 
-              <Card className="flex-1 text-center p-6 sm:p-8 lg:p-10 bg-gradient-to-br from-slate-50 to-white">
+             <Card
+  key={activeServiceIndex}
+  className="flex-1 text-center p-6 sm:p-8 lg:p-10 bg-gradient-to-br from-slate-50 to-white
+             animate-in fade-in slide-in-from-right-4 duration-500"
+>
                 <CardContent className="p-0">
                   <div className="w-16 h-16 sm:w-20 sm:h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                     {(() => {
@@ -777,13 +971,13 @@ export default function LandingPage() {
 
                   {/* Author */}
                   <div className="flex flex-col items-center">
-                    <div className="w-12 h-12 rounded-full overflow-hidden mb-3">
+                    {/* <div className="w-12 h-12 rounded-full overflow-hidden mb-3">
                       <img
                         src={`/.jpg?height=48&width=48&query=${encodeURIComponent(testimonials[activeTestimonialIndex].avatar)}`}
                         alt={testimonials[activeTestimonialIndex].name}
                         className="w-full h-full object-cover"
                       />
-                    </div>
+                    </div> */}
                     <cite className="not-italic">
                       <span className="font-semibold text-foreground block">
                         {testimonials[activeTestimonialIndex].name}
@@ -859,8 +1053,8 @@ export default function LandingPage() {
                 role="listitem"
               >
                 <img
-                  src={`/.jpg?height=200&width=200&query=${encodeURIComponent(memory.imageQuery)}`}
-                  alt="Travel memory"
+                  src={memory.imageurl}
+                  alt={memory.imageQuery}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
@@ -869,152 +1063,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-[#1a2332] text-white py-12 sm:py-16" role="contentinfo">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
-            {/* Brand */}
-            <div>
-              <Link href="/" className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
-                  <Globe className="w-6 h-6 text-primary-foreground" />
-                </div>
-              </Link>
-              <p className="text-gray-400 text-sm mb-4">
-                Weaving your dreams into unforgettable adventures since 2010. Your trusted travel partner for bespoke
-                domestic and international tours.
-              </p>
-              <div className="flex gap-3">
-                <a
-                  href="#"
-                  className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
-                  aria-label="Follow us on Instagram"
-                >
-                  <Instagram className="w-4 h-4" />
-                </a>
-                <a
-                  href="#"
-                  className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
-                  aria-label="Follow us on Facebook"
-                >
-                  <Facebook className="w-4 h-4" />
-                </a>
-                <a
-                  href="#"
-                  className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
-                  aria-label="Contact us on WhatsApp"
-                >
-                  <MessageCircle className="w-4 h-4" />
-                </a>
-              </div>
-            </div>
-
-            {/* Quick Links */}
-            <div>
-              <h3 className="font-serif font-semibold text-lg mb-4">{t.footer.quickLinks}</h3>
-              <nav aria-label="Footer navigation">
-                <ul className="space-y-2">
-                  <li>
-                    <Link href="/" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      {t.nav.home}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/destinations" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      {t.nav.destinations}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/about" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      {t.nav.about}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      {t.nav.services}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/contact" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      {t.nav.contact}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/blog" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      {t.nav.blog}
-                    </Link>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-
-            {/* Popular Tours */}
-            <div>
-              <h3 className="font-serif font-semibold text-lg mb-4">{t.footer.popularTours}</h3>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                    {t.footer.goaBeachEscape}
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                    {t.footer.exploreSikkim}
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                    {t.footer.keralaBackwaters}
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Contact Info */}
-            <div>
-              <h3 className="font-serif font-semibold text-lg mb-4">{t.footer.contactUs}</h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" aria-hidden="true" />
-                  <span className="text-gray-400 text-sm">
-                    Ground Floor, 1492, 3GF5-7, Benaulim Beach Road, Goa 403716, India
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Phone className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />
-                  <a href="tel:+918421012788" className="text-gray-400 hover:text-white text-sm transition-colors">
-                    +91 8421012788
-                  </a>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Mail className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />
-                  <a
-                    href="mailto:info@globaltouristcentre.com"
-                    className="text-gray-400 hover:text-white text-sm transition-colors"
-                  >
-                    info@globaltouristcentre.com
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Bottom bar */}
-          <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <p>{t.footer.copyright}</p>
-            <div className="flex gap-4">
-              <Link href="/privacy" className="hover:text-white transition-colors">
-                {t.footer.privacyPolicy}
-              </Link>
-              <span>|</span>
-              <Link href="/terms" className="hover:text-white transition-colors">
-                {t.footer.termsOfUse}
-              </Link>
-            </div>
-            <p className="hidden lg:block">{t.footer.tagline}</p>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
