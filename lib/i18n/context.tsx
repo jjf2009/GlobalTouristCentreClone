@@ -1,41 +1,41 @@
-"use client"
+"use client";
 
-import type React from "react"
-import { createContext, useContext, useState, useEffect, useCallback } from "react"
-import { translations, type Locale, type TranslationKeys } from "./translations"
+import { createContext, useContext, useMemo } from "react";
+import {
+  translations,
+  type Locale,
+  type TranslationKeys,
+} from "./translations";
 
 interface I18nContextType {
-  locale: Locale
-  setLocale: (locale: Locale) => void
-  t: TranslationKeys
+  locale: Locale;
+  t: TranslationKeys;
 }
 
-const I18nContext = createContext<I18nContextType | undefined>(undefined)
+const I18nContext = createContext<I18nContextType | null>(null);
 
-export function I18nProvider({ children }: { children: React.ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>("en")
+export function I18nProvider({
+  locale,
+  children,
+}: {
+  locale: Locale;
+  children: React.ReactNode;
+}) {
+  const value = useMemo(
+    () => ({
+      locale,
+      t: translations[locale],
+    }),
+    [locale]
+  );
 
-  useEffect(() => {
-    const saved = localStorage.getItem("locale") as Locale | null
-    if (saved && translations[saved]) {
-      setLocaleState(saved)
-    }
-  }, [])
-
-  const setLocale = useCallback((newLocale: Locale) => {
-    setLocaleState(newLocale)
-    localStorage.setItem("locale", newLocale)
-  }, [])
-
-  const t = translations[locale]
-
-  return <I18nContext.Provider value={{ locale, setLocale, t }}>{children}</I18nContext.Provider>
+  return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
 }
 
 export function useI18n() {
-  const context = useContext(I18nContext)
-  if (!context) {
-    throw new Error("useI18n must be used within an I18nProvider")
+  const ctx = useContext(I18nContext);
+  if (!ctx) {
+    throw new Error("useI18n must be used inside I18nProvider");
   }
-  return context
+  return ctx;
 }

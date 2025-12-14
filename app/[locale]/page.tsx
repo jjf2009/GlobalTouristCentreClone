@@ -88,6 +88,7 @@ const testimonials = [
 
 export default function HomePage() {
   const { t } = useI18n()
+  // redirect("/en");
 
   return (
     <div>
