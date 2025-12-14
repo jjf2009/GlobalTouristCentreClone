@@ -41,7 +41,7 @@ export function Header() {
           className="flex items-center"
           aria-label="Global Tourist Centre - Home"
         >
-             <div className="w-15 h-15 rounded-full border-2 border-[#f8d56b] flex items-center justify-center mb-4">
+             <div className="w-15 h-15 rounded-full border-2 border-[#f8d56b] flex items-center justify-center mb-4 sm:mt-[10px]">
   <img
     src="/logo.webp"
     alt="Global Tourist Centre Logo"
@@ -109,7 +109,7 @@ export function Header() {
               </nav>
 
              <div className="px-6 py-4  sm:hidden"> 
-              <p className="text-sm  mb-2">Language</p> 
+              <p className="text-sm mb-2">Language</p> 
               <LanguageSwitcher /> 
               </div>
             </SheetContent>

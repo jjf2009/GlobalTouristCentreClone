@@ -86,9 +86,24 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-gray-400 text-sm transition-all hover:text-[#f8d56b] hover:translate-x-1"
+            className="
+          group relative inline-block
+          text-gray-400 text-sm
+          transition-all
+          hover:text-[#f8d56b]
+          hover:translate-x-1
+        "
                   >
                     {link.label}
+                       <span
+          className="
+            absolute -bottom-1 left-0
+            h-[2px] w-0
+            bg-gradient-to-r from-[#f8d56b] to-transparent
+            transition-all duration-300
+            group-hover:w-8
+          "
+        />
                   </Link>
                 </li>
               ))}
@@ -107,7 +122,8 @@ export function Footer() {
     <li key={tour.href}>
       <Link
         href={tour.href}
-        className="
+    className="
+          group relative inline-block
           text-gray-400 text-sm
           transition-all
           hover:text-[#f8d56b]
@@ -115,6 +131,15 @@ export function Footer() {
         "
       >
         {tour.label}
+           <span
+          className="
+            absolute -bottom-1 left-0
+            h-[2px] w-0
+            bg-gradient-to-r from-[#f8d56b] to-transparent
+            transition-all duration-300
+            group-hover:w-8
+          "
+        />
       </Link>
     </li>
   ))}

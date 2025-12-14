@@ -321,6 +321,7 @@ export default function LandingPage() {
   const experiencesRef = useRef<HTMLDivElement>(null)
   const [showAllCollections, setShowAllCollections] = useState(false)
   const [isDesktop, setIsDesktop] = useState(false)
+  const [activeMemoryIndex, setActiveMemoryIndex] = useState(0)
 
 useEffect(() => {
   const mediaQuery = window.matchMedia("(min-width: 1024px)")
@@ -362,6 +363,19 @@ useEffect(() => {
   const prevService = () => {
     setActiveServiceIndex((prev) => (prev - 1 + premiumServices.length) % premiumServices.length)
   }
+
+
+const nextMemory = () => {
+  setActiveMemoryIndex((prev) =>
+    prev === travelMemories.length - 1 ? 0 : prev + 1
+  )
+}
+
+const prevMemory = () => {
+  setActiveMemoryIndex((prev) =>
+    prev === 0 ? travelMemories.length - 1 : prev - 1
+  )
+}
 
   useEffect(() => {
   const interval = setInterval(() => {
@@ -414,7 +428,11 @@ const displayedCollections = isDesktop
             <div className="text-white">
               <h1
                 id="hero-heading"
-                className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 sm:mb-6 text-balance"
+                className=" font-serif
+  text-3xl sm:text-4xl md:text-5xl lg:text-6xl
+  font-bold leading-tight text-balance
+  mt-6 sm:mt-2
+  mb-4 sm:mb-3"
               >
                 {t.hero.title.split(" ").slice(0, 1).join(" ")}{" "}
                 <span className="text-amber-400">{t.hero.title.split(" ").slice(1, 2).join(" ")}</span>{" "}
@@ -454,7 +472,7 @@ const displayedCollections = isDesktop
               className="bg-white/95 backdrop-blur-md shadow-2xl border-0 max-w-md mx-auto lg:mx-0 lg:ml-auto"
             >
               <CardContent className="p-5 sm:p-6 lg:p-8">
-                <div className="text-center mb-5 sm:mb-6">
+                <div className="text-center mb-5 sm:mb-6 sm:mt-0.5">
                   <h2 className="font-serif text-xl sm:text-2xl font-bold text-foreground mb-2">{t.hero.subtitle}</h2>
                   <p className="text-sm text-muted-foreground">Get personalized quotes within 24 hours</p>
                 </div>
@@ -499,7 +517,7 @@ const displayedCollections = isDesktop
                     <Input
                       id="lp-phone"
                       type="tel"
-                      placeholder="johndoe123@exmaple.com"
+                      placeholder="johndoe@exmaple.com"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       required
@@ -532,7 +550,7 @@ const displayedCollections = isDesktop
 
                   <Button
                     type="submit"
-                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground h-12 text-base font-semibold"
+                    className="w-full bg-primary hover:bg-primary/90 active:bg-primary/90 text-primary-foreground h-12 text-base font-semibold"
                     aria-label="Get free travel quote"
                   >
                     {t.hero.cta}
@@ -541,7 +559,7 @@ const displayedCollections = isDesktop
 
                   <p className="text-xs text-muted-foreground text-center">
                     {t.form.privacyNote}{" "}
-                    <Link href="/privacy" className="text-primary hover:underline">
+                    <Link href="/privacy" className="text-primary hover:underline active:underline">
                       {t.form.privacyPolicy}
                     </Link>
                   </p>
@@ -552,11 +570,41 @@ const displayedCollections = isDesktop
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 animate-bounce" aria-hidden="true">
-          <div className="w-8 h-12 rounded-full border-2 border-white/50 flex items-start justify-center p-2">
-            <div className="w-1 h-3 bg-white/70 rounded-full" />
-          </div>
-        </div>
+<div
+  aria-hidden="true"
+  className="
+    absolute
+    left-1/2 -translate-x-1/2
+    bottom-10 sm:bottom-8
+    md:bottom-10
+    lg:bottom-8
+    pointer-events-none
+  "
+>
+  <div
+    className="
+      relative
+      w-9 h-14
+      rounded-full
+      border border-white/40
+      bg-white/5 backdrop-blur-sm
+      flex items-start justify-center
+      p-2
+      animate-pulse
+    "
+  >
+    <span
+      className="
+        block
+        w-1 h-3
+        rounded-full
+        bg-white/80
+        animate-[scroll_1.6s_ease-in-out_infinite]
+      "
+    />
+  </div>
+</div>
+
       </section>
 
       <OfferBanner mode="inline" />
@@ -588,15 +636,15 @@ const displayedCollections = isDesktop
 
           {/* Carousel */}
           <div className="relative">
-            {/* <Button
+            <Button
               variant="outline"
               size="icon"
               onClick={() => scrollExperiences("left")}
-              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg hover:bg-gray-50 hidden sm:flex"
+              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg hover:bg-gray-50 active:bg-gray-50 hidden sm:flex"
               aria-label="Previous experiences"
             >
               <ChevronLeft className="w-5 h-5" aria-hidden="true" />
-            </Button> */}
+            </Button>
             <div
               ref={experiencesRef}
            className="
@@ -622,6 +670,8 @@ const displayedCollections = isDesktop
       bg-white shadow-lg
       transition-all duration-500 ease-out
       hover:-translate-y-2.5 hover:shadow-2xl
+      active:-translate-y-2.5
+      active:shadow-2xl
       group cursor-pointer
     "
   >
@@ -633,6 +683,7 @@ const displayedCollections = isDesktop
         w-full h-full object-cover
         transition-transform duration-700 ease-out
         group-hover:scale-110
+        group-active:scale-110
       "
     />
 
@@ -711,6 +762,8 @@ const displayedCollections = isDesktop
           transition-all duration-300
           hover:bg-white hover:text-slate-900
           hover:translate-x-1
+           active:bg-white active:text-slate-900
+          active:translate-x-1
         "
         aria-label={`Explore ${exp.title}`}
       >
@@ -724,15 +777,15 @@ const displayedCollections = isDesktop
               ))}
             </div>
 
-            {/* <Button
+            <Button
               variant="outline"
               size="icon"
               onClick={() => scrollExperiences("right")}
-              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg hover:bg-gray-50 hidden sm:flex"
+              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg hover:bg-gray-50 active:bg-gray-50 hidden sm:flex"
               aria-label="Next experiences"
             >
               <ChevronRight className="w-5 h-5" aria-hidden="true" />
-            </Button> */}
+            </Button>
           </div>
         </div>
       </section>
@@ -785,7 +838,7 @@ const displayedCollections = isDesktop
             <Button
               variant="outline"
               size="lg"
-              className="rounded-full px-8 font-semibold bg-transparent"
+              className="rounded-full px-8 font-semibold bg-transparent text-white"
               onClick={() => setShowAllCollections(!showAllCollections)}
               aria-expanded={showAllCollections}
               aria-controls="collections-grid"
@@ -800,150 +853,175 @@ const displayedCollections = isDesktop
 
 
       {/* Premium Services Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-white" aria-labelledby="services-heading">
+<section className="py-12 sm:py-16 lg:py-20 bg-white" aria-labelledby="services-heading">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-8 sm:mb-12">
-            <h2
-              id="services-heading"
-              className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4"
-            >
+<div className="text-center mb-8 sm:mb-12">
+<h2
+id="services-heading"
+className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4"
+>
               {t.premiumServices.title}
-               <span
-    aria-hidden="true"
-    className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
+<span
+aria-hidden="true"
+className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
                bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
-  />
-            </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
+/>
+</h2>
+<p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
               {t.premiumServices.subtitle}
-            </p>
-          </div>
-
+</p>
+</div>
           {/* Services Carousel */}
-          <div className="relative max-w-2xl mx-auto">
-            <div className="flex items-center justify-center gap-4">
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={prevService}
-                className="shrink-0 rounded-full bg-transparent"
-                aria-label="Previous service"
-              >
-                <ChevronLeft className="w-5 h-5" aria-hidden="true" />
-              </Button>
-
-           <Card
-  key={activeServiceIndex}
-  className="
-    flex-1 max-w-[600px] mx-auto
-    min-h-[350px]
+<div className="relative max-w-4xl mx-auto">
+<div className="flex items-center justify-center gap-2 sm:gap-4">
+<Button
+variant="outline"
+size="icon"
+onClick={prevService}
+className="shrink-0 rounded-full bg-white shadow-md hover:shadow-lg active:shadow-lg hidden sm:flex"
+aria-label="Previous service"
+>
+<ChevronLeft className="w-5 h-5" aria-hidden="true" />
+</Button>
+<Card
+key={activeServiceIndex}
+className="
+    flex-1 max-w-[500px] mx-auto
+    w-full
+    h-[480px] sm:h-[450px]
     flex flex-col items-center text-center
-    p-8 sm:p-10
+    p-6 sm:p-8
     bg-white
-    rounded-[15px]
-    shadow-md
+    rounded-2xl
+    shadow-lg
     transition-all duration-500 ease-out
-    hover:-translate-y-2.5 hover:shadow-2xl
+    hover:-translate-y-2 hover:shadow-2xl
+    active:-translate-y-2 active:shadow-2xl
   "
 >
-  <CardContent className="p-0 flex flex-col flex-1 w-full">
-    {/* Icon */}
-    <div
-      className="
-        w-20 h-20 mb-6
-        rounded-full
-        flex items-center justify-center
-        text-white
-        bg-gradient-to-br from-[#0d9488] to-[#14b8a6]
-        shadow-[0_8px_20px_rgba(13,148,136,0.25)]
-      "
-    >
-      {(() => {
-        const IconComponent = premiumServices[activeServiceIndex].icon
-        return <IconComponent className="w-9 h-9" aria-hidden="true" />
-      })()}
-    </div>
-
-    {/* Title */}
-    <h3
-      className="
-        font-serif text-[1.4rem]
+<CardContent className="p-0 flex flex-col h-full w-full justify-between">
+    {/* Icon - Fixed positioning */}
+<div className="flex justify-center mb-5">
+<div
+className="
+          w-16 h-16 sm:w-20 sm:h-20
+          rounded-full
+          flex items-center justify-center
+          text-white
+          bg-gradient-to-br from-[#0d9488] to-[#14b8a6]
+          shadow-[0_8px_20px_rgba(13,148,136,0.25)]
+        "
+>
+        {(() => {
+const IconComponent = premiumServices[activeServiceIndex].icon
+return <IconComponent className="w-8 h-8 sm:w-9 sm:h-9" aria-hidden="true" />
+        })()}
+</div>
+</div>
+    {/* Title - Fixed height */}
+<h3
+className="
+        font-serif text-xl sm:text-[1.4rem]
         font-bold text-slate-900
-        leading-snug
+        leading-tight
         mb-4
-        min-h-[3.5em]
+        h-[60px] sm:h-[70px]
         flex items-center justify-center
+        px-2
       "
-    >
+>
       {premiumServices[activeServiceIndex].title}
-    </h3>
-
-    {/* Description */}
-    <p
-      className="
-        text-slate-600
-        text-base
-        leading-relaxed
-        mb-6
-        flex-grow
-        flex items-center
-        break-words
-        hyphens-auto
-      "
-    >
-      {premiumServices[activeServiceIndex].description}
-    </p>
-
-    {/* CTA */}
-    <Button
-      className="
-        mt-auto w-full
+</h3>
+    {/* Description - Fixed height with scrollable overflow */}
+<div className="flex-1 mb-6 overflow-y-auto px-2">
+<p
+className="
+          text-slate-600
+          text-sm sm:text-base
+          leading-relaxed
+        "
+>
+        {premiumServices[activeServiceIndex].description}
+</p>
+</div>
+    {/* CTA - Fixed at bottom */}
+<Button
+className="
+        w-full
         bg-gradient-to-r from-[#0d9488] to-[#14b8a6]
         hover:from-[#f8d56b] hover:to-[#facc15]
         hover:text-slate-900
+        active:from-[#f8d56b] active:to-[#facc15]
+        active:text-slate-900
+        text-white
         font-semibold
-        py-3 rounded-lg
+        py-2.5 sm:py-3 rounded-lg
         transition-all duration-300
         hover:-translate-y-1
+        active:-translate-y-1
+        flex items-center justify-center gap-2
       "
-      aria-label={`Learn more about ${premiumServices[activeServiceIndex].title}`}
-    >
-      <Link
-  href={premiumServices[activeServiceIndex].link}
-  className="..."
-> Explore
-      </Link>
-      <ArrowRight className="w-4 h-4 ml-2" />
-    </Button>
-  </CardContent>
+aria-label={`Learn more about ${premiumServices[activeServiceIndex].title}`}
+>
+<Link
+href={premiumServices[activeServiceIndex].link}
+className="flex items-center gap-2"
+>
+          Explore
+<ArrowRight className="w-4 h-4" />
+</Link>
+</Button>
+</CardContent>
 </Card>
 
               <Button
                 variant="outline"
                 size="icon"
                 onClick={nextService}
-                className="shrink-0 rounded-full bg-transparent"
+                className="shrink-0 rounded-full bg-transparent hidden  "
                 aria-label="Next service"
               >
                 <ChevronRight className="w-5 h-5" aria-hidden="true" />
               </Button>
-            </div>
-
+</div>
+  {/* Mobile navigation buttons */}
+<div className="flex justify-center gap-4 mt-4 sm:hidden">
+              <Button variant="outline" size="icon" onClick={prevService} className="rounded-full bg-transparent">
+                <ChevronLeft className="w-5 h-5" />
+              </Button>
+              <Button variant="outline" size="icon" onClick={nextService} className="rounded-full bg-transparent">
+                <ChevronRight className="w-5 h-5" />
+              </Button>
+  </div>
             {/* Service pagination dots */}
-            <div className="flex justify-center gap-2 mt-6" role="tablist" aria-label="Services pagination">
-              {premiumServices.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setActiveServiceIndex(index)}
-                  className={`w-2.5 h-2.5 rounded-full transition-all ${
-                    index === activeServiceIndex ? "bg-primary w-6" : "bg-gray-300 hover:bg-gray-400"
-                  }`}
-                  role="tab"
-                  aria-selected={index === activeServiceIndex}
-                  aria-label={`View service ${index + 1}`}
-                />
-              ))}
-            </div>
+           <div
+  className="flex justify-center gap-2 mt-6"
+  role="tablist"
+  aria-label="Testimonials pagination"
+>
+  {testimonials.map((_, index) => {
+    const isActive = index === activeTestimonialIndex
+
+    return (
+      <button
+        key={index}
+        onClick={() => setActiveTestimonialIndex(index)}
+        role="tab"
+        aria-selected={isActive}
+        aria-label={`View testimonial ${index + 1}`}
+        className={`
+          rounded-full transition-all
+          h-1.5 w-1.5 sm:h-2.5 sm:w-2.5
+          ${isActive
+            ? "bg-primary sm:w-6"
+            : "bg-gray-300 hover:bg-gray-400"
+          }
+        `}
+      />
+    )
+  })}
+</div>
+
           </div>
         </div>
       </section>
@@ -999,13 +1077,7 @@ const displayedCollections = isDesktop
 
                   {/* Author */}
                   <div className="flex flex-col items-center">
-                    {/* <div className="w-12 h-12 rounded-full overflow-hidden mb-3">
-                      <img
-                        src={`/.jpg?height=48&width=48&query=${encodeURIComponent(testimonials[activeTestimonialIndex].avatar)}`}
-                        alt={testimonials[activeTestimonialIndex].name}
-                        className="w-full h-full object-cover"
-                      />
-                    </div> */}
+             
                     <cite className="not-italic">
                       <span className="font-semibold text-foreground block">
                         {testimonials[activeTestimonialIndex].name}
@@ -1040,57 +1112,164 @@ const displayedCollections = isDesktop
             </div>
 
             {/* Testimonial pagination dots */}
-            <div className="flex justify-center gap-2 mt-6" role="tablist" aria-label="Testimonials pagination">
-              {testimonials.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setActiveTestimonialIndex(index)}
-                  className={`w-2.5 h-2.5 rounded-full transition-all ${
-                    index === activeTestimonialIndex ? "bg-primary w-6" : "bg-gray-300 hover:bg-gray-400"
-                  }`}
-                  role="tab"
-                  aria-selected={index === activeTestimonialIndex}
-                  aria-label={`View testimonial ${index + 1}`}
-                />
-              ))}
-            </div>
+            <div
+  className="flex justify-center gap-2 mt-6"
+  role="tablist"
+  aria-label="Testimonials pagination"
+>
+  {testimonials.map((_, index) => {
+    const isActive = index === activeTestimonialIndex
+
+    return (
+      <button
+        key={index}
+        onClick={() => setActiveTestimonialIndex(index)}
+        role="tab"
+        aria-selected={isActive}
+        aria-label={`View testimonial ${index + 1}`}
+        className={`
+          rounded-full transition-all
+          h-1.5 w-1.5 sm:h-2.5 sm:w-2.5
+          ${isActive
+            ? "bg-primary sm:w-6"
+            : "bg-gray-300 hover:bg-gray-400"
+          }
+        `}
+      />
+    )
+  })}
+</div>
+
           </div>
         </div>
       </section>
 
       {/* Travel Memories Gallery */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-white" aria-labelledby="memories-heading">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-8 sm:mb-12">
-            <h2
-              id="memories-heading"
-              className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4"
-            >
-              {t.memories.title}
-            </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
-              {t.memories.subtitle}
-            </p>
-          </div>
+   <section
+  className="py-12 sm:py-16 lg:py-20 bg-white"
+  aria-labelledby="memories-heading"
+>
+  <div className="container mx-auto px-4">
+    {/* Header */}
+    <div className="text-center mb-8 sm:mb-12">
+      <h2
+        id="memories-heading"
+        className="relative font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4 pb-3"
+      >
+        {t.memories.title}
+        <span
+          aria-hidden="true"
+          className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
+                     bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
+        />
+      </h2>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4" role="list">
-            {travelMemories.map((memory) => (
-              <div
-                key={memory.id}
-                className="aspect-square rounded-xl overflow-hidden group cursor-pointer"
-                role="listitem"
-              >
-                <img
-                  src={memory.imageurl}
-                  alt={memory.imageQuery}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-            ))}
+      <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
+        {t.memories.subtitle}
+      </p>
+    </div>
+    
+  <div
+  className="hidden lg:grid grid-cols-5 gap-4"
+  role="list"
+>
+  {travelMemories.map((memory) => (
+    <div
+      key={memory.id}
+      className="aspect-square rounded-xl overflow-hidden group cursor-pointer"
+      role="listitem"
+    >
+      <img
+        src={memory.imageurl}
+        alt={memory.imageQuery}
+        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+      />
+    </div>
+  ))}
+</div>
+
+
+    {/* Carousel */}
+    <div className="relative max-w-xl mx-auto lg:hidden">
+      <div className="flex items-center gap-4">
+        {/* Prev (desktop) */}
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={prevMemory}
+          className="shrink-0 rounded-full bg-transparent hidden sm:flex"
+          aria-label="Previous memory"
+        >
+          <ChevronLeft className="w-5 h-5" />
+        </Button>
+
+        {/* Image */}
+        <div className="flex-1">
+          <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
+            <img
+              src={travelMemories[activeMemoryIndex].imageurl}
+              alt={travelMemories[activeMemoryIndex].imageQuery}
+              className="w-full h-full object-cover transition-transform duration-700"
+            />
           </div>
         </div>
-      </section>
 
+        {/* Next (desktop) */}
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={nextMemory}
+          className="shrink-0 rounded-full bg-transparent hidden sm:flex"
+          aria-label="Next memory"
+        >
+          <ChevronRight className="w-5 h-5" />
+        </Button>
+      </div>
+
+      {/* Mobile controls */}
+      <div className="flex justify-center gap-4 mt-4 sm:hidden">
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={prevMemory}
+          className="rounded-full bg-transparent"
+        >
+          <ChevronLeft className="w-5 h-5" />
+        </Button>
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={nextMemory}
+          className="rounded-full bg-transparent"
+        >
+          <ChevronRight className="w-5 h-5" />
+        </Button>
+      </div>
+
+      {/* Pagination dots */}
+      {/* <div
+        className="flex justify-center gap-2 mt-6"
+        role="tablist"
+        aria-label="Travel memories pagination"
+      >
+        {travelMemories.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => setActiveMemoryIndex(index)}
+            className={`h-2.5 rounded-full transition-all ${
+              index === activeMemoryIndex
+                ? "bg-primary w-6"
+                : "bg-gray-300 w-2.5 hover:bg-gray-400 active:bg-gray-400"
+            }`}
+            role="tab"
+            aria-selected={index === activeMemoryIndex}
+            aria-label={`View memory ${index + 1}`}
+          />
+        ))}
+      </div> */}
+    </div>
+  </div>
+</section>
     </div>
   )
 }

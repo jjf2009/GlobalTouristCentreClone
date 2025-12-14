@@ -29,24 +29,35 @@ export function LanguageSwitcher() {
           const isActive = locale === lang.code
 
           return (
-            <button
-              key={lang.code}
-              onClick={() => setLocale(lang.code)}
-              className={`
-                px-3 py-1.5 rounded-full
-                text-xs font-medium uppercase tracking-wide
-                transition-all
-                ${
-                  isActive
-                    ? "bg-[#f8d56b] text-gray-900 shadow-md"
-                    : "text-white hover:text-[#f8d56b] hover:bg-white/10"
-                }
-              `}
-              aria-current={isActive ? "true" : undefined}
-              aria-label={`Switch language to ${lang.label}`}
-            >
-              {lang.label}
-            </button>
+           <button
+  key={lang.code}
+  onClick={() => setLocale(lang.code)}
+  className={`
+    px-3 py-1.5 rounded-full
+    text-xs font-medium uppercase tracking-wide
+    transition-all
+
+    ${
+      isActive
+        ? "bg-[#f8d56b] text-gray-900 shadow-md"
+        : `
+            text-gray-900
+            bg-gray-100
+            hover:bg-[#f8d56b]/20
+
+            sm:text-white
+            sm:bg-transparent
+            sm:hover:text-[#f8d56b]
+            sm:hover:bg-white/10
+          `
+    }
+  `}
+  aria-current={isActive ? "true" : undefined}
+  aria-label={`Switch language to ${lang.label}`}
+>
+  {lang.label}
+</button>
+
           )
         })}
       </div>
