@@ -313,6 +313,32 @@ const travelMemories = [
   { id: 5, imageQuery: "tourist couple at a temple", imageurl: "/trips/trip8.webp" },
 ]
 
+function formatWhatsAppMessage(
+  title: string,
+  data: { label: string; value: string }[]
+) {
+  const lines = [`*${title}*`];
+
+  data.forEach((item) => {
+    if (item.value) {
+      lines.push(`${item.label}: ${item.value}`);
+    } else {
+      lines.push(item.label);
+    }
+  });
+
+  return encodeURIComponent(lines.join("\n"));
+}
+
+const DESTINATION_MAP: Record<string, string> = {
+  "all-goa-one-day": "ALL GOA IN ONE DAY",
+  "palolem-cola-dolphin": "PALOLEM COLA – DOLPHIN",
+  "mumbai-one-day": "MUMBAI 1 DAY",
+  "taj-mahal-1n2d": "TAJ MAHAL 1N2D",
+  "hampi-badami-1n2d": "HAMPI BADAMI 1N2D",
+}
+
+
 
 export default function LandingPage() {
   const { t } = useI18n()
@@ -322,6 +348,17 @@ export default function LandingPage() {
   const [showAllCollections, setShowAllCollections] = useState(false)
   const [isDesktop, setIsDesktop] = useState(false)
   const [activeMemoryIndex, setActiveMemoryIndex] = useState(0)
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    destination: "",
+  });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
+
 
 useEffect(() => {
   const mediaQuery = window.matchMedia("(min-width: 1024px)")
@@ -334,20 +371,58 @@ useEffect(() => {
 }, [])
 
 
-  // Form state
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    email:"",
-    destination: "",
-  })
 
   const handleFormSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission
-    alert("Thank you! We'll contact you shortly with your personalized quote.")
-    setFormData({ name: "", phone: "",email: "", destination: "" })
-  }
+    e.preventDefault();
+
+    const { name, email, phone, destination } = formData;
+
+    // Validation (same intent as old code)
+    if (!name.trim() || !email.trim()) {
+      alert("Please fill in all required fields.");
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    const destinationText =
+      DESTINATION_MAP[destination] || destination || "Not specified";
+
+    const messageData = [
+      { label: "\n*CONTACT INFORMATION*", value: "" },
+      { label: "Name", value: name },
+      { label: "Email", value: email },
+      phone ? { label: " Phone", value: phone } : null,
+      { label: "Destination Interest", value: destinationText },
+    ].filter(Boolean) as { label: string; value: string }[];
+
+    const whatsappMessage = formatWhatsAppMessage(
+      "TRAVEL INQUIRY",
+      messageData
+    );
+
+    const whatsappNumber = "919067972295";
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
+    // Match old delay + UX
+    setTimeout(() => {
+      window.open(whatsappURL, "_blank");
+
+      setShowSuccess(true);
+      setIsSubmitting(false);
+
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        destination: "",
+      });
+
+      // Auto-hide success message
+      setTimeout(() => setShowSuccess(false), 5000);
+    }, 1000);
+  };
+
 
   const scrollExperiences = (direction: "left" | "right") => {
     if (experiencesRef.current) {
@@ -548,21 +623,43 @@ const displayedCollections = isDesktop
                     </Select>
                   </div>
 
-                  <Button
-                    type="submit"
-                    className="w-full bg-primary hover:bg-primary/90 active:bg-primary/90 text-primary-foreground h-12 text-base font-semibold"
-                    aria-label="Get free travel quote"
-                  >
-                    {t.hero.cta}
-                    <ArrowRight className="w-4 h-4 ml-2" aria-hidden="true" />
-                  </Button>
+                 <Button
+  type="submit"
+  disabled={isSubmitting}
+  className="
+    w-full h-12 text-base font-semibold
+    bg-primary text-primary-foreground
+    hover:bg-primary/90 focus:bg-primary/90
+    transition-all duration-300
+    disabled:opacity-60 disabled:cursor-not-allowed
+    flex items-center justify-center gap-2
+  "
+  aria-label="Get free travel quote"
+  aria-busy={isSubmitting}
+>
+  {isSubmitting ? (
+    <>
+      <span className="animate-spin h-4 w-4 rounded-full border-2 border-white/40 border-t-white" />
+      Sending…
+    </>
+  ) : (
+    <>
+      {t.hero.cta}
+      <ArrowRight className="w-4 h-4" aria-hidden="true" />
+    </>
+  )}
+</Button>
 
-                  <p className="text-xs text-muted-foreground text-center">
-                    {t.form.privacyNote}{" "}
-                    <Link href="/privacy" className="text-primary hover:underline active:underline">
-                      {t.form.privacyPolicy}
-                    </Link>
-                  </p>
+<p className="text-xs text-muted-foreground text-center mt-3">
+  {t.form.privacyNote}{" "}
+  <Link
+    href="/privacy"
+    className="text-primary hover:underline focus:underline"
+  >
+    {t.form.privacyPolicy}
+  </Link>
+</p>
+
                 </form>
               </CardContent>
             </Card>
@@ -640,7 +737,7 @@ const displayedCollections = isDesktop
               variant="outline"
               size="icon"
               onClick={() => scrollExperiences("left")}
-              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg hover:bg-gray-50 active:bg-gray-50 hidden sm:flex"
+              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg hover:bg-gray-50 focus:bg-gray-50 hidden sm:flex"
               aria-label="Previous experiences"
             >
               <ChevronLeft className="w-5 h-5" aria-hidden="true" />
@@ -670,8 +767,8 @@ const displayedCollections = isDesktop
       bg-white shadow-lg
       transition-all duration-500 ease-out
       hover:-translate-y-2.5 hover:shadow-2xl
-      active:-translate-y-2.5
-      active:shadow-2xl
+      focus:-translate-y-2.5
+      focus:shadow-2xl
       group cursor-pointer
     "
   >
@@ -762,8 +859,8 @@ const displayedCollections = isDesktop
           transition-all duration-300
           hover:bg-white hover:text-slate-900
           hover:translate-x-1
-           active:bg-white active:text-slate-900
-          active:translate-x-1
+           focus:bg-white focus:text-slate-900
+          focus:translate-x-1
         "
         aria-label={`Explore ${exp.title}`}
       >
@@ -878,7 +975,7 @@ className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
 variant="outline"
 size="icon"
 onClick={prevService}
-className="shrink-0 rounded-full bg-white shadow-md hover:shadow-lg active:shadow-lg hidden sm:flex"
+className="shrink-0 rounded-full bg-white shadow-md hover:shadow-lg focus:shadow-lg hidden sm:flex"
 aria-label="Previous service"
 >
 <ChevronLeft className="w-5 h-5" aria-hidden="true" />
@@ -896,7 +993,7 @@ className="
     shadow-lg
     transition-all duration-500 ease-out
     hover:-translate-y-2 hover:shadow-2xl
-    active:-translate-y-2 active:shadow-2xl
+    focus:-translate-y-2 focus:shadow-2xl
   "
 >
 <CardContent className="p-0 flex flex-col h-full w-full justify-between">
@@ -951,14 +1048,14 @@ className="
         bg-gradient-to-r from-[#0d9488] to-[#14b8a6]
         hover:from-[#f8d56b] hover:to-[#facc15]
         hover:text-slate-900
-        active:from-[#f8d56b] active:to-[#facc15]
-        active:text-slate-900
+        focus:from-[#f8d56b] focus:to-[#facc15]
+        focus:text-slate-900
         text-white
         font-semibold
         py-2.5 sm:py-3 rounded-lg
         transition-all duration-300
         hover:-translate-y-1
-        active:-translate-y-1
+        focus:-translate-y-1
         flex items-center justify-center gap-2
       "
 aria-label={`Learn more about ${premiumServices[activeServiceIndex].title}`}
