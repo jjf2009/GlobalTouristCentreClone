@@ -108,8 +108,8 @@ export function Header() {
                 ))}
               </nav>
 
-             <div className="px-6 py-4 border-t border-border sm:hidden"> 
-              <p className="text-sm text-muted-foreground mb-2">Language</p> 
+             <div className="px-6 py-4  sm:hidden"> 
+              <p className="text-sm  mb-2">Language</p> 
               <LanguageSwitcher /> 
               </div>
             </SheetContent>
