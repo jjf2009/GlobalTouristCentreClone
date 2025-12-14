@@ -5,9 +5,25 @@ import { useI18n } from "@/lib/i18n/context"
 import { Instagram, Facebook, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
+
+
 export function Footer() {
   const { t } = useI18n()
-
+  
+  const popularTours = [
+  {
+    label: t.footer.goaBeach,
+    href: "https://globaltouristcentre.com/itinerary/day-trips/south-goa-beach-tour",
+  },
+  {
+    label: t.footer.exploreSikkim,
+    href: "https://globaltouristcentre.com/itinerary/domestic-trips/sikkim-tour",
+  },
+  {
+    label: t.footer.keralaBackwaters,
+    href: "https://globaltouristcentre.com/itinerary/domestic-trips/kerala-backwaters-tour",
+  },
+]
   return (
     <footer className="relative bg-[#1a2332] text-white" role="contentinfo">
       {/* Gold gradient top border */}
@@ -60,12 +76,12 @@ export function Footer() {
 
             <ul className="space-y-2">
               {[
-                { href: "/", label: t.nav.home },
-                { href: "/destinations", label: t.nav.destinations },
-                { href: "/about", label: t.nav.about },
-                { href: "/services", label: t.nav.services },
-                { href: "/contact", label: t.nav.contact },
-                { href: "/blog", label: t.nav.blog },
+                { href: "https://globaltouristcentre.com", label: t.nav.home },
+                { href: "https://globaltouristcentre.com/destinations", label: t.nav.destinations },
+                { href: "https://globaltouristcentre.com/about", label: t.nav.about },
+                { href: "https://globaltouristcentre.com/services", label: t.nav.services },
+                { href: "https://globaltouristcentre.com/contact", label: t.nav.contact },
+                { href: "https://globaltouristcentre.com/blog", label: t.nav.blog },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -86,18 +102,23 @@ export function Footer() {
               <span className="absolute bottom-0 left-0 w-8 h-[2px] bg-gradient-to-r from-[#f8d56b] to-transparent" />
             </h3>
 
-            <ul className="space-y-2">
-              {[t.footer.goaBeach, t.footer.exploreSikkim, t.footer.keralaBackwaters].map((item) => (
-                <li key={item}>
-                  <Link
-                    href="#"
-                    className="text-gray-400 text-sm transition-all hover:text-[#f8d56b] hover:translate-x-1"
-                  >
-                    {item}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+           <ul className="space-y-1.5 sm:space-y-2">
+  {popularTours.map((tour) => (
+    <li key={tour.href}>
+      <Link
+        href={tour.href}
+        className="
+          text-gray-400 text-sm
+          transition-all
+          hover:text-[#f8d56b]
+          hover:translate-x-1
+        "
+      >
+        {tour.label}
+      </Link>
+    </li>
+  ))}
+</ul>
           </nav>
 
           {/* Instagram */}
@@ -135,10 +156,10 @@ export function Footer() {
           <p>{t.footer.copyright}</p>
 
           <div className="flex gap-4">
-            <Link href="#" className="hover:text-[#f8d56b]">
+            <Link href="https://globaltouristcentre.com/legal/privacy-policy" className="hover:text-[#f8d56b]">
               {t.footer.privacyPolicy}
             </Link>
-            <Link href="#" className="hover:text-[#f8d56b]">
+            <Link href="https://globaltouristcentre.com/legal/terms-and-conditions" className="hover:text-[#f8d56b]">
               {t.footer.termsConditions}
             </Link>
           </div>

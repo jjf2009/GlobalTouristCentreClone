@@ -20,13 +20,13 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navLinks = [
-    { href: "/", label: t.nav.home },
-    { href: "/destinations", label: t.nav.destinations },
-    { href: "/luxury-destinations", label: t.nav.luxuryDestinations },
-    { href: "/about", label: t.nav.about },
-    { href: "/services", label: t.nav.services },
-    { href: "/contact", label: t.nav.contact },
-    { href: "/blog", label: t.nav.blog },
+    { href: "https://globaltouristcentre.com/", label: t.nav.home },
+    { href: "https://globaltouristcentre.com/destinations", label: t.nav.destinations },
+    { href: "https://globaltouristcentre.com/luxury-destinations", label: t.nav.luxuryDestinations },
+    { href: "https://globaltouristcentre.com/about", label: t.nav.about },
+    { href: "https://globaltouristcentre.com/services", label: t.nav.services },
+    { href: "https://globaltouristcentre.com/contact", label: t.nav.contact },
+    { href: "https://globaltouristcentre.com/blog", label: t.nav.blog },
   ]
 
   return (
@@ -37,7 +37,7 @@ export function Header() {
       <div className="flex items-center justify-between px-[5%] py-7.5">
         {/* Logo */}
         <Link
-          href="/"
+          href="https://globaltouristcentre.com/"
           className="flex items-center"
           aria-label="Global Tourist Centre - Home"
         >

@@ -49,7 +49,7 @@ export const signatureExperiences = [
     price: "$70",
     description:
       "Experience dolphin watching in the Arabian Sea and explore the pristine beaches of Palolem and Cola.",
-    link: "/itinerary/day-trips/South-Goa-1-Day-Trip-package",
+    link: "https://globaltouristcentre.com/itinerary/day-trips/South-Goa-1-Day-Trip-package",
     popular: true,
   },
   {
@@ -61,7 +61,7 @@ export const signatureExperiences = [
     price: "$360",
     description:
       "Full day Mumbai tour from Goa including airfare, Gateway of India, Taj Mahal Palace, Marine Drive, and cultural sites.",
-    link: "/itinerary/day-trips/Mumbai-day-trip-package",
+    link: "https://globaltouristcentre.com/itinerary/day-trips/Mumbai-day-trip-package",
     popular: true,
   },
   {
@@ -73,7 +73,7 @@ export const signatureExperiences = [
     price: "$300",
     description:
       "Visit the iconic Taj Mahal, one of the Seven Wonders of the World, with guided tours and cultural experiences.",
-    link: "/itinerary/domestic-trips/Delhi-Agra-1N-2D-Trip-Package",
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/Delhi-Agra-1N-2D-Trip-Package",
     popular: true,
   },
   {
@@ -85,7 +85,7 @@ export const signatureExperiences = [
     price: "$170",
     description:
       "Explore UNESCO World Heritage Sites, ancient temples, and Karnataka's heritage from Goa.",
-    link: "/itinerary/domestic-trips/Hampi-1N-2D-Trip-Package",
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/Hampi-1N-2D-Trip-Package",
     popular: false,
   },
 ]
@@ -102,7 +102,7 @@ export const travelCollections =[
     description:
       "Full-day cultural tour exploring Old Goa churches, Hindu temples, Miramar Beach, Dona Paula, and Panjim Market.",
     tags: ["Cultural", "UNESCO", "Heritage"],
-    link: "/itinerary/day-trips/South-Goa-1-Day-Cultural-and-Beach-Tour-package",
+    link: "https://globaltouristcentre.com/itinerary/day-trips/South-Goa-1-Day-Cultural-and-Beach-Tour-package",
   },
   {
     id: 2,
@@ -114,7 +114,7 @@ export const travelCollections =[
     description:
       "Premium 6-hour luxury yacht experience with infinity pool, live DJ, gourmet dinner, and sunset cruise in Goa.",
     tags: ["Luxury", "Yacht", "Premium"],
-    link: "/itinerary/day-trips/luxury-yacht-tour-goa",
+    link: "https://globaltouristcentre.com/itinerary/day-trips/luxury-yacht-tour-goa",
   },
   {
     id: 3,
@@ -126,7 +126,7 @@ export const travelCollections =[
     description:
       "Experience ultimate luxury at Serai Cabo with private villas, world-class amenities, and personalized services.",
     tags: ["Luxury", "Resort", "5-Star"],
-    link: "/itinerary/domestic-trips/Cabo-Serai-2N-3D-Luxury-Getaway",
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/Cabo-Serai-2N-3D-Luxury-Getaway",
   },
   {
     id: 4,
@@ -138,7 +138,7 @@ export const travelCollections =[
     description:
       "Discover pristine beaches, crystal waters, and exotic marine life in India's tropical paradise.",
     tags: ["Islands", "Beaches", "Marine Life"],
-    link: "/itinerary/domestic-trips/andaman-tour-for-goa",
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/andaman-tour-for-goa",
   },
   {
     id: 5,
@@ -150,7 +150,7 @@ export const travelCollections =[
     description:
       "Full day North Goa tour covering Calangute, Baga, Anjuna beaches, Aguada Fort, and Portuguese churches.",
     tags: ["Beaches", "Portuguese", "Cultural"],
-    link: "/itinerary/day-trips/north-goa-english-tour",
+    link: "https://globaltouristcentre.com/itinerary/day-trips/north-goa-english-tour",
   },
   {
     id: 6,
@@ -162,7 +162,7 @@ export const travelCollections =[
     description:
       "Visit the majestic Dudhsagar Waterfalls and explore aromatic spice plantations with guided tours.",
     tags: ["Waterfalls", "Spices", "Nature"],
-    link: "/itinerary/day-trips/Dudhsagar-and-Spice-Plantation-Day-Trip-package",
+    link: "https://globaltouristcentre.com/itinerary/day-trips/Dudhsagar-and-Spice-Plantation-Day-Trip-package",
   },
   {
     id: 7,
@@ -174,7 +174,7 @@ export const travelCollections =[
     description:
       "Wildlife adventure in Dandeli with elephant interaction and tiger safari in natural reserves.",
     tags: ["Wildlife", "Safari", "Adventure"],
-    link: "/itinerary/domestic-trips/dandeli-elephant-tiger-safari-from-goa",
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/dandeli-elephant-tiger-safari-from-goa",
   },
   {
     id: 8,
@@ -186,7 +186,7 @@ export const travelCollections =[
     description:
       "Pilgrimage and beach tour to Gokarna's temples and Murdeshwar's Shiva statue and beaches.",
     tags: ["Spiritual", "Beaches", "Temples"],
-    link: "/itinerary/day-trips/Gokarna-Murdeshwar-one-day-trip-package",
+    link: "https://globaltouristcentre.com/itinerary/day-trips/Gokarna-Murdeshwar-one-day-trip-package",
   },
   {
     id: 9,
@@ -198,7 +198,7 @@ export const travelCollections =[
     description:
       "Discover India's iconic heritage with Delhi, Agra, and Jaipur. Experience magnificent forts, palaces, and the Taj Mahal.",
     tags: ["Heritage", "Taj Mahal", "Cultural"],
-    link: "/itinerary/domestic-trips/golden-triangle-trip-3n4d",
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/golden-triangle-trip-3n4d",
   },
   {
     id: 10,
@@ -210,7 +210,7 @@ export const travelCollections =[
     description:
       "Spiritual journey to Varanasi including Sarnath, Ganga Aarti, temple tours, boat ride on Ganges. Flight included.",
     tags: ["Spiritual", "Pilgrimage", "Ganga Aarti"],
-    link: "/itinerary/domestic-trips/varanasi-2n3d-trip",
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/varanasi-2n3d-trip",
   },
   {
     id: 11,
@@ -222,7 +222,7 @@ export const travelCollections =[
     description:
       "Explore Jodhpur & Udaipur with guided tours of Mehrangarh Fort, City Palace, Lake Pichola, and cultural experiences.",
     tags: ["Rajasthan", "Palaces", "Cultural"],
-    link: "/itinerary/domestic-trips/jodhpur-udaipur-trip-4n5d",
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/jodhpur-udaipur-trip-4n5d",
   },
   {
     id: 12,
@@ -234,7 +234,7 @@ export const travelCollections =[
     description:
       "Spiritual journey to the Golden Temple, Wagah Border ceremony, Jallianwala Bagh, and Amritsar's rich cultural heritage.",
     tags: ["Spiritual", "Cultural", "Historical"],
-    link: "/itinerary/domestic-trips/amritsar-trip-2n3d-from-goa",
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/amritsar-trip-2n3d-from-goa",
   },
 ];
 // Premium Services
@@ -244,30 +244,35 @@ const premiumServices = [
     title: "Customized Holidays",
     description: "Bespoke travel plans that fulfill your wildest dreams. Your journey, your way.",
     icon: Sparkles,
+    link:"https://globaltouristcentre.com/service/hotel-booking"
   },
   {
     id: 2,
     title: "Luxury Accommodation",
     description: "Access to premium hotels, resorts, and unique stays with exclusive benefits and best rates guaranteed.",
     icon: Hotel,
+    link:"https://globaltouristcentre.com/service/hotel-booking"
   },
   {
     id: 3,
     title: "Group Tours",
     description: "Join like-minded travelers on expertly curated group adventures.",
     icon: Users,
+    link:"https://globaltouristcentre.com/service/hotel-booking"
   },
   {
     id: 4,
     title: "Visa Assistance",
     description: "Hassle-free visa documentation and processing services.",
     icon: FileText,
+    link:"https://globaltouristcentre.com/service/hotel-booking"
   },
   {
     id: 5,
     title: "Flight Bookings",
     description: "Competitive airfares on domestic and international routes with flexible booking options",
     icon: Plane,
+    link:"https://globaltouristcentre.com/service/hotel-booking"
   },
 ]
 
@@ -494,7 +499,7 @@ const displayedCollections = isDesktop
                     <Input
                       id="lp-phone"
                       type="tel"
-                      placeholder="+91 98765 43210"
+                      placeholder="johndoe123@exmaple.com"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       required
@@ -516,15 +521,11 @@ const displayedCollections = isDesktop
                         <SelectValue placeholder="Select a destination" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="goa">Goa</SelectItem>
-                        <SelectItem value="kerala">Kerala</SelectItem>
-                        <SelectItem value="rajasthan">Rajasthan</SelectItem>
-                        <SelectItem value="kashmir">Kashmir</SelectItem>
-                        <SelectItem value="dubai">Dubai</SelectItem>
-                        <SelectItem value="thailand">Thailand</SelectItem>
-                        <SelectItem value="singapore">Singapore</SelectItem>
-                        <SelectItem value="maldives">Maldives</SelectItem>
-                        <SelectItem value="other">Other</SelectItem>
+                        <SelectItem value="all-goa-one-day">ALL GOA IN ONE DAY</SelectItem>
+                        <SelectItem value="palolem-cola-dolphin">PALOLEM COLA - DOLPHIN</SelectItem>
+                        <SelectItem value="mumbai-one-day">MUMBAI 1 DAY</SelectItem>
+                        <SelectItem value="taj-mahal-1n2d">TAJ MAHAL 1N2D</SelectItem>
+                        <SelectItem value="hampi-badami-1n2d">HAMPI BADAMI 1N2D</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -831,33 +832,91 @@ const displayedCollections = isDesktop
                 <ChevronLeft className="w-5 h-5" aria-hidden="true" />
               </Button>
 
-             <Card
+           <Card
   key={activeServiceIndex}
-  className="flex-1 text-center p-6 sm:p-8 lg:p-10 bg-gradient-to-br from-slate-50 to-white
-             animate-in fade-in slide-in-from-right-4 duration-500"
+  className="
+    flex-1 max-w-[600px] mx-auto
+    min-h-[350px]
+    flex flex-col items-center text-center
+    p-8 sm:p-10
+    bg-white
+    rounded-[15px]
+    shadow-md
+    transition-all duration-500 ease-out
+    hover:-translate-y-2.5 hover:shadow-2xl
+  "
 >
-                <CardContent className="p-0">
-                  <div className="w-16 h-16 sm:w-20 sm:h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
-                    {(() => {
-                      const IconComponent = premiumServices[activeServiceIndex].icon
-                      return <IconComponent className="w-8 h-8 sm:w-10 sm:h-10 text-primary" aria-hidden="true" />
-                    })()}
-                  </div>
-                  <h3 className="font-serif text-xl sm:text-2xl font-bold text-foreground mb-3 sm:mb-4">
-                    {premiumServices[activeServiceIndex].title}
-                  </h3>
-                  <p className="text-muted-foreground text-sm sm:text-base mb-4 sm:mb-6">
-                    {premiumServices[activeServiceIndex].description}
-                  </p>
-                  <Button
-                    className="bg-primary hover:bg-primary/90"
-                    aria-label={`Learn more about ${premiumServices[activeServiceIndex].title}`}
-                  >
-                    Explore
-                    <ArrowRight className="w-4 h-4 ml-2" aria-hidden="true" />
-                  </Button>
-                </CardContent>
-              </Card>
+  <CardContent className="p-0 flex flex-col flex-1 w-full">
+    {/* Icon */}
+    <div
+      className="
+        w-20 h-20 mb-6
+        rounded-full
+        flex items-center justify-center
+        text-white
+        bg-gradient-to-br from-[#0d9488] to-[#14b8a6]
+        shadow-[0_8px_20px_rgba(13,148,136,0.25)]
+      "
+    >
+      {(() => {
+        const IconComponent = premiumServices[activeServiceIndex].icon
+        return <IconComponent className="w-9 h-9" aria-hidden="true" />
+      })()}
+    </div>
+
+    {/* Title */}
+    <h3
+      className="
+        font-serif text-[1.4rem]
+        font-bold text-slate-900
+        leading-snug
+        mb-4
+        min-h-[3.5em]
+        flex items-center justify-center
+      "
+    >
+      {premiumServices[activeServiceIndex].title}
+    </h3>
+
+    {/* Description */}
+    <p
+      className="
+        text-slate-600
+        text-base
+        leading-relaxed
+        mb-6
+        flex-grow
+        flex items-center
+        break-words
+        hyphens-auto
+      "
+    >
+      {premiumServices[activeServiceIndex].description}
+    </p>
+
+    {/* CTA */}
+    <Button
+      className="
+        mt-auto w-full
+        bg-gradient-to-r from-[#0d9488] to-[#14b8a6]
+        hover:from-[#f8d56b] hover:to-[#facc15]
+        hover:text-slate-900
+        font-semibold
+        py-3 rounded-lg
+        transition-all duration-300
+        hover:-translate-y-1
+      "
+      aria-label={`Learn more about ${premiumServices[activeServiceIndex].title}`}
+    >
+      <Link
+  href={premiumServices[activeServiceIndex].link}
+  className="..."
+> Explore
+      </Link>
+      <ArrowRight className="w-4 h-4 ml-2" />
+    </Button>
+  </CardContent>
+</Card>
 
               <Button
                 variant="outline"
