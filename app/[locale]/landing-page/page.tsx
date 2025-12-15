@@ -8,19 +8,13 @@ import {
   Star,
   ChevronLeft,
   ChevronRight,
-  Phone,
-  Mail,
-  MapPin,
   Instagram,
   Facebook,
-  MessageCircle,
   Hotel,
   FileText,
   Plane,
   ArrowRight,
   Quote,
-  Play,
-  Globe,
   Users,
   Clock,
   Shield,
@@ -31,10 +25,8 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { useI18n } from "@/lib/i18n/context"
-import { LanguageSwitcher } from "@/components/language-switcher"
 import { OfferBanner } from "@/components/offer-banner"
 import TourCard from "@/components/TourCard"
 
@@ -313,6 +305,7 @@ const travelMemories = [
   { id: 5, imageQuery: "tourist couple at a temple", imageurl: "/trips/trip8.webp" },
 ]
 
+
 function formatWhatsAppMessage(
   title: string,
   data: { label: string; value: string }[]
@@ -358,6 +351,9 @@ export default function LandingPage() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
+  const collectionsRef = useRef<HTMLDivElement>(null);
+
+  
 
 
 useEffect(() => {
@@ -430,7 +426,18 @@ useEffect(() => {
       experiencesRef.current.scrollBy({ left: scrollAmount, behavior: "smooth" })
     }
   }
-
+const scrollCollections = (direction: "left" | "right") => {
+  if (collectionsRef.current) {
+    const scrollAmount = 300;
+    const newScrollLeft =
+      collectionsRef.current.scrollLeft +
+      (direction === "left" ? -scrollAmount : scrollAmount);
+    collectionsRef.current.scrollTo({
+      left: newScrollLeft,
+      behavior: "smooth",
+    });
+  }
+};
   const nextService = () => {
     setActiveServiceIndex((prev) => (prev + 1) % premiumServices.length)
   }
@@ -480,7 +487,7 @@ const displayedCollections = isDesktop
     : travelCollections.slice(0, 7)
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className=" bg-background">
       {/* Skip to main content link for accessibility */}
       <a
         href="#main-form"
@@ -490,10 +497,18 @@ const displayedCollections = isDesktop
       </a>
 
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] sm:min-h-screen flex items-center" aria-labelledby="hero-heading">
+      <section
+        className="relative min-h-[70vh] sm:min-h-[80vh] flex items-center"
+        aria-labelledby="hero-heading"
+      >
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <img src="/luxury-travel-destination-mountains-sunset.jpg" alt="" className="w-full h-full object-cover" aria-hidden="true" />
+          <img
+            src="/luxury-travel-destination-mountains-sunset.jpg"
+            alt=""
+            className="w-full h-full object-cover"
+            aria-hidden="true"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-slate-900/50" />
         </div>
 
@@ -510,33 +525,54 @@ const displayedCollections = isDesktop
   mb-4 sm:mb-3"
               >
                 {t.hero.title.split(" ").slice(0, 1).join(" ")}{" "}
-                <span className="text-amber-400">{t.hero.title.split(" ").slice(1, 2).join(" ")}</span>{" "}
+                <span className="text-amber-400">
+                  {t.hero.title.split(" ").slice(1, 2).join(" ")}
+                </span>{" "}
                 {t.hero.title.split(" ").slice(2).join(" ")}
               </h1>
-              <p className="text-lg sm:text-xl text-white/80 mb-6 sm:mb-8 max-w-xl text-pretty">{t.hero.tagline}</p>
+              <p className="text-lg sm:text-xl text-white/80 mb-6 sm:mb-8 max-w-xl text-pretty">
+                {t.hero.tagline}
+              </p>
 
               {/* Trust Badges */}
-              <div className="flex flex-wrap gap-3 sm:gap-4" role="list" aria-label="Trust badges">
+              <div
+                className="flex flex-wrap gap-3 sm:gap-4"
+                role="list"
+                aria-label="Trust badges"
+              >
                 <div
                   className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2"
                   role="listitem"
                 >
-                  <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400" aria-hidden="true" />
-                  <span className="text-xs sm:text-sm">15+ Years Experience</span>
+                  <Shield
+                    className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400"
+                    aria-hidden="true"
+                  />
+                  <span className="text-xs sm:text-sm">
+                    15+ Years Experience
+                  </span>
                 </div>
                 <div
                   className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2"
                   role="listitem"
                 >
-                  <Star className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400 fill-amber-400" aria-hidden="true" />
+                  <Star
+                    className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400 fill-amber-400"
+                    aria-hidden="true"
+                  />
                   <span className="text-xs sm:text-sm">4.9/5 Rating</span>
                 </div>
                 <div
                   className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2"
                   role="listitem"
                 >
-                  <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400" aria-hidden="true" />
-                  <span className="text-xs sm:text-sm">10,000+ Happy Travelers</span>
+                  <Heart
+                    className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400"
+                    aria-hidden="true"
+                  />
+                  <span className="text-xs sm:text-sm">
+                    10,000+ Happy Travelers
+                  </span>
                 </div>
               </div>
             </div>
@@ -548,8 +584,12 @@ const displayedCollections = isDesktop
             >
               <CardContent className="p-5 sm:p-6 lg:p-8">
                 <div className="text-center mb-5 sm:mb-6 sm:mt-0.5">
-                  <h2 className="font-serif text-xl sm:text-2xl font-bold text-foreground mb-2">{t.hero.subtitle}</h2>
-                  <p className="text-sm text-muted-foreground">Get personalized quotes within 24 hours</p>
+                  <h2 className="font-serif text-xl sm:text-2xl font-bold text-foreground mb-2">
+                    {t.hero.subtitle}
+                  </h2>
+                  <p className="text-sm text-muted-foreground">
+                    Get personalized quotes within 24 hours
+                  </p>
                 </div>
 
                 <form onSubmit={handleFormSubmit} className="space-y-4">
@@ -562,7 +602,9 @@ const displayedCollections = isDesktop
                       type="text"
                       placeholder="John Doe"
                       value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      onChange={(e) =>
+                        setFormData({ ...formData, name: e.target.value })
+                      }
                       required
                       className="h-11"
                       aria-required="true"
@@ -578,7 +620,9 @@ const displayedCollections = isDesktop
                       type="tel"
                       placeholder="+91 98765 43210"
                       value={formData.phone}
-                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                      onChange={(e) =>
+                        setFormData({ ...formData, phone: e.target.value })
+                      }
                       required
                       className="h-11"
                       aria-required="true"
@@ -594,7 +638,9 @@ const displayedCollections = isDesktop
                       type="tel"
                       placeholder="johndoe@exmaple.com"
                       value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      onChange={(e) =>
+                        setFormData({ ...formData, email: e.target.value })
+                      }
                       required
                       className="h-11"
                       aria-required="true"
@@ -602,31 +648,51 @@ const displayedCollections = isDesktop
                   </div>
 
                   <div className="space-y-1.5">
-                    <Label htmlFor="lp-destination" className="text-sm font-medium">
-                      {t.form.destination} <span className="text-destructive">*</span>
+                    <Label
+                      htmlFor="lp-destination"
+                      className="text-sm font-medium"
+                    >
+                      {t.form.destination}{" "}
+                      <span className="text-destructive">*</span>
                     </Label>
                     <Select
                       value={formData.destination}
-                      onValueChange={(value) => setFormData({ ...formData, destination: value })}
+                      onValueChange={(value) =>
+                        setFormData({ ...formData, destination: value })
+                      }
                       required
                     >
-                      <SelectTrigger id="lp-destination" className="h-11" aria-required="true">
+                      <SelectTrigger
+                        id="lp-destination"
+                        className="h-11"
+                        aria-required="true"
+                      >
                         <SelectValue placeholder="Select a destination" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="all-goa-one-day">ALL GOA IN ONE DAY</SelectItem>
-                        <SelectItem value="palolem-cola-dolphin">PALOLEM COLA - DOLPHIN</SelectItem>
-                        <SelectItem value="mumbai-one-day">MUMBAI 1 DAY</SelectItem>
-                        <SelectItem value="taj-mahal-1n2d">TAJ MAHAL 1N2D</SelectItem>
-                        <SelectItem value="hampi-badami-1n2d">HAMPI BADAMI 1N2D</SelectItem>
+                        <SelectItem value="all-goa-one-day">
+                          ALL GOA IN ONE DAY
+                        </SelectItem>
+                        <SelectItem value="palolem-cola-dolphin">
+                          PALOLEM COLA - DOLPHIN
+                        </SelectItem>
+                        <SelectItem value="mumbai-one-day">
+                          MUMBAI 1 DAY
+                        </SelectItem>
+                        <SelectItem value="taj-mahal-1n2d">
+                          TAJ MAHAL 1N2D
+                        </SelectItem>
+                        <SelectItem value="hampi-badami-1n2d">
+                          HAMPI BADAMI 1N2D
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
 
-                 <Button
-  type="submit"
-  disabled={isSubmitting}
-  className="
+                  <Button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="
     w-full h-12 text-base font-semibold
     bg-primary text-primary-foreground
     hover:bg-primary/90 focus:bg-primary/90
@@ -634,32 +700,31 @@ const displayedCollections = isDesktop
     disabled:opacity-60 disabled:cursor-not-allowed
     flex items-center justify-center gap-2
   "
-  aria-label="Get free travel quote"
-  aria-busy={isSubmitting}
->
-  {isSubmitting ? (
-    <>
-      <span className="animate-spin h-4 w-4 rounded-full border-2 border-white/40 border-t-white" />
-      Sending…
-    </>
-  ) : (
-    <>
-      {t.hero.cta}
-      <ArrowRight className="w-4 h-4" aria-hidden="true" />
-    </>
-  )}
-</Button>
+                    aria-label="Get free travel quote"
+                    aria-busy={isSubmitting}
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <span className="animate-spin h-4 w-4 rounded-full border-2 border-white/40 border-t-white" />
+                        Sending…
+                      </>
+                    ) : (
+                      <>
+                        {t.hero.cta}
+                        <ArrowRight className="w-4 h-4" aria-hidden="true" />
+                      </>
+                    )}
+                  </Button>
 
-<p className="text-xs text-muted-foreground text-center mt-3">
-  {t.form.privacyNote}{" "}
-  <Link
-    href="/privacy"
-    className="text-primary hover:underline focus:underline"
-  >
-    {t.form.privacyPolicy}
-  </Link>
-</p>
-
+                  <p className="text-xs text-muted-foreground text-center mt-3">
+                    {t.form.privacyNote}{" "}
+                    <Link
+                      href="/privacy"
+                      className="text-primary hover:underline focus:underline"
+                    >
+                      {t.form.privacyPolicy}
+                    </Link>
+                  </p>
                 </form>
               </CardContent>
             </Card>
@@ -667,9 +732,9 @@ const displayedCollections = isDesktop
         </div>
 
         {/* Scroll indicator */}
-<div
-  aria-hidden="true"
-  className="
+        <div
+          aria-hidden="true"
+          className="
     absolute
     left-1/2 -translate-x-1/2
     bottom-10 sm:bottom-8
@@ -677,9 +742,9 @@ const displayedCollections = isDesktop
     lg:bottom-8
     pointer-events-none
   "
->
-  <div
-    className="
+        >
+          <div
+            className="
       relative
       w-9 h-14
       rounded-full
@@ -689,22 +754,27 @@ const displayedCollections = isDesktop
       p-2
       animate-pulse
     "
-  >
-    <span
-      className="
+          >
+            <span
+              className="
         block
         w-1 h-3
         rounded-full
         bg-white/80
         animate-[scroll_1.6s_ease-in-out_infinite]
       "
-    />
-  </div>
-</div>
-
+            />
+          </div>
+        </div>
       </section>
 
-      <OfferBanner mode="inline" />
+      <OfferBanner
+        offerText="Free Airport Pickup With Every Tour"
+        linkText="Book Now"
+        linkHref="/book-tour"
+        daysUntilExpiry={1}
+        mode="sticky"
+      />
 
       {/* Signature Experiences Section */}
       <section
@@ -713,164 +783,229 @@ const displayedCollections = isDesktop
       >
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12">
-      <h2
-  id="experiences-heading"
-  className="relative font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4 pb-3"
->
-  {t.experiences.title}
+            <h2
+              id="experiences-heading"
+              className="relative font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4 pb-3"
+            >
+              {t.experiences.title}
 
-  <span
-    aria-hidden="true"
-    className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
+              <span
+                aria-hidden="true"
+                className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
                bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
-  />
-</h2>
+              />
+            </h2>
 
             <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
               {t.experiences.subtitle}
             </p>
           </div>
 
-          {/* Carousel */}
-          <div className="relative">
+          {/* Mobile: Column Layout */}
+          <div className="flex flex-col gap-6 sm:hidden">
+            {signatureExperiences.map((exp) => (
+              <div key={exp.id} role="listitem">
+                <div
+                  className="
+                    relative h-[320px] rounded-[15px] overflow-hidden
+                    bg-white shadow-lg
+                    transition-all duration-500 ease-out
+                    active:-translate-y-2.5 active:shadow-2xl
+                    group cursor-pointer
+                  "
+                >
+                  {/* Image */}
+                  <img
+                    src={exp.imageUrl}
+                    alt={`${exp.title} travel destination`}
+                    className="
+                      w-full h-full object-cover
+                      transition-transform duration-700 ease-out
+                      group-active:scale-110
+                    "
+                  />
+
+                  {/* Gradient overlay */}
+                  <div
+                    aria-hidden="true"
+                    className="
+                      absolute inset-0 z-10
+                      bg-gradient-to-t
+                      from-black/80 via-black/40 to-transparent
+                    "
+                  />
+
+                  {/* Content */}
+                  <div className="absolute bottom-0 left-0 w-full p-5 z-20 text-white">
+                    {/* Title */}
+                    <h3 className="font-serif text-[1.15rem] leading-tight mb-1">
+                      {exp.title}
+                    </h3>
+
+                    {/* Details */}
+                    <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[0.75rem] opacity-90 mb-2">
+                      <span className="flex items-center gap-1">
+                        <Clock className="w-3.5 h-3.5" />
+                        {exp.duration}
+                      </span>
+
+                      {exp.highlight && (
+                        <span className="flex items-center gap-1">
+                          <Sparkles className="w-3.5 h-3.5" />
+                          {exp.highlight}
+                        </span>
+                      )}
+
+                      <span className="flex items-center gap-1 bg-white/20 px-2 py-[2px] rounded-full text-[0.8rem] border border-white/30">
+                        {exp.price}
+                      </span>
+                    </div>
+
+                    {/* Description */}
+                    <p className="text-white/90 text-[0.8rem] leading-snug line-clamp-2 mb-3">
+                      {exp.description}
+                    </p>
+
+                    {/* Button */}
+                    <a
+                      href={exp.link}
+                      className="
+                        inline-flex items-center gap-2
+                        px-4 py-2 rounded-full
+                        text-[0.85rem] font-semibold
+                        bg-white/20 backdrop-blur-md
+                        border border-white/30
+                        transition-all duration-300
+                        active:bg-white active:text-slate-900
+                        active:translate-x-1
+                      "
+                      aria-label={`Explore ${exp.title}`}
+                    >
+                      {t.experiences.explore}
+                      <ArrowRight className="w-4 h-4" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Desktop/Tablet: Carousel */}
+          <div className="relative hidden sm:block">
             <Button
               variant="outline"
               size="icon"
               onClick={() => scrollExperiences("left")}
-              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg hover:bg-gray-50 focus:bg-gray-50 hidden sm:flex"
+              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg hover:bg-gray-50 focus:bg-gray-50"
               aria-label="Previous experiences"
             >
               <ChevronLeft className="w-5 h-5" aria-hidden="true" />
             </Button>
+
             <div
               ref={experiencesRef}
-           className="
-  flex gap-6 sm:gap-8
-  overflow-x-auto scrollbar-hide
-  snap-x snap-mandatory
-  pb-6
-  px-4 sm:px-6 lg:px-8
-"
-
+              className="
+                flex gap-6 sm:gap-8
+                overflow-x-auto scrollbar-hide
+                snap-x snap-mandatory
+                pb-6
+                px-6 lg:px-8
+              "
               role="list"
               aria-label="Signature travel experiences"
             >
               {signatureExperiences.map((exp) => (
-<div
-  key={exp.id}
-  className="flex-shrink-0 w-[260px] sm:w-[300px] lg:w-[340px] snap-start "
-  role="listitem"
->
-  <div
-    className="
-      relative h-[320px] rounded-[15px] overflow-hidden
-      bg-white shadow-lg
-      transition-all duration-500 ease-out
-      hover:-translate-y-2.5 hover:shadow-2xl
-      focus:-translate-y-2.5
-      focus:shadow-2xl
-      group cursor-pointer
-    "
-  >
-    {/* Image */}
-    <img
-      src={exp.imageUrl}
-      alt={`${exp.title} travel destination`}
-      className="
-        w-full h-full object-cover
-        transition-transform duration-700 ease-out
-        group-hover:scale-110
-        group-active:scale-110
-      "
-    />
+                <div
+                  key={exp.id}
+                  className="flex-shrink-0 w-[300px] lg:w-[340px] snap-start"
+                  role="listitem"
+                >
+                  <div
+                    className="
+                      relative h-[320px] rounded-[15px] overflow-hidden
+                      bg-white shadow-lg
+                      transition-all duration-500 ease-out
+                      hover:-translate-y-2.5 hover:shadow-2xl
+                      focus:-translate-y-2.5 focus:shadow-2xl
+                      group cursor-pointer
+                    "
+                  >
+                    {/* Image */}
+                    <img
+                      src={exp.imageUrl}
+                      alt={`${exp.title} travel destination`}
+                      className="
+                        w-full h-full object-cover
+                        transition-transform duration-700 ease-out
+                        group-hover:scale-110
+                        group-active:scale-110
+                      "
+                    />
 
-    {/* Gradient overlay (matches ::before) */}
-    <div
-      aria-hidden="true"
-      className="
-        absolute inset-0 z-10
-        bg-gradient-to-t
-        from-black/80 via-black/40 to-transparent
-      "
-    />
+                    {/* Gradient overlay */}
+                    <div
+                      aria-hidden="true"
+                      className="
+                        absolute inset-0 z-10
+                        bg-gradient-to-t
+                        from-black/80 via-black/40 to-transparent
+                      "
+                    />
 
-    {/* Content */}
-    <div className="absolute bottom-0 left-0 w-full p-5 z-20 text-white">
-      {/* Title */}
-      <h3
-        className="
-          font-serif text-[1.15rem] sm:text-[1.3rem]
-          leading-tight mb-1
-        "
-      >
-        {exp.title}
-      </h3>
+                    {/* Content */}
+                    <div className="absolute bottom-0 left-0 w-full p-5 z-20 text-white">
+                      {/* Title */}
+                      <h3 className="font-serif text-[1.15rem] sm:text-[1.3rem] leading-tight mb-1">
+                        {exp.title}
+                      </h3>
 
-      {/* Details */}
-      <div
-        className="
-          flex flex-wrap items-center gap-x-3 gap-y-1
-          text-[0.75rem] opacity-90 mb-2
-        "
-      >
-        <span className="flex items-center gap-1">
-          <Clock className="w-3.5 h-3.5" />
-          {exp.duration}
-        </span>
+                      {/* Details */}
+                      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[0.75rem] opacity-90 mb-2">
+                        <span className="flex items-center gap-1">
+                          <Clock className="w-3.5 h-3.5" />
+                          {exp.duration}
+                        </span>
 
-        {exp.highlight && (
-          <span className="flex items-center gap-1">
-            <Sparkles className="w-3.5 h-3.5" />
-            {exp.highlight}
-          </span>
-        )}
+                        {exp.highlight && (
+                          <span className="flex items-center gap-1">
+                            <Sparkles className="w-3.5 h-3.5" />
+                            {exp.highlight}
+                          </span>
+                        )}
 
-        <span
-          className="
-            flex items-center gap-1
-            bg-white/20 px-2 py-[2px]
-            rounded-full text-[0.8rem]
-            border border-white/30
-          "
-        >
-          ${exp.price}
-        </span>
-      </div>
+                        <span className="flex items-center gap-1 bg-white/20 px-2 py-[2px] rounded-full text-[0.8rem] border border-white/30">
+                          {exp.price}
+                        </span>
+                      </div>
 
-      {/* Description */}
-      <p
-        className="
-          text-white/90 text-[0.8rem] leading-snug
-          line-clamp-2 mb-3
-        "
-      >
-        {exp.description}
-      </p>
+                      {/* Description */}
+                      <p className="text-white/90 text-[0.8rem] leading-snug line-clamp-2 mb-3">
+                        {exp.description}
+                      </p>
 
-      {/* Button */}
-      <a
-        href={exp.link}
-        className="
-          inline-flex items-center gap-2
-          px-4 py-2 rounded-full
-          text-[0.85rem] font-semibold
-          bg-white/20 backdrop-blur-md
-          border border-white/30
-          transition-all duration-300
-          hover:bg-white hover:text-slate-900
-          hover:translate-x-1
-           focus:bg-white focus:text-slate-900
-          focus:translate-x-1
-        "
-        aria-label={`Explore ${exp.title}`}
-      >
-        {t.experiences.explore}
-        <ArrowRight className="w-4 h-4" />
-      </a>
-    </div>
-  </div>
-</div>
-
+                      {/* Button */}
+                      <a
+                        href={exp.link}
+                        className="
+                          inline-flex items-center gap-2
+                          px-4 py-2 rounded-full
+                          text-[0.85rem] font-semibold
+                          bg-white/20 backdrop-blur-md
+                          border border-white/30
+                          transition-all duration-300
+                          hover:bg-white hover:text-slate-900
+                          hover:translate-x-1
+                          focus:bg-white focus:text-slate-900
+                          focus:translate-x-1
+                        "
+                        aria-label={`Explore ${exp.title}`}
+                      >
+                        {t.experiences.explore}
+                        <ArrowRight className="w-4 h-4" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
               ))}
             </div>
 
@@ -878,7 +1013,7 @@ const displayedCollections = isDesktop
               variant="outline"
               size="icon"
               onClick={() => scrollExperiences("right")}
-              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg hover:bg-gray-50 active:bg-gray-50 hidden sm:flex"
+              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg hover:bg-gray-50 active:bg-gray-50"
               aria-label="Next experiences"
             >
               <ChevronRight className="w-5 h-5" aria-hidden="true" />
@@ -887,22 +1022,24 @@ const displayedCollections = isDesktop
         </div>
       </section>
 
-      {/* Curated Travel Collections - Shows 7 collections with View More on mobile */}
-      <section className=" relative py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-[#111827] to-[#1f2937]" aria-labelledby="collections-heading">
+      {/* Curated Travel Collections - Shows 8 collections with View More */}
+      <section
+        className="relative py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-[#111827] to-[#1f2937]"
+        aria-labelledby="collections-heading"
+      >
         <div
-  aria-hidden="true"
-  className="pointer-events-none absolute inset-0 z-0 opacity-100"
-  style={{
-    backgroundImage:
-      "url(\"data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%230d9488' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E\")",
-  }}
-/>
-<div className="relative z-10 container mx-auto px-4">
-        <div className="container mx-auto px-4">
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 z-0 opacity-100"
+          style={{
+            backgroundImage:
+              "url(\"data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%230d9488' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E\")",
+          }}
+        />
+        <div className="relative z-10 container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12">
             <h2
               id="collections-heading"
-              className="font-serif text-white text-2xl sm:text-3xl lg:text-4xl font-bold  mb-3 sm:mb-4"
+              className="font-serif text-white text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4"
             >
               {t.collections.title}
             </h2>
@@ -911,220 +1048,346 @@ const displayedCollections = isDesktop
             </p>
           </div>
 
-          <div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6"
-            role="list"
-            aria-label="Travel package collections"
-          >
-            {displayedCollections.map((tour) => (
-                <TourCard
-              key={tour.id}
-              imageUrl={tour.imageUrl}
-              title={tour.title}
-              price={tour.price}
-              duration={tour.duration}
-              description={tour.description}
-              features={tour.tags}
-              href={tour.link}
-              category={tour.category}
-            />
-            ))}
+          {/* Mobile: Carousel with Swipe */}
+          <div className="md:hidden">
+            <div
+              ref={collectionsRef}
+              className="flex gap-4 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-2"
+              role="list"
+              aria-label="Travel package collections"
+            >
+              {(showAllCollections
+                ? displayedCollections
+                : displayedCollections.slice(0, 6)
+              ).map((tour) => (
+                <div
+                  key={tour.id}
+                  className="flex-shrink-0 w-[85vw] max-w-[340px] snap-start"
+                  role="listitem"
+                >
+                  <TourCard
+                    imageUrl={tour.imageUrl}
+                    title={tour.title}
+                    price={tour.price}
+                    duration={tour.duration}
+                    description={tour.description}
+                    features={tour.tags}
+                    href={tour.link}
+                    category={tour.category}
+                  />
+                </div>
+              ))}
+
+              {/* View More/Less Card at the end */}
+              {displayedCollections.length > 6 && (
+                <div className="flex-shrink-0 w-[85vw] max-w-[340px] snap-start">
+                  <div className="h-full min-h-[400px] rounded-2xl bg-gradient-to-br from-[#f8d56b]/20 to-[#0d9488]/20 backdrop-blur-sm border-2 border-white/20 flex flex-col items-center justify-center p-8 text-center">
+                    <div className="w-20 h-20 rounded-full bg-white/10 flex items-center justify-center mb-6">
+                      <ArrowRight className="w-10 h-10 text-white" />
+                    </div>
+                    <h3 className="font-serif text-2xl text-white font-bold mb-3">
+                      {showAllCollections ? "That's All!" : "Discover More"}
+                    </h3>
+                    <p className="text-white/80 text-sm mb-6">
+                      {showAllCollections
+                        ? "You've seen all our amazing destinations"
+                        : "Explore our complete collection of amazing destinations"}
+                    </p>
+                    <Button
+                      size="lg"
+                      className="rounded-full px-8 font-semibold bg-white text-slate-900 hover:bg-white/90"
+                      onClick={() => setShowAllCollections(!showAllCollections)}
+                    >
+                      {showAllCollections
+                        ? "Show Less"
+                        : "View All Destinations"}
+                      <ArrowRight
+                        className={`w-4 h-4 ml-2 transition-transform ${
+                          showAllCollections ? "rotate-180" : ""
+                        }`}
+                      />
+                    </Button>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Swipe Indicator */}
+            <div className="flex items-center justify-center gap-2 mt-4 text-white/60 text-sm">
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M7 16l-4-4m0 0l4-4m-4 4h18"
+                />
+              </svg>
+              <span>Swipe to explore more</span>
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </div>
           </div>
 
-          <div className="mt-6 sm:mt-8 text-center md:hidden">
-            <Button
-              variant="outline"
-              size="lg"
-              className="rounded-full px-8 font-semibold bg-transparent text-white"
-              onClick={() => setShowAllCollections(!showAllCollections)}
-              aria-expanded={showAllCollections}
-              aria-controls="collections-grid"
+          {/* Desktop: Grid - 4 columns, shows 8 cards */}
+          <div className="hidden md:block">
+            <div
+              className="grid grid-cols-2 lg:grid-cols-4 gap-6"
+              role="list"
+              aria-label="Travel package collections"
             >
-              {showAllCollections ? "Show Less" : "View More Destinations"}
-              <ArrowRight className={`w-4 h-4 ml-2 transition-transform ${showAllCollections ? "rotate-90" : ""}`} />
-            </Button>
+              {(showAllCollections
+                ? displayedCollections
+                : displayedCollections.slice(0, 8)
+              ).map((tour) => (
+                <TourCard
+                  key={tour.id}
+                  imageUrl={tour.imageUrl}
+                  title={tour.title}
+                  price={tour.price}
+                  duration={tour.duration}
+                  description={tour.description}
+                  features={tour.tags}
+                  href={tour.link}
+                  category={tour.category}
+                />
+              ))}
+            </div>
+
+            {displayedCollections.length > 8 && (
+              <div className="mt-8 text-center">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="rounded-full px-8 font-semibold bg-transparent text-white border-white/30 hover:bg-white/10"
+                  onClick={() => setShowAllCollections(!showAllCollections)}
+                  aria-expanded={showAllCollections}
+                >
+                  {showAllCollections ? "Show Less" : "View More Destinations"}
+                  <ArrowRight
+                    className={`w-4 h-4 ml-2 transition-transform ${
+                      showAllCollections ? "rotate-90" : ""
+                    }`}
+                  />
+                </Button>
+              </div>
+            )}
           </div>
-        </div>
         </div>
       </section>
 
-
       {/* Premium Services Section */}
-<section className="py-12 sm:py-16 lg:py-20 bg-white" aria-labelledby="services-heading">
+<section
+        className="py-12 sm:py-16 lg:py-20 bg-white"
+        aria-labelledby="services-heading"
+      >
         <div className="container mx-auto px-4">
-<div className="text-center mb-8 sm:mb-12">
-<h2
-id="services-heading"
-className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4"
->
+          <div className="text-center mb-8 sm:mb-12">
+            <h2
+              id="services-heading"
+              className="relative font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4 pb-3"
+            >
               {t.premiumServices.title}
-<span
-aria-hidden="true"
-className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
+              <span
+                aria-hidden="true"
+                className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
                bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
-/>
-</h2>
-<p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
+              />
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
               {t.premiumServices.subtitle}
-</p>
-</div>
+            </p>
+          </div>
           {/* Services Carousel */}
-<div className="relative max-w-4xl mx-auto">
-<div className="flex items-center justify-center gap-2 sm:gap-4">
-<Button
-variant="outline"
-size="icon"
-onClick={prevService}
-className="shrink-0 rounded-full bg-white shadow-md hover:shadow-lg focus:shadow-lg hidden sm:flex"
-aria-label="Previous service"
->
-<ChevronLeft className="w-5 h-5" aria-hidden="true" />
-</Button>
-<Card
-key={activeServiceIndex}
-className="
-    flex-1 max-w-[500px] mx-auto
-    w-full
-    h-[480px] sm:h-[450px]
-    flex flex-col items-center text-center
-    p-6 sm:p-8
-    bg-white
-    rounded-2xl
-    shadow-lg
-    transition-all duration-500 ease-out
-    hover:-translate-y-2 hover:shadow-2xl
-    focus:-translate-y-2 focus:shadow-2xl
-  "
->
-<CardContent className="p-0 flex flex-col h-full w-full justify-between">
-    {/* Icon - Fixed positioning */}
-<div className="flex justify-center mb-5">
-<div
-className="
-          w-16 h-16 sm:w-20 sm:h-20
-          rounded-full
-          flex items-center justify-center
-          text-white
-          bg-gradient-to-br from-[#0d9488] to-[#14b8a6]
-          shadow-[0_8px_20px_rgba(13,148,136,0.25)]
-        "
->
-        {(() => {
-const IconComponent = premiumServices[activeServiceIndex].icon
-return <IconComponent className="w-8 h-8 sm:w-9 sm:h-9" aria-hidden="true" />
-        })()}
-</div>
-</div>
-    {/* Title - Fixed height */}
-<h3
-className="
-        font-serif text-xl sm:text-[1.4rem]
-        font-bold text-slate-900
-        leading-tight
-        mb-4
-        h-[60px] sm:h-[70px]
-        flex items-center justify-center
-        px-2
-      "
->
-      {premiumServices[activeServiceIndex].title}
-</h3>
-    {/* Description - Fixed height with scrollable overflow */}
-<div className="flex-1 mb-6 overflow-y-auto px-2">
-<p
-className="
-          text-slate-600
-          text-sm sm:text-base
-          leading-relaxed
-        "
->
-        {premiumServices[activeServiceIndex].description}
-</p>
-</div>
-    {/* CTA - Fixed at bottom */}
-<Button
-className="
-        w-full
-        bg-gradient-to-r from-[#0d9488] to-[#14b8a6]
-        hover:from-[#f8d56b] hover:to-[#facc15]
-        hover:text-slate-900
-        focus:from-[#f8d56b] focus:to-[#facc15]
-        focus:text-slate-900
-        text-white
-        font-semibold
-        py-2.5 sm:py-3 rounded-lg
-        transition-all duration-300
-        hover:-translate-y-1
-        focus:-translate-y-1
-        flex items-center justify-center gap-2
-      "
-aria-label={`Learn more about ${premiumServices[activeServiceIndex].title}`}
->
-<Link
-href={premiumServices[activeServiceIndex].link}
-className="flex items-center gap-2"
->
-          Explore
-<ArrowRight className="w-4 h-4" />
-</Link>
-</Button>
-</CardContent>
-</Card>
+          <div className="relative max-w-4xl mx-auto">
+            <div className="flex items-center justify-center gap-2 sm:gap-4">
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={prevService}
+                className="shrink-0 rounded-full bg-white shadow-md hover:shadow-lg focus:shadow-lg hidden sm:flex"
+                aria-label="Previous service"
+              >
+                <ChevronLeft className="w-5 h-5" aria-hidden="true" />
+              </Button>
+              <Card
+                key={activeServiceIndex}
+                className="
+                  flex-1 max-w-[500px] mx-auto
+                  w-full
+                  h-[480px] sm:h-[450px]
+                  flex flex-col items-center text-center
+                  p-6 sm:p-8
+                  bg-white
+                  rounded-2xl
+                  shadow-lg
+                  transition-all duration-500 ease-out
+                  hover:-translate-y-2 hover:shadow-2xl
+                  focus:-translate-y-2 focus:shadow-2xl
+                "
+              >
+                <CardContent className="p-0 flex flex-col h-full w-full justify-between">
+                  {/* Icon - Fixed positioning */}
+                  <div className="flex justify-center mb-5">
+                    <div
+                      className="
+                        w-16 h-16 sm:w-20 sm:h-20
+                        rounded-full
+                        flex items-center justify-center
+                        text-white
+                        bg-gradient-to-br from-[#0d9488] to-[#14b8a6]
+                        shadow-[0_8px_20px_rgba(13,148,136,0.25)]
+                      "
+                    >
+                      {(() => {
+                        const IconComponent =
+                          premiumServices[activeServiceIndex].icon;
+                        return (
+                          <IconComponent
+                            className="w-8 h-8 sm:w-9 sm:h-9"
+                            aria-hidden="true"
+                          />
+                        );
+                      })()}
+                    </div>
+                  </div>
+                  {/* Title - Fixed height */}
+                  <h3
+                    className="
+                      font-serif text-xl sm:text-[1.4rem]
+                      font-bold text-slate-900
+                      leading-tight
+                      mb-4
+                      h-[60px] sm:h-[70px]
+                      flex items-center justify-center
+                      px-2
+                    "
+                  >
+                    {premiumServices[activeServiceIndex].title}
+                  </h3>
+                  {/* Description - Fixed height with scrollable overflow */}
+                  <div className="flex-1 mb-6 overflow-y-auto px-2">
+                    <p
+                      className="
+                        text-slate-600
+                        text-sm sm:text-base
+                        leading-relaxed
+                      "
+                    >
+                      {premiumServices[activeServiceIndex].description}
+                    </p>
+                  </div>
+                  {/* CTA - Fixed at bottom */}
+                  <Button
+                    className="
+                      w-full
+                      bg-gradient-to-r from-[#0d9488] to-[#14b8a6]
+                      hover:from-[#f8d56b] hover:to-[#facc15]
+                      hover:text-slate-900
+                      focus:from-[#f8d56b] focus:to-[#facc15]
+                      focus:text-slate-900
+                      text-white
+                      font-semibold
+                      py-2.5 sm:py-3 rounded-lg
+                      transition-all duration-300
+                      hover:-translate-y-1
+                      focus:-translate-y-1
+                      flex items-center justify-center gap-2
+                    "
+                    aria-label={`Learn more about ${premiumServices[activeServiceIndex].title}`}
+                    asChild
+                  >
+                    <Link
+                      href={premiumServices[activeServiceIndex].link}
+                      className="flex items-center gap-2"
+                    >
+                      Explore
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  </Button>
+                </CardContent>
+              </Card>
 
               <Button
                 variant="outline"
                 size="icon"
                 onClick={nextService}
-                className="shrink-0 rounded-full bg-transparent hidden  "
+                className="shrink-0 rounded-full bg-white shadow-md hover:shadow-lg focus:shadow-lg hidden sm:flex"
                 aria-label="Next service"
               >
                 <ChevronRight className="w-5 h-5" aria-hidden="true" />
               </Button>
-</div>
-  {/* Mobile navigation buttons */}
-<div className="flex justify-center gap-4 mt-4 sm:hidden">
-              <Button variant="outline" size="icon" onClick={prevService} className="rounded-full bg-transparent">
+            </div>
+            {/* Mobile navigation buttons */}
+            <div className="flex justify-center gap-4 mt-4 sm:hidden">
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={prevService}
+                className="rounded-full bg-white shadow-md"
+                aria-label="Previous service"
+              >
                 <ChevronLeft className="w-5 h-5" />
               </Button>
-              <Button variant="outline" size="icon" onClick={nextService} className="rounded-full bg-transparent">
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={nextService}
+                className="rounded-full bg-white shadow-md"
+                aria-label="Next service"
+              >
                 <ChevronRight className="w-5 h-5" />
               </Button>
-  </div>
+            </div>
             {/* Service pagination dots */}
-           <div
-  className="flex justify-center gap-2 mt-6"
-  role="tablist"
-  aria-label="Testimonials pagination"
->
-  {testimonials.map((_, index) => {
-    const isActive = index === activeTestimonialIndex
+            <div
+              className="flex justify-center gap-2 mt-6"
+              role="tablist"
+              aria-label="Services pagination"
+            >
+              {premiumServices.map((_, index) => {
+                const isActive = index === activeServiceIndex;
 
-    return (
-      <button
-        key={index}
-        onClick={() => setActiveTestimonialIndex(index)}
-        role="tab"
-        aria-selected={isActive}
-        aria-label={`View testimonial ${index + 1}`}
-        className={`
-          rounded-full transition-all
-          h-1.5 w-1.5 sm:h-2.5 sm:w-2.5
-          ${isActive
-            ? "bg-primary sm:w-6"
-            : "bg-gray-300 hover:bg-gray-400"
-          }
-        `}
-      />
-    )
-  })}
-</div>
-
+                return (
+                  <button
+                    key={index}
+                    onClick={() => setActiveServiceIndex(index)}
+                    role="tab"
+                    aria-selected={isActive}
+                    aria-label={`View service ${index + 1}`}
+                    className={`
+                      rounded-full transition-all
+                      h-1.5 w-1.5 sm:h-2.5 sm:w-2.5
+                      ${isActive ? "bg-primary sm:w-6" : "bg-gray-300 hover:bg-gray-400"}
+                    `}
+                  />
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-slate-50" aria-labelledby="testimonials-heading">
+      <section
+        className="py-12 sm:py-16 lg:py-20 bg-slate-50"
+        aria-labelledby="testimonials-heading"
+      >
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12">
             <h2
@@ -1132,11 +1395,11 @@ className="flex items-center gap-2"
               className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4"
             >
               {t.testimonials.title}
-               <span
-    aria-hidden="true"
-    className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
+              <span
+                aria-hidden="true"
+                className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
                bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
-  />
+              />
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
               {t.testimonials.subtitle}
@@ -1159,14 +1422,24 @@ className="flex items-center gap-2"
               <Card className="flex-1 p-6 sm:p-8 lg:p-10 text-center">
                 <CardContent className="p-0">
                   {/* Star Rating */}
-                  <div className="flex justify-center gap-1 mb-4" aria-label={`5 out of 5 stars`}>
+                  <div
+                    className="flex justify-center gap-1 mb-4"
+                    aria-label={`5 out of 5 stars`}
+                  >
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-yellow-500 fill-yellow-500" aria-hidden="true" />
+                      <Star
+                        key={i}
+                        className="w-5 h-5 text-yellow-500 fill-yellow-500"
+                        aria-hidden="true"
+                      />
                     ))}
                   </div>
 
                   {/* Quote */}
-                  <Quote className="w-10 h-10 text-primary/20 mx-auto mb-4" aria-hidden="true" />
+                  <Quote
+                    className="w-10 h-10 text-primary/20 mx-auto mb-4"
+                    aria-hidden="true"
+                  />
 
                   <blockquote className="text-foreground text-base sm:text-lg italic mb-6 text-pretty">
                     "{testimonials[activeTestimonialIndex].text}"
@@ -1174,7 +1447,6 @@ className="flex items-center gap-2"
 
                   {/* Author */}
                   <div className="flex flex-col items-center">
-             
                     <cite className="not-italic">
                       <span className="font-semibold text-foreground block">
                         {testimonials[activeTestimonialIndex].name}
@@ -1200,173 +1472,153 @@ className="flex items-center gap-2"
 
             {/* Mobile navigation buttons */}
             <div className="flex justify-center gap-4 mt-4 sm:hidden">
-              <Button variant="outline" size="icon" onClick={prevTestimonial} className="rounded-full bg-transparent">
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={prevTestimonial}
+                className="rounded-full bg-transparent"
+              >
                 <ChevronLeft className="w-5 h-5" />
               </Button>
-              <Button variant="outline" size="icon" onClick={nextTestimonial} className="rounded-full bg-transparent">
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={nextTestimonial}
+                className="rounded-full bg-transparent"
+              >
                 <ChevronRight className="w-5 h-5" />
               </Button>
             </div>
 
             {/* Testimonial pagination dots */}
             <div
-  className="flex justify-center gap-2 mt-6"
-  role="tablist"
-  aria-label="Testimonials pagination"
->
-  {testimonials.map((_, index) => {
-    const isActive = index === activeTestimonialIndex
+              className="flex justify-center gap-2 mt-6"
+              role="tablist"
+              aria-label="Testimonials pagination"
+            >
+              {testimonials.map((_, index) => {
+                const isActive = index === activeTestimonialIndex;
 
-    return (
-      <button
-        key={index}
-        onClick={() => setActiveTestimonialIndex(index)}
-        role="tab"
-        aria-selected={isActive}
-        aria-label={`View testimonial ${index + 1}`}
-        className={`
+                return (
+                  <button
+                    key={index}
+                    onClick={() => setActiveTestimonialIndex(index)}
+                    role="tab"
+                    aria-selected={isActive}
+                    aria-label={`View testimonial ${index + 1}`}
+                    className={`
           rounded-full transition-all
           h-1.5 w-1.5 sm:h-2.5 sm:w-2.5
-          ${isActive
-            ? "bg-primary sm:w-6"
-            : "bg-gray-300 hover:bg-gray-400"
-          }
+          ${isActive ? "bg-primary sm:w-6" : "bg-gray-300 hover:bg-gray-400"}
         `}
-      />
-    )
-  })}
-</div>
-
+                  />
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
 
       {/* Travel Memories Gallery */}
-   <section
-  className="py-12 sm:py-16 lg:py-20 bg-white"
-  aria-labelledby="memories-heading"
->
-  <div className="container mx-auto px-4">
-    {/* Header */}
-    <div className="text-center mb-8 sm:mb-12">
-      <h2
-        id="memories-heading"
-        className="relative font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4 pb-3"
+      <section
+        className="py-12 sm:py-16 lg:py-20 bg-white"
+        aria-labelledby="memories-heading"
       >
-        {t.memories.title}
-        <span
-          aria-hidden="true"
-          className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
+        <div className="container mx-auto px-4">
+          {/* Header */}
+          <div className="text-center mb-8 sm:mb-12">
+            <h2
+              id="memories-heading"
+              className="relative font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4 pb-3"
+            >
+              {t.memories.title}
+              <span
+                aria-hidden="true"
+                className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
                      bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
-        />
-      </h2>
+              />
+            </h2>
 
-      <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
-        {t.memories.subtitle}
-      </p>
-    </div>
-    
-  <div
-  className="hidden lg:grid grid-cols-5 gap-4"
-  role="list"
->
-  {travelMemories.map((memory) => (
-    <div
-      key={memory.id}
-      className="aspect-square rounded-xl overflow-hidden group cursor-pointer"
-      role="listitem"
-    >
-      <img
-        src={memory.imageurl}
-        alt={memory.imageQuery}
-        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-      />
-    </div>
-  ))}
-</div>
+            <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
+              {t.memories.subtitle}
+            </p>
+          </div>
 
+          <div className="hidden lg:grid grid-cols-5 gap-4" role="list">
+            {travelMemories.map((memory) => (
+              <div
+                key={memory.id}
+                className="aspect-square rounded-xl overflow-hidden group cursor-pointer"
+                role="listitem"
+              >
+                <img
+                  src={memory.imageurl}
+                  alt={memory.imageQuery}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+            ))}
+          </div>
 
-    {/* Carousel */}
-    <div className="relative max-w-xl mx-auto lg:hidden">
-      <div className="flex items-center gap-4">
-        {/* Prev (desktop) */}
-        <Button
-          variant="outline"
-          size="icon"
-          onClick={prevMemory}
-          className="shrink-0 rounded-full bg-transparent hidden sm:flex"
-          aria-label="Previous memory"
-        >
-          <ChevronLeft className="w-5 h-5" />
-        </Button>
+          {/* Carousel */}
+          <div className="relative max-w-xl mx-auto lg:hidden">
+            <div className="flex items-center gap-4">
+              {/* Prev (desktop) */}
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={prevMemory}
+                className="shrink-0 rounded-full bg-transparent hidden sm:flex"
+                aria-label="Previous memory"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </Button>
 
-        {/* Image */}
-        <div className="flex-1">
-          <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
-            <img
-              src={travelMemories[activeMemoryIndex].imageurl}
-              alt={travelMemories[activeMemoryIndex].imageQuery}
-              className="w-full h-full object-cover transition-transform duration-700"
-            />
+              {/* Image */}
+              <div className="flex-1">
+                <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
+                  <img
+                    src={travelMemories[activeMemoryIndex].imageurl}
+                    alt={travelMemories[activeMemoryIndex].imageQuery}
+                    className="w-full h-full object-cover transition-transform duration-700"
+                  />
+                </div>
+              </div>
+
+              {/* Next (desktop) */}
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={nextMemory}
+                className="shrink-0 rounded-full bg-transparent hidden sm:flex"
+                aria-label="Next memory"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </Button>
+            </div>
+
+            {/* Mobile controls */}
+            <div className="flex justify-center gap-4 mt-4 sm:hidden">
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={prevMemory}
+                className="rounded-full bg-transparent"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </Button>
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={nextMemory}
+                className="rounded-full bg-transparent"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </Button>
+            </div>
           </div>
         </div>
-
-        {/* Next (desktop) */}
-        <Button
-          variant="outline"
-          size="icon"
-          onClick={nextMemory}
-          className="shrink-0 rounded-full bg-transparent hidden sm:flex"
-          aria-label="Next memory"
-        >
-          <ChevronRight className="w-5 h-5" />
-        </Button>
-      </div>
-
-      {/* Mobile controls */}
-      <div className="flex justify-center gap-4 mt-4 sm:hidden">
-        <Button
-          variant="outline"
-          size="icon"
-          onClick={prevMemory}
-          className="rounded-full bg-transparent"
-        >
-          <ChevronLeft className="w-5 h-5" />
-        </Button>
-        <Button
-          variant="outline"
-          size="icon"
-          onClick={nextMemory}
-          className="rounded-full bg-transparent"
-        >
-          <ChevronRight className="w-5 h-5" />
-        </Button>
-      </div>
-
-      {/* Pagination dots */}
-      {/* <div
-        className="flex justify-center gap-2 mt-6"
-        role="tablist"
-        aria-label="Travel memories pagination"
-      >
-        {travelMemories.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setActiveMemoryIndex(index)}
-            className={`h-2.5 rounded-full transition-all ${
-              index === activeMemoryIndex
-                ? "bg-primary w-6"
-                : "bg-gray-300 w-2.5 hover:bg-gray-400 active:bg-gray-400"
-            }`}
-            role="tab"
-            aria-selected={index === activeMemoryIndex}
-            aria-label={`View memory ${index + 1}`}
-          />
-        ))}
-      </div> */}
+      </section>
     </div>
-  </div>
-</section>
-    </div>
-  )
+  );
 }

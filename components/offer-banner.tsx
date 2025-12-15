@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 /**
  * OfferBanner Component
@@ -14,108 +14,120 @@
  * - Can be used inline (below hero) or sticky (top of page)
  */
 
-import { useState, useEffect, useRef } from "react"
-import { X, Clock, Gift } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import { useState, useEffect, useRef } from "react";
+import { X, Clock, Gift } from "lucide-react";
 
 interface TimeLeft {
-  days: number
-  hours: number
-  minutes: number
-  seconds: number
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
 }
 
 interface OfferBannerProps {
   /** Number of days until offer expires (default: 3 days) */
-  daysUntilExpiry?: number
+  daysUntilExpiry?: number;
   /** Main offer text displayed in banner */
-  offerText?: string
+  offerText?: string;
   /** Link destination for CTA button */
-  linkHref?: string
+  linkHref?: string;
   /** Text for CTA button */
-  linkText?: string
+  linkText?: string;
   /** Position mode: 'inline' for below hero, 'sticky' for top of page */
-  mode?: "inline" | "sticky"
+  mode?: "inline" | "sticky";
 }
 
 export function OfferBanner({
   daysUntilExpiry = 3,
-  offerText = "35% OFF Dubai Holiday Packages",
+  offerText = "Free Airport Pickup With Every Tour",
   linkHref = "/luxury-destinations",
   linkText = "Book Now",
-  mode = "inline", // Default to inline mode (below hero)
+  mode = "inline",
 }: OfferBannerProps) {
-  const endDateRef = useRef<number>(Date.now() + daysUntilExpiry * 24 * 60 * 60 * 1000)
+  const endDateRef = useRef<number>(
+    Date.now() + daysUntilExpiry * 24 * 60 * 60 * 1000
+  );
 
-  const [isVisible, setIsVisible] = useState(true)
-  const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 })
-  const [isMounted, setIsMounted] = useState(false)
+  const [isVisible, setIsVisible] = useState(true);
+  const [timeLeft, setTimeLeft] = useState<TimeLeft>({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
+  const [isMounted, setIsMounted] = useState(false);
 
   // Calculate time remaining until offer expires
   useEffect(() => {
-    setIsMounted(true)
+    setIsMounted(true);
 
     // Check if banner was previously dismissed in this session
-    const dismissed = sessionStorage.getItem("offerBannerDismissed")
+    const dismissed = sessionStorage.getItem("offerBannerDismissed");
     if (dismissed) {
-      setIsVisible(false)
-      return
+      setIsVisible(false);
+      return;
     }
 
     const calculateTimeLeft = (): TimeLeft => {
-      const difference = endDateRef.current - Date.now()
+      const difference = endDateRef.current - Date.now();
       if (difference > 0) {
         return {
           days: Math.floor(difference / (1000 * 60 * 60 * 24)),
           hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
           minutes: Math.floor((difference / (1000 * 60)) % 60),
           seconds: Math.floor((difference / 1000) % 60),
-        }
+        };
       }
-      return { days: 0, hours: 0, minutes: 0, seconds: 0 }
-    }
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    };
 
     // Initial calculation
-    setTimeLeft(calculateTimeLeft())
+    setTimeLeft(calculateTimeLeft());
 
     // Update every second
     const timer = setInterval(() => {
-      setTimeLeft(calculateTimeLeft())
-    }, 1000)
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
 
-    return () => clearInterval(timer)
-  }, [])
+    return () => clearInterval(timer);
+  }, []);
 
   // Handle banner dismissal
   const handleDismiss = () => {
-    setIsVisible(false)
-    sessionStorage.setItem("offerBannerDismissed", "true")
-  }
+    setIsVisible(false);
+    sessionStorage.setItem("offerBannerDismissed", "true");
+  };
 
   // Don't render until mounted (prevents hydration mismatch)
-  if (!isMounted) return null
+  if (!isMounted) return null;
 
   // Don't render if dismissed
-  if (!isVisible) return null
+  if (!isVisible) return null;
 
   // Check if offer has expired
-  const isExpired = timeLeft.days === 0 && timeLeft.hours === 0 && timeLeft.minutes === 0 && timeLeft.seconds === 0
-  if (isExpired) return null
+  const isExpired =
+    timeLeft.days === 0 &&
+    timeLeft.hours === 0 &&
+    timeLeft.minutes === 0 &&
+    timeLeft.seconds === 0;
+  if (isExpired) return null;
 
   return (
     <div
       role="banner"
       aria-label="Limited time offer"
-      className={`bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-400 text-amber-950 py-2.5 sm:py-3 px-3 sm:px-4 relative ${
-        mode === "sticky" ? "sticky top-0 z-50" : "z-10"
-      }`}
+      className={`bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-400 text-amber-950 py-2.5 sm:py-3 px-3 sm:px-4 relative `}
     >
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
         {/* Offer Icon & Text */}
         <div className="flex items-center gap-2">
-          <Gift className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 animate-pulse" aria-hidden="true" />
-          <span className="font-bold text-xs sm:text-sm md:text-base text-center">{offerText}</span>
+          <Gift
+            className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 animate-pulse"
+            aria-hidden="true"
+          />
+          <span className="font-bold text-xs sm:text-sm md:text-base text-center">
+            {offerText}
+          </span>
         </div>
 
         {/* Countdown Timer */}
@@ -134,7 +146,9 @@ export function OfferBanner({
               aria-label={`${timeLeft.days} days`}
             >
               {String(timeLeft.days).padStart(2, "0")}
-              <span className="text-[10px] sm:text-xs font-normal ml-0.5">d</span>
+              <span className="text-[10px] sm:text-xs font-normal ml-0.5">
+                d
+              </span>
             </span>
             <span aria-hidden="true" className="font-bold">
               :
@@ -145,7 +159,9 @@ export function OfferBanner({
               aria-label={`${timeLeft.hours} hours`}
             >
               {String(timeLeft.hours).padStart(2, "0")}
-              <span className="text-[10px] sm:text-xs font-normal ml-0.5">h</span>
+              <span className="text-[10px] sm:text-xs font-normal ml-0.5">
+                h
+              </span>
             </span>
             <span aria-hidden="true" className="font-bold">
               :
@@ -156,7 +172,9 @@ export function OfferBanner({
               aria-label={`${timeLeft.minutes} minutes`}
             >
               {String(timeLeft.minutes).padStart(2, "0")}
-              <span className="text-[10px] sm:text-xs font-normal ml-0.5">m</span>
+              <span className="text-[10px] sm:text-xs font-normal ml-0.5">
+                m
+              </span>
             </span>
             <span aria-hidden="true" className="font-bold">
               :
@@ -167,33 +185,34 @@ export function OfferBanner({
               aria-label={`${timeLeft.seconds} seconds`}
             >
               {String(timeLeft.seconds).padStart(2, "0")}
-              <span className="text-[10px] sm:text-xs font-normal ml-0.5">s</span>
+              <span className="text-[10px] sm:text-xs font-normal ml-0.5">
+                s
+              </span>
             </span>
           </div>
         </div>
 
         {/* CTA Button */}
-        <Link href={linkHref}>
-          <Button
-            size="sm"
-            className="bg-amber-950 text-amber-50 hover:bg-amber-900 text-xs sm:text-sm h-8 sm:h-9 px-4 sm:px-5 font-semibold shadow-md"
+        <a href={linkHref}>
+          <button
+            className="bg-amber-950 text-amber-50 hover:bg-amber-900 text-xs sm:text-sm h-8 sm:h-9 px-4 sm:px-5 font-semibold shadow-md rounded-md transition-colors"
             aria-label={`${linkText} - ${offerText}`}
           >
             {linkText}
-          </Button>
-        </Link>
+          </button>
+        </a>
 
         {/* Close/Dismiss Button */}
-        <Button
-          variant="ghost"
-          size="sm"
+        <button
           onClick={handleDismiss}
-          className="absolute right-1 top-1/2 -translate-y-1/2 sm:relative sm:right-auto sm:top-auto sm:translate-y-0 h-7 w-7 p-0 hover:bg-amber-600/20 rounded-full"
+          className="absolute right-1 top-1/2 -translate-y-1/2 sm:relative sm:right-auto sm:top-auto sm:translate-y-0 h-7 w-7 p-0 hover:bg-amber-600/20 rounded-full flex items-center justify-center"
           aria-label="Dismiss offer banner"
         >
           <X className="w-4 h-4" aria-hidden="true" />
-        </Button>
+        </button>
       </div>
     </div>
-  )
+  );
 }
+
+

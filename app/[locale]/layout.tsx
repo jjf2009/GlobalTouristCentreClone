@@ -102,7 +102,7 @@ export default function LocaleLayout({
           <Footer />
 
           {/* Promo popup */}
-          <PromoPopup delayMs={20000} />
+          <PromoPopup />
 
           {/* WhatsApp CTA */}
           <WhatsAppButton
