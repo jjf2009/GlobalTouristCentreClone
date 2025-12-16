@@ -31,7 +31,7 @@ interface PromoPopupProps {
 }
 
 export function PromoPopup({
-  delayMs = 15000,
+  delayMs = 5000,
   title = "Free Airport Transfer",
   description = "Book your tour now and enjoy a FREE airport pickup — safe, reliable, and comfortable.",
   discount = "Limited-Time Offer",
@@ -150,10 +150,25 @@ export function PromoPopup({
                 {/* CTA Button */}
                 <button
                   onClick={() => {
+                    // 1. Scroll to booking form
+                    const form = document.getElementById("main-form");
+                    if (form) {
+                      form.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                      });
+                    }
+
+                    // 2. Existing logic
                     setIsSubmitted(true);
                     setTimeout(handleClose, 2000);
                   }}
-                  className="bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-amber-500 hover:to-yellow-600 text-gray-900 font-bold text-lg sm:text-xl px-10 py-5 rounded-full shadow-2xl transform hover:scale-105 transition-all duration-200 inline-flex items-center gap-3"
+                  className="bg-gradient-to-r from-amber-400 to-yellow-500
+             hover:from-amber-500 hover:to-yellow-600
+             text-gray-900 font-bold text-lg sm:text-xl
+             px-10 py-5 rounded-full shadow-2xl
+             transform hover:scale-105 transition-all duration-200
+             inline-flex items-center gap-3"
                 >
                   Claim Your Free Transfer
                   <ArrowRight className="w-6 h-6" aria-hidden="true" />

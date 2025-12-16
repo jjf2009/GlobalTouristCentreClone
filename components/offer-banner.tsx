@@ -193,7 +193,7 @@ export function OfferBanner({
         </div>
 
         {/* CTA Button */}
-        <a href={linkHref}>
+        <a href="#main-form">
           <button
             className="bg-amber-950 text-amber-50 hover:bg-amber-900 text-xs sm:text-sm h-8 sm:h-9 px-4 sm:px-5 font-semibold shadow-md rounded-md transition-colors"
             aria-label={`${linkText} - ${offerText}`}

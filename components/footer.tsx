@@ -145,7 +145,7 @@ export function Footer() {
           </nav>
 
           {/* Instagram */}
-          <div>
+          <div aria-label="Instagram feed" className="hidden sm:block">
             <h3 className="relative font-serif text-base sm:text-lg font-semibold mb-2 sm:mb-3 pb-1.5 sm:pb-2">
               {t.footer.latestInstagram}
               <span className="absolute bottom-0 left-0 w-8 h-[2px] bg-gradient-to-r from-[#f8d56b] to-transparent" />
@@ -173,29 +173,38 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
-      <div className="border-t border-gray-700">
-        <div className="max-w-7xl mx-auto px-4 py-3 text-xs sm:text-sm text-gray-400 flex flex-col sm:flex-row justify-between gap-2">
-          <p>{t.footer.copyright}</p>
+{/* Bottom Bar */}
+<div className="border-t border-gray-700">
+  <div
+    className="
+      max-w-7xl mx-auto px-4 py-3
+      text-xs sm:text-sm text-gray-400
+      flex flex-col sm:flex-row
+      items-center
+      gap-2 sm:gap-6
+    "
+  >
+    <p>{t.footer.copyright}</p>
 
-          <div className="flex gap-3 sm:gap-4">
-            <Link
-              href="https://globaltouristcentre.com/legal/privacy-policy"
-              className="hover:text-[#f8d56b]"
-            >
-              {t.footer.privacyPolicy}
-            </Link>
-            <Link
-              href="https://globaltouristcentre.com/legal/terms-and-conditions"
-              className="hover:text-[#f8d56b]"
-            >
-              {t.footer.termsConditions}
-            </Link>
-          </div>
+    <div className="flex gap-3 sm:gap-4">
+      <Link
+        href="https://globaltouristcentre.com/legal/privacy-policy"
+        className="hover:text-[#f8d56b]"
+      >
+        {t.footer.privacyPolicy}
+      </Link>
+      <Link
+        href="https://globaltouristcentre.com/legal/terms-and-conditions"
+        className="hover:text-[#f8d56b]"
+      >
+        {t.footer.termsConditions}
+      </Link>
+    </div>
 
-          <p className="hidden lg:block">{t.footer.craftingJourneys}</p>
-        </div>
-      </div>
+    <p className="hidden lg:block">{t.footer.craftingJourneys}</p>
+  </div>
+</div>
+
     </footer>
   );
 }
