@@ -139,7 +139,12 @@ const Hero = () => {
 
   return (
     <section
-      className="relative min-h-[65vh] sm:min-h-[70vh] lg:min-h-[75vh] xl:min-h-[80vh] flex items-center sm:pt-32"
+      className="
+    relative
+    min-h-[65vh] sm:min-h-[70vh] lg:min-h-[75vh] xl:min-h-[80vh]
+    flex items-center
+    pt-28 sm:pt-32 lg:pt-24
+  "
       aria-labelledby="hero-heading"
     >
       {/* Background Image */}
