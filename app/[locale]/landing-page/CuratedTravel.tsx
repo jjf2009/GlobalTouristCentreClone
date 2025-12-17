@@ -204,6 +204,8 @@ const CuratedTravel = () => {
         <div className="hidden md:block">
           <div
             className="
+      mx-auto
+      max-w-7xl
       grid gap-6
       grid-cols-[repeat(auto-fit,minmax(260px,1fr))]
     "
@@ -228,6 +230,7 @@ const CuratedTravel = () => {
               );
             })}
 
+            {/* CTA */}
             <div className="col-span-full mt-10 flex justify-center">
               <Link href="https://globaltouristcentre.com/destinations">
                 <Button
