@@ -124,7 +124,7 @@ const displayMinutes = Math.floor((totalSeconds % 3600) / 60);
         </div>
 
         {/* CTA */}
-        <a href={resolvedLinkHref}>
+        <a href="#main-form">
           <button className="bg-amber-950 text-amber-50 text-xs sm:text-sm px-4 py-2 rounded-md font-semibold">
             {resolvedLinkText}
           </button>
