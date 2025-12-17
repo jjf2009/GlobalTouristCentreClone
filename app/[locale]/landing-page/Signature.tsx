@@ -11,6 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n/context";
 import type { ExperienceId } from "@/lib/i18n/translations";
+import Image from "next/image";
 
 export const signatureExperiences: {
   id: ExperienceId;
@@ -86,9 +87,10 @@ const Signature = () => {
               key={exp.id}
               className="relative h-[320px] rounded-[15px] overflow-hidden shadow-lg"
             >
-              <img
+              <Image
                 src={exp.imageUrl}
                 alt={exp.title}
+                fill
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
@@ -146,9 +148,10 @@ const Signature = () => {
             {experiences.map((exp: any) => (
               <div key={exp.id} className="w-[320px] snap-start flex-shrink-0">
                 <div className="relative h-[320px] rounded-[15px] overflow-hidden shadow-lg group">
-                  <img
+                  <Image
                     src={exp.imageUrl}
                     alt={exp.title}
+                    fill
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />

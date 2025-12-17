@@ -32,7 +32,13 @@ export const translations = {
       termsOfUse: "Terms of Use",
       and: "and",
       destinationPlaceholder: "Select a destination",
-      destinations: { allGoa: "ALL GOA IN ONE DAY", palolem: "PALOLEM COLA – DOLPHIN", mumbai: "MUMBAI 1 DAY", taj: "TAJ MAHAL 1N2D", hampi: "HAMPI BADAMI 1N2D", },
+      destinations: {
+        allGoa: "ALL GOA IN ONE DAY",
+        palolem: "PALOLEM COLA – DOLPHIN",
+        mumbai: "MUMBAI 1 DAY",
+        taj: "TAJ MAHAL 1N2D",
+        hampi: "HAMPI BADAMI 1N2D",
+      },
     },
     // Signature Experiences
     experiences: {
@@ -48,67 +54,66 @@ export const translations = {
           description:
             "Complete South Goa experience featuring UNESCO heritage sites, ancient temples, dolphin spotting, pristine beaches, and sunset at Cabo de Rama Fort.",
         },
-        "palolem": {
+        palolem: {
           title: "Palolem, Cola – Dolphin Spotting",
           duration: "Full Day Tour",
           highlight: "Dolphin Watching",
           description:
             "Experience dolphin watching in the Arabian Sea and explore the pristine beaches of Palolem and Cola.",
         },
-        "mumbai": {
+        mumbai: {
           title: "Mumbai – City of Lights",
           duration: "Full Day Tour",
           highlight: "City Tour",
           description:
             "Full day Mumbai tour from Goa including airfare, Gateway of India, Marine Drive, and cultural landmarks.",
         },
-        "taj": {
+        taj: {
           title: "Taj Mahal Trip",
           duration: "1 Night / 2 Days",
           highlight: "World Wonder",
           description:
             "Visit the iconic Taj Mahal with guided tours and cultural experiences.",
         },
-        "hampi": {
+        hampi: {
           title: "Hampi & Badami Tour",
           duration: "1 Night / 2 Days",
           highlight: "UNESCO Heritage",
           description:
             "Explore UNESCO World Heritage Sites, ancient temples, and Karnataka’s heritage.",
         },
+      },
     },
-  },
-  // Offer Banner
-offerBanner: {
-  offerText: "Free airport transfer with every trip",
-  linkText: "Book now",
-  linkHref: "/luxury-destinations",
-  endsIn: "Ends in",
-  dismiss: "Dismiss banner",
-  ariaLabel: "Limited-time offer",
-},
+    // Offer Banner
+    offerBanner: {
+      offerText: "Free airport transfer with every trip",
+      linkText: "Book now",
+      linkHref: "/luxury-destinations",
+      endsIn: "Ends in",
+      dismiss: "Dismiss banner",
+      ariaLabel: "Limited-time offer",
+    },
 
-// Promo Popup
-promoPopup: {
-  title: "Free Airport Transfer",
-  description:
-    "Book your trip now and enjoy a FREE airport transfer — safe, reliable, and comfortable.",
-  discount: "Limited-time offer",
+    // Promo Popup
+    promoPopup: {
+      title: "Free Airport Transfer",
+      description:
+        "Book your trip now and enjoy a FREE airport transfer — safe, reliable, and comfortable.",
+      discount: "Limited-time offer",
 
-  headlinePrimary: "Free",
-  headlineSecondary: "Airport Transfer",
+      headlinePrimary: "Free",
+      headlineSecondary: "Airport Transfer",
 
-  subDescription:
-    "Book your trip now and enjoy a",
-  highlight: "FREE airport transfer",
-  footerNote: "Offer valid for new bookings only.",
+      subDescription: "Book your trip now and enjoy a",
+      highlight: "FREE airport transfer",
+      footerNote: "Offer valid for new bookings only.",
 
-  cta: "Claim your free transfer",
+      cta: "Claim your free transfer",
 
-  successTitle: "You’re all set!",
-  successMessage:
-    "Check your email for your free airport transfer confirmation. Happy travels!",
-},
+      successTitle: "You’re all set!",
+      successMessage:
+        "Check your email for your free airport transfer confirmation. Happy travels!",
+    },
     // Destinations
     destinations: {
       title: "Choose Your Next Adventure",
@@ -225,27 +230,31 @@ promoPopup: {
       subtitle:
         "Comprehensive travel services tailored to your needs. From planning to execution.",
       items: {
-      custom: {
-        title: "Customized Holidays",
-        description: "Bespoke travel plans that fulfill your wildest dreams. Your journey, your way.",
+        custom: {
+          title: "Customized Holidays",
+          description:
+            "Bespoke travel plans that fulfill your wildest dreams. Your journey, your way.",
+        },
+        luxury: {
+          title: "Luxury Accommodation",
+          description:
+            "Premium hotels, resorts, and unique stays with exclusive benefits.",
+        },
+        group: {
+          title: "Group Tours",
+          description:
+            "Expertly curated group adventures with like-minded travelers.",
+        },
+        visa: {
+          title: "Visa Assistance",
+          description:
+            "Hassle-free visa documentation and processing services.",
+        },
+        flight: {
+          title: "Flight Bookings",
+          description: "Best airfares on domestic and international routes.",
+        },
       },
-      luxury: {
-        title: "Luxury Accommodation",
-        description: "Premium hotels, resorts, and unique stays with exclusive benefits.",
-      },
-      group: {
-        title: "Group Tours",
-        description: "Expertly curated group adventures with like-minded travelers.",
-      },
-      visa: {
-        title: "Visa Assistance",
-        description: "Hassle-free visa documentation and processing services.",
-      },
-      flight: {
-        title: "Flight Bookings",
-        description: "Best airfares on domestic and international routes.",
-      },
-    },
     },
     // Testimonials
     testimonials: {
@@ -260,6 +269,23 @@ promoPopup: {
       photos: "photos",
       monthsAgo: "months ago",
       weeksAgo: "weeks ago",
+      items: [
+        {
+          name: "Anshika Malik",
+          location: "Kerala · 10 days with family",
+          text: "I recently went on a trip with my husband to Kerala for 7 days. Global Tourist Centre planned everything so well that we didn’t face a single problem throughout the trip!",
+        },
+        {
+          name: "Vishal Yadav",
+          location: "Dubai · 5-day honeymoon",
+          text: "Amazing experience! The team at Global Tourist Centre made our honeymoon absolutely perfect. Every detail was taken care of, and we could simply enjoy ourselves.",
+        },
+        {
+          name: "Priya Sharma",
+          location: "Goa · Weekend getaway",
+          text: "Best travel agency ever! They arranged everything from flights to hotels to local tours. The attention to detail was truly impressive.",
+        },
+      ],
     },
     // Travel Memories
     memories: {
@@ -401,7 +427,14 @@ promoPopup: {
       privacyPolicy: "Политикой Конфиденциальности",
       termsOfUse: "Условиями Использования",
       and: "и",
-      destinationPlaceholder: "Выберите направление", destinations: { allGoa: "ВЕСЬ ГОА ЗА 1 ДЕНЬ", palolem: "ПАЛОЛЕМ КОЛА – ДЕЛЬФИНЫ", mumbai: "МУМБАЙ – 1 ДЕНЬ", taj: "ТАДЖ-МАХАЛ 1Н/2Д", hampi: "ХАМПИ И БАДАМИ 1Н/2Д", },
+      destinationPlaceholder: "Выберите направление",
+      destinations: {
+        allGoa: "ВЕСЬ ГОА ЗА 1 ДЕНЬ",
+        palolem: "ПАЛОЛЕМ КОЛА – ДЕЛЬФИНЫ",
+        mumbai: "МУМБАЙ – 1 ДЕНЬ",
+        taj: "ТАДЖ-МАХАЛ 1Н/2Д",
+        hampi: "ХАМПИ И БАДАМИ 1Н/2Д",
+      },
     },
     // Signature Experiences
     experiences: {
@@ -410,42 +443,42 @@ promoPopup: {
         "Откройте наши уникальные путешествия, сочетающие роскошь, культуру и незабываемые моменты.",
       explore: "Исследовать",
       items: {
-  "all-goa": {
-    title: "Весь Гоа за один день",
-    duration: "Экскурсия на весь день",
-    highlight: "ЮНЕСКО",
-    description:
-      "Полное путешествие по Южному Гоа с объектами всемирного наследия ЮНЕСКО, древними храмами, наблюдением за дельфинами, живописными пляжами и закатом в форте Кабо-де-Рама.",
-  },
-  palolem: {
-    title: "Палолем, Кола — наблюдение за дельфинами",
-    duration: "Экскурсия на весь день",
-    highlight: "Наблюдение за дельфинами",
-    description:
-      "Наблюдение за дельфинами в Аравийском море и отдых на нетронутых пляжах Палолем и Кола.",
-  },
-  mumbai: {
-    title: "Мумбаи — город огней",
-    duration: "Экскурсия на весь день",
-    highlight: "Обзор города",
-    description:
-      "Полный тур по Мумбаи из Гоа, включая авиаперелёт, Ворота Индии, Марин-Драйв и основные культурные достопримечательности.",
-  },
-  taj: {
-    title: "Путешествие к Тадж-Махалу",
-    duration: "1 ночь / 2 дня",
-    highlight: "Чудо света",
-    description:
-      "Посещение знаменитого Тадж-Махала с экскурсиями и культурными программами.",
-  },
-  hampi: {
-    title: "Тур Хампи и Бадами",
-    duration: "1 ночь / 2 дня",
-    highlight: "Наследие ЮНЕСКО",
-    description:
-      "Исследуйте объекты Всемирного наследия ЮНЕСКО, древние храмы и богатое культурное наследие штата Карнатака.",
-  },
-},
+        "all-goa": {
+          title: "Весь Гоа за один день",
+          duration: "Экскурсия на весь день",
+          highlight: "ЮНЕСКО",
+          description:
+            "Полное путешествие по Южному Гоа с объектами всемирного наследия ЮНЕСКО, древними храмами, наблюдением за дельфинами, живописными пляжами и закатом в форте Кабо-де-Рама.",
+        },
+        palolem: {
+          title: "Палолем, Кола — наблюдение за дельфинами",
+          duration: "Экскурсия на весь день",
+          highlight: "Наблюдение за дельфинами",
+          description:
+            "Наблюдение за дельфинами в Аравийском море и отдых на нетронутых пляжах Палолем и Кола.",
+        },
+        mumbai: {
+          title: "Мумбаи — город огней",
+          duration: "Экскурсия на весь день",
+          highlight: "Обзор города",
+          description:
+            "Полный тур по Мумбаи из Гоа, включая авиаперелёт, Ворота Индии, Марин-Драйв и основные культурные достопримечательности.",
+        },
+        taj: {
+          title: "Путешествие к Тадж-Махалу",
+          duration: "1 ночь / 2 дня",
+          highlight: "Чудо света",
+          description:
+            "Посещение знаменитого Тадж-Махала с экскурсиями и культурными программами.",
+        },
+        hampi: {
+          title: "Тур Хампи и Бадами",
+          duration: "1 ночь / 2 дня",
+          highlight: "Наследие ЮНЕСКО",
+          description:
+            "Исследуйте объекты Всемирного наследия ЮНЕСКО, древние храмы и богатое культурное наследие штата Карнатака.",
+        },
+      },
     },
     // Destinations
     destinations: {
@@ -509,35 +542,34 @@ promoPopup: {
       },
     },
     // Offer Banner
-  offerBanner: {
-  offerText: "Бесплатный трансфер из аэропорта при каждом туре",
-  linkText: "Забронировать сейчас",
-  linkHref: "/роскошные-направления",
-  endsIn: "Заканчивается через",
-  dismiss: "Закрыть баннер",
-  ariaLabel: "Ограниченное по времени предложение",
-},
-// Promo Popup
-promoPopup: {
-  title: "Бесплатный трансфер из аэропорта",
-  description:
-    "Забронируйте тур сейчас и получите БЕСПЛАТНЫЙ трансфер из аэропорта — безопасно, надежно и комфортно.",
-  discount: "Ограниченное по времени предложение",
+    offerBanner: {
+      offerText: "Бесплатный трансфер из аэропорта при каждом туре",
+      linkText: "Забронировать сейчас",
+      linkHref: "/роскошные-направления",
+      endsIn: "Заканчивается через",
+      dismiss: "Закрыть баннер",
+      ariaLabel: "Ограниченное по времени предложение",
+    },
+    // Promo Popup
+    promoPopup: {
+      title: "Бесплатный трансфер из аэропорта",
+      description:
+        "Забронируйте тур сейчас и получите БЕСПЛАТНЫЙ трансфер из аэропорта — безопасно, надежно и комфортно.",
+      discount: "Ограниченное по времени предложение",
 
-  headlinePrimary: "Бесплатный",
-  headlineSecondary: "Трансфер из аэропорта",
+      headlinePrimary: "Бесплатный",
+      headlineSecondary: "Трансфер из аэропорта",
 
-  subDescription:
-    "Забронируйте тур сейчас и получите",
-  highlight: "БЕСПЛАТНЫЙ трансфер из аэропорта",
-  footerNote: "Предложение действительно только для новых бронирований.",
+      subDescription: "Забронируйте тур сейчас и получите",
+      highlight: "БЕСПЛАТНЫЙ трансфер из аэропорта",
+      footerNote: "Предложение действительно только для новых бронирований.",
 
-  cta: "Получить бесплатный трансфер",
+      cta: "Получить бесплатный трансфер",
 
-  successTitle: "Готово!",
-  successMessage:
-    "Проверьте электронную почту для подтверждения бесплатного трансфера из аэропорта. Приятного путешествия!",
-},
+      successTitle: "Готово!",
+      successMessage:
+        "Проверьте электронную почту для подтверждения бесплатного трансфера из аэропорта. Приятного путешествия!",
+    },
     // Services
     services: {
       title: "Наши Услуги",
@@ -591,28 +623,30 @@ promoPopup: {
       title: "Наши Премиум Услуги",
       subtitle:
         "Комплексные туристические услуги, адаптированные под ваши потребности.",
-        items: {
-      custom: {
-        title: "Индивидуальные туры",
-        description: "Персонализированные маршруты, созданные специально для вас.",
+      items: {
+        custom: {
+          title: "Индивидуальные туры",
+          description:
+            "Персонализированные маршруты, созданные специально для вас.",
+        },
+        luxury: {
+          title: "Роскошное размещение",
+          description:
+            "Отели и курорты премиум-класса с эксклюзивными условиями.",
+        },
+        group: {
+          title: "Групповые туры",
+          description: "Продуманные путешествия в компании единомышленников.",
+        },
+        visa: {
+          title: "Визовая поддержка",
+          description: "Полное сопровождение по оформлению виз без хлопот.",
+        },
+        flight: {
+          title: "Бронирование авиабилетов",
+          description: "Выгодные тарифы на внутренние и международные рейсы.",
+        },
       },
-      luxury: {
-        title: "Роскошное размещение",
-        description: "Отели и курорты премиум-класса с эксклюзивными условиями.",
-      },
-      group: {
-        title: "Групповые туры",
-        description: "Продуманные путешествия в компании единомышленников.",
-      },
-      visa: {
-        title: "Визовая поддержка",
-        description: "Полное сопровождение по оформлению виз без хлопот.",
-      },
-      flight: {
-        title: "Бронирование авиабилетов",
-        description: "Выгодные тарифы на внутренние и международные рейсы.",
-      },
-    },
     },
     // Testimonials
     testimonials: {
@@ -626,6 +660,23 @@ promoPopup: {
       photos: "фото",
       monthsAgo: "месяцев назад",
       weeksAgo: "недель назад",
+      items: [
+        {
+          name: "Anshika Malik",
+          location: "Керала · 10 дней с семьёй",
+          text: "Недавно мы с мужем путешествовали в Кералу на 7 дней. Global Tourist Centre организовал поездку настолько хорошо, что за всё время у нас не возникло ни одной проблемы.",
+        },
+        {
+          name: "Vishal Yadav",
+          location: "Дубай · Медовый месяц, 5 дней",
+          text: "Потрясающий опыт! Команда Global Tourist Centre сделала наш медовый месяц идеальным. Все детали были продуманы.",
+        },
+        {
+          name: "Priya Sharma",
+          location: "Гоа · Уикенд",
+          text: "Лучшая туристическая компания! Они организовали всё — от перелётов до отелей и экскурсий. Впечатляющее внимание к деталям.",
+        },
+      ],
     },
     // Travel Memories
     memories: {
@@ -766,7 +817,14 @@ promoPopup: {
       privacyPolicy: "Privacy Policy",
       termsOfUse: "Termini di Utilizzo",
       and: "e",
-      destinationPlaceholder: "Seleziona una destinazione", destinations: { allGoa: "TUTTA GOA IN 1 GIORNO", palolem: "PALOLEM COLA – DELFINI", mumbai: "MUMBAI 1 GIORNO", taj: "TAJ MAHAL 1N/2G", hampi: "HAMPI E BADAMI 1N/2G", },
+      destinationPlaceholder: "Seleziona una destinazione",
+      destinations: {
+        allGoa: "TUTTA GOA IN 1 GIORNO",
+        palolem: "PALOLEM COLA – DELFINI",
+        mumbai: "MUMBAI 1 GIORNO",
+        taj: "TAJ MAHAL 1N/2G",
+        hampi: "HAMPI E BADAMI 1N/2G",
+      },
     },
     // Signature Experiences
     experiences: {
@@ -774,74 +832,73 @@ promoPopup: {
       subtitle:
         "Scopri i nostri viaggi artigianali che fondono lusso, cultura e momenti indimenticabili.",
       explore: "Esplora",
-    items: {
-      "all-goa": {
-        title: "Tutta Goa in un giorno",
-        duration: "Tour di un giorno intero",
-        highlight: "UNESCO",
-        description:
-          "Esperienza completa del Sud Goa con siti UNESCO, templi antichi, avvistamento di delfini, spiagge incontaminate e tramonto al Forte di Cabo de Rama.",
-      },
-      palolem: {
-        title: "Palolem, Cola – Avvistamento dei delfini",
-        duration: "Tour di un giorno intero",
-        highlight: "Delfini",
-        description:
-          "Avvistamento dei delfini nel Mare Arabico e relax sulle spiagge di Palolem e Cola.",
-      },
-      mumbai: {
-        title: "Mumbai – La città delle luci",
-        duration: "Tour di un giorno intero",
-        highlight: "Tour della città",
-        description:
-          "Tour completo di Mumbai da Goa con volo, Gateway of India, Marine Drive e siti culturali.",
-      },
-      taj: {
-        title: "Viaggio al Taj Mahal",
-        duration: "1 notte / 2 giorni",
-        highlight: "Meraviglia del mondo",
-        description:
-          "Visita all’iconico Taj Mahal con tour guidati ed esperienze culturali.",
-      },
-      hampi: {
-        title: "Tour Hampi & Badami",
-        duration: "1 notte / 2 giorni",
-        highlight: "Patrimonio UNESCO",
-        description:
-          "Scopri i siti UNESCO, i templi antichi e il patrimonio del Karnataka.",
+      items: {
+        "all-goa": {
+          title: "Tutta Goa in un giorno",
+          duration: "Tour di un giorno intero",
+          highlight: "UNESCO",
+          description:
+            "Esperienza completa del Sud Goa con siti UNESCO, templi antichi, avvistamento di delfini, spiagge incontaminate e tramonto al Forte di Cabo de Rama.",
+        },
+        palolem: {
+          title: "Palolem, Cola – Avvistamento dei delfini",
+          duration: "Tour di un giorno intero",
+          highlight: "Delfini",
+          description:
+            "Avvistamento dei delfini nel Mare Arabico e relax sulle spiagge di Palolem e Cola.",
+        },
+        mumbai: {
+          title: "Mumbai – La città delle luci",
+          duration: "Tour di un giorno intero",
+          highlight: "Tour della città",
+          description:
+            "Tour completo di Mumbai da Goa con volo, Gateway of India, Marine Drive e siti culturali.",
+        },
+        taj: {
+          title: "Viaggio al Taj Mahal",
+          duration: "1 notte / 2 giorni",
+          highlight: "Meraviglia del mondo",
+          description:
+            "Visita all’iconico Taj Mahal con tour guidati ed esperienze culturali.",
+        },
+        hampi: {
+          title: "Tour Hampi & Badami",
+          duration: "1 notte / 2 giorni",
+          highlight: "Patrimonio UNESCO",
+          description:
+            "Scopri i siti UNESCO, i templi antichi e il patrimonio del Karnataka.",
+        },
       },
     },
-  },
-  // Promo Popup
-  promoPopup: {
-  title: "Trasferimento aeroportuale gratuito",
-  description:
-    "Prenota il tuo viaggio ora e goditi un trasferimento aeroportuale GRATUITO — sicuro, affidabile e confortevole.",
-  discount: "Offerta a tempo limitato",
+    // Promo Popup
+    promoPopup: {
+      title: "Trasferimento aeroportuale gratuito",
+      description:
+        "Prenota il tuo viaggio ora e goditi un trasferimento aeroportuale GRATUITO — sicuro, affidabile e confortevole.",
+      discount: "Offerta a tempo limitato",
 
-  headlinePrimary: "Trasferimento",
-  headlineSecondary: "Aeroportuale Gratuito",
+      headlinePrimary: "Trasferimento",
+      headlineSecondary: "Aeroportuale Gratuito",
 
-  subDescription:
-    "Prenota il tuo viaggio ora e approfitta di un",
-  highlight: "trasferimento aeroportuale GRATUITO",
-  footerNote: "Offerta valida solo per nuove prenotazioni.",
+      subDescription: "Prenota il tuo viaggio ora e approfitta di un",
+      highlight: "trasferimento aeroportuale GRATUITO",
+      footerNote: "Offerta valida solo per nuove prenotazioni.",
 
-  cta: "Richiedi il trasferimento gratuito",
+      cta: "Richiedi il trasferimento gratuito",
 
-  successTitle: "Tutto pronto!",
-  successMessage:
-    "Controlla la tua email per la conferma del trasferimento aeroportuale gratuito. Buon viaggio!",
-},
-// Offer Banner
-offerBanner: {
-  offerText: "Trasferimento aeroportuale gratuito con ogni tour",
-  linkText: "Prenota ora",
-  linkHref: "/destinazioni-di-lusso",
-  endsIn: "Termina tra",
-  dismiss: "Chiudi banner",
-  ariaLabel: "Offerta a tempo limitato",
-},
+      successTitle: "Tutto pronto!",
+      successMessage:
+        "Controlla la tua email per la conferma del trasferimento aeroportuale gratuito. Buon viaggio!",
+    },
+    // Offer Banner
+    offerBanner: {
+      offerText: "Trasferimento aeroportuale gratuito con ogni tour",
+      linkText: "Prenota ora",
+      linkHref: "/destinazioni-di-lusso",
+      endsIn: "Termina tra",
+      dismiss: "Chiudi banner",
+      ariaLabel: "Offerta a tempo limitato",
+    },
     // Destinations
     destinations: {
       title: "Scegli la Tua Prossima Avventura",
@@ -956,27 +1013,28 @@ offerBanner: {
       title: "I Nostri Servizi Premium",
       subtitle: "Servizi di viaggio completi su misura per le tue esigenze.",
       items: {
-      custom: {
-        title: "Viaggi personalizzati",
-        description: "Itinerari su misura creati in base ai tuoi desideri.",
+        custom: {
+          title: "Viaggi personalizzati",
+          description: "Itinerari su misura creati in base ai tuoi desideri.",
+        },
+        luxury: {
+          title: "Alloggi di lusso",
+          description: "Hotel e resort premium con vantaggi esclusivi.",
+        },
+        group: {
+          title: "Tour di gruppo",
+          description: "Esperienze curate con viaggiatori affini.",
+        },
+        visa: {
+          title: "Assistenza visti",
+          description: "Supporto completo per documentazione e pratiche.",
+        },
+        flight: {
+          title: "Prenotazione voli",
+          description:
+            "Tariffe competitive su voli nazionali e internazionali.",
+        },
       },
-      luxury: {
-        title: "Alloggi di lusso",
-        description: "Hotel e resort premium con vantaggi esclusivi.",
-      },
-      group: {
-        title: "Tour di gruppo",
-        description: "Esperienze curate con viaggiatori affini.",
-      },
-      visa: {
-        title: "Assistenza visti",
-        description: "Supporto completo per documentazione e pratiche.",
-      },
-      flight: {
-        title: "Prenotazione voli",
-        description: "Tariffe competitive su voli nazionali e internazionali.",
-      },
-    },
     },
     // Testimonials
     testimonials: {
@@ -989,6 +1047,23 @@ offerBanner: {
       photos: "foto",
       monthsAgo: "mesi fa",
       weeksAgo: "settimane fa",
+      items: [
+        {
+          name: "Anshika Malik",
+          location: "Kerala · 10 giorni in famiglia",
+          text: "Sono stata recentemente in viaggio in Kerala con mio marito per 7 giorni. Global Tourist Centre ha organizzato tutto in modo impeccabile, senza alcun problema durante il viaggio.",
+        },
+        {
+          name: "Vishal Yadav",
+          location: "Dubai · Luna di miele di 5 giorni",
+          text: "Un’esperienza fantastica! Il team di Global Tourist Centre ha reso la nostra luna di miele perfetta. Ogni dettaglio è stato curato.",
+        },
+        {
+          name: "Priya Sharma",
+          location: "Goa · Fuga di un weekend",
+          text: "La migliore agenzia di viaggi! Hanno organizzato tutto, dai voli agli hotel fino ai tour locali. Un’attenzione ai dettagli davvero notevole.",
+        },
+      ],
     },
     // Travel Memories
     memories: {
@@ -1129,14 +1204,14 @@ offerBanner: {
       privacyPolicy: "Politique de Confidentialité",
       termsOfUse: "Conditions d'Utilisation",
       and: "et",
-          destinationPlaceholder: "Sélectionnez une destination",
-    destinations: {
-      allGoa: "TOUT GOA EN 1 JOUR",
-      palolem: "PALOLEM COLA – DAUPHINS",
-      mumbai: "MUMBAI – 1 JOUR",
-      taj: "TAJ MAHAL 1N/2J",
-      hampi: "HAMPI ET BADAMI 1N/2J",
-    },
+      destinationPlaceholder: "Sélectionnez une destination",
+      destinations: {
+        allGoa: "TOUT GOA EN 1 JOUR",
+        palolem: "PALOLEM COLA – DAUPHINS",
+        mumbai: "MUMBAI – 1 JOUR",
+        taj: "TAJ MAHAL 1N/2J",
+        hampi: "HAMPI ET BADAMI 1N/2J",
+      },
     },
     // Signature Experiences
     experiences: {
@@ -1144,74 +1219,73 @@ offerBanner: {
       subtitle:
         "Découvrez nos voyages artisanaux alliant luxe, culture et moments inoubliables.",
       explore: "Explorer",
-       items: {
-      "all-goa": {
-        title: "Tout Goa en une journée",
-        duration: "Excursion d’une journée",
-        highlight: "UNESCO",
-        description:
-          "Découverte complète du sud de Goa avec sites classés à l’UNESCO, temples anciens, observation des dauphins, plages et coucher de soleil au fort de Cabo de Rama.",
+      items: {
+        "all-goa": {
+          title: "Tout Goa en une journée",
+          duration: "Excursion d’une journée",
+          highlight: "UNESCO",
+          description:
+            "Découverte complète du sud de Goa avec sites classés à l’UNESCO, temples anciens, observation des dauphins, plages et coucher de soleil au fort de Cabo de Rama.",
+        },
+        palolem: {
+          title: "Palolem, Cola – Observation des dauphins",
+          duration: "Excursion d’une journée",
+          highlight: "Dauphins",
+          description:
+            "Observation des dauphins dans la mer d’Arabie et détente sur les plages préservées de Palolem et Cola.",
+        },
+        mumbai: {
+          title: "Mumbai – La ville des lumières",
+          duration: "Excursion d’une journée",
+          highlight: "Visite de la ville",
+          description:
+            "Visite complète de Mumbai depuis Goa avec vol, Gateway of India, Marine Drive et sites culturels.",
+        },
+        taj: {
+          title: "Voyage au Taj Mahal",
+          duration: "1 nuit / 2 jours",
+          highlight: "Merveille du monde",
+          description:
+            "Visite du célèbre Taj Mahal avec visites guidées et expériences culturelles.",
+        },
+        hampi: {
+          title: "Circuit Hampi & Badami",
+          duration: "1 nuit / 2 jours",
+          highlight: "Patrimoine UNESCO",
+          description:
+            "Explorez les sites classés à l’UNESCO, les temples anciens et le patrimoine du Karnataka.",
+        },
       },
-      palolem: {
-        title: "Palolem, Cola – Observation des dauphins",
-        duration: "Excursion d’une journée",
-        highlight: "Dauphins",
-        description:
-          "Observation des dauphins dans la mer d’Arabie et détente sur les plages préservées de Palolem et Cola.",
-      },
-      mumbai: {
-        title: "Mumbai – La ville des lumières",
-        duration: "Excursion d’une journée",
-        highlight: "Visite de la ville",
-        description:
-          "Visite complète de Mumbai depuis Goa avec vol, Gateway of India, Marine Drive et sites culturels.",
-      },
-      taj: {
-        title: "Voyage au Taj Mahal",
-        duration: "1 nuit / 2 jours",
-        highlight: "Merveille du monde",
-        description:
-          "Visite du célèbre Taj Mahal avec visites guidées et expériences culturelles.",
-      },
-      hampi: {
-        title: "Circuit Hampi & Badami",
-        duration: "1 nuit / 2 jours",
-        highlight: "Patrimoine UNESCO",
-        description:
-          "Explorez les sites classés à l’UNESCO, les temples anciens et le patrimoine du Karnataka.",
-      },
-    },
     },
     //Offer Banner
     offerBanner: {
-  offerText: "Transfert aéroport gratuit avec chaque voyage",
-  linkText: "Réserver maintenant",
-  linkHref: "/destinations-de-luxe",
-  endsIn: "Se termine dans",
-  dismiss: "Fermer la bannière",
-  ariaLabel: "Offre à durée limitée",
-},
-// Promo Popup
-promoPopup: {
-  title: "Transfert aéroport gratuit",
-  description:
-    "Réservez votre voyage dès maintenant et profitez d’un transfert aéroport GRATUIT — sûr, fiable et confortable.",
-  discount: "Offre à durée limitée",
+      offerText: "Transfert aéroport gratuit avec chaque voyage",
+      linkText: "Réserver maintenant",
+      linkHref: "/destinations-de-luxe",
+      endsIn: "Se termine dans",
+      dismiss: "Fermer la bannière",
+      ariaLabel: "Offre à durée limitée",
+    },
+    // Promo Popup
+    promoPopup: {
+      title: "Transfert aéroport gratuit",
+      description:
+        "Réservez votre voyage dès maintenant et profitez d’un transfert aéroport GRATUIT — sûr, fiable et confortable.",
+      discount: "Offre à durée limitée",
 
-  headlinePrimary: "Transfert",
-  headlineSecondary: "Aéroport Gratuit",
+      headlinePrimary: "Transfert",
+      headlineSecondary: "Aéroport Gratuit",
 
-  subDescription:
-    "Réservez votre voyage maintenant et bénéficiez d’un",
-  highlight: "transfert aéroport GRATUIT",
-  footerNote: "Offre valable uniquement pour les nouvelles réservations.",
+      subDescription: "Réservez votre voyage maintenant et bénéficiez d’un",
+      highlight: "transfert aéroport GRATUIT",
+      footerNote: "Offre valable uniquement pour les nouvelles réservations.",
 
-  cta: "Profitez de votre transfert gratuit",
+      cta: "Profitez de votre transfert gratuit",
 
-  successTitle: "C’est fait !",
-  successMessage:
-    "Vérifiez votre e-mail pour la confirmation de votre transfert aéroport gratuit. Bon voyage !",
-}, // Destinations
+      successTitle: "C’est fait !",
+      successMessage:
+        "Vérifiez votre e-mail pour la confirmation de votre transfert aéroport gratuit. Bon voyage !",
+    }, // Destinations
     destinations: {
       title: "Choisissez Votre Prochaine Aventure",
       subtitle:
@@ -1325,28 +1399,30 @@ promoPopup: {
     premiumServices: {
       title: "Nos Services Premium",
       subtitle: "Services de voyage complets adaptés à vos besoins.",
-          items: {
-      custom: {
-        title: "Voyages sur mesure",
-        description: "Des itinéraires personnalisés conçus selon vos envies.",
+      items: {
+        custom: {
+          title: "Voyages sur mesure",
+          description: "Des itinéraires personnalisés conçus selon vos envies.",
+        },
+        luxury: {
+          title: "Hébergements de luxe",
+          description:
+            "Hôtels et resorts haut de gamme avec avantages exclusifs.",
+        },
+        group: {
+          title: "Voyages en groupe",
+          description: "Expériences de groupe soigneusement organisées.",
+        },
+        visa: {
+          title: "Assistance visa",
+          description: "Gestion complète et simplifiée des formalités de visa.",
+        },
+        flight: {
+          title: "Réservation de vols",
+          description:
+            "Meilleurs tarifs sur les vols nationaux et internationaux.",
+        },
       },
-      luxury: {
-        title: "Hébergements de luxe",
-        description: "Hôtels et resorts haut de gamme avec avantages exclusifs.",
-      },
-      group: {
-        title: "Voyages en groupe",
-        description: "Expériences de groupe soigneusement organisées.",
-      },
-      visa: {
-        title: "Assistance visa",
-        description: "Gestion complète et simplifiée des formalités de visa.",
-      },
-      flight: {
-        title: "Réservation de vols",
-        description: "Meilleurs tarifs sur les vols nationaux et internationaux.",
-      },
-    },
     },
     // Testimonials
     testimonials: {
@@ -1359,6 +1435,23 @@ promoPopup: {
       photos: "photos",
       monthsAgo: "mois",
       weeksAgo: "semaines",
+      items: [
+        {
+          name: "Anshika Malik",
+          location: "Kerala · 10 jours en famille",
+          text: "Je suis récemment partie en voyage au Kerala avec mon mari pendant 7 jours. Global Tourist Centre a tout organisé parfaitement, nous n’avons rencontré aucun problème durant le séjour.",
+        },
+        {
+          name: "Vishal Yadav",
+          location: "Dubaï · Voyage de noces de 5 jours",
+          text: "Une expérience incroyable ! L’équipe de Global Tourist Centre a rendu notre lune de miel absolument parfaite. Tout était pris en charge, nous avons pu profiter pleinement.",
+        },
+        {
+          name: "Priya Sharma",
+          location: "Goa · Escapade de week-end",
+          text: "La meilleure agence de voyage ! Ils ont tout organisé, des vols aux hôtels en passant par les excursions locales. Une attention aux détails remarquable.",
+        },
+      ],
     },
     // Travel Memories
     memories: {
@@ -1499,14 +1592,14 @@ promoPopup: {
       privacyPolicy: "Datenschutzrichtlinie",
       termsOfUse: "Nutzungsbedingungen",
       and: "und",
-       destinationPlaceholder: "Reiseziel auswählen",
-    destinations: {
-      allGoa: "GANZ GOA AN 1 TAG",
-      palolem: "PALOLEM COLA – DELFINE",
-      mumbai: "MUMBAI – 1 TAG",
-      taj: "TAJ MAHAL 1N/2T",
-      hampi: "HAMPI UND BADAMI 1N/2T",
-    },
+      destinationPlaceholder: "Reiseziel auswählen",
+      destinations: {
+        allGoa: "GANZ GOA AN 1 TAG",
+        palolem: "PALOLEM COLA – DELFINE",
+        mumbai: "MUMBAI – 1 TAG",
+        taj: "TAJ MAHAL 1N/2T",
+        hampi: "HAMPI UND BADAMI 1N/2T",
+      },
     },
     // Signature Experiences
     experiences: {
@@ -1554,34 +1647,33 @@ promoPopup: {
     },
     //Offer Banner
     promoPopup: {
-  title: "Kostenloser Flughafentransfer",
-  description:
-    "Buchen Sie Ihre Reise jetzt und erhalten Sie einen KOSTENLOSEN Flughafentransfer — sicher, zuverlässig und komfortabel.",
-  discount: "Zeitlich begrenztes Angebot",
+      title: "Kostenloser Flughafentransfer",
+      description:
+        "Buchen Sie Ihre Reise jetzt und erhalten Sie einen KOSTENLOSEN Flughafentransfer — sicher, zuverlässig und komfortabel.",
+      discount: "Zeitlich begrenztes Angebot",
 
-  headlinePrimary: "Kostenloser",
-  headlineSecondary: "Flughafentransfer",
+      headlinePrimary: "Kostenloser",
+      headlineSecondary: "Flughafentransfer",
 
-  subDescription:
-    "Buchen Sie Ihre Reise jetzt und genießen Sie einen",
-  highlight: "KOSTENLOSEN Flughafentransfer",
-  footerNote: "Angebot gilt nur für neue Buchungen.",
+      subDescription: "Buchen Sie Ihre Reise jetzt und genießen Sie einen",
+      highlight: "KOSTENLOSEN Flughafentransfer",
+      footerNote: "Angebot gilt nur für neue Buchungen.",
 
-  cta: "Kostenlosen Transfer sichern",
+      cta: "Kostenlosen Transfer sichern",
 
-  successTitle: "Alles erledigt!",
-  successMessage:
-    "Bitte prüfen Sie Ihre E-Mail für die Bestätigung Ihres kostenlosen Flughafentransfers. Gute Reise!",
-},
-//offerbanner
-offerBanner: {
-  offerText: "Kostenloser Flughafentransfer bei jeder Reise",
-  linkText: "Jetzt buchen",
-  linkHref: "/luxus-reiseziele",
-  endsIn: "Endet in",
-  dismiss: "Banner schließen",
-  ariaLabel: "Zeitlich begrenztes Angebot",
-},
+      successTitle: "Alles erledigt!",
+      successMessage:
+        "Bitte prüfen Sie Ihre E-Mail für die Bestätigung Ihres kostenlosen Flughafentransfers. Gute Reise!",
+    },
+    //offerbanner
+    offerBanner: {
+      offerText: "Kostenloser Flughafentransfer bei jeder Reise",
+      linkText: "Jetzt buchen",
+      linkHref: "/luxus-reiseziele",
+      endsIn: "Endet in",
+      dismiss: "Banner schließen",
+      ariaLabel: "Zeitlich begrenztes Angebot",
+    },
     // Destinations
     destinations: {
       title: "Wählen Sie Ihr Nächstes Abenteuer",
@@ -1696,28 +1788,30 @@ offerBanner: {
       title: "Unsere Premium-Dienste",
       subtitle:
         "Umfassende Reisedienstleistungen, die auf Ihre Bedürfnisse zugeschnitten sind.",
-            items: {
-      custom: {
-        title: "Individuelle Reisen",
-        description: "Maßgeschneiderte Reisen nach Ihren persönlichen Wünschen.",
+      items: {
+        custom: {
+          title: "Individuelle Reisen",
+          description:
+            "Maßgeschneiderte Reisen nach Ihren persönlichen Wünschen.",
+        },
+        luxury: {
+          title: "Luxusunterkünfte",
+          description: "Exklusive Hotels und Resorts mit besonderen Vorteilen.",
+        },
+        group: {
+          title: "Gruppenreisen",
+          description: "Sorgfältig geplante Reisen mit Gleichgesinnten.",
+        },
+        visa: {
+          title: "Visa-Service",
+          description: "Komplette Unterstützung bei Visaformalitäten.",
+        },
+        flight: {
+          title: "Flugbuchungen",
+          description:
+            "Attraktive Preise für nationale und internationale Flüge.",
+        },
       },
-      luxury: {
-        title: "Luxusunterkünfte",
-        description: "Exklusive Hotels und Resorts mit besonderen Vorteilen.",
-      },
-      group: {
-        title: "Gruppenreisen",
-        description: "Sorgfältig geplante Reisen mit Gleichgesinnten.",
-      },
-      visa: {
-        title: "Visa-Service",
-        description: "Komplette Unterstützung bei Visaformalitäten.",
-      },
-      flight: {
-        title: "Flugbuchungen",
-        description: "Attraktive Preise für nationale und internationale Flüge.",
-      },
-    },
     },
     // Testimonials
     testimonials: {
@@ -1730,6 +1824,23 @@ offerBanner: {
       photos: "Fotos",
       monthsAgo: "Monate",
       weeksAgo: "Wochen",
+      items: [
+        {
+          name: "Anshika Malik",
+          location: "Kerala · 10 Tage mit der Familie",
+          text: "Ich war kürzlich mit meinem Mann 7 Tage in Kerala. Global Tourist Centre hat alles so gut organisiert, dass wir während der gesamten Reise keinerlei Probleme hatten.",
+        },
+        {
+          name: "Vishal Yadav",
+          location: "Dubai · 5-tägige Hochzeitsreise",
+          text: "Ein unglaubliches Erlebnis! Das Team von Global Tourist Centre hat unsere Flitterwochen perfekt gemacht. Jedes Detail wurde berücksichtigt.",
+        },
+        {
+          name: "Priya Sharma",
+          location: "Goa · Wochenendausflug",
+          text: "Die beste Reiseagentur überhaupt! Von Flügen über Hotels bis hin zu lokalen Touren wurde alles perfekt organisiert. Die Liebe zum Detail war beeindruckend.",
+        },
+      ],
     },
     // Travel Memories
     memories: {

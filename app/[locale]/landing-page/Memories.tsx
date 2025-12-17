@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n/context";
+import Image from "next/image";
 
 // Travel Memories Gallery
 const travelMemories = [
@@ -80,13 +81,14 @@ const Memories = () => {
           {travelMemories.map((memory) => (
             <div
               key={memory.id}
-              className="aspect-square rounded-xl overflow-hidden group cursor-pointer"
+              className="relative aspect-square rounded-xl overflow-hidden group cursor-pointer"
               role="listitem"
             >
-              <img
+              <Image
                 src={memory.imageurl}
                 alt={memory.imageQuery}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </div>
           ))}
@@ -108,11 +110,12 @@ const Memories = () => {
 
             {/* Image */}
             <div className="flex-1">
-              <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
-                <img
+              <div className="relative aspect-square rounded-xl overflow-hidden shadow-lg">
+                <Image
                   src={travelMemories[activeMemoryIndex].imageurl}
                   alt={travelMemories[activeMemoryIndex].imageQuery}
-                  className="w-full h-full object-cover transition-transform duration-700"
+                  fill
+                  className="object-cover transition-transform duration-700"
                 />
               </div>
             </div>

@@ -22,6 +22,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useI18n } from "@/lib/i18n/context";
+import Image from "next/image";
 
 function formatWhatsAppMessage(
   title: string,
@@ -138,15 +139,17 @@ const Hero = () => {
 
   return (
     <section
-      className="relative min-h-[65vh] sm:min-h-[70vh] lg:min-h-[75vh] xl:min-h-[80vh] flex items-center"
+      className="relative min-h-[65vh] sm:min-h-[70vh] lg:min-h-[75vh] xl:min-h-[80vh] flex items-center sm:pt-32"
       aria-labelledby="hero-heading"
     >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img
+        <Image
           src="/luxury-travel-destination-mountains-sunset.jpg"
           alt=""
-          className="w-full h-full object-cover"
+          fill
+          priority
+          className="object-cover"
           aria-hidden="true"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-slate-900/50" />

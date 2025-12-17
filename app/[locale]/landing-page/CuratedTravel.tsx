@@ -120,8 +120,8 @@ const CuratedTravel = () => {
           >
             {travelCollections.map((tour) => {
               const content = t.collections.items[tour.id];
-            // console.log(content);
-            // console.log(tour);
+              // console.log(content);
+              // console.log(tour);
 
               return (
                 <div
@@ -200,31 +200,33 @@ const CuratedTravel = () => {
           </div>
         </div>
 
-        {/* Desktop: Grid - 4 columns, shows 8 cards */}
+        {/* Desktop: Fluid Grid */}
         <div className="hidden md:block">
           <div
-            className="grid grid-cols-2 lg:grid-cols-4 gap-6"
+            className="
+      grid gap-6
+      grid-cols-[repeat(auto-fit,minmax(260px,1fr))]
+    "
             role="list"
             aria-label="Travel package collections"
           >
             {travelCollections.map((tour) => {
-  const content = t.collections.items[tour.id];
+              const content = t.collections.items[tour.id];
 
-  return (
-    <div key={tour.id} className="flex-shrink-0 w-[85vw] max-w-[340px] snap-start" role="listitem">
-      <TourCard
-        imageUrl={tour.imageUrl}
-        title={content.title}
-        duration={content.duration}
-        description={content.description}
-        features={tour.tags}
-        href={tour.link}
-        category={tour.category}
-      />
-    </div>
-  );
-})}
-
+              return (
+                <div key={tour.id} role="listitem">
+                  <TourCard
+                    imageUrl={tour.imageUrl}
+                    title={content.title}
+                    duration={content.duration}
+                    description={content.description}
+                    features={tour.tags}
+                    href={tour.link}
+                    category={tour.category}
+                  />
+                </div>
+              );
+            })}
 
             <div className="col-span-full mt-10 flex justify-center">
               <Link href="https://globaltouristcentre.com/destinations">
@@ -233,8 +235,8 @@ const CuratedTravel = () => {
                   size="lg"
                   className="rounded-full px-8 font-semibold bg-transparent text-white border-white/30 hover:bg-white/10"
                 >
-                  View More Destinatbhions
-                  <ArrowRight className="w-4 h-4 ml-2 transition-transform" />
+                  {t.collections.cta.exploreAll}
+                  <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </Link>
             </div>
