@@ -6,7 +6,7 @@ import { Clock, ArrowRight } from 'lucide-react';
 interface TourCardProps {
   imageUrl: string;
   title: string;
-  price: string;
+  // price: string;
   duration: string;
   description: string;
   features: string[];
@@ -17,7 +17,7 @@ interface TourCardProps {
 const TourCard: React.FC<TourCardProps> = ({
   imageUrl,
   title,
-  price,
+  // price,
   duration,
   description,
   features,
@@ -47,9 +47,9 @@ const TourCard: React.FC<TourCardProps> = ({
           <h3 className="text-xl text-white leading-tight min-h-[2.6em] flex-1">
             {title}
           </h3>
-          <span className="bg-gradient-to-br from-[#f8d56b] to-[#f4c430] text-[#1a1a2e] px-2.5 py-1.5 rounded-full font-semibold text-sm whitespace-nowrap ml-2">
+          {/* <span className="bg-gradient-to-br from-[#f8d56b] to-[#f4c430] text-[#1a1a2e] px-2.5 py-1.5 rounded-full font-semibold text-sm whitespace-nowrap ml-2">
             {price}
-          </span>
+          </span> */}
         </div>
 
         {/* Duration */}

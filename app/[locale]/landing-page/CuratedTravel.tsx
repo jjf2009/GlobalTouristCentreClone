@@ -10,66 +10,59 @@ import {
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n/context";
 import TourCard from "@/components/TourCard";
+import type { CollectionId } from "@/lib/i18n/translations";
 
-export const travelCollections = [
+
+export const travelCollections: {
+  id: CollectionId;
+  category: "domestic" | "international";
+  imageUrl: string;
+  rating: number;
+  tags: string[];
+  badge: string | null;
+  link: string;
+}[] = [
   {
-    id: 1,
+    id: "dudhsagar",
     category: "domestic",
-    imageUrl: "/destinations/Thumbnails/South-Goa-Cultural.webp",
-    title: "South Goa – Cultural Goa",
-    price: "$80",
-    duration: "Full Day Tour",
-    description:
-      "Full-day cultural tour exploring Old Goa churches, Hindu temples, Miramar Beach, Dona Paula, and Panjim Market.",
-    tags: ["Cultural", "UNESCO", "Heritage"],
-    link: "https://globaltouristcentre.com/itinerary/day-trips/South-Goa-1-Day-Cultural-and-Beach-Tour-package",
+    imageUrl: "/destinations/Thumbnails/Dudhsagar.webp",
+    rating: 4.6,
+    tags: ["Waterfalls", "Spices", "Nature"],
+    badge: null,
+    link: "https://globaltouristcentre.com/itinerary/day-trips/Dudhsagar-and-Spice-Plantation-Day-Trip-package",
   },
   {
-    id: 2,
-    category: "luxury",
-    imageUrl: "/destinations/Thumbnails/Yacht-goa.webp",
-    title: "Luxury Yacht Tour Goa",
-    price: "Premium",
-    duration: "6 Hours",
-    description:
-      "Premium 6-hour luxury yacht experience with infinity pool, live DJ, gourmet dinner, and sunset cruise in Goa.",
-    tags: ["Luxury", "Yacht", "Premium"],
-    link: "https://globaltouristcentre.com/itinerary/day-trips/luxury-yacht-tour-goa",
-  },
-  {
-    id: 3,
-    category: "luxury",
-    imageUrl: "/destinations/Thumbnails/Cabo-Serai.webp",
-    title: "Goa Luxury Serai Cabo",
-    price: "$370",
-    duration: "Custom Stay",
-    description:
-      "Experience ultimate luxury at Serai Cabo with private villas, world-class amenities, and personalized services.",
-    tags: ["Luxury", "Resort", "5-Star"],
-    link: "https://globaltouristcentre.com/itinerary/domestic-trips/Cabo-Serai-2N-3D-Luxury-Getaway",
-  },
-  {
-    id: 4,
+    id: "golden-triangle",
     category: "domestic",
-    imageUrl: "/destinations/Thumbnails/Andaman.webp",
-    title: "Andaman Islands",
-    price: "$970",
-    duration: "5–7 Days",
-    description:
-      "Discover pristine beaches, crystal waters, and exotic marine life in India's tropical paradise.",
-    tags: ["Islands", "Beaches", "Marine Life"],
-    link: "https://globaltouristcentre.com/itinerary/domestic-trips/andaman-tour-for-goa",
+    imageUrl: "/destinations/Thumbnails/GoldenTriangle.webp",
+    rating: 4.8,
+    tags: ["Heritage", "Taj Mahal", "Cultural"],
+    badge: null,
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/golden-triangle-trip-3n4d",
+  },
+  {
+    id: "varanasi",
+    category: "domestic",
+    imageUrl: "/destinations/Thumbnails/varanasi.webp",
+    rating: 4.7,
+    tags: ["Spiritual", "Pilgrimage", "Ganga Aarti"],
+    badge: null,
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/varanasi-2n3d-trip",
+  },
+  {
+    id: "amritsar",
+    category: "domestic",
+    imageUrl: "/hero/Amritsar-hero.webp",
+    rating: 4.7,
+    tags: ["Spiritual", "Cultural", "Historical"],
+    badge: null,
+    link: "https://globaltouristcentre.com/itinerary/domestic-trips/amritsar-trip-2n3d-from-goa",
   },
 ];
 
 const CuratedTravel = () => {
       const { t } = useI18n()
       const experiencesRef = useRef<HTMLDivElement>(null)
-
-      const formRef = useRef<HTMLDivElement>(null);
-    
-      const [isSubmitting, setIsSubmitting] = useState(false);
-      const [showSuccess, setShowSuccess] = useState(false);
       const collectionsRef = useRef<HTMLDivElement>(null);
     
     
@@ -125,24 +118,29 @@ const CuratedTravel = () => {
             role="list"
             aria-label="Travel package collections"
           >
-            {travelCollections.map((tour) => (
-              <div
-                key={tour.id}
-                className="flex-shrink-0 w-[85vw] max-w-[340px] snap-start"
-                role="listitem"
-              >
-                <TourCard
-                  imageUrl={tour.imageUrl}
-                  title={tour.title}
-                  price={tour.price}
-                  duration={tour.duration}
-                  description={tour.description}
-                  features={tour.tags}
-                  href={tour.link}
-                  category={tour.category}
-                />
-              </div>
-            ))}
+            {travelCollections.map((tour) => {
+              const content = t.collections.items[tour.id];
+            // console.log(content);
+            // console.log(tour);
+
+              return (
+                <div
+                  key={tour.id}
+                  className="flex-shrink-0 w-[85vw] max-w-[340px] snap-start"
+                  role="listitem"
+                >
+                  <TourCard
+                    imageUrl={tour.imageUrl}
+                    title={content.title}
+                    duration={content.duration}
+                    description={content.description}
+                    features={tour.tags}
+                    href={tour.link}
+                    category={tour.category}
+                  />
+                </div>
+              );
+            })}
 
             {/* View More/Less Card at the end */}
             <div className="flex-shrink-0 w-[85vw] max-w-[340px] snap-start">
@@ -151,10 +149,10 @@ const CuratedTravel = () => {
                   <ArrowRight className="w-10 h-10 text-white" />
                 </div>
                 <h3 className="font-serif text-2xl text-white font-bold mb-3">
-                  Discover More
+                  {t.collections.cta.discoverMore}
                 </h3>
                 <p className="text-white/80 text-sm mb-6">
-                  Explore our complete collection of amazing destinations
+                  {t.collections.subtitle}
                 </p>
 
                 <Link href="https://globaltouristcentre.com/destinations">
@@ -162,7 +160,7 @@ const CuratedTravel = () => {
                     size="lg"
                     className="rounded-full px-8 font-semibold bg-white text-slate-900 hover:bg-white/90  "
                   >
-                    View All Destinations
+                    {t.collections.cta.exploreAll}
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
                 </Link>
@@ -185,7 +183,7 @@ const CuratedTravel = () => {
                 d="M7 16l-4-4m0 0l4-4m-4 4h18"
               />
             </svg>
-            <span>Swipe to explore more</span>
+            <span>{t.collections.cta.swipeHint}</span>
             <svg
               className="w-5 h-5"
               fill="none"
@@ -209,24 +207,24 @@ const CuratedTravel = () => {
             role="list"
             aria-label="Travel package collections"
           >
-            {travelCollections.map((tour) => (
-              <div
-                key={tour.id}
-                className="flex-shrink-0 w-[85vw] max-w-[340px] snap-start"
-                role="listitem"
-              >
-                <TourCard
-                  imageUrl={tour.imageUrl}
-                  title={tour.title}
-                  price={tour.price}
-                  duration={tour.duration}
-                  description={tour.description}
-                  features={tour.tags}
-                  href={tour.link}
-                  category={tour.category}
-                />
-              </div>
-            ))}
+            {travelCollections.map((tour) => {
+  const content = t.collections.items[tour.id];
+
+  return (
+    <div key={tour.id} className="flex-shrink-0 w-[85vw] max-w-[340px] snap-start" role="listitem">
+      <TourCard
+        imageUrl={tour.imageUrl}
+        title={content.title}
+        duration={content.duration}
+        description={content.description}
+        features={tour.tags}
+        href={tour.link}
+        category={tour.category}
+      />
+    </div>
+  );
+})}
+
 
             <div className="col-span-full mt-10 flex justify-center">
               <Link href="https://globaltouristcentre.com/destinations">

@@ -262,7 +262,7 @@ const Hero = () => {
                   <Input
                     id="lp-phone"
                     type="tel"
-                    placeholder="+91 98765 43210"
+                    placeholder="98765 43210"
                     value={formData.phone}
                     onChange={(e) =>
                       setFormData({ ...formData, phone: e.target.value })
@@ -315,19 +315,23 @@ const Hero = () => {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="all-goa-one-day">
-                        ALL GOA IN ONE DAY
+                        {t.form.destinations.allGoa}
                       </SelectItem>
+
                       <SelectItem value="palolem-cola-dolphin">
-                        PALOLEM COLA - DOLPHIN
+                        {t.form.destinations.palolem}
                       </SelectItem>
+
                       <SelectItem value="mumbai-one-day">
-                        MUMBAI 1 DAY
+                        {t.form.destinations.mumbai}
                       </SelectItem>
+
                       <SelectItem value="taj-mahal-1n2d">
-                        TAJ MAHAL 1N2D
+                        {t.form.destinations.taj}
                       </SelectItem>
+
                       <SelectItem value="hampi-badami-1n2d">
-                        HAMPI BADAMI 1N2D
+                        {t.form.destinations.hampi}
                       </SelectItem>
                     </SelectContent>
                   </Select>

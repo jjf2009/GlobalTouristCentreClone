@@ -44,27 +44,14 @@ export default function LandingPage() {
   return (
     <div className=" bg-background">
       {/* Skip to main content link for accessibility */}
-      <a
-        
-        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-md"
-      >
-        Skip to booking form
+      <a className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-md"
+>Skip to booking form
       </a>
-
       {/* Hero Section */}
       <Hero/>
-
-      <OfferBanner
-        offerText="Free Airport Pickup With Every Tour"
-        linkText="Book Now"
-        linkHref="/book-tour"
-        daysUntilExpiry={1}
-        mode="sticky"
-      />
-
+      <OfferBanner/>
       {/* Signature Experiences Section */}
       <Signature/>
-
       {/* Curated Travel Collections - Shows 8 collections with View More */}
       <CuratedTravel/>
       {/* Premium Services Section */}
