@@ -25,7 +25,7 @@ export const travelCollections: {
   {
     id: "dudhsagar",
     category: "domestic",
-    imageUrl: "/destinations/Thumbnails/Dudhsagar.webp",
+    imageUrl: "/assets/destinations/Thumbnails/Dudhsagar.webp",
     rating: 4.6,
     tags: ["Waterfalls", "Spices", "Nature"],
     badge: null,
@@ -34,7 +34,7 @@ export const travelCollections: {
   {
     id: "golden-triangle",
     category: "domestic",
-    imageUrl: "/destinations/Thumbnails/GoldenTriangle.webp",
+    imageUrl: "/assets/destinations/Thumbnails/GoldenTriangle.webp",
     rating: 4.8,
     tags: ["Heritage", "Taj Mahal", "Cultural"],
     badge: null,
@@ -43,7 +43,7 @@ export const travelCollections: {
   {
     id: "varanasi",
     category: "domestic",
-    imageUrl: "/destinations/Thumbnails/varanasi.webp",
+    imageUrl: "/assets/destinations/Thumbnails/varanasi.webp",
     rating: 4.7,
     tags: ["Spiritual", "Pilgrimage", "Ganga Aarti"],
     badge: null,
@@ -52,7 +52,7 @@ export const travelCollections: {
   {
     id: "amritsar",
     category: "domestic",
-    imageUrl: "/hero/Amritsar-hero.webp",
+    imageUrl: "/assets/hero/Amritsar-hero.webp",
     rating: 4.7,
     tags: ["Spiritual", "Cultural", "Historical"],
     badge: null,

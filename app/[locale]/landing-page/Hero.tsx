@@ -150,7 +150,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/luxury-travel-destination-mountains-sunset.jpg"
+          src="/assets/luxury-travel-destination-mountains-sunset.jpg"
           alt=""
           fill
           priority

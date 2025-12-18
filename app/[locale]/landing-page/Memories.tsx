@@ -16,23 +16,23 @@ const travelMemories = [
   {
     id: 1,
     imageQuery: "tourists group photo Taj Mahal",
-    imageurl: "/trips/trip9.webp",
+    imageurl: "/assets/trips/trip9.webp",
   },
   {
     id: 2,
     imageQuery: "female tourist at a temple",
-    imageurl: "/trips/trip6.webp",
+    imageurl: "/assets/trips/trip6.webp",
   },
-  { id: 3, imageQuery: "couple honeymoon trip", imageurl: "/trips/trip5.webp" },
+  { id: 3, imageQuery: "couple honeymoon trip", imageurl: "/assets/trips/trip5.webp" },
   {
     id: 4,
     imageQuery: "group tour Rajasthan palace",
-    imageurl: "/trips/trip10.webp",
+    imageurl: "/assets/trips/trip10.webp",
   },
   {
     id: 5,
     imageQuery: "tourist couple at a temple",
-    imageurl: "/trips/trip8.webp",
+    imageurl: "/assets/trips/trip8.webp",
   },
 ];
 

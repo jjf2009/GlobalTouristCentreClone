@@ -43,7 +43,7 @@ export function Header() {
         >
              <div className="w-15 h-15 rounded-full border-2 border-[#f8d56b] flex items-center justify-center mb-4 sm:mt-[10px]">
   <img
-    src="/logo.webp"
+    src="/assets/logo.webp"
     alt="Global Tourist Centre Logo"
     className="h-15 w-auto rounded-full"
   />

@@ -55,7 +55,8 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Global Tourist Centre",
   },
-}
+  metadataBase: new URL("https://globaltouristcentre.com/"),
+};
 
 /* -----------------------------
    Viewport
