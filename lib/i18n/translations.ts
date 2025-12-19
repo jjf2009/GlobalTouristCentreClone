@@ -2005,7 +2005,7 @@ export const translations = {
       meetTeam: "Lernen Sie Unser Team Kennen",
       meetTeamSubtitle:
         "Die leidenschaftlichen Menschen, die Ihre Reiseträume verwirklichen.",
-      re: [
+      reviews: [
         {
           name: "Derek Parker",
           location: "Lakshadweep · Februar 2025",
