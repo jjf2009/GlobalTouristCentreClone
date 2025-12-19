@@ -1,29 +1,48 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 interface TeamMemberCardProps {
-  name: string
-  role: string
-  imageQuery: string
+  name: string;
+  role: string;
+  imagelink: string;
 }
 
-export function TeamMemberCard({ name, role, imageQuery }: TeamMemberCardProps) {
+export function TeamMemberCard({ name, role, imagelink }: TeamMemberCardProps) {
   const initials = name
     .split(" ")
     .map((n) => n[0])
-    .join("")
+    .join("");
 
   return (
-    <article className="text-center group" aria-label={`${name}, ${role}`}>
-      <Avatar className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 mx-auto mb-3 sm:mb-4 ring-2 ring-transparent group-hover:ring-primary transition-all">
+    <article
+      className="
+        group cursor-pointer text-center
+        bg-white rounded-xl p-6
+        shadow-[0_4px_12px_rgba(0,0,0,0.08)]
+        hover:shadow-[0_10px_25px_rgba(0,0,0,0.12)]
+        transition-all duration-300 hover:-translate-y-2
+        w-64 sm:w-72
+      "
+      aria-label={`${name}, ${role}`}
+    >
+      <Avatar className="w-32 h-32 mx-auto mb-4 transition-all">
         <AvatarImage
-          src={`/.jpg?height=128&width=128&query=${encodeURIComponent(imageQuery)}`}
+          src={imagelink}
           alt={`Photo of ${name}`}
           className="object-cover"
         />
-        <AvatarFallback className="text-lg sm:text-xl bg-primary/10 text-primary">{initials}</AvatarFallback>
+        <AvatarFallback className="text-2xl bg-primary/10 text-primary">
+          {initials}
+        </AvatarFallback>
       </Avatar>
-      <h4 className="font-serif font-semibold text-foreground text-sm sm:text-base">{name}</h4>
-      <p className="text-primary text-xs sm:text-sm">{role}</p>
+
+      <h4 className="font-serif font-bold text-gray-900 text-lg mb-1">
+        {name}
+      </h4>
+      <p className="text-teal-600 text-sm font-medium">{role}</p>
     </article>
-  )
+    
+
+    
+  );
 }
+

@@ -33,7 +33,7 @@ export function Footer() {
           <div className="col-span-2 lg:col-span-1">
             <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full border-2 border-[#f8d56b] flex items-center justify-center mb-3">
               <img
-                src="/logo.webp"
+                src="/assets/logo.webp"
                 alt="Global Tourist Centre Logo"
                 className="h-12 sm:h-14 w-auto rounded-full"
               />

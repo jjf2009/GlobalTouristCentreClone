@@ -76,7 +76,7 @@ export function PromoPopup({ delayMs = 5000 }: PromoPopupProps) {
           {/* Background */}
           <div className="absolute inset-0 z-0">
             <img
-              src="/car_offer.png"
+              src="/assets/car_offer.png"
               alt=""
               aria-hidden="true"
               className="w-full h-full object-cover"

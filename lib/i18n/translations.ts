@@ -322,6 +322,38 @@ export const translations = {
       meetTeam: "Meet Our Team",
       meetTeamSubtitle:
         "The passionate individuals who make your travel dreams come true.",
+      reviews: [
+        {
+          name: "Derek Parker",
+          location: "Lakshadweep · February 2025",
+          text: "Global arranged a tour from Goa to the Lakshadweep Islands. Flights, hotels, transfers, and ferries were all prebooked and included. This trip had been on our bucket list for over 30 years, so it was very special to us. Everything went extremely smoothly.",
+        },
+        {
+          name: "Soaleha Shaikh",
+          location: "Kerala · 7 days with husband",
+          text: "I recently went on a 7-day trip to Kerala with my husband. Global Tourist Centre made our experience truly memorable. Shifa organized everything so well that we didn’t face a single issue during the trip.",
+        },
+        {
+          name: "Maurice Patterson",
+          location: "India & Sri Lanka · Multi-country tour",
+          text: "We are extremely satisfied with the excellent arrangements made by Shifa Shaikh at Global Tourist Centre. Everything was perfectly organized and we had a wonderful experience.",
+        },
+        {
+          name: "Vishal Yadav",
+          location: "Andaman · Island getaway",
+          text: "The travel agency really knows what they’re doing. Great itinerary, friendly coordinator, and everything was on time. We absolutely loved the Andaman trip.",
+        },
+        {
+          name: "Fatima Shaik",
+          location: "Luxury Holiday · Custom package",
+          text: "Thank you for the wonderful trip you planned for us. It truly was a once-in-a-lifetime experience. The attention to detail and personalized service made all the difference.",
+        },
+        {
+          name: "Ketan Thakare",
+          location: "Andaman · Leisure trip",
+          text: "We booked our Andaman trip through Global Tourist Centre and it was fantastic. Everything went smoothly and we will definitely travel with them again.",
+        },
+      ],
     },
     // Contact Page
     contact: {
@@ -713,6 +745,38 @@ export const translations = {
       meetTeam: "Наша Команда",
       meetTeamSubtitle:
         "Увлечённые люди, которые воплощают ваши мечты о путешествиях.",
+      reviews: [
+        {
+          name: "Дерек Паркер",
+          location: "Лакшадвип · февраль 2025",
+          text: "Компания Global организовала тур из Гоа на Лакшадвипские острова. Всё было заранее включено и идеально спланировано. Эта поездка была нашей мечтой более 30 лет.",
+        },
+        {
+          name: "Солеаха Шайх",
+          location: "Керала · 7 дней с мужем",
+          text: "Недавно мы отправились в семидневное путешествие в Кералу. Global Tourist Centre сделали поездку незабываемой и без каких-либо проблем.",
+        },
+        {
+          name: "Морис Паттерсон",
+          location: "Индия и Шри-Ланка · комбинированный тур",
+          text: "Мы полностью довольны организацией поездки от Global Tourist Centre. Всё было выполнено на высшем уровне.",
+        },
+        {
+          name: "Вишал Ядав",
+          location: "Андаманские острова · отпуск",
+          text: "Туристическое агентство действительно знает своё дело. Отличный маршрут и профессиональная организация.",
+        },
+        {
+          name: "Фатима Шайх",
+          location: "Премиум-тур · индивидуальный отдых",
+          text: "Спасибо за великолепное путешествие. Персональный подход и внимание к деталям сделали его по-настоящему особенным.",
+        },
+        {
+          name: "Кетан Тхакаре",
+          location: "Андаманские острова · отдых",
+          text: "Мы забронировали поездку через Global Tourist Centre, и всё прошло идеально. Обязательно обратимся снова.",
+        },
+      ],
     },
     // Contact Page
     contact: {
@@ -1100,6 +1164,38 @@ export const translations = {
       meetTeam: "Incontra il Nostro Team",
       meetTeamSubtitle:
         "Le persone appassionate che realizzano i tuoi sogni di viaggio.",
+      reviews: [
+        {
+          name: "Derek Parker",
+          location: "Lakshadweep · Febbraio 2025",
+          text: "Global ha organizzato un tour da Goa alle isole Lakshadweep. Tutto era incluso e perfettamente pianificato. Un sogno che avevamo da oltre 30 anni.",
+        },
+        {
+          name: "Soaleha Shaikh",
+          location: "Kerala · 7 giorni in coppia",
+          text: "Abbiamo fatto un viaggio di 7 giorni in Kerala. Global Tourist Centre ha reso l’esperienza memorabile con un’organizzazione impeccabile.",
+        },
+        {
+          name: "Maurice Patterson",
+          location: "India e Sri Lanka · Tour combinato",
+          text: "Siamo estremamente soddisfatti dell’organizzazione curata da Global Tourist Centre. Tutto era perfetto.",
+        },
+        {
+          name: "Vishal Yadav",
+          location: "Andamane · Vacanza",
+          text: "Un’agenzia di viaggi molto professionale. Ottimo itinerario e coordinamento eccellente.",
+        },
+        {
+          name: "Fatima Shaik",
+          location: "Viaggio di lusso · Pacchetto su misura",
+          text: "Grazie per questa esperienza unica. Il servizio personalizzato ha fatto davvero la differenza.",
+        },
+        {
+          name: "Ketan Thakare",
+          location: "Andamane · Viaggio leisure",
+          text: "Abbiamo prenotato il viaggio con loro ed è stato fantastico. Tutto è andato liscio.",
+        },
+      ],
     },
     // Contact Page
     contact: {
@@ -1488,6 +1584,38 @@ export const translations = {
       meetTeam: "Rencontrez Notre Équipe",
       meetTeamSubtitle:
         "Les personnes passionnées qui réalisent vos rêves de voyage.",
+      reviews: [
+        {
+          name: "Derek Parker",
+          location: "Lakshadweep · Février 2025",
+          text: "Global a organisé un voyage exceptionnel de Goa vers les îles Lakshadweep. Tout était inclus et parfaitement coordonné.",
+        },
+        {
+          name: "Soaleha Shaikh",
+          location: "Kerala · 7 jours en couple",
+          text: "Nous avons vécu une expérience inoubliable au Kerala grâce à Global Tourist Centre. Organisation irréprochable.",
+        },
+        {
+          name: "Maurice Patterson",
+          location: "Inde & Sri Lanka · Voyage combiné",
+          text: "Nous sommes pleinement satisfaits de l’organisation assurée par Global Tourist Centre. Tout était parfait.",
+        },
+        {
+          name: "Vishal Yadav",
+          location: "Andaman · Séjour détente",
+          text: "Une agence très professionnelle avec un excellent itinéraire et un service fluide.",
+        },
+        {
+          name: "Fatima Shaik",
+          location: "Voyage premium · Expérience personnalisée",
+          text: "Merci pour ce voyage exceptionnel. L’attention aux détails a fait toute la différence.",
+        },
+        {
+          name: "Ketan Thakare",
+          location: "Andaman · Voyage loisirs",
+          text: "Un voyage parfaitement organisé. Nous referons appel à Global Tourist Centre sans hésiter.",
+        },
+      ],
     },
     // Contact Page
     contact: {
@@ -1877,6 +2005,38 @@ export const translations = {
       meetTeam: "Lernen Sie Unser Team Kennen",
       meetTeamSubtitle:
         "Die leidenschaftlichen Menschen, die Ihre Reiseträume verwirklichen.",
+      re: [
+        {
+          name: "Derek Parker",
+          location: "Lakshadweep · Februar 2025",
+          text: "Global organisierte eine perfekt geplante Reise von Goa zu den Lakshadweep-Inseln. Alles war inklusive.",
+        },
+        {
+          name: "Soaleha Shaikh",
+          location: "Kerala · 7 Tage als Paar",
+          text: "Unsere Kerala-Reise war hervorragend organisiert. Global Tourist Centre hat großartige Arbeit geleistet.",
+        },
+        {
+          name: "Maurice Patterson",
+          location: "Indien & Sri Lanka · Kombireise",
+          text: "Wir sind äußerst zufrieden mit der Organisation durch Global Tourist Centre. Alles lief reibungslos.",
+        },
+        {
+          name: "Vishal Yadav",
+          location: "Andaman · Inselurlaub",
+          text: "Ein sehr professionelles Reisebüro mit tollem Reiseplan und perfekter Umsetzung.",
+        },
+        {
+          name: "Fatima Shaik",
+          location: "Luxusreise · Maßgeschneidert",
+          text: "Vielen Dank für diese einmalige Reise. Der persönliche Service war hervorragend.",
+        },
+        {
+          name: "Ketan Thakare",
+          location: "Andaman · Erholungsreise",
+          text: "Wir haben unsere Reise hier gebucht und waren begeistert. Alles war perfekt organisiert.",
+        },
+      ],
     },
     // Contact Page
     contact: {

@@ -20,7 +20,7 @@ export function HeroSection({ title, subtitle, backgroundQuery, showForm = false
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src={`/.jpg?height=800&width=1600&query=${encodeURIComponent(backgroundQuery)}`}
+          src={`/assets/hero/${backgroundQuery}.webp`}
           alt=""
           className="w-full h-full object-cover"
           aria-hidden="true"

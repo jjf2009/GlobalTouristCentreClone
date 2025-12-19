@@ -80,6 +80,23 @@ const Signature = () => {
   return (
     <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-amber-50 to-white">
       <div className="container mx-auto px-4">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2
+            id="experiences-heading"
+            className="relative font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4 pb-3"
+          >
+            {t.experiences.title}
+
+            <span
+              aria-hidden="true"
+              className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
+                bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
+            />
+          </h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
+            {t.experiences.subtitle}
+          </p>
+        </div>
         {/* Mobile */}
         <div className="flex flex-col gap-6 sm:hidden">
           {experiences.map((exp: any) => (

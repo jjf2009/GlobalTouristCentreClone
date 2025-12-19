@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
 import { Playfair_Display, Inter } from "next/font/google"
+import { Montserrat} from "next/font/google";
 import { Analytics } from "@vercel/analytics/next"
 import { I18nProvider } from "@/lib/i18n/context"
 import { Header } from "@/components/header"
@@ -15,16 +16,23 @@ import "../globals.css"
 /* -----------------------------
    Fonts
 ------------------------------ */
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-})
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 })
 
+export const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-montserrat",
+});
+
+export const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-playfair",
+});
 /* -----------------------------
    Static Params for locales
 ------------------------------ */
@@ -87,7 +95,7 @@ export default function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`scroll-smooth ${playfair.variable} ${inter.variable}`}
+      className={`scroll-smooth ${montserrat.variable} ${playfair.variable}`}
     >
       <body className="min-h-screen flex flex-col antialiased font-sans relative">
         <I18nProvider locale={locale}>
@@ -116,5 +124,5 @@ export default function LocaleLayout({
         <Analytics />
       </body>
     </html>
-  )
+  );
 }

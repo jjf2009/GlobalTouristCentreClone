@@ -5,7 +5,8 @@ import Script from "next/script"
 // Moved OfferBanner and PromoPopup to root layout to avoid conflicts
 
 export const metadata: Metadata = {
-  title: "Luxury India & Dubai Holiday Packages | Up to 35% OFF | Global Tourist Centre",
+  title:
+    "Luxury India & Dubai Holiday Packages | Up to 35% OFF | Global Tourist Centre",
   description:
     "Book your dream vacation with Global Tourist Centre. Exclusive deals on India tours, Dubai packages, Kerala backwaters, Goa beaches, and more. Best price guarantee, personalized service, 15+ years of expertise. Get free quotes now!",
   keywords:
@@ -21,6 +22,22 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
+  },
+  icons: {
+    icon: [
+      {
+        url: "/assets/favicon/favicon-96x96.png",
+        sizes: "96x96",
+        type: "image/png",
+      },
+      { url: "/assets/favicon/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/assets/favicon/apple-touch-icon.png",
+    shortcut: "/assets/favicon/favicon.ico",
+  },
+  manifest: "/assets/favicon/site.webmanifest",
+  alternates: {
+    canonical: "https://globaltouristcentre.com/landing-page",
   },
   openGraph: {
     type: "website",
@@ -43,20 +60,24 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Luxury India & Dubai Holiday Packages | Up to 35% OFF",
-    description: "Book your dream vacation with exclusive deals. Best price guarantee + personalized service.",
+    description:
+      "Book your dream vacation with exclusive deals. Best price guarantee + personalized service.",
     images: ["/og-landing.jpg"],
   },
   alternates: {
-    canonical: "https://globaltouristcentre.com/lp",
+    canonical: "https://globaltouristcentre.com/en/landing-page",
     languages: {
-      "en-US": "https://globaltouristcentre.com/lp",
-      "ru-RU": "https://globaltouristcentre.com/ru/lp",
-      "it-IT": "https://globaltouristcentre.com/it/lp",
-      "fr-FR": "https://globaltouristcentre.com/fr/lp",
-      "de-DE": "https://globaltouristcentre.com/de/lp",
+      "en-US": "https://globaltouristcentre.com/en/landing-page",
+      "ru-RU": "https://globaltouristcentre.com/ru/landing-page",
+      "it-IT": "https://globaltouristcentre.com/it/landing-page",
+      "fr-FR": "https://globaltouristcentre.com/fr/landing-page",
+      "de-DE": "https://globaltouristcentre.com/de/landing-page",
     },
   },
-}
+  other: {
+    "yandex-verification": "38ec00f62a1f824b",
+  },
+};
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -131,14 +152,67 @@ export default function LandingPageLayout({
 }) {
   return (
     <>
+      <Script
+        id="gtm-script"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+      (function(w,d,s,l,i){w[l]=w[l]||[];
+      w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+      var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+      j.async=true; j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+      f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5CNKV323');
+    `,
+        }}
+      />
+      <Script
+        id="yandex-metrika"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+      (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0];
+        k.async=1;k.src=r;a.parentNode.insertBefore(k,a)
+      })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(105467216, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+      });
+    `,
+        }}
+      />
+
       {/* JSON-LD Structured Data for SEO */}
       <Script
         id="landing-page-jsonld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-5CNKV323"
+          height="0"
+          width="0"
+          style={{ display: "none", visibility: "hidden" }}
+        />
+      </noscript>
+      <noscript>
+        <img
+          src="https://mc.yandex.ru/watch/105467216"
+          style={{ position: "absolute", left: "-9999px" }}
+          alt=""
+        />
+      </noscript>
+
       {/* Landing page content - no header/footer, just the page content */}
       <div className="min-h-screen flex flex-col">{children}</div>
     </>
-  )
+  );
 }
