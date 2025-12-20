@@ -4,6 +4,7 @@ import { useI18n } from "@/lib/i18n/context"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 interface HeroSectionProps {
   title: string
@@ -19,15 +20,15 @@ export function HeroSection({ title, subtitle, backgroundQuery, showForm = false
     <section className="relative min-h-[50vh] sm:min-h-[60vh] flex items-center" aria-label={title}>
       {/* Background */}
       <div className="absolute inset-0 z-0">
-        <img
+        <Image
           src={`/assets/hero/${backgroundQuery}.webp`}
           alt=""
           className="w-full h-full object-cover"
+          fill
           aria-hidden="true"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" aria-hidden="true" />
       </div>
-
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 w-full">
         <div className={`grid gap-6 sm:gap-8 ${showForm ? "lg:grid-cols-2" : ""}`}>

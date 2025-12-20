@@ -374,6 +374,13 @@ export const translations = {
       faqTitle: "Frequently Asked Questions",
       faqSubtitle:
         "Find quick answers to common questions about our services and booking process.",
+      subjects: {
+        general: "General Inquiry",
+        booking: "Tour Booking",
+        group: "Group Travel",
+        custom: "Custom Tour",
+        feedback: "Feedback",
+      },
     },
     // Blog Page
     blog: {
@@ -797,6 +804,13 @@ export const translations = {
       faqTitle: "Часто Задаваемые Вопросы",
       faqSubtitle:
         "Быстрые ответы на распространённые вопросы о наших услугах.",
+      subjects: {
+        general: "Общий запрос",
+        booking: "Бронирование тура",
+        group: "Групповое путешествие",
+        custom: "Индивидуальный тур",
+        feedback: "Отзыв",
+      },
     },
     // Blog Page
     blog: {
@@ -1214,6 +1228,13 @@ export const translations = {
       sendMessageSubtitle: "Compila il modulo e ti contatteremo entro 24 ore",
       faqTitle: "Domande Frequenti",
       faqSubtitle: "Risposte rapide alle domande comuni sui nostri servizi.",
+      subjects: {
+        general: "Richiesta generale",
+        booking: "Prenotazione tour",
+        group: "Viaggio di gruppo",
+        custom: "Tour personalizzato",
+        feedback: "Feedback",
+      },
     },
     // Blog Page
     blog: {
@@ -1635,6 +1656,13 @@ export const translations = {
         "Remplissez le formulaire et nous vous contacterons dans les 24 heures",
       faqTitle: "Questions Fréquentes",
       faqSubtitle: "Réponses rapides aux questions courantes sur nos services.",
+      subjects: {
+        general: "Demande générale",
+        booking: "Réservation de voyage",
+        group: "Voyage en groupe",
+        custom: "Voyage sur mesure",
+        feedback: "Retour d’expérience",
+      },
     },
     // Blog Page
     blog: {
@@ -2057,6 +2085,13 @@ export const translations = {
       faqTitle: "Häufig Gestellte Fragen",
       faqSubtitle:
         "Schnelle Antworten auf häufige Fragen zu unseren Dienstleistungen.",
+      subjects: {
+        general: "Allgemeine Anfrage",
+        booking: "Reisebuchung",
+        group: "Gruppenreise",
+        custom: "Individuelle Reise",
+        feedback: "Feedback",
+      },
     },
     // Blog Page
     blog: {
