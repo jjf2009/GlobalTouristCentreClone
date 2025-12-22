@@ -4,14 +4,11 @@ import type React from "react";
 
 import { useState, useRef } from "react";
 import Link from "next/link";
-import {
-  ArrowRight,
-} from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n/context";
 import TourCard from "@/components/TourCard";
 import type { CollectionId } from "@/lib/i18n/translations";
-
 
 export const travelCollections: {
   id: CollectionId;
@@ -61,29 +58,31 @@ export const travelCollections: {
 ];
 
 const CuratedTravel = () => {
-      const { t } = useI18n()
-      const experiencesRef = useRef<HTMLDivElement>(null)
-      const collectionsRef = useRef<HTMLDivElement>(null);
-    
-    
-      const scrollExperiences = (direction: "left" | "right") => {
-        if (experiencesRef.current) {
-          const scrollAmount = direction === "left" ? -300 : 300
-          experiencesRef.current.scrollBy({ left: scrollAmount, behavior: "smooth" })
-        }
-      }
-    const scrollCollections = (direction: "left" | "right") => {
-      if (collectionsRef.current) {
-        const scrollAmount = 300;
-        const newScrollLeft =
-          collectionsRef.current.scrollLeft +
-          (direction === "left" ? -scrollAmount : scrollAmount);
-        collectionsRef.current.scrollTo({
-          left: newScrollLeft,
-          behavior: "smooth",
-        });
-      }
-    };
+  const { t } = useI18n();
+  const experiencesRef = useRef<HTMLDivElement>(null);
+  const collectionsRef = useRef<HTMLDivElement>(null);
+
+  const scrollExperiences = (direction: "left" | "right") => {
+    if (experiencesRef.current) {
+      const scrollAmount = direction === "left" ? -300 : 300;
+      experiencesRef.current.scrollBy({
+        left: scrollAmount,
+        behavior: "smooth",
+      });
+    }
+  };
+  const scrollCollections = (direction: "left" | "right") => {
+    if (collectionsRef.current) {
+      const scrollAmount = 300;
+      const newScrollLeft =
+        collectionsRef.current.scrollLeft +
+        (direction === "left" ? -scrollAmount : scrollAmount);
+      collectionsRef.current.scrollTo({
+        left: newScrollLeft,
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <section
       className="relative py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-[#111827] to-[#1f2937]"

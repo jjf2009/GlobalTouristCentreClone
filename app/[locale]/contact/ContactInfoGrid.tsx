@@ -52,7 +52,6 @@ export function ContactInfoGrid() {
 
   return (
     <>
-  
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {contactInfo.map((info, index) => (
           <Card key={index} className="text-center">

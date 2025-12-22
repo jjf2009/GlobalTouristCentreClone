@@ -1,18 +1,22 @@
-"use client"
+"use client";
 
-import { useI18n } from "@/lib/i18n/context"
-import type { LucideIcon } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { useI18n } from "@/lib/i18n/context";
+import type { LucideIcon } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 interface ServiceCardProps {
-  icon: LucideIcon
-  title: string
-  description: string
+  icon: LucideIcon;
+  title: string;
+  description: string;
 }
 
-export function ServiceCard({ icon: Icon, title, description }: ServiceCardProps) {
-  const { t } = useI18n()
+export function ServiceCard({
+  icon: Icon,
+  title,
+  description,
+}: ServiceCardProps) {
+  const { t } = useI18n();
 
   return (
     <Card className="text-center hover:shadow-lg transition-shadow focus-within:ring-2 focus-within:ring-primary">
@@ -23,8 +27,12 @@ export function ServiceCard({ icon: Icon, title, description }: ServiceCardProps
         >
           <Icon className="w-6 h-6 sm:w-7 sm:h-7 text-primary" />
         </div>
-        <h3 className="font-serif font-semibold text-card-foreground mb-1.5 sm:mb-2 text-sm sm:text-base">{title}</h3>
-        <p className="text-muted-foreground text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed">{description}</p>
+        <h3 className="font-serif font-semibold text-card-foreground mb-1.5 sm:mb-2 text-sm sm:text-base">
+          {title}
+        </h3>
+        <p className="text-muted-foreground text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed">
+          {description}
+        </p>
         <Button
           variant="outline"
           size="sm"
@@ -35,5 +43,5 @@ export function ServiceCard({ icon: Icon, title, description }: ServiceCardProps
         </Button>
       </CardContent>
     </Card>
-  )
+  );
 }

@@ -19,7 +19,7 @@ interface OfferBannerProps {
 }
 
 export function OfferBanner({
-  daysUntilExpiry =0.5,
+  daysUntilExpiry = 0.5,
   offerText,
   linkHref,
   linkText,
@@ -85,15 +85,14 @@ export function OfferBanner({
   if (isExpired) return null;
 
   // MM:SS countdown
-const totalSeconds =
-  timeLeft.days * 24 * 60 * 60 +
-  timeLeft.hours * 60 * 60 +
-  timeLeft.minutes * 60 +
-  timeLeft.seconds;
+  const totalSeconds =
+    timeLeft.days * 24 * 60 * 60 +
+    timeLeft.hours * 60 * 60 +
+    timeLeft.minutes * 60 +
+    timeLeft.seconds;
 
-const displayHours = Math.floor(totalSeconds / 3600);
-const displayMinutes = Math.floor((totalSeconds % 3600) / 60);
-
+  const displayHours = Math.floor(totalSeconds / 3600);
+  const displayMinutes = Math.floor((totalSeconds % 3600) / 60);
 
   return (
     <div

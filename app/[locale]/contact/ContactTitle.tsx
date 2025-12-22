@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 import { useI18n } from "@/lib/i18n/context";
 
 const ContactTitle = () => {
-      const { t } = useI18n();
+  const { t } = useI18n();
   return (
     <div className="mb-16">
       <div className="relative inline-block">
@@ -20,6 +20,6 @@ const ContactTitle = () => {
       <p className="text-gray-600 text-lg mt-4">{t.contact.mainSubtitle}</p>
     </div>
   );
-}
+};
 
-export default ContactTitle
+export default ContactTitle;

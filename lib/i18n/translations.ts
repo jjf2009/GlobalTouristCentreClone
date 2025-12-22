@@ -17,6 +17,66 @@ export const translations = {
       cta: "Get Free Quote",
       tagline: "We Don't Just Book Trips — We Design Lifetimes of Stories",
     },
+    home: {
+      title: "Choose Your Next Adventure",
+      mainsubtitle:
+        "Explore our curated selection of destinations that will create memories to last a lifetime.",
+      formtitle: "Reach Out to Us",
+      formsubtitle:
+        "Help us in planning your dream vacation, and lets turn that dream into a reality.",
+      subtitle:
+        "Share your details and we'll create the perfect itinerary for you",
+      items: {
+        "kashmir-5n6d": {
+          title: "Exotic Kashmir",
+          duration: "5 Nights / 6 Days",
+          description:
+            "Explore Srinagar, Sonamarg, Gulmarg, and Pahalgam with Mughal gardens, houseboat stay, and breathtaking Himalayan landscapes.",
+        },
+        "andaman-6n7d": {
+          title: "Andaman Coastal Retreat",
+          duration: "6 Nights / 7 Days",
+          description:
+            "Discover coral beaches, island hopping, water sports, pristine marine life, and historical Cellular Jail across tropical islands.",
+        },
+        "dandeli-day": {
+          title: "Dandeli Elephant Safari",
+          duration: "1 Day",
+          description:
+            "Thrilling wildlife adventure featuring elephant safaris, white water rafting, and jungle exploration in the lush landscapes of Dandeli.",
+        },
+        "dubai-5n6d": {
+          title: "Dubai Tour Package",
+          duration: "6 Days / 5 Nights",
+          description:
+            "Experience Dubai's modern marvels with dhow cruise, desert safari, Burj Khalifa, Dubai Aquarium, and thrilling waterpark adventures.",
+        },
+        "sikkim-6n7d": {
+          title: "Sikkim – Eastern Himalayas",
+          duration: "6 Nights / 7 Days",
+          description:
+            "Discover Gangtok, Darjeeling, and Pelling with Tsomgo Lake, mountain views, and Buddhist monasteries in the Eastern Himalayas.",
+        },
+        "thailand-7n8d": {
+          title: "Simply Thailand – Fully Loaded",
+          duration: "8 Days / 7 Nights",
+          description:
+            "Comprehensive tour covering Bangkok, Pattaya, Krabi, and Phuket, combining city life, beaches, islands, and cultural attractions.",
+        },
+        "dudhsagar-day": {
+          title: "Dudhsagar Waterfall & Spice Plantation",
+          duration: "1 Day",
+          description:
+            "Visit the majestic Dudhsagar Falls with a jeep safari through Bhagwan Mahaveer Sanctuary and enjoy an authentic Goan lunch at a spice plantation.",
+        },
+        "bhutan-7n8d": {
+          title: "Breathtaking Bhutan",
+          duration: "8 Days / 7 Nights",
+          description:
+            "Explore Thimphu, Punakha, and Paro with the iconic Tiger’s Nest Monastery hike and immersive Bhutanese cultural experiences.",
+        },
+      },
+    },
     // Form
     form: {
       name: "Your Name",
@@ -452,6 +512,66 @@ export const translations = {
       tagline:
         "Мы Не Просто Бронируем Поездки — Мы Создаём Истории на Всю Жизнь",
     },
+    home: {
+      title: "Выберите своё следующее приключение",
+      mainsubtitle:
+        "Откройте для себя нашу тщательно подобранную коллекцию направлений, которые подарят воспоминания на всю жизнь.",
+      formtitle: "Свяжитесь с нами",
+      formsubtitle:
+        "Помогите нам спланировать отпуск вашей мечты, и давайте превратим эту мечту в реальность.",
+      subtitle:
+        "Поделитесь своими данными, и мы создадим для вас идеальный маршрут.",
+      items: {
+        "kashmir-5n6d": {
+          title: "Экзотический Кашмир",
+          duration: "5 ночей / 6 дней",
+          description:
+            "Исследуйте Сринагар, Сонмарг, Гульмарг и Пахалгам с садами Великих Моголов, проживанием в хаусботе и захватывающими гималайскими пейзажами.",
+        },
+        "andaman-6n7d": {
+          title: "Андаманский прибрежный отдых",
+          duration: "6 ночей / 7 дней",
+          description:
+            "Откройте для себя коралловые пляжи, островные туры, водные виды спорта, нетронутую морскую природу и историческую тюрьму Селлюлар.",
+        },
+        "dandeli-day": {
+          title: "Сафари на слонах в Дандели",
+          duration: "1 день",
+          description:
+            "Захватывающее приключение с сафари на слонах, рафтингом по бурным рекам и исследованием джунглей в живописных ландшафтах Дандели.",
+        },
+        "dubai-5n6d": {
+          title: "Туристический пакет в Дубай",
+          duration: "6 дней / 5 ночей",
+          description:
+            "Откройте для себя современные чудеса Дубая с круизом на дау, сафари по пустыне, Бурдж-Халифой, аквариумом Дубая и захватывающими аквапарками.",
+        },
+        "sikkim-6n7d": {
+          title: "Сикким — Восточные Гималаи",
+          duration: "6 ночей / 7 дней",
+          description:
+            "Посетите Гангток, Дарджилинг и Пеллинг с озером Цомго, горными пейзажами и буддийскими монастырями Восточных Гималаев.",
+        },
+        "thailand-7n8d": {
+          title: "Таиланд — всё включено",
+          duration: "8 дней / 7 ночей",
+          description:
+            "Комплексный тур по Бангкоку, Паттайе, Краби и Пхукету с сочетанием городской жизни, пляжей, островов и культурных достопримечательностей.",
+        },
+        "dudhsagar-day": {
+          title: "Водопад Дудхсагар и плантация специй",
+          duration: "1 день",
+          description:
+            "Посетите величественный водопад Дудхсагар с сафари на джипах через заповедник Бхагван Махавир и насладитесь традиционным гоанским обедом на плантации специй.",
+        },
+        "bhutan-7n8d": {
+          title: "Великолепный Бутан",
+          duration: "8 дней / 7 ночей",
+          description:
+            "Исследуйте Тхимпху, Пунакху и Паро с культовым походом к монастырю Такцанг (Гнездо тигрицы) и глубоким погружением в культуру Бутана.",
+        },
+      },
+    },
     // Form
     form: {
       name: "Ваше Имя",
@@ -881,6 +1001,66 @@ export const translations = {
       cta: "Preventivo Gratuito",
       tagline: "Non Prenotamo Solo Viaggi — Creiamo Storie per la Vita",
     },
+    home: {
+      title: "Scegli la tua prossima avventura",
+      mainsubtitle:
+        "Esplora la nostra selezione curata di destinazioni che creeranno ricordi da custodire per tutta la vita.",
+      formtitle: "Contattaci",
+      formsubtitle:
+        "Aiutaci a pianificare la vacanza dei tuoi sogni e trasformiamo quel sogno in realtà.",
+      subtitle:
+        "Condividi i tuoi dettagli e creeremo l’itinerario perfetto per te.",
+      items: {
+        "kashmir-5n6d": {
+          title: "Kashmir esotico",
+          duration: "5 notti / 6 giorni",
+          description:
+            "Esplora Srinagar, Sonamarg, Gulmarg e Pahalgam con giardini Mughal, soggiorno in houseboat e spettacolari paesaggi himalayani.",
+        },
+        "andaman-6n7d": {
+          title: "Ritiro costiero delle Andamane",
+          duration: "6 notti / 7 giorni",
+          description:
+            "Scopri spiagge coralline, tour tra le isole, sport acquatici, fauna marina incontaminata e la storica prigione Cellular Jail.",
+        },
+        "dandeli-day": {
+          title: "Safari con elefanti a Dandeli",
+          duration: "1 giorno",
+          description:
+            "Avventura emozionante con safari sugli elefanti, rafting in acque bianche ed esplorazione della giungla nei paesaggi rigogliosi di Dandeli.",
+        },
+        "dubai-5n6d": {
+          title: "Pacchetto turistico Dubai",
+          duration: "6 giorni / 5 notti",
+          description:
+            "Vivi le meraviglie moderne di Dubai con crociera in dhow, safari nel deserto, Burj Khalifa, Acquario di Dubai e parchi acquatici.",
+        },
+        "sikkim-6n7d": {
+          title: "Sikkim – Himalaya orientale",
+          duration: "6 notti / 7 giorni",
+          description:
+            "Scopri Gangtok, Darjeeling e Pelling con il lago Tsomgo, panorami montani e monasteri buddisti.",
+        },
+        "thailand-7n8d": {
+          title: "Thailandia – pacchetto completo",
+          duration: "8 giorni / 7 notti",
+          description:
+            "Tour completo di Bangkok, Pattaya, Krabi e Phuket che combina vita urbana, spiagge, isole e attrazioni culturali.",
+        },
+        "dudhsagar-day": {
+          title: "Cascate di Dudhsagar & piantagione di spezie",
+          duration: "1 giorno",
+          description:
+            "Visita le maestose cascate di Dudhsagar con safari in jeep nel santuario Bhagwan Mahaveer e gusta un autentico pranzo goano.",
+        },
+        "bhutan-7n8d": {
+          title: "Bhutan mozzafiato",
+          duration: "8 giorni / 7 notti",
+          description:
+            "Esplora Thimphu, Punakha e Paro con la celebre escursione al Monastero del Nido della Tigre e profonde esperienze culturali.",
+        },
+      },
+    },
     // Form
     form: {
       name: "Il Tuo Nome",
@@ -1305,6 +1485,66 @@ export const translations = {
       cta: "Devis Gratuit",
       tagline:
         "Nous Ne Réservons Pas Seulement des Voyages — Nous Créons des Histoires pour la Vie",
+    },
+    home: {
+      title: "Choisissez votre prochaine aventure",
+      mainsubtitle:
+        "Découvrez notre sélection de destinations soigneusement choisies pour créer des souvenirs inoubliables..",
+      formtitle: "Contactez-nous",
+      formsubtitle:
+        "Aidez-nous à planifier vos vacances de rêve et transformons ce rêve en réalité.",
+      subtitle:
+        "Partagez vos informations et nous créerons l’itinéraire parfait pour vous.",
+      items: {
+        "kashmir-5n6d": {
+          title: "Cachemire exotique",
+          duration: "5 nuits / 6 jours",
+          description:
+            "Explorez Srinagar, Sonamarg, Gulmarg et Pahalgam avec des jardins moghols, un séjour en houseboat et des paysages himalayens spectaculaires.",
+        },
+        "andaman-6n7d": {
+          title: "Retraite côtière des Andaman",
+          duration: "6 nuits / 7 jours",
+          description:
+            "Découvrez des plages de corail, des excursions entre îles, des sports nautiques, une vie marine préservée et la prison historique Cellular Jail.",
+        },
+        "dandeli-day": {
+          title: "Safari aux éléphants à Dandeli",
+          duration: "1 jour",
+          description:
+            "Aventure palpitante avec safaris à dos d’éléphant, rafting en eaux vives et exploration de la jungle dans les paysages luxuriants de Dandeli.",
+        },
+        "dubai-5n6d": {
+          title: "Forfait touristique à Dubaï",
+          duration: "6 jours / 5 nuits",
+          description:
+            "Découvrez les merveilles modernes de Dubaï avec une croisière en dhow, un safari dans le désert, le Burj Khalifa, l’aquarium de Dubaï et des parcs aquatiques.",
+        },
+        "sikkim-6n7d": {
+          title: "Sikkim – Himalaya oriental",
+          duration: "6 nuits / 7 jours",
+          description:
+            "Explorez Gangtok, Darjeeling et Pelling avec le lac Tsomgo, des vues montagneuses et des monastères bouddhistes.",
+        },
+        "thailand-7n8d": {
+          title: "Thaïlande – formule complète",
+          duration: "8 jours / 7 nuits",
+          description:
+            "Circuit complet à travers Bangkok, Pattaya, Krabi et Phuket combinant vie urbaine, plages, îles et attractions culturelles.",
+        },
+        "dudhsagar-day": {
+          title: "Chutes de Dudhsagar & plantation d’épices",
+          duration: "1 jour",
+          description:
+            "Visitez les majestueuses chutes de Dudhsagar avec un safari en jeep dans le sanctuaire Bhagwan Mahaveer et profitez d’un déjeuner goanais authentique.",
+        },
+        "bhutan-7n8d": {
+          title: "Bhoutan époustouflant",
+          duration: "8 jours / 7 nuits",
+          description:
+            "Explorez Thimphu, Punakha et Paro avec la célèbre randonnée jusqu’au monastère du Nid du Tigre et des expériences culturelles immersives.",
+        },
+      },
     },
     // Form
     form: {
@@ -1733,6 +1973,66 @@ export const translations = {
       cta: "Kostenloses Angebot",
       tagline:
         "Wir Buchen Nicht Nur Reisen — Wir Gestalten Geschichten fürs Leben",
+    },
+    home: {
+      title: "Wählen Sie Ihr nächstes Abenteuer",
+      mainsubtitle:
+        "Entdecken Sie unsere sorgfältig zusammengestellte Auswahl an Reisezielen, die Erinnerungen fürs Leben schaffen.",
+      formtitle: "Kontaktieren Sie uns",
+      formsubtitle:
+        "Helfen Sie uns, Ihren Traumurlaub zu planen, und lassen Sie uns diesen Traum Wirklichkeit werden.",
+      subtitle:
+        "Teilen Sie uns Ihre Daten mit, und wir erstellen die perfekte Reiseroute für Sie.",
+      items: {
+        "kashmir-5n6d": {
+          title: "Exotisches Kaschmir",
+          duration: "5 Nächte / 6 Tage",
+          description:
+            "Entdecken Sie Srinagar, Sonamarg, Gulmarg und Pahalgam mit Mogulgärten, Hausboot-Aufenthalt und atemberaubenden Himalaya-Landschaften.",
+        },
+        "andaman-6n7d": {
+          title: "Andamanischer Küstenurlaub",
+          duration: "6 Nächte / 7 Tage",
+          description:
+            "Erleben Sie Korallenstrände, Inselhopping, Wassersport, unberührte Meereswelt und das historische Cellular Jail.",
+        },
+        "dandeli-day": {
+          title: "Dandeli Elefanten-Safari",
+          duration: "1 Tag",
+          description:
+            "Spannendes Naturerlebnis mit Elefanten-Safaris, Wildwasser-Rafting und Dschungelerkundung in den üppigen Landschaften von Dandeli.",
+        },
+        "dubai-5n6d": {
+          title: "Dubai Reisepaket",
+          duration: "6 Tage / 5 Nächte",
+          description:
+            "Erleben Sie Dubais moderne Highlights mit Dhow-Kreuzfahrt, Wüstensafari, Burj Khalifa, Dubai Aquarium und aufregenden Wasserparks.",
+        },
+        "sikkim-6n7d": {
+          title: "Sikkim – Östlicher Himalaya",
+          duration: "6 Nächte / 7 Tage",
+          description:
+            "Entdecken Sie Gangtok, Darjeeling und Pelling mit dem Tsomgo-See, beeindruckenden Bergpanoramen und buddhistischen Klöstern.",
+        },
+        "thailand-7n8d": {
+          title: "Thailand – Rundum-Sorglos-Paket",
+          duration: "8 Tage / 7 Nächte",
+          description:
+            "Umfassende Reise durch Bangkok, Pattaya, Krabi und Phuket mit einer Mischung aus Stadtleben, Stränden, Inseln und Kultur.",
+        },
+        "dudhsagar-day": {
+          title: "Dudhsagar-Wasserfall & Gewürzplantage",
+          duration: "1 Tag",
+          description:
+            "Besuchen Sie die majestätischen Dudhsagar-Wasserfälle mit Jeep-Safari durch das Bhagwan Mahaveer-Schutzgebiet und genießen Sie ein authentisches goanisches Mittagessen.",
+        },
+        "bhutan-7n8d": {
+          title: "Atemberaubendes Bhutan",
+          duration: "8 Tage / 7 Nächte",
+          description:
+            "Erkunden Sie Thimphu, Punakha und Paro mit der berühmten Wanderung zum Tigernest-Kloster und intensiven kulturellen Erlebnissen.",
+        },
+      },
     },
     // Form
     form: {

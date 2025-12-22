@@ -1,17 +1,17 @@
-import type React from "react"
-import type { Metadata, Viewport } from "next"
-import { Playfair_Display, Inter } from "next/font/google"
-import { Montserrat} from "next/font/google";
-import { Analytics } from "@vercel/analytics/next"
-import { I18nProvider } from "@/lib/i18n/context"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import { PromoPopup } from "@/components/promo-popup"
-import { WhatsAppButton } from "@/components/whatsapp-button"
-import { locales } from "@/lib/i18n/config"
+import type React from "react";
+import type { Metadata, Viewport } from "next";
+import { Playfair_Display, Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { I18nProvider } from "@/lib/i18n/context";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import { PromoPopup } from "@/components/promo-popup";
+import { WhatsAppButton } from "@/components/whatsapp-button";
+import { locales } from "@/lib/i18n/config";
 import type { Locale } from "@/lib/i18n/translations";
-import { notFound } from "next/navigation"
-import "../globals.css"
+import { notFound } from "next/navigation";
+import "../globals.css";
 
 /* -----------------------------
    Fonts
@@ -20,7 +20,7 @@ import "../globals.css"
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
-})
+});
 
 export const montserrat = Montserrat({
   subsets: ["latin"],
@@ -37,7 +37,7 @@ export const playfair = Playfair_Display({
    Static Params for locales
 ------------------------------ */
 export async function generateStaticParams() {
-  return locales.map((locale) => ({ locale }))
+  return locales.map((locale) => ({ locale }));
 }
 
 /* -----------------------------
@@ -74,7 +74,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   themeColor: "#1a2332",
-}
+};
 
 /* -----------------------------
    Root Layout
@@ -83,13 +83,13 @@ export default function LocaleLayout({
   children,
   params,
 }: {
-  children: React.ReactNode
-  params: { locale: string }
+  children: React.ReactNode;
+  params: { locale: string };
 }) {
-    const locale = params.locale as Locale;
+  const locale = params.locale as Locale;
 
   if (!locales.includes(locale as any)) {
-    notFound()
+    notFound();
   }
 
   return (

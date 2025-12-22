@@ -1,23 +1,31 @@
-"use client"
+"use client";
 
-import { useI18n } from "@/lib/i18n/context"
-import { Label } from "@/components/ui/label"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
+import { useI18n } from "@/lib/i18n/context";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 interface HeroSectionProps {
-  title: string
-  subtitle?: string
-  backgroundQuery: string
-  showForm?: boolean
+  title: string;
+  subtitle?: string;
+  backgroundQuery: string;
+  showForm?: boolean;
 }
 
-export function HeroSection({ title, subtitle, backgroundQuery, showForm = false }: HeroSectionProps) {
-  const { t } = useI18n()
+export function HeroSection({
+  title,
+  subtitle,
+  backgroundQuery,
+  showForm = false,
+}: HeroSectionProps) {
+  const { t } = useI18n();
 
   return (
-    <section className="relative min-h-[50vh] sm:min-h-[60vh] flex items-center" aria-label={title}>
+    <section
+      className="relative min-h-[50vh] sm:min-h-[60vh] flex items-center"
+      aria-label={title}
+    >
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -27,16 +35,25 @@ export function HeroSection({ title, subtitle, backgroundQuery, showForm = false
           fill
           aria-hidden="true"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" aria-hidden="true" />
+        <div
+          className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"
+          aria-hidden="true"
+        />
       </div>
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 w-full">
-        <div className={`grid gap-6 sm:gap-8 ${showForm ? "lg:grid-cols-2" : ""}`}>
+        <div
+          className={`grid gap-6 sm:gap-8 ${showForm ? "lg:grid-cols-2" : ""}`}
+        >
           <div className="flex flex-col justify-center">
             <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3 sm:mb-4 text-balance leading-tight">
               {title}
             </h1>
-            {subtitle && <p className="text-white/80 text-base sm:text-lg max-w-xl">{subtitle}</p>}
+            {subtitle && (
+              <p className="text-white/80 text-base sm:text-lg max-w-xl">
+                {subtitle}
+              </p>
+            )}
           </div>
 
           {showForm && (
@@ -44,7 +61,10 @@ export function HeroSection({ title, subtitle, backgroundQuery, showForm = false
               <h2 className="font-serif text-lg sm:text-xl font-semibold text-foreground mb-3 sm:mb-4 text-center">
                 {t.hero.subtitle}
               </h2>
-              <form className="space-y-3 sm:space-y-4" aria-label="Request quote form">
+              <form
+                className="space-y-3 sm:space-y-4"
+                aria-label="Request quote form"
+              >
                 <div>
                   <Label htmlFor="hero-name" className="sr-only">
                     {t.form.name}
@@ -84,17 +104,26 @@ export function HeroSection({ title, subtitle, backgroundQuery, showForm = false
                     aria-required="true"
                   />
                 </div>
-                <Button type="submit" className="w-full h-11 sm:h-12 text-base font-medium">
+                <Button
+                  type="submit"
+                  className="w-full h-11 sm:h-12 text-base font-medium"
+                >
                   {t.form.submit}
                 </Button>
               </form>
               <p className="text-xs text-muted-foreground text-center mt-3 sm:mt-4">
                 {t.form.privacyNote}{" "}
-                <a href="#" className="text-primary hover:underline focus:outline-none focus-visible:underline">
+                <a
+                  href="#"
+                  className="text-primary hover:underline focus:outline-none focus-visible:underline"
+                >
                   {t.form.privacyPolicy}
                 </a>{" "}
                 {t.form.and}{" "}
-                <a href="#" className="text-primary hover:underline focus:outline-none focus-visible:underline">
+                <a
+                  href="#"
+                  className="text-primary hover:underline focus:outline-none focus-visible:underline"
+                >
                   {t.form.termsOfUse}
                 </a>
               </p>
@@ -103,5 +132,5 @@ export function HeroSection({ title, subtitle, backgroundQuery, showForm = false
         </div>
       </div>
     </section>
-  )
+  );
 }

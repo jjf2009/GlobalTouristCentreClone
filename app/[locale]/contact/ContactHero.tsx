@@ -9,10 +9,7 @@ export function ContactHero() {
 
   return (
     <>
-      <HeroSection
-        title={t.contact.heroTitle}
-        backgroundQuery="Contact-hero"
-      />
+      <HeroSection title={t.contact.heroTitle} backgroundQuery="Contact-hero" />
     </>
   );
 }

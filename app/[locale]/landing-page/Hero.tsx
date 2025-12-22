@@ -4,12 +4,7 @@ import type React from "react";
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import {
-  Star,
-  ArrowRight,
-  Shield,
-  Heart,
-} from "lucide-react";
+import { Star, ArrowRight, Shield, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";

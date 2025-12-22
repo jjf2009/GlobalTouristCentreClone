@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { useState } from "react"
-import { useI18n } from "@/lib/i18n/context"
-import { LanguageSwitcher } from "./language-switcher"
-import { Menu, X } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import Link from "next/link";
+import { useState } from "react";
+import { useI18n } from "@/lib/i18n/context";
+import { LanguageSwitcher } from "./language-switcher";
+import { Menu, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import {
   Sheet,
   SheetContent,
@@ -13,21 +13,27 @@ import {
   SheetTitle,
   SheetTrigger,
   SheetClose,
-} from "@/components/ui/sheet"
+} from "@/components/ui/sheet";
 
 export function Header() {
-  const { t } = useI18n()
-  const [isOpen, setIsOpen] = useState(false)
+  const { t } = useI18n();
+  const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
     { href: "https://globaltouristcentre.com/", label: t.nav.home },
-    { href: "https://globaltouristcentre.com/destinations", label: t.nav.destinations },
-    { href: "https://globaltouristcentre.com/luxury-destinations", label: t.nav.luxuryDestinations },
+    {
+      href: "https://globaltouristcentre.com/destinations",
+      label: t.nav.destinations,
+    },
+    {
+      href: "https://globaltouristcentre.com/luxury-destinations",
+      label: t.nav.luxuryDestinations,
+    },
     { href: "https://globaltouristcentre.com/about", label: t.nav.about },
     { href: "https://globaltouristcentre.com/services", label: t.nav.services },
     { href: "https://globaltouristcentre.com/contact", label: t.nav.contact },
     { href: "https://globaltouristcentre.com/blog", label: t.nav.blog },
-  ]
+  ];
 
   return (
     <header
@@ -41,40 +47,39 @@ export function Header() {
           className="flex items-center"
           aria-label="Global Tourist Centre - Home"
         >
-             <div className="w-15 h-15 rounded-full border-2 border-[#f8d56b] flex items-center justify-center mb-4 sm:mt-[10px]">
-  <img
-    src="/assets/logo.webp"
-    alt="Global Tourist Centre Logo"
-    className="h-15 w-auto rounded-full"
-  />
-</div>
+          <div className="w-15 h-15 rounded-full border-2 border-[#f8d56b] flex items-center justify-center mb-4 sm:mt-[10px]">
+            <img
+              src="/assets/logo.webp"
+              alt="Global Tourist Centre Logo"
+              className="h-15 w-auto rounded-full"
+            />
+          </div>
         </Link>
 
-       {/* Desktop Navigation + Language */}
-<div className="hidden lg:flex items-center gap-8">
-  <nav
-    className="flex items-center gap-8"
-    role="navigation"
-    aria-label="Main navigation"
-  >
-    {navLinks.map((link) => (
-      <Link
-        key={link.href}
-        href={link.href}
-        className="text-white text-xl font-medium transition-colors hover:text-[#f8d56b]"
-        style={{ textShadow: "0 1px 2px rgba(0,0,0,0.3)" }}
-      >
-        {link.label}
-      </Link>
-    ))}
-  </nav>
+        {/* Desktop Navigation + Language */}
+        <div className="hidden lg:flex items-center gap-8">
+          <nav
+            className="flex items-center gap-8"
+            role="navigation"
+            aria-label="Main navigation"
+          >
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-white text-xl font-medium transition-colors hover:text-[#f8d56b]"
+                style={{ textShadow: "0 1px 2px rgba(0,0,0,0.3)" }}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
 
-  {/* Language Switcher as navbar item */}
-  <div className="flex items-center">
-    <LanguageSwitcher />
-  </div>
-</div>
-
+          {/* Language Switcher as navbar item */}
+          <div className="flex items-center">
+            <LanguageSwitcher />
+          </div>
+        </div>
 
         {/* Mobile Menu */}
         <div className="lg:hidden">
@@ -108,14 +113,14 @@ export function Header() {
                 ))}
               </nav>
 
-             <div className="px-6 py-4  sm:hidden"> 
-              <p className="text-sm mb-2">Language</p> 
-              <LanguageSwitcher /> 
+              <div className="px-6 py-4  sm:hidden">
+                <p className="text-sm mb-2">Language</p>
+                <LanguageSwitcher />
               </div>
             </SheetContent>
           </Sheet>
         </div>
       </div>
     </header>
-  )
+  );
 }

@@ -2,11 +2,7 @@
 
 import type React from "react";
 import { useState } from "react";
-import {
-  ChevronLeft,
-  ChevronRight,
-
-} from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n/context";
 import Image from "next/image";
@@ -23,7 +19,11 @@ const travelMemories = [
     imageQuery: "female tourist at a temple",
     imageurl: "/assets/trips/trip6.webp",
   },
-  { id: 3, imageQuery: "couple honeymoon trip", imageurl: "/assets/trips/trip5.webp" },
+  {
+    id: 3,
+    imageQuery: "couple honeymoon trip",
+    imageurl: "/assets/trips/trip5.webp",
+  },
   {
     id: 4,
     imageQuery: "group tour Rajasthan palace",
@@ -37,20 +37,20 @@ const travelMemories = [
 ];
 
 const Memories = () => {
-      const { t } = useI18n()
-      const [activeMemoryIndex, setActiveMemoryIndex] = useState(0)
+  const { t } = useI18n();
+  const [activeMemoryIndex, setActiveMemoryIndex] = useState(0);
 
-      const nextMemory = () => {
-        setActiveMemoryIndex((prev) =>
-          prev === travelMemories.length - 1 ? 0 : prev + 1
-        );
-      };
+  const nextMemory = () => {
+    setActiveMemoryIndex((prev) =>
+      prev === travelMemories.length - 1 ? 0 : prev + 1
+    );
+  };
 
-      const prevMemory = () => {
-        setActiveMemoryIndex((prev) =>
-          prev === 0 ? travelMemories.length - 1 : prev - 1
-        );
-      };
+  const prevMemory = () => {
+    setActiveMemoryIndex((prev) =>
+      prev === 0 ? travelMemories.length - 1 : prev - 1
+    );
+  };
 
   return (
     <section

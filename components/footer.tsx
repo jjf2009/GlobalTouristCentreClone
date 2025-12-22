@@ -173,38 +173,37 @@ export function Footer() {
         </div>
       </div>
 
-{/* Bottom Bar */}
-<div className="border-t border-gray-700">
-  <div
-    className="
+      {/* Bottom Bar */}
+      <div className="border-t border-gray-700">
+        <div
+          className="
       max-w-7xl mx-auto px-4 py-3
       text-xs sm:text-sm text-gray-400
       flex flex-col sm:flex-row
       items-center
       gap-2 sm:gap-6
     "
-  >
-    <p>{t.footer.copyright}</p>
+        >
+          <p>{t.footer.copyright}</p>
 
-    <div className="flex gap-3 sm:gap-4">
-      <Link
-        href="https://globaltouristcentre.com/legal/privacy-policy"
-        className="hover:text-[#f8d56b]"
-      >
-        {t.footer.privacyPolicy}
-      </Link>
-      <Link
-        href="https://globaltouristcentre.com/legal/terms-and-conditions"
-        className="hover:text-[#f8d56b]"
-      >
-        {t.footer.termsConditions}
-      </Link>
-    </div>
+          <div className="flex gap-3 sm:gap-4">
+            <Link
+              href="https://globaltouristcentre.com/legal/privacy-policy"
+              className="hover:text-[#f8d56b]"
+            >
+              {t.footer.privacyPolicy}
+            </Link>
+            <Link
+              href="https://globaltouristcentre.com/legal/terms-and-conditions"
+              className="hover:text-[#f8d56b]"
+            >
+              {t.footer.termsConditions}
+            </Link>
+          </div>
 
-    <p className="hidden lg:block">{t.footer.craftingJourneys}</p>
-  </div>
-</div>
-
+          <p className="hidden lg:block">{t.footer.craftingJourneys}</p>
+        </div>
+      </div>
     </footer>
   );
 }

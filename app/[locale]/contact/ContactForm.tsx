@@ -86,9 +86,13 @@ export function ContactForm() {
               <SelectItem value="general">
                 {t.contact.subjects.general}
               </SelectItem>
-              <SelectItem value="booking">{t.contact.subjects.booking}</SelectItem>
+              <SelectItem value="booking">
+                {t.contact.subjects.booking}
+              </SelectItem>
               <SelectItem value="group">{t.contact.subjects.group}</SelectItem>
-              <SelectItem value="custom">{t.contact.subjects.custom}</SelectItem>
+              <SelectItem value="custom">
+                {t.contact.subjects.custom}
+              </SelectItem>
               <SelectItem value="feedback">
                 {t.contact.subjects.feedback}
               </SelectItem>

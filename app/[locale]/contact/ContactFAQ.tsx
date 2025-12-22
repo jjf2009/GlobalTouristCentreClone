@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/accordion";
 import { useI18n } from "@/lib/i18n/context";
 
-
 export function ContactFAQ() {
   const { t } = useI18n();
 
@@ -23,7 +22,6 @@ export function ContactFAQ() {
   return (
     <section className="py-16 bg-muted/50">
       <div className="max-w-4xl mx-auto px-4">
-
         {/* FAQ Accordion */}
         <Accordion type="single" collapsible className="space-y-4">
           {faqs.map((faq, i) => (
