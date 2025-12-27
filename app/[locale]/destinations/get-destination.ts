@@ -2,7 +2,7 @@ import {
   domesticTrips,
   internationalTrips,
   dayTrips,
-} from "./destinations";
+} from "@/lib/data/destinations";
 
 
 
