@@ -130,8 +130,35 @@ export function AboutTestimonials() {
               />
             ))}
           </div>
+
         </div>
       </div>
+      {/* Google Reviews CTA */}
+<div className="mt-10 flex justify-center">
+  <a
+    href="https://www.google.com/search?q=global+tourist+centre+&sca_esv=6e4820828e77e658&sxsrf=AE3TifMzCuUYMGVHNtkkUxvt_Pbz6z0AIw%3A1760979237374&ei=JWn2aO7PFvyPvr0PhaOkwQ0&ved=0ahUKEwiu9pnvnrOQAxX8h68BHYURKdgQ4dUDCBE&uact=5&oq=global+tourist+centre+&gs_lp=Egxnd3Mtd2l6LXNlcnAiFmdsb2JhbCB0b3VyaXN0IGNlbnRyZSAyBBAjGCcyBBAjGCcyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5I1wxQ-gJY-ApwAXgAkAEAmAGsAaABxgiqAQMwLje4AQPIAQD4AQGYAgOgArkCwgIJEAAYsAMYCBgewgIOEAAYgAQYsAMYhgMYigXCAggQABiwAxjvBcICCxAAGLADGKIEGIkFwgICECbCAgsQABiABBiGAxiKBZgDAIgGAZAGCJIHAzEuMqAHokeyBwMwLjK4B7ECwgcFMi0yLjHIBxU&sclient=gws-wiz-serp#lrd=0x3bbfb5f661fd84d3:0x24fa4475c2ab159b,1,,,,"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      inline-flex items-center gap-3
+      rounded-full border border-gray-200
+      px-6 py-3
+      text-sm font-medium text-gray-700
+      transition-all
+      hover:border-[#f8d56b]
+      hover:bg-[#f8d56b]/10
+      hover:text-gray-900
+    "
+  >
+    <img
+      src="/assets/icons8-google-48.png"
+      alt="Google Reviews"
+      className="h-6 w-6"
+    />
+    <span>{t.testimonials.viewAllReviews ?? "View All Reviews on Google"}</span>
+  </a>
+</div>
+
     </section>
   );
 }

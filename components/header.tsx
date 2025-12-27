@@ -16,24 +16,18 @@ import {
 } from "@/components/ui/sheet";
 
 export function Header() {
-  const { t } = useI18n();
-  const [isOpen, setIsOpen] = useState(false);
+ const { t, locale } = useI18n();
+ const [isOpen, setIsOpen] = useState(false);
 
-  const navLinks = [
-    { href: "https://globaltouristcentre.com/", label: t.nav.home },
-    {
-      href: "https://globaltouristcentre.com/destinations",
-      label: t.nav.destinations,
-    },
-    {
-      href: "https://globaltouristcentre.com/luxury-destinations",
-      label: t.nav.luxuryDestinations,
-    },
-    { href: "https://globaltouristcentre.com/about", label: t.nav.about },
-    { href: "https://globaltouristcentre.com/services", label: t.nav.services },
-    { href: "https://globaltouristcentre.com/contact", label: t.nav.contact },
-    { href: "https://globaltouristcentre.com/blog", label: t.nav.blog },
-  ];
+ const navLinks = [
+   { href: `/${locale}`, label: t.nav.home },
+   { href: `/${locale}/destinations`, label: t.nav.destinations },
+   { href: `/${locale}/luxury-destinations`, label: t.nav.luxuryDestinations },
+   { href: `/${locale}/about`, label: t.nav.about },
+   { href: `/${locale}/services`, label: t.nav.services },
+   { href: `/${locale}/contact`, label: t.nav.contact },
+   { href: `/${locale}/blog`, label: t.nav.blog },
+ ];
 
   return (
     <header

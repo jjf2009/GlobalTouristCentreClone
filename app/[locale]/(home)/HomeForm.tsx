@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useI18n } from "@/lib/i18n/context";
 
-const WHATSAPP_NUMBER = "918421012788";
+const WHATSAPP_NUMBER = "919067972295";
 
 const HomeForm: React.FC = () => {
   const { t } = useI18n();

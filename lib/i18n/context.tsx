@@ -5,7 +5,7 @@ import {
   translations,
   type Locale,
   type TranslationKeys,
-} from "./translations";
+} from "./translations/index";
 
 interface I18nContextType {
   locale: Locale;

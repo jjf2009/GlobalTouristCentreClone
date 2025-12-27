@@ -12,75 +12,159 @@ import HomeCard from "./HomeCard";
 ----------------------------------------- */
 
 type TravelCollection = {
-  id:
-    | "kashmir-5n6d"
-    | "andaman-6n7d"
-    | "dandeli-day"
-    | "dubai-5n6d"
-    | "sikkim-6n7d"
-    | "thailand-7n8d"
-    | "dudhsagar-day"
-    | "bhutan-7n8d";
+  id: string;
   href: string;
   imageUrl: string;
 };
 
 const travelCollections: TravelCollection[] = [
+  /* ================= DAY TRIPS ================= */
+
   {
-    id: "kashmir-5n6d",
-    href: "../itinerary/domestic-trips/Kashmir-5N6D-Trip",
-    imageUrl: "../assets/destinations/Thumbnails/Kashmir.webp",
+    id: "south-goa-cultural-day",
+    href: "/destinations/day-trips/south-goa-cultural-goa",
+    imageUrl: "/assets/destinations/Goa/basilica-bom-jesus.webp",
   },
   {
-    id: "andaman-6n7d",
-    href: "../itinerary/domestic-trips/andaman-tour-for-goa",
-    imageUrl: "../assets/destinations/Thumbnails/Andaman.webp",
+    id: "north-goa-day",
+    href: "/destinations/day-trips/north-goa-sightseeing",
+    imageUrl: "/assets/destinations/Thumbnails/NorthGoa.webp",
   },
   {
-    id: "dandeli-day",
-    href: "../itinerary/day-trips/Dandeli-Elephant-Safari-Day-Trip-package",
-    imageUrl: "../assets/destinations/Dandeli/elephant-safari.webp",
+    id: "dudhsagar-spice-day",
+    href: "/destinations/day-trips/dudhsagar-spice-plantation",
+    imageUrl: "/assets/destinations/Thumbnails/Dudhsagar.webp",
   },
   {
-    id: "dubai-5n6d",
-    href: "../itinerary/International-trips/dubai-tour-package",
-    imageUrl: "../assets/destinations/Thumbnails/Dubai.webp",
+    id: "palolem-cola-dolphin-day",
+    href: "/destinations/day-trips/palolem-cola-dolphin-spotting",
+    imageUrl: "/assets/destinations/Thumbnails/Palolem.webp",
   },
   {
-    id: "sikkim-6n7d",
-    href: "../itinerary/domestic-trips/sikkim-tour-for-goa",
-    imageUrl: "../assets/destinations/Thumbnails/Sikkim.webp",
+    id: "crocodile-trip-half-day",
+    href: "/destinations/day-trips/crocodile-sightseeing-trip",
+    imageUrl: "/assets/destinations/Thumbnails/Crocodile.webp",
   },
   {
-    id: "thailand-7n8d",
-    href: "../itinerary/International-trips/7N-8D-thailand-tour-package",
-    imageUrl: "../assets/destinations/Thumbnails/Thailand2.webp",
+    id: "luxury-yacht-evening",
+    href: "/destinations/day-trips/luxury-yacht-tour-goa",
+    imageUrl: "/assets/destinations/Thumbnails/Yacht.webp",
   },
   {
-    id: "dudhsagar-day",
-    href: "../itinerary/day-trips/Dudhsagar-and-Spice-Plantation-Day-Trip-package",
-    imageUrl: "../assets/destinations/Thumbnails/Dudhsagar.webp",
+    id: "grand-island-watersports-day",
+    href: "/destinations/day-trips/grand-island-water-sports",
+    imageUrl: "/assets/destinations/Thumbnails/GrandIsland.webp",
   },
   {
-    id: "bhutan-7n8d",
-    href: "../itinerary/International-trips/7n-8d-bhutan-tour-package",
-    imageUrl: "../assets/destinations/Thumbnails/Bhutan.webp",
+    id: "gokarna-murdeshwar-day",
+    href: "/destinations/day-trips/gokarna-murdeshwar-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Gokarna.webp",
+  },
+  {
+    id: "dandeli-elephant-tiger-day",
+    href: "/destinations/day-trips/dandeli-elephant-tiger-day",
+    imageUrl: "/assets/destinations/Thumbnails/Dandeli.webp",
+  },
+
+  /* ================= SHORT STAYS ================= */
+
+  {
+    id: "goa-serai-cabo-2n3d",
+    href: "/destinations/domestic-trips/goa-serai-cabo-retreat",
+    imageUrl: "/assets/destinations/Thumbnails/SeraiCabo.webp",
+  },
+  {
+    id: "hampi-badami-1n2d",
+    href: "/destinations/domestic-trips/hampi-badami-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Hampi.webp",
+  },
+  {
+    id: "mysore-ooty-3n4d",
+    href: "/destinations/domestic-trips/mysore-ooty-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Ooty.webp",
+  },
+  {
+    id: "mumbai-1n2d",
+    href: "/destinations/domestic-trips/mumbai-city-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Mumbai.webp",
+  },
+  {
+    id: "ellora-ajanta-2n3d",
+    href: "/destinations/domestic-trips/ellora-ajanta-caves-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Ellora.webp",
+  },
+  {
+    id: "taj-mahal-1n2d",
+    href: "/destinations/domestic-trips/taj-mahal-tour",
+    imageUrl: "/assets/destinations/Thumbnails/TajMahal.webp",
+  },
+
+  /* ================= MULTI-DAY DOMESTIC ================= */
+
+  {
+    id: "kerala-4n5d",
+    href: "/itinerary/domestic-trips/kerala-backwaters-hills",
+    imageUrl: "/assets/destinations/Thumbnails/Kerala.webp",
+  },
+  {
+    id: "golden-triangle-3n4d",
+    href: "/itinerary/domestic-trips/golden-triangle-tour",
+    imageUrl: "/assets/destinations/Thumbnails/GoldenTriangle.webp",
+  },
+  {
+    id: "udaipur-jodhpur-4n5d",
+    href: "/itinerary/domestic-trips/udaipur-jodhpur-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Udaipur.webp",
+  },
+  {
+    id: "varanasi-spiritual-3n4d",
+    href: "/itinerary/domestic-trips/varanasi-spiritual-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Varanasi.webp",
+  },
+  {
+    id: "mathura-vrindavan-2n3d",
+    href: "/itinerary/domestic-trips/mathura-vrindavan-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Mathura.webp",
+  },
+
+  /* ================= INTERNATIONAL ================= */
+
+  {
+    id: "andaman-islands-5n6d",
+    href: "/itinerary/international-trips/andaman-islands-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Andaman.webp",
+  },
+  {
+    id: "maldives-luxury-4n5d",
+    href: "/itinerary/international-trips/maldives-luxury-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Maldives.webp",
+  },
+  {
+    id: "sri-lanka-6n7d",
+    href: "/itinerary/international-trips/sri-lanka-tour",
+    imageUrl: "/assets/destinations/Thumbnails/SriLanka.webp",
+  },
+  {
+    id: "bhutan-5n6d",
+    href: "/itinerary/international-trips/bhutan-tour",
+    imageUrl: "/assets/destinations/Thumbnails/Bhutan.webp",
   },
 ];
+
 
 /* ----------------------------------------
    COMPONENT
 ----------------------------------------- */
 
 const HomeIntro = () => {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const carouselRef = useRef<HTMLDivElement>(null);
 
   return (
     <section className="relative py-20 bg-gradient-to-br from-[#f7f8fb] to-[#e6ebf1]">
-      <div className="container mx-auto px-4 max-w-7xl">
+      <div className="max-w-7xl mx-auto px-4">
         {/* =======================
-            TITLE (ALWAYS TOP)
+            TITLE
         ======================== */}
         <div className="text-center md:text-left mb-12">
           <div className="relative inline-block">
@@ -88,20 +172,14 @@ const HomeIntro = () => {
               {t.home.title}
             </h2>
 
-            {/* Gradient underline */}
             <span
               aria-hidden="true"
-              className="
-        absolute left-0 -bottom-1
-        h-[4px] w-20 rounded-full
-        bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]
-      "
+              className="absolute left-0 -bottom-1 h-[4px] w-20 rounded-full
+              bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
             />
           </div>
 
-          <p className="text-slate-600 max-w-2xl md:max-w-3xl mt-4">
-            {t.home.mainsubtitle}
-          </p>
+          <p className="text-slate-600 max-w-3xl mt-4">{t.home.mainsubtitle}</p>
         </div>
 
         {/* =======================
@@ -111,10 +189,17 @@ const HomeIntro = () => {
           <div
             ref={carouselRef}
             className="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-4"
-            role="list"
           >
             {travelCollections.map((tour) => {
               const content = t.home.items[tour.id];
+
+              if (!content) {
+                if (process.env.NODE_ENV !== "production") {
+                  console.warn(`Missing translation for: ${tour.id}`);
+                }
+                return null;
+              }
+
 
               return (
                 <div
@@ -126,7 +211,7 @@ const HomeIntro = () => {
                     title={content.title}
                     duration={content.duration}
                     description={content.description}
-                    href={tour.href}
+                    href={`/${locale}${tour.href}`}
                   />
                 </div>
               );
@@ -137,9 +222,17 @@ const HomeIntro = () => {
         {/* =======================
             DESKTOP – GRID
         ======================== */}
-        <div className="hidden md:grid grid-cols-4 gap-6 mb-16" role="list">
+        <div className="hidden md:grid grid-cols-4 gap-6 mb-16">
           {travelCollections.map((tour) => {
             const content = t.home.items[tour.id];
+
+            if (!content) {
+              if (process.env.NODE_ENV !== "production") {
+                console.warn(`Missing translation for: ${tour.id}`);
+              }
+              return null;
+            }
+
 
             return (
               <HomeCard
@@ -148,17 +241,17 @@ const HomeIntro = () => {
                 title={content.title}
                 duration={content.duration}
                 description={content.description}
-                href={tour.href}
+                href={`/${locale}${tour.href}`}
               />
             );
           })}
         </div>
 
         {/* =======================
-            CTA (ALWAYS BOTTOM)
+            CTA
         ======================== */}
         <div className="flex justify-center">
-          <Link href="https://globaltouristcentre.com/destinations">
+          <Link href={`/${locale}/destinations`}>
             <Button
               size="lg"
               className="

@@ -1,12 +1,13 @@
 "use client";
 
-import { Star } from "lucide-react";
+import { Star, Clock } from "lucide-react";
 import { useI18n } from "@/lib/i18n/context";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 
-interface DestinationCardProps {
+
+type DestinationCardProps = {
+  locale: string;
+  category: "day-trips" | "domestic" | "international";
+  slug: string;
   title: string;
   description: string;
   rating: number;
@@ -14,9 +15,12 @@ interface DestinationCardProps {
   imageQuery: string;
   tags?: string[];
   badge?: "new" | "hot";
-}
+};
 
 export function DestinationCard({
+  locale,
+  category,
+  slug,
   title,
   description,
   rating,
@@ -26,75 +30,80 @@ export function DestinationCard({
   badge,
 }: DestinationCardProps) {
   const { t } = useI18n();
+  const href = `/${locale}/destinations/${category}/${slug}`;
+  /* Resolve localized trip content */
+  const trip = t.trips?.[slug];
+
+  const resolvedTitle = trip?.title ?? title;
+  const resolvedDescription = trip?.description ?? description;
+  const resolvedDuration = trip?.duration ?? duration;
 
   return (
-    <Card className="overflow-hidden group focus-within:ring-2 focus-within:ring-primary">
-      <div className="relative aspect-[4/3] overflow-hidden">
-        <img
-          src={`/.jpg?height=300&width=400&query=${encodeURIComponent(
-            imageQuery
-          )}`}
-          alt={`${title} - ${description.slice(0, 50)}...`}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-        />
-        {badge && (
-          <Badge
-            variant={badge === "new" ? "default" : "destructive"}
-            className="absolute top-2 right-2 sm:top-3 sm:right-3"
-          >
-            {badge === "new" ? t.collections.new : t.collections.hot}
-          </Badge>
-        )}
-      </div>
-      <CardContent className="p-3 sm:p-4">
-        <div className="flex items-start justify-between gap-2 mb-1.5 sm:mb-2">
-          <h3 className="font-serif font-semibold text-card-foreground text-sm sm:text-base leading-tight">
-            {title}
-          </h3>
-          <div
-            className="flex items-center gap-0.5 sm:gap-1 shrink-0"
-            role="img"
-            aria-label={`Rating: ${rating} out of 5 stars`}
-          >
-            <Star
-              className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-yellow-500 fill-yellow-500"
-              aria-hidden="true"
-            />
-            <span className="text-xs sm:text-sm font-medium">{rating}</span>
-          </div>
+    <a href={href} className="block focus:outline-none group max-w-sm">
+      <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 h-[400px] flex flex-col">
+        {/* Image Section */}
+        <div className="relative aspect-[16/10] overflow-hidden">
+          <img
+            src={`/assets${imageQuery}`}
+            alt={resolvedTitle}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+
+          {badge && (
+            <span
+              className={`absolute top-3 right-3 px-3 py-1 rounded-full text-xs font-semibold text-white ${
+                badge === "new" ? "bg-blue-500" : "bg-red-500"
+              }`}
+            >
+              {badge === "new"
+                ? t.collections?.new ?? "New"
+                : t.collections?.hot ?? "Hot"}
+            </span>
+          )}
         </div>
-        <p className="text-muted-foreground text-xs sm:text-sm line-clamp-2 mb-2 sm:mb-3">
-          {description}
-        </p>
-        {tags.length > 0 && (
-          <div
-            className="flex flex-wrap gap-1 mb-2 sm:mb-3"
-            role="list"
-            aria-label="Tour features"
-          >
-            {tags.map((tag) => (
-              <span
-                key={tag}
-                className="px-1.5 sm:px-2 py-0.5 bg-muted text-muted-foreground text-[10px] sm:text-xs rounded"
-                role="listitem"
-              >
-                {tag}
+
+        {/* Content Section */}
+        <div className="p-5">
+          {/* Title and Rating */}
+          <div className="flex items-start justify-between gap-3 mb-3">
+            <h3 className="text-lg font-bold text-gray-900 leading-tight flex-1">
+              {resolvedTitle}
+            </h3>
+
+            <div className="flex items-center gap-1 bg-yellow-50 px-2 py-1 rounded-lg shrink-0">
+              <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+              <span className="text-sm font-bold text-gray-900">
+                {rating.toFixed(1)}
               </span>
-            ))}
+            </div>
           </div>
-        )}
-        <div className="flex items-center justify-between gap-2">
-          <span className="text-xs text-primary font-medium">{duration}</span>
-          <Button
-            variant="link"
-            size="sm"
-            className="text-xs sm:text-sm h-auto p-0 font-medium"
-            aria-label={`View details about ${title}`}
-          >
-            {t.destinations.viewDetails} →
-          </Button>
+
+          {/* Description */}
+          <p className="text-sm text-gray-600 leading-relaxed mb-4 line-clamp-3">
+            {resolvedDescription}
+          </p>
+
+          {/* Tags */}
+          {tags.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-4">
+              {tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+
+          {/* Duration */}
+          <div className="flex items-center gap-2 text-sm text-gray-500">
+            <Clock className="w-4 h-4 text-orange-500" />
+            <span className="font-medium">{resolvedDuration}</span>
+          </div>
         </div>
-      </CardContent>
-    </Card>
+      </div>
+    </a>
   );
 }

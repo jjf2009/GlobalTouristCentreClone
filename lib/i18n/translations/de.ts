@@ -1,0 +1,10017 @@
+export const de = {
+  // Navigation
+  nav: {
+    home: "Startseite",
+    destinations: "Reiseziele",
+    luxuryDestinations: "Luxusreiseziele",
+    about: "Über Uns",
+    services: "Dienstleistungen",
+    contact: "Kontakt",
+    blog: "Blog",
+  },
+  // Hero Section
+  hero: {
+    title: "Entdecken Sie Außergewöhnliche Reisen",
+    subtitle: "Planen Sie Ihren Traumurlaub",
+    cta: "Kostenloses Angebot",
+    tagline:
+      "Wir Buchen Nicht Nur Reisen — Wir Gestalten Geschichten fürs Leben",
+  },
+  home: {
+    title: "Wählen Sie Ihr nächstes Abenteuer",
+    mainsubtitle:
+      "Entdecken Sie unsere sorgfältig zusammengestellte Auswahl an Reisezielen, die Erinnerungen fürs Leben schaffen.",
+    formtitle: "Kontaktieren Sie uns",
+    formsubtitle:
+      "Helfen Sie uns, Ihren Traumurlaub zu planen, und lassen Sie uns diesen Traum Wirklichkeit werden.",
+    subtitle:
+      "Teilen Sie uns Ihre Daten mit, und wir erstellen die perfekte Reiseroute für Sie.",
+    items: {
+      "south-goa-cultural-day": {
+        title: "Südgoa – Kulturelles Goa",
+        duration: "1 Tag",
+        description:
+          "Entdecken Sie das reiche Erbe Südgoas mit Besuchen der Kirchen von Alt-Goa, des Augustiner-Turms, der Shantadurga- und Mangeshi-Tempel, der Strände Miramar, Colva und Dona Paula, des Panjim-Marktes sowie einer Dinner-Kreuzfahrt auf dem Mandovi-Fluss.",
+      },
+      "north-goa-day": {
+        title: "Nordgoa Besichtigung",
+        duration: "1 Tag",
+        description:
+          "Erleben Sie das lebendige Nordgoa mit berühmten Stränden wie Baga, Calangute und Anjuna sowie historischen Festungen, Flohmärkten, Nachtleben und Kirchen aus der portugiesischen Kolonialzeit.",
+      },
+      "dudhsagar-spice-day": {
+        title: "Dudhsagar-Wasserfall & Gewürzplantage",
+        duration: "1 Tag",
+        description:
+          "Bewundern Sie den majestätischen Dudhsagar-Wasserfall inmitten üppiger Wälder und besuchen Sie aromatische Gewürzplantagen mit kulturellen Einblicken und traditionellem Mittagessen.",
+      },
+      "palolem-cola-dolphin-day": {
+        title: "Palolem & Cola Beach – Delfinbeobachtung",
+        duration: "1 Tag",
+        description:
+          "Entdecken Sie versteckte Juwelen Südgoas wie Palolem, Butterfly Beach, Cola Beach, Kajakfahren in der Blauen Lagune, Monkey Island, das Cabo-de-Rama-Fort und eine Bootsfahrt zur Delfinbeobachtung.",
+      },
+      "crocodile-trip-half-day": {
+        title: "Krokodil-Beobachtungstour",
+        duration: "Halber Tag",
+        description:
+          "Beobachten Sie Krokodile in ihrem natürlichen Flusshabitat auf einer spannenden Exkursion für Naturliebhaber und Fotografen.",
+      },
+      "luxury-yacht-evening": {
+        title: "Luxus-Yacht – Abendessen bei Sonnenuntergang",
+        duration: "16:00–22:00",
+        description:
+          "Genießen Sie einen exklusiven Yachtabend mit Infinity-Pool, Live-DJ, Gourmet-Barbecue oder Sushi, Premium-Getränken, mehrgängigem Menü und Desserts.",
+      },
+      "grand-island-watersports-day": {
+        title: "Grand Island mit Wassersport",
+        duration: "1 Tag",
+        description:
+          "Bootsausflug zur Grand Island mit Schnorcheln, Jetski, Bananenboot, Parasailing, Delfinbeobachtung und maritimen Abenteuern.",
+      },
+      "goa-serai-cabo-2n3d": {
+        title: "Luxusaufenthalt Serai Cabo in Goa",
+        duration: "2 Nächte / 3 Tage",
+        description:
+          "Entspannen Sie in einem luxuriösen Klippenresort in Cabo de Rama mit ruhigem Meerblick und erstklassiger Unterkunft.",
+      },
+      "gokarna-murdeshwar-day": {
+        title: "Gokarna & Murdeshwar",
+        duration: "1 Tag",
+        description:
+          "Besuchen Sie die ruhigen Strände von Gokarna und die ikonische Shiva-Statue in Murdeshwar – eine perfekte Mischung aus Spiritualität und Küstenschönheit.",
+      },
+      "hampi-badami-1n2d": {
+        title: "Hampi & Badami Kulturerbe-Tour",
+        duration: "1 Nacht / 2 Tage",
+        description:
+          "Erkunden Sie die UNESCO-Welterbestätten von Hampi und die antiken Felsentempel von Badami mit ihrer Chalukya-Architektur.",
+      },
+      "dandeli-elephant-tiger-day": {
+        title: "Elefanten- und Tigersafari in Dandeli",
+        duration: "1 Tag",
+        description:
+          "Begeben Sie sich auf ein aufregendes Wildlife-Abenteuer durch die Wälder von Dandeli mit Elefanten- und Tigersafaris.",
+      },
+      "kerala-4n5d": {
+        title: "Kerala – Backwaters & Hügel",
+        duration: "4 Nächte / 5 Tage",
+        description:
+          "Erleben Sie die ruhigen Backwaters Keralas, grüne Hügel, Teeplantagen, Hausbootaufenthalte und die reiche lokale Kultur.",
+      },
+      "mysore-ooty-3n4d": {
+        title: "Mysore & Ooty Kulturerbe",
+        duration: "3 Nächte / 4 Tage",
+        description:
+          "Entdecken Sie das königliche Erbe von Mysore sowie die Teeplantagen, Landschaften und das angenehme Klima von Ooty.",
+      },
+      "mumbai-1n2d": {
+        title: "Stadtrundfahrt Mumbai",
+        duration: "1 Nacht / 2 Tage",
+        description:
+          "Erkunden Sie die berühmten Sehenswürdigkeiten Mumbais, seine Strände, lebhaften Märkte und die Bollywood-Kultur.",
+      },
+      "ellora-ajanta-2n3d": {
+        title: "Ellora- & Ajanta-Höhlen",
+        duration: "2 Nächte / 3 Tage",
+        description:
+          "Bewundern Sie die antiken Höhlen von Ellora und Ajanta mit beeindruckenden buddhistischen, hinduistischen und jainistischen Skulpturen.",
+      },
+      "golden-triangle-3n4d": {
+        title: "Goldenes Dreieck Indiens",
+        duration: "3 Nächte / 4 Tage",
+        description:
+          "Besuchen Sie Delhi, Agra und Jaipur mit dem Taj Mahal, historischen Festungen und königlichen Palästen.",
+      },
+      "udaipur-jodhpur-4n5d": {
+        title: "Königliches Rajasthan – Udaipur & Jodhpur",
+        duration: "4 Nächte / 5 Tage",
+        description:
+          "Erleben Sie den Glanz Rajasthans mit Palästen, Seen, mächtigen Festungen und farbenfrohen Märkten.",
+      },
+      "taj-mahal-1n2d": {
+        title: "Taj-Mahal-Tour",
+        duration: "1 Nacht / 2 Tage",
+        description:
+          "Besuchen Sie den weltberühmten Taj Mahal, ein Symbol ewiger Liebe, sowie das Agra-Fort und umliegende Mogulstätten.",
+      },
+      "varanasi-spiritual-3n4d": {
+        title: "Varanasi – Spirituelles Indien",
+        duration: "3 Nächte / 4 Tage",
+        description:
+          "Tauchen Sie ein in die spirituelle Atmosphäre Varanasis mit den Ghats des Ganges, der Ganga-Aarti-Zeremonie und dem Kashi-Vishwanath-Tempel.",
+      },
+      "mathura-vrindavan-2n3d": {
+        title: "Mathura & Vrindavan",
+        duration: "2 Nächte / 3 Tage",
+        description:
+          "Erleben Sie tiefe Hingabe an den heiligen Geburtsorten von Lord Krishna.",
+      },
+      "andaman-islands-5n6d": {
+        title: "Andamanen-Inseln",
+        duration: "5 Nächte / 6 Tage",
+        description:
+          "Kristallklares Wasser, weiße Sandstrände, Korallenriffe, historische Stätten und tropische Natur der Andamanen.",
+      },
+      "maldives-luxury-4n5d": {
+        title: "Luxuserlebnis Malediven",
+        duration: "4 Nächte / 5 Tage",
+        description:
+          "Überwasservillen, private Dinner, entspannende Spas und atemberaubende Sonnenuntergänge.",
+      },
+      "sri-lanka-6n7d": {
+        title: "Kultur- und Naturreise Sri Lanka",
+        duration: "6 Nächte / 7 Tage",
+        description:
+          "Entdecken Sie alte Tempel, Teeplantagen, Tierwelt und wunderschöne Küsten Sri Lankas.",
+      },
+      "bhutan-5n6d": {
+        title: "Bhutan – Land des Glücks",
+        duration: "5 Nächte / 6 Tage",
+        description:
+          "Entdecken Sie Bhutan mit seinen alten Klöstern, majestätischen Bergen und tief verwurzelter spiritueller Kultur.",
+      },
+    },
+  },
+  // Form
+  form: {
+    name: "Ihr Name",
+    email: "Ihre E-Mail",
+    phone: "Ihre Telefonnummer",
+    destination: "Gewünschtes Reiseziel",
+    subject: "Betreff Auswählen",
+    message: "Wie können wir Ihnen helfen?",
+    submit: "Angebot Anfordern",
+    sendMessage: "Nachricht Senden",
+    privacyNote: "Mit dem Klick auf 'Angebot Anfordern' stimmen Sie unserer",
+    privacyPolicy: "Datenschutzrichtlinie",
+    termsOfUse: "Nutzungsbedingungen",
+    and: "und",
+    destinationPlaceholder: "Reiseziel auswählen",
+    destinations: {
+      allGoa: "GANZ GOA AN 1 TAG",
+      palolem: "PALOLEM COLA – DELFINE",
+      mumbai: "MUMBAI – 1 TAG",
+      taj: "TAJ MAHAL 1N/2T",
+      hampi: "HAMPI UND BADAMI 1N/2T",
+    },
+  },
+  // Signature Experiences
+  experiences: {
+    title: "Exklusive Erlebnisse",
+    subtitle:
+      "Entdecken Sie unsere handgefertigten Reisen, die Luxus, Kultur und unvergessliche Momente vereinen.",
+    explore: "Entdecken",
+    items: {
+      "all-goa": {
+        title: "Ganz Goa an einem Tag",
+        duration: "Ganztägige Tour",
+        highlight: "UNESCO",
+        description:
+          "Komplettes Süd-Goa-Erlebnis mit UNESCO-Stätten, alten Tempeln, Delfinbeobachtung, Stränden und Sonnenuntergang am Cabo-de-Rama-Fort.",
+      },
+      palolem: {
+        title: "Palolem, Cola – Delfinbeobachtung",
+        duration: "Ganztägige Tour",
+        highlight: "Delfine",
+        description:
+          "Delfinbeobachtung im Arabischen Meer und Entspannung an den unberührten Stränden von Palolem und Cola.",
+      },
+      mumbai: {
+        title: "Mumbai – Stadt der Lichter",
+        duration: "Ganztägige Tour",
+        highlight: "Stadtrundfahrt",
+        description:
+          "Ganztägige Mumbai-Tour ab Goa inklusive Flug, Gateway of India, Marine Drive und kulturellen Sehenswürdigkeiten.",
+      },
+      taj: {
+        title: "Taj-Mahal-Reise",
+        duration: "1 Nacht / 2 Tage",
+        highlight: "Weltwunder",
+        description:
+          "Besuch des ikonischen Taj Mahal mit geführten Touren und kulturellen Erlebnissen.",
+      },
+      hampi: {
+        title: "Hampi- & Badami-Tour",
+        duration: "1 Nacht / 2 Tage",
+        highlight: "UNESCO-Welterbe",
+        description:
+          "Erkunden Sie UNESCO-Welterbestätten, alte Tempel und das kulturelle Erbe Karnatakas.",
+      },
+    },
+  },
+  //Offer Banner
+  promoPopup: {
+    title: "Kostenloser Flughafentransfer",
+    description:
+      "Buchen Sie Ihre Reise jetzt und erhalten Sie einen KOSTENLOSEN Flughafentransfer — sicher, zuverlässig und komfortabel.",
+    discount: "Zeitlich begrenztes Angebot",
+
+    headlinePrimary: "Kostenloser",
+    headlineSecondary: "Flughafentransfer",
+
+    subDescription: "Buchen Sie Ihre Reise jetzt und genießen Sie einen",
+    highlight: "KOSTENLOSEN Flughafentransfer",
+    footerNote: "Angebot gilt nur für neue Buchungen.",
+
+    cta: "Kostenlosen Transfer sichern",
+
+    successTitle: "Alles erledigt!",
+    successMessage:
+      "Bitte prüfen Sie Ihre E-Mail für die Bestätigung Ihres kostenlosen Flughafentransfers. Gute Reise!",
+  },
+  //offerbanner
+  offerBanner: {
+    offerText: "Kostenloser Flughafentransfer bei jeder Reise",
+    linkText: "Jetzt buchen",
+    linkHref: "/luxus-reiseziele",
+    endsIn: "Endet in",
+    dismiss: "Banner schließen",
+    ariaLabel: "Zeitlich begrenztes Angebot",
+  },
+  // Destinations
+  destinations: {
+    title: "Wählen Sie Ihr nächstes Abenteuer",
+    subtitle:
+      "Entdecken Sie unsere sorgfältig ausgewählte Auswahl an Reisezielen, die Erinnerungen fürs Leben schaffen werden.",
+    domesticTitle: "Inlandsreisen",
+    domesticSubtitle:
+      "Von den schneebedeckten Himalaya-Bergen bis zu den tropischen Stränden des Südens – entdecken Sie Indiens unglaubliche Vielfalt mit unseren sorgfältig gestalteten Inlandsreisen.",
+    domestichero: "Entdecke das unglaubliche Indien",
+    internationalTitle: "Internationale Reisen",
+    internationalSubtitle:
+      "Von tropischen Paradiesen bis zu kulturellen Hauptstädten – entdecken Sie die erstaunlichsten Orte der Welt mit unseren sorgfältig zusammengestellten internationalen Touren.",
+    internationalhero: "Erkunde die Welt",
+    dayTripsTitle: "Tagesausflüge",
+    dayTripsSubtitle:
+      "Perfekte Kurztrips von großen Städten. Erleben Sie das Beste der nahegelegenen Sehenswürdigkeiten – ohne Übernachtungspflicht.",
+    dayhero: "Perfekte Tagesausflüge",
+    exploreTours: "Touren entdecken",
+    viewDetails: "Details anzeigen",
+    viewMore: "Mehr anzeigen",
+    viewAllDestinations: "Alle Reiseziele entdecken",
+    nights: "Nächte",
+    days: "Tage",
+  },
+  // Curated Collections
+  collections: {
+    title: "Kuratierte Reisesammlungen",
+    subtitle:
+      "Entdecken Sie unsere exklusiven Reiserouten für anspruchsvolle Reisende.",
+    new: "NEU",
+    hot: "TOP",
+    items: {
+      dudhsagar: {
+        title: "Dudhsagar & Gewürzplantage",
+        duration: "Ganztägige Tour",
+        description:
+          "Besuchen Sie die beeindruckenden Dudhsagar-Wasserfälle und erkunden Sie aromatische Gewürzplantagen mit Guide.",
+      },
+      "golden-triangle": {
+        title: "Goldenes Dreieck 3N/4T",
+        duration: "3 Nächte / 4 Tage",
+        description:
+          "Entdecken Sie Indiens berühmtes Erbe mit Delhi, Agra und Jaipur inklusive Taj Mahal.",
+      },
+      varanasi: {
+        title: "Varanasi 2N/3T",
+        duration: "2 Nächte / 3 Tage",
+        description:
+          "Spirituelle Reise mit Sarnath, Ganga-Aarti, Tempelbesuchen und Bootsfahrt.",
+      },
+      amritsar: {
+        title: "Amritsar 2N/3T",
+        duration: "2 Nächte / 3 Tage",
+        description:
+          "Besuch des Goldenen Tempels, der Wagah-Zeremonie und historischer Sehenswürdigkeiten.",
+      },
+    },
+    cta: {
+      discoverMore: "Mehr entdecken",
+      exploreAll: "Alle Reiseziele ansehen",
+      swipeHint: "Wischen, um mehr zu sehen",
+    },
+  },
+  // Services
+  services: {
+    title: "Unsere Dienstleistungen",
+    subtitle:
+      "Wir bieten ein komplettes Spektrum an Reisedienstleistungen für eine reibungslose Reise.",
+    readMore: "Mehr Erfahren",
+    domesticInternational: "Inlands- und Internationale Touren",
+    domesticInternationalDesc:
+      "Von Goas Stränden bis zu internationalen Zielen - wir kuratieren die besten Erlebnisse.",
+    customizedHolidays: "Maßgeschneiderte Urlaubspakete",
+    customizedHolidaysDesc:
+      "Individuell gestaltete Urlaube nach Ihren Vorlieben, Budget und Reisestil.",
+    visaDocumentation: "Visa und Dokumentation",
+    visaDocumentationDesc:
+      "Umfassende Unterstützung bei Visumanträgen, Reisedokumenten und anderen Formalitäten.",
+    hotelBookings: "Hotelbuchungen",
+    hotelBookingsDesc:
+      "Zugang zu den besten Unterkünften zu wettbewerbsfähigen Preisen.",
+    airTicketing: "Flugtickets",
+    airTicketingDesc:
+      "Buchungen für nationale und internationale Flüge zu den besten Tarifen.",
+    groupTours: "Gruppenreisen",
+    groupToursDesc:
+      "Gut organisierte Gruppenreisen mit erfahrenen Guides, perfekt für Familien und Gruppen.",
+  },
+  // Why Choose Us
+  whyChoose: {
+    title: "Warum Global Tourist Centre",
+    subtitle:
+      "Was uns bei der Schaffung unvergesslicher Reiseerlebnisse auszeichnet.",
+    experience: "15+ Jahre Erfahrung",
+    experienceDesc:
+      "Mit über einem Jahrzehnt in der Branche haben wir die Expertise für perfekte Reisen.",
+    personalized: "Persönlicher Service",
+    personalizedDesc:
+      "Wir behandeln jeden Kunden als einzigartig und bieten maßgeschneiderte Lösungen.",
+    pricing: "Wettbewerbsfähige Preise",
+    pricingDesc:
+      "Direkte Partnerschaften garantieren das beste Preis-Leistungs-Verhältnis.",
+    support: "24/7 Support",
+    supportDesc:
+      "Rund-um-die-Uhr-Unterstützung während Ihrer Reisen für völlige Sorglosigkeit.",
+    localExpertise: "Lokale Expertise",
+    localExpertiseDesc:
+      "Tiefgehendes Wissen über Reiseziele für authentische Erlebnisse.",
+    trustedPartners: "Vertrauenswürdige Partner",
+    trustedPartnersDesc:
+      "Wir arbeiten nur mit verifizierten und zuverlässigen Anbietern zusammen.",
+  },
+  // Premium Services
+  premiumServices: {
+    title: "Unsere Premium-Dienste",
+    subtitle:
+      "Umfassende Reisedienstleistungen, die auf Ihre Bedürfnisse zugeschnitten sind.",
+    items: {
+      custom: {
+        title: "Individuelle Reisen",
+        description:
+          "Maßgeschneiderte Reisen nach Ihren persönlichen Wünschen.",
+      },
+      luxury: {
+        title: "Luxusunterkünfte",
+        description: "Exklusive Hotels und Resorts mit besonderen Vorteilen.",
+      },
+      group: {
+        title: "Gruppenreisen",
+        description: "Sorgfältig geplante Reisen mit Gleichgesinnten.",
+      },
+      visa: {
+        title: "Visa-Service",
+        description: "Komplette Unterstützung bei Visaformalitäten.",
+      },
+      flight: {
+        title: "Flugbuchungen",
+        description:
+          "Attraktive Preise für nationale und internationale Flüge.",
+      },
+    },
+  },
+  // Testimonials
+  testimonials: {
+    title: "Reisende-Bewertungen",
+    subtitle: "Erfahren Sie, was unsere Kunden über ihre Erlebnisse sagen.",
+    whatTravelersSay: "Was Unsere Reisenden Sagen",
+    hearFromCustomers: "Hören Sie von unseren zufriedenen Kunden.",
+    viewAllReviews: "Alle Bewertungen auf Google",
+    readMore: "Mehr lesen",
+    photos: "Fotos",
+    monthsAgo: "Monate",
+    weeksAgo: "Wochen",
+    items: [
+      {
+        name: "Anshika Malik",
+        location: "Kerala · 10 Tage mit der Familie",
+        text: "Ich war kürzlich mit meinem Mann 7 Tage in Kerala. Global Tourist Centre hat alles so gut organisiert, dass wir während der gesamten Reise keinerlei Probleme hatten.",
+      },
+      {
+        name: "Vishal Yadav",
+        location: "Dubai · 5-tägige Hochzeitsreise",
+        text: "Ein unglaubliches Erlebnis! Das Team von Global Tourist Centre hat unsere Flitterwochen perfekt gemacht. Jedes Detail wurde berücksichtigt.",
+      },
+      {
+        name: "Priya Sharma",
+        location: "Goa · Wochenendausflug",
+        text: "Die beste Reiseagentur überhaupt! Von Flügen über Hotels bis hin zu lokalen Touren wurde alles perfekt organisiert. Die Liebe zum Detail war beeindruckend.",
+      },
+    ],
+  },
+  // Travel Memories
+  memories: {
+    title: "Reiseerinnerungen",
+    subtitle:
+      "Ein Einblick in die unvergesslichen Momente, die wir geschaffen haben.",
+  },
+  // About Page
+  about: {
+    heroTitle: "Über GTC",
+    mainTitle: "Über Global Tourist Centre",
+    mainSubtitle:
+      "Wir verwandeln Träume seit 2010 in Realität und schaffen unvergessliche Reiseerlebnisse.",
+    journeyTitle: "Unsere Geschichte",
+    journeyDesc:
+      "2010 im schönen Goa gegründet, begann Global Tourist Centre mit einer einfachen Mission: Reisenden zu helfen, die Welt leicht und selbstbewusst zu entdecken.",
+    philosophyTitle: "Unsere Philosophie",
+    philosophyDesc:
+      "Wir glauben, dass Reisen transformativ sein sollte. Unser Ansatz geht über das Buchen von Flügen und Hotels hinaus - wir schaffen Erlebnisse, die mit Ihrem persönlichen Stil resonieren.",
+    teamTitle: "Unser Team",
+    teamDesc:
+      "Unsere Stärke liegt in unserem leidenschaftlichen Team von Reiseexperten. Mit vielfältigen Hintergründen bringen wir direktes Wissen in jede Reiseroute.",
+    visionTitle: "Unsere Vision",
+    visionDesc:
+      "Der vertrauenswürdigste und innovativste Reisepartner zu sein, der Menschen inspiriert, die Welt mit Zuversicht und Freude zu erkunden.",
+    missionTitle: "Unsere Mission",
+    missionDesc:
+      "Personalisierte Reiseerlebnisse schaffen, die Erwartungen durch außergewöhnlichen Service übertreffen.",
+    valuesTitle: "Unsere Werte",
+    integrity: "Integrität in all unseren Beziehungen",
+    passion: "Leidenschaft für Reisen und Service",
+    innovation: "Innovation bei der Schaffung von Erlebnissen",
+    responsibility: "Verantwortung gegenüber Gemeinschaften",
+    meetTeam: "Lernen Sie Unser Team Kennen",
+    meetTeamSubtitle:
+      "Die leidenschaftlichen Menschen, die Ihre Reiseträume verwirklichen.",
+    reviews: [
+      {
+        name: "Derek Parker",
+        location: "Lakshadweep · Februar 2025",
+        text: "Global organisierte eine perfekt geplante Reise von Goa zu den Lakshadweep-Inseln. Alles war inklusive.",
+      },
+      {
+        name: "Soaleha Shaikh",
+        location: "Kerala · 7 Tage als Paar",
+        text: "Unsere Kerala-Reise war hervorragend organisiert. Global Tourist Centre hat großartige Arbeit geleistet.",
+      },
+      {
+        name: "Maurice Patterson",
+        location: "Indien & Sri Lanka · Kombireise",
+        text: "Wir sind äußerst zufrieden mit der Organisation durch Global Tourist Centre. Alles lief reibungslos.",
+      },
+      {
+        name: "Vishal Yadav",
+        location: "Andaman · Inselurlaub",
+        text: "Ein sehr professionelles Reisebüro mit tollem Reiseplan und perfekter Umsetzung.",
+      },
+      {
+        name: "Fatima Shaik",
+        location: "Luxusreise · Maßgeschneidert",
+        text: "Vielen Dank für diese einmalige Reise. Der persönliche Service war hervorragend.",
+      },
+      {
+        name: "Ketan Thakare",
+        location: "Andaman · Erholungsreise",
+        text: "Wir haben unsere Reise hier gebucht und waren begeistert. Alles war perfekt organisiert.",
+      },
+    ],
+  },
+  // Contact Page
+  contact: {
+    heroTitle: "Kontaktieren Sie Uns",
+    mainTitle: "Kontaktieren Sie Uns",
+    mainSubtitle:
+      "Unser Team steht bereit, um Ihnen bei allen Reisebedürfnissen zu helfen.",
+    ourOffice: "Unser Büro",
+    callUs: "Rufen Sie Uns An",
+    emailUs: "Schreiben Sie Uns",
+    workingHours: "Öffnungszeiten",
+    viewOnMap: "Auf Karte Anzeigen",
+    businessInquiry: "Geschäftsanfrage",
+    salesInquiry: "Verkaufsanfrage",
+    sendMessage: "Senden Sie Uns eine Nachricht",
+    sendMessageSubtitle:
+      "Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden",
+    faqTitle: "Häufig Gestellte Fragen",
+    faqSubtitle:
+      "Schnelle Antworten auf häufige Fragen zu unseren Dienstleistungen.",
+    subjects: {
+      general: "Allgemeine Anfrage",
+      booking: "Reisebuchung",
+      group: "Gruppenreise",
+      custom: "Individuelle Reise",
+      feedback: "Feedback",
+    },
+  },
+  // Blog Page
+  blog: {
+    heroTitle: "Reisegeschichten und Erlebnisse",
+    mainTitle: "Neueste Reisegeschichten",
+    mainSubtitle: "Lesen Sie über unsere neuesten Abenteuer und Erlebnisse",
+    readMore: "Mehr Lesen",
+    comingSoon: "Demnächst",
+    comingSoonDesc:
+      "Wir arbeiten an neuen Geschichten für Sie. Schauen Sie später vorbei!",
+  },
+  // Luxury Destinations
+  luxury: {
+    heroTitle: "Dubai Urlaubspakete",
+    discount: "Bis zu 35% Rabatt",
+    getDiscount: "Erhalten Sie 35% Rabatt auf Dubai",
+    bestPrice: "Bestpreisgarantie",
+    tailorMade: "Maßgeschneiderte Urlaubspakete",
+    personalConsultants: "Persönliche Berater",
+    flexibility: "Flexibilität bei der Organisation",
+    recognised: "Von der indischen Regierung anerkannt",
+    exclusiveDestinations: "Exklusive Reiseziele in Indien",
+  },
+  // Footer
+  footer: {
+    tagline:
+      "Wir verwandeln Ihre Träume seit 2010 in unvergessliche Abenteuer. Ihr vertrauenswürdiger Reisepartner.",
+    quickLinks: "Schnelle Links",
+    popularTours: "Beliebte Touren",
+    latestInstagram: "Neuestes auf Instagram",
+    followUs: "Folgen Sie Uns",
+    goaBeach: "Goa Strandurlaub",
+    exploreSikkim: "Sikkim Erkunden",
+    keralaBackwaters: "Kerala Backwaters",
+    copyright: "© 2023 Global Tourist Centre. Alle Rechte vorbehalten.",
+    craftingJourneys: "Wir gestalten unvergessliche Reisen seit 2010",
+    termsConditions: "Allgemeine Geschäftsbedingungen",
+  },
+  // FAQ
+  faq: {
+    q1: "Wie buche ich eine Tour bei Global Tourist Centre?",
+    a1: "Sie können eine Tour buchen, indem Sie uns über die Website, Telefon oder E-Mail kontaktieren. Unsere Berater helfen Ihnen bei der Planung der perfekten Reise.",
+    q2: "Welche Zahlungsmethoden akzeptieren Sie?",
+    a2: "Wir akzeptieren verschiedene Zahlungsmethoden einschließlich Kredit-/Debitkarten und Banküberweisungen.",
+    q3: "Kann ich mein Tourpaket anpassen?",
+    a3: "Absolut! Wir sind spezialisiert auf die Erstellung maßgeschneiderter Tourpakete nach Ihren Vorlieben und Budget.",
+    q4: "Was ist Ihre Stornierungsrichtlinie?",
+    a4: "Unsere Stornierungsrichtlinie variiert je nach Tourpaket. Kontaktieren Sie uns für spezifische Details.",
+    q5: "Bieten Sie Reiseversicherungen an?",
+    a5: "Ja, wir können eine umfassende Reiseversicherung organisieren.",
+  },
+  trips: {
+    // Inlandsreisen (Domestic Trips)
+    "exotic-kashmir": {
+      title: "Exotisches Kaschmir",
+      description:
+        "Erkunden Sie Srinagar, Sonamarg, Gulmarg und Pahalgam mit Mogul-Gärten, Hausboot-Aufenthalt und atemberaubenden Himalaya-Landschaften.",
+      duration: "5 Nächte / 6 Tage",
+    },
+    "leh-turtuk-pangong": {
+      title: "Leh, Turtuk & Pangong",
+      description:
+        "Erleben Sie den Khardung La Pass, Nubra-Tal, Pangong-See und Turtuk-Dorf in diesem hochgelegenen Himalaya-Abenteuer.",
+      duration: "6 Nächte / 7 Tage",
+    },
+    "sikkim-eastern-himalayas": {
+      title: "Sikkim - Östliche Himalaya",
+      description:
+        "Entdecken Sie Gangtok, Darjeeling, Pelling mit Tsomgo-See, Bergblicken und buddhistischen Klöstern im östlichen Himalaya.",
+      duration: "6 Nächte / 7 Tage",
+    },
+    "mystic-meghalaya": {
+      title: "Mystisches Meghalaya",
+      description:
+        "Erkunden Sie lebende Wurzelbrücken, kristallklare Flüsse in Dawki, Asiens sauberstes Dorf und Kaziranga-Wildsafari im Nordosten Indiens.",
+      duration: "6 Nächte / 7 Tage",
+    },
+    "north-india-heritage": {
+      title: "Nordindien Erbe",
+      description:
+        "Goldenes Dreieck plus Amritsar und Ranthambore - erlebe kulturelles Erbe, Goldenes Tempel und Tiger-Safari-Abenteuer.",
+      duration: "10 Tage / 9 Nächte",
+    },
+    "golden-triangle": {
+      title: "Goldenes Dreieck",
+      description:
+        "Delhi, Agra, Jaipur - Erleben Sie Indiens reiches kulturelles Erbe mit Taj Mahal, Amber Fort und historischen Monumenten.",
+      duration: "5 Nächte / 6 Tage",
+    },
+    "rajasthan-royal": {
+      title: "Königliches Rajasthan",
+      description:
+        "Jaipur, Udaipur, Jodhpur, Jaisalmer-Wüstencamp & Bikaner - erlebe königliche Paläste, Wüsten-Safaris und lebendige Kultur.",
+      duration: "8 Nächte / 9 Tage",
+    },
+    "scenic-kerala": {
+      title: "Malerisches Kerala",
+      description:
+        "Erleben Sie Gottes eigenes Land mit Backwaters, Hügeln, Stränden, Hausboot-Aufenthalt, Teepflanzungen und Gewürzgärten.",
+      duration: "5 Nächte / 6 Tage",
+    },
+    "tamil-nadu-temple-tour": {
+      title: "Tamil Nadu - Tempel-Tour",
+      description:
+        "Kanyakumari, Rameshwaram, Madurai-Tempel & Ooty-Bergstation - spirituelle Reise durch Südindiens heilige Stätten.",
+      duration: "6 Nächte / 7 Tage",
+    },
+    "andaman-coastal-retreat": {
+      title: "Andamanen - Küsten-Ruhe",
+      description:
+        "Entdecken Sie Korallenstrände, Insel-Hopping, Wassersport, unberührte Meereswelt und historische Cellular Jail auf tropischen Inseln.",
+      duration: "6 Nächte / 7 Tage",
+    },
+    "lakshadweep-islands": {
+      title: "Lakshadweep-Inseln",
+      description:
+        "Unberührte Strände, Korallenriffe & Meeresleben auf Agatti, Thinnakara & Kalpitti-Inseln mit Schnorcheln und Wassersport.",
+      duration: "3 Nächte / 4 Tage",
+    },
+    "wondrous-wilderness": {
+      title: "Wunderbare Wildnis",
+      description:
+        "Tauchen Sie ein in die Natur mit Waldwanderungen, Töpferkurse, Mehndi-Kunst und Sonnenuntergängen in diesem ruhigen Goa-Naturresort.",
+      duration: "2 Nächte / 3 Tage",
+    },
+    "secret-cabo-serai": {
+      title: "Geheimes Cabo Serai",
+      description:
+        "Luxus-Auszeit in Cabo Serai mit atemberaubenden Arabischen Meer-Blicken, Naturspaziergängen, Vogelbeobachtung und Wellness-Optionen.",
+      duration: "2 Nächte / 3 Tage",
+    },
+    "shimoga-nature-safari": {
+      title: "Shimoga Natur & Safari",
+      description:
+        "Erkunden Sie die mystischen Felsformationen der Yana-Höhlen, genießen Sie aufregende Jeep- und Boots-Safaris und erleben Sie die majestätischen Jog-Fälle.",
+      duration: "1 Nacht / 2 Tage",
+    },
+    "aurangabad-heritage": {
+      title: "Aurangabad Erbe",
+      description:
+        "Entdecken Sie UNESCO-Weltkulturerbe Ajanta & Ellora-Höhlen, Bibi Ka Maqbara und die historische Daulatabad-Festung.",
+      duration: "1 Nacht / 2 Tage",
+    },
+    "the-taj-mahal-tour": {
+      title: "Taj Mahal Tour",
+      description:
+        "Erleben Sie das ikonische Taj Mahal, Agra Fort und Baby Taj mit russischsprachigen Guides auf dieser romantischen Erbe-Reise.",
+      duration: "1 Nacht / 2 Tage",
+    },
+    "hampi-heritage": {
+      title: "Hampi Erbe",
+      description:
+        "Erkunden Sie das UNESCO-Weltkulturerbe Hampi - antike Ruinen, königliche Anlagen, Tempel und einzigartigen Steinwagen.",
+      duration: "1 Nacht / 2 Tage",
+    },
+
+    // Auslandsreisen (International Trips)
+    "wonders-of-vietnam": {
+      title: "Vietnam Wunder",
+      description:
+        "Umfassende Vietnam-Tour: Hanoi, Halong-Bucht, Da Nang, Hoi An und Ho-Chi-Minh-Stadt. Kulturelle Highlights, landschaftliche Kreuzfahrten und historische Stätten.",
+      duration: "8 Tage / 7 Nächte",
+    },
+    "best-of-vietnam": {
+      title: "Vietnam Highlights",
+      description:
+        "Die Highlights Vietnams: Hanoi, Halong-Bucht, Da Nang und Hoi An. Perfekt für Reisende mit wenig Zeit, die Vietnams Schönheit erleben möchten.",
+      duration: "6 Tage / 5 Nächte",
+    },
+    "breathtaking-bhutan": {
+      title: "Atemberaubendes Bhutan",
+      description:
+        "Erkunden Sie das mystische Königreich Bhutan: Thimphu, Punakha und Paro. Beinhaltet Wanderung zum ikonischen Tiger's Nest-Kloster und kulturelle Erlebnisse.",
+      duration: "8 Tage / 7 Nächte",
+    },
+    "beautiful-nepal": {
+      title: "Schönes Nepal",
+      description:
+        "Das Beste Nepals: Kathmandu, Chitwan-Nationalpark und Pokhara. Dschungel-Safari, kulturelle Stätten und Himalaya-Blicke.",
+      duration: "7 Tage / 6 Nächte",
+    },
+    "nepal-muktinath-special": {
+      title: "Nepal - Muktinath Spezial",
+      description:
+        "Spirituelle Reise zum heiligen Muktinath-Tempel inmitten himmlischer Himalaya-Schönheit. Beinhaltet Pokhara-Sightseeing und Sarangkot-Sonnenaufgang.",
+      duration: "7 Tage / 6 Nächte",
+    },
+    "classic-singapore-malaysia": {
+      title: "Klassisches Singapur & Malaysia",
+      description:
+        "Zwei-Städte-Erlebnis mit modernen Wundern, kultureller Vielfalt und tropischer Schönheit. Sentosa-Insel, Universal Studios und Kuala Lumpur-Highlights.",
+      duration: "7 Tage / 6 Nächte",
+    },
+    "thailand-bangkok-pattaya-special": {
+      title: "Thailand - Bangkok & Pattaya Spezial",
+      description:
+        "Bangkok & Pattaya-Reise mit Sri Racha Zoo, Coral Island und Safari World. Perfekter Kurzurlaub mit Stränden, Tempeln und Unterhaltung.",
+      duration: "5 Tage / 4 Nächte",
+    },
+    "simply-thailand-fully-loaded": {
+      title: "Thailand Komplett",
+      description:
+        "Umfassende Tour: Bangkok, Pattaya, Krabi und Phuket. Stadtleben, Strände, Inseln und kulturelle Attraktionen.",
+      duration: "8 Tage / 7 Nächte",
+    },
+    "turkey-istanbul-cappadocia": {
+      title: "Türkei - Istanbul & Kappadokien",
+      description:
+        "Erkunden Sie Istanbuls historische Stätten und Kappadokiens einzigartige Landschaften. Hagia Sophia, Blaue Moschee und Untergrundstädte.",
+      duration: "6 Tage / 5 Nächte",
+    },
+    "glimpse-of-turkey": {
+      title: "Türkei Einblick",
+      description:
+        "Umfassende Türkei-Tour: Istanbul, Kappadokien, Antalya und beeindruckende Pamukkale-Terrassen. Reiche Geschichte und vielfältige Landschaften.",
+      duration: "9 Tage / 8 Nächte",
+    },
+    "dubai-luxury-escape": {
+      title: "Dubai - Luxus-Auszeit",
+      description:
+        "Dubais moderne Wunder: Dhow-Kreuzfahrt, Wüsten-Safari, Burj Khalifa, Dubai-Aquarium und aufregende Wasserpark-Abenteuer.",
+      duration: "6 Tage / 5 Nächte",
+    },
+    "phuket-krabi-island-escape": {
+      title: "Phuket Krabi - Insel-Auszeit",
+      description:
+        "Insel-Paradies mit 4-Inseln-Tour in Krabi und Phi Phi-Insel-Tour von Phuket. Unberührte Strände, Kalksteinfelsen und türkisfarbenes Wasser.",
+      duration: "5 Tage / 4 Nächte",
+    },
+    "hong-kong-macau-escape": {
+      title: "Hongkong & Macau Auszeit",
+      description:
+        "Lebendige Städte, atemberaubende Skyline und kulturelle Wunder. Ocean Park, Stadttouren und Fährverbindungen zwischen Hongkong und Macau.",
+      duration: "6 Tage / 5 Nächte",
+    },
+    "azerbaijan-baku-discovery": {
+      title: "Aserbaidschan - Baku Entdeckung",
+      description:
+        "Antike Geschichte und moderne Architektur in Aserbaidschan. Besuchen Sie Baku, Gabala, Sheki und Quba mit Seilbahnen und UNESCO-Stätten.",
+      duration: "7 Tage / 6 Nächte",
+    },
+    "bali-luxury-getaway": {
+      title: "Bali Luxus-Auszeit",
+      description:
+        "Entspannen Sie im tropischen Bali-Paradies mit Stränden, Reisterrassen, Tempeln und Spa. Wassersport, Bali-Swing und Nusa Penida-Tour.",
+      duration: "5 Tage / 4 Nächte",
+    },
+    "cambodia-laos-discovery": {
+      title: "Kambodscha & Laos Entdeckung",
+      description:
+        "Antike Tempel und üppige Landschaften in zwei Südostasien-Ländern. Angkor Wat-Sonnenaufgang und kulturelle Erlebnisse.",
+      duration: "9 Tage / 8 Nächte",
+    },
+    "georgia-caucasus-adventure": {
+      title: "Georgien - Kaukasus-Abenteuer",
+      duration: "8 Tage / 7 Nächte",
+    },
+    "japan-luxury-experience": {
+      title: "Japan Luxus-Erlebnis",
+      description:
+        "Perfekte Mischung aus traditioneller Kultur und moderner Innovation in Tokyo, Osaka, Kyoto und darüber hinaus. Shinkansen-Fahrten inklusive.",
+      duration: "8 Tage / 7 Nächte",
+    },
+    "kazakhstan-almaty-explorer": {
+      title: "Kasachstan - Almaty Entdecker",
+      description:
+        "Almatys städtischer Charme, atemberaubende Bergseen und beeindruckender Charyn-Canyon. Perfekte Mischung aus Bergabenteuern und Kultur.",
+      duration: "5 Tage / 4 Nächte",
+    },
+    "sri-lanka-luxury-tour": {
+      title: "Sri Lanka Luxus-Tour",
+      description:
+        "Perle des Indischen Ozeans mit kulturellen Wundern, Wildtierabenteuern und unberührten Stränden. Alle Mahlzeiten und kuratierte Erlebnisse inklusive.",
+      duration: "8 Tage / 7 Nächte",
+    },
+
+    // Tagesausflüge (Day Trips)
+    "dandeli-elephant-safari": {
+      title: "Dandeli Elefanten-Safari",
+      description:
+        "Spannendes Wildtierabenteuer mit Elefanten-Safaris, Wildwasser-Rafting und Dschungel erkunden in Dandelis üppigen Landschaften.",
+      duration: "1 Tag",
+    },
+    "dudhsagar-waterfall-spice-plantation": {
+      title: "Dudhsagar Wasserfall & Gewürzplantage",
+      description:
+        "Erleben Sie majestätische Dudhsagar-Fälle mit Jeep-Safari durch Bhagwan Mahaveer Sanctuary und authentisches Goan-Mittagessen auf Gewürzplantage.",
+      duration: "1 Tag",
+    },
+    "mumbai-in-a-day-trip": {
+      title: "Mumbai Tagesausflug",
+      description:
+        "Umfassende Mumbai-Tour mit ikonischen Wahrzeichen: Gateway of India, Dharavi Slum, Dhobi Ghat und Nachtzug zurück nach Goa.",
+      duration: "1 Tag",
+    },
+    "netravali-day-trip": {
+      title: "Netravali Tagesausflug",
+      description:
+        "Erkunden Sie Netravalic mystischen Bubbling Lake, wandern zu unberührten Wasserfällen und entdecken Sie reiche Biodiversität in diesem unberührten Wildschutzgebiet.",
+      duration: "1 Tag",
+    },
+    "gokarna-murdeshwar-trip": {
+      title: "Gokarna Murdeshwar Ausflug",
+      description:
+        "Spirituelle Reise zum antiken Mahabaleshwar-Tempel in Gokarna und prächtigen Murdeshwar-Tempel mit weltweit höchster Shiva-Statue.",
+      duration: "1 Tag",
+    },
+    "palolem-cola-beach-dolphin-spotting": {
+      title: "Palolem, Cola Beach - Delfinbeobachtung",
+      description:
+        "Komplette Südgoa-Erfahrung mit Delfinbeobachtung, 4-Punkte-Bootstour, Kajakfahren in blauen Lagunen und Sonnenuntergang bei Cabo de Rama Fort.",
+      duration: "1 Tag",
+    },
+    "south-goa-cultural-coastal-tour": {
+      title: "Südgoa Kultur & Küsten-Tour",
+      description:
+        "Komplette Südgoa-Erfahrung mit UNESCO-Stätten in Alt-Goa, antiken Tempeln, Delfinbeobachtung, unberührten Stränden und Sonnenuntergang bei Cabo de Rama Fort mit Mandovi River Dinner Cruise.",
+      duration: "1 Tag",
+    },
+  },
+
+  tourdata:{
+  "Dandeli-Elephant-Safari-Day-Trip-package": {
+    "file_name": "Dandeli-Elephant-Safari-Day-Trip-package.html",
+    "page": {
+      "slug": "Dandeli-Elephant-Safari-Day-Trip-package",
+      "type": "day-trip",
+      "hero": {
+        "title": "Dandeli-Elefantensafari und Abenteuer-Tagesausflug",
+        "subtitle": "Erleben Sie Begegnungen mit der Tierwelt und aufregende Wasserabenteuer in den üppigen Landschaften von Dandeli",
+        "backgroundImage": "/assets/hero/Dandeli-hero.webp",
+        "meta": {
+          "duration": "1 Tag",
+          "locations": 4,
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Dandeli-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für einen unvergesslichen Tag voller Begegnungen mit der Tierwelt und aufregenden Aktivitäten",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Dandeli Elephant Safari-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 8 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC Innova Crysta"
+      },
+      {
+        "title": "Mittagessen inklusive",
+        "description": "Lokale Küche"
+      },
+      {
+        "title": "Wildtierbeobachtung",
+        "description": "Elefanten, Bisons, Hirsche"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "6:00 AM",
+        "title": "Abfahrt von Ihrem Standort",
+        "description": "Beginnen Sie Ihre Reise früh, um das Beste aus Ihrem Tag zu machen",
+        "category": "travel"
+      },
+      {
+        "time": "10:00 AM",
+        "title": "Ankunft in Dandeli",
+        "description": "Erreichen Sie die Region Dandeli, die für ihre üppigen Landschaften und aufregenden Abenteuer bekannt ist",
+        "category": "arrival"
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Dandeli Wasserabenteuer",
+        "description": "Wildwasser-Rafting, Kajakfahren, natürlicher Whirlpool und optionales Seilrutschen",
+        "category": "adventure",
+        "highlight": true
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Mittagspause",
+        "description": "Traditionelle Nord-Karnataka- oder lokale Küche in einem nahe gelegenen Resort oder einem lokalen Restaurant",
+        "category": "meal"
+      },
+      {
+        "time": "2:30 PM",
+        "title": "Elefantensafari",
+        "description": "Genießen Sie einen friedlichen Ritt auf dressierten Elefanten durch das Schutzgebiet und beobachten Sie die Tierwelt und die malerische Umgebung",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "3:30 PM",
+        "title": "Jeep-Safari",
+        "description": "Wagen Sie sich tiefer in den Dschungel, um Wildtiere wie Bisons, Hirsche und exotische Vögel zu beobachten",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "4:30 PM",
+        "title": "Naturerkundung",
+        "description": "Erleben Sie das üppige Grün und die ruhige Atmosphäre der Wälder von Dandeli",
+        "category": "exploration"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Abfahrt von Dandeli",
+        "description": "Beginnen Sie Ihre Rückreise und lassen Sie die Abenteuer des Tages Revue passieren",
+        "category": "travel"
+      },
+      {
+        "time": "9:00 PM",
+        "title": "Ankunft zurück an Ihrem Standort",
+        "description": "Lassen Sie den Tag mit schönen Erinnerungen und vielen Geschichten ausklingen",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Dandeli-Wälder",
+        "description": "Üppige grüne Landschaften",
+        "image": "/assets/destinations/Dandeli/dandeli-forests.webp"
+      },
+      {
+        "title": "Wildwasser-Rafting",
+        "description": "Spannendes Flussabenteuer",
+        "image": "/assets/destinations/Dandeli/White-Water-Rafting.webp"
+      },
+      {
+        "title": "Elefantensafari",
+        "description": "Begegnungen mit Wildtieren",
+        "image": "/assets/destinations/Dandeli/elephant-safari.webp"
+      },
+      {
+        "title": "Kajakfahren",
+        "description": "Flusserkundung",
+        "image": "/assets/destinations/Dandeli/kayaking.webp"
+      },
+      {
+        "title": "Jeep-Safari",
+        "description": "Wildtierbeobachtung",
+        "image": "/assets/destinations/Dandeli/jeep-safari.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Privater Transport",
+        "description": "AC Innova Crysta mit erfahrenem Fahrer für den ganzen Tag"
+      },
+      {
+        "title": "Mittagessen",
+        "description": "Leckeres Mittagessen in einem lokalen Restaurant oder Resort"
+      },
+      {
+        "title": "Aktivitätsgebühren",
+        "description": "Elefantensafari, Jeep-Safari und Wasseraktivitäten inklusive"
+      },
+      {
+        "title": "Mautsteuer",
+        "description": "Alle Autobahn- und Straßengebühren werden abgedeckt"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Genug Zeit für Fotos an allen malerischen Orten"
+      },
+      {
+        "title": "Treiber",
+        "description": "Professioneller englischsprachiger Fahrer den ganzen Tag über"
+      }
+    ]
+  },
+  "Dudhsagar-and-Spice-Plantation-Day-Trip-package": {
+    "file_name": "Dudhsagar-and-Spice-Plantation-Day-Trip-package.html",
+    "page": {
+      "slug": "Dudhsagar-and-Spice-Plantation-Day-Trip-package",
+      "type": "day-trip",
+      "hero": {
+        "title": "Tagesausflug zu den Dudhsagar-Wasserfällen und zur Gewürzplantage für Ausländer",
+        "subtitle": "Erleben Sie die majestätischen Dudhsagar-Wasserfälle und erkunden Sie aromatische Gewürzplantagen an einem unvergesslichen Tag",
+        "backgroundImage": "/assets/hero/Dudhsagar-hero.webp",
+        "meta": {
+          "duration": "1 Tag",
+          "locations": 3,
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Dudhsagar- und Gewürzplantagen-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für einen unvergesslichen Tag mit der Erkundung majestätischer Wasserfälle und aromatischer Plantagen",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihre Dudhsagar-Wasserfälle"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 6 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC Innova Crysta"
+      },
+      {
+        "title": "Mittagessen inklusive",
+        "description": "Authentische goanische Küche"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Beste Aussichtspunkte"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "7:00 AM",
+        "title": "Abfahrt von Goa",
+        "description": "Beginnen Sie Ihre Reise von Ihrem Hotel in Goa mit dem Auto oder einem privaten Taxi",
+        "category": "travel"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Ankunft im Bhagwan Mahaveer Sanctuary",
+        "description": "Erreichen Sie das Heiligtum, in dem sich die Dudhsagar-Wasserfälle befinden",
+        "category": "arrival"
+      },
+      {
+        "time": "9:30 AM",
+        "title": "Dudhsagar-Wasserfall",
+        "description": "Erleben Sie den majestätischen vierstufigen Wasserfall, einen der höchsten in Indien, der aus einer Höhe von 310 Metern stürzt",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Fahrt zur Gewürzplantage",
+        "description": "Genießen Sie die malerische Fahrt durch die Western Ghats",
+        "category": "activity"
+      },
+      {
+        "time": "12:30 PM",
+        "title": "Gewürzplantagentour",
+        "description": "Führung durch eine traditionelle Gewürzplantage.Erfahren Sie mehr über verschiedene Gewürze wie Kardamom, Pfeffer, Vanille und Muskatnuss",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "1:30 PM",
+        "title": "Traditionelles goanisches Mittagessen",
+        "description": "Genießen Sie ein authentisches goanisches Essen auf der Gewürzplantage, zubereitet mit frischen Zutaten aus der Region",
+        "category": "meal"
+      },
+      {
+        "time": "2:30 PM",
+        "title": "Einkaufsmöglichkeit",
+        "description": "Stöbern und kaufen Sie frische Gewürze und lokale Produkte auf der Plantage",
+        "category": "activity"
+      },
+      {
+        "time": "3:30 PM",
+        "title": "Rückreise",
+        "description": "Beginnen Sie Ihre Rückreise nach Goa",
+        "category": "activity"
+      },
+      {
+        "time": "6:00 PM",
+        "title": "Ankunft zurück in Goa",
+        "description": "Rückfahrt zu Ihrem Hotel mit unvergesslichen Erinnerungen",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Dudhsagar-Wasserfälle",
+        "description": "Majestätischer Wasserfall",
+        "image": "/assets/destinations/Dudhsagar/dudhsagar-falls.webp"
+      },
+      {
+        "title": "Bhagwan Mahaveer Heiligtum",
+        "description": "Üppige Wälder",
+        "image": "/assets/destinations/Dudhsagar/jeep-safari.webp"
+      },
+      {
+        "title": "Traditionelles goanisches Mittagessen",
+        "description": "Authentische Küche",
+        "image": "/assets/destinations/Dudhsagar/goan-food.webp"
+      },
+      {
+        "title": "Gewürzplantagentour",
+        "description": "Geführte Erkundung",
+        "image": "/assets/destinations/Dudhsagar/spice-plantation.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Privater Transport",
+        "description": "AC Innova Crysta mit erfahrenem Fahrer für den ganzen Tag"
+      },
+      {
+        "title": "Mittagessen",
+        "description": "Traditionelles goanisches Mittagessen auf der Gewürzplantage"
+      },
+      {
+        "title": "Eintrittsgelder",
+        "description": "Alle Eintrittsgelder für Dudhsagar und die Gewürzplantage sind inbegriffen"
+      },
+      {
+        "title": "Mautsteuer",
+        "description": "Alle Autobahn- und Straßengebühren werden abgedeckt"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Genug Zeit für Fotos an allen malerischen Orten"
+      },
+      {
+        "title": "Treiber",
+        "description": "Professioneller englischsprachiger Fahrer den ganzen Tag über"
+      }
+    ]
+  },
+  "Gokarna-Murdeshwar-one-day-trip-package": {
+    "file_name": "Gokarna-Murdeshwar-one-day-trip-package.html",
+    "page": {
+      "slug": "Gokarna-Murdeshwar-one-day-trip-package",
+      "type": "day-trip",
+      "hero": {
+        "title": "Eintägige Gokarna- und Murdeshwar-Reise ab Goa für Ausländer",
+        "subtitle": "Entdecken Sie Strände und Tempel an einem Tag",
+        "backgroundImage": "/assets/hero/Gokarna-hero.webp",
+        "meta": {
+          "duration": "1 Tag",
+          "locations": 5,
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Gokarna- und Murdeshwar-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für einen unvergesslichen Tag mit der Erkundung alter Tempel und unberührter Strände",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für dein Gokarna"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 6 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC Innova Crysta"
+      },
+      {
+        "title": "Frühstück inklusive",
+        "description": "Lokale Küche"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Beste Aussichtspunkte"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "6:00 AM",
+        "title": "Abfahrt von Goa",
+        "description": "Beginnen Sie Ihre Reise von Goa aus mit dem Auto oder einem privaten Taxi",
+        "category": "travel"
+      },
+      {
+        "time": "9:30 AM",
+        "title": "Mahabaleshwar-Tempel",
+        "description": "Besuchen Sie diesen alten Tempel, der Lord Shiva gewidmet ist und für sein Atmalingam berühmt ist",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Frühstücksstopp",
+        "description": "Genießen Sie ein schnelles Frühstück in einem örtlichen Café in der Nähe der Strände von Gokarna oder des Tempelbereichs",
+        "category": "meal"
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Om Strand",
+        "description": "Gehen Sie zum Om Beach, der wie das Om-Symbol geformt ist.Entspannen Sie sich, machen Sie einen Spaziergang oder genießen Sie die ruhige Strandatmosphäre",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "12:00 PM",
+        "title": "Fahrt nach Murdeshwar",
+        "description": "Genießen Sie während der Fahrt die malerische Aussicht auf die Küste und die Western Ghats",
+        "category": "activity"
+      },
+      {
+        "time": "1:30 PM",
+        "title": "Murdeshwar-Tempel",
+        "description": "Besuchen Sie den berühmten Murudeshwar-Tempel, der Lord Shiva gewidmet ist.Bewundern Sie die aufwendigen Schnitzereien und die Architektur",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "2:30 PM",
+        "title": "Shiva-Statue",
+        "description": "Bewundern Sie die 123 Fuß hohe Shiva-Statue, eine der höchsten der Welt, mit Blick auf das Arabische Meer",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "3:00 PM",
+        "title": "Mittagspause",
+        "description": "Genießen Sie ein Mittagessen in einem lokalen Restaurant mit authentischer Küstenküche",
+        "category": "meal"
+      },
+      {
+        "time": "4:00 PM",
+        "title": "Murdeshwar-Strand",
+        "description": "Machen Sie einen kurzen Spaziergang am Strand entlang in der Nähe des Tempels",
+        "category": "activity"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Rückkehr nach Goa",
+        "description": "Beginnen Sie Ihre Rückreise nach Goa mit unvergesslichen Erinnerungen",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Gokarna-Strände",
+        "description": "Unberührte Küstenschönheit",
+        "image": "/assets/destinations/Gokarna/Gokarna Beaches.webp"
+      },
+      {
+        "title": "Mahabaleshwar-Tempel",
+        "description": "Alter Shiva-Tempel",
+        "image": "/assets/destinations/Gokarna/Mahabaleshwar Temple.webp"
+      },
+      {
+        "title": "Om Strand",
+        "description": "Natürlich geformte Küste",
+        "image": "/assets/destinations/Gokarna/Om Beach.webp"
+      },
+      {
+        "title": "Murdeshwar-Tempel",
+        "description": "Architektonisches Wunder",
+        "image": "/assets/destinations/Gokarna/Murdeshwar Temple.webp"
+      },
+      {
+        "title": "Shiva-Statue",
+        "description": "Der zweithöchste der Welt",
+        "image": "/assets/destinations/Gokarna/Shiva Statue.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Privater Transport",
+        "description": "AC Innova Crysta mit erfahrenem Fahrer für den ganzen Tag"
+      },
+      {
+        "title": "Frühstück",
+        "description": "Leckeres Frühstück in einem örtlichen Café in Gokarna"
+      },
+      {
+        "title": "Eintrittsgelder",
+        "description": "Alle Eintrittsgebühren für den Tempel inbegriffen"
+      },
+      {
+        "title": "Mautsteuer",
+        "description": "Alle Autobahn- und Straßengebühren werden abgedeckt"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Genug Zeit für Fotos an allen malerischen Orten"
+      },
+      {
+        "title": "Treiber",
+        "description": "Professioneller englischsprachiger Fahrer den ganzen Tag über"
+      }
+    ]
+  },
+  "Luxury-Yacht-Tour-Goa": {
+    "file_name": "luxury-yacht-tour-goa.html",
+    "page": {
+      "slug": "Luxury-Yacht-Tour-Goa",
+      "type": "",
+      "hero": {
+        "title": "Luxusyachttour – „Vom Sonnenuntergang bis zum Abendessen“",
+        "subtitle": "Ein exklusives 6-stündiges Premium-Erlebnis mit Infinity-Pool, Live-DJ, Gourmet-Essen und Blick auf den Sonnenuntergang",
+        "backgroundImage": "/assets/hero/Luxury-Yacht-Goa-hero.webp",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Reservieren Sie Ihr Luxusyacht-Erlebnis",
+      "description": "Buchen Sie jetzt für einen unvergesslichen Abend voller Luxus, gehobener Küche und Panoramablick auf das Meer.",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für die Luxusyachttour – Vom Sonnenuntergang bis zum Abendessen.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Zeit",
+        "description": "16:00 – 22:00 Uhr"
+      },
+      {
+        "title": "Infinity-Pool",
+        "description": "Zugang inklusive"
+      },
+      {
+        "title": "Live-DJ",
+        "description": "Während der gesamten Kreuzfahrt"
+      },
+      {
+        "title": "Gourmet-Abendessen",
+        "description": "Barbecue und Sushi"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "3:30 PM",
+        "title": "Abholung vom Hotel",
+        "description": "Ihr Luxuserlebnis beginnt mit einer privaten Abholung von Ihrem Hotel.Entspannen Sie sich in einem komfortablen Fahrzeug mit Klimaanlage, während Sie zum Anleger gefahren werden.",
+        "category": "activity"
+      },
+      {
+        "time": "4:00 PM",
+        "title": "Einsteigen in die Luxusyacht",
+        "description": "Kommen Sie am Dock an und gehen Sie an Bord der Premium-Yacht, ausgestattet mit:",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "4:15 PM",
+        "title": "Willkommenssnacks und Erfrischungen",
+        "description": "Machen Sie es sich bequem mit einer Auswahl an:",
+        "category": "activity"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Bootsfahrt bei Sonnenuntergang und DJ-Vibes",
+        "description": "Erleben Sie das Highlight des Abends:",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "6:00 PM",
+        "title": "Infinity-Pool-Zeit",
+        "description": "Tauchen Sie ein in den Infinity-Pool der Yacht – ein seltenes Luxuserlebnis auf See.Lassen Sie sich treiben, schwimmen oder entspannen Sie sich einfach, während die Farben der Dämmerung den Horizont erfüllen.",
+        "category": "activity"
+      },
+      {
+        "time": "7:00 PM",
+        "title": "Gourmet-Abendessen (Grill-/Sushi-Erlebnis)",
+        "description": "Gönnen Sie sich ein vom Küchenchef zusammengestelltes Gourmet-Menü.Ihre Auswahl umfasst:",
+        "category": "meal",
+        "highlight": true
+      },
+      {
+        "time": "8:00 PM",
+        "title": "Desserts und Lounge-Zeit",
+        "description": "Genießen Sie eine Auswahl luxuriöser Desserts wie:",
+        "category": "activity"
+      },
+      {
+        "time": "9:30 PM",
+        "title": "Mondscheinkreuzfahrt",
+        "description": "Als die Nacht hereinbricht, kreuzt die Yacht weiter unter den Sternen.Genießen:",
+        "category": "activity"
+      },
+      {
+        "time": "10:00 PM",
+        "title": "Kehre zur Anlegestelle zurück",
+        "description": "Die Yacht legt wieder am Pier an und markiert das Ende eines luxuriösen Abends.",
+        "category": "activity"
+      },
+      {
+        "time": "10:15 PM",
+        "title": "Rückgabe im Hotel",
+        "description": "Ihr Privatfahrzeug bringt Sie mit unvergesslichen Erinnerungen an Ihr Luxusyacht-Erlebnis zurück zu Ihrem Hotel.",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Premium-Yacht",
+        "description": "Hochmodernes Luxusschiff",
+        "image": "/assets/destinations/Luxury-Yacht/Yacht-Exterior.webp"
+      },
+      {
+        "title": "Infinity-Pool",
+        "description": "Schwimmen Sie mit Panoramablick auf das Meer",
+        "image": "/assets/destinations/Luxury-Yacht/Infinity-Pool.webp"
+      },
+      {
+        "title": "Blick auf den Sonnenuntergang",
+        "description": "Atemberaubende goldene Stunde",
+        "image": "/assets/destinations/Luxury-Yacht/Sunset-Deck.webp"
+      },
+      {
+        "title": "Feines Essen",
+        "description": "Vom Küchenchef zusammengestellte Gourmetgerichte",
+        "image": "/assets/destinations/Luxury-Yacht/Gourmet-Dinner.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Abholung vom Hotel",
+        "description": "Abholung und Rückgabe eines privaten AC-Fahrzeugs von Ihrem Hotel."
+      },
+      {
+        "title": "Yachtkreuzfahrt",
+        "description": "6-stündiges Premium-Yachtkreuzfahrt-Erlebnis."
+      },
+      {
+        "title": "Zugang zum Infinity-Pool",
+        "description": "Zugang zum Infinity-Pool der Yacht."
+      },
+      {
+        "title": "Live-DJ",
+        "description": "Live-DJ-Musik während der gesamten Kreuzfahrt."
+      },
+      {
+        "title": "Snacks und Getränke",
+        "description": "Willkommenssnacks, Erfrischungen und Getränke."
+      },
+      {
+        "title": "Gourmet-Abendessen",
+        "description": "Vom Küchenchef zusammengestelltes Abendessen mit Grill- und Sushi-Optionen."
+      },
+      {
+        "title": "Desserts",
+        "description": "Premium-Dessertauswahl, darunter Käsekuchen und Schokoladenmousse."
+      }
+    ]
+  },
+  "Mumbai-day-trip-package": {
+    "file_name": "Mumbai-day-trip-package.html",
+    "page": {
+      "slug": "Mumbai-day-trip-package",
+      "type": "day-trip",
+      "hero": {
+        "title": "Mumbai-Tagesausflug von Goa für ausländische Reisende",
+        "subtitle": "Ganztagestour von Goa nach Mumbai inklusive Flug, Gateway of India, Taj Mahal Palace und englischsprachigem Reiseführer",
+        "backgroundImage": "/assets/hero/mumbai-hero.webp",
+        "meta": {
+          "duration": "Ganzer Tag",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit, Mumbai zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für einen unvergesslichen Tag beim Erkunden der Stadt der Lichter",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihre Ganztagestour durch Mumbai.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Flugpreis inbegriffen",
+        "description": "Hin- und Rückfahrt von Goa nach Mumbai"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Taxis für Besichtigungen"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück und Tee im Taj"
+      },
+      {
+        "title": "Englischer Reiseführer",
+        "description": "Professioneller Führer"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "6:00 AM",
+        "title": "Flug von Goa nach Mumbai",
+        "description": "Frühmorgens Flug nach Mumbai.",
+        "category": "activity"
+      },
+      {
+        "time": "7:30 AM",
+        "title": "Fahrt nach Süd-Mumbai",
+        "description": "Beginnen Sie den Tag mit einer bequemen Taxifahrt in Richtung Colaba, dem Herzen des alten Mumbai.",
+        "category": "activity"
+      },
+      {
+        "time": "8:00 AM",
+        "title": "Frühstück in Colaba",
+        "description": "Genießen Sie ein herzhaftes Frühstück in einem beliebten Café im Süden Mumbais.",
+        "category": "meal"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Tor zu Indien",
+        "description": "Beginnen Sie Ihre Tour am berühmtesten Wahrzeichen Mumbais:",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "9:45 AM",
+        "title": "Tee im Taj Mahal Palace (inklusive)",
+        "description": "Sehen Sie den prächtigen Taj Mahal Palace, Mumbais berühmtestes 5-Sterne-Hotel.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "10:15 AM",
+        "title": "Besuch von Colaba & Café Leopold",
+        "description": "Spazieren Sie durch die lebhaften Straßen von Colaba.",
+        "category": "activity"
+      },
+      {
+        "time": "11:00 AM",
+        "title": "CST-Station (Victoria Terminus)",
+        "description": "Besuchen Sie das zum UNESCO-Weltkulturerbe gehörende Meisterwerk der gotischen Architektur.",
+        "category": "activity"
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Marine Drive und Nariman Point",
+        "description": "Eine malerische Fahrt entlang des weltberühmten Marine Drive, auch bekannt als „Queen's Necklace“.",
+        "category": "activity"
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Mittagspause (Selbstzahler)",
+        "description": "Ihr Reiseleiter wird Ihnen ausgezeichnete Optionen wie Fischrestaurants und vegetarische Restaurants empfehlen",
+        "category": "meal"
+      },
+      {
+        "time": "2:00 PM",
+        "title": "Dharavi Slum Tour (Führung mit Genehmigung)",
+        "description": "Eine höchst lehrreiche und einzigartige Erfahrung.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "3:30 PM",
+        "title": "Crawford-Markt / Colaba-Markt",
+        "description": "Genießen Sie etwas Einkaufszeit auf einem der lebhaftesten Märkte Mumbais:",
+        "category": "activity"
+      },
+      {
+        "time": "6:15 PM",
+        "title": "Transfer zum Flughafen Mumbai",
+        "description": "Nach einem erlebnisreichen Tag voller Besichtigungen fahren Sie zurück zum Flughafen.",
+        "category": "activity"
+      },
+      {
+        "time": "8:00 PM",
+        "title": "Flug zurück nach Goa (inklusive)",
+        "description": "",
+        "category": "activity"
+      },
+      {
+        "time": "9:00 PM",
+        "title": "Ankunft in Goa",
+        "description": "Der Transfer rundet Ihr unvergessliches Mumbai-Erlebnis ab.",
+        "category": "arrival"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Tor zu Indien",
+        "description": "Mumbais ikonisches Wahrzeichen",
+        "image": "../../assets/destinations/Mumbai/Gateway of India.webp"
+      },
+      {
+        "title": "Taj-Mahal-Palast",
+        "description": "Legendäres 5-Sterne-Hotel",
+        "image": "../../assets/destinations/Mumbai/Taj Mahal Palace Hotel.webp"
+      },
+      {
+        "title": "Marineantrieb",
+        "description": "Halskette der Königin",
+        "image": "../../assets/destinations/Mumbai/Marine-Drive.webp"
+      },
+      {
+        "title": "CST-Station",
+        "description": "UNESCO-Weltkulturerbe",
+        "image": "../../assets/destinations/Mumbai/CST-Station.webp"
+      },
+      {
+        "title": "Dharavi",
+        "description": "Pädagogische Slum-Tour",
+        "image": "../../assets/destinations/Mumbai/Dharavi Slum.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Flugpreis",
+        "description": "Flug von Goa nach Mumbai und zurück"
+      },
+      {
+        "title": "Frühstück",
+        "description": ""
+      },
+      {
+        "title": "Eintrittsgelder",
+        "description": ""
+      },
+      {
+        "title": "Taxis für Besichtigungen",
+        "description": ""
+      },
+      {
+        "title": "Tee im Taj Mahal Palace",
+        "description": ""
+      },
+      {
+        "title": "Englischsprachiger Reiseführer",
+        "description": ""
+      },
+      {
+        "title": "Ganztagestour",
+        "description": "Dauer: Ganzer Tag (Rückkehr am selben Tag)"
+      }
+    ]
+  },
+  "Netravali-day-trip-package": {
+    "file_name": "Netravali-day-trip-package.html",
+    "page": {
+      "slug": "Netravali-day-trip-package",
+      "type": "day-trip",
+      "hero": {
+        "title": "Tagesausflug nach Netravali: Wildtiere, Wasserfälle und Dörfer in Goa",
+        "subtitle": "Tauchen Sie ein in die natürliche Schönheit und den kulturellen Reichtum des Hinterlandes von Goa",
+        "backgroundImage": "/assets/hero/Netravali-hero.webp",
+        "meta": {
+          "duration": "1 Tag",
+          "locations": 5,
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihren Ausflug in die Natur?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für einen unvergesslichen Tag zur Erkundung der Naturwunder Goas",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Netravali-Tagesausflugspaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Naturwanderung",
+        "description": "Einfache bis mittelschwere Wanderwege"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Wechselstromfahrzeug mit Fahrer"
+      },
+      {
+        "title": "Wildtierbeobachtung",
+        "description": "Seltene Vögel und Schmetterlinge"
+      },
+      {
+        "title": "Fotomöglichkeiten",
+        "description": "Atemberaubende Naturkulisse"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "7:00 AM",
+        "title": "Abfahrt",
+        "description": "Abholung von Ihrem Startort in Goa",
+        "category": "travel"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Netravali-Wildschutzgebiet",
+        "description": "Erkunden Sie das Schutzgebiet, das für seine reiche Artenvielfalt bekannt ist",
+        "category": "activity"
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Sprudelnder See (Budbudyanchi Tali)",
+        "description": "Erleben Sie das faszinierende Phänomen, dass beim Klatschen Blasen entstehen",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Gopinath-Tempel",
+        "description": "Besuchen Sie den historischen Gopinath-Tempel in der Nähe des Bubbling Lake",
+        "category": "activity"
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Wanderung zu den Netravali-Wasserfällen",
+        "description": "Leichte bis mittelschwere Wanderung durch dichte Wälder und steinige Pfade",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "1:30 PM",
+        "title": "Netravali-Wasserfälle",
+        "description": "Bewundern Sie die unberührte Schönheit und nehmen Sie ein erfrischendes Bad",
+        "category": "activity"
+      },
+      {
+        "time": "2:00 PM",
+        "title": "Mittagspause",
+        "description": "Genießen Sie ein Picknick oder speisen Sie in einem lokalen Restaurant in Goa",
+        "category": "meal"
+      },
+      {
+        "time": "3:30 PM",
+        "title": "Malerische Dörfer",
+        "description": "Fahren Sie durch charmante Dörfer mit üppigem Grün und traditionellen Häusern",
+        "category": "activity"
+      },
+      {
+        "time": "4:30 PM",
+        "title": "Gewürzplantage (optional)",
+        "description": "Besuchen Sie eine Gewürzplantage, um mehr über lokale Gewürze und Kräuter zu erfahren",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "5:30 PM",
+        "title": "Blick auf den Sonnenuntergang",
+        "description": "Fangen Sie atemberaubende Sonnenuntergänge über den Western Ghats ein",
+        "category": "activity"
+      },
+      {
+        "time": "7:00 PM",
+        "title": "Rückreise",
+        "description": "Beginnen Sie die Rückreise zu Ihrem Ausgangspunkt",
+        "category": "activity"
+      },
+      {
+        "time": "9:00 PM",
+        "title": "Ankunft",
+        "description": "Kommen Sie wieder an Ihrem Ausgangspunkt an",
+        "category": "arrival"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Netravali-Wasserfälle",
+        "description": "Unberührter Wasserfall im Heiligtum",
+        "image": "/assets/destinations/Netravali/netravali-waterfall.webp"
+      },
+      {
+        "title": "Sprudelnder See",
+        "description": "Einzigartiges Naturphänomen",
+        "image": "/assets/destinations/Netravali/bubbling-lake.webp"
+      },
+      {
+        "title": "Naturschutzgebiet",
+        "description": "Reiche Artenvielfalt und üppige Wälder",
+        "image": "/assets/destinations/Netravali/netravali-wildlife.webp"
+      },
+      {
+        "title": "Malerische Dörfer",
+        "description": "Traditionelle goanische Landschaft",
+        "image": "/assets/destinations/Netravali/goan-village.webp"
+      },
+      {
+        "title": "Western Ghats",
+        "description": "Atemberaubende Aussicht auf die Berge",
+        "image": "/assets/destinations/Netravali/western.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeug mit Fahrer für die gesamte Reise"
+      },
+      {
+        "title": "Englischer Reiseführer",
+        "description": "Kompetenter englischsprachiger Reiseführer"
+      },
+      {
+        "title": "Eintrittsgelder",
+        "description": "Alle Eintrittsgelder für das Heiligtum und die Attraktionen"
+      },
+      {
+        "title": "Mittagessen",
+        "description": "Köstliches goanisches Mittagessen in einem lokalen Restaurant"
+      },
+      {
+        "title": "Wasser in Flaschen",
+        "description": "Kostenlose Wasserflaschen während der gesamten Reise"
+      },
+      {
+        "title": "Fotomöglichkeiten",
+        "description": "Stoppt an malerischen Aussichtspunkten zum Fotografieren"
+      }
+    ]
+  },
+  "North-Goa-English-tour": {
+    "file_name": "north-goa-english-tour.html",
+    "page": {
+      "slug": "North-Goa-English-tour",
+      "type": "day-trip",
+      "hero": {
+        "title": "Nord-Goa – Portugiesisches Goa",
+        "subtitle": "Ganztägige Tour zur Erkundung der Strände, Festungen und des portugiesischen Erbes von Nord-Goa",
+        "backgroundImage": "../../assets/hero/Goa-1-hero.jpg",
+        "meta": {
+          "duration": "Ganzer Tag",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Sind Sie bereit, Nord-Goa zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für einen unvergesslichen Tag beim Erkunden des portugiesischen Goa",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihre Ganztagestour durch Nord-Goa.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeuge im gesamten Gebäude"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück inklusive"
+      },
+      {
+        "title": "Ikonische Orte",
+        "description": "Alle wichtigen Sehenswürdigkeiten"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "8:00 AM",
+        "title": "Abholung vom Hotel",
+        "description": "Beginnen Sie Ihre Reise in den pulsierenden Norden von Goa.",
+        "category": "activity"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Frühstücksstopp",
+        "description": "Genießen Sie ein leckeres Frühstück in einem örtlichen Café, bevor Sie mit der Besichtigungstour beginnen.",
+        "category": "meal"
+      },
+      {
+        "time": "9:30 AM",
+        "title": "Calangute-Strand",
+        "description": "Beginnen Sie Ihren Tag in Calangute, der „Königin der Strände“, die für ihren goldenen Sand, ihre lebhafte Atmosphäre und ihren wunderschönen Meerblick bekannt ist.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Baga-Strand",
+        "description": "Besuchen Sie den beliebtesten Strand in Goa, der für seine energiegeladene Atmosphäre bekannt ist.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Anjuna Beach & Flohmarkt",
+        "description": "Erkunden Sie den berühmten Künstlerstrand von Anjuna.",
+        "category": "activity"
+      },
+      {
+        "time": "12:30 PM",
+        "title": "Aguada-Festung",
+        "description": "Besuchen Sie das portugiesische Fort Aguada aus dem 17. Jahrhundert mit Blick auf das Arabische Meer.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "2:00 PM",
+        "title": "Kirchen aus portugiesischer Zeit",
+        "description": "Besuchen Sie wunderschöne Kirchen, die das koloniale Erbe Goas widerspiegeln.",
+        "category": "activity"
+      },
+      {
+        "time": "3:30 PM",
+        "title": "Aussichtspunkt Vagator Beach",
+        "description": "Ein atemberaubender Aussichtspunkt auf die Klippen und Wellen von Nord-Goa.",
+        "category": "activity"
+      },
+      {
+        "time": "4:30 PM",
+        "title": "Einkaufen und lokaler Flohmarktbesuch",
+        "description": "Entdecken Sie die farbenfrohen Märkte von Nord-Goa, die bekannt sind für:",
+        "category": "activity"
+      },
+      {
+        "time": "5:30 PM",
+        "title": "Rückkehr zum Hotel",
+        "description": "Fahren Sie nach einer unterhaltsamen kulturellen und landschaftlichen Tour durch Nord-Goa zurück.",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Calangute-Strand",
+        "description": "Königin der Strände",
+        "image": "/assets/destinations/Goa/Calangute-Beach.webp"
+      },
+      {
+        "title": "Aguada-Festung",
+        "description": "Portugiesisches Fort aus dem 17. Jahrhundert",
+        "image": "../../assets/destinations/Goa/fort-aguada.webp"
+      },
+      {
+        "title": "Anjuna-Strand",
+        "description": "Böhmischer Strand und Flohmarkt",
+        "image": "../../assets/destinations/Goa/Anjuna-Beach.webp"
+      },
+      {
+        "title": "Portugiesische Kirchen",
+        "description": "Koloniales Erbe",
+        "image": "../../assets/destinations/Goa/Basilica of Bom Jesus.webp"
+      },
+      {
+        "title": "Vagator-Standpunkt",
+        "description": "Atemberaubende Aussicht auf die Klippen",
+        "image": "/assets/destinations/Goa/Vagator-Viewpoint.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Transport",
+        "description": ""
+      },
+      {
+        "title": "Frühstück",
+        "description": ""
+      },
+      {
+        "title": "Eintrittsgelder",
+        "description": ""
+      },
+      {
+        "title": "Russischsprachiger Reiseführer",
+        "description": ""
+      },
+      {
+        "title": "Ganztagestour",
+        "description": "Startzeit: 8:00 Uhr"
+      }
+    ]
+  },
+  "One-Day-South-Goa-trip-package": {
+    "file_name": "One-Day-South-Goa-trip-package.html",
+    "page": {
+      "slug": "One-Day-South-Goa-trip-package",
+      "type": "day-trip",
+      "hero": {
+        "title": "Eintägige Tour durch Süd-Goa für ausländische Reisende in Indien",
+        "subtitle": "Erleben Sie an einem unvergesslichen Tag die unberührten Strände und verborgenen Schätze von Süd-Goa",
+        "backgroundImage": "/assets/hero/Goa-1-hero.webp",
+        "meta": {
+          "duration": "1 Tag",
+          "locations": 6,
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Süd-Goa-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für einen unvergesslichen Tag, an dem Sie das Beste von Süd-Goa erkunden",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Süd-Goa-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 8 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC Innova Crysta"
+      },
+      {
+        "title": "Frühstück inklusive",
+        "description": "Lokale Küche"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Beste Aussichtspunkte"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "9:00 AM",
+        "title": "Abholung vom Hotel",
+        "description": "Bequeme Abholung von Ihrem Hotel in Benaulim in einem privaten AC Innova Crysta",
+        "category": "activity"
+      },
+      {
+        "time": "9:30 AM",
+        "title": "Frühstück im Palolem",
+        "description": "Genießen Sie ein köstliches Frühstück im Dropadi oder Little World Café mit Blick auf den Strand",
+        "category": "meal"
+      },
+      {
+        "time": "10:15 AM",
+        "title": "Bootsabenteuer",
+        "description": "4-Punkte-Bootstour inklusive Delfinbeobachtung, Butterfly Beach, Monkey Island und Lover's Island",
+        "category": "adventure",
+        "highlight": true
+      },
+      {
+        "time": "11:45 AM",
+        "title": "Schmetterlingsstrand",
+        "description": "Erkunden Sie den abgelegenen Butterfly Beach mit seinen einzigartigen Felsformationen",
+        "category": "activity"
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Kajakfahren am Cola Beach",
+        "description": "Fahren Sie mit dem Kajak durch die atemberaubende Blaue Lagune am Cola Beach",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "3:00 PM",
+        "title": "Mittagessen in Agonda",
+        "description": "Mittagessen mit frischen Meeresfrüchten in einem Strandrestaurant in Agonda",
+        "category": "meal"
+      },
+      {
+        "time": "4:15 PM",
+        "title": "Festung Cabo de Rama",
+        "description": "Besuchen Sie die historische Festung mit Panoramablick auf das Arabische Meer",
+        "category": "activity"
+      },
+      {
+        "time": "5:30 PM",
+        "title": "Galgibaga Turtle Beach",
+        "description": "Besuchen Sie den geschützten Nistplatz für Schildkröten am Galgibaga Beach",
+        "category": "activity"
+      },
+      {
+        "time": "7:00 PM",
+        "title": "Sonnenuntergang in Talpona",
+        "description": "Erleben Sie atemberaubende Sonnenuntergänge am Talpona River und am Strand",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "8:30 PM",
+        "title": "Rückkehr zum Hotel",
+        "description": "Bequemer Transfer zu Ihrem Hotel in Benaulim",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Palolem-Strand",
+        "description": "Ort zum Frühstück am Morgen",
+        "image": "/assets/destinations/South-goa/palolem-beach.webp"
+      },
+      {
+        "title": "Schmetterlingsstrand",
+        "description": "Abgeschiedenes Paradies",
+        "image": "/assets/destinations/South-goa/butterfly-beach.webp"
+      },
+      {
+        "title": "Blaue Lagune",
+        "description": "Kajak-Abenteuer",
+        "image": "/assets/destinations/South-goa/Blue-lagoon.webp"
+      },
+      {
+        "title": "Festung Cabo de Rama",
+        "description": "Historischer Standpunkt",
+        "image": "/assets/destinations/South-goa/cabo-de-rama.webp"
+      },
+      {
+        "title": "Talpona-Sonnenuntergang",
+        "description": "Abendspektakel",
+        "image": "/assets/destinations/South-goa/Talpona Sunset.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Privater Transport",
+        "description": "AC Innova Crysta mit erfahrenem Fahrer für den ganzen Tag"
+      },
+      {
+        "title": "Bootstour",
+        "description": "4-Punkte-Bootsfahrt inklusive Delfinbeobachtung und Inselbesuchen"
+      },
+      {
+        "title": "Kajakfahren",
+        "description": "Kajakverleih und Sicherheitsausrüstung am Cola Beach"
+      },
+      {
+        "title": "Frühstück",
+        "description": "Leckeres Frühstück im Palolem Beach Café"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Genug Zeit für Fotos an allen malerischen Orten"
+      },
+      {
+        "title": "Reiseleiter",
+        "description": "Kompetenter englischsprachiger Reiseführer den ganzen Tag über"
+      }
+    ]
+  },
+  "South-Goa-1-Day-Cultural-and-Beach-Tour-package": {
+    "file_name": "South-Goa-1-Day-Cultural-and-Beach-Tour-package.html",
+    "page": {
+      "slug": "South-Goa-1-Day-Cultural-and-Beach-Tour-package",
+      "type": "day-trip",
+      "hero": {
+        "title": "Tagestour durch Süd-Goa: Kulturerbe, Strände und Dinner-Kreuzfahrt",
+        "subtitle": "Ein ganztägiges Eintauchen in die reiche Geschichte, Architektur und das spirituelle Erbe von Süd-Goa.",
+        "backgroundImage": "/assets/hero/Goa-Sightseeing-hero.webp",
+        "meta": {
+          "duration": "Ganzer Tag (8:00 – 17:30 Uhr)"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Buchen Sie Ihr kulturelles Goa-Erlebnis",
+      "description": "Sichern Sie sich Ihren Platz für einen Tag zur Erkundung von UNESCO-Weltkulturerbestätten, antiken Tempeln und der malerischen Schönheit Goas.",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für die kulturelle Ganztagestour durch Süd-Goa.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Startzeit",
+        "description": "8:00 Uhr"
+      },
+      {
+        "title": "Transport",
+        "description": "Komfortables AC-Fahrzeug"
+      },
+      {
+        "title": "Frühstück",
+        "description": "Im Lieferumfang enthalten"
+      },
+      {
+        "title": "Führung",
+        "description": "Russischsprachiger Reiseführer"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "8:00 AM",
+        "title": "Abholung vom Hotel",
+        "description": "Beginnen Sie Ihren Tag mit einer komfortablen Fahrt nach Alt-Goa.Treffen Sie Ihren russischsprachigen Reiseführer, der Sie in die reiche Geschichte und Kultur Goas einführt.",
+        "category": "activity"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Frühstücksstopp",
+        "description": "Genießen Sie unterwegs ein gesundes Frühstück, bevor Sie Ihre kulturelle Erkundung beginnen.",
+        "category": "meal"
+      },
+      {
+        "time": "9:30 AM",
+        "title": "Tour durch die alten Goa-Kirchen",
+        "description": "Erkunden Sie Old Goa, ein UNESCO-Weltkulturerbe, das für seine atemberaubende Kolonialarchitektur bekannt ist.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Tempeltour",
+        "description": "Erleben Sie Goas spirituelles Erbe, indem Sie drei seiner wichtigsten Tempel besuchen:",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "2:00 PM",
+        "title": "Besuch am Miramar Beach",
+        "description": "Entspannen Sie am Miramar Beach, der an der Mündung des Mandovi-Flusses liegt und einen atemberaubenden Blick auf das Arabische Meer bietet.",
+        "category": "activity"
+      },
+      {
+        "time": "2:45 PM",
+        "title": "Aussichtspunkt Dona Paula",
+        "description": "Besuchen Sie den romantischen und malerischen Aussichtspunkt Dona Paula – berühmt für seinen Panoramablick auf das Meer und seinen berühmten Bootssteg.",
+        "category": "activity"
+      },
+      {
+        "time": "4:30 PM",
+        "title": "Erkunden Sie den Panjim-Markt",
+        "description": "Besuchen Sie Panjims lokales Marktgebiet für Souvenirs, Gewürze, Cashewnüsse, Kunsthandwerk und Köstlichkeiten aus Goa.",
+        "category": "activity"
+      },
+      {
+        "time": "5:30 PM",
+        "title": "Rückkehr zum Hotel",
+        "description": "Entspannen Sie sich auf der Rückfahrt nach einem Tag voller Geschichte, Kultur und landschaftlicher Schönheit.",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Alte Goa-Kirchen",
+        "description": "UNESCO-Weltkulturerbe",
+        "image": "../../assets/destinations/Goa/Basilica of Bom Jesus.webp"
+      },
+      {
+        "title": "Mangeshi-Tempel",
+        "description": "Lord Shivas Wohnsitz",
+        "image": "../../assets/destinations/Goa/Mangeshi-Temple.webp"
+      },
+      {
+        "title": "Panjim-Markt",
+        "description": "Einkaufen und lokale Kultur",
+        "image": "../../assets/destinations/Goa/Panjim-Market.webp"
+      },
+      {
+        "title": "Se Kathedrale",
+        "description": "Asiens größte Kirche",
+        "image": "../../assets/destinations/Goa/Se-Cathedral.webp"
+      },
+      {
+        "title": "Shanta Durga Tempel",
+        "description": "Ruhig und friedlich",
+        "image": "../../assets/destinations/Goa/Shanta-Durga-Temple.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Transport",
+        "description": "Komfortables Fahrzeug für die gesamte Tourdauer."
+      },
+      {
+        "title": "Frühstück",
+        "description": "Reichhaltiges Frühstück unterwegs inklusive."
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Eintrittspreise für Denkmäler und Sehenswürdigkeiten laut Reiseverlauf."
+      },
+      {
+        "title": "Führung",
+        "description": "Dienste eines sachkundigen russischsprachigen Reiseführers."
+      }
+    ]
+  },
+  "palolem-cola-full-day-tour": {
+    "file_name": "South-Goa-1-Day-Trip-package.html",
+    "page": {
+      "slug": "palolem-cola-full-day-tour",
+      "type": "day-trip",
+      "hero": {
+        "title": "Ganztägige Tour nach Palolem Cola: Delfinbeobachtung und Inselhüpfen",
+        "subtitle": "Inselhüpfen, Delfinbeobachtung, Kajakfahren in der Blauen Lagune und Erkundung der verborgenen Schätze Süd-Goas",
+        "backgroundImage": "/assets/destinations/South-goa/palolem-beach.webp",
+        "meta": {
+          "duration": "Ganzer Tag",
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Inselhüpfer-Abenteuer?",
+      "description": "Buchen Sie jetzt, um die versteckten Inseln im Süden Goas zu erkunden, Delfine zu beobachten und in der Blauen Lagune Kajak zu fahren",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihre Palolem Cola-Ganztagestour.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Inselhüpfen",
+        "description": "Besuchen Sie mehr als 4 Inseln mit dem Boot"
+      },
+      {
+        "title": "Delfinbeobachtung",
+        "description": "Garantierte Delfinsichtungen"
+      },
+      {
+        "title": "Kajakfahren",
+        "description": "In der Blauen Lagune von Cola Beach"
+      },
+      {
+        "title": "Russischer Reiseführer",
+        "description": "Russischsprachiger Reiseführer inklusive"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "8:00 AM",
+        "title": "Abholung vom Hotel",
+        "description": "Bequeme Abholung von Ihrem Hotel in einem privaten Fahrzeug",
+        "category": "activity"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Frühstück in der Nähe von Palolem",
+        "description": "Genießen Sie ein köstliches Frühstück in einem malerischen Café in der Nähe von Palolem Beach",
+        "category": "meal"
+      },
+      {
+        "time": "9:30 AM",
+        "title": "Palolem-Bootsfahrt",
+        "description": "Gehen Sie an Bord eines traditionellen Bootes aus Goa für eine Inselhüpftour",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "10:00 AM",
+        "title": "Delfinbeobachtung",
+        "description": "Entdecken Sie verspielte Delfine, die neben Ihrem Boot herumspringen",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Schmetterlingsstrand",
+        "description": "Besuchen Sie eine ruhige, versteckte Bucht mit klarem Wasser und goldenem Sand",
+        "category": "activity"
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Affeninsel",
+        "description": "Sehen Sie einzigartige Felsformationen und gelegentlich Affen",
+        "category": "activity"
+      },
+      {
+        "time": "11:15 AM",
+        "title": "Insel der Liebenden",
+        "description": "Fahren Sie an einer romantischen Insel mit kristallblauem Wasser vorbei",
+        "category": "activity"
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Cola Beach (Blaue Lagune)",
+        "description": "Ankunft am atemberaubenden Strand mit Fluss-Lagune und Meer",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "12:00 PM",
+        "title": "Kajakfahren in der Blauen Lagune",
+        "description": "Genießen Sie Kajakfahren in der ruhigen Süßwasserlagune (im Preis inbegriffen)",
+        "category": "adventure",
+        "highlight": true
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Agonda-Strand",
+        "description": "Besuchen Sie einen der saubersten und friedlichsten Strände Süd-Goas",
+        "category": "activity"
+      },
+      {
+        "time": "2:30 PM",
+        "title": "Festung Cabo de Rama",
+        "description": "Erkunden Sie eine der ältesten Festungen Goas mit atemberaubender Aussicht auf die Klippen",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "4:00 PM",
+        "title": "Küstenbootfahrt",
+        "description": "Malerische Bootsfahrt nahe der Küste der Festung mit Delfinbeobachtung",
+        "category": "activity"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Rückreise",
+        "description": "Beginnen Sie die entspannte Rückfahrt zu Ihrem Hotel",
+        "category": "activity"
+      },
+      {
+        "time": "6:30 PM",
+        "title": "Hotelrückgabe",
+        "description": "Kommen Sie mit unvergesslichen Erinnerungen zurück in Ihr Hotel",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Cola Beach Blaue Lagune",
+        "description": "Süßwasserlagune trifft auf das Meer",
+        "image": "../../assets/destinations/South-goa/Blue-lagoon.webp"
+      },
+      {
+        "title": "Delfinbeobachtung",
+        "description": "Verspielte Delfine im Arabischen Meer",
+        "image": "../../assets/destinations/South-goa/dolphin-watching.webp"
+      },
+      {
+        "title": "Inselhüpfen",
+        "description": "Traditionelle Goa-Bootstour",
+        "image": "../../assets/destinations/South-goa/island-hopping.webp"
+      },
+      {
+        "title": "Agonda-Strand",
+        "description": "Sauberer und ruhiger Sandstrand",
+        "image": "../../assets/destinations/South-goa/agonda-beach.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeug mit Fahrer für die gesamte Reise"
+      },
+      {
+        "title": "Frühstück",
+        "description": "Leckeres Frühstück im malerischen Café in der Nähe von Palolem"
+      },
+      {
+        "title": "Bootsfahrt",
+        "description": "Traditionelles goanisches Boot für eine Inselhüpftour"
+      },
+      {
+        "title": "Kajakfahren",
+        "description": "Kajakausrüstung in der Cola Beach Blue Lagoon"
+      },
+      {
+        "title": "Russischer Reiseführer",
+        "description": "Sachkundiger russischsprachiger Reiseführer"
+      },
+      {
+        "title": "Alle Eintrittsgebühren",
+        "description": "Eintrittsgelder für alle genannten Attraktionen"
+      }
+    ]
+  },
+  "South-Goa-Sightseeing-Sunset-Cruise": {
+    "file_name": "south-goa-sunset-cruise-tour.html",
+    "page": {
+      "slug": "South-Goa-Sightseeing-Sunset-Cruise",
+      "type": "day-trip",
+      "hero": {
+        "title": "Besichtigung von Süd-Goa mit Bootsfahrt bei Sonnenuntergang",
+        "subtitle": "Ganztagesausflug (8:00 – 20:00 Uhr) mit Bootsfahrt bei Sonnenuntergang auf dem Mandovi-Fluss",
+        "backgroundImage": "/assets/hero/Sunset-Cruise-Goa-hero.webp",
+        "meta": {
+          "duration": "Ganztagesausflug (08:00 – 20:00)"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Erleben Sie Goas Sonnenuntergangszauber",
+      "description": "Buchen Sie Ihre ganztägige Süd-Goa-Tour mit einer spektakulären Sonnenuntergangskreuzfahrt auf dem Mandovi-Fluss.",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für die Süd-Goa-Sightseeing-Tour mit Sonnenuntergangskreuzfahrt.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Dauer",
+        "description": "Ganzer Tag (8:00 – 20:00 Uhr)"
+      },
+      {
+        "title": "Transport",
+        "description": "AC-Transfers inklusive"
+      },
+      {
+        "title": "Frühstück",
+        "description": "Indisches/kontinentales Frühstück"
+      },
+      {
+        "title": "Sonnenuntergangskreuzfahrt",
+        "description": "Ticket inklusive"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "08:00 AM",
+        "title": "Abholung vom Hotel",
+        "description": "Beginnen Sie Ihren Tag mit einer bequemen Abholung von Ihrem Hotel in einem klimatisierten Fahrzeug.",
+        "category": "activity"
+      },
+      {
+        "time": "08:30 AM",
+        "title": "Frühstücksstopp",
+        "description": "Genießen Sie ein köstliches indisches oder kontinentales Frühstück in einem lokalen Restaurant, bevor Sie Ihre Sightseeing-Tour beginnen.",
+        "category": "meal"
+      },
+      {
+        "time": "09:30 AM",
+        "title": "Besuch am Miramar Beach",
+        "description": "Ihr erster Halt ist Miramar Beach, einer der malerischsten Küstenabschnitte Panjims, wo der Mandovi-Fluss auf das Arabische Meer trifft.Machen Sie einen kurzen Spaziergang und genießen Sie die kühle Morgenbrise.",
+        "category": "activity"
+      },
+      {
+        "time": "10:15 AM",
+        "title": "Aussichtspunkt Dona Paula",
+        "description": "Weiterfahrt nach Dona Paula, einem berühmten romantischen Aussichtspunkt mit atemberaubendem Meerblick und einem Blick auf den Hafen von Mormugao.Nehmen Sie wunderschöne Fotos von der Klippe auf.",
+        "category": "activity"
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Besuch der alten Goa-Kirchen (UNESCO-Weltkulturerbe)",
+        "description": "Erkunden Sie die prächtigen Kirchen von Alt-Goa, darunter:",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "01:00 PM",
+        "title": "Mittagspause (eigene Kosten)",
+        "description": "Genießen Sie Ihr Mittagessen in einem Restaurant am Flussufer oder in einem Restaurant mit goanischer Küche, das authentische Meeresfrüchte und lokale Gerichte bietet.",
+        "category": "meal"
+      },
+      {
+        "time": "02:30 PM",
+        "title": "Besuch des Mangueshi-Tempels",
+        "description": "Nach dem Mittagessen besuchen Sie den Mangueshi-Tempel, der Lord Shiva gewidmet ist – einer der ältesten und schönsten Tempel in Goa, der für seine elegante Architektur bekannt ist.",
+        "category": "activity"
+      },
+      {
+        "time": "03:30 PM",
+        "title": "Besuch des Shanta Durga Tempels",
+        "description": "Weiter geht es zum Shanta-Durga-Tempel, einem ruhigen und malerischen Tempel, umgeben von üppigem Grün und einer friedlichen Umgebung.",
+        "category": "activity"
+      },
+      {
+        "time": "04:30 PM",
+        "title": "Besuch einer Gewürzplantage (optional)",
+        "description": "Interessierte können eine Gewürzplantage in Goa besuchen, um mehr über den Anbau von Gewürzen wie Kardamom, Muskatnuss und schwarzem Pfeffer zu erfahren.Sie können eine kurze Führung und ein erfrischendes Kräutergetränk genießen.",
+        "category": "activity"
+      },
+      {
+        "time": "06:00 PM",
+        "title": "Bootsfahrt bei Sonnenuntergang auf dem Mandovi-Fluss",
+        "description": "Gehen Sie zum Panjim Jetty, um an der Sunset Cruise auf dem Mandovi River teilzunehmen.Genießen Sie Live-Musik aus Goa, Volkstänze und einen Panoramablick auf den Sonnenuntergang über dem Arabischen Meer.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "07:30 PM",
+        "title": "Rücktransfer",
+        "description": "Entspannen Sie sich nach der Kreuzfahrt auf der Rückfahrt zum Hotel.",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Sonnenuntergangskreuzfahrt",
+        "description": "Mandovi-Fluss-Erlebnis",
+        "image": "/assets/destinations/Goa/Sunset-Cruise-Mandovi.webp"
+      },
+      {
+        "title": "Basilika Bom Jesus",
+        "description": "UNESCO-Welterbe",
+        "image": "/assets/destinations/Goa/Basilica-Bom-Jesus.webp"
+      },
+      {
+        "title": "Miramar-Strand",
+        "description": "Panjims malerische Küste",
+        "image": "/assets/destinations/Goa/Miramar-Beach.webp"
+      },
+      {
+        "title": "Gewürzplantage",
+        "description": "Goa-Aromen",
+        "image": "/assets/destinations/Goa/Spice-Plantation.webp"
+      },
+      {
+        "title": "Dona Paula",
+        "description": "Romantischer Standpunkt",
+        "image": "/assets/destinations/Goa/Dona-Paula-Viewpoint.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "AC-Transfers",
+        "description": "Klimatisiertes Fahrzeug für Abholung, Rücktransfer und Besichtigungen vom Hotel."
+      },
+      {
+        "title": "Frühstück",
+        "description": "Indisches oder kontinentales Frühstück in einem lokalen Restaurant."
+      },
+      {
+        "title": "Besichtigung",
+        "description": "Alle Besichtigungen laut Reiseverlauf."
+      },
+      {
+        "title": "Führung",
+        "description": "Englisch- oder russischsprachige Reiseleitung."
+      },
+      {
+        "title": "Ticket für die Kreuzfahrt bei Sonnenuntergang",
+        "description": "Ticket für die Sunset Cruise auf dem Mandovi River."
+      }
+    ]
+  },
+  "2-Day-Aurangabad-Trip-Package": {
+    "file_name": "2-Day-Aurangabad-Trip-Package.html",
+    "page": {
+      "slug": "2-Day-Aurangabad-Trip-Package",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "2-tägiges Aurangabad-Reisepaket ab Goa mit Ajanta- und Ellora-Höhlen",
+        "subtitle": "",
+        "backgroundImage": "/assets/hero/aurangabad-hero.webp",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Aurangabad-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Reise zur Erkundung der UNESCO-Stätten Ajanta und Ellora",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Aurangabad-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 8 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Komfortables AC-Fahrzeug"
+      },
+      {
+        "title": "Hotelaufenthalt",
+        "description": "3-Sterne-Unterkunft"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Beste Aussichtspunkte"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Aurangabad",
+        "description": "Ankunft in Aurangabad, Checken Sie in Ihrem Hotel ein oder geben Sie Ihr Gepäck ab, machen Sie sich frisch und frühstücken Sie",
+        "category": "arrival"
+      },
+      {
+        "time": "9:30 AM",
+        "title": "Ajanta-Höhlen",
+        "description": "Fahren Sie zu den Ajanta-Höhlen (ca. 2 Stunden) und verbringen Sie 3-4 Stunden damit, dieses UNESCO-Weltkulturerbe zu erkunden",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "1:30 PM",
+        "title": "Mittagessen",
+        "description": "Genießen Sie ein Mittagessen in einem lokalen Restaurant in der Nähe von Ajanta oder machen Sie sich auf den Rückweg nach Aurangabad",
+        "category": "meal"
+      },
+      {
+        "time": "4:30 PM",
+        "title": "Bibi Ka Maqbara",
+        "description": "Besuchen Sie dieses Bauwerk aus der Mogulzeit, das dem Taj Mahal ähnelt, machen Sie Fotos und schlendern Sie durch seine Gärten",
+        "category": "activity"
+      },
+      {
+        "time": "6:00 PM",
+        "title": "Panchakki (Wassermühle)",
+        "description": "Besuchen Sie diese historische Mühle, die mittelalterliche Wunderwerke der Ingenieurskunst präsentiert",
+        "category": "activity"
+      },
+      {
+        "time": "8:00 PM",
+        "title": "Abendessen",
+        "description": "Genießen Sie Ihr Abendessen in einem lokalen Restaurant, das Gerichte aus Hyderabadi oder Maharashtra serviert",
+        "category": "meal"
+      },
+      {
+        "time": "9:30 PM",
+        "title": "Übernachtung",
+        "description": "Rückkehr zu Ihrem Hotel zur Übernachtung",
+        "category": "activity"
+      },
+      {
+        "time": "Day 2",
+        "title": "Morgen & Frühstück",
+        "description": "Frühstücken Sie früh im Hotel und bereiten Sie sich auf den Tag vor",
+        "category": "meal"
+      },
+      {
+        "time": "8:00 AM",
+        "title": "Ellora-Höhlen",
+        "description": "Fahren Sie zu den Ellora-Höhlen (ca. 40 Minuten) und verbringen Sie 2–3 Stunden damit, diese atemberaubenden Felsentempel zu erkunden, darunter den berühmten Kailasa-Tempel",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Daulatabad-Festung",
+        "description": "Besuchen Sie diese Festung aus dem 12. Jahrhundert, die für ihre strategischen Verteidigungsanlagen und ihren Panoramablick bekannt ist",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "1:30 PM",
+        "title": "Mittagessen",
+        "description": "Kehren Sie zum Mittagessen in einem beliebten Restaurant in die Stadt zurück",
+        "category": "meal"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Einkaufen und lokale Erkundung",
+        "description": "Besuchen Sie die Paithani Weaving Centres für traditionelle Saris oder erkunden Sie lokale Märkte",
+        "category": "exploration"
+      },
+      {
+        "time": "7:00 PM",
+        "title": "Abfahrt",
+        "description": "Transfer zum Flughafen oder Bahnhof für Ihre Abreise und Abschluss Ihrer Aurangabad-Tour",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Ellora-Höhlen",
+        "description": "In den Fels gehauene Tempel",
+        "image": "/assets/destinations/Aurangabad/ellora.webp"
+      },
+      {
+        "title": "Ajanta-Höhlen",
+        "description": "Alte buddhistische Kunst",
+        "image": "/assets/destinations/Aurangabad/ajanta-caves.webp"
+      },
+      {
+        "title": "Bibi Ka Maqbara",
+        "description": "Mini-Taj Mahal",
+        "image": "/assets/destinations/Aurangabad/bibi-ka-maqbara.webp"
+      },
+      {
+        "title": "Daulatabad-Festung",
+        "description": "Alte Festung",
+        "image": "/assets/destinations/Aurangabad/daulatabad-fort.webp"
+      },
+      {
+        "title": "Kailasa-Tempel",
+        "description": "Ellora-Meisterwerk",
+        "image": "/assets/destinations/Aurangabad/kailasa-temple.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Privater Transport",
+        "description": "Komfortables AC-Fahrzeug mit erfahrenem Fahrer für die gesamte Tour"
+      },
+      {
+        "title": "Hotelaufenthalt",
+        "description": "3-Sterne-Hotelunterkunft in Aurangabad im Doppel-/Dreibettzimmer"
+      },
+      {
+        "title": "Eintrittskarten",
+        "description": "Eintrittsgebühren für Denkmäler für Ajanta-Höhlen, Ellora-Höhlen und andere Stätten"
+      },
+      {
+        "title": "Frühstück",
+        "description": "Leckeres Frühstück im Hotel am 2. Tag"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Genug Zeit für Fotos an allen malerischen Orten"
+      },
+      {
+        "title": "Reiseleiter",
+        "description": "Kompetenter englischsprachiger Reiseleiter während der gesamten Tour"
+      }
+    ]
+  },
+  "3-day-goa-Trip-plan": {
+    "file_name": "3-day-goa-Trip-plan.html",
+    "page": {
+      "slug": "3-day-goa-Trip-plan",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "3-tägiger Goa-Reiseplan |Wilderster Natur- und Abenteuerurlaub |Globales Touristenzentrum",
+        "subtitle": "Tauchen Sie bei Waldwanderungen, kulturellen Aktivitäten und luxuriösen Unterkünften in die natürliche Schönheit Goas ein",
+        "backgroundImage": "/assets/hero/wildernest-hero.webp",
+        "meta": {
+          "duration": "3 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihren Natururlaub?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für ein unvergessliches Wildniserlebnis in Goa",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Wildernest Nature Retreat-Paket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Intimes Erlebnis"
+      },
+      {
+        "title": "Überweisungen",
+        "description": "Von Hotels in Nord-Goa"
+      },
+      {
+        "title": "Alle Mahlzeiten",
+        "description": "Vollpension-Paket"
+      },
+      {
+        "title": "Naturaktivitäten",
+        "description": "Wanderungen und kulturelle Veranstaltungen"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Wildernest",
+        "description": "09:30 Uhr – Abholung von Hotels in Nord-Goa (Arpora, Baga, Calangute oder Candolim)",
+        "category": "arrival"
+      },
+      {
+        "time": "12:30 PM",
+        "title": "Mittagsbuffet",
+        "description": "Genießen Sie ein köstliches Mittagsbuffet im Resort",
+        "category": "meal"
+      },
+      {
+        "time": "2:00 PM",
+        "title": "Töpfersitzung",
+        "description": "Erlernen Sie die Kunst des Töpferns unter fachkundiger Anleitung",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "3:30 PM",
+        "title": "Mehendi-Kunst",
+        "description": "Traditionelle Henna-Anwendung für Damen",
+        "category": "activity"
+      },
+      {
+        "time": "4:30 PM",
+        "title": "Nachmittagstee/Snacks",
+        "description": "Erfrischen Sie sich mit Tee und leichten Snacks",
+        "category": "activity"
+      },
+      {
+        "time": "5:30 PM",
+        "title": "Sonnenuntergangswanderung",
+        "description": "Geführte Wanderung, um atemberaubende Ausblicke auf den Sonnenuntergang zu erleben",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "7:30 PM",
+        "title": "Abendunterhaltung",
+        "description": "Kulturelle Darbietungen und Unterhaltung",
+        "category": "activity"
+      },
+      {
+        "time": "8:30 PM",
+        "title": "Abendbuffet",
+        "description": "Leckeres Abendessen mit abwechslungsreichen kulinarischen Optionen",
+        "category": "meal"
+      },
+      {
+        "time": "Day 2",
+        "title": "Waldwanderung",
+        "description": "Morgenwanderung durch die üppige Waldumgebung",
+        "category": "activity"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Frühstücksbuffet",
+        "description": "Herzhaftes Frühstück zum Start in den Tag",
+        "category": "meal"
+      },
+      {
+        "time": "Day 2 Continues",
+        "title": "Ganzer Tag voller Aktivitäten",
+        "description": "Wiederholung der Aktivitäten von Tag 1, einschließlich Mittagsbuffet, Töpfern, Mehendi, Tee/Snacks, Sonnenuntergangswanderung, Unterhaltung und Abendessen",
+        "category": "activity"
+      },
+      {
+        "time": "Day 3",
+        "title": "Letzte Waldwanderung",
+        "description": "Morgenwanderung zum Abschied von der Wildnis",
+        "category": "activity"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Frühstücksbuffet und Check-out",
+        "description": "Abschließendes Frühstück vor dem Auschecken aus dem Resort",
+        "category": "meal"
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Rücktransfer",
+        "description": "Transfer zurück zu Ihrem Hotel oder einem bestimmten Abgabepunkt",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Wildernest Nature Resort",
+        "description": "Luxus in der Natur",
+        "image": "/assets/destinations/Wildernest/resort-view.webp"
+      },
+      {
+        "title": "Waldwanderung",
+        "description": "Entdecken Sie die Wildnis",
+        "image": "/assets/destinations/Wildernest/forest-trek.webp"
+      },
+      {
+        "title": "Töpfersitzung",
+        "description": "Kreative Erfahrung",
+        "image": "/assets/destinations/Wildernest/pottery-session.webp"
+      },
+      {
+        "title": "Mehendi-Kunst",
+        "description": "Traditionelles Henna",
+        "image": "/assets/destinations/Wildernest/mehendi-art.webp"
+      },
+      {
+        "title": "Blick auf den Sonnenuntergang",
+        "description": "Atemberaubende Landschaft",
+        "image": "/assets/destinations/Wildernest/sunset-view.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "2 Übernachtungen im Wildernest Nature Resort"
+      },
+      {
+        "title": "Alle Mahlzeiten",
+        "description": "Vollpension mit Frühstücksbuffet, Mittag- und Abendessen"
+      },
+      {
+        "title": "Überweisungen",
+        "description": "Abholung und Rücktransfer von Hotels in Nord-Goa"
+      },
+      {
+        "title": "Aktivitäten",
+        "description": "Waldwanderungen, Töpferstunden und Wanderungen bei Sonnenuntergang"
+      },
+      {
+        "title": "Kulturelle Erlebnisse",
+        "description": "Mehendi-Kunst und Abendunterhaltung"
+      },
+      {
+        "title": "Willkommensgetränk",
+        "description": "Erfrischendes Begrüßungsgetränk bei der Ankunft"
+      }
+    ]
+  },
+  "ajanta-ellora-tour": {
+    "file_name": "ajanta-ellora-tour-from-goa.html",
+    "page": {
+      "slug": "ajanta-ellora-tour",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Ajanta & Ellora-Tour",
+        "subtitle": "1 Nacht 2 Tage Erkundung der UNESCO-Welterbestätten Ajanta und Ellora-Höhlen von Goa aus",
+        "backgroundImage": "/assets/hero/Ajanta-hero.webp",
+        "meta": {
+          "duration": "2 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit, Ajanta und Ellora zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche kulturelle Reise durch antike Höhlen",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für deine Ajanta"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Flug inklusive",
+        "description": "Hin- und Rückfahrt Goa-Aurangabad"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück inklusive"
+      },
+      {
+        "title": "UNESCO-Stätten",
+        "description": "Ajanta- und Ellora-Höhlen"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Goa → Aurangabad (Ankunft um 13:00 Uhr)",
+        "description": "11:00 Uhr – Flug von Goa nach Aurangabad",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Ajanta-Höhlen → Ellora-Höhlen → Flughafen (Abfahrt 20:00 Uhr)",
+        "description": "7:00 Uhr – Frühstück im Hotel",
+        "category": "travel",
+        "highlight": true
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Ajanta-Höhlen",
+        "description": "UNESCO-Weltkulturerbe",
+        "image": "/assets/destinations/Ajanta/Ajanta-Caves.webp"
+      },
+      {
+        "title": "Ellora-Höhlen",
+        "description": "UNESCO-Weltkulturerbe",
+        "image": "/assets/destinations/Ajanta/Ellora-Caves.webp"
+      },
+      {
+        "title": "Kailasa-Tempel",
+        "description": "Elloras Kronjuwel",
+        "image": "/assets/destinations/Ajanta/Kailasa-Temple.webp"
+      },
+      {
+        "title": "Bibi ka Maqbara",
+        "description": "Mini-Taj Mahal",
+        "image": "/assets/destinations/Ajanta/Bibi-ka-Maqbara.webp"
+      },
+      {
+        "title": "Kunsthandwerk aus Aurangabad",
+        "description": "Paithani-Saris und Himroo-Schals",
+        "image": "/assets/destinations/Ajanta/Aurangabad-Handicrafts.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "1 Nacht im 3-Sterne-Hotel mit Frühstück"
+      },
+      {
+        "title": "Inlandsflüge",
+        "description": "Hin- und Rückflug von Goa nach Aurangabad"
+      },
+      {
+        "title": "Überweisungen",
+        "description": "Alle Flughafentransfers und Besichtigungstransporte"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Tägliches Frühstück inklusive"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Eintrittskarten für Besichtigungen und Attraktionen inbegriffen"
+      },
+      {
+        "title": "Russischer Reiseführer",
+        "description": "Professioneller russischsprachiger Reiseleiter"
+      }
+    ]
+  },
+  "amritsar-trip-2n3d": {
+    "file_name": "amritsar-trip-2n3d-from-goa.html",
+    "page": {
+      "slug": "amritsar-trip-2n3d",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Amritsar-Reise (2 Nächte, 3 Tage)",
+        "subtitle": "2 Nächte, 3 Tage Erkundung des Goldenen Tempels, der Wagah-Grenze, des Jallianwala Bagh und des kulturellen Erbes von Amritsar",
+        "backgroundImage": "/assets/hero/Amritsar-hero.webp",
+        "meta": {
+          "duration": "3 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit, Amritsar zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche spirituelle und kulturelle Reise in Amritsar",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Amritsar 2N3D-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Flug inklusive",
+        "description": "Hin- und Rückflug inklusive"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Tägliches Frühstück inklusive"
+      },
+      {
+        "title": "Kulturerbe",
+        "description": "Goldener Tempel und Wagah-Grenze"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Amritsar |Goldener Tempel (Nachtansicht)",
+        "description": "Ankunft am Flughafen Amritsar",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Stadtrundfahrt durch Amritsar + Wagah-Grenzzeremonie",
+        "description": "Nach dem Frühstück unternehmen Sie eine ganztägige Besichtigungstour",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Durgiana-Tempel |Gobindgarh-Festung |Abfahrt",
+        "description": "Nach dem Frühstück",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Goldener Tempel",
+        "description": "Sri Harmandir Sahib",
+        "image": "/assets/destinations/Amritsar/Golden-Temple.webp"
+      },
+      {
+        "title": "Wagah-Grenze",
+        "description": "Flaggen-Rückzugszeremonie",
+        "image": "/assets/destinations/Amritsar/Wagah-Border.webp"
+      },
+      {
+        "title": "Jallianwala Bagh",
+        "description": "Historisches Denkmal",
+        "image": "/assets/destinations/Amritsar/Jallianwala-Bagh.webp"
+      },
+      {
+        "title": "Teilungsmuseum",
+        "description": "Historische Ausstellungen",
+        "image": "/assets/destinations/Amritsar/Partition-Museum.webp"
+      },
+      {
+        "title": "Durgiana-Tempel",
+        "description": "Goldener Tempel-Architekturstil",
+        "image": "/assets/destinations/Amritsar/Durgiana-Temple.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "2 Nächte im 3-Sterne-Hotel mit täglichem Frühstück"
+      },
+      {
+        "title": "Inlandsflüge",
+        "description": "Hin- und Rückflug nach Amritsar"
+      },
+      {
+        "title": "Überweisungen",
+        "description": "Alle Flughafentransfers und Besichtigungstransporte"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Tägliches Frühstück inklusive"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Eintrittskarten für Besichtigungen und Attraktionen inbegriffen"
+      },
+      {
+        "title": "Russischer Reiseführer",
+        "description": "Professioneller russischsprachiger Reiseleiter"
+      }
+    ]
+  },
+  "andaman-nicobar-tour-for-goa": {
+    "file_name": "andaman-tour-for-goa.html",
+    "page": {
+      "slug": "andaman-nicobar-tour-for-goa",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Andamanen-Inselausflug – 6 Nächte/7 Tage",
+        "subtitle": "Entdecken Sie in 7 Tagen die unberührten Strände und die reiche Geschichte der Andamanen",
+        "backgroundImage": "/assets/hero/Andaman-hero.webp",
+        "meta": {
+          "duration": "7 Tage",
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Inselabenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche 7-tägige Reise durch die Andamanen",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Andamanen-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 8 Reisende"
+      },
+      {
+        "title": "AC-Kreuzfahrt",
+        "description": "Inseltransfers"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Lokale Küche"
+      },
+      {
+        "title": "Schnorcheln",
+        "description": "Elefantenstrand"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Port Blair",
+        "description": "Ankunft am Flughafen Port Blair, Check-in im Hotel.Besuchen Sie das Cellular Jail und Corbyn's Cove Beach und erleben Sie eine Licht- und Tonshow.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Baratang-Insel",
+        "description": "Malerische Autofahrt durch das Jarawa-Stammesreservat.Fahrt mit einem Faserboot durch Mangroven und Wanderung zu den Kalksteinhöhlen.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Havelock-Insel",
+        "description": "Morgens Fähre nach Havelock Island.Checken Sie ein und besuchen Sie Radhanagar Beach – einen der schönsten Strände Asiens.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Elefantenstrand",
+        "description": "Bootsfahrt zum Elephant Beach zum Schnorcheln im kristallklaren Wasser.Entspannen Sie sich und nehmen Sie ein Sonnenbad am unberührten Strand.",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Neil Island",
+        "description": "Fähre nach Neil Island.Erkunden Sie den Strand Bharatpur, die natürliche Felsformation und den Strand Laxmanpur und genießen Sie den Blick auf den Sonnenuntergang.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Rückkehr nach Port Blair",
+        "description": "Morgens Fähre zurück nach Port Blair.Checken Sie im Hotel ein und genießen Sie Ihre Freizeit zum Einkaufen oder zur Erkundung der Umgebung.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "Abfahrt",
+        "description": "Nach dem Frühstück Check-out und Transfer zum Flughafen Port Blair für Ihren Rückflug mit unvergesslichen Erinnerungen.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Radhanagar-Strand",
+        "description": "Asiens schönster Strand",
+        "image": "/assets/destinations/Andaman/radhanagar.webp"
+      },
+      {
+        "title": "Mobilfunkgefängnis",
+        "description": "Historisches Kala Pani",
+        "image": "/assets/destinations/Andaman/Cellular-jail.webp"
+      },
+      {
+        "title": "Elefantenstrand",
+        "description": "Schnorchelparadies",
+        "image": "/assets/destinations/Andaman/elephant-beach.webp"
+      },
+      {
+        "title": "Neil Island",
+        "description": "Natürliche Brücke",
+        "image": "/assets/destinations/Andaman/neil-island.webp"
+      },
+      {
+        "title": "Andamanen-Sonnenuntergang",
+        "description": "Unvergessliche Abende",
+        "image": "/assets/destinations/Andaman/andaman-sunset.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Hin- und Rückflüge",
+        "description": "Flugtickets von Goa nach Port Blair und zurück"
+      },
+      {
+        "title": "Fährtransfers",
+        "description": "AC-Kreuzfahrt-/Fährtickets für alle Inseltransfers"
+      },
+      {
+        "title": "6 Nächte Aufenthalt",
+        "description": "Unterbringung im Dreier-/Vierbettzimmer"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Leckeres Frühstück während Ihres gesamten Aufenthalts inklusive"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeug für alle Besichtigungen und Transfers"
+      },
+      {
+        "title": "Schnorcheln",
+        "description": "Schnorcheln am Elephant Beach mit Ausrüstung"
+      }
+    ]
+  },
+  "bijapur-pattadakal-aihole-tour": {
+    "file_name": "bijapur-pattadakal-aihole-tour-from-goa.html",
+    "page": {
+      "slug": "bijapur-pattadakal-aihole-tour",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Bijapur-, Pattadakal- und Aihole-Tour",
+        "subtitle": "1 Nacht 2 Tage Erkundung des historischen Bijapur, des UNESCO-Weltkulturerbes Pattadakal und der antiken Aihole-Tempel",
+        "backgroundImage": "/assets/hero/Bijapur-hero.webp",
+        "meta": {
+          "duration": "2 Tage",
+          "rating": "4.5/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Sind Sie bereit, das historische Karnataka zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Kulturreise durch Bijapur, Pattadakal und Aihole",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Bijapur, Pattadakal"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeuge im gesamten Gebäude"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück inklusive"
+      },
+      {
+        "title": "UNESCO-Stätten",
+        "description": "Kulturerbestätte Pattadakal"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Goa → Bijapur (Vijayapura)",
+        "description": "5:00 Uhr – Abholung vom Hotel in Goa.Beginnen Sie Ihre Reise frühzeitig mit einem komfortablen AC-Taxi.Treffen Sie Ihren englischsprachigen Reiseleiter, der Sie während der gesamten Tour begleitet.Genießen Sie eine malerische Fahrt durch die Western Ghats und in das Deccan-Plateau von Karnataka",
+        "category": "activity"
+      },
+      {
+        "time": "Day 2",
+        "title": "Bijapur → Aihole → Pattadakal → Goa",
+        "description": "7:00 Uhr – Frühstück im Hotel.Beginnen Sie Ihren Tag mit einem gesunden Frühstück, bevor Sie zur Kasse gehen",
+        "category": "activity",
+        "highlight": true
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Gol Gumbaz",
+        "description": "Zweitgrößte Kuppel der Welt",
+        "image": "/assets/destinations/Bijapur/Gol-Gumbaz.webp"
+      },
+      {
+        "title": "Ibrahim Rauza",
+        "description": "Taj Mahal des Deccan",
+        "image": "/assets/destinations/Bijapur/Ibrahim-Rauza.webp"
+      },
+      {
+        "title": "Pattadakal-Tempel",
+        "description": "UNESCO-Weltkulturerbe",
+        "image": "/assets/destinations/Bijapur/Pattadakal-Temples.webp"
+      },
+      {
+        "title": "Aihole-Tempel",
+        "description": "Wiege der Tempelarchitektur",
+        "image": "/assets/destinations/Bijapur/Aihole-Temples.webp"
+      },
+      {
+        "title": "Bijapur-Festung",
+        "description": "Historischer Festungskomplex",
+        "image": "/assets/destinations/Bijapur/Bijapur-Fort.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "1 Nacht im 3-Sterne-Hotel mit Frühstück"
+      },
+      {
+        "title": "Transport",
+        "description": "Fahrzeugtransfer von Goa nach Bijapur AC"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Frühstück inklusive"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Eintrittskarten für Besichtigungen und Attraktionen inbegriffen"
+      },
+      {
+        "title": "Englischer Reiseführer",
+        "description": "Professioneller englischsprachiger Reiseleiter"
+      },
+      {
+        "title": "Kulturerbestätten",
+        "description": "Besuche in Bijapur, Pattadakal und Aihole"
+      }
+    ]
+  },
+  "Cabo-Serai-2N-3D-Luxury-Getaway": {
+    "file_name": "Cabo-Serai-2N-3D-Luxury-Getaway.html",
+    "page": {
+      "slug": "Cabo-Serai-2N-3D-Luxury-Getaway",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Cabo Serai Luxury Escape: Goa 2N/3D Kurzurlaub",
+        "subtitle": "Erleben Sie Goas bestgehütetes Geheimnis – luxuriöse Cottages mit atemberaubendem Blick auf das Arabische Meer",
+        "backgroundImage": "../../assets/hero/Cabo-hero.webp",
+        "meta": {
+          "duration": "2 Nächte / 3 Tage",
+          "rating": "5.0/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihren Luxusurlaub in Cabo Serai?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für einen unvergesslichen Luxusurlaub in Goa",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Cabo Serai Luxury Getaway-Paket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Luxus-Cottages",
+        "description": "Unterkunft direkt am Meer"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "7:30 - 10:30 Uhr"
+      },
+      {
+        "title": "Naturaktivitäten",
+        "description": "Wanderungen und Vogelbeobachtung"
+      },
+      {
+        "title": "Wellness-Optionen",
+        "description": "Spa-Behandlungen verfügbar"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Cabo Serai",
+        "description": "Abholung von Benaulim, Colva, Varca oder Sernabatim und Transfer nach Cabo Serai",
+        "category": "arrival"
+      },
+      {
+        "time": "3:00 PM",
+        "title": "Einchecken",
+        "description": "Checken Sie in Ihrem Luxus-Cottage mit atemberaubendem Blick auf das Arabische Meer und den Wald ein",
+        "category": "activity"
+      },
+      {
+        "time": "Evening",
+        "title": "Freizeit und optionale Aktivitäten",
+        "description": "Entspannen Sie sich und genießen Sie die ruhige Atmosphäre der Unterkunft oder erkunden Sie optionale Aktivitäten wie Wanderungen, Spaziergänge in der Natur oder Wellnesstherapien (gegen Aufpreis).",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 2",
+        "title": "Morgen zur freien Verfügung",
+        "description": "Wachen Sie mit einem atemberaubenden Blick auf das Arabische Meer und die umliegenden Wälder auf",
+        "category": "activity"
+      },
+      {
+        "time": "7:30 AM - 10:30 AM",
+        "title": "Frühstück",
+        "description": "Genießen Sie Ihr Frühstück im Restaurant des Resorts mit Panoramablick",
+        "category": "meal"
+      },
+      {
+        "time": "Day Free",
+        "title": "Optionale Aktivitäten",
+        "description": "Tag zur freien Verfügung zum Entspannen oder für Aktivitäten/Erlebnisse (zusätzliche Kosten): Geführte Spaziergänge in der Natur und Vogelbeobachtung, Kajakfahren oder Stranderkundung, Spa- und Wellnessbehandlungen, Wanderungen zu Aussichtspunkten bei Sonnenuntergang",
+        "category": "adventure",
+        "highlight": true
+      },
+      {
+        "time": "Evening",
+        "title": "Abend zur freien Verfügung",
+        "description": "Entspannen Sie sich und genießen Sie die friedliche Atmosphäre von Cabo Serai",
+        "category": "activity"
+      },
+      {
+        "time": "Day 3",
+        "title": "Morgen zur freien Verfügung",
+        "description": "Genießen Sie Ihren letzten Morgen in diesem wunderschönen Anwesen",
+        "category": "activity"
+      },
+      {
+        "time": "7:30 AM - 10:30 AM",
+        "title": "Frühstück",
+        "description": "Abschließendes Frühstück im Resort",
+        "category": "meal"
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Check-out und Abreise",
+        "description": "Checken Sie bis 11:00 Uhr aus und kehren Sie zu Ihrem Abholort zurück",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Luxus-Cottage",
+        "description": "Unterkunft direkt am Meer",
+        "image": "../../assets/destinations/Cabo/cabo-cottage.webp"
+      },
+      {
+        "title": "Panoramablick",
+        "description": "Arabisches Meer und Wald",
+        "image": "../../assets/destinations/Cabo/cabo-view.webp"
+      },
+      {
+        "title": "Spaziergänge in der Natur",
+        "description": "Geführte Wanderungen möglich",
+        "image": "../../assets/destinations/Cabo/cabo-nature.webp"
+      },
+      {
+        "title": "Wellness",
+        "description": "Spa-Behandlungen verfügbar",
+        "image": "../../assets/destinations/Cabo/cabo-pool.webp"
+      },
+      {
+        "title": "Blick auf den Sonnenuntergang",
+        "description": "Atemberaubende Sonnenuntergänge",
+        "image": "../../assets/destinations/Cabo/cabo-sunset.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Luxus-Cottage",
+        "description": "2 Nächte in einem Luxus-Cottage mit Blick auf das Arabische Meer und den Wald"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück für 2 Tage inklusive (Tag 2 und Tag 3)"
+      },
+      {
+        "title": "Überweisungen",
+        "description": "Abholung und Rückgabe von Benaulim, Colva, Varca oder Sernabatim"
+      },
+      {
+        "title": "Zugang zur Natur",
+        "description": "Zugang zur natürlichen Umgebung und Aussichtspunkten der Unterkunft"
+      },
+      {
+        "title": "Nahverkehr",
+        "description": "Transport nur zur Abholung und Rückgabe"
+      },
+      {
+        "title": "Unterstützung",
+        "description": "Kundenbetreuung rund um die Uhr während Ihres Aufenthalts"
+      }
+    ]
+  },
+  "dandeli-elephant-tiger-safari": {
+    "file_name": "dandeli-elephant-tiger-safari-from-goa.html",
+    "page": {
+      "slug": "dandeli-elephant-tiger-safari",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Elefanten- und Tigersafari – Dandeli",
+        "subtitle": "1 Nacht, 2 Tage Erkundung des Dandeli Wildlife Sanctuary mit Interaktion mit Elefanten und Tigersafari",
+        "backgroundImage": "/assets/hero/Dandeli-hero.webp",
+        "meta": {
+          "duration": "2 Tage",
+          "rating": "4.6/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für ein Wildlife-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Elefanten- und Tigersafari in Dandeli",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihren Dandeli-Elefant"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeuge im gesamten Gebäude"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück inklusive"
+      },
+      {
+        "title": "Wildtiersafari",
+        "description": "Elefanten- und Tigersafari"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Goa → Dandeli",
+        "description": "5:00 Uhr – Abholung vom Hotel in Goa.Beginnen Sie Ihr Abenteuer mit einer Abholung am frühen Morgen von Ihrem Hotel in einem komfortablen, klimatisierten Fahrzeug.Treffen Sie Ihren russischsprachigen Reiseführer, der Sie während der gesamten Reise begleiten wird.Genießen Sie auf Ihrer Fahrt nach Dandeli die malerische Aussicht auf Wälder, Flüsse und die Western Ghats",
+        "category": "activity"
+      },
+      {
+        "time": "Day 2",
+        "title": "Dandeli-Tigersafari → Goa",
+        "description": "5:30 Uhr – Weckruf und Tee/Kaffee.Beginnen Sie Ihren Tag früh und genießen Sie die aktivsten Stunden in der Tierwelt",
+        "category": "wildlife",
+        "highlight": true
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Interaktion mit Elefanten",
+        "description": "Elefantenschutzgebiet",
+        "image": "../../assets/destinations/Dandeli/elephant-safari.webp"
+      },
+      {
+        "title": "Tigersafari",
+        "description": "Dandeli Wildlife Sanctuary",
+        "image": "../../assets/destinations/Dandeli/Tiger-Safari.webp"
+      },
+      {
+        "title": "Syntheri Rocks",
+        "description": "Granitfelsenformation",
+        "image": "../../assets/destinations/Dandeli/Syntheri-Rocks.webp"
+      },
+      {
+        "title": "Backwaters des Kali River",
+        "description": "Blick auf den Sunset Point",
+        "image": "../../assets/destinations/Dandeli/White-Water-Rafting.webp"
+      },
+      {
+        "title": "Naturspaziergang und Vogelbeobachtung",
+        "description": "Üppiges Grün von Dandeli",
+        "image": "../../assets/destinations/Dandeli/dandeli-forests.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "1 Nacht in einer 3-Sterne-Dschungel-Lodge/Resort"
+      },
+      {
+        "title": "Transport",
+        "description": "Fahrzeugtransfer von Goa nach Dandeli AC"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Frühstück inklusive"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Safari- und Attraktionsgebühren inbegriffen"
+      },
+      {
+        "title": "Wildtieraktivitäten",
+        "description": "Interaktion mit Elefanten und Tigersafari"
+      },
+      {
+        "title": "Russischer Reiseführer",
+        "description": "Professioneller russischsprachiger Reiseleiter"
+      }
+    ]
+  },
+  "Delhi-Agra-1N-2D-Trip-Package": {
+    "file_name": "Delhi-Agra-1N-2D-Trip-Package.html",
+    "page": {
+      "slug": "Delhi-Agra-1N-2D-Trip-Package",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "1N/2D-Tour von Delhi nach Agra mit Taj Mahal und Agra Fort",
+        "subtitle": "Erleben Sie auf dieser unvergesslichen Reise den Zauber des Taj Mahal und der Mogularchitektur",
+        "backgroundImage": "/assets/hero/Agra-hero.webp",
+        "meta": {
+          "duration": "2 Tage",
+          "locations": 6,
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Agra-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Reise zur Erkundung des legendären Taj Mahal- und Mogul-Erbes",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Reisepaket von Delhi nach Agra.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 8 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Komfortables AC-Fahrzeug"
+      },
+      {
+        "title": "Hotelaufenthalt",
+        "description": "3-Sterne-Unterkunft"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Beste Aussichtspunkte"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Abfahrt von Delhi",
+        "description": "Morgens Abfahrt von Delhi zu Ihrer Reise nach Agra über den Yamuna Expressway",
+        "category": "travel"
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Ankunft und Hotel-Check-in",
+        "description": "Ankunft in Agra und Checken in Ihrem 3-Sterne-Hotel",
+        "category": "arrival"
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Mittagessen",
+        "description": "Genießen Sie Ihr Mittagessen in einem lokalen Restaurant",
+        "category": "meal"
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Erkundung der Festung Agra",
+        "description": "Besuchen Sie das prächtige Agra Fort, ein UNESCO-Weltkulturerbe mit atemberaubender Mogul-Architektur",
+        "category": "exploration",
+        "highlight": true
+      },
+      {
+        "time": "3:30 PM",
+        "title": "Baby Taj (Itimad-ud-Daulah)",
+        "description": "Besuchen Sie dieses exquisite Grab, das oft als „Jewel Box“ oder „Baby Taj“ bezeichnet wird.",
+        "category": "activity"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Mehtab Bagh",
+        "description": "Besuchen Sie diesen Gartenkomplex und genießen Sie einen atemberaubenden Blick auf den Sonnenuntergang über dem Taj Mahal auf der anderen Seite des Yamuna-Flusses",
+        "category": "activity"
+      },
+      {
+        "time": "7:00 PM",
+        "title": "Besuch des lokalen Marktes",
+        "description": "Erkunden Sie lokale Märkte für Marmoreinlegearbeiten, Lederwaren und Kunsthandwerk",
+        "category": "activity"
+      },
+      {
+        "time": "8:30 PM",
+        "title": "Übernachtung in Agra",
+        "description": "Rückkehr zu Ihrem Hotel zur Übernachtung",
+        "category": "activity"
+      },
+      {
+        "time": "Day 2",
+        "title": "Morgen & Frühstück",
+        "description": "Genießen Sie das Frühstück im Hotel und bereiten Sie sich auf den Tag vor",
+        "category": "meal"
+      },
+      {
+        "time": "6:30 AM",
+        "title": "Taj Mahal bei Sonnenaufgang",
+        "description": "Besuchen Sie das berühmte Taj Mahal bei Sonnenaufgang und erleben Sie seine magische Schönheit im sanften Morgenlicht",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Frühstück",
+        "description": "Genießen Sie Ihr Frühstück in einem Restaurant mit Blick auf das Taj Mahal",
+        "category": "meal"
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Abreise nach Delhi",
+        "description": "Beginnen Sie Ihre Reise zurück nach Delhi mit unvergesslichen Erinnerungen",
+        "category": "travel"
+      },
+      {
+        "time": "2:00 PM",
+        "title": "Ankunft in Delhi",
+        "description": "Kommen Sie zurück in Delhi und beenden Sie Ihre unvergessliche Agra-Tour",
+        "category": "arrival"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Taj Mahal",
+        "description": "Symbol der Liebe",
+        "image": "/assets/destinations/Delhi to Agra/Taj Mahal.webp"
+      },
+      {
+        "title": "Agra-Festung",
+        "description": "Mogul-Architektur",
+        "image": "/assets/destinations/Delhi to Agra/Agra Fort.webp"
+      },
+      {
+        "title": "Baby Taj",
+        "description": "Itimad-ud-Daulah",
+        "image": "/assets/destinations/Delhi to Agra/Baby Taj.webp"
+      },
+      {
+        "title": "Mehtab Bagh",
+        "description": "Blick auf das Taj Mahal",
+        "image": "/assets/destinations/Delhi to Agra/Mehtab Bagh.webp"
+      },
+      {
+        "title": "Taj Mahal Sonnenaufgang",
+        "description": "Magischer Morgen",
+        "image": "/assets/destinations/Delhi to Agra/Taj Mahal Sunrise.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Privater Transport",
+        "description": "Komfortables AC-Fahrzeug mit erfahrenem Fahrer für die gesamte Fahrt"
+      },
+      {
+        "title": "Hotelaufenthalt",
+        "description": "3-Sterne-Hotelunterkunft in Agra im Doppel-/Dreibettzimmer"
+      },
+      {
+        "title": "Eintrittskarten",
+        "description": "Eintrittsgebühren für Denkmäler für Taj Mahal, Agra Fort und andere Sehenswürdigkeiten"
+      },
+      {
+        "title": "Frühstück",
+        "description": "Leckeres Frühstück im Hotel am 2. Tag"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Genug Zeit für Fotos an allen malerischen Orten"
+      },
+      {
+        "title": "Reiseleiter",
+        "description": "Kompetenter englischsprachiger Reiseleiter während der gesamten Tour"
+      }
+    ]
+  },
+  "Golden-Triangle-Trip-3N4D": {
+    "file_name": "golden-triangle-trip-3n4d.html",
+    "page": {
+      "slug": "Golden-Triangle-Trip-3N4D",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Reise zum Goldenen Dreieck 3N4D",
+        "subtitle": "3 Nächte, 4 Tage Erkundung von Delhi, Agra und Jaipur mit geführten Touren und kulturellen Erlebnissen",
+        "backgroundImage": "/assets/hero/Golden-Triangle-hero.webp",
+        "meta": {
+          "duration": "4 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit, das Goldene Dreieck zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Kulturreise durch Indiens berühmte Städte",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Golden Triangle 3N4D-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeuge im gesamten Gebäude"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück inklusive"
+      },
+      {
+        "title": "Ikonische Orte",
+        "description": "Alle wichtigen Sehenswürdigkeiten"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Delhi |Delhi-Sightseeing",
+        "description": "Treffen Sie sich bei Ihrer Ankunft am Flughafen Delhi mit dem Vertreter.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Delhi → Agra (ca. 4 Std.) |Agra-Sightseeing",
+        "description": "Frühstück im Hotel und Fahrt nach Agra.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Agra → Jaipur (ca. 5 Std.) |Fatehpur Sikri unterwegs",
+        "description": "Nach dem Frühstück fahren Sie nach Jaipur.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Besichtigung von Jaipur → Abreise",
+        "description": "Frühstück im Hotel.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Taj Mahal",
+        "description": "Ikonisches Denkmal der Liebe",
+        "image": "../../assets/destinations/Golden-Triangle/Taj-Mahal.webp"
+      },
+      {
+        "title": "Amer Fort",
+        "description": "Rajasthans majestätische Festung",
+        "image": "../../assets/destinations/Golden-Triangle/amber-fort.webp"
+      },
+      {
+        "title": "Hawa Mahal",
+        "description": "Palast der Winde",
+        "image": "../../assets/destinations/Golden-Triangle/Hawa-Mahal.webp"
+      },
+      {
+        "title": "Qutub Minar",
+        "description": "Delhis höchstes Minarett",
+        "image": "../../assets/destinations/Golden-Triangle/Qutub-Minar.webp"
+      },
+      {
+        "title": "Indische Kultur",
+        "description": "Reiches Erbe und Traditionen",
+        "image": "../../assets/destinations/Golden-Triangle/Culture.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "03 Übernachtungen in 3-Sterne-Hotels mit täglichem Frühstück"
+      },
+      {
+        "title": "Hin- und Rückflüge",
+        "description": "Hin- und Rückflugtickets in der Economy Class"
+      },
+      {
+        "title": "Überweisungen",
+        "description": "Exklusives Taxi für alle Transfers und Besichtigungen"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Tägliches Frühstück im Hotel"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Eintrittskarten für Denkmäler gemäß Reiseverlauf"
+      },
+      {
+        "title": "Führung",
+        "description": "Alle Besichtigungen mit russischsprachigem Reiseführer"
+      },
+      {
+        "title": "Maut und Parken",
+        "description": "Maut, Parkgebühren, Fahrerpauschale und Treibstoffgebühren inbegriffen"
+      }
+    ]
+  },
+  "Golden-Triangle-Trip-package": {
+    "file_name": "Golden-Triangle-Trip-package.html",
+    "page": {
+      "slug": "Golden-Triangle-Trip-package",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Goldenes Dreieck-Tour – Delhi, Agra, Jaipur |Globales Touristenzentrum",
+        "subtitle": "Entdecken Sie auf dieser 6-tägigen Kulturreise die berühmtesten Reiseziele Indiens – Delhi, Agra und Jaipur",
+        "backgroundImage": "/assets/hero/Golden-Triangle-hero.webp",
+        "meta": {
+          "duration": "6 Tage",
+          "locations": 20,
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihre Reise ins Goldene Dreieck?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche 6-tägige Erkundung der berühmtesten Reiseziele Indiens",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Tourpaket „Goldenes Dreieck“.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 6 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Kabine"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück und Abendessen"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Alles ikonische Orte"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Delhi",
+        "description": "Ankunft am Flughafen Delhi, Treffen mit unserem Vertreter und Transfer zu Ihrem Hotel.Der Abend steht Ihnen zur freien Verfügung oder Sie können lokale Märkte erkunden.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Delhi-Sightseeing",
+        "description": "Erkunden Sie Alt-Delhi: Rotes Fort, Jama Masjid, Chandni Chowk.Neu-Delhi: India Gate, Rashtrapati Bhavan, Qutb Minar, Lotustempel, Humayuns Grab.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 3",
+        "title": "Delhi nach Agra",
+        "description": "Fahrt nach Agra (240 km | 4 Std.).Besuchen Sie das Agra Fort, Mehtab Bagh, um den Sonnenuntergang über dem Taj Mahal und die lokalen Märkte zu genießen.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Taj Mahal und Fatehpur Sikri",
+        "description": "Sonnenaufgangsbesuch im Taj Mahal.Nach dem Frühstück fahren Sie nach Fatehpur Sikri (40 km | 1 Stunde).Erkunden Sie die verlassene Mogulstadt.Später Fahrt nach Jaipur (240 km | 5 Std.).",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Jaipur-Besichtigung",
+        "description": "Besuchen Sie Amber Fort, Jal Mahal, Stadtpalast, Jantar Mantar und Hawa Mahal.Abends erkunden Sie lokale Märkte für Kunsthandwerk und Textilien.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Abfahrt",
+        "description": "Nach dem Frühstück Transfer zum Flughafen Jaipur für Ihre Weiterreise mit wunderschönen Erinnerungen an das Goldene Dreieck.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Taj Mahal",
+        "description": "Symbol der ewigen Liebe",
+        "image": "/assets/destinations/Golden-Triangle/taj-mahal.webp"
+      },
+      {
+        "title": "Amber Fort",
+        "description": "Majestätische Rajput-Architektur",
+        "image": "/assets/destinations/Golden-Triangle/amber-fort.webp"
+      },
+      {
+        "title": "Rotes Fort",
+        "description": "Historisches Moguldenkmal",
+        "image": "/assets/destinations/Golden-Triangle/agra-fort.webp"
+      },
+      {
+        "title": "Hawa Mahal",
+        "description": "Palast der Winde",
+        "image": "/assets/destinations/Golden-Triangle/hawa-mahal.webp"
+      },
+      {
+        "title": "Fatehpur Sikri",
+        "description": "Mogul-Architekturwunder",
+        "image": "/assets/destinations/Golden-Triangle/fatehpur-sikri.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "4-Sterne-Unterkunft",
+        "description": "Komfortable Hotels für 5 Nächte"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Frühstück und Abendessen für 5 Tage"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Privates Auto mit Klimaanlage für alle Transfers"
+      },
+      {
+        "title": "Fahrerdienste",
+        "description": "Professioneller Fahrer mit allen Kosten"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Eintrittskarten für das Denkmal inbegriffen"
+      },
+      {
+        "title": "24/7-Support",
+        "description": "Kundenbetreuung durchgehend"
+      }
+    ]
+  },
+  "Hampi-1N-2D-Trip-Package": {
+    "file_name": "Hampi-1N-2D-Trip-Package.html",
+    "page": {
+      "slug": "Hampi-1N-2D-Trip-Package",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Hampi 1N/2D Tour-Paket ab Goa mit Aufenthalt und Besichtigungen",
+        "subtitle": "Entdecken Sie das UNESCO-Weltkulturerbe Hampi mit seinen antiken Ruinen und atemberaubenden Landschaften",
+        "backgroundImage": "/assets/hero/Hampi-hero.webp",
+        "meta": {
+          "duration": "2 Tage",
+          "locations": 15,
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Hampi-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Reise zur Erkundung der antiken Ruinen von Hampi",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Hampi-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 8 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Komfortables AC-Fahrzeug"
+      },
+      {
+        "title": "Hotelaufenthalt",
+        "description": "3-Sterne-Unterkunft"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Beste Aussichtspunkte"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "6:00 AM",
+        "title": "Abfahrt von Goa",
+        "description": "Am Morgen Abfahrt von Süd-Goa zu Ihrer Reise nach Hampi",
+        "category": "travel"
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Ankunft und Hotel-Check-in",
+        "description": "Ankunft in Hospete und Checken in Ihrem 3-Sterne-Hotel",
+        "category": "arrival"
+      },
+      {
+        "time": "2:00 PM",
+        "title": "Mittagessen",
+        "description": "Genießen Sie Ihr Mittagessen in einem lokalen Restaurant",
+        "category": "meal"
+      },
+      {
+        "time": "3:00 PM",
+        "title": "Erkundung des königlichen Geheges",
+        "description": "Besuchen Sie Mahanavami Dibba, das Aquädukt, Pushkarni, die Geheimkammer und die King Audience Hall",
+        "category": "exploration",
+        "highlight": true
+      },
+      {
+        "time": "4:30 PM",
+        "title": "Tempeltour",
+        "description": "Erkunden Sie den Hazara-Rama-Tempel, den Elefantenstall und das Lotus Mahal",
+        "category": "activity"
+      },
+      {
+        "time": "5:30 PM",
+        "title": "Vijay Vital Tempelkomplex",
+        "description": "Besuchen Sie den berühmten Steinwagen und den Krishna-Tempel",
+        "category": "activity"
+      },
+      {
+        "time": "6:30 PM",
+        "title": "Sonnenuntergang am Hema Kuta Hill",
+        "description": "Erleben Sie atemberaubende Ausblicke auf den Sonnenuntergang über den Ruinen von Hampi",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "8:00 PM",
+        "title": "Übernachtung in Hospet",
+        "description": "Rückkehr zu Ihrem Hotel zur Übernachtung",
+        "category": "activity"
+      },
+      {
+        "time": "Day 2",
+        "title": "Morgen & Frühstück",
+        "description": "Genießen Sie das Frühstück im Hotel und bereiten Sie sich auf den Tag vor",
+        "category": "meal"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Fahrt mit dem Sanapur Lake Coracle",
+        "description": "Erleben Sie eine traditionelle Korakelbootfahrt auf dem Sanapur-See",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Mittagessen",
+        "description": "Genießen Sie Ihr Mittagessen in einem lokalen Restaurant",
+        "category": "meal"
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Abfahrt nach Goa",
+        "description": "Beginnen Sie Ihre Reise zurück nach Goa mit unvergesslichen Erinnerungen",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Hampi-Ruinen",
+        "description": "Antike Architektur",
+        "image": "/assets/destinations/Hampi/Virupaksha-Temple.webp"
+      },
+      {
+        "title": "Steinwagen",
+        "description": "Vijay Vital Tempel",
+        "image": "/assets/destinations/Hampi/Stone-Chariot.webp"
+      },
+      {
+        "title": "Sanapur-See",
+        "description": "Coracle-Abenteuer",
+        "image": "/assets/destinations/Hampi/Coracle-Ride.webp"
+      },
+      {
+        "title": "Elefantenstall",
+        "description": "Königliches Gehege",
+        "image": "/assets/destinations/Hampi/Elephant-Stables.webp"
+      },
+      {
+        "title": "Hema Kuta Hügel",
+        "description": "Aussichtspunkt bei Sonnenuntergang",
+        "image": "/assets/destinations/Hampi/Hampi-Sunset.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Privater Transport",
+        "description": "Komfortables AC-Fahrzeug mit erfahrenem Fahrer für die gesamte Fahrt"
+      },
+      {
+        "title": "Hotelaufenthalt",
+        "description": "3-Sterne-Hotelunterkunft in Hospete im Zweier-/Dreibettzimmer"
+      },
+      {
+        "title": "Coracle-Fahrt",
+        "description": "Traditionelle Coracle-Bootsfahrt auf dem Sanapur-See"
+      },
+      {
+        "title": "Frühstück",
+        "description": "Leckeres Frühstück im Hotel am 2. Tag"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Genug Zeit für Fotos an allen malerischen Orten"
+      },
+      {
+        "title": "Reiseleiter",
+        "description": "Kompetenter englischsprachiger Reiseleiter während der gesamten Tour"
+      }
+    ]
+  },
+  "Hyderabad-Trip-1N2D": {
+    "file_name": "hyderabad-trip-1n2d.html",
+    "page": {
+      "slug": "Hyderabad-Trip-1N2D",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Hyderabad-Reise 1N2D",
+        "subtitle": "1 Nacht 2 Tage Erkundung des Erbes von Hyderabad, einschließlich Golconda Fort, Charminar und Chowmahalla Palace",
+        "backgroundImage": "/assets/hero/Hyderabad-hero.webp",
+        "meta": {
+          "duration": "2 Tage",
+          "rating": "4.6/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Sind Sie bereit, Hyderabad zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Kulturreise durch Hyderabad",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Hyderabad 1N2D-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeuge im gesamten Gebäude"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück inklusive"
+      },
+      {
+        "title": "Ikonische Orte",
+        "description": "Alle wichtigen Sehenswürdigkeiten"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft & Altstadterbe",
+        "description": "Morgen – Ankunft: Ankunft in Hyderabad (Rajiv Gandhi International Airport – HYD).Treffen und Unterstützung durch einen Unternehmensvertreter und einen russischsprachigen Reiseführer.Transfer zum Hotel.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Museen, Seeufer und Abreise",
+        "description": "07:30 – 08:30 – Frühstück im Hotel & Check-out (Gepäck aufbewahren, falls der Flug später erfolgt)",
+        "category": "travel",
+        "highlight": true
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Golconda Fort",
+        "description": "Historische Festung",
+        "image": "/assets/destinations/Hyderabad/Golconda-Fort.webp"
+      },
+      {
+        "title": "Charminar",
+        "description": "Ikonisches Hyderabad-Denkmal",
+        "image": "/assets/destinations/Hyderabad/Charminar.webp"
+      },
+      {
+        "title": "Chowmahalla-Palast",
+        "description": "Königlicher Hofkomplex",
+        "image": "/assets/destinations/Hyderabad/Chowmahalla-Palace.webp"
+      },
+      {
+        "title": "Salar Jung Museum",
+        "description": "Bedeutendes Einzelsammlermuseum",
+        "image": "/assets/destinations/Hyderabad/Salar-Jung-Museum.webp"
+      },
+      {
+        "title": "Hyderabadi-Küche",
+        "description": "Berühmte Biryani und lokale Gerichte",
+        "image": "/assets/destinations/Hyderabad/Biryani.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Hin- und Rückflüge",
+        "description": "Hin- und Rückflug inklusive"
+      },
+      {
+        "title": "Unterkunft",
+        "description": "1 Übernachtung in einem 3-Sterne-Hotel in Hyderabad mit täglichem Frühstück"
+      },
+      {
+        "title": "Überweisungen",
+        "description": "Privater Flughafentransfer (Ankunft und Abreise) und ein privates, klimatisiertes Taxi für Besichtigungen (gemäß Reiseplan)"
+      },
+      {
+        "title": "Führung",
+        "description": "Russischsprachiger Reiseführer inklusive"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle im Reiseverlauf genannten Eintrittsgelder für Denkmäler/Museen (im Preis inbegriffen)"
+      },
+      {
+        "title": "Maut und Parken",
+        "description": "Maut, Parkplatz, Fahrerpauschale inklusive"
+      }
+    ]
+  },
+  "Jodhpur-Jaisalmer-Trip-3N4D": {
+    "file_name": "jodhpur-jaisalmer-trip-3n4d.html",
+    "page": {
+      "slug": "Jodhpur-Jaisalmer-Trip-3N4D",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Jodhpur- und Jaisalmer-Reise 3N4D",
+        "subtitle": "3 Nächte, 4 Tage Erkundung der Blauen und Goldenen Stadt Rajasthans mit Wüstensafari und kulturellen Erlebnissen",
+        "backgroundImage": "/assets/hero/Jodhpur-Jaisalmer-hero.webp",
+        "meta": {
+          "duration": "4 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit, Rajasthan zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Wüstenreise durch die historischen Städte Rajasthans",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Jodhpur"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeuge im gesamten Gebäude"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück und Abendessen im Wüstencamp"
+      },
+      {
+        "title": "Ikonische Orte",
+        "description": "Alle wichtigen Sehenswürdigkeiten"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Jodhpur |Lokale Sehenswürdigkeiten |Übernachtung in Jodhpur",
+        "description": "9:00 Uhr Abholung – Ankunft am Flughafen/Bahnhof Jodhpur",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Jodhpur → Jaisalmer (280 km / 5 Std.) |Gadisar-See |Jaisalmer-Festung",
+        "description": "Morgen: Frühstück im Hotel",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Sam Sanddünen |Wüstensafari |Kulturschau |Übernachtung im Wüstencamp",
+        "description": "Morgen: Frühstück im Hotel",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Abfahrt von Jaisalmer",
+        "description": "Morgen: Frühstück im Camp",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Mehrangarh-Festung",
+        "description": "Rajasthans majestätische Bergfestung",
+        "image": "/assets/destinations/Jodhpur-Jaisalmer/Mehrangarh-Fort.webp"
+      },
+      {
+        "title": "Jaisalmer-Festung",
+        "description": "Das goldene lebende Fort",
+        "image": "/assets/destinations/Jodhpur-Jaisalmer/Jaisalmer-Fort.webp"
+      },
+      {
+        "title": "Sam Sanddünen",
+        "description": "Wüstensafari-Erlebnis",
+        "image": "/assets/destinations/Jodhpur-Jaisalmer/Sam-Sand-Dunes.webp"
+      },
+      {
+        "title": "Patwon Ki Haveli",
+        "description": "Wunderschöner geschnitzter Jain Haveli",
+        "image": "/assets/destinations/Jodhpur-Jaisalmer/Patwon-Ki-Haveli.webp"
+      },
+      {
+        "title": "Rajasthani-Kultur",
+        "description": "Volkstanz, Musik und Traditionen",
+        "image": "/assets/destinations/Jodhpur-Jaisalmer/Culture.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Hin- und Rückflugpreis",
+        "description": "Hin- und Rückflug inklusive"
+      },
+      {
+        "title": "Unterkunft",
+        "description": "Unterbringung in einem 3-Sterne-Hotel für 3 Nächte"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Tägliches Frühstück und Abendessen im Desert Camp (Tag 3)"
+      },
+      {
+        "title": "Überweisungen",
+        "description": "Privates, klimatisiertes Taxi für den Flughafentransfer und lokale Sehenswürdigkeiten"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Eintrittsgelder und Eintrittsgelder für Denkmäler laut Reiseverlauf"
+      },
+      {
+        "title": "Führung",
+        "description": "Englisch-/russischsprachiger Reiseführer"
+      },
+      {
+        "title": "Wüstenaktivitäten",
+        "description": "Kamelsafari, Jeep Dune Bashing, Rajasthani-Volkstanz- und Musikshow inklusive"
+      },
+      {
+        "title": "Fahrerkosten",
+        "description": "Fahrergebühren, Parkgebühren, Zölle und Steuern inbegriffen"
+      }
+    ]
+  },
+  "Jodhpur-Udaipur-tour-package": {
+    "file_name": "jodhpur-udaipur-trip-4n5d.html",
+    "page": {
+      "slug": "Jodhpur-Udaipur-tour-package",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Jodhpur und Udaipur (4 Nächte – 5 Tage)",
+        "subtitle": "4 Nächte, 5 Tage Erkundung von Jodhpur und Udaipur mit geführten Touren und kulturellen Erlebnissen",
+        "backgroundImage": "/assets/hero/Jodhpur-Udaipur-hero.webp",
+        "meta": {
+          "duration": "5 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Sind Sie bereit, Jodhpur und Udaipur zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Kulturreise durch Rajasthan",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Jodhpur"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeuge im gesamten Gebäude"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück inklusive"
+      },
+      {
+        "title": "Ikonische Orte",
+        "description": "Alle wichtigen Sehenswürdigkeiten"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Jodhpur |Stadtrundfahrt",
+        "description": "Morgen (9:00 Uhr), ungefähre Uhrzeit",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Mehrangarh-Festung |Jaswant Thada |Blauer Stadtspaziergang",
+        "description": "Morgen (9:00 Uhr)",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Transfer Jodhpur → Udaipur (260 km / 5 Stunden) |Besichtigung",
+        "description": "Morgen (9:00 Uhr)",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Stadtpalast von Udaipur |Pichola |Jag Mandir",
+        "description": "Morgen (9:00 Uhr)",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Abfahrt",
+        "description": "Frühstück im Hotel",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Mehrangarh-Festung",
+        "description": "Majestätische Festung von Jodhpur",
+        "image": "../../assets/destinations/Rajasthan/Mehrangarh Fort.webp"
+      },
+      {
+        "title": "Stadtpalast Udaipur",
+        "description": "Königliches Erbe",
+        "image": "../../assets/destinations/Rajasthan/Udaipur City Palace.webp"
+      },
+      {
+        "title": "Pichola-See",
+        "description": "Ruhige Aussicht auf den See",
+        "image": "../../assets/destinations/Rajasthan/Lake Pichola.webp"
+      },
+      {
+        "title": "Blaue Stadt Jodhpur",
+        "description": "Lebendige Altstadt",
+        "image": "../../assets/destinations/Rajasthan/Blue City.webp"
+      },
+      {
+        "title": "Rajasthani-Küche",
+        "description": "Köstliche und lebendige kulinarische Erlebnisse",
+        "image": "../../assets/destinations/Rajasthan/Rajasthani-Cuisine.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Hin- und Rückflugtickets",
+        "description": ""
+      },
+      {
+        "title": "Unterkunft",
+        "description": "2 Übernachtungen in Jodhpur – 3-Sterne-Hotel"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Tägliches Frühstück im Hotel"
+      },
+      {
+        "title": "Professioneller Führer",
+        "description": "Russischsprachiger professioneller Reiseleiter während der gesamten Tour"
+      },
+      {
+        "title": "Eintrittskarten",
+        "description": "Alle Eintrittskarten laut Reiseverlauf:"
+      },
+      {
+        "title": "Transport",
+        "description": "Privates, klimatisiertes Taxi für alle Besichtigungen und Transfers"
+      },
+      {
+        "title": "Flughafentransfers",
+        "description": "Abholung und Rückgabe vom Flughafen"
+      },
+      {
+        "title": "Steuern und Gebühren",
+        "description": "Alle Steuern und Fahrergebühren"
+      }
+    ]
+  },
+  "Kashmir-5N6D-Trip": {
+    "file_name": "Kashmir-5N6D-Trip.html",
+    "page": {
+      "slug": "Kashmir-5N6D-Trip",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Kaschmir 5N6D Reisepaket",
+        "subtitle": "Erleben Sie die atemberaubende Schönheit Kaschmirs auf dieser Reise durch Srinagar, Gulmarg, Pahalgam und Sonamarg",
+        "backgroundImage": "/assets/hero/kashmir-5n6d-hero.webp",
+        "meta": {
+          "duration": "6 Tage",
+          "locations": 4,
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Kaschmir-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche 6-tägige Reise durch das Paradies auf Erden",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Kashmir 5N6D-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Hotelaufenthalt",
+        "description": "4 Nächte Hotel + 1 Nacht Hausboot"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Limousine/Innova-Fahrzeug ohne Klimaanlage"
+      },
+      {
+        "title": "Shikara-Fahrt",
+        "description": "1 Stunde Shikara am Dal-See"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Tägliches Frühstück und Abendessen"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Srinagar – Besichtigung von Srinagar",
+        "description": "Unser Service beginnt mit der Ankunft am Flughafen Srinagar.Treffen und begrüßen Sie unseren Vertreter.Transfer zum Hotel in Srinagar – Entspannen, Erfrischen und Aufbruch zur Besichtigung der Mogulgärten, Cheshmashahi, Nishat Shalimar, des Tulpengartens (der größte in Asien) und des Shankarcharya-Tempels auf der Spitze des Hügels.Zurück zum Hotel zum Abendessen und Übernachtung.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Srinagar – Sonamarg",
+        "description": "Ganztägiger Besichtigungsausflug nach Sonamarg.Sonamarg ist eine wunderschöne Fahrt von Srinagar entfernt.Sonamarg wird die Goldwiese genannt und auf dem Thajiwas-Gletscher liegt das ganze Jahr über Schnee.Für einen Besuch dort kann man auf eigene Kosten Pferde mieten.Später zurück nach Srinagar zum Abendessen und Übernachtung.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 3",
+        "title": "Srinagar – Gulmarg",
+        "description": "Ganztägiger Besichtigungsausflug nach Gulmarg.Gulmarg ist einer der schönsten Sommerferienorte im Tal.Es ist wegen seines höchstgelegenen Golfplatzes und Skifahrens im Winter beliebt.Auf eigene Kosten können Sie eine Gondelfahrt (Seilbahn) nach Apharwat (13.000 Fuß) genießen.Zurück nach Srinagar, Check-in im Hausboot, Entspannung, Abfahrt zur Shikara-Fahrt und Genießen des Sonnenuntergangs am Dal-See.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Srinagar – Pahalgam",
+        "description": "Machen Sie eine Besichtigungstour nach Pahalgam. Unterwegs besuchen Sie das Safranfeld und die Ruinen von Avantipora – Check-in im Hotel.Später freie Freizeit in Pahalgam.Genießen Sie die natürliche Schönheit von Pahalgam oder unternehmen Sie einen Ausritt zu wunderschönen Orten rund um Pahalgam oder fahren Sie nach Aru, Baisaran, Betaab-Tal und Chandanwari, indem Sie auf eigene Kosten ein lokales Fahrzeug am Taxistand von Pahalgam vor Ort nehmen.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 5",
+        "title": "Pahalgam – Srinagar",
+        "description": "Abfahrt nach Srinagar und Einchecken im Hausboot Srinagar – Entspannen – Abfahrt zur Shikara-Fahrt auf dem Dal-See, um den Sonnenuntergang zu genießen – Rückkehr zur Übernachtung und zum Abendessen im Hausboot.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "Srinagar – Flughafen",
+        "description": "Nach dem Frühstück checken Sie aus und wenn es die Zeit erlaubt, gehen Sie einkaufen und werden zum Flughafen Srinagar für Ihre Weiterreise gebracht.Die Tour endet mit so vielen wunderbaren und bleibenden Erinnerungen.",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Dal-See Shikara",
+        "description": "Ikonisches Kaschmir-Erlebnis",
+        "image": "/assets/destinations/Kashmir/Dal-Lake-Shikara.webp"
+      },
+      {
+        "title": "Gulmarg-Gondel",
+        "description": "Höchste Seilbahn in Indien",
+        "image": "/assets/destinations/Kashmir/Gulmarg-Gondola.webp"
+      },
+      {
+        "title": "Sonamarg-Tal",
+        "description": "Wiese aus Gold",
+        "image": "/assets/destinations/Kashmir/Sonamarg-Valley.webp"
+      },
+      {
+        "title": "Pahalgam",
+        "description": "Tal der Hirten",
+        "image": "/assets/destinations/Kashmir/Pahalgam.webp"
+      },
+      {
+        "title": "Tulpengarten",
+        "description": "Größte in Asien",
+        "image": "/assets/destinations/Kashmir/Tulip-Garden.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "4 Nächte in Hotels + 1 Nacht im Hausboot im Doppelzimmer"
+      },
+      {
+        "title": "Shikara-Fahrt",
+        "description": "1-stündige Shikara-Fahrt im Dal-See, um den Sonnenuntergang zu genießen"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Alle Transfers und Besichtigungen mit einer Limousine/einem Innova-Fahrzeug ohne Klimaanlage"
+      },
+      {
+        "title": "Tägliche Mahlzeiten",
+        "description": "Tägliches Frühstück und Abendessen während des Hotelaufenthalts (MAPAI-Basis)"
+      },
+      {
+        "title": "Flughafentransfers",
+        "description": "Alle Ankunfts-/Abreisetransfers wie im Reiseverlauf angegeben"
+      },
+      {
+        "title": "Alle Steuern",
+        "description": "Alle anfallenden Steuern sind im Paket enthalten"
+      }
+    ]
+  },
+  "Kerala-5N6D-Trip": {
+    "file_name": "Kerala-5N6D-Trip.html",
+    "page": {
+      "slug": "Kerala-5N6D-Trip",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Kerala 5N6D Reisepaket |Globales Touristenzentrum",
+        "subtitle": "Erleben Sie die ruhige Schönheit Keralas auf dieser 5-tägigen 6-tägigen Reise durch Cochin, Munnar, Thekkady und Alleppey",
+        "backgroundImage": "/assets/hero/Kerala-hero.webp",
+        "meta": {
+          "duration": "6 Tage",
+          "locations": 4,
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Kerala-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche 6-tägige Reise durch Gottes eigenes Land",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Kerala 5N6D-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "3-Sterne-Hotels",
+        "description": "Premium-Unterkunft"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Limousinenfahrzeug"
+      },
+      {
+        "title": "Aufenthalt auf dem Hausboot",
+        "description": "Alleppey Backwaters"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Alle Mahlzeiten auf dem Hausboot"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Cochin – Besichtigung von Cochin",
+        "description": "Ankunft am Flughafen/Bahnhof Cochin.Transfer zu Ihrem Hotel.Erkunden Sie Cochin mit lokalen Sehenswürdigkeiten: Fort Kochi und die berühmten chinesischen Fischernetze, Mattancherry Palace (niederländischer Palast), jüdische Synagoge (freitags und samstags geschlossen), St. Francis Church, Marine Drive und genießen Sie einen ruhigen Blick auf den Sonnenuntergang.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Cochin nach Munnar (ca. 4,5 Stunden Fahrt)",
+        "description": "Nach dem Frühstück fahren Sie nach Munnar, vorbei an malerischen Wasserfällen und üppigen Gewürzplantagen.Unterwegs Besuche: Cheeyappara- und Valara-Wasserfälle, Karadippara-Aussichtspunkt.Checken Sie in Ihrem Hotel ein und entspannen Sie sich.Der Abend steht Ihnen zur freien Verfügung oder steht Ihnen für einen Spaziergang in der Natur zur Verfügung.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 3",
+        "title": "Munnar-Sightseeing",
+        "description": "Genießen Sie nach dem Frühstück einen ganzen Tag mit der Erkundung von Munnar: Eravikulam-Nationalpark (während der Brutzeit von Februar bis März geschlossen), Teemuseum, Mattupetty Dam und Echo Point, Kundala Lake, Photo Point und Blossom Park.Optionale Aktivitäten: Elefantenritt oder Bootsfahrt (gegen direkte Bezahlung).",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Munnar nach Thekkady (ca. 3,5 Stunden Fahrt)",
+        "description": "Checken Sie nach dem Frühstück aus und fahren Sie nach Thekkady.Check-in in Ihrem Hotel.Besichtigung von Thekkady: Periyar Wildlife Sanctuary mit optionaler Bootsfahrt auf dem Periyar-See (auf eigene Kosten), Erkundung der Gewürzplantagen.Optionale Aktivitäten: Kathakali- oder Kalaripayattu-Kulturshows am Abend.",
+        "category": "wildlife"
+      },
+      {
+        "time": "Day 5",
+        "title": "Thekkady nach Alleppey – Hausbootaufenthalt",
+        "description": "Nach dem Frühstück fahren Sie weiter nach Alleppey.Check-in in einem Deluxe-Hausboot mit Klimaanlage und gemeinsamer Nutzung.Genießen Sie eine unvergessliche Kreuzfahrt durch die Backwaters, Kanäle und Dorflandschaften von Alleppey.Genießen Sie authentische Kerala-Küche zum Mittagessen, Tee/Snacks am Abend und Abendessen an Bord.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "Von Alleppey nach Cochin – Abreise",
+        "description": "Frühstücken Sie an Bord.Verlassen Sie das Hausboot um 9:00 Uhr.Fahrt zurück nach Cochin (ca. 1,5 Stunden).Rückgabe am Flughafen/Bahnhof Cochin für Ihre Rückreise.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Munnar Teegärten",
+        "description": "Sanfte grüne Hügel",
+        "image": "/assets/destinations/Kerala/Munnar Tea Gardens.webp"
+      },
+      {
+        "title": "Alleppey Backwaters",
+        "description": "Ruhiges Hausboot-Erlebnis",
+        "image": "/assets/destinations/Kerala/Alleppey Backwaters.webp"
+      },
+      {
+        "title": "Periyar Wildlife Sanctuary",
+        "description": "Bootsfahrt im Heiligtum",
+        "image": "/assets/destinations/Kerala/Periyar Wildlife.webp"
+      },
+      {
+        "title": "Cochin-Fischernetze",
+        "description": "Ikonische chinesische Fischernetze",
+        "image": "/assets/destinations/Kerala/Cochin Fishing Nets.webp"
+      },
+      {
+        "title": "Kerala Backwaters",
+        "description": "Ruhige Wasserstraßen",
+        "image": "/assets/destinations/Kerala/Kerala Backwaters.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "3-Sterne-Unterkunft",
+        "description": "Premium-Hotelaufenthalte für 5 Nächte in Cochin, Munnar und Thekkady"
+      },
+      {
+        "title": "Aufenthalt auf dem Hausboot",
+        "description": "1 Nacht im Deluxe A/C-Sharing-Hausboot in Alleppey mit allen Mahlzeiten"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Limousine für alle Transfers und Besichtigungen gemäß Reiseplan"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück in allen Hotels inbegriffen (CP-Plan)"
+      },
+      {
+        "title": "Mahlzeiten auf dem Hausboot",
+        "description": "Alle Mahlzeiten auf dem Hausboot (Mittagessen, Abendtee/Snacks, Abendessen, Frühstück)"
+      },
+      {
+        "title": "Maut & Parken",
+        "description": "Alle Mautgebühren, Parkgebühren, Treibstoffgebühren, Fahrerpauschale und Genehmigungen sind im Preis inbegriffen"
+      }
+    ]
+  },
+  "ladakh-tour-for-goa": {
+    "file_name": "ladakh-tour-for-goa.html",
+    "page": {
+      "slug": "ladakh-tour-for-goa",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "7T/6N Ladakh-Tour ab Goa mit dem Global Tourist Center",
+        "subtitle": "Erleben Sie die majestätischen Landschaften und die reiche Kultur Ladakhs auf dieser 7-tägigen Himalaya-Reise",
+        "backgroundImage": "/assets/hero/ladakh-hero.webp",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Ladakh-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche 7-tägige Reise durch den Himalaya",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für deinen Leh, Turtuk"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 6 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Innova Crysta"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück und Abendessen"
+      },
+      {
+        "title": "Große Höhe",
+        "description": "Bis zu 5.359 m"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Leh",
+        "description": "Ankunft am Flughafen Kushok Bakula Rimpochee in Leh (3.500 m).Transfer zum Hotel zur Akklimatisierung.Besuchen Sie den Leh-Markt und Shanti Stupa und genießen Sie die Aussicht auf den Sonnenuntergang.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Lokale Sehenswürdigkeiten in Leh",
+        "description": "Erkunden Sie Shanti Stupa, den Leh-Palast, das Phyang-Kloster, Sangam (Zusammenfluss von Indus und Zanskar), den Magnetic Hill und Gurudwara Pathar Sahib.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 3",
+        "title": "Von Leh nach Nubra Valley",
+        "description": "Fahren Sie über den Khardung La Pass (5.359 m), eine der höchsten befahrbaren Straßen der Welt.Besuchen Sie das Diskit-Kloster und die Hunder-Sanddünen.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Nubra nach Turtuk",
+        "description": "Fahren Sie nach Turtuk, dem nördlichsten Dorf Indiens.Entdecken Sie die baltistische Kultur, die historische Moschee, das Kloster und atemberaubende Aussichtspunkte.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 5",
+        "title": "Nubra zum Pangong-See",
+        "description": "Fahrt über den Shyok-Fluss zum Pangong-See.Bewundern Sie die wechselnden Farben des Sees und verbringen Sie den Abend am atemberaubenden Wasser.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "Pangong nach Leh",
+        "description": "Rückkehr nach Leh über den Chang La Pass.Besuchen Sie das Thiksey-Kloster, das größte Kloster in Ladakh, das für seine aufwendige Architektur bekannt ist.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "Abfahrt",
+        "description": "Nach dem Frühstück Transfer zum Flughafen Leh für Ihre Weiterreise mit wertvollen Erinnerungen an die unvergleichliche Schönheit Ladakhs.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Pangong-See",
+        "description": "Wechselnde Blautöne",
+        "image": "/assets/destinations/Leh/pangong-lake.webp"
+      },
+      {
+        "title": "Khardung-La-Pass",
+        "description": "Die höchste befahrbare Straße der Welt",
+        "image": "/assets/destinations/Leh/khardung-la.webp"
+      },
+      {
+        "title": "Nubra-Tal",
+        "description": "Sanddünen und Klöster",
+        "image": "/assets/destinations/Leh/nubra-valley.webp"
+      },
+      {
+        "title": "Dorf Turtuk",
+        "description": "Nördlichstes Dorf Indiens",
+        "image": "/assets/destinations/Leh/turtuk.webp"
+      },
+      {
+        "title": "Leh-Palast",
+        "description": "Historische königliche Residenz",
+        "image": "/assets/destinations/Leh/leh-palace.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "4-Sterne-Unterkunft",
+        "description": "Komfortable Hotels und Camps für 6 Nächte"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Frühstück und Abendessen für 6 Tage (MAPI-Plan)"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Privates Auto für alle Transporte und Besichtigungen"
+      },
+      {
+        "title": "Flughafentransfers",
+        "description": "Abholung und Rücktransfer vom Flughafen Leh"
+      },
+      {
+        "title": "Genehmigungen",
+        "description": "Schutzgebietsgenehmigungen (Inner Line Permit)"
+      },
+      {
+        "title": "Sauerstoffunterstützung",
+        "description": "Notfall-Sauerstoffflasche im Auto"
+      }
+    ]
+  },
+  "Lakshadweep-Trip": {
+    "file_name": "Lakshadweep-Trip.html",
+    "page": {
+      "slug": "Lakshadweep-Trip",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Lakshadweep 3N4D Reisepaket |Globales Touristenzentrum",
+        "subtitle": "Entdecken Sie die unberührte Schönheit der indischen Koralleninseln mit unserem 3-Nächte-4-Tage-Paket",
+        "backgroundImage": "/assets/hero/Lakshadweep-hero.webp",
+        "meta": {
+          "duration": "3 Nächte / 4 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Lakshadweep-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für ein unvergessliches Inselerlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Lakshadweep 3N4D-Paket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Personalisierte Erfahrung"
+      },
+      {
+        "title": "Wasseraktivitäten",
+        "description": "Schnorcheln und Kajakfahren"
+      },
+      {
+        "title": "Alle Mahlzeiten inklusive",
+        "description": "Frühstück, Mittag- und Abendessen"
+      },
+      {
+        "title": "Inselhüpfen",
+        "description": "Mehrere Inseln"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Agatti",
+        "description": "Willkommen in Agatti, der Heimat einer der bezauberndsten Lagunen von Lakshadweep.Bei Ihrer Ankunft am Flughafen Agatti werden Sie von unserem Team herzlich empfangen.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Insel Thinnakara oder Delfinbeobachtung",
+        "description": "Begeben Sie sich auf eine 1½-stündige Seereise zur Insel Thinnakara, wo Sie Delfine und Schildkröten beobachten können.Wenn die Thinnakara-Genehmigung nicht verfügbar ist, können Sie stattdessen Delfine beobachten und Hochseefischen unternehmen.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Erkundung der Insel Kalpitti",
+        "description": "Nach dem Frühstück können Sie sich in aller Ruhe aufregenden Wassersportaktivitäten widmen.Spüren Sie das Adrenalin, während Sie das azurblaue Wasser rund um Agatti erkunden.",
+        "category": "exploration"
+      },
+      {
+        "time": "Day 4",
+        "title": "Abfahrt",
+        "description": "Genießen Sie am letzten Tag Ihrer unvergesslichen Lakshadweep-Expedition ein herzhaftes Frühstück, bevor Sie zum Flughafen Agatti für Ihren Heimflug gebracht werden.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Agatti-Insel",
+        "description": "Ihre Basis für Erkundungen",
+        "image": "/assets/destinations/Lakshadweep/Agatti Island.webp"
+      },
+      {
+        "title": "Insel Thinnakara",
+        "description": "Unberührte Strände",
+        "image": "/assets/destinations/Lakshadweep/Thinnakara Island.webp"
+      },
+      {
+        "title": "Schnorcheln",
+        "description": "Erkundung von Korallenriffen",
+        "image": "/assets/destinations/Lakshadweep/Snorkeling.webp"
+      },
+      {
+        "title": "Kalpitti-Sonnenuntergang",
+        "description": "Atemberaubende Ausblicke",
+        "image": "/assets/destinations/Lakshadweep/Kalpitti Sunset.webp"
+      },
+      {
+        "title": "Lakshadweep-Strände",
+        "description": "Unberührter weißer Sand",
+        "image": "/assets/destinations/Lakshadweep/Lakshadweep Beaches.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Flugtickets",
+        "description": "Hin- und Rückflugtickets inklusive"
+      },
+      {
+        "title": "Unterkunft",
+        "description": "3 Übernachtungen im STD Beach Villa Room"
+      },
+      {
+        "title": "Alle Mahlzeiten",
+        "description": "APAI-Plan (Frühstück + Mittagessen + Abendessen)"
+      },
+      {
+        "title": "Inseltransfers",
+        "description": "Bootsfahrten nach Thinnakara und Kalpitti"
+      },
+      {
+        "title": "Wasseraktivitäten",
+        "description": "Schnorcheln, Kajakfahren, Fahrt mit dem Glasbodenboot"
+      },
+      {
+        "title": "Genehmigungen und Gebühren",
+        "description": "Einreisegenehmigung für Lakshadweep und Kulturerbegebühr"
+      }
+    ]
+  },
+  "Mathura-Vrindavan-tour": {
+    "file_name": "mathura-vrindavan-trip-2n3d.html",
+    "page": {
+      "slug": "Mathura-Vrindavan-tour",
+      "type": "",
+      "hero": {
+        "title": "Mathura – Vrindavan Tour (2 Nächte – 3 Tage)",
+        "subtitle": "2 Nächte, 3 Tage spirituelle Reise zum Geburtsort von Lord Krishna mit Führungen und kulturellen Erlebnissen",
+        "backgroundImage": "/assets/hero/Mathura-Vrindavan-hero.webp",
+        "meta": {
+          "duration": "3 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Sind Sie bereit, Mathura und Vrindavan zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche spirituelle Reise",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Mathura Vrindavan 2N3D-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Flüge inklusive",
+        "description": "Hin- und Rückflugpreis"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück inklusive"
+      },
+      {
+        "title": "Spirituelle Stätten",
+        "description": "Alle großen Tempel"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Delhi → Fahrt nach Mathura (180 km / 3,5 Stunden) • Lokale Besichtigungen",
+        "description": "Morgens/Mittags Ankunft am Flughafen/Bahnhof Delhi",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Vrindavan- und Govardhan-Tour",
+        "description": "Frühstück im Hotel",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Mathura → Delhi Abreise",
+        "description": "Frühstück im Hotel",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Shri Krishna Jamnabhoomi",
+        "description": "Geburtsort von Lord Krishna",
+        "image": "/assets/destinations/Mathura/Krishna-Jamnabhoomi.webp"
+      },
+      {
+        "title": "Banke-Bihari-Tempel",
+        "description": "Berühmtester Tempel in Vrindavan",
+        "image": "/assets/destinations/Mathura/Banke-Bihari-Temple.webp"
+      },
+      {
+        "title": "Prem Mandir",
+        "description": "Tempel aus weißem Marmor",
+        "image": "/assets/destinations/Mathura/Prem-Mandir.webp"
+      },
+      {
+        "title": "ISKCON-Tempel",
+        "description": "Spirituelles Zentrum",
+        "image": "/assets/destinations/Mathura/ISKCON-Temple.webp"
+      },
+      {
+        "title": "Vishram Ghat",
+        "description": "Abendliches Aarti am Yamuna-Fluss",
+        "image": "/assets/destinations/Mathura/Vishram-Ghat.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Flüge",
+        "description": "Hin- und Rückflugtickets"
+      },
+      {
+        "title": "Frühstück",
+        "description": "Tägliches Frühstück im Hotel"
+      },
+      {
+        "title": "Besichtigung",
+        "description": "Alle Besichtigungstouren"
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Privater Transport im gesamten Gebäude"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Eintrittskarten für den Tempel"
+      },
+      {
+        "title": "Professioneller Führer",
+        "description": "Russisch-/englischsprachiger Reiseführer"
+      },
+      {
+        "title": "Unterkunft",
+        "description": "3-Sterne-Hotel für 2 Nächte"
+      }
+    ]
+  },
+  "Meghalaya-Tour-Package": {
+    "file_name": "Meghalaya-Tour-Package.html",
+    "page": {
+      "slug": "Meghalaya-Tour-Package",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "6N7D Meghalaya-Tourpaket |Schottland des Ostens",
+        "subtitle": "Entdecken Sie das Schottland des Ostens mit lebendigen Wurzelbrücken, kristallklaren Flüssen und Wildtiersafaris",
+        "backgroundImage": "/assets/hero/Meghalaya-hero.webp",
+        "meta": {
+          "duration": "7 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Meghalaya-Abenteuer?",
+      "description": "Buchen Sie jetzt und erkunden Sie das Schottland des Ostens unter fachkundiger Führung",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Meghalaya-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Gruppenreisen",
+        "description": "Geteilte Erlebnisse"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Fahrzeug mit durchgehender Klimaanlage"
+      },
+      {
+        "title": "Die meisten Mahlzeiten",
+        "description": "Frühstück, Mittag- und Abendessen"
+      },
+      {
+        "title": "UNESCO-Weltkulturerbe",
+        "description": "Kaziranga-Nationalpark"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 01",
+        "title": "Ankunft in Guwahati → Shillong",
+        "description": "Abholung vom Flughafen, Fahrt über den Umiam Lake nach Shillong.Shillong-Sightseeing, einschließlich Don-Bosco-Museum und Ward's Lake.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 02",
+        "title": "Cherrapunjee-Ausflug",
+        "description": "Besuchen Sie die Seven Sisters Falls, die Nohkalikai Falls, die Mawsmai Cave und den Garden of Caves.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 03",
+        "title": "Mawlynnong & Dawki",
+        "description": "Besuchen Sie Asiens sauberstes Dorf, die Living Root Bridge, den kristallklaren Fluss Umngot und die Grenze zwischen Indien und Bangladesch.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 04",
+        "title": "Shillong → Kaziranga",
+        "description": "Malerische Fahrt zum Kaziranga-Nationalpark (UNESCO-Weltkulturerbe).Abend zur freien Verfügung.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 05",
+        "title": "Kaziranga-Safari",
+        "description": "Morgendliche Jeep-Safari in Central Range, Dorfspaziergang und Besuch des Teegartens.",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "Day 06",
+        "title": "Kaziranga → Guwahati + Kreuzfahrt",
+        "description": "Fahrt nach Guwahati, abends Kreuzfahrt auf dem Brahmaputra-Fluss (je nach Wetterlage).",
+        "category": "activity"
+      },
+      {
+        "time": "Day 07",
+        "title": "Kamakhya-Tempel → Abreise",
+        "description": "Am frühen Morgen Darshan im Kamakhya-Tempel, Transfer zum Flughafen für den Abflug.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Lebende Wurzelbrücke",
+        "description": "Naturwunder Mawlynnong",
+        "image": "/assets/destinations/Meghalaya/Living Root Bridge.webp"
+      },
+      {
+        "title": "Umngot-Fluss",
+        "description": "Kristallklares Wasser von Dawki",
+        "image": "/assets/destinations/Meghalaya/Umngot River.webp"
+      },
+      {
+        "title": "Seven Sisters Falls",
+        "description": "Majestätischer Wasserfall Cherrapunjee",
+        "image": "/assets/destinations/Meghalaya/Seven Sisters Falls.webp"
+      },
+      {
+        "title": "Kaziranga-Safari",
+        "description": "UNESCO-Weltkulturerbe",
+        "image": "/assets/destinations/Meghalaya/Kaziranga Safari.webp"
+      },
+      {
+        "title": "Brahmaputra-Kreuzfahrt",
+        "description": "Abendliches Flusserlebnis",
+        "image": "/assets/destinations/Meghalaya/Brahmaputra Cruise.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Hotelunterkunft",
+        "description": "6 Übernachtungen im Hotel im Doppelzimmer"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeug für alle Transfers und Besichtigungen"
+      },
+      {
+        "title": "Alle Mahlzeiten",
+        "description": "Tägliches Frühstück, Mittag- und Abendessen inklusive"
+      },
+      {
+        "title": "Kaziranga-Safari",
+        "description": "Jeep-Safari in der Central Range mit Genehmigung"
+      },
+      {
+        "title": "Flusskreuzfahrt",
+        "description": "Kreuzfahrt auf dem Brahmaputra-Fluss (wetterabhängig)"
+      },
+      {
+        "title": "Reiseleiter",
+        "description": "Erfahrener englischsprachiger Reiseführer"
+      }
+    ]
+  },
+  "North-India-Trip": {
+    "file_name": "North-India-Trip.html",
+    "page": {
+      "slug": "North-India-Trip",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Nordindien 10-Tage-Reisepaket |Globales Touristenzentrum",
+        "subtitle": "",
+        "backgroundImage": "/assets/hero/North-india-hero.webp",
+        "meta": {
+          "duration": "10 Tage",
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Nordindien-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Kulturreise",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Nordindien-10-Tage-Paket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "3-Sterne-Hotels",
+        "description": "10 Übernachtungen"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeug im gesamten Gebäude"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Während des Hotelaufenthalts"
+      },
+      {
+        "title": "Tigersafari",
+        "description": "Jeep-Safari in Ranthambore"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Amritsar",
+        "description": "Ankunft in Amritsar.Checken Sie in Ihrem Hotel ein und entspannen Sie sich nach Ihrer Reise.Genießen Sie einen ruhigen Abendspaziergang in der Nähe Ihres Hotels oder entlang der lokalen Märkte.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Amritsar erkunden",
+        "description": "Besuchen Sie den Goldenen Tempel – genießen Sie die ruhige Atmosphäre und bewundern Sie die wunderschöne Architektur.Besuchen Sie Jallianwala Bagh und erfahren Sie mehr über seine historische Bedeutung.Abendlicher Besuch der Wagah-Grenze zur Parade.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Reisen Sie mit dem Zug nach Delhi",
+        "description": "Steigen Sie in Ihren Zug von Amritsar nach Delhi (die Fahrt dauert etwa 6–7 Stunden).Ankunft in Delhi, Checken in Ihrem Hotel und Entspannen.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Delhi entdecken",
+        "description": "Erkunden Sie Alt-Delhi – besuchen Sie das Rote Fort und Chandni Chowk, um einen Eindruck vom lokalen Leben zu bekommen.Besuchen Sie das India Gate und das Gebiet Rashtrapati Bhavan und fahren Sie dann zum Qutb Minar.Genießen Sie Ihr Abendessen in einem beliebten Restaurant in Delhi.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 5",
+        "title": "Delhi nach Agra",
+        "description": "Am frühen Morgen Abfahrt nach Agra auf der Straße (ca. 3–4 Stunden Fahrt).Besuchen Sie das majestätische Taj Mahal.Erkunden Sie das Agra Fort und erfahren Sie mehr über die Geschichte der Moguln.Übernachtung in Agra.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "Fatehpur Sikri und Weiterfahrt nach Jaipur",
+        "description": "Fahren Sie nach Fatehpur Sikri (ca. 1 Stunde von Agra entfernt) und besichtigen Sie dieses UNESCO-Weltkulturerbe.Setzen Sie Ihre Reise nach Jaipur fort (ca. 4–5 Stunden Fahrt).Ankunft in Jaipur und Checken in Ihrem Hotel.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "Stadtrundfahrt durch Jaipur",
+        "description": "Besuchen Sie das Amber Fort;Genießen Sie einen Elefantenritt oder eine Jeepfahrt die Stadtmauer hinauf.Erkunden Sie den Stadtpalast und das Observatorium Jantar Mantar.Schlendern Sie am Hawa Mahal vorbei und kaufen Sie auf den örtlichen Basaren ein.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 8",
+        "title": "Jaipur nach Ranthambore",
+        "description": "Abfahrt von Jaipur nach Ranthambore (ca. 3–4 Stunden Fahrt).Checken Sie in Ihrem Ranthambore Resort ein.Entspannen Sie sich und bereiten Sie sich auf die Safari vor.Genießen Sie einen gemütlichen Abend im Resort.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 9",
+        "title": "Ranthambore-Tigersafari",
+        "description": "Begeben Sie sich auf eine Tigersafari (der Vormittag eignet sich normalerweise am besten für Tierbeobachtungen).Rückkehr zum Resort zum Frühstück/Mittagessen und etwas Auszeit.Entspannen Sie sich im Resort.",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "Day 10",
+        "title": "Abfahrt von Delhi",
+        "description": "Nach dem Frühstück checken Sie aus und fahren nach Delhi.Je nach Flug-/Zugplan können Sie entspannt frühstücken und sich auf den Abflug vorbereiten.Für Ihre Weiterreise begeben Sie sich zum Flughafen/Bahnhof.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Taj Mahal",
+        "description": "Symbol der ewigen Liebe",
+        "image": "/assets/destinations/North India/Taj Mahal.webp"
+      },
+      {
+        "title": "Goldener Tempel",
+        "description": "Spirituelles Herz von Amritsar",
+        "image": "/assets/destinations/North India/Golden Temple.webp"
+      },
+      {
+        "title": "Amber Fort",
+        "description": "Majestätische Rajput-Architektur",
+        "image": "/assets/destinations/North India/Amber Fort.webp"
+      },
+      {
+        "title": "Ranthambore",
+        "description": "Tigerbeobachtungsabenteuer",
+        "image": "/assets/destinations/North India/Ranthambore.webp"
+      },
+      {
+        "title": "Stadtpalast von Jaipur",
+        "description": "Königliches Erbe",
+        "image": "/assets/destinations/North India/jaipur city palace.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "9 Nächte in 3-Sterne-Hotels"
+      },
+      {
+        "title": "Transport",
+        "description": "AC-Fahrzeug während der gesamten Tour"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Während des Hotelaufenthalts"
+      },
+      {
+        "title": "Zugfahrt",
+        "description": "Von Amritsar nach Delhi mit dem Zug"
+      },
+      {
+        "title": "Tigersafari",
+        "description": "Jeep-Safari in Ranthambore"
+      },
+      {
+        "title": "Reiseleiter",
+        "description": "Erfahrene lokale Guides"
+      }
+    ]
+  },
+  "Rajasthan-Trip-Package": {
+    "file_name": "Rajasthan-Trip-Package.html",
+    "page": {
+      "slug": "Rajasthan-Trip-Package",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Rajasthan-Reisepaket – 7-tägiges königliches Rajasthan-Erlebnis |Globales Touristenzentrum",
+        "subtitle": "Entdecken Sie in 7 Tagen die majestätischen Festungen, Paläste und die Kultur Rajasthans",
+        "backgroundImage": "/assets/hero/Rajasthan-hero.webp",
+        "meta": {
+          "duration": "7 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Rajasthan-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für ein unvergessliches königliches Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Rajasthan 7-Tage-Paket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Heritage-Hotels",
+        "description": "6 Übernachtungen"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeug im gesamten Gebäude"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Während des Hotelaufenthalts"
+      },
+      {
+        "title": "Kulturelle Shows",
+        "description": "Traditionelle Aufführungen"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Jaipur",
+        "description": "Ankunft in Jaipur, der Pink City.Checken Sie in Ihrem Hotel ein und entspannen Sie sich nach Ihrer Reise.Erkunden Sie abends die lokalen Märkte rund um Ihr Hotel.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Jaipur erkunden",
+        "description": "Besuchen Sie das prächtige Amber Fort;Genießen Sie einen Elefantenritt die Stadtmauer hinauf.Erkunden Sie den Stadtpalast und das Observatorium Jantar Mantar.Schlendern Sie am Hawa Mahal vorbei und kaufen Sie auf den örtlichen Basaren ein.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Jaipur nach Jodhpur",
+        "description": "Abfahrt von Jaipur nach Jodhpur (ca. 5–6 Stunden Fahrt).Ankunft in Jodhpur, Checken in Ihrem Hotel und Entspannen.Der Abend steht Ihnen zur freien Verfügung, um die lokalen Märkte zu erkunden.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Jodhpur-Stadtrundfahrt",
+        "description": "Besuchen Sie das majestätische Mehrangarh-Fort, eines der größten Forts Indiens.Erkunden Sie Jaswant Thada, die königlichen Kenotaphe.Schlendern Sie durch den geschäftigen Sardar-Markt und das Viertel rund um den Uhrturm.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Jodhpur nach Udaipur",
+        "description": "Abfahrt von Jodhpur nach Udaipur (ca. 5–6 Stunden Fahrt).Ankunft in Udaipur, Checken in Ihrem Hotel und Entspannen.Genießen Sie einen ruhigen Abend am See.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Stadtrundfahrt durch Udaipur",
+        "description": "Besuchen Sie den Stadtpalast, den größten Palastkomplex in Rajasthan.Machen Sie eine Bootsfahrt auf dem Pichola-See und genießen Sie die atemberaubende Aussicht auf den Stadtpalast und Jag Mandir.Erkunden Sie Sahelion-ki-Bari und den Jagdish-Tempel.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 7",
+        "title": "Abfahrt von Udaipur",
+        "description": "Nach dem Frühstück checken Sie aus Ihrem Hotel aus.Je nach Flug-/Zugplan können Sie entspannt frühstücken und sich auf den Abflug vorbereiten.Für Ihre Weiterreise begeben Sie sich zum Flughafen/Bahnhof.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Amber Fort",
+        "description": "Majestätische Rajput-Architektur",
+        "image": "/assets/destinations/Rajasthan/Amber Fort.webp"
+      },
+      {
+        "title": "Mehrangarh-Festung",
+        "description": "Jodhpurs prächtige Festung",
+        "image": "/assets/destinations/Rajasthan/Mehrangarh Fort.webp"
+      },
+      {
+        "title": "Stadtpalast von Udaipur",
+        "description": "Palast am See",
+        "image": "/assets/destinations/Rajasthan/Udaipur City Palace.webp"
+      },
+      {
+        "title": "Blaue Stadt",
+        "description": "Jodhpurs ikonische blaue Häuser",
+        "image": "/assets/destinations/Rajasthan/Blue City.webp"
+      },
+      {
+        "title": "Pichola-See",
+        "description": "Ruhige Bootsfahrten",
+        "image": "/assets/destinations/Rajasthan/Lake Pichola.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Heritage-Hotels",
+        "description": "6 Nächte in historischen Hotels"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeug während der gesamten Tour"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Während des Hotelaufenthalts"
+      },
+      {
+        "title": "Elefantenritt",
+        "description": "Im Amber Fort in Jaipur"
+      },
+      {
+        "title": "Bootsfahrt",
+        "description": "Am Pichola-See in Udaipur"
+      },
+      {
+        "title": "Reiseleiter",
+        "description": "Erfahrene lokale Guides"
+      }
+    ]
+  },
+  "Shimoga-trip-package": {
+    "file_name": "Shimoga-trip-package.html",
+    "page": {
+      "slug": "Shimoga-trip-package",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Shimoga-Reisepaket ab Goa – 1 Nacht/2 Tage Naturflucht |Globales Touristenzentrum",
+        "subtitle": "",
+        "backgroundImage": "/assets/hero/Shimoga-hero.webp",
+        "meta": {
+          "duration": "1 Nacht / 2 Tage",
+          "locations": 5,
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Natur- und Wildtierabenteuer in Shimoga?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für einen unvergesslichen zweitägigen Ausflug ab Goa",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihre Reise von Goa nach Shimoga Nature"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Privater Transport",
+        "description": "AC Innova Crysta"
+      },
+      {
+        "title": "Hotelaufenthalt",
+        "description": "1 Übernachtung"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück und Abendessen"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Beste Aussichtspunkte"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Abfahrt von Goa",
+        "description": "Abholung am frühen Morgen von Ihrem Standort in Goa",
+        "category": "travel"
+      },
+      {
+        "time": "6:30 AM",
+        "title": "Malerische Fahrt",
+        "description": "Genießen Sie die wunderschöne Fahrt durch Western Ghats nach Shimoga",
+        "category": "activity"
+      },
+      {
+        "time": "10:30 AM",
+        "title": "Yana-Höhlen",
+        "description": "Erkunden Sie die einzigartigen Felsformationen und Höhlen von Yana, umgeben von dichtem Wald",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Hotel-Check-in",
+        "description": "Checken Sie in Ihrem Hotel in Shimoga ein und machen Sie sich frisch",
+        "category": "activity"
+      },
+      {
+        "time": "7:00 PM",
+        "title": "Abendessen",
+        "description": "Genießen Sie Ihr Abendessen im Hotel oder in einem lokalen Restaurant",
+        "category": "meal"
+      },
+      {
+        "time": "Day 2",
+        "title": "Morgen",
+        "description": "Erwachen Sie in der wunderschönen Umgebung von Shimoga",
+        "category": "activity"
+      },
+      {
+        "time": "8:30 AM",
+        "title": "Frühstück",
+        "description": "Genießen Sie das Frühstück im Hotel",
+        "category": "meal"
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Shimoga-Safari",
+        "description": "Erleben Sie eine Wildtiersafari in den Wäldern von Shimoga (je nach Verfügbarkeit)",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Aghoreshwara-Tempel",
+        "description": "Besuchen Sie den alten Aghoreshwara-Tempel in Ikkeri",
+        "category": "activity"
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Jog Falls",
+        "description": "Erleben Sie die majestätischen Jog Falls, einen der höchsten Wasserfälle Indiens",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "3:30 PM",
+        "title": "Rückkehr nach Goa",
+        "description": "Beginnen Sie Ihre Reise zurück nach Goa mit wunderschönen Ausblicken auf den Sonnenuntergang",
+        "category": "activity"
+      },
+      {
+        "time": "8:30 PM",
+        "title": "Abgabe",
+        "description": "Rückgabe an Ihrem Standort in Goa",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Yana-Höhlen",
+        "description": "Einzigartige Felsformationen",
+        "image": "/assets/destinations/Shimoga/Yana Caves.webp"
+      },
+      {
+        "title": "Jog Falls",
+        "description": "Indiens höchster Wasserfall",
+        "image": "/assets/destinations/Shimoga/Jog Falls.webp"
+      },
+      {
+        "title": "Shimoga-Wälder",
+        "description": "Wildtier-Safari-Erlebnis",
+        "image": "/assets/destinations/Shimoga/Shimoga Forests.webp"
+      },
+      {
+        "title": "Aghoreshwara-Tempel",
+        "description": "Antike Architektur",
+        "image": "/assets/destinations/Shimoga/Aghoreshwara Temple.webp"
+      },
+      {
+        "title": "Western Ghats",
+        "description": "Malerische Fahrt",
+        "image": "/assets/destinations/Shimoga/Western Ghats.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Privater Transport",
+        "description": "AC Innova Crysta mit erfahrenem Fahrer für die gesamte Reise"
+      },
+      {
+        "title": "Hotelaufenthalt",
+        "description": "1 Übernachtung in Shimoga (Twin-Sharing-Basis)"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Frühstück (Tag 2) und Abendessen (Tag 1) inbegriffen"
+      },
+      {
+        "title": "Eintrittsgelder",
+        "description": "Alle Eintrittsgelder für Denkmäler und Attraktionen sind im Preis inbegriffen"
+      },
+      {
+        "title": "Fotostopps",
+        "description": "Genug Zeit für Fotos an allen malerischen Orten"
+      },
+      {
+        "title": "Reiseleiter",
+        "description": "Kompetenter englischsprachiger Reiseführer während der gesamten Reise"
+      }
+    ]
+  },
+  "sikkim-tour-for-goa": {
+    "file_name": "sikkim-tour-for-goa.html",
+    "page": {
+      "slug": "sikkim-tour-for-goa",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Sikkim-Tour ab Goa – 6 Nächte und 7 Tage |Globales Touristenzentrum",
+        "subtitle": "Entdecken Sie das Land der Klöster, Gletscherseen und atemberaubenden Bergpässe",
+        "backgroundImage": "/assets/hero/Sikkim-hero.webp",
+        "meta": {
+          "duration": "7 Tage",
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Sikkim-Abenteuer?",
+      "description": "Buchen Sie jetzt und erkunden Sie das Himalaya-Paradies unter fachkundiger Führung",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Sikkim-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Personalisierte Erfahrung"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Fahrzeug mit durchgehender Klimaanlage"
+      },
+      {
+        "title": "Alle Mahlzeiten",
+        "description": "Frühstück, Mittag- und Abendessen"
+      },
+      {
+        "title": "Genehmigungen inklusive",
+        "description": "Alle erforderlichen Genehmigungen"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 01",
+        "title": "Ankunft in Bagdogra → Gangtok",
+        "description": "Abholung vom Flughafen, malerische Fahrt nach Gangtok (124 km, 5 Stunden).Abend zur freien Verfügung.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 02",
+        "title": "Tsomgo-See und Baba Mandir",
+        "description": "Ganztägiger Ausflug zum Tsomgo-See (12.400 Fuß) und Baba Harbhajan Singh Mandir.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 03",
+        "title": "Nathula-Pass (optional)",
+        "description": "Besuchen Sie mit Sondergenehmigung die indochinesische Grenze am Nathula Pass (14.140 Fuß).",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 04",
+        "title": "Gangtok → Pelling",
+        "description": "Fahren Sie über Namchi nach Pelling und besuchen Sie Siddheshwar Dham und Char Dham.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 05",
+        "title": "Pelling-Sightseeing",
+        "description": "Besuchen Sie den Khecheopalri-See, das Pemayangtse-Kloster und die Rabdentse-Ruinen.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 06",
+        "title": "Pelling → Darjeeling",
+        "description": "Fahren Sie über die Rimbi-Wasserfälle und den Aussichtspunkt Kanchenjunga nach Darjeeling.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 07",
+        "title": "Tiger Hill Sunrise → Abreise",
+        "description": "Am frühen Morgen Sonnenaufgang auf dem Tiger Hill, Ghoom-Kloster, Transfer zum Flughafen Bagdogra.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Tsomgo-See",
+        "description": "Gletschersee auf 12.400 Fuß Höhe",
+        "image": "/assets/destinations/Sikkim/tsomgo-lake.webp"
+      },
+      {
+        "title": "Nathula-Pass",
+        "description": "Indochinesische Grenze auf 14.140 Fuß",
+        "image": "/assets/destinations/Sikkim/nathula-pass.webp"
+      },
+      {
+        "title": "Pemayangtse-Kloster",
+        "description": "Eines der ältesten Klöster Sikkims",
+        "image": "/assets/destinations/Sikkim/Pemayangtse-Monastery.webp"
+      },
+      {
+        "title": "Khecheopalri-See",
+        "description": "Heiliger See in Pelling",
+        "image": "/assets/destinations/Sikkim/Khecheopalri-Lake.webp"
+      },
+      {
+        "title": "Tiger Hill Sonnenaufgang",
+        "description": "Panoramablick auf den Himalaya",
+        "image": "/assets/destinations/Sikkim/tiger-hill.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Hotelunterkunft",
+        "description": "6 Übernachtungen im Hotel im Doppelzimmer"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeug für alle Transfers und Besichtigungen"
+      },
+      {
+        "title": "Alle Mahlzeiten",
+        "description": "Tägliches Frühstück, Mittag- und Abendessen inklusive"
+      },
+      {
+        "title": "Alle Genehmigungen",
+        "description": "Innerliniengenehmigungen und Sondergebietsgenehmigungen"
+      },
+      {
+        "title": "Sightseeing-Touren",
+        "description": "Alle Besichtigungstouren laut Reiseverlauf"
+      },
+      {
+        "title": "Reiseleiter",
+        "description": "Erfahrener englischsprachiger Reiseführer"
+      }
+    ]
+  },
+  "Tamil-Nadu-trip": {
+    "file_name": "Tamil-Nadu-trip.html",
+    "page": {
+      "slug": "Tamil-Nadu-trip",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "7-tägiges Reisepaket für Tamil Nadu |globales Touristenzentrum",
+        "subtitle": "Erleben Sie auf dieser 7-tägigen Erkundungstour das reiche Erbe, die Tempel und die natürliche Schönheit von Tamil Nadu",
+        "backgroundImage": "/assets/hero/tamil-nadu-hero.webp",
+        "meta": {
+          "duration": "7 Tage",
+          "locations": 15,
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihre Tamil Nadu-Reise?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche 7-tägige Erkundung des kulturellen Erbes von Tamil Nadu",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Tamil Nadu-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 8 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Kabine"
+      },
+      {
+        "title": "Frühstück inklusive",
+        "description": "Tägliches Frühstück"
+      },
+      {
+        "title": "Kulturstätten",
+        "description": "Tempel und Erbe"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Trivandrum und Transfer nach Kanyakumari",
+        "description": "Ankunft am Flughafen Trivandrum und Weiterfahrt nach Kanyakumari (90 km | 2,5 Stunden).Checken Sie in Ihrem Hotel ein.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Kanyakumari-Besichtigung",
+        "description": "Besuchen Sie das Vivekananda-Felsendenkmal, die Thiruvalluvar-Statue und den Kanyakumari-Tempel und genießen Sie den Sonnenuntergang am Kanyakumari-Strand.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Kanyakumari nach Rameshwaram",
+        "description": "Sonnenaufgang am frühen Morgen am Kanyakumari Beach.Nach dem Frühstück fahren Sie nach Rameshwaram (310 km | 6 Std.).Besuchen Sie die Pamban-Brücke, Dr. A.P.J.Abdul Kalam Memorial und Ramanathaswamy-Tempel.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Rameshwaram nach Madurai",
+        "description": "Besuchen Sie Dhanushkodi (Geisterstadt und Aussichtspunkt Adamsbrücke), den Panchmukhi Hanuman-Tempel und den schwimmenden Stein.Fahrt nach Madurai (170 km | 3,5 Std.).Besuchen Sie den Meenakshi-Amman-Tempel, den Thirumalai-Nayakkar-Palast und das Gandhi-Gedenkmuseum.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Von Madurai nach Ooty",
+        "description": "Fahrt nach Ooty (330 km | 7 Stunden über Coimbatore).Genießen Sie die malerische Fahrt durch die Nilgiri Hills.Checken Sie in Ihrem Hotel ein.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Ooty-Sightseeing",
+        "description": "Besuchen Sie den Doddabetta Peak (höchster Punkt in Ooty), die Teefabrik und das Museum, den Botanischen Garten, die Pykara-Wasserfälle und den Pykara-See.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "Von Ooty nach Coonoor und Coimbatore Drop",
+        "description": "Weiterfahrt nach Coonoor mit der Spielzeugeisenbahn (optional) oder dem Taxi.Besuchen Sie Sim's Park und Dolphin's Nose.Weiterfahrt zum Flughafen Coimbatore (85 km | 3 Stunden) zum Abflug.",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Meenakshi-Tempel",
+        "description": "Architektonisches Wunderwerk in Madurai",
+        "image": "/assets/destinations/tamil nadu/Meenakshi Temple.webp"
+      },
+      {
+        "title": "Kanyakumari-Sonnenuntergang",
+        "description": "Wo drei Meere aufeinander treffen",
+        "image": "/assets/destinations/tamil nadu/Kanyakumari Sunset.webp"
+      },
+      {
+        "title": "Ooty Teegärten",
+        "description": "Die Schönheit des Nilgiri-Gebirges",
+        "image": "/assets/destinations/tamil nadu/Ooty Tea Gardens.webp"
+      },
+      {
+        "title": "Rameshwaram-Tempel",
+        "description": "Heiliger Wallfahrtsort",
+        "image": "/assets/destinations/tamil nadu/Rameshwaram Temple.webp"
+      },
+      {
+        "title": "Pykara-Wasserfälle",
+        "description": "Natürliche Schönheit in Ooty",
+        "image": "/assets/destinations/tamil nadu/Pykara Falls.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "3-Sterne-Unterkunft",
+        "description": "Komfortable Hotels für Ihren gesamten Aufenthalt"
+      },
+      {
+        "title": "Frühstück",
+        "description": "Tägliches Frühstück während Ihres Aufenthalts"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Privates Taxi für Transfers und Besichtigungen"
+      },
+      {
+        "title": "Fahrerdienste",
+        "description": "Fahrergebühren, Maut- und Parkgebühren inklusive"
+      },
+      {
+        "title": "Geführte Touren",
+        "description": "Gut geplante Reiseroute mit den wichtigsten Sehenswürdigkeiten"
+      },
+      {
+        "title": "24/7-Support",
+        "description": "Kundenbetreuung während Ihrer gesamten Reise"
+      }
+    ]
+  },
+  "Varanasi-2N3D": {
+    "file_name": "varanasi-2n3d-trip.html",
+    "page": {
+      "slug": "Varanasi-2N3D",
+      "type": "domestic-trip",
+      "hero": {
+        "title": "Varanasi-Reise (2 Nächte – 3 Tage)",
+        "subtitle": "Eine spirituelle Reise in die antike Stadt Varanasi mit Sarnath, Ganga Aarti, Tempeltouren und Ganges-Bootsfahrt",
+        "backgroundImage": "/assets/hero/Varanasi-hero.webp",
+        "meta": {
+          "duration": "2 Nächte / 3 Tage"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Begeben Sie sich auf eine spirituelle Reise nach Varanasi",
+      "description": "Buchen Sie Ihr dreitägiges spirituelles Erlebnis mit zwei Nächten in der antiken Stadt Varanasi.",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für die Varanasi 2N3D-Reise.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Dauer",
+        "description": "2 Nächte / 3 Tage"
+      },
+      {
+        "title": "Unterkunft",
+        "description": "3-Sterne-Hotel"
+      },
+      {
+        "title": "Flüge",
+        "description": "Hin- und Rückflugpreis"
+      },
+      {
+        "title": "Führung",
+        "description": "Russischsprachiger Reiseführer"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Varanasi |Sarnath-Tour |Abends Ganga Aarti",
+        "description": "Morgen",
+        "category": "arrival",
+        "highlight": true
+      },
+      {
+        "time": "Day 2",
+        "title": "Varanasi-Tempeltour |Altstadtrundgang |Bootsfahrt",
+        "description": "Früher Morgen",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Ganga-Besuch (optional) |Abfahrt",
+        "description": "Morgen",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Ganga Aarti",
+        "description": "Spirituelles Abendritual",
+        "image": "/assets/destinations/Varanasi/Ganga-Aarti.webp"
+      },
+      {
+        "title": "Kashi Vishwanath",
+        "description": "Goldener Tempel von Varanasi",
+        "image": "/assets/destinations/Varanasi/Kashi-Vishwanath.webp"
+      },
+      {
+        "title": "Ganges-Bootsfahrt",
+        "description": "Sonnenaufgangserlebnis",
+        "image": "/assets/destinations/Varanasi/Ganga-Boat-Ride.webp"
+      },
+      {
+        "title": "Sarnath",
+        "description": "Buddhas erste Predigt",
+        "image": "/assets/destinations/Varanasi/Sarnath-Stupa.webp"
+      },
+      {
+        "title": "Alte Ghats",
+        "description": "Spirituelle Uferpromenade",
+        "image": "/assets/destinations/Varanasi/Varanasi-Ghats.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Hin- und Rückflugpreis",
+        "description": "Flugtickets von und nach Varanasi."
+      },
+      {
+        "title": "Unterkunft",
+        "description": "2 Nächte in einem 3-Sterne-Hotel in Varanasi."
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Das Frühstück ist jeden Morgen im Hotel inbegriffen."
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Eintrittspreise für Denkmäler und Sehenswürdigkeiten laut Reiseverlauf."
+      },
+      {
+        "title": "Privates AC-Auto",
+        "description": "Privater, klimatisierter Wagen für Flughafentransfers und Besichtigungen."
+      },
+      {
+        "title": "Russischer Reiseführer",
+        "description": "Dienstleistungen eines russischsprachigen Reiseführers während der gesamten Tour."
+      }
+    ]
+  },
+  "3N-4D-thailand-tour-package": {
+    "file_name": "3N-4D-thailand-tour-package.html",
+    "page": {
+      "slug": "3N-4D-thailand-tour-package",
+      "type": "",
+      "hero": {
+        "title": "3N/4T-Reisepaket Bangkok & Pattaya mit 30 % Rabatt nur ab Goa",
+        "subtitle": "Erleben Sie das pulsierende Nachtleben, die wunderschönen Inseln und die kulturellen Wunder Thailands",
+        "backgroundImage": "/assets/hero/Bangkok3-hero.webp",
+        "meta": {
+          "duration": "4 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihren Thailand-Urlaub?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt und sichern Sie sich Ihren Platz für ein fantastisches 4-tägiges Bangkok- und Pattaya-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Bangkok"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "3 Nächte Aufenthalt",
+        "description": "4★ Luxushotels"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "+ Besondere Mahlzeiten"
+      },
+      {
+        "title": "Koralleninsel",
+        "description": "Schnellboottour"
+      },
+      {
+        "title": "Alcazar-Show",
+        "description": "Weltberühmtes Kabarett"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft – Bangkok → Pattaya",
+        "description": "Ankunft am Flughafen Suvarnabhumi.Begrüßung durch unseren Vertreter.Privater Transfer zum Pattaya Hotel.Einchecken und entspannen.Abend: Alcazar-Kabarettshow (mit privatem Transfer).",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Koralleninsel-Tour – Pattaya",
+        "description": "Fahren Sie mit dem Schnellboot zur Coral Island Tour fort.Genießen Sie Wassersportaktivitäten (optional, gegen Aufpreis).Indisches Mittagsbuffet inklusive.Rückkehr zum Hotel und Entspannung.Der Abend steht zur freien Verfügung für Freizeit und Shopping.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Pattaya → Bangkok + Stadtrundfahrt und Dinner-Kreuzfahrt",
+        "description": "Check-out im Pattaya Hotel.Privater Transfer nach Bangkok.Unterwegs genießen Sie eine Stadtrundfahrt durch Bangkok: Besuchen Sie den Golden Buddha Tempel, den Mini Reclining Buddha und die GEMS Gallery.Abend: Flusskreuzfahrt auf dem Chao Phraya mit Abendessen.",
+        "category": "meal",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Bangkok-Abflug",
+        "description": "Frühstück im Hotel.Kasse.Privater Transfer zum Flughafen Suvarnabhumi.Abschied mit schönen Erinnerungen.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Bangkok-Skyline",
+        "description": "Lebendige Hauptstadt",
+        "image": "/assets/destinations/Thailand/Bangkok Cityscape.webp"
+      },
+      {
+        "title": "Koralleninsel",
+        "description": "Kristallklares Wasser",
+        "image": "/assets/destinations/Thailand/Coral Island.webp"
+      },
+      {
+        "title": "Chao Phraya-Fluss",
+        "description": "Erlebnis einer Dinner-Kreuzfahrt",
+        "image": "/assets/destinations/Thailand/Chao Phraya River.webp"
+      },
+      {
+        "title": "Goldener Buddha",
+        "description": "Kulturelles Erbe",
+        "image": "/assets/destinations/Thailand/Golden Buddha.webp"
+      },
+      {
+        "title": "Pattaya-Strand",
+        "description": "Tropisches Paradies",
+        "image": "/assets/destinations/Thailand/Pattaya Beach.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "3 Übernachtungen",
+        "description": "2N Pattaya (4★), 1N Bangkok (4★) in Premium-Hotels"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück in allen Hotels + Sondermahlzeiten inklusive"
+      },
+      {
+        "title": "Koralleninsel-Tour",
+        "description": "Schnellboottour mit indischem Mittagsbuffet"
+      },
+      {
+        "title": "Alcazar-Show",
+        "description": "Weltberühmte Kabarettshow mit privatem Transfer"
+      },
+      {
+        "title": "Bangkok-Stadtrundfahrt",
+        "description": "Goldener Buddha, liegender Mini-Buddha, Edelsteingalerie"
+      },
+      {
+        "title": "Dinner-Kreuzfahrt",
+        "description": "Chao Phraya Flusskreuzfahrt mit Abendessen"
+      }
+    ]
+  },
+  "4N-5D-bangkok-tour-package": {
+    "file_name": "4N-5D-bangkok-tour-package.html",
+    "page": {
+      "slug": "4N-5D-bangkok-tour-package",
+      "type": "",
+      "hero": {
+        "title": "Buchen Sie eine 4N/5D-Reise nach Bangkok und Pattaya mit 30 % Rabatt nur ab Goa",
+        "subtitle": "Erleben Sie in 5 aufregenden Tagen die pulsierenden Städte und tropischen Strände Thailands",
+        "backgroundImage": "/assets/hero/Bangkok-hero.webp",
+        "meta": {
+          "duration": "4 Nächte / 5 Tage",
+          "rating": "4.6/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Thailand-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für ein unvergessliches Südostasien-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Bangkok"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Komfortaufenthalte",
+        "description": "4 Übernachtungen"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Alle Transfers inklusive"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Internationale und lokale Küche"
+      },
+      {
+        "title": "Alle Eintrittskarten",
+        "description": "Wichtige Sehenswürdigkeiten inklusive"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Bangkok",
+        "description": "Ankunft am Flughafen Bangkok.Transfer zum Hotel.Einchecken und entspannen.Abend zur freien Verfügung.Übernachtung im Hotel.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Bangkok-Stadtrundfahrt",
+        "description": "Nach dem Frühstück unternehmen Sie eine Stadtrundfahrt durch Bangkok.Besuchen Sie Wat Traimit (Tempel des Goldenen Buddha), Wat Pho (Tempel des liegenden Buddha), Wat Benchamabophit (Marmortempel) und die Gems Gallery.Abend zur freien Verfügung.Übernachtung im Hotel.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Transfer nach Pattaya und zur Koralleninsel-Tour",
+        "description": "Nach dem Frühstück Check-out und Transfer nach Pattaya.Bei Ihrer Ankunft checken Sie im Hotel ein.Am Nachmittag unternehmen Sie eine Tour zur Koralleninsel mit Mittagessen.Abend zur freien Verfügung.Übernachtung im Hotel.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Safari World und Sri Racha Tiger Zoo",
+        "description": "Nach dem Frühstück unternehmen Sie eine Ganztagestour zum Safari World & Marine Park mit Mittagessen.Später besuchen Sie den Sri Racha Tiger Zoo.Rückkehr zum Hotel.Übernachtung im Hotel.",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Abfahrt",
+        "description": "Nach dem Frühstück checken Sie aus dem Hotel aus.Transfer zum Flughafen Bangkok zum Abflug.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Bangkok-Tempel",
+        "description": "Goldener Buddha und liegender Buddha",
+        "image": "/assets/destinations/Bangkok/Bangkok Temples.webp"
+      },
+      {
+        "title": "Strände von Pattaya",
+        "description": "Entspannung am tropischen Strand",
+        "image": "/assets/destinations/Bangkok/Pattaya Beaches.webp"
+      },
+      {
+        "title": "Koralleninsel",
+        "description": "Kristallklares Wasser",
+        "image": "/assets/destinations/Bangkok/Coral Island.webp"
+      },
+      {
+        "title": "Safari-Welt",
+        "description": "Wildtierabenteuer",
+        "image": "/assets/destinations/Bangkok/Safari World.webp"
+      },
+      {
+        "title": "Sri Racha Tiger Zoo",
+        "description": "Enge Begegnungen mit Tigern",
+        "image": "/assets/destinations/Bangkok/Sri Racha Tiger Zoo.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Hotelunterkunft",
+        "description": "4 Übernachtungen in Qualitätshotels mit täglichem Frühstück"
+      },
+      {
+        "title": "Alle Transfers",
+        "description": "Flughafentransfers und innerstädtischer Transport"
+      },
+      {
+        "title": "Koralleninsel-Tour",
+        "description": "Coral Island-Tour inklusive Mittagessen"
+      },
+      {
+        "title": "Safari-Welt",
+        "description": "Safari World & Marine Park mit Mittagessen"
+      },
+      {
+        "title": "Sri Racha Zoo",
+        "description": "Besuch im Sri Racha Tiger Zoo inklusive"
+      },
+      {
+        "title": "Alle Eintrittskarten",
+        "description": "Alle Eintrittsgebühren für Tempel und Attraktionen"
+      }
+    ]
+  },
+  "hongkong-macau-tour-package": {
+    "file_name": "5n-6d-hongkong-tour-package.html",
+    "page": {
+      "slug": "hongkong-macau-tour-package",
+      "type": "",
+      "hero": {
+        "title": "5 Nächte/6 Tage Hongkong-Tour – 30 % Rabatt nur für Einwohner von Goa",
+        "subtitle": "Erleben Sie die pulsierenden Städte, die atemberaubende Skyline und die kulturellen Wunder von Hongkong und Macau",
+        "backgroundImage": "/assets/hero/HongKong-hero.webp",
+        "meta": {
+          "duration": "6 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihren Kurzurlaub in Hongkong und Macao?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt und sichern Sie sich Ihren Platz für ein fantastisches 6-tägiges Hongkong- und Macao-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Hongkong"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "5 Nächte Aufenthalt",
+        "description": "3N Hongkong + 2N Macau"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Internationale Küche"
+      },
+      {
+        "title": "Fährtransfers",
+        "description": "Hongkong ↔ Macau"
+      },
+      {
+        "title": "Ozeanpark",
+        "description": "Ganztages-Eintrittskarte"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Hongkong |Tag zur freien Verfügung",
+        "description": "Willkommen in Hongkong!Kommen Sie am Hong Kong International Airport an, treffen Sie Ihren Fahrer und lassen Sie sich privat zu Ihrem Hotel bringen.Checken Sie ein und verbringen Sie den Rest des Tages zur freien Verfügung.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Stadtrundfahrt durch Hongkong",
+        "description": "Nach dem Frühstück beginnen Sie Ihre geführte Stadtrundfahrt durch Hongkong.Besuchen Sie die Schule von Yaumatei, den Tin-Hau-Tempel, den West Kowloon Art Park, 1881 Heritage und den Bezirk Tsim Sha Tsui.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Ausflug zum Ocean Park Hong Kong",
+        "description": "Genießen Sie nach dem Frühstück einen Tag voller Spaß im Ocean Park, einem der besten Vergnügungsparks Asiens.Entdecken Sie über 40 Attraktionen in 7 Themenbereichen, darunter Meereslebewesen, aufregende Fahrgeschäfte und Familienunterhaltung.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Transfer nach Macau mit der Fähre |Tag zur freien Verfügung",
+        "description": "Nach dem Frühstück checken Sie aus Ihrem Hotel aus und fahren zum Shun Tak Ferry Pier, wo Sie mit der Fähre nach Macau übersetzen.Nach der Ankunft Transfer zu Ihrem Luxushotel und Check-in. Verbringen Sie den Rest des Tages damit, die Gegend in Ihrem eigenen Tempo zu erkunden.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 5",
+        "title": "Stadtrundfahrt durch Macau",
+        "description": "Genießen Sie nach dem Frühstück eine ganztägige geführte Stadtrundfahrt durch Macau.Besuchen Sie die Ruinen der St. Paul's Cathedral, den Na Tcha Tempel, die Mount Fortress, die Golden Lotus Statue, Lover's Lane, Fisherman's Wharf und die Aussichtsplattform des Macau Tower.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "Abfahrt von Macau → Hongkong",
+        "description": "Nach dem Frühstück checken Sie aus und fahren zum Macau Pier für Ihre Fähre nach Hongkong.Nach Ihrer Ankunft am Shun Tak Ferry Pier treffen Sie Ihren Fahrer und fahren zum Hong Kong International Airport für Ihren Weiterflug.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Skyline von Hongkong",
+        "description": "Ikonisches Stadtbild",
+        "image": "/assets/destinations/HongKong/Hong_Kong_Skyline.webp"
+      },
+      {
+        "title": "Ozeanpark",
+        "description": "Meeresabenteuer",
+        "image": "/assets/destinations/HongKong/Ocean_Park.webp"
+      },
+      {
+        "title": "Victoria Harbour",
+        "description": "Spektakuläre Ausblicke",
+        "image": "/assets/destinations/HongKong/Victoria_Harbour.webp"
+      },
+      {
+        "title": "Ruinen von St. Paul's",
+        "description": "UNESCO-Erbe",
+        "image": "/assets/destinations/HongKong/Macau_Ruins_of_St_Paul.webp"
+      },
+      {
+        "title": "Macau-Turm",
+        "description": "Panoramablick auf die Stadt",
+        "image": "/assets/destinations/HongKong/Macau_Tower.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "5 Übernachtungen",
+        "description": "3N Hongkong + 2N Macau in Premium-Hotels"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück in allen Hotels"
+      },
+      {
+        "title": "Fährtransfers",
+        "description": "Fährtickets Hongkong ↔ Macau"
+      },
+      {
+        "title": "Eintritt in den Ocean Park",
+        "description": "Ganztageskarte für den Ocean Park Hong Kong"
+      },
+      {
+        "title": "Stadtrundfahrten",
+        "description": "Stadtrundfahrten durch Hongkong und Macau"
+      },
+      {
+        "title": "Alle Transfers",
+        "description": "Flughafentransfers und innerstädtischer Transport"
+      }
+    ]
+  },
+  "7n-8d-bhutan-tour-package": {
+    "file_name": "7n-8d-bhutan-tour-package.html",
+    "page": {
+      "slug": "7n-8d-bhutan-tour-package",
+      "type": "",
+      "hero": {
+        "title": "7N/8D Bhutan-Rundreisepaket |Abenteuer im Himalaya-Königreich",
+        "subtitle": "Entdecken Sie das Land des Donnerdrachen – Klöster, Festungen und atemberaubende Landschaften",
+        "backgroundImage": "/assets/hero/Bhutan-hero.webp",
+        "meta": {
+          "duration": "8 Tage",
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Bhutan-Abenteuer?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt und erkunden Sie das mystische Himalaya-Königreich unter fachkundiger Führung",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Bhutan-7N/8D-Rundreisepaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Himalaya-Ansichten",
+        "description": "Atemberaubende Bergkulisse"
+      },
+      {
+        "title": "7 Nächte Aufenthalt",
+        "description": "Komfortable Hotels inklusive"
+      },
+      {
+        "title": "Alle Mahlzeiten",
+        "description": "Frühstück, Mittag- und Abendessen"
+      },
+      {
+        "title": "Genehmigungen inklusive",
+        "description": "Alle erforderlichen Genehmigungen"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft Bagdogra → Phuentsholing",
+        "description": "Treffen am Flughafen Bagdogra, Transfer nach Phuentsholing (165 km, 4 Stunden).Erledigung der Einwanderungsformalitäten, Check-in im Hotel, abends Erkundung des lokalen Marktes.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Phuentsholing → Thimphu",
+        "description": "Malerische Fahrt nach Thimphu (6 Stunden) über Gedu, Chukha und Chuzom.Check-in im Hotel, abends Erkundung der Stadt Thimphu zu Fuß.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 3",
+        "title": "Besichtigung von Thimphu",
+        "description": "Besuchen Sie Buddha Dordenma (den größten sitzenden Buddha der Welt), das Takin-Reservat, den Aussichtspunkt Sangaygang, King's Memorial Chorten und Trashichhoedzong.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Thimphu → Punakha",
+        "description": "Malerische Fahrt über den Dochu La Pass mit 360°-Blick auf den Himalaya und 108 Chörten.Besuchen Sie Punakha Dzong und Chimi Lhakhang (Fruchtbarkeitstempel).",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Punakha → Paro",
+        "description": "Fahrt ins Paro-Tal, Erlebnis auf einem Bauernhof mit Bogenschießen, traditioneller Kleidung und Mittagessen.Besuchen Sie Rinpung Dzong und Ta-Dzong (Nationalmuseum).",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Wanderung zum Tigernest",
+        "description": "Morgenwanderung zum Tigernest-Kloster (Taktsang), das 900 m über dem Paro-Tal liegt.Für einen durchschnittlichen Wanderer dauert die Wanderung bergauf etwa 2 Stunden.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 7",
+        "title": "Paro → Phuentsholing",
+        "description": "Rückfahrt nach Phuentsholing (180 km, 5 Stunden).Der Abend steht Ihnen zur freien Verfügung für Last-Minute-Einkäufe oder Entspannung.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 8",
+        "title": "Phuentsholing → Bagdogra",
+        "description": "Nach dem frühen Frühstück Transfer zum Flughafen Bagdogra.Unterstützung bei Ausreiseformalitäten und Weiterflug.",
+        "category": "activity"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Tigernest-Kloster",
+        "description": "Berühmtes Kloster auf einer Klippe",
+        "image": "/assets/destinations/Bhutan/tigers-nest.webp"
+      },
+      {
+        "title": "Punakha Dzong",
+        "description": "Majestätische Festung am Zusammenfluss des Flusses",
+        "image": "/assets/destinations/Bhutan/Punakha Dzong.webp"
+      },
+      {
+        "title": "Dochu La Pass",
+        "description": "108 Chörten mit Blick auf den Himalaya",
+        "image": "/assets/destinations/Bhutan/Dochu La Pass.webp"
+      },
+      {
+        "title": "Buddha Dordenma",
+        "description": "Die größte sitzende Buddha-Statue der Welt",
+        "image": "/assets/destinations/Bhutan/Buddha Dordenma.webp"
+      },
+      {
+        "title": "Traditionelle Architektur",
+        "description": "Bunte Dzongs und Klöster",
+        "image": "/assets/destinations/Bhutan/Traditional Architecture.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Hotelunterkunft",
+        "description": "7 Übernachtungen im Hotel im Doppelzimmer"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeug für alle Transfers und Besichtigungen"
+      },
+      {
+        "title": "Alle Mahlzeiten",
+        "description": "Tägliches Frühstück, Mittag- und Abendessen inklusive"
+      },
+      {
+        "title": "Alle Genehmigungen",
+        "description": "Einreisegenehmigungen für Bhutan und Sondergebietsgenehmigungen"
+      },
+      {
+        "title": "Sightseeing-Touren",
+        "description": "Alle Besichtigungstouren laut Reiseverlauf"
+      },
+      {
+        "title": "Reiseleiter",
+        "description": "Erfahrener englischsprachiger Reiseführer"
+      }
+    ]
+  },
+  "7n-8d-vietam-tour-package": {
+    "file_name": "7n-8d-vietam-tour-package.html",
+    "page": {
+      "slug": "7n-8d-vietam-tour-package",
+      "type": "",
+      "hero": {
+        "title": "Vietnam 7N8D Tourpaket mit 30 % Rabatt nur ab Goa",
+        "subtitle": "Entdecken Sie Hanoi, Ninh Binh, die Halong-Bucht, Da Nang, Hoi An und Ho-Chi-Minh mit Kreuzfahrten, Touren und Transfers",
+        "backgroundImage": "/assets/hero/Vietnam-7n-hero.webp",
+        "meta": {
+          "duration": "8 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Vietnam-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche 8-tägige Reise durch die Wunder Vietnams",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr 7N/8D Vietnam-Rundreisepaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "7 Nächte Aufenthalt",
+        "description": "3*/4*-Hotels"
+      },
+      {
+        "title": "Ha-Long-Kreuzfahrt",
+        "description": "Deluxe-Zimmer mit Meerblick"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "+ Mahlzeiten auf der Kreuzfahrt"
+      },
+      {
+        "title": "Inlandsflüge",
+        "description": "Im Lieferumfang enthalten"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in der Stadt Ha Noi",
+        "description": "Landung am internationalen Flughafen Noi Bai, Visumabholung, Transfer zum Hotel.Erkunden Sie lokale Sehenswürdigkeiten: Ha Noi Train Street, Ha Noi Kirche, Opernhaus, Hoan-Kiem-See, Ngoc-Son-Tempel.Optionales traditionelles Wasserpuppentheater.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 2",
+        "title": "HOA LU – TAM COC – MUA-HÖHLE",
+        "description": "Ganztagesausflug in die Provinz Ninh Binh.Besuchen Sie die alte Hauptstadt Hoa Lu, fahren Sie mit dem Bambusboot Tam Coc durch ein atemberaubendes Höhlensystem, radeln Sie durch das Dorf und besteigen Sie die Mua-Höhle, um einen Panoramablick auf Tam Coc zu genießen.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "KREUZFAHRT IN DER HA-LONG-BUCHT",
+        "description": "Transfer zur Halong-Bucht, Einstieg in eine Luxuskreuzfahrt.Erkunden Sie die Surprising Cave und besuchen Sie Titop Island zum Schwimmen und Genießen des Panoramablicks.Sonnenuntergangsparty auf dem Sonnendeck, Abendessen an Bord, Übernachtung auf der Kreuzfahrt.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "HA LONG BUCHT – FLUG NACH DA NANG",
+        "description": "Morgendliche Tai-Chi-Sitzung, Kajakfahren zur Erkundung der Bucht, Kochkurs auf der Kreuzfahrt.Ausschiffung und Transfer zum Flughafen Hanoi für den Flug nach Da Nang.Abends Besuch der Drachenbrücke und der Liebesbrücke.",
+        "category": "adventure"
+      },
+      {
+        "time": "Day 5",
+        "title": "BANA HILLS & GOLDENE BRÜCKE",
+        "description": "Fahrt mit der Seilbahn zu den Ba-Na-Hügeln, Besuch der Goldenen Brücke, der Vong-Nguyet-Hügel und der Linh-Ung-Pagode.Spielzone Fantasy Park.Am Abend fahren Sie mit dem Privatwagen in die antike Stadt Hoi An und erkunden die 400 Jahre alte japanische überdachte Brücke und die Phuoc-Kien-Versammlungshalle.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "DA NANG NACH HO CHI MINH",
+        "description": "Frühstück im Hotel, Transfer zum Flughafen und Flug nach Ho-Chi-Minh-Stadt.Einchecken im Hotel.Nachmittags Erkundung der örtlichen Sehenswürdigkeiten: Wiedervereinigungspalast, Kriegsopfermuseum.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "MEKONG-DELTA-TOUR",
+        "description": "Ganztägige Mekong-Delta-Tour nach My Tho.Besuchen Sie die Vinh-Trang-Pagode, eine Sampan-Kreuzfahrt durch vier wunderschöne Inseln, besuchen Sie eine Obstplantage, eine Honigbienenfarm und eine Kokosnuss-Süßigkeitswerkstatt.Radfahren rund um das Dorf Tan Thach.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 8",
+        "title": "CU-CHI-TUNNEL – ABFAHRT",
+        "description": "Besuchen Sie die Cu-Chi-Tunnel – erkunden Sie Tunnelsysteme, versteckte Falltüren und gefährliche Fallen.Verkostung von besonderem Tee und Maniok.Nachmittags einkaufen auf dem Ben-Thanh-Markt.Transfer zum Flughafen für den Rückflug.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Halong-Bucht",
+        "description": "UNESCO-Weltkulturerbe",
+        "image": "/assets/destinations/Vietnam/Ha Long Bay.webp"
+      },
+      {
+        "title": "Goldene Brücke",
+        "description": "Ba Na Hills Marvel",
+        "image": "/assets/destinations/Vietnam/Golden Bridge.webp"
+      },
+      {
+        "title": "Die antike Stadt Hoi An",
+        "description": "Charme der antiken Stadt",
+        "image": "/assets/destinations/Vietnam/Hoi An.webp"
+      },
+      {
+        "title": "Mekong-Delta",
+        "description": "Lebenserfahrung am Fluss",
+        "image": "/assets/destinations/Vietnam/Mekong Delta.webp"
+      },
+      {
+        "title": "Altstadt von Hanoi",
+        "description": "Hauptstadtcharme",
+        "image": "/assets/destinations/Vietnam/Hanoi.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "7 Nächte Aufenthalt",
+        "description": "Komfortable Unterkunft mit täglichem Frühstück"
+      },
+      {
+        "title": "Ha-Long-Kreuzfahrt",
+        "description": "Deluxe-Hütte mit Mahlzeiten und Aktivitäten"
+      },
+      {
+        "title": "Inlandsflüge",
+        "description": "Hanoi nach Da Nang und Da Nang nach Ho Chi Minh"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Tägliches Frühstück + alle Mahlzeiten auf der Halong-Kreuzfahrt"
+      },
+      {
+        "title": "Geführte Touren",
+        "description": "Professionelle englischsprachige lokale Reiseführer"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle aufgeführten Eintrittspreise sind im Preis inbegriffen"
+      }
+    ]
+  },
+  "7N-8D-thailand-tour-package": {
+    "file_name": "7N-8D-thailand-tour-package.html",
+    "page": {
+      "slug": "7N-8D-thailand-tour-package",
+      "type": "",
+      "hero": {
+        "title": "Buchen Sie ein Thailand-7N/8D-Rundreisepaket mit 30 % Rabatt nur ab Goa",
+        "subtitle": "Erleben Sie das Beste von Thailand – Bangkok, Pattaya, Krabi und Phuket auf einer unvergesslichen Reise",
+        "backgroundImage": "/assets/hero/Thailand-hero.webp",
+        "meta": {
+          "duration": "8 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Thailand-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für ein unvergessliches 8-tägiges Thailand-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Thailand-7N/8D-Rundreisepaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "7 Nächte Aufenthalt",
+        "description": "3★ Komforthotels"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "+ Spezielle Mittagessen"
+      },
+      {
+        "title": "Inseltouren",
+        "description": "Korallen- und Phi-Phi-Inseln"
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Alles inklusive"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Bangkok – Transfer nach Pattaya",
+        "description": "Ankunft am Flughafen Suvarnabhumi (BKK).Begrüßung und Begrüßung, gefolgt von einem privaten Transfer nach Pattaya.Check-in in Ihrem Hotel.Verbringen Sie den Rest des Tages zur freien Verfügung.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Koralleninsel-Tour",
+        "description": "Genießen Sie die Coral Island Tour mit dem Schnellboot.Zu den optionalen Aktivitäten gehören Parasailing, Unterwasserwanderungen und Bananenbootfahrten (gegen Aufpreis).Indisches Mittagsbuffet inklusive.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Transfer nach Bangkok – Stadtrundfahrt",
+        "description": "Privater Transfer nach Bangkok.Begeben Sie sich auf die Bangkok City Tour.Besuchen Sie den Golden Buddha Tempel, den Mahaputtram Buddha und die Gems Gallery.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Freizeit/Shopping in Bangkok",
+        "description": "Verbringen Sie den Tag zur freien Verfügung oder genießen Sie optionale Aktivitäten.Optional: Besuchen Sie Safari World & Marine Park.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 5",
+        "title": "Bangkok nach Krabi",
+        "description": "Privater Transfer zum Flughafen Suvarnabhumi und Flug nach Krabi.Nach der Ankunft Transfer zum Hotel.Verbringen Sie den Abend damit, Ao Nang Beach zu erkunden.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "Krabi nach Phuket – Transfer",
+        "description": "Privater Transfer nach Phuket.Check-in in Ihrem Hotel.Freizeit zum Erkunden oder Besuch von Patong Beach/Bangla Road.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "Phi Phi Inseltour",
+        "description": "Genießen Sie eine ganztägige Tour zur Insel Phi Phi mit dem Schnellboot.Mittagsbuffet inklusive.Hinweis: Die Nationalparkgebühren sind nicht inbegriffen.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 8",
+        "title": "Abfahrt von Phuket",
+        "description": "Frühstück im Hotel und Check-out.Privater Transfer zum Flughafen Phuket.Reisen Sie mit unvergesslichen Erinnerungen nach Hause.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Bangkok-Stadtbild",
+        "description": "Lebhafte Hauptstadt mit Tempeln und Wolkenkratzern",
+        "image": "/assets/destinations/Thailand/Bangkok Cityscape.webp"
+      },
+      {
+        "title": "Phi Phi-Inseln",
+        "description": "Atemberaubende Kalksteinfelsen und türkisfarbenes Wasser",
+        "image": "/assets/destinations/Thailand/Phi Phi Islands.webp"
+      },
+      {
+        "title": "Pattaya-Strand",
+        "description": "Berühmtes Strandziel mit pulsierendem Nachtleben",
+        "image": "/assets/destinations/Thailand/Pattaya Beach.webp"
+      },
+      {
+        "title": "Koralleninsel",
+        "description": "Kristallklares Wasser, ideal zum Schnorcheln",
+        "image": "/assets/destinations/Thailand/Coral Island.webp"
+      },
+      {
+        "title": "Goldener Buddha-Tempel",
+        "description": "Prächtige Tempel mit aufwendiger Architektur",
+        "image": "/assets/destinations/Thailand/Golden Buddha Temple.webp"
+      },
+      {
+        "title": "Thailändisches Streetfood",
+        "description": "Köstliche und lebendige kulinarische Erlebnisse",
+        "image": "/assets/destinations/Thailand/Thai Street Food.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "7 Übernachtungen",
+        "description": "2N Pattaya, 2N Bangkok, 1N Krabi, 2N Phuket in 3★ Hotels"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück in allen Hotels + spezielles Mittagsbuffet auf Touren"
+      },
+      {
+        "title": "Inseltouren",
+        "description": "Coral Island Tour & Phi Phi Island Tour mit Mittagessen"
+      },
+      {
+        "title": "Stadtrundfahrt",
+        "description": "Stadtrundfahrt durch Bangkok mit Tempelbesuchen und Edelsteingalerie"
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Alle privaten Transfers gemäß Reiseverlauf"
+      },
+      {
+        "title": "Expertenführer",
+        "description": "Professionelle englischsprachige Reiseleiter für alle Touren"
+      }
+    ]
+  },
+  "8n-9d-turkey-tour-package": {
+    "file_name": "8n-9d-turkey-tour-package.html",
+    "page": {
+      "slug": "8n-9d-turkey-tour-package",
+      "type": "",
+      "hero": {
+        "title": "Türkei 8N/9D-Tourpaket mit 30 % Rabatt nur ab Goa",
+        "subtitle": "Entdecken Sie Istanbul, Kappadokien, Antalya und Pamukkale mit Flügen, Hotels, Touren und privaten Transfers",
+        "backgroundImage": "/assets/hero/Turkey-hero.webp",
+        "meta": {
+          "duration": "9 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Türkei-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche 9-tägige Reise durch die Wunder der Türkei",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr 8N/9D-Tourpaket in der Türkei.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "8 Nächte Aufenthalt",
+        "description": "Komforthotels"
+      },
+      {
+        "title": "Inlandsflüge",
+        "description": "Im Lieferumfang enthalten"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "+ 3 Abendessen"
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Alle Städte"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Istanbul",
+        "description": "Landung am Flughafen Istanbul (IST), Einwanderung und privater Transfer zum Hotel.Einchecken;Tag zur freien Verfügung (Ausruhen, örtliches Café, Abendspaziergang durch Sultanahmet/Taksim).",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Ganztägige Istanbul-Klassiker + Bosporus",
+        "description": "Rundgang durch Sultanahmet: Blaue Moschee, Hippodrom, Hagia Sophia und Topkapı-Palast.Bosporus-Kreuzfahrt: siehe Dolmabahçe-, Ortaköy- und Bosporus-Brücken.Einkaufszeit auf dem Großen Basar.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Fliegen Sie Istanbul → Kappadokien",
+        "description": "Frühstück, Checkout, Flughafentransfer;Fliegen Sie nach ASR/NAV.Panoramastopps: Burg Uçhisar, Devrent-Tal, Monk's Valley.Check-in in Ihrem Höhlen- oder Boutique-Hotel.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Höhepunkte Kappadokiens und unterirdische Stadt",
+        "description": "(Optional vor Sonnenaufgang) Heißluftballon-Erlebnis.Unterirdische Stadt Kaymaklı, Felswohnungen im Dorf Çavuşin.Töpferwerkstatt Avanos und Fluss Kızılırmak.Aussichtspunkt bei Sonnenuntergang.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Fahren Sie Kappadokien → Antalya über Konya",
+        "description": "Malerische Überlandfahrt über Konya (optionaler Kurzbesuch: Mevlana-Museum/Rumis Lodge).Ankunft in Antalya, Check-in.Abendessen im Hotel.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Stadtrundfahrt durch Antalya + Seilbahn",
+        "description": "Rundgang durch Kaleici (Altstadt): Yachthafen, osmanische Häuser, Uhrturm.Hidrink Tower, Fotostopps am Hadrianstor.Fahrt mit der Tünektepe-Seilbahn mit Panoramablick auf die Bucht.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "Tagesausflug nach Pamukkale und Hierapolis",
+        "description": "Ganztägiger Ausflug nach Pamukkale.Spazieren Sie über die Travertinterrassen und erkunden Sie die Ruinen von Hierapolis (Theater, Nekropole, Bäder).Optionales Schwimmen im Kleopatra-Pool.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 8",
+        "title": "Fliegen Sie Antalya → Istanbul",
+        "description": "Frühstück, Check-out, Transfer zum Flughafen Antalya;nach Istanbul fliegen.Transfer zum Hotel;Rest des Tages frei (Empfehlungen: Galata-Turm, Istiklal-Straße, Aussichtspunkt der Camlica-Moschee).",
+        "category": "activity"
+      },
+      {
+        "time": "Day 9",
+        "title": "Abfahrt von Istanbul",
+        "description": "Frühstück, Check-out, privater Transfer zum Flughafen für Ihren Flug nach Indien.Die Tour endet mit wundervollen Erinnerungen.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Istanbul",
+        "description": "Historische Stadt auf zwei Kontinenten",
+        "image": "/assets/destinations/Turkey/Istanbul.webp"
+      },
+      {
+        "title": "Kappadokien",
+        "description": "Heißluftballon-Paradies",
+        "image": "/assets/destinations/Turkey/Cappadocia.webp"
+      },
+      {
+        "title": "Pamukkale",
+        "description": "Cotton Castle-Terrassen",
+        "image": "/assets/destinations/Turkey/Pamukkale.webp"
+      },
+      {
+        "title": "Antalya",
+        "description": "Mittelmeerküste",
+        "image": "/assets/destinations/Turkey/Antalya.webp"
+      },
+      {
+        "title": "Bosporus",
+        "description": "Meerenge zwischen Kontinenten",
+        "image": "/assets/destinations/Turkey/Bosphorus.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "8 Nächte Aufenthalt",
+        "description": "Komfortable Unterkunft mit täglichem Frühstück"
+      },
+      {
+        "title": "Inlandsflüge",
+        "description": "Von Istanbul nach Kappadokien und von Antalya nach Istanbul"
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Flughafentransfers in allen Städten mit erfahrenen Fahrern"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Tägliches Frühstück + 3 Abendessen in Antalya"
+      },
+      {
+        "title": "Geführte Touren",
+        "description": "Professionelle englischsprachige lokale Reiseführer"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle aufgeführten Eintrittspreise sind im Preis inbegriffen"
+      }
+    ]
+  },
+  "baku-tour-package": {
+    "file_name": "baku-tour-package.html",
+    "page": {
+      "slug": "baku-tour-package",
+      "type": "international-trip",
+      "hero": {
+        "title": "6 Nächte/7 Tage Baku-Tourpaket – 30 % Rabatt nur für Einwohner von Goa",
+        "subtitle": "Entdecken Sie die perfekte Mischung aus alter Geschichte und moderner Architektur in der pulsierenden Hauptstadt Aserbaidschans",
+        "backgroundImage": "/assets/hero/Baku-hero.webp",
+        "meta": {
+          "duration": "7 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Aserbaidschan-Abenteuer?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt für Einwohner von Goa und sichern Sie sich Ihren Platz für ein fantastisches 7-tägiges Baku-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr 6N/7D Baku-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "6 Nächte Aufenthalt",
+        "description": "Qualitätshotels"
+      },
+      {
+        "title": "Tägliche Mahlzeiten",
+        "description": "Frühstück, Mittag- und Abendessen"
+      },
+      {
+        "title": "Seilbahnfahrten",
+        "description": "Tufandag & Shahdag"
+      },
+      {
+        "title": "UNESCO-Stätten",
+        "description": "Mehrere Kulturerbestätten"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Baku – Tufandag – Nohur-See – Gabala",
+        "description": "Ankunft am internationalen Flughafen Baku.Treffen Sie Ihren Reisemanager und fahren Sie weiter nach Gabala, einer atemberaubenden Stadt inmitten des Kaukasus.Genießen Sie eine Fahrt mit der Seilbahn zum Tufandag-Berg – Aserbaidschans dritthöchstem Gipfel, der einen spektakulären Panoramablick bietet.Fahren Sie weiter zum Nohur-See, umgeben von üppigen Wäldern, und genießen Sie eine Bootsfahrt mit malerischer Aussicht auf die Berge.Kostenloses alkoholfreies Getränk am Tufandag Mountain.Checken Sie später in Ihrem Hotel in Gabala ein und entspannen Sie sich.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Gabala – Sheki Ausflug – Gabala",
+        "description": "Nach dem Frühstück fahren Sie nach Sheki, einer der ältesten Städte Aserbaidschans.Besuchen Sie den Palast der Sheki Khans, der zum UNESCO-Weltkulturerbe gehört und für seine Buntglasfenster bekannt ist.Erkunden Sie die Kirche von Kish, die vermutlich die erste christliche Kirche im Kaukasus war.Machen Sie einen Fotostopp im Sheki Karvansaray, einem alten Gasthaus an der Seidenstraße.Am Abend kehren Sie nach Gabala zurück.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Gabala – Baku",
+        "description": "Fahren Sie zurück nach Baku, der pulsierenden Hauptstadt Aserbaidschans.Besuchen Sie den Shirvanshah-Palast, ein UNESCO-Weltkulturerbe mit mittelalterlicher islamischer Architektur.Entdecken Sie die Highlights der Stadt Baku – Altstadt (Icherisheher), Jungfrauenturm, Brunnenplatz, Nationalflaggenplatz und Fernsehturm.Erfrischungsgetränk während der Stadtrundfahrt.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Baku – Shahdag – Quba",
+        "description": "Fahren Sie nach Shahdag, einem Paradies für Abenteuer- und Naturliebhaber.Machen Sie eine Fahrt mit der Seilbahn und genießen Sie die atemberaubende Aussicht auf den Großen Kaukasus.Optionale Abenteueraktivitäten (auf eigene Kosten): Skifahren, Paragliding, Snowtubing, Schneemobilfahrten.Weiterfahrt nach Quba, einer bezaubernden Bergstadt.Besuchen Sie Red Village, bekannt als eine der weltweit wenigen rein jüdischen Siedlungen außerhalb Israels.Saft im Red Village.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Quba – Yanar Dag – Ateshgah – Baku",
+        "description": "Abfahrt nach Baku.Unterwegs besuchen Sie Yanar Dag (Brennender Berg), wo ununterbrochen Erdgasflammen brennen.Besuchen Sie den Ateshgah-Feuertempel, einen alten zoroastrischen Tempel, der einst von Mahatma Gandhi besucht wurde.Erkunden Sie das Archäologische und Ethnografische Museum Gala, ein faszinierendes Freilichtmuseum mit einer Geschichte von 5.000 Jahren.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Baku – Qobustan-Nationalpark – Baku",
+        "description": "Besuchen Sie den Qobustan-Nationalpark, ein UNESCO-Weltkulturerbe, das für seine prähistorischen Felszeichnungen und Schlammvulkane bekannt ist.Halten Sie für ein Foto im Heydar Aliyev Centre an, einem architektonischen Meisterwerk von Zaha Hadid.Besuchen Sie das Teppichmuseum, den Highland Park und die berühmten Flame Towers.Abends: Spazieren Sie durch die Nizami-Straße zum Einkaufen und zur Freizeitgestaltung.Erfrischungsgetränk in der Nizami Street.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 7",
+        "title": "Baku – Abreise",
+        "description": "Nach dem Frühstück besuchen Sie die Juma-Moschee in Shamakhi, eine der größten und ältesten Moscheen im Kaukasus.Begeben Sie sich mit wertvollen Erinnerungen zum Abflug zum internationalen Flughafen Baku.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Sheki Khans Palast",
+        "description": "UNESCO-Weltkulturerbe",
+        "image": "/assets/destinations/Baku/Sheki_Khans_Palace.webp"
+      },
+      {
+        "title": "Flammentürme",
+        "description": "Ikonisches Wahrzeichen von Baku",
+        "image": "/assets/destinations/Baku/Flame_Towers.webp"
+      },
+      {
+        "title": "Gobustan-Felszeichnungen",
+        "description": "Antike prähistorische Kunst",
+        "image": "/assets/destinations/Baku/Gobustan_Rock_Carvings.webp"
+      },
+      {
+        "title": "Yanar Dag",
+        "description": "Erdgasflammen",
+        "image": "/assets/destinations/Baku/Yanar_Dag.webp"
+      },
+      {
+        "title": "Shahdag-Berg",
+        "description": "Schönheit des Kaukasusgebirges",
+        "image": "/assets/destinations/Baku/Shahdag_Mountain.webp"
+      },
+      {
+        "title": "Nohur-See",
+        "description": "Ruhiger Bergsee",
+        "image": "/assets/destinations/Baku/Nohur_Lake.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "6 Übernachtungen",
+        "description": "Qualitätshotels in Gabala, Baku und Quba"
+      },
+      {
+        "title": "Tägliche Mahlzeiten",
+        "description": "Frühstück, 5 Mittagessen und 6 Abendessen inbegriffen"
+      },
+      {
+        "title": "Seilbahnfahrten",
+        "description": "Bergbahnen Tufandag oder Shahdag"
+      },
+      {
+        "title": "Bootsfahrt",
+        "description": "Bootsfahrt auf dem Nohur-See mit Blick auf die Berge"
+      },
+      {
+        "title": "Alle Eintrittsgebühren",
+        "description": "Alle Eintrittsgelder für Denkmäler und Attraktionen"
+      },
+      {
+        "title": "Expertenführer",
+        "description": "Englischsprachige Reiseleitung inklusive"
+      },
+      {
+        "title": "Alle Transfers",
+        "description": "Flughafentransfers und innerstädtischer Transport"
+      },
+      {
+        "title": "Reiseversicherung",
+        "description": "Umfassende Reiseversicherung inklusive"
+      }
+    ]
+  },
+  "bali-tour-package": {
+    "file_name": "bali-tour-package.html",
+    "page": {
+      "slug": "bali-tour-package",
+      "type": "",
+      "hero": {
+        "title": "4 Nächte/5 Tage Bali-Luxustour – 30 % Rabatt nur für Einwohner von Goa |Globales Touristenzentrum",
+        "subtitle": "Erleben Sie die Insel der Götter mit atemberaubenden Stränden, kulturellen Wundern und abenteuerlichen Aktivitäten",
+        "backgroundImage": "/assets/hero/Bali-hero.webp",
+        "meta": {
+          "duration": "5 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihren Bali-Urlaub?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt und sichern Sie sich Ihren Platz für ein fantastisches 5-tägiges Bali-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Bali 4N/5D-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "4 Nächte Aufenthalt",
+        "description": "Kuta Beach-Bereich"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Internationale Küche"
+      },
+      {
+        "title": "Wassersport",
+        "description": "Bananenbootfahrt inklusive"
+      },
+      {
+        "title": "Balinesisches Spa",
+        "description": "120-minütige Massage"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Bali – Willkommen auf der Insel der Götter",
+        "description": "Bei Ihrer Ankunft am internationalen Flughafen Denpasar werden Sie von unserem örtlichen Vertreter begrüßt.Transfer zu Ihrem Hotel in Kuta.Checken Sie ein und entspannen Sie sich nach Ihrer Reise.Der Rest des Tages steht Ihnen zur freien Verfügung – erkunden Sie den nahegelegenen Kuta Beach, probieren Sie lokales Streetfood oder besuchen Sie nahegelegene Cafés und Geschäfte.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Halbtägige Benoa Beach-Tour mit Bananenbootfahrt",
+        "description": "Machen Sie sich nach dem Frühstück bereit für einen abenteuerlichen Tag am Tanjung Benoa Beach, einem der besten Wassersportorte Balis.Erleben Sie eine aufregende Bananenbootfahrt und genießen Sie optionale Aktivitäten wie Jetski, Parasailing, Sea Walking und Flying Fish.Entspannen Sie sich in Strandcafés oder genießen Sie frische Meeresfrüchte.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Balinesisches Spa- und Bali-Swing-Erlebnis",
+        "description": "Nach dem Frühstück regenerieren Sie Körper und Geist mit einer 120-minütigen authentischen balinesischen Massage, die für ihre heilenden und entspannenden Eigenschaften bekannt ist.Anschließend geht es weiter nach Ubud zum berühmten Bali Swing-Erlebnis.Genießen Sie atemberaubende Ausblicke auf Reisterrassen und Dschungellandschaften und halten Sie unvergessliche Momente fest.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Ganztägige Inseltour Nusa Penida mit Mittagessen",
+        "description": "Nach dem Frühstück unternehmen Sie einen Ganztagesausflug nach Nusa Penida (Westinseltour) – eine der malerischsten und unberührtesten Inseln Balis.Reisen Sie mit dem Schnellboot von Sanur aus.Erkunden Sie Kelingking Beach (T-Rex-förmige Klippe), Angel's Billabong, Broken Beach und Crystal Bay.Genießen Sie Ihr Mittagessen in einem lokalen Restaurant.",
+        "category": "meal",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Abreise von Bali",
+        "description": "Nach dem Frühstück im Hotel checken Sie aus und fahren zum internationalen Flughafen Ngurah Rai, wo Sie mit schönen Erinnerungen an Bali zurück nach Hause fliegen.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Kuta-Strand",
+        "description": "Berühmter Ort für den Sonnenuntergang",
+        "image": "/assets/destinations/Bali/Kuta_Beach.webp"
+      },
+      {
+        "title": "Nusa Penida",
+        "description": "Dramatische Küste",
+        "image": "/assets/destinations/Bali/Nusa_Penida.webp"
+      },
+      {
+        "title": "Bali-Schaukel",
+        "description": "Ubud-Dschungelabenteuer",
+        "image": "/assets/destinations/Bali/Bali_Swing.webp"
+      },
+      {
+        "title": "Tanjung Benoa",
+        "description": "Wassersportparadies",
+        "image": "/assets/destinations/Bali/Tanjung_Benoa.webp"
+      },
+      {
+        "title": "Reisterrassen von Ubud",
+        "description": "Grüne Landschaften",
+        "image": "/assets/destinations/Bali/Ubud_Rice_Terraces.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "4 Übernachtungen",
+        "description": "3★/4★/5★ Hotels in Kuta je nach Paketauswahl"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück im Hotel"
+      },
+      {
+        "title": "Wassersport",
+        "description": "Benoa Beach-Tour mit Bananenbootfahrt"
+      },
+      {
+        "title": "Balinesisches Spa",
+        "description": "120-minütige authentische balinesische Massage"
+      },
+      {
+        "title": "Nusa Penida-Tour",
+        "description": "Ganztägige Inseltour inklusive Mittagessen"
+      },
+      {
+        "title": "Alle Transfers",
+        "description": "Flughafentransfers und Tourtransporte"
+      }
+    ]
+  },
+  "cambodia-laos-tour-package": {
+    "file_name": "combodia-tour-package.html",
+    "page": {
+      "slug": "cambodia-laos-tour-package",
+      "type": "",
+      "hero": {
+        "title": "8N/9D Kambodscha-Rundreisepaket ab Indien |Exklusive Reise",
+        "subtitle": "Entdecken Sie antike Tempel, üppige Landschaften und ein reiches kulturelles Erbe in zwei unglaublichen südostasiatischen Ländern",
+        "backgroundImage": "/assets/hero/Cambodia-hero.webp",
+        "meta": {
+          "duration": "9 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Kambodscha- und Laos-Abenteuer?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt und sichern Sie sich Ihren Platz für ein fantastisches 9-tägiges Kambodscha- und Laos-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Kambodscha"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "8 Nächte Aufenthalt",
+        "description": "3★/4★ Hotels"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "+ 2 besondere Abendessen"
+      },
+      {
+        "title": "Inlandsflüge",
+        "description": "Vientiane → Phnom Penh → Siem Reap"
+      },
+      {
+        "title": "Angkor Wat",
+        "description": "Sonnenaufgangserlebnis"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Luang Prabang (Laos)",
+        "description": "Treffen Sie bei Ihrer Ankunft am internationalen Flughafen Luang Prabang unseren Vertreter vor Ort.Transfer zu Ihrem Hotel und Check-in.Der Abend steht Ihnen zum Entspannen am Mekong zur freien Verfügung – genießen Sie Cocktails bei Sonnenuntergang in einer Bar am Flussufer.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Luang Prabang Stadt- und Naturtour",
+        "description": "Beginnen Sie eine Stadtrundfahrt mit dem Fahrrad: Besuchen Sie das Royal Palace Museum, Wat Xieng Thong und das Ock Pop Tok Centre.Weiter geht es zu den Kuang-Si-Wasserfällen, dem berühmtesten Wasserfall von Laos.Genießen Sie Schwimmen oder Spaziergänge in der Natur.Der Abend steht Ihnen zur freien Verfügung, um den Nachtmarkt zu erkunden.",
+        "category": "exploration",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Almosenspendezeremonie und Transfer nach Vang Vieng",
+        "description": "Frühmorgens: Nehmen Sie an der Almosenspende-Zeremonie teil, einem traditionellen buddhistischen Ritual.Nach dem Frühstück fahren Sie nach Vang Vieng.Checken Sie in Ihrem Hotel ein und entspannen Sie sich.Abend: Erkunden Sie die örtlichen Höhlen oder genießen Sie den Sonnenuntergang am Nam Song River.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Vang Vieng Abenteuertag",
+        "description": "Erkunden Sie Kalksteinhöhlen, die Blaue Lagune und umliegende Dörfer mit dem Fahrrad.Optionale Aktivitäten: Kajakfahren oder Tubing durch Flusshöhlen.Abend: Genießen Sie die entspannte Atmosphäre am Flussufer mit lokalem Bier und Blick auf den Sonnenuntergang.",
+        "category": "adventure",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Vang Vieng → Vientiane (Hauptstadt von Laos)",
+        "description": "Frühstück und Kasse.Malerische Fahrt nach Vientiane.Besuch: Patuxai (Arc de Triomphe), Pha That Luang Stupa, COPE Centre und Wat Si Saket.Genießen Sie den Abend bei einem Spaziergang entlang des Mekong Riverside Night Market.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Vientiane → Phnom Penh (Kambodscha)",
+        "description": "Frühstück und Transfer zum Flughafen für den Flug nach Phnom Penh.Nach der Ankunft Transfer zum Hotel und Check-in.Nachmittag: Besuchen Sie das Tuol Sheng Genocide Museum und die Choeung Ek Killing Fields.Abendessen im Tree Alliance Restaurant.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 7",
+        "title": "Phnom Penh → Siem Reap",
+        "description": "Frühstück im Hotel.Transfer zum Flughafen und kurzer Flug nach Siem Reap.Ankunft und Check-in im Hotel.Der Nachmittag steht Ihnen zur freien Verfügung – entspannen Sie am Pool oder erkunden Sie den Nachtmarkt von Siem Reap.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 8",
+        "title": "Siem Reap – Angkor-Tempeltour",
+        "description": "Früher Morgen: Besuchen Sie Angkor Wat zum Sonnenaufgang.Erkunden Sie Angkor Thom, den Bayon-Tempel und Ta Prohm (Tomb Raider-Tempel).Nachmittags freier oder optionaler Besuch des schwimmenden Dorfes Tonle Sap Lake.Abends: Shoppen Sie auf dem Alten Markt oder genießen Sie die Pub Street.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 9",
+        "title": "Abfahrt von Siem Reap",
+        "description": "Frühstück im Hotel.Transfer zum internationalen Flughafen Siem Reap für Ihren Rückflug.Die Tour endet mit wunderschönen Erinnerungen an Kambodscha und Laos.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Angkor Wat Sonnenaufgang",
+        "description": "Antiker Tempelkomplex",
+        "image": "/assets/destinations/Cambodia/Angkor_Wat_Sunrise.webp"
+      },
+      {
+        "title": "Kuang Si Wasserfälle",
+        "description": "Das Naturwunder von Laos",
+        "image": "/assets/destinations/Cambodia/Kuang_Si_Waterfalls.webp"
+      },
+      {
+        "title": "Nachtmarkt",
+        "description": "Lokales Kunsthandwerk und Kultur",
+        "image": "/assets/destinations/Cambodia/Luang_Prabang_Night_Market.webp"
+      },
+      {
+        "title": "Ta-Prohm-Tempel",
+        "description": "Dschungelbedeckte Ruinen",
+        "image": "/assets/destinations/Cambodia/Ta_Prohm_Temple.webp"
+      },
+      {
+        "title": "Vang Vieng",
+        "description": "Dramatische Karstlandschaft",
+        "image": "/assets/destinations/Cambodia/Van_Vieng_Landscape.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "8 Übernachtungen",
+        "description": "3★/4★ Hotels in Luang Prabang, Vang Vieng, Vientiane, Phnom Penh, Siem Reap"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück in allen Hotels + 2 besondere Abendessen"
+      },
+      {
+        "title": "Inlandsflüge",
+        "description": "Vientiane → Phnom Penh, Phnom Penh → Siem Reap"
+      },
+      {
+        "title": "Tempeltouren",
+        "description": "Angkor Wat, Bayon-Tempel, Ta Prohm und mehr"
+      },
+      {
+        "title": "Kulturelle Erlebnisse",
+        "description": "Almosenzeremonie, Nachtmärkte, lokale Dörfer"
+      },
+      {
+        "title": "Alle Transfers",
+        "description": "Private AC-Fahrzeugtransfers und Flughafentransfers"
+      }
+    ]
+  },
+  "dubai-tour-package": {
+    "file_name": "dubai-tour-package.html",
+    "page": {
+      "slug": "dubai-tour-package",
+      "type": "",
+      "hero": {
+        "title": "Buchen Sie das Dubai Tour-Paket mit 30 % Rabatt nur ab Goa",
+        "subtitle": "5 Nächte, 6 Tage Erkundung der Wahrzeichen Dubais mit 30 % Rabatt auf das Sonderangebot",
+        "backgroundImage": "/assets/hero/dubai-hero.webp",
+        "meta": {
+          "duration": "6 Tage"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit, Dubai zu erleben?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz mit unserem Sonderangebot von 30 % Rabatt",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Dubai 5N6D-Tourpaket mit 30 % Rabatt.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeuge im gesamten Gebäude"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück und ausgewählte Mahlzeiten"
+      },
+      {
+        "title": "Ikonische Orte",
+        "description": "Alle wichtigen Sehenswürdigkeiten"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Dubai",
+        "description": "Ankunft am Dubai International Airport.Begrüßung durch unseren Vertreter.Transfer zu Ihrem Hotel zum Einchecken.Abend zur freien Verfügung zum Entspannen.Übernachtung in Dubai.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Dubai-Stadtrundfahrt und Burj Khalifa",
+        "description": "Halbtägige Stadtrundfahrt durch Dubai.Besuchen Sie die Jumeirah-Moschee (Fotostopp).Erkunden Sie Jumeirah Beach und Palm Jumeirah.Besuchen Sie Atlantis The Palm (Fotostopp).Aussichtsplattform im 124. Stock des Burj Khalifa.Abend in der Dubai Mall mit Springbrunnenshow.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Aquaventure & Lost Chambers",
+        "description": "Ganzer Tag im Aquaventure Waterpark.Genießen Sie aufregende Wasserrutschen und Fahrgeschäfte.Besuchen Sie das Lost Chambers Aquarium.Privater Zugang zum Strand.Mittagessen im Wasserpark-Restaurant.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Wüstensafari und Dhau-Kreuzfahrt",
+        "description": "Vormittag zur freien Verfügung zum Einkaufen.Nachmittags Wüstensafari mit Dünen-Bashing.Kamelreiten und Sandboarden.Traditionelles BBQ-Abendessen im Wüstencamp.Bauchtanz- und Tanura-Shows.Abendliche Dhau-Kreuzfahrt mit Abendessen.",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Tagesausflug nach Abu Dhabi",
+        "description": "Ganztägige Stadtrundfahrt durch Abu Dhabi.Besuchen Sie die Scheich-Zayid-Moschee.Erkunden Sie den Emirates Palace (Fotostopp).Besuchen Sie Ferrari World (Fotostopp).Fahrt über die Corniche Road.Besuch des Heritage Village.Am Abend kehren Sie nach Dubai zurück.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Abfahrt",
+        "description": "Frühstück im Hotel.Freizeit für Last-Minute-Einkäufe.Transfer zum Flughafen Dubai zum Abflug.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Burj Khalifa",
+        "description": "Das höchste Gebäude der Welt",
+        "image": "/assets/destinations/Dubai/Burj-Khalifa.webp"
+      },
+      {
+        "title": "Wüstensafari",
+        "description": "Dünen-Bashing-Abenteuer",
+        "image": "/assets/destinations/Dubai/Desert-Safari.webp"
+      },
+      {
+        "title": "Dhau-Kreuzfahrt",
+        "description": "Traditionelle Dinner-Kreuzfahrt",
+        "image": "/assets/destinations/Dubai/Dhow-Cruise.webp"
+      },
+      {
+        "title": "Aquaventure",
+        "description": "Aufregender Wasserpark",
+        "image": "/assets/destinations/Dubai/Aquaventure.webp"
+      },
+      {
+        "title": "Große Moschee",
+        "description": "Wahrzeichen von Abu Dhabi",
+        "image": "/assets/destinations/Dubai/Grand-Mosque.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "5 Übernachtungen in 4-Sterne-Hotels mit täglichem Frühstück"
+      },
+      {
+        "title": "Überweisungen",
+        "description": "Alle Flughafentransfers und Besichtigungen in Fahrzeugen mit Klimaanlage"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Tägliches Frühstück, 2 Mittagessen und 2 Abendessen gemäß Reiseplan"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Eintrittskarten für Attraktionen, einschließlich Burj Khalifa, Aquaventure usw."
+      },
+      {
+        "title": "Englischer Reiseführer",
+        "description": "Professioneller englischsprachiger Reiseleiter"
+      },
+      {
+        "title": "Sonderangebot",
+        "description": "30 % Rabatt auf den gesamten Paketpreis"
+      }
+    ]
+  },
+  "georgia-tour-package": {
+    "file_name": "georgia-tour-package.html",
+    "page": {
+      "slug": "georgia-tour-package",
+      "type": "",
+      "hero": {
+        "title": "Georgien-Rundreisepaket ab Indien – Entdecken Sie die Magie des Kaukasus mit dem Global Tourist Center",
+        "subtitle": "Entdecken Sie alte Kirchen, Weinanbaugebiete, Berglandschaften und herzliche Gastfreundschaft im Kaukasus",
+        "backgroundImage": "/assets/hero/Georgia-hero.webp",
+        "meta": {
+          "duration": "8 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Georgia-Abenteuer?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt und sichern Sie sich Ihren Platz für ein fantastisches 8-tägiges Georgia-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Georgia 7N/8D-Tourpaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "7 Nächte Aufenthalt",
+        "description": "Tiflis, Bordschomi, Gudauri"
+      },
+      {
+        "title": "Weinprobe",
+        "description": "7 Premium-Weinproben"
+      },
+      {
+        "title": "Reiten",
+        "description": "Abenteuer am Kakhisi-See"
+      },
+      {
+        "title": "Skikurse",
+        "description": "Skigebiet Gudauri"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Tiflis |Besuch bei Chronicle of Georgia",
+        "description": "Willkommen in Georgien!Treffen Sie bei Ihrer Ankunft am internationalen Flughafen Tiflis Ihren lokalen Reiseleiter und fahren Sie zu Ihrem Hotel.Besuchen Sie anschließend die Chronik Georgiens, einen monumentalen Skulpturenkomplex mit Blick auf das Tiflis-Meer und atemberaubender Aussicht auf die Stadt.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Tour durch die Region Kachetien und Sighnaghi mit 7 Weinproben",
+        "description": "Besuchen Sie die Region Kachetien, Georgiens wichtigstes Weinland.Probieren Sie das traditionelle Churchkhela, beobachten Sie Bäcker bei der Zubereitung von Shoti-Brot, besuchen Sie das Bodbe-Kloster und Sighnaghi (Stadt der Liebe).Beenden Sie die Tour mit 7 Premium-Weinproben in Telavi und erfahren Sie mehr über die alte Qvevri-Weinherstellung.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Transfer nach Bordschomi |Reiten zum Kakhisi-See",
+        "description": "Schauen Sie vorbei und fahren Sie nach Bordschomi, das für seine Mineralquellen bekannt ist.Machen Sie eine Reittour zum Kakhisi-See durch Kiefernwälder und Wiesen des Borjomi-Kharagault-Nationalparks.Genießen Sie die friedliche Aussicht auf den See, bevor Sie zurückkehren, wenn das Abendlicht weicher wird.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Besichtigungstour durch Bordschomi, Rabati und Vardzia",
+        "description": "Erkunden Sie das Stadtzentrum von Bordschomi und genießen Sie den Panoramablick mit der Seilbahn.Weiter geht es zur Rabati-Festung, die christliche und muslimische Einflüsse zeigt.Erkunden Sie anschließend Vardzia, eine Höhlenstadt aus dem 12. Jahrhundert mit Tunneln, Kapellen und einem Fresko der Königin Tamar.Stoppen Sie an der Hertvisi-Festung.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Transfer nach Gudauri |Skikurse",
+        "description": "Nach dem Frühstück fahren Sie über die malerische georgische Militärstraße zum Skigebiet Gudauri.Nach dem Check-in treffen Sie den Skilehrer zum Skikurs für Anfänger.Erlernen Sie grundlegende Techniken wie Gleiten, Wenden und Anhalten auf leichten Pisten mit majestätischem Blick auf die Berge des Kaukasus.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Gudauri- und Kazbegi-Tour |Rückkehr nach Tiflis",
+        "description": "Checken Sie aus und fahren Sie nach Kazbegi.Besuchen Sie die Ananuri-Festung mit Blick auf den Schinwali-Stausee, das georgisch-russische Freundschaftsdenkmal mit 360°-Blick auf die Berge und die Gergety-Dreifaltigkeitskirche, die 2.170 Meter hoch unter dem Berg Kasbek liegt.Rückkehr nach Tiflis.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 7",
+        "title": "Tour durch die Altstadt von Tiflis |Tag zur freien Verfügung",
+        "description": "Geführter Rundgang durch die Altstadt von Tiflis: Narikala-Festung, Friedensbrücke, Rike-Park, Schwefelbadviertel Abanotubani, Metechi-Kirche, Sioni-Kathedrale, Gabriadze-Uhrturm und Meidan-Basar.Erkunden Sie später in Ihrem eigenen Tempo.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 8",
+        "title": "Abfahrt von Tiflis",
+        "description": "Nach dem Frühstück checken Sie aus dem Hotel aus und fahren zum internationalen Flughafen Tiflis für Ihren Heimflug.Ihr georgisches Abenteuer endet mit wunderschönen Erinnerungen.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Altstadt von Tiflis",
+        "description": "Historische Hauptstadt",
+        "image": "/assets/destinations/Georgia/Tbilisi_Old_Town.webp"
+      },
+      {
+        "title": "Weinregion Kachetien",
+        "description": "Weinberge und Weingüter",
+        "image": "/assets/destinations/Georgia/Kakheti_Wine_Region.webp"
+      },
+      {
+        "title": "Gergetische Dreifaltigkeitskirche",
+        "description": "Bergheiligtum",
+        "image": "/assets/destinations/Georgia/Gergeti_Trinity_Church.webp"
+      },
+      {
+        "title": "Höhlenstadt Vardzia",
+        "description": "Altes Kloster",
+        "image": "/assets/destinations/Georgia/Vardzia_Cave_City.webp"
+      },
+      {
+        "title": "Skigebiet Gudauri",
+        "description": "Kaukasus-Gebirge",
+        "image": "/assets/destinations/Georgia/Gudauri_Ski_Resort.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "7 Übernachtungen",
+        "description": "Ausgewählte Hotels in Tiflis, Borjomi, Gudauri"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück in allen Hotels"
+      },
+      {
+        "title": "Weinprobe",
+        "description": "7 Premium-Weinproben in Kachetien"
+      },
+      {
+        "title": "Reiten",
+        "description": "Kakhisi-See-Tour mit Sicherheitsausrüstung"
+      },
+      {
+        "title": "Skikurse",
+        "description": "Skikurse für Anfänger in Gudauri"
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Alle Transfers in einer privaten Klimaanlage-Limousine"
+      }
+    ]
+  },
+  "japan-tour-package": {
+    "file_name": "japan-tour-package.html",
+    "page": {
+      "slug": "japan-tour-package",
+      "type": "",
+      "hero": {
+        "title": "7 Nächte/8 Tage Japan-Luxusreisepaket – 30 % Rabatt nur für Goa",
+        "subtitle": "Erleben Sie die perfekte Mischung aus traditioneller Kultur und moderner Innovation in Tokio, Osaka, Kyoto und darüber hinaus",
+        "backgroundImage": "/assets/hero/Japan-hero.webp",
+        "meta": {
+          "duration": "8 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Japan-Abenteuer?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt und sichern Sie sich Ihren Platz für ein fantastisches 8-tägiges Japan-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Japan-7N/8D-Reisepaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "7 Nächte Aufenthalt",
+        "description": "3N Tokio + 4N Osaka"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "+ Besondere Mahlzeiten inklusive"
+      },
+      {
+        "title": "Hochgeschwindigkeitszug",
+        "description": "Shinkansen-Erlebnis"
+      },
+      {
+        "title": "Berg Fuji",
+        "description": "5. Stationsbesuch"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Tokio |Tag zur freien Verfügung",
+        "description": "Willkommen in Japan!Kommen Sie am internationalen Flughafen Narita an, treffen Sie Ihren Vertreter und fahren Sie mit einer privaten Limousine zu Ihrem Hotel in Tokio.Genießen Sie nach dem Check-in Ihren Tag zur freien Verfügung.Erkunden Sie Ginzas luxuriöse Einkaufsmöglichkeiten, erleben Sie kulturelle Shows im Samurai Theater oder unternehmen Sie einen ruhigen Spaziergang durch den Yoyogi-Park.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Ganztägige Besichtigungstour durch Tokio",
+        "description": "Nach dem Frühstück begeben Sie sich zur LOVE-Skulptur und besteigen einen Bus für eine Stadtrundfahrt durch Tokio.Besuchen Sie den Meiji-Jingu-Schrein, den Kaiserpalast, den Senso-ji-Tempel in Asakusa und den Bezirk Odaiha.Nach der Tour Rückfahrt in Shinjuku und Rückkehr zum Hotel.Mittagessen inklusive.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Ausflug zum Berg Fuji und nach Hakone",
+        "description": "Frühstück im Hotel.Starten Sie von der Shinjuku Love Sculpture zu Ihrer Tagestour zum Berg Fuji und zum Hakone.Besuchen Sie die 5. Station des Fuji, eine Kreuzfahrt auf dem Ashi-See, die Hakone-Seilbahn und das Owakudani-Tal.Anschließend Transfer zum Bahnhof Odawara und Steigen Sie in den Shinkansen zurück nach Tokio.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Tokio → Osaka mit dem Hochgeschwindigkeitszug |Tag zur freien Verfügung",
+        "description": "Checken Sie von Ihrem Hotel in Tokio aus und fahren Sie zum Bahnhof Tokio.Steigen Sie in den Shinkansen nach Osaka.Begeben Sie sich nach Ihrer Ankunft zum Hotel und checken Sie ein. Verbringen Sie Ihren Tag damit, die Burg Osaka, Den Den Town oder Spa World in Ihrem eigenen Tempo zu erkunden.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 5",
+        "title": "Ganztägige Kyoto- und Nara-Tour",
+        "description": "Nach dem Frühstück geht es weiter zum Namba OCAT-Gebäude für eine Kyoto- und Nara-Tour.Besuchen Sie den Kinkaku-ji-Tempel (Goldener Pavillon), den Arashiyama-Bambushain, den Todai-ji-Tempel in Nara und den Nara-Park mit seinen freundlichen, umherstreifenden Hirschen.Mittagsbuffet inklusive.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "Osaka-Rundgang",
+        "description": "Begleiten Sie Ihren Reiseführer im Touristeninformationszentrum von Osaka zu einem Rundgang.Erkunden Sie Shinsekai und Hozenji Yokocho, den Hozenji-Tempel, den Bezirk Dotonbori und die Ebisu-Brücke.Die Tour endet an der Ebisu-Brücke.Erkunden Sie anschließend Osaka auf eigene Faust.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "Tag zur freien Verfügung in Osaka",
+        "description": "Genießen Sie einen entspannten Morgen nach dem Frühstück.Sie können Miraiza Osaka-jo, den Hokoku-Schrein oder den teamLab Botanical Garden besuchen.Ein abendlicher Besuch der Aussichtsplattform Abeno Harukas mit atemberaubendem Blick auf die Stadt ist sehr zu empfehlen.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 8",
+        "title": "Abfahrt von Osaka",
+        "description": "Nach dem Frühstück checken Sie aus und fahren mit einer privaten Limousine zum Kansai International Airport für Ihren Heimflug.Verabschieden Sie sich mit wunderbaren Erinnerungen von Japan!",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Berg Fuji",
+        "description": "Japans heiliger Berg",
+        "image": "/assets/destinations/Japan/Mount_Fuji.webp"
+      },
+      {
+        "title": "Stadtbild von Tokio",
+        "description": "Moderne Metropole",
+        "image": "/assets/destinations/Japan/Tokyo_Cityscape.webp"
+      },
+      {
+        "title": "Kinkaku-ji-Tempel",
+        "description": "Goldener Pavillon",
+        "image": "/assets/destinations/Japan/Kinkaku-ji_Temple.webp"
+      },
+      {
+        "title": "Arashiyama-Bambus",
+        "description": "Kyotos Naturwunder",
+        "image": "/assets/destinations/Japan/Arashiyama_Bamboo_Grove.webp"
+      },
+      {
+        "title": "Burg Osaka",
+        "description": "Historisches Wahrzeichen",
+        "image": "/assets/destinations/Japan/Osaka_Castle.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "7 Übernachtungen",
+        "description": "3N Tokio + 4N Osaka in Luxushotels"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück in allen Hotels + Sondermahlzeiten"
+      },
+      {
+        "title": "Tickets für den Hochgeschwindigkeitszug",
+        "description": "Tokio-Osaka und Odawara-Tokio Shinkansen"
+      },
+      {
+        "title": "Mount Fuji-Tour",
+        "description": "Tagestour zum Berg Fuji und Hakone mit Mittagessen"
+      },
+      {
+        "title": "Kyoto- und Nara-Tour",
+        "description": "Ganztägige Tour mit Mittagsbuffet"
+      },
+      {
+        "title": "Osaka-Rundgang",
+        "description": "Geführte Erkundung der Highlights von Osaka"
+      }
+    ]
+  },
+  "kazakhstan-tour-package": {
+    "file_name": "kazakhstan-tour-package.html",
+    "page": {
+      "slug": "kazakhstan-tour-package",
+      "type": "",
+      "hero": {
+        "title": "4 Nächte/5 Tage Kasachstan-Rundreisepaket – 30 % Rabatt nur für Goans |Globales Touristenzentrum",
+        "subtitle": "Entdecken Sie die Stadt der tausend Farben mit Bergabenteuern, kulturellen Erlebnissen und modernem Charme",
+        "backgroundImage": "/assets/hero/Almaty-hero.webp",
+        "meta": {
+          "duration": "5 Tage",
+          "rating": "4.6/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Almaty-Abenteuer?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt und sichern Sie sich Ihren Platz für ein fantastisches 5-tägiges Almaty-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Reisepaket Kasachstan Almaty 4N/5D.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "4 Nächte Aufenthalt",
+        "description": "3★/4★ Hotels in Almaty"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Internationale Küche"
+      },
+      {
+        "title": "Bergabenteuer",
+        "description": "Shymbulak & Kok Tobe"
+      },
+      {
+        "title": "Seilbahnfahrten",
+        "description": "Gondel und Seilbahn inklusive"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Almaty – „Stadt der tausend Farben“",
+        "description": "Willkommen in Almaty!Treffen Sie bei Ihrer Ankunft am internationalen Flughafen Almaty unseren Vertreter vor Ort, der Ihnen beim Transfer zum Hotel behilflich sein wird.Einchecken im Hotel.Der Rest des Tages steht Ihnen zur freien Verfügung, um Almaty in Ihrem eigenen Tempo zu erkunden.Sie können durch die örtlichen Cafés schlendern, nahegelegene Parks erkunden oder einfach die abendliche Atmosphäre dieser bezaubernden Stadt genießen.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 2",
+        "title": "Schymbulak-Gebirge und Arbat-Straße",
+        "description": "Genießen Sie das Frühstück im Hotel und bereiten Sie sich auf einen Tag in den Bergen vor.Besuchen Sie das Skigebiet Shymbulak (3200 m über dem Meeresspiegel).Machen Sie eine 3-stufige Weltklasse-Gondelfahrt vom Stadtzentrum zum höchsten Punkt des Berges.Genießen Sie atemberaubende Ausblicke, schlürfen Sie einen Kaffee in der höchsten Bar der GUS und erkunden Sie verschiedene Attraktionen.Probieren Sie optionale Abenteueraktivitäten wie Seilrutschen, Paragliding oder Reiten aus.Erkunden Sie anschließend die Arbat-Straße – Almatys lebhafte Fußgängerzone mit Einkaufsmöglichkeiten.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Stadtrundfahrt durch Almaty und Kok-Tobe-Hügel",
+        "description": "Nach dem Frühstück begeben Sie sich auf eine Stadtrundfahrt durch Almaty und erkunden die wichtigsten Sehenswürdigkeiten: First President Park, Platz der Republik und Unabhängigkeitsdenkmal, Staatsoper und Balletttheater, Akademie der Wissenschaften und Abay-Platz sowie Palast der Republik.Am Abend unternehmen Sie eine Fahrt mit der Seilbahn zum Kok Tobe Hill – dem höchsten Punkt der Stadt (1.100 m).Genießen Sie den Panoramablick auf Almaty und die umliegenden Berge.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Grüner Basar und Rakhat-Schokoladenfabrik",
+        "description": "Besuchen Sie den Zelyony Bazaar (Grüner Basar) – einen traditionellen lokalen Markt, auf dem Sie authentische kasachische Kultur erleben und Gewürze, Trockenfrüchte, Kunsthandwerk, Kleidung und Souvenirs kaufen können.Direkt neben dem Markt befindet sich der Rakhat Chocolate Factory Shop, einer der ältesten Schokoladenhersteller Kasachstans.Genießen Sie eine Auswahl an lokal hergestellten Süßigkeiten und Schokoladen.Verbringen Sie später Zeit in Almatys Luxus-Einkaufszentren für Premium-Marken und kulinarische Erlebnisse.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 5",
+        "title": "Abfahrt von Almaty",
+        "description": "Nach dem Frühstück checken Sie aus Ihrem Hotel aus.Transfer zum internationalen Flughafen Almaty für Ihren Heimflug.Reisen Sie mit unvergesslichen Erinnerungen an Kasachstan ab – das Land der landschaftlichen Schönheit, des modernen Charmes und der herzlichen Gastfreundschaft.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Shymbulak-Gebirge",
+        "description": "Blick auf das Bergresort",
+        "image": "/assets/destinations/Almaty/Shymbulak_Mountains.webp"
+      },
+      {
+        "title": "Kok Tobe Hill",
+        "description": "Panoramablick auf die Stadt",
+        "image": "/assets/destinations/Almaty/Kok_Tobe_Hill.webp"
+      },
+      {
+        "title": "Grüner Basar",
+        "description": "Traditioneller Markt",
+        "image": "/assets/destinations/Almaty/Green_Bazaar.webp"
+      },
+      {
+        "title": "Arbat-Straße",
+        "description": "Fußgängereinkaufszone",
+        "image": "/assets/destinations/Almaty/Arbat_Street.webp"
+      },
+      {
+        "title": "Stadtbild von Almaty",
+        "description": "Moderne Stadtansichten",
+        "image": "/assets/destinations/Almaty/Almaty_Cityscape.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "4 Übernachtungen",
+        "description": "3★/4★ Hotels in Almaty je nach Paketauswahl"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück im Hotel"
+      },
+      {
+        "title": "Bergerlebnisse",
+        "description": "Besuch des Skigebiets Shymbulak mit Gondelfahrt"
+      },
+      {
+        "title": "Seilbahnfahrten",
+        "description": "Gondel nach Shymbulak und Seilbahn nach Kok Tobe"
+      },
+      {
+        "title": "Stadtrundfahrt",
+        "description": "Umfassende Stadtrundfahrt durch Almaty"
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Alle Flughafentransfers und Besichtigungen auf privater Basis"
+      }
+    ]
+  },
+  "nepal-tour-package": {
+    "file_name": "nepal-tour-package.html",
+    "page": {
+      "slug": "nepal-tour-package",
+      "type": "",
+      "hero": {
+        "title": "Nepal 6N/7D Tourpaket mit 30 % Rabatt nur ab Goa",
+        "subtitle": "Entdecken Sie das Himalaya-Königreich mit unserem exklusiven 30 % Rabatt-Angebot ab Goa",
+        "backgroundImage": "/assets/hero/Nepal-6N-hero.webp",
+        "meta": {
+          "duration": "7 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Nepal-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Reise durch das Himalaya-Königreich",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr 6N/7D Nepal-Rundreisepaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Personalisierte Erfahrung"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Scorpio SUV inklusive"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "In allen Hotels"
+      },
+      {
+        "title": "Dschungelsafari",
+        "description": "Chitwan-Nationalpark"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Kathmandu",
+        "description": "Ankunft am internationalen Flughafen Tribhuvan.Treffen Sie unseren Vertreter und Transfer zum Hotel.Besuchen Sie nach dem Check-in die Boudhanath Stupa – eine der größten buddhistischen Stupas der Welt.Übernachtung in Kathmandu.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Kathmandu → Chitwan",
+        "description": "Frühstück im Hotel.Fahrt nach Chitwan (ca. 6–7 Stunden).Abends genießen Sie die lebendige Tharu-Kulturshow.Übernachtung in Chitwan.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 3",
+        "title": "Chitwan-Dschungelsafari und Fahrt nach Pokhara",
+        "description": "Jeep-Safari am frühen Morgen im Chitwan-Nationalpark – entdecken Sie Nashörner, Hirsche, exotische Vögel und mit etwas Glück den Bengalischen Tiger.Besuchen Sie das Elefantenzuchtzentrum und das Tharu-Museum.Anschließend Fahrt nach Pokhara (ca. 5–6 Stunden).Der Abend steht Ihnen zur freien Verfügung.Übernachtung in Pokhara.",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Pokhara-Besichtigung",
+        "description": "Frühstück im Hotel.Besichtigungen in Pokhara: Gupteshwor-Höhle, Seti-Schlucht, Phewa-See (optional Bootsfahrt).Der Abend steht zur freien Verfügung für einen Spaziergang am Seeufer.Übernachtung in Pokhara.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 5",
+        "title": "Ganztägige Besichtigung von Pokhara",
+        "description": "Am frühen Morgen fahren Sie nach Sarangkot und genießen einen atemberaubenden Blick auf den Sonnenaufgang über den Annapurna- und Machhapuchhre-Gebirgen.Rückkehr zum Hotel zum Frühstück.Weitere Sehenswürdigkeiten: Bindhyabasini-Tempel, Davis Falls, Gupteshwor-Höhle, Seti-Schlucht.Der Abend steht Ihnen zur freien Verfügung.Übernachtung in Pokhara.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "Pokhara → Kathmandu",
+        "description": "Frühstück im Hotel.Rückfahrt nach Kathmandu (ca. 6–7 Stunden).Besuch: Swayambhunath Stupa (Affentempel) und Kathmandu Durbar Square (UNESCO-Weltkulturerbe).Übernachtung in Kathmandu.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "Abfahrt",
+        "description": "Frühstück im Hotel.Besuchen Sie den Pashupatinath-Tempel, den heiligsten Hindu-Schrein in Nepal.Später Transfer zum internationalen Flughafen Tribhuvan für Ihren Abflug.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Himalaya-Gebirge",
+        "description": "Atemberaubende Ausblicke",
+        "image": "/assets/destinations/Nepal/Himalayan Range.webp"
+      },
+      {
+        "title": "Kathmandu Durbar",
+        "description": "UNESCO-Weltkulturerbe",
+        "image": "/assets/destinations/Nepal/Kathmandu Durbar.webp"
+      },
+      {
+        "title": "Chitwan-Safari",
+        "description": "Wildtierabenteuer",
+        "image": "/assets/destinations/Nepal/Chitwan Safari.webp"
+      },
+      {
+        "title": "Phewa-See",
+        "description": "Pokhara-Gelassenheit",
+        "image": "/assets/destinations/Nepal/Phewa Lake.webp"
+      },
+      {
+        "title": "Kulturerbe",
+        "description": "Alte Traditionen",
+        "image": "/assets/destinations/Nepal/Cultural Heritage.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "6 Übernachtungen",
+        "description": "2 Nächte Kathmandu, 2 Nächte Pokhara, 2 Nächte Chitwan in Qualitätshotels"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Das Frühstück ist während Ihres Aufenthalts in allen Hotels inbegriffen"
+      },
+      {
+        "title": "Flughafentransfers",
+        "description": "Abholung und Rückgabe vom Flughafen mit dem Scorpio-SUV für komfortables Reisen"
+      },
+      {
+        "title": "Expertenführer",
+        "description": "Englischsprachiger Reiseführer während Ihrer Nepalreise"
+      },
+      {
+        "title": "Dschungelsafari",
+        "description": "Jeep-Safari im Chitwan-Nationalpark mit Tierbeobachtungen"
+      },
+      {
+        "title": "Kulturelle Shows",
+        "description": "Erlebnis der Tharu-Kulturshow in Chitwan inklusive"
+      }
+    ]
+  },
+  "Nepal-with-Muktinath": {
+    "file_name": "Nepal-with-Muktinath.html",
+    "page": {
+      "slug": "Nepal-with-Muktinath",
+      "type": "",
+      "hero": {
+        "title": "Nepal 6N/7D Tourpaket mit 30 % Rabatt nur ab Goa",
+        "subtitle": "Eine spirituelle Reise durch den Himalaya mit antiken Tempeln und atemberaubenden Landschaften",
+        "backgroundImage": "/assets/hero/Muktinath-hero.webp",
+        "meta": {
+          "duration": "7 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihre spirituelle Reise nach Nepal?",
+      "description": "Buchen Sie jetzt und erleben Sie die Magie des Himalaya und der heiligen Tempel",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Nepal mit Muktinath-Reisepaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Personalisierte Erfahrung"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Scorpio SUV inklusive"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück in allen Hotels inklusive"
+      },
+      {
+        "title": "Bergblick",
+        "description": "Himalaya-Gebirge"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 01",
+        "title": "Ankunft in Kathmandu",
+        "description": "Ankunft am internationalen Flughafen Tribhuvan.Treffen Sie unseren Vertreter und Transfer zum Hotel.Besuchen Sie nach dem Check-in die Boudhanath Stupa – eine der größten buddhistischen Stupas der Welt.Übernachtung in Kathmandu.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 02",
+        "title": "Kathmandu → Chitwan",
+        "description": "Frühstück im Hotel.Fahrt nach Chitwan (ca. 6–7 Stunden).Abends genießen Sie die lebendige Tharu-Kulturshow.Übernachtung in Chitwan.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 03",
+        "title": "Chitwan-Dschungelsafari und Fahrt nach Pokhara",
+        "description": "Jeep-Safari am frühen Morgen im Chitwan-Nationalpark – entdecken Sie Nashörner, Hirsche, exotische Vögel und mit etwas Glück den Bengalischen Tiger.Besuchen Sie das Elefantenzuchtzentrum und das Tharu-Museum.Anschließend Fahrt nach Pokhara (ca. 5–6 Stunden).Der Abend steht Ihnen zur freien Verfügung.Übernachtung in Pokhara.",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "Day 04",
+        "title": "Pokhara-Besichtigung",
+        "description": "Frühstück im Hotel.Besichtigungen in Pokhara: Gupteshwor-Höhle, Seti-Schlucht, Phewa-See (optional Bootsfahrt).Der Abend steht zur freien Verfügung für einen Spaziergang am Seeufer.Übernachtung in Pokhara.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 05",
+        "title": "Ganztägige Besichtigung von Pokhara",
+        "description": "Am frühen Morgen fahren Sie nach Sarangkot und genießen einen atemberaubenden Blick auf den Sonnenaufgang über den Annapurna- und Machhapuchhre-Gebirgen.Rückkehr zum Hotel zum Frühstück.Weitere Sehenswürdigkeiten: Bindhyabasini-Tempel, Davis Falls, Gupteshwor-Höhle, Seti-Schlucht.Der Abend steht Ihnen zur freien Verfügung.Übernachtung in Pokhara.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 06",
+        "title": "Pokhara → Kathmandu",
+        "description": "Frühstück im Hotel.Rückfahrt nach Kathmandu (ca. 6–7 Stunden).Besuch: Swayambhunath Stupa (Affentempel) und Kathmandu Durbar Square (UNESCO-Weltkulturerbe).Übernachtung in Kathmandu.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 07",
+        "title": "Abfahrt",
+        "description": "Frühstück im Hotel.Besuchen Sie den Pashupatinath-Tempel, den heiligsten Hindu-Schrein in Nepal.Später Transfer zum internationalen Flughafen Tribhuvan für Ihren Abflug.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Muktinath-Tempel",
+        "description": "Heiliger Wallfahrtsort",
+        "image": "/assets/destinations/Nepal/Muktinath Temple.webp"
+      },
+      {
+        "title": "Phewa-See",
+        "description": "Ruhiges Bootserlebnis",
+        "image": "/assets/destinations/Nepal/Phewa Lake.webp"
+      },
+      {
+        "title": "Sarangkot-Sonnenaufgang",
+        "description": "Himalaya-Panorama",
+        "image": "/assets/destinations/Nepal/Sarangkot Sunrise.webp"
+      },
+      {
+        "title": "Pashupatinath-Tempel",
+        "description": "Heiliger Hindu-Tempel",
+        "image": "/assets/destinations/Nepal/Pashupatinath Temple.webp"
+      },
+      {
+        "title": "Bhaktapur Durbar-Platz",
+        "description": "UNESCO-Welterbe",
+        "image": "/assets/destinations/Nepal/Bhaktapur Durbar Square.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "6 Nächte in Qualitätshotels"
+      },
+      {
+        "title": "Flughafentransfers",
+        "description": "Abholung und Rückgabe vom Flughafen mit dem Scorpio SUV"
+      },
+      {
+        "title": "Frühstück inklusive",
+        "description": "Frühstück in allen Hotels"
+      },
+      {
+        "title": "Expertenführer",
+        "description": "Durchgehend englischsprachiger Reiseführer"
+      },
+      {
+        "title": "Dschungelsafari",
+        "description": "Jeep-Safari im Chitwan-Nationalpark"
+      },
+      {
+        "title": "Kulturelle Shows",
+        "description": "Erlebnis der Tharu-Kulturshow"
+      }
+    ]
+  },
+  "phuket-krabi-tour-package": {
+    "file_name": "phuket-krabi-tour-package.html",
+    "page": {
+      "slug": "phuket-krabi-tour-package",
+      "type": "",
+      "hero": {
+        "title": "4N/5D Tourpaket Phuket und Krabi mit 30 % Rabatt nur ab Goa",
+        "subtitle": "Erleben Sie Thailands tropisches Paradies mit unserem exklusiven 30 % Rabatt-Angebot ab Goa",
+        "backgroundImage": "/assets/hero/Phuket-hero.webp",
+        "meta": {
+          "duration": "5 Tage",
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Thailand-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Reise durch Thailands tropisches Paradies",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr 4N/5D Phuket"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Personalisierte Erfahrung"
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Alle Transfers inklusive"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "In allen Hotels"
+      },
+      {
+        "title": "Inseltouren",
+        "description": "Schnellbootausflüge"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft Phuket → Transfer nach Krabi",
+        "description": "Ankunft am internationalen Flughafen Phuket.Treffen und Unterstützen, dann Weiterfahrt mit privatem Transfer zum Hotel in Krabi (ca. 3 Stunden malerische Fahrt).Einchecken im Hotel, Ausruhen und Entspannen.Der Abend steht Ihnen zur freien Verfügung, um den Strand von Aonang und die lokalen Märkte zu erkunden.Übernachtung in Krabi.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Krabi: 4-Inseln-Tour mit dem Schnellboot",
+        "description": "Frühstück im Hotel.Weiterfahrt zur 4-Insel-Tour mit dem Schnellboot mit Mittagessen.Besuchen Sie: Phra Nang Cave Beach – weißer Sandstrand und Höhlenschrein, Chicken Island – einzigartige Felsformation, Tup Island – berühmte Sandbank, die Inseln verbindet, Poda Island – perfekt zum Schwimmen und Entspannen.Rückkehr zum Hotel, Abend zur freien Verfügung.Übernachtung in Krabi.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Krabi → Phuket + Phuket Stadtrundfahrt",
+        "description": "Frühstück und Hotel-Check-out.Privater Transfer von Krabi zum Hotel in Phuket.Unterwegs genießen Sie eine Stadtrundfahrt durch Phuket (privat): Aussichtspunkte von Phuket, Chalong-Tempel, Cashewnussfabrik (Big Buddha ist für Besichtigungen geschlossen).Ankunft im Hotel in Phuket, Einchecken und Entspannen.Der Abend steht Ihnen zur freien Verfügung oder Sie erkunden das Nachtleben von Patong Beach.Übernachtung in Phuket.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Phuket: Phi Phi Island Tour mit dem Schnellboot",
+        "description": "Frühstück im Hotel.Abfahrt zur Phi Phi Island Tour mit dem Schnellboot mit Mittagessen.Besuch: Maya Bay (Außenansicht, wenn geschlossen), Viking Cave, Loh Samah Bay, Monkey Beach, Entspannen und Schwimmen auf Phi Phi Don und Phi Phi Leh.Mittagessen während der Reise inbegriffen.Rückkehr nach Phuket, Abend zur freien Verfügung.Übernachtung in Phuket.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Abfahrt von Phuket",
+        "description": "Frühstück im Hotel.Hotel-Check-out und privater Transfer zum internationalen Flughafen Phuket.Steigen Sie in den Weiterflug mit wunderbaren Erinnerungen an Phuket und Krabi ein.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Phi Phi-Inseln",
+        "description": "Tropisches Paradies",
+        "image": "/assets/destinations/Thailand/Phi Phi Islands.webp"
+      },
+      {
+        "title": "Railay-Strand",
+        "description": "Krabi-Küste",
+        "image": "/assets/destinations/Thailand/Railay Beach.webp"
+      },
+      {
+        "title": "Maya-Bucht",
+        "description": "Berühmter Strand",
+        "image": "/assets/destinations/Thailand/Maya Bay.webp"
+      },
+      {
+        "title": "Phuket-Ansichten",
+        "description": "Malerische Aussichtspunkte",
+        "image": "/assets/destinations/Thailand/Phuket Views.webp"
+      },
+      {
+        "title": "Thailändische Erfahrung",
+        "description": "Kulturelles Eintauchen",
+        "image": "/assets/destinations/Thailand/Thai Experience.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "4 Übernachtungen",
+        "description": "2 Nächte in Krabi (Deluxe-Zimmer) & 2 Nächte in Phuket (Superior-Zimmer mit teilweisem Meerblick)"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Das Frühstück ist während Ihres Aufenthalts in allen Hotels inbegriffen"
+      },
+      {
+        "title": "Inseltouren",
+        "description": "4-Insel-Tour und Phi-Phi-Inseltour mit dem Schnellboot, inklusive Mittagessen"
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Alle privaten Transfers (Flughafen Phuket → Hotel Krabi → Hotel Phuket → Flughafen Phuket)"
+      },
+      {
+        "title": "Stadtrundfahrt",
+        "description": "Phuket City Tour auf dem Weg von Krabi nach Phuket, Transfer mit den wichtigsten Sehenswürdigkeiten"
+      },
+      {
+        "title": "Reiseversicherung",
+        "description": "Obligatorische Unfallversicherung für Ihre Sicherheit"
+      }
+    ]
+  },
+  "singapore-tour-package": {
+    "file_name": "singapore-tour-package.html",
+    "page": {
+      "slug": "singapore-tour-package",
+      "type": "",
+      "hero": {
+        "title": "6N7D Singapur-Tourpaket mit 30 % Rabatt, nur ab Goa",
+        "subtitle": "Erleben Sie das Beste von Singapur und Kuala Lumpur auf einer unvergesslichen Reise",
+        "backgroundImage": "/assets/hero/Singapore-hero.webp",
+        "meta": {
+          "duration": "7 Tage",
+          "rating": "4.8/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Singapur- und Malaysia-Abenteuer?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für ein unvergessliches Südostasien-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Singapur"
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Luxusaufenthalte",
+        "description": "5-Sterne-Unterkunft"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "Bequeme Transfers"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Internationale Küche"
+      },
+      {
+        "title": "Alle Eintrittskarten",
+        "description": "Wichtige Sehenswürdigkeiten inklusive"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Singapur",
+        "description": "Ankunft am Flughafen Changi, der für seine atemberaubende Architektur und Attraktionen bekannt ist.Transfer zu Ihrem Hotel, Check-in und Entspannung nach Ihrer Reise.Abends: Erkunden Sie die nahegelegene Gegend, beispielsweise die Orchard Road zum Einkaufen oder den Clarke Quay für Restaurants und Nachtleben am Flussufer.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Stadtrundfahrt + Singapore Flyer + Gardens by the Bay + Marina Bay Sands SkyPark",
+        "description": "Morgen: Beginnen Sie Ihren Tag mit einer Stadtrundfahrt und besuchen Sie berühmte Sehenswürdigkeiten: Merlion Park für das perfekte Foto mit der berühmten Löwenfischstatue, Chinatown, Little India und Kampong Glam.Nachmittag: Besuchen Sie den Singapore Flyer und genießen Sie atemberaubende Luftaufnahmen der Stadt.Weiter geht es zu den Gardens by the Bay: Erkunden Sie die Wintergärten Flower Dome und Cloud Forest.Spazieren Sie über den OCBC Skyway und genießen Sie den Panoramablick.Bleiben Sie abends für die Garden Rhapsody Light Show.Abend: Besuchen Sie den Marina Bay Sands SkyPark und genießen Sie die atemberaubende Aussicht auf die beleuchtete Skyline der Stadt.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Abenteuer auf der Insel Sentosa",
+        "description": "Morgen: Beginnen Sie Ihre Sentosa-Reise mit einer Hin- und Rückfahrt mit der Seilbahn, die spektakuläre Ausblicke auf die Insel und die Stadt bietet.Besuchen Sie Madame Tussauds Singapur und genießen Sie: Bootsfahrt „Spirit of Singapore“, Ausstellung „Bilder von Singapur“, „Ultimate Film Star Experience“ und Marvel 4D Experience.Nachmittag: Erkunden Sie die Strände von Sentosa oder besuchen Sie SkyHelix Sentosa für eine aufregende Fahrt mit Panoramablick.Abend: Beenden Sie Ihren Tag mit der magischen Licht- und Wassershow „Wings of Time“.",
+        "category": "adventure",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Universal Studios Singapur + Nachtsafari",
+        "description": "Ganztägige Aktivität: Verbringen Sie den Tag in den Universal Studios Singapur.Zu den Highlights gehören: Aufregende Fahrgeschäfte wie „Transformers: The Ride“, „Jurassic Park Rapids Adventure“ und „Revenge of the Mummy“.Familienfreundliche Attraktionen wie Shrek 4D Adventure und Madagascar: A Crate Adventure.Live-Shows und Charakter-Meet-and-Greets.Speisen Sie in Themenrestaurants für ein umfassendes Erlebnis.Abend: Lassen Sie den Tag bei der Night Safari ausklingen, dem ersten Nachtzoo der Welt.Machen Sie eine Straßenbahnfahrt, um nachtaktive Tiere in ihrem natürlichen Lebensraum zu beobachten.Erkunden Sie Wanderwege wie den Leopard Trail oder den Fishing Cat Trail.",
+        "category": "wildlife",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Abfahrt nach Kuala Lumpur",
+        "description": "Morgen: Nach dem Frühstück checken Sie aus Ihrem Hotel aus.Rückfahrt zum Bus und Transfer per Bus nach Kuala Lumpur.",
+        "category": "travel"
+      },
+      {
+        "time": "Day 6",
+        "title": "Stadtrundfahrt durch Kuala Lumpur",
+        "description": "Vormittag: Halbtägige Stadtrundfahrt (4 Stunden, SIC-Basis): Petronas Twin Towers: Halten Sie an, um Fotos der berühmten Zwillingswolkenkratzer zu machen.KL Tower: Besuchen Sie die Aussichtsplattform und genießen Sie den Panoramablick auf die Stadt.Königspalast (Istana Negara): Sehen Sie sich die offizielle Residenz des malaysischen Monarchen an (Fotostopp).Nationalmuseum: Tauchen Sie ein in die reiche Geschichte und Kultur Malaysias.Kwai Chai Hong: Spazieren Sie entlang dieser restaurierten historischen Gasse mit farbenfrohen Wandgemälden und kulturellem Charme.Sultan-Abdul-Samad-Gebäude: Bewundern Sie die maurische Architektur dieses historischen Wahrzeichens.Unabhängigkeitsplatz (Dataran Merdeka): Besuchen Sie die historische Stätte, an der Malaysia seine Unabhängigkeit erklärte.Chocolate Boutique: Probieren und kaufen Sie lokal hergestellte Schokoladenleckereien.Nachmittag: Kehren Sie zum Ausruhen in Ihr Hotel zurück oder erkunden Sie lokale Märkte wie den Central Market oder die Petaling Street auf der Suche nach einzigartigen Souvenirs.Abend: Zur freien Verfügung oder genießen Sie das pulsierende Nachtleben in Kuala Lumpur.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "Ausflug in die Genting Highlands",
+        "description": "Morgen: Besuchen Sie die Batu-Höhlen: Erkunden Sie den berühmten Kalksteinhügel mit einer Reihe von Höhlen und Tempeln, einschließlich des berühmten 272-Stufen-Aufstiegs zum Hindu-Schrein.Fahrt mit der Seilbahn: Fahren Sie mit der Genting Skyway Cable Car, einer der schnellsten und längsten Seilbahnen der Welt, hinauf in die Genting Highlands.Nachmittag: Erkunden Sie die Genting Highlands: Freizeitpark Genting SkyWorlds: Genießen Sie aufregende Fahrgeschäfte und familienfreundliche Attraktionen in diesem Outdoor-Themenpark.Casino de Genting: Versuchen Sie Ihr Glück im einzigen legalen Casino Malaysias (es gelten Altersbeschränkungen).Einkaufen: Stöbern Sie in der großen Auswahl an Einzelhandelsgeschäften in den Genting Highlands Premium Outlets.Abend: Rückkehr nach Kuala Lumpur für die Nacht.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 8",
+        "title": "Abfahrt von Kuala Lumpur",
+        "description": "Morgen: Check-out in Ihrem Hotel.Abhängig von Ihrer Flugzeit können Sie Ihre freie Zeit für Last-Minute-Einkäufe oder einen kurzen Sightseeing-Besuch nahegelegener Sehenswürdigkeiten wie dem KLCC Park nutzen.Abends: Transfer zum Kuala Lumpur International Airport (KLIA) für Ihren Rückflug.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Marina Bay Sands",
+        "description": "Ikonische Skyline von Singapur",
+        "image": "/assets/destinations/Singapore/Marina Bay Sands.webp"
+      },
+      {
+        "title": "Gärten an der Bucht",
+        "description": "Futuristische Gärten",
+        "image": "/assets/destinations/Singapore/Gardens by the Bay.webp"
+      },
+      {
+        "title": "Universal Studios",
+        "description": "Abenteuer zum Thema Film",
+        "image": "/assets/destinations/Singapore/Universal Studios.webp"
+      },
+      {
+        "title": "Petronas Twin Towers",
+        "description": "Wahrzeichen von Kuala Lumpur",
+        "image": "/assets/destinations/Singapore/Petronas Twin Towers.webp"
+      },
+      {
+        "title": "Batu-Höhlen",
+        "description": "Ikonischer Hindu-Schrein",
+        "image": "/assets/destinations/Singapore/Batu Caves.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Luxusunterkunft",
+        "description": "5 Nächte mit Frühstück im Chancellor @ Orchard Hotel in Singapur"
+      },
+      {
+        "title": "Flughafentransfers",
+        "description": "Hin- und Rücktransfer zum Flughafen in Singapur"
+      },
+      {
+        "title": "Stadtrundfahrt",
+        "description": "Stadtrundfahrt durch Singapur mit Flyer, Gardens by the Bay und Marina Bay Sands SkyPark"
+      },
+      {
+        "title": "Sentosa-Abenteuer",
+        "description": "Hin- und Rückfahrt mit der Seilbahn, Madame Tussauds, Spirit of Singapore-Bootsfahrt und Wings of Time-Show"
+      },
+      {
+        "title": "Universal Studios",
+        "description": "Ganzer Tag in den Universal Studios Singapur mit allen Fahrgeschäften und Shows"
+      },
+      {
+        "title": "Nachtsafari",
+        "description": "Nachtsafari-Tour mit privatem Transport"
+      }
+    ]
+  },
+  "sri-lanka-tour-package": {
+    "file_name": "srilanka-tour-package.html",
+    "page": {
+      "slug": "sri-lanka-tour-package",
+      "type": "",
+      "hero": {
+        "title": "7 Nächte/8 Tage Luxusreise durch Sri Lanka – 30 % Rabatt nur für Einwohner von Goa",
+        "subtitle": "Erleben Sie die Perle des Indischen Ozeans mit kulturellen Wundern, Wildtierabenteuern und unberührten Stränden",
+        "backgroundImage": "/assets/hero/SriLanka-hero.webp",
+        "meta": {
+          "duration": "8 Tage",
+          "rating": "4.6/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr Sri Lanka-Abenteuer?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt und sichern Sie sich Ihren Platz für ein fantastisches 8-tägiges Sri Lanka-Erlebnis",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Sri Lanka 7N/8D-Rundreisepaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "7 Nächte Aufenthalt",
+        "description": "Kandy, Nuwara Eliya, Bentota, Colombo"
+      },
+      {
+        "title": "Alle Mahlzeiten inklusive",
+        "description": "Frühstück, Abendessen + 5 indische Mittagessen"
+      },
+      {
+        "title": "Begegnungen mit Wildtieren",
+        "description": "Elefantenwaisenhaus und Schildkrötenbrutstätte"
+      },
+      {
+        "title": "Flusssafari",
+        "description": "Bootssafari auf dem Madu-Fluss"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Sri Lanka – Transfer nach Kandy",
+        "description": "Willkommen in Sri Lanka!Ankunft am internationalen Flughafen Bandaranaike.Treffen Sie Mitreisende und Ihren Reiseleiter.Beginnen Sie Ihre malerische Reise nach Kandy.Unterwegs machen Sie Halt für ein vegetarisches indisches Mittagessen.Checken Sie in Ihrem Hotel ein und entspannen Sie sich.Genießen Sie das Abendessen mit einem kostenlosen Glas südafrikanischem Wein.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Kandy Sightseeing & Kulturerlebnis",
+        "description": "Besuchen Sie das Elefantenwaisenhaus Pinnawela, den Gewürzgarten, den Tempel der heiligen Zahnreliquie, die Batikfabrik, das Edelsteinmuseum und die Spielhalle.Genießen Sie eine Stadtrundfahrt durch Kandy, gefolgt von einer traditionellen Kulturshow mit Kandyan-Tänzern.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Kandy → Nuwara Eliya (Das kleine England)",
+        "description": "Reisen Sie durch üppige grüne Hügel nach Nuwara Eliya.Besuchen Sie den Aussichtspunkt Ramboda Falls, den Hanuman-Tempel, das Labookellie Tea Estate & Factory mit High Tea in der Damro Tea Lounge.Erkunden Sie den Gregory Lake, den Gregory Park und den Sita-Amman-Tempel.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Nuwara Eliya → Bentota (Strandparadies)",
+        "description": "Fahren Sie in Richtung Bentota, einer ruhigen Küstenstadt, die für ihre goldenen Strände und Wassersportarten bekannt ist.Unterwegs machen Sie eine Mittagspause.Bei Ihrer Ankunft checken Sie in Ihrem Strandresort ein.Entspannen Sie sich und genießen Sie die Freizeit am Meer.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 5",
+        "title": "Bentota – Galle Ausflug – Bentota",
+        "description": "Genießen Sie Wassersport am Bentota River.Machen Sie eine Bootssafari auf dem Madu River durch Mangroven und besuchen Sie die Schildkrötenaufzuchtstation.Weiterfahrt nach Galle, um das Dutch Fort und das Maritime Museum zu besuchen.Rückkehr zur besonderen Musiksession mit Snacks und alkoholfreien Getränken.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "Bentota → Stadtrundfahrt durch Colombo",
+        "description": "Fahren Sie nach Colombo, der kosmopolitischen Hauptstadt Sri Lankas.Besuchen Sie den Gangaramaya-Tempel, Galle Face Green, den Viharamahadevi-Park, die Independence Memorial Hall, den Dutch Hospital Complex und den Marina Park.Checken Sie im Hotel ein.Der Abend steht zur freien Verfügung für Shopping oder Nachtleben.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 7",
+        "title": "Colombo-Freizeittag",
+        "description": "Genießen Sie nach dem Frühstück Last-Minute-Einkäufe oder Freizeit.Erkunden Sie Colombos Märkte und Einkaufszentren oder entspannen Sie in Ihrem Hotel.Optionale Casino- oder Rooftop-Bar-Besuche am Abend.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 8",
+        "title": "Abfahrt von Colombo",
+        "description": "Nach dem Frühstück checken Sie aus dem Hotel aus.Begeben Sie sich zum internationalen Flughafen Bandaranaike und kehren Sie mit wertvollen Erinnerungen an Sri Lanka zurück!",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Sigiriya-Felsen",
+        "description": "Alte Festung",
+        "image": "/assets/destinations/SriLanka/Sigiriya_Rock_Fortress.webp"
+      },
+      {
+        "title": "Tempel des Heiligen Zahns",
+        "description": "Buddhistischer Schrein",
+        "image": "/assets/destinations/SriLanka/Kandy_Temple.webp"
+      },
+      {
+        "title": "Teeplantagen",
+        "description": "Nuwara Eliya-Hügel",
+        "image": "/assets/destinations/SriLanka/Tea_Plantations.webp"
+      },
+      {
+        "title": "Bentota-Strand",
+        "description": "Goldener Sand",
+        "image": "/assets/destinations/SriLanka/Bentota_Beach.webp"
+      },
+      {
+        "title": "Elefantenwaisenhaus",
+        "description": "Pinnawela-Heiligtum",
+        "image": "/assets/destinations/SriLanka/Elephant_Orphanage.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "7 Übernachtungen",
+        "description": "3★/4★ Hotels in Kandy, Nuwara Eliya, Bentota, Colombo"
+      },
+      {
+        "title": "Alle Mahlzeiten",
+        "description": "Tägliches Frühstück, Abendessen + 5 indische Mittagessen"
+      },
+      {
+        "title": "Alle Transfers",
+        "description": "AC-Fahrzeug für alle Transfers und Besichtigungen"
+      },
+      {
+        "title": "Wildtiererlebnisse",
+        "description": "Besuche im Elefantenwaisenhaus und der Schildkrötenaufzuchtstation"
+      },
+      {
+        "title": "Flusssafari",
+        "description": "Bootssafari auf dem Madu River inklusive"
+      },
+      {
+        "title": "Kulturelle Shows",
+        "description": "Kandyan-Kulturshow und besonderer Musikabend"
+      }
+    ]
+  },
+  "turkey-tour-package": {
+    "file_name": "turkey-tour-package.html",
+    "page": {
+      "slug": "turkey-tour-package",
+      "type": "",
+      "hero": {
+        "title": "Buchen Sie ein 5N/6D-Türkei-Rundreisepaket mit 30 % Rabatt nur ab Goa",
+        "subtitle": "Von den Feenkaminen Kappadokiens bis zu den historischen Wundern Istanbuls",
+        "backgroundImage": "/assets/hero/Turkey2-hero.webp",
+        "meta": {
+          "duration": "6 Tage",
+          "rating": "4.9/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit für Ihr türkisches Abenteuer?",
+      "description": "Buchen Sie jetzt mit 30 % Rabatt und sichern Sie sich Ihren Platz für eine erstaunliche 6-tägige Kulturreise durch die Türkei",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Türkei-Rundreisepaket mit 5 Übernachtungen und 6 Tagen.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "5 Nächte Aufenthalt",
+        "description": "4★ Premium-Hotels"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "+ Besondere Abendessen"
+      },
+      {
+        "title": "Bosporus-Kreuzfahrt",
+        "description": "Luxus-Bootstour"
+      },
+      {
+        "title": "Historische Stätten",
+        "description": "Paläste und Moscheen"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Istanbul – Stadtrundfahrt",
+        "description": "Ankunft am Flughafen Istanbul.Treffen und Begrüßen, gefolgt von einer halbtägigen Stadtrundfahrt mit Besuch des Hippodroms, der Blauen Moschee und des Topkapi-Palastes.Check-in in Ihrem Hotel.",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Bosporus-Kreuzfahrt und Gewürzbasar",
+        "description": "Genießen Sie eine ganztägige Bosporus-Kreuzfahrt mit einem Luxusboot.Besuchen Sie den Gewürzbasar (ägyptischer Basar).Erkunden Sie die asiatische Seite von Istanbul mit dem Aussichtspunkt Camlica Hill.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Von Istanbul nach Kappadokien",
+        "description": "Transfer zum Flughafen und Flug nach Kappadokien.Ankunft und Check-in in Ihrem einzigartigen Höhlenhotel.Der Abend steht Ihnen zur freien Verfügung, um die magische Landschaft zu erkunden.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 4",
+        "title": "Kappadokien Nordtour",
+        "description": "Ganztägige Nordkappadokien-Tour: Besuchen Sie das Devrent-Tal, Pasabag (Mönchstal), das Töpferdorf Avanos, das Göreme-Freilichtmuseum und die Burg Uchisar.",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 5",
+        "title": "Kappadokien nach Istanbul",
+        "description": "Morgenflug zurück nach Istanbul.Einchecken im Hotel.Freier Tag zum Einkaufen auf dem Großen Basar oder für optionale Aktivitäten.",
+        "category": "activity"
+      },
+      {
+        "time": "Day 6",
+        "title": "Abfahrt von Istanbul",
+        "description": "Frühstück im Hotel und Check-out.Privater Transfer zum Flughafen Istanbul.Reisen Sie mit unvergesslichen Erinnerungen an die Türkei nach Hause.",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Istanbul-Skyline",
+        "description": "Wo Osten auf Westen trifft",
+        "image": "/assets/destinations/Turkey/Istanbul.webp"
+      },
+      {
+        "title": "Kappadokien",
+        "description": "Feenkamine",
+        "image": "/assets/destinations/Turkey/Cappadocia.webp"
+      },
+      {
+        "title": "Blaue Moschee",
+        "description": "Architektonisches Wunder",
+        "image": "/assets/destinations/Turkey/Blue Mosque.webp"
+      },
+      {
+        "title": "Bosporus-Kreuzfahrt",
+        "description": "Zwischen Kontinenten",
+        "image": "/assets/destinations/Turkey/Bosphorus.webp"
+      },
+      {
+        "title": "Großer Basar",
+        "description": "Historischer Marktplatz",
+        "image": "/assets/destinations/Turkey/Grand Bazaar.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "5 Übernachtungen",
+        "description": "3N Istanbul, 2N Kappadokien in 4★ Premium-Hotels"
+      },
+      {
+        "title": "Tägliches Frühstück",
+        "description": "Frühstück in allen Hotels + spezielle türkische Abendessen"
+      },
+      {
+        "title": "Inlandsflüge",
+        "description": "Hin- und Rückflug von Istanbul nach Kappadokien"
+      },
+      {
+        "title": "Bosporus-Kreuzfahrt",
+        "description": "Luxus-Bootstour zwischen Europa und Asien"
+      },
+      {
+        "title": "Alle Sehenswürdigkeiten",
+        "description": "Geführte Touren zu den Highlights von Istanbul und Kappadokien"
+      },
+      {
+        "title": "Alle Transfers",
+        "description": "Flughafentransfers und innerstädtischer Transport"
+      }
+    ]
+  },
+  "Vietnam-tour-package-from-goa": {
+    "file_name": "Vietnam-tour-package-from-goa.html",
+    "page": {
+      "slug": "Vietnam-tour-package-from-goa",
+      "type": "",
+      "hero": {
+        "title": "Kulturelle und landschaftliche Reise durch Vietnam",
+        "subtitle": "5 Nächte, 6 Tage Erkundung von Hanoi, der Halong-Bucht, Da Nang und Hoi An mit geführten Touren und kulturellen Erlebnissen",
+        "backgroundImage": "/assets/hero/Vietnam-hero.webp",
+        "meta": {
+          "duration": "6 Tage",
+          "rating": "4.7/5 Rating"
+        }
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "Bereit, Vietnam zu erkunden?",
+      "description": "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Kulturreise durch Vietnam",
+      "contact": {
+        "whatsapp": {
+          "number": "+919067972295",
+          "message": "Hallo!Ich interessiere mich für Ihr Vietnam 5N6D-Reisepaket.Bitte senden Sie mir Einzelheiten zu."
+        },
+        "phone": "+919067972295"
+      }
+    },
+    "quickInfo": [
+      {
+        "title": "Kleine Gruppen",
+        "description": "Maximal 15 Reisende"
+      },
+      {
+        "title": "Privater Transport",
+        "description": "AC-Fahrzeuge im gesamten Gebäude"
+      },
+      {
+        "title": "Mahlzeiten inbegriffen",
+        "description": "Frühstück und ausgewählte Mahlzeiten"
+      },
+      {
+        "title": "Ikonische Orte",
+        "description": "Alle wichtigen Sehenswürdigkeiten"
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "Day 1",
+        "title": "Ankunft in Hanoi und Stadtrundfahrt",
+        "description": "Ankunft am Flughafen Hanoi, Treffen mit unserem lokalen Reiseleiter und Transfer zum Hotel",
+        "category": "arrival"
+      },
+      {
+        "time": "Day 2",
+        "title": "Tagesausflug nach Ninh Binh",
+        "description": "Abfahrt in die Provinz Ninh Binh (120 km von Hanoi entfernt)",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 3",
+        "title": "Tageskreuzfahrt in der Halong-Bucht",
+        "description": "Transfer zur Halong-Bucht über die Schnellstraße",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 4",
+        "title": "Fliegen Sie bei Nacht nach Da Nang und Hoi An",
+        "description": "Transfer zum Flughafen Hanoi und Flug nach Da Nang",
+        "category": "activity"
+      },
+      {
+        "time": "Day 5",
+        "title": "Ba Na Hills und Goldene Brücke",
+        "description": "Fahrt mit der Seilbahn zu den Ba Na Hills",
+        "category": "activity",
+        "highlight": true
+      },
+      {
+        "time": "Day 6",
+        "title": "Abfahrt",
+        "description": "Frühstück im Hotel",
+        "category": "travel"
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Halong-Bucht",
+        "description": "UNESCO-Weltkulturerbe",
+        "image": "/assets/destinations/Vietnam/Ha Long Bay.webp"
+      },
+      {
+        "title": "Goldene Brücke",
+        "description": "Ba Na Hills Marvel",
+        "image": "/assets/destinations/Vietnam/Golden Bridge.webp"
+      },
+      {
+        "title": "Die antike Stadt Hoi An",
+        "description": "Charme der antiken Stadt",
+        "image": "/assets/destinations/Vietnam/Hoi An.webp"
+      },
+      {
+        "title": "Altstadt von Hanoi",
+        "description": "Hauptstadtcharme",
+        "image": "/assets/destinations/Vietnam/Hanoi.webp"
+      },
+      {
+        "title": "Vietnamesisches Streetfood",
+        "description": "Köstliche und lebendige kulinarische Erlebnisse",
+        "image": "/assets/destinations/Vietnam/Local Cuisine.webp"
+      }
+    ],
+    "inclusions": [
+      {
+        "title": "Unterkunft",
+        "description": "5 Übernachtungen in 3-Sterne-Hotels mit täglichem Frühstück"
+      },
+      {
+        "title": "Inlandsflüge",
+        "description": "Inlandsflug von Hanoi nach Da Nang"
+      },
+      {
+        "title": "Überweisungen",
+        "description": "Alle Flughafentransfers und innerstädtischen Transporte"
+      },
+      {
+        "title": "Mahlzeiten",
+        "description": "Tägliches Frühstück und 4 Mittagessen gemäß Reiseplan"
+      },
+      {
+        "title": "Eintrittspreise",
+        "description": "Alle Eintrittskarten für Besichtigungen und Attraktionen inbegriffen"
+      },
+      {
+        "title": "Englischer Reiseführer",
+        "description": "Professioneller englischsprachiger Reiseleiter"
+      }
+    ]
+  },
+  "4n-5d-rajasthan-luxury-package": {
+    "file_name": "4n-5d-rajasthan-luxury-package.html",
+    "page": {
+      "slug": "4n-5d-rajasthan-luxury-package",
+      "type": "",
+      "hero": {
+        "title": "Luxuriöses 4N/5D-Rajasthan-Luxusreisepaket |Globales Touristenzentrum",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "6n-7d-golden-triangle-luxury-tour-package": {
+    "file_name": "6n-7d-golden-triangle-luxury-tour-package.html",
+    "page": {
+      "slug": "6n-7d-golden-triangle-luxury-tour-package",
+      "type": "",
+      "hero": {
+        "title": "6 N/7 D Luxus-Tourpaket „Goldenes Dreieck“ |Globales Touristenzentrum",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "6N-7D-rajasthan-luxury-package": {
+    "file_name": "6N-7D-rajasthan-luxury-package.html",
+    "page": {
+      "slug": "6N-7D-rajasthan-luxury-package",
+      "type": "",
+      "hero": {
+        "title": "Luxuriöses 6N/7D Rajasthan-Luxusreisepaket |Globales Touristenzentrum",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "golden-triangle-luxury": {
+    "file_name": "golden-triangle-luxury.html",
+    "page": {
+      "slug": "golden-triangle-luxury",
+      "type": "",
+      "hero": {
+        "title": "Luxuriöse Tour durch das Goldene Dreieck |Premium-Rennstrecke Delhi-Agra-Jaipur – Globales Touristenzentrum",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "golden-triangle-luxury-package": {
+    "file_name": "golden-triangle-luxury-package.html",
+    "page": {
+      "slug": "golden-triangle-luxury-package",
+      "type": "",
+      "hero": {
+        "title": "4N/5T Luxus-Tourpaket „Goldenes Dreieck“ |Globales Touristenzentrum",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "karnataka-luxury": {
+    "file_name": "karnataka-luxury.html",
+    "page": {
+      "slug": "karnataka-luxury",
+      "type": "",
+      "hero": {
+        "title": "Karnataka-Luxustour – maßgeschneidertes Kulturerbe- und Wildtiererlebnis |GlobalTouristCentre",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "Karnataka-Luxury-Package": {
+    "file_name": "Karnataka-Luxury-Package.html",
+    "page": {
+      "slug": "Karnataka-Luxury-Package",
+      "type": "",
+      "hero": {
+        "title": "7N/8D Karnataka Luxusreisepaket |GlobalTouristCentre – Heritage Hotels & private Safari",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "kerala-luxury": {
+    "file_name": "kerala-luxury.html",
+    "page": {
+      "slug": "kerala-luxury",
+      "type": "",
+      "hero": {
+        "title": "Kerala Luxusreisepaket |Global Tourist Center – Premium-Kurzurlaub in Kerala",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "Kerala-luxury-package": {
+    "file_name": "Kerala-luxury-package.html",
+    "page": {
+      "slug": "Kerala-luxury-package",
+      "type": "",
+      "hero": {
+        "title": "4N/5D Kerala Luxusreisepaket – 30 % Rabatt |Globales Touristenzentrum",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "kerala-luxury-tour-package": {
+    "file_name": "kerala-luxury-tour-package.html",
+    "page": {
+      "slug": "kerala-luxury-tour-package",
+      "type": "",
+      "hero": {
+        "title": "7N/8D Kerala Luxusreisepaket – 30 % Rabatt |Globales Touristenzentrum",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "mumbai-luxury": {
+    "file_name": "mumbai-luxury.html",
+    "page": {
+      "slug": "mumbai-luxury",
+      "type": "",
+      "hero": {
+        "title": "Mumbai-Luxusreisepaket |Global Tourist Centre – Premium-Kurzurlaub in Mumbai",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "mumbai-luxury-package": {
+    "file_name": "mumbai-luxury-package.html",
+    "page": {
+      "slug": "mumbai-luxury-package",
+      "type": "",
+      "hero": {
+        "title": "2N/3D Mumbai Luxus-Tour-Paket |Premium Mumbai Getaway – Globales Touristenzentrum",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "rajasthan-luxury": {
+    "file_name": "rajasthan-luxury.html",
+    "page": {
+      "slug": "rajasthan-luxury",
+      "type": "",
+      "hero": {
+        "title": "Luxus-Rajasthan-Tour |Global Tourist Centre – Königliches Erbe und 5-Sterne-Komfort",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  },
+  "rajasthan-luxury-package": {
+    "file_name": "rajasthan-luxury-package.html",
+    "page": {
+      "slug": "rajasthan-luxury-package",
+      "type": "",
+      "hero": {
+        "title": "8N/9D Rajasthan Luxusreisepaket |Global Tourist Centre – Königliches Erbe, 5★ Komfort",
+        "subtitle": "",
+        "backgroundImage": "",
+        "meta": {}
+      },
+      "language": "de"
+    },
+    "cta": {
+      "headline": "",
+      "description": "",
+      "contact": {
+        "whatsapp": {
+          "number": "",
+          "message": ""
+        },
+        "phone": ""
+      }
+    },
+    "quickInfo": [],
+    "itinerary": [],
+    "gallery": [],
+    "inclusions": []
+  }
+},
+} as const;
