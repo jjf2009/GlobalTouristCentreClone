@@ -113,14 +113,14 @@ export function AboutTestimonials() {
           </Carousel>
 
           {/* Pagination Dots */}
-          <div className="mt-6 flex justify-center gap-2 sm:gap-2.5">
+          <div className="mt-6 flex justify-center gap-1.5 sm:gap-2.5">
             {Array.from({ length: count }).map((_, index) => (
               <button
                 key={index}
                 onClick={() => api?.scrollTo(index)}
                 className={`
         rounded-full transition
-        h-2 w-2 sm:h-2.5 sm:w-2.5
+        h-1.5 w-1.5 sm:h-2.5 sm:w-2.5
         ${
           index === current
             ? "bg-primary scale-110"

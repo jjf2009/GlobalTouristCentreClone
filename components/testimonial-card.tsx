@@ -30,7 +30,7 @@ const [expanded, setExpanded] = useState(false);
     <Card
       className="
     group
-    min-w-[340px] sm:min-w-[360px]
+    min-w-[280px] xs:min-w-[300px] sm:min-w-[360px]
     max-w-[400px]
     shrink-0
     rounded-2xl
