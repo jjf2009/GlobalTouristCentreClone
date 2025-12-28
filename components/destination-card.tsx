@@ -18,7 +18,6 @@ type DestinationCardProps = {
 };
 
 export function DestinationCard({
-  locale,
   category,
   slug,
   title,
@@ -29,7 +28,7 @@ export function DestinationCard({
   tags = [],
   badge,
 }: DestinationCardProps) {
-  const { t } = useI18n();
+  const { t,locale } = useI18n();
   const href = `/${locale}/destinations/${category}/${slug}`;
   /* Resolve localized trip content */
   const trip = t.trips?.[slug];

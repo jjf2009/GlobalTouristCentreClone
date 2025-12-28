@@ -46,7 +46,7 @@ export function HeroSection({
           className={`grid gap-6 sm:gap-8 ${showForm ? "lg:grid-cols-2" : ""}`}
         >
           <div className="flex flex-col justify-center">
-            <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3 sm:mb-4 text-balance leading-tight">
+            <h1 className="font-serif text-1xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3 sm:mb-4 text-balance leading-tight">
               {title}
             </h1>
             {subtitle && (
