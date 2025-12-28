@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { I18nProvider } from "@/lib/i18n/context";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { PromoPopup } from "@/components/promo-popup";
+
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { locales } from "@/lib/i18n/config";
 import type { Locale } from "@/lib/i18n/translations";
@@ -110,8 +110,7 @@ export default function LocaleLayout({
           {/* Footer */}
           <Footer />
 
-          {/* Promo popup */}
-          <PromoPopup />
+
 
           {/* WhatsApp CTA */}
           <WhatsAppButton
