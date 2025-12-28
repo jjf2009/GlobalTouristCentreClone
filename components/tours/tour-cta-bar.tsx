@@ -2,6 +2,8 @@
 
 import { Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useI18n } from "@/lib/i18n/context";
+
 
 interface TourCtaBarProps {
   tourName: string;
@@ -23,16 +25,18 @@ export function TourCtaBar({
 
   const callLink = `tel:${phoneNumber}`;
 
+ const { t } = useI18n();
+
   return (
     <section className="border-t bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Text */}
         <div>
           <h3 className="font-serif text-2xl font-semibold text-slate-900">
-            Ready for Your Adventure?
+           {t.destinations.tour.ctaTitle}
           </h3>
           <p className="text-slate-600 mt-1">
-            Book now and secure your spot for an unforgettable experience
+            {t.destinations.tour.ctaSubtitle}
           </p>
         </div>
 

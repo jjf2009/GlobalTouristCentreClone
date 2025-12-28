@@ -8,18 +8,23 @@ import { useI18n } from "@/lib/i18n/context";
 
 type Props = {
   slug: "domestic" | "international" | "day-trips";
-  title: string;
-  subtitle: string;
   items: any[];
 };
 
-export function DestinationsGridSection({
-  slug,
-  title,
-  subtitle,
-  items,
-}: Props) {
-  const { locale } = useI18n();
+const TITLE_KEY_BY_SLUG = {
+  domestic: "domesticTitle",
+  international: "internationalTitle",
+  "day-trips": "dayTripsTitle",
+} as const;
+
+const SUBTITLE_KEY_BY_SLUG = {
+  domestic: "domesticSubtitle",
+  international: "internationalSubtitle",
+  "day-trips": "dayTripsSubtitle",
+} as const;
+
+export function DestinationsGridSection({ slug, items }: Props) {
+  const { locale, t } = useI18n();
   const filters = FILTERS_BY_SLUG[slug];
 
   const [activeFilter, setActiveFilter] = useState("all");
@@ -33,6 +38,9 @@ export function DestinationsGridSection({
     if (!filters || activeFilter === "all") return items;
     return items.filter((item) => item.zone === activeFilter);
   }, [items, activeFilter, filters]);
+
+  const title = t.destinations[TITLE_KEY_BY_SLUG[slug]];
+  const subtitle = t.destinations[SUBTITLE_KEY_BY_SLUG[slug]];
 
   return (
     <section>
@@ -71,7 +79,7 @@ export function DestinationsGridSection({
                   className="rounded-full"
                   onClick={() => setActiveFilter(filter.key)}
                 >
-                  {filter.label}
+                  {t.destinations.filters?.[filter.key] ?? filter.label}
                 </Button>
               );
             })}
@@ -106,7 +114,8 @@ export function DestinationsGridSection({
           </div>
         ) : (
           <p className="text-muted-foreground text-sm">
-            No destinations available for this filter.
+            {t.destinations.noResults ??
+              "No destinations available for this filter."}
           </p>
         )}
       </div>

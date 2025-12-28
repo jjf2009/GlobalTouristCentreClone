@@ -1,7 +1,10 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+
 import TourClient from "./tour-detail-client";
 
 import { LOCALES, TOUR_CATEGORIES } from "@/lib/data/tour-slugs";
+import { seoData } from "@/lib/data/seodata";
 
 /* ------------------------------------------------------------------ */
 /* STATIC PARAMS */
@@ -25,7 +28,7 @@ export function generateStaticParams() {
 }
 
 /* ------------------------------------------------------------------ */
-/* PAGE */
+/* METADATA */
 /* ------------------------------------------------------------------ */
 type PageProps = {
   params: {
@@ -35,6 +38,34 @@ type PageProps = {
   };
 };
 
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { tour } = params;
+  const seo = seoData[tour];
+
+  if (!seo) {
+    return {
+      title: "Tour Package | Global Tourist Centre",
+      description:
+        "Explore curated tour packages with expert planning, trusted guides, and memorable experiences.",
+    };
+  }
+
+  return {
+    title: seo.title,
+    description: seo.meta_description,
+    alternates: seo.actual_url
+      ? {
+          canonical: seo.actual_url,
+        }
+      : undefined,
+  };
+}
+
+/* ------------------------------------------------------------------ */
+/* PAGE */
+/* ------------------------------------------------------------------ */
 export default function TourDetailPage({ params }: PageProps) {
   const { category, tour } = params;
 
@@ -45,6 +76,6 @@ export default function TourDetailPage({ params }: PageProps) {
   /* 2️⃣ Validate tour belongs to category */
   if (!validTours.includes(tour)) notFound();
 
-  /* 3️⃣ Render client — data resolved via i18n context */
+  /* 3️⃣ Render client */
   return <TourClient tourId={tour} />;
 }

@@ -20,7 +20,7 @@ export function Header() {
  const [isOpen, setIsOpen] = useState(false);
 
  const navLinks = [
-   { href: `/${locale}`, label: t.nav.home },
+   { href: `/${locale}`,label: t.nav.home },
    { href: `/${locale}/destinations`, label: t.nav.destinations },
    { href: `/${locale}/luxury-destinations`, label: t.nav.luxuryDestinations },
    { href: `/${locale}/about`, label: t.nav.about },

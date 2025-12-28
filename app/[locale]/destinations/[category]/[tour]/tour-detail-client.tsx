@@ -1,29 +1,42 @@
 "use client";
 
-import { notFound } from "next/navigation";
 import { useI18n } from "@/lib/i18n/context";
+import type { TripId } from "@/lib/i18n/translations/index.ts";
+import { galleryData} from "@/lib/data/galleryData";
+import { metaData } from "@/lib/data/metaData";
 
 import { DetailedTourHero } from "@/components/tours/detailed-tour-hero";
 import { TourCtaBar } from "@/components/tours/tour-cta-bar";
 import { TourQuickInfo } from "@/components/tours/ tour-quick-info";
-import { TourItinerary } from "@/components/tours/tour-itinerary";
+import  TourItinerary  from "@/components/tours/tour-itinerary";
 import { TourVisualJourney } from "@/components/tours/tour-visual-journey";
 import { TourInclusions } from "@/components/tours/tour-inclusions";
 
 type TourClientProps = {
-  tourId: string;
+  tourId: TripId;
 };
 
 export default function TourClient({ tourId }: TourClientProps) {
   const { t } = useI18n();
 
-  const data = t.tourdata?.[tourId];
+  const data = t.tourData?.[tourId];
+  const gallery = galleryData[tourId]?.gallery ?? [];
+  const meta = metaData[tourId]?.meta ?? null;
 
+  /* -------------------------------------------------------
+     SAFETY GUARD (client-side)
+  ------------------------------------------------------- */
   if (!data) {
-    notFound();
+    return (
+      <main className="min-h-[60vh] flex items-center justify-center">
+        <p className="text-muted-foreground text-lg">
+          Tour details not available.
+        </p>
+      </main>
+    );
   }
 
-  const { page, cta, quickInfo, itinerary, gallery, inclusions } = data;
+  const { page, cta, quickInfo, itinerary, inclusions } = data;
 
   return (
     <main className="bg-white">
@@ -34,7 +47,7 @@ export default function TourClient({ tourId }: TourClientProps) {
         title={page.hero.title}
         subtitle={page.hero.subtitle}
         backgroundImage={page.hero.backgroundImage}
-        meta={page.hero.meta}
+        meta={meta}
       />
 
       {/* ======================================================

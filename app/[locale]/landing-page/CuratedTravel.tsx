@@ -10,57 +10,57 @@ import { useI18n } from "@/lib/i18n/context";
 import TourCard from "@/components/TourCard";
 import type { CollectionId } from "@/lib/i18n/translations";
 
-export const travelCollections: {
-  id: CollectionId;
-  category: "domestic" | "international";
-  imageUrl: string;
-  rating: number;
-  tags: string[];
-  badge: string | null;
-  link: string;
-}[] = [
-  {
-    id: "dudhsagar",
-    category: "domestic",
-    imageUrl: "/assets/destinations/Thumbnails/Dudhsagar.webp",
-    rating: 4.6,
-    tags: ["Waterfalls", "Spices", "Nature"],
-    badge: null,
-    link: "https://globaltouristcentre.com/itinerary/day-trips/Dudhsagar-and-Spice-Plantation-Day-Trip-package",
-  },
-  {
-    id: "golden-triangle",
-    category: "domestic",
-    imageUrl: "/assets/destinations/Thumbnails/GoldenTriangle.webp",
-    rating: 4.8,
-    tags: ["Heritage", "Taj Mahal", "Cultural"],
-    badge: null,
-    link: "https://globaltouristcentre.com/itinerary/domestic-trips/golden-triangle-trip-3n4d",
-  },
-  {
-    id: "varanasi",
-    category: "domestic",
-    imageUrl: "/assets/destinations/Thumbnails/varanasi.webp",
-    rating: 4.7,
-    tags: ["Spiritual", "Pilgrimage", "Ganga Aarti"],
-    badge: null,
-    link: "https://globaltouristcentre.com/itinerary/domestic-trips/varanasi-2n3d-trip",
-  },
-  {
-    id: "amritsar",
-    category: "domestic",
-    imageUrl: "/assets/hero/Amritsar-hero.webp",
-    rating: 4.7,
-    tags: ["Spiritual", "Cultural", "Historical"],
-    badge: null,
-    link: "https://globaltouristcentre.com/itinerary/domestic-trips/amritsar-trip-2n3d-from-goa",
-  },
-];
-
 const CuratedTravel = () => {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const experiencesRef = useRef<HTMLDivElement>(null);
   const collectionsRef = useRef<HTMLDivElement>(null);
+
+  const travelCollections: {
+    id: CollectionId;
+    category: "domestic" | "international";
+    imageUrl: string;
+    rating: number;
+    tags: string[];
+    badge: string | null;
+    link: string;
+  }[] = [
+    {
+      id: "dudhsagar",
+      category: "domestic",
+      imageUrl: "/assets/destinations/Thumbnails/Dudhsagar.webp",
+      rating: 4.6,
+      tags: ["Waterfalls", "Spices", "Nature"],
+      badge: null,
+      link: `/${locale}/destinations/day-trips/dudhsagar-spice-plantation`,
+    },
+    {
+      id: "4D-golden-triangle-tour",
+      category: "domestic",
+      imageUrl: "/assets/destinations/Thumbnails/GoldenTriangle.webp",
+      rating: 4.8,
+      tags: ["Heritage", "Taj Mahal", "Cultural"],
+      badge: null,
+      link: `/${locale}/destinations/domestic/4D-golden-triangle-tour`,
+    },
+    {
+      id: "varanasi",
+      category: "domestic",
+      imageUrl: "/assets/destinations/Thumbnails/varanasi.webp",
+      rating: 4.7,
+      tags: ["Spiritual", "Pilgrimage", "Ganga Aarti"],
+      badge: null,
+      link: `/${locale}/destinations/domestic/varanasi-tour-package`,
+    },
+    {
+      id: "amritsar",
+      category: "domestic",
+      imageUrl: "/assets/hero/Amritsar-hero.webp",
+      rating: 4.7,
+      tags: ["Spiritual", "Cultural", "Historical"],
+      badge: null,
+      link: `/${locale}/destinations/domestic/amritsar-tour-package`,
+    },
+  ];
 
   const scrollExperiences = (direction: "left" | "right") => {
     if (experiencesRef.current) {

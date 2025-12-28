@@ -50,20 +50,26 @@ export function DetailedTourHero({
 
             {/* Meta */}
             <div className="mt-6 flex flex-wrap items-center gap-6 text-sm sm:text-base text-white/90">
-              <span className="flex items-center gap-2">
-                <Clock className="w-4 h-4" />
-                {meta.duration}
-              </span>
+              {meta?.duration && (
+                <span className="flex items-center gap-2">
+                  <Clock className="w-4 h-4" />
+                  {meta.duration}
+                </span>
+              )}
 
-              <span className="flex items-center gap-2">
-                <MapPin className="w-4 h-4" />
-                {meta.locations} Locations
-              </span>
+              {meta?.locations && (
+                <span className="flex items-center gap-2">
+                  <MapPin className="w-4 h-4" />
+                  {meta.locations} Locations
+                </span>
+              )}
 
-              <span className="flex items-center gap-2">
-                <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                {meta.rating}
-              </span>
+              {meta?.rating && (
+                <span className="flex items-center gap-2">
+                  <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                  {meta.rating}
+                </span>
+              )}
             </div>
           </div>
         </div>

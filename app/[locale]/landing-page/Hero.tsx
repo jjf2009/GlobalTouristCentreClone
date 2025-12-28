@@ -40,8 +40,8 @@ const DESTINATION_MAP: Record<string, string> = {
   "all-goa-one-day": "ALL GOA IN ONE DAY",
   "palolem-cola-dolphin": "PALOLEM COLA – DOLPHIN",
   "mumbai-one-day": "MUMBAI 1 DAY",
-  "taj-mahal-1n2d": "TAJ MAHAL 1N2D",
-  "hampi-badami-1n2d": "HAMPI BADAMI 1N2D",
+  "taj-mahal-tour": "TAJ MAHAL 1N2D",
+  "hampi-&-badami-tour-package": "HAMPI BADAMI 1N2D",
 };
 
 const Hero = () => {
@@ -329,11 +329,11 @@ const Hero = () => {
                         {t.form.destinations.mumbai}
                       </SelectItem>
 
-                      <SelectItem value="taj-mahal-1n2d">
+                      <SelectItem value="taj-mahal-tour">
                         {t.form.destinations.taj}
                       </SelectItem>
 
-                      <SelectItem value="hampi-badami-1n2d">
+                      <SelectItem value="hampi-&-badami-tour-package">
                         {t.form.destinations.hampi}
                       </SelectItem>
                     </SelectContent>

@@ -17,7 +17,7 @@ export const generateMetadata = ({
 }): Metadata => {
   const locale = params.locale || "en";
 
-  const baseUrl = "https://globaltouristcentre.com";
+  const baseUrl = "https://globaltouristcentreclone.vercel.app";
 
   return {
     title:
