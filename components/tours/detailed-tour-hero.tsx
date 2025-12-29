@@ -39,7 +39,7 @@ export function DetailedTourHero({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-end">
           <div className="pb-16 max-w-3xl text-white">
             {/* Title */}
-            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="font-serif text-2xl sm:text-4xl lg:text-6xl font-bold leading-tight">
               {title}
             </h1>
 
