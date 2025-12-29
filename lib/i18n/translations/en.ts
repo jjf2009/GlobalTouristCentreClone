@@ -1542,7 +1542,7 @@ export const en = {
           title: "North Goa – Portuguese Goa",
           subtitle:
             "Full Day tour exploring North Goa's beaches, forts, and Portuguese heritage",
-          backgroundImage: "../../assets/hero/Goa-1-hero.jpg",
+          backgroundImage: "/assets/hero/Goa-1-hero.jpg",
           meta: {
             duration: "Full Day",
             rating: "4.8/5 Rating",

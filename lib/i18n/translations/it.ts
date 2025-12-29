@@ -2066,7 +2066,7 @@ export const it = {
           title: "Goa Nord – Goa portoghese",
           subtitle:
             "Tour di un'intera giornata alla scoperta delle spiagge, dei forti e del patrimonio portoghese del Nord Goa",
-          backgroundImage: "../../assets/hero/Goa-1-hero.jpg",
+          backgroundImage: "/assets/hero/Goa-1-hero.jpg",
           meta: {
             duration: "Giornata intera",
             rating: "4.8/5 Rating",

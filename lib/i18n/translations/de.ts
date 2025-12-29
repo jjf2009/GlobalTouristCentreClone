@@ -2079,7 +2079,7 @@ export const de = {
           title: "Nord-Goa – Portugiesisches Goa",
           subtitle:
             "Ganztägige Tour zur Erkundung der Strände, Festungen und des portugiesischen Erbes von Nord-Goa",
-          backgroundImage: "../../assets/hero/Goa-1-hero.jpg",
+          backgroundImage: "/assets/hero/Goa-1-hero.jpg",
           meta: {
             duration: "Ganzer Tag",
             rating: "4.8/5 Rating",

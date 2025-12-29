@@ -2059,7 +2059,7 @@ export const ru = {
           title: "Северный Гоа – Португальский Гоа",
           subtitle:
             "Экскурсия на целый день по пляжам, фортам и португальскому наследию Северного Гоа",
-          backgroundImage: "../../assets/hero/Goa-1-hero.jpg",
+          backgroundImage: "/assets/hero/Goa-1-hero.jpg",
           meta: {
             duration: "Полный день",
             rating: "4.8/5 Rating",

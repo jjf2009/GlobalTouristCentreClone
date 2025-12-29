@@ -2077,7 +2077,7 @@ export const fr = {
           title: "Goa du Nord – Goa portugaise",
           subtitle:
             "Excursion d'une journée complète à la découverte des plages, des forts et du patrimoine portugais du nord de Goa",
-          backgroundImage: "../../assets/hero/Goa-1-hero.jpg",
+          backgroundImage: "/assets/hero/Goa-1-hero.jpg",
           meta: {
             duration: "Journée complète",
             rating: "4.8/5 Rating",
