@@ -56,7 +56,7 @@ const Signature = () => {
       id: "hampi",
       imageUrl: "/assets/destinations/Thumbnails/Hampi.webp",
       price: "$170",
-      link: `/${locale}/destinations/domestic/hampi-&-badami-tour-package`,
+      link: `/${locale}/destinations/domestic/hampi-badami-tour-package`,
       popular: false,
     },
   ];

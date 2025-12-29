@@ -121,6 +121,22 @@ export default function LocaleLayout({
         </I18nProvider>
 
         <Analytics />
+
+              <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-5CNKV323"
+          height="0"
+          width="0"
+          style={{ display: "none", visibility: "hidden" }}
+        />
+      </noscript>
+      <noscript>
+        <img
+          src="https://mc.yandex.ru/watch/105467216"
+          style={{ position: "absolute", left: "-9999px" }}
+          alt=""
+        />
+      </noscript>
       </body>
     </html>
   );

@@ -74,8 +74,8 @@ const travelCollections: TravelCollection[] = [
     imageUrl: "/assets/destinations/Thumbnails/SeraiCabo.webp",
   },
   {
-    id: "hampi-&-badami-tour-package",
-    href: "/destinations/domestic/hampi-&-badami-tour-package", // matches dom-hampi-019.slug
+    id: "hampi-badami-tour-package",
+    href: "/destinations/domestic/hampi-badami-tour-package", // matches dom-hampi-019.slug
     imageUrl: "/assets/destinations/Thumbnails/Hampi.webp",
   },
   // removed hampi-badami because that trip is commented out in domesticTrips source of truth

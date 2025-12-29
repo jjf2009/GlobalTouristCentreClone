@@ -198,21 +198,7 @@ export default function LandingPageLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <noscript>
-        <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-5CNKV323"
-          height="0"
-          width="0"
-          style={{ display: "none", visibility: "hidden" }}
-        />
-      </noscript>
-      <noscript>
-        <img
-          src="https://mc.yandex.ru/watch/105467216"
-          style={{ position: "absolute", left: "-9999px" }}
-          alt=""
-        />
-      </noscript>
+
 
       {/* Landing page content - no header/footer, just the page content */}
       <div className="min-h-screen flex flex-col">{children}</div>

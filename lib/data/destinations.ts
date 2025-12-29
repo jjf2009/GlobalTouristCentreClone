@@ -141,7 +141,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-hampi-017",
-    slug: "hampi-&-badami-tour-package",
+    slug: "hampi-badami-tour-package",
     rating: 4.8,
     imageQuery: "/destinations/Thumbnails/Hampi.webp",
     category: "domestic",

@@ -80,7 +80,7 @@ export const en = {
         description:
           "Visit the serene beaches of Gokarna and the iconic Murdeshwar Shiva statue and seafront temple, blending spirituality with coastal beauty.",
       },
-      "hampi-&-badami-tour-package": {
+      "hampi-badami-tour-package": {
         title: "Hampi & Badami Heritage Tour",
         duration: "1 Night / 2 Days",
         description:
@@ -708,7 +708,7 @@ export const en = {
         "Experience the iconic Taj Mahal, Agra Fort, and Baby Taj with Russian-speaking guides on this romantic heritage journey.",
       duration: "1 Night / 2 Days",
     },
-    "hampi-&-badami-tour-package": {
+    "hampi-badami-tour-package": {
       title: "Hampi Heritage",
       description:
         "Explore the UNESCO World Heritage Site of Hampi's ancient ruins, royal enclosures, temples, and unique stone chariot.",
@@ -5293,7 +5293,7 @@ export const en = {
         },
       ],
     },
-    "hampi-&-badami-tour-package": {
+    "hampi-badami-tour-package": {
       file_name: "Hampi-1N-2D-Trip-Package.html",
       page: {
         slug: "Hampi-1N-2D-Trip-Package",
@@ -5697,50 +5697,51 @@ export const en = {
     "jodhpur-udaipur-tour": {
       file_name: "jodhpur-udaipur-trip-4n5d.html",
       page: {
-        slug: "Jodhpur-Udaipur-tour-package",
+        slug: "jodhpur-udaipur-tour-package",
         type: "domestic-trip",
         hero: {
-          title: "Jodhpur und Udaipur (4 Nächte – 5 Tage)",
+          title: "Jodhpur & Udaipur (4 Nights – 5 Days)",
           subtitle:
-            "4 Nächte, 5 Tage Erkundung von Jodhpur und Udaipur mit geführten Touren und kulturellen Erlebnissen",
+            "4 nights and 5 days exploring Jodhpur and Udaipur with guided tours and rich cultural experiences",
           backgroundImage: "/assets/hero/Jodhpur-Udaipur-hero.webp",
           meta: {
-            duration: "5 Tage",
+            duration: "5 Days",
             rating: "4.7/5 Rating",
           },
         },
-        language: "de",
+        language: "en",
       },
       cta: {
-        headline: "Sind Sie bereit, Jodhpur und Udaipur zu erkunden?",
+        headline: "Ready to Explore Jodhpur and Udaipur?",
         description:
-          "Buchen Sie jetzt und sichern Sie sich Ihren Platz für eine unvergessliche Kulturreise durch Rajasthan",
+          "Book now and secure your spot for an unforgettable cultural journey through Rajasthan",
         contact: {
           whatsapp: {
             number: "+919067972295",
-            message: "Hallo!Ich interessiere mich für Ihr Jodhpur",
+            message: "Hi! I am interested in your Jodhpur & Udaipur tour.",
           },
           phone: "+919067972295",
         },
       },
       quickInfo: [
         {
-          title: "Kleine Gruppen",
-          description: "Maximal 15 Reisende",
+          title: "Small Groups",
+          description: "Maximum 15 travelers",
         },
         {
-          title: "Privater Transport",
-          description: "AC-Fahrzeuge im gesamten Gebäude",
+          title: "Private Transport",
+          description: "Air-conditioned vehicles throughout the trip",
         },
         {
-          title: "Mahlzeiten inbegriffen",
-          description: "Frühstück inklusive",
+          title: "Meals Included",
+          description: "Breakfast included",
         },
         {
-          title: "Ikonische Orte",
-          description: "Alle wichtigen Sehenswürdigkeiten",
+          title: "Iconic Locations",
+          description: "All major attractions covered",
         },
       ],
+
       itinerary: [
         // ================= DAY 1 =================
         {

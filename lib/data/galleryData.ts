@@ -729,7 +729,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "hampi-&-badami-tour-package": {
+  "hampi-badami-tour-package": {
     gallery: [
       {
         title: "Hampi Ruins",

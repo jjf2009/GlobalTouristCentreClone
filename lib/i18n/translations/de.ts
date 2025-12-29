@@ -81,7 +81,7 @@ export const de = {
         description:
           "Besuchen Sie die ruhigen Strände von Gokarna und die ikonische Shiva-Statue in Murdeshwar – eine perfekte Mischung aus Spiritualität und Küstenschönheit.",
       },
-      "hampi-&-badami-tour-package": {
+      "hampi-badami-tour-package": {
         title: "Hampi & Badami Kulturerbe-Tour",
         duration: "1 Nacht / 2 Tage",
         description:
@@ -694,7 +694,7 @@ export const de = {
         "Erleben Sie das ikonische Taj Mahal, Agra Fort und Baby Taj mit russischsprachigen Guides auf dieser romantischen Erbe-Reise.",
       duration: "1 Nacht / 2 Tage",
     },
-    "hampi-&-badami-tour-package": {
+    "hampi-badami-tour-package": {
       title: "Hampi Erbe",
       description:
         "Erkunden Sie das UNESCO-Weltkulturerbe Hampi - antike Ruinen, königliche Anlagen, Tempel und einzigartigen Steinwagen.",
@@ -1531,83 +1531,82 @@ export const de = {
           description: "Barbecue und Sushi",
         },
       ],
-      itinerary:[
-  {
-    time: "15:30",
-    title: "Abholung vom Hotel",
-    description:
-      "Ihr luxuriöses Erlebnis beginnt mit einer privaten Abholung vom Hotel. Entspannen Sie sich in einem klimatisierten Fahrzeug auf dem Weg zum Anleger.",
-    category: "reise"
-  },
-  {
-    time: "16:00",
-    title: "Einschiffung auf die Luxusyacht",
-    description:
-      "Ankunft am Pier und Boarding der Premium-Luxusyacht mit Infinity-Pool, Lounge-Deck, privater Bar, Live-DJ und Fine-Dining-Bereich. Sie werden mit einem erfrischenden Willkommensgetränk begrüßt.",
-    category: "ankunft",
-    highlight: true
-  },
-  {
-    time: "16:15",
-    title: "Snacks und Erfrischungen",
-    description:
-      "Genießen Sie frische tropische Säfte, Softdrinks, Mocktails und leichte Snacks (vegetarisch und nicht-vegetarisch), während die Yacht in See sticht.",
-    category: "mahlzeit"
-  },
-  {
-    time: "17:00",
-    title: "Sonnenuntergangskreuzfahrt & Live-DJ",
-    description:
-      "Erleben Sie atemberaubende Sonnenuntergangsbilder, während Sie entlang der Küste segeln. Genießen Sie die Musik eines Live-DJs, entspannen Sie auf dem Sonnendeck oder im Infinity-Pool und machen Sie Fotos in der Goldenen Stunde.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "18:00",
-    title: "Infinity-Pool-Erlebnis",
-    description:
-      "Tauchen Sie in den Infinity-Pool der Yacht ein – ein seltenes Luxuserlebnis auf See. Schwimmen oder entspannen Sie beim Anblick des Himmels im Abendlicht.",
-    category: "abenteuer"
-  },
-  {
-    time: "19:00",
-    title: "Gourmet-Dinner-Erlebnis",
-    description:
-      "Genießen Sie ein vom Küchenchef kuratiertes Fine-Dining-Menü mit Grilltellern (vegetarisch & nicht vegetarisch), Sushi, Salaten und Beilagen. Der Service erfolgt Gang für Gang.",
-    category: "mahlzeit",
-    highlight: true
-  },
-  {
-    time: "20:00",
-    title: "Desserts & Lounge-Zeit",
-    description:
-      "Genießen Sie luxuriöse Desserts wie Käsekuchen, Schokoladenmousse und frisches Obst. Entspannen Sie im Lounge-Bereich oder hören Sie weiter DJ-Musik.",
-    category: "mahlzeit"
-  },
-  {
-    time: "20:30",
-    title: "Mondscheinkreuzfahrt",
-    description:
-      "Erleben Sie eine ruhige Mondscheinfahrt unter den Sternen – genießen Sie den nächtlichen Himmel, sanfte Musik, Meeresbrise und stimmungsvolle Beleuchtung.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "22:00",
-    title: "Rückkehr zum Anleger",
-    description:
-      "Die Yacht legt wieder am Pier an und beendet das luxuriöse Kreuzfahrterlebnis.",
-    category: "reise"
-  },
-  {
-    time: "22:15",
-    title: "Rückfahrt zum Hotel",
-    description:
-      "Privater Transfer zurück zum Hotel – mit unvergesslichen Erinnerungen an die Luxusyacht-Tour.",
-    category: "ankunft"
-  }
-]
-,
+      itinerary: [
+        {
+          time: "15:30",
+          title: "Abholung vom Hotel",
+          description:
+            "Ihr luxuriöses Erlebnis beginnt mit einer privaten Abholung vom Hotel. Entspannen Sie sich in einem klimatisierten Fahrzeug auf dem Weg zum Anleger.",
+          category: "reise",
+        },
+        {
+          time: "16:00",
+          title: "Einschiffung auf die Luxusyacht",
+          description:
+            "Ankunft am Pier und Boarding der Premium-Luxusyacht mit Infinity-Pool, Lounge-Deck, privater Bar, Live-DJ und Fine-Dining-Bereich. Sie werden mit einem erfrischenden Willkommensgetränk begrüßt.",
+          category: "ankunft",
+          highlight: true,
+        },
+        {
+          time: "16:15",
+          title: "Snacks und Erfrischungen",
+          description:
+            "Genießen Sie frische tropische Säfte, Softdrinks, Mocktails und leichte Snacks (vegetarisch und nicht-vegetarisch), während die Yacht in See sticht.",
+          category: "mahlzeit",
+        },
+        {
+          time: "17:00",
+          title: "Sonnenuntergangskreuzfahrt & Live-DJ",
+          description:
+            "Erleben Sie atemberaubende Sonnenuntergangsbilder, während Sie entlang der Küste segeln. Genießen Sie die Musik eines Live-DJs, entspannen Sie auf dem Sonnendeck oder im Infinity-Pool und machen Sie Fotos in der Goldenen Stunde.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "18:00",
+          title: "Infinity-Pool-Erlebnis",
+          description:
+            "Tauchen Sie in den Infinity-Pool der Yacht ein – ein seltenes Luxuserlebnis auf See. Schwimmen oder entspannen Sie beim Anblick des Himmels im Abendlicht.",
+          category: "abenteuer",
+        },
+        {
+          time: "19:00",
+          title: "Gourmet-Dinner-Erlebnis",
+          description:
+            "Genießen Sie ein vom Küchenchef kuratiertes Fine-Dining-Menü mit Grilltellern (vegetarisch & nicht vegetarisch), Sushi, Salaten und Beilagen. Der Service erfolgt Gang für Gang.",
+          category: "mahlzeit",
+          highlight: true,
+        },
+        {
+          time: "20:00",
+          title: "Desserts & Lounge-Zeit",
+          description:
+            "Genießen Sie luxuriöse Desserts wie Käsekuchen, Schokoladenmousse und frisches Obst. Entspannen Sie im Lounge-Bereich oder hören Sie weiter DJ-Musik.",
+          category: "mahlzeit",
+        },
+        {
+          time: "20:30",
+          title: "Mondscheinkreuzfahrt",
+          description:
+            "Erleben Sie eine ruhige Mondscheinfahrt unter den Sternen – genießen Sie den nächtlichen Himmel, sanfte Musik, Meeresbrise und stimmungsvolle Beleuchtung.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "22:00",
+          title: "Rückkehr zum Anleger",
+          description:
+            "Die Yacht legt wieder am Pier an und beendet das luxuriöse Kreuzfahrterlebnis.",
+          category: "reise",
+        },
+        {
+          time: "22:15",
+          title: "Rückfahrt zum Hotel",
+          description:
+            "Privater Transfer zurück zum Hotel – mit unvergesslichen Erinnerungen an die Luxusyacht-Tour.",
+          category: "ankunft",
+        },
+      ],
       gallery: [
         {
           title: "Premium-Yacht",
@@ -1713,114 +1712,113 @@ export const de = {
         },
       ],
       itinerary: [
-  {
-    time: "Tag 1 · 04:00",
-    title: "Abholung vom Hotel in Goa",
-    description:
-      "Früher Morgen-Transfer von Ihrem Hotel in Arpora, Baga, Calangute oder Candolim. Andere Abholpunkte auf Anfrage gegen Aufpreis möglich.",
-    category: "reise"
-  },
-  {
-    time: "Tag 1 · 06:00",
-    title: "Flug von Goa nach Mumbai",
-    description:
-      "Morgens Flug von Goa (Dabolim‑Flughafen) nach Mumbai.",
-    category: "reise"
-  },
-  {
-    time: "Tag 1 · 07:25",
-    title: "Ankunft in Mumbai & Treffen mit dem Guide",
-    description:
-      "Ankunft am Flughafen Mumbai. Treffen Sie Ihren englischsprachigen Reiseleiter und beginnen Sie die Stadtrundfahrt.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · Morgen",
-    title: "Besuch des Dharavi‑Slums",
-    description:
-      "Besichtigen Sie Dharavi, den größten Slum Asiens, bekannt für Kleinindustrie, Recycling und enge Gemeinschaft.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · Später Vormittag",
-    title: "Dhobi Ghat",
-    description:
-      "Entdecken Sie Dhobi Ghat – die größte Freiluftwäscherei der Welt, wo Hunderte Wäscher in langen Betonbecken arbeiten.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Nachmittag",
-    title: "Hanging Gardens",
-    description:
-      "Besuchen Sie die Hanging Gardens, einen ruhigen Hügelgarten mit Panoramablick auf Mumbais Skyline und Küste.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Nachmittag",
-    title: "Gandhi‑Museum (Mani Bhavan)",
-    description:
-      "Besuchen Sie Mani Bhavan, das frühere Zuhause von Mahatma Gandhi in Mumbai, heute ein Museum über sein Leben und Wirken.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Nachmittag",
-    title: "Chhatrapati Shivaji Maharaj Terminus",
-    description:
-      "Besuchen Sie den UNESCO‑Bahnhof (Victoria Terminus), bekannt für seine viktorianisch‑gotische Architektur und als Drehort von „Slumdog Millionär“. ",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · Später Nachmittag",
-    title: "Gateway of India",
-    description:
-      "Besuch des Wahrzeichens Gateway of India am Arabischen Meer – eines der berühmtesten Monumente Mumbais.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Optional",
-    title: "Taj Mahal Palace Hotel",
-    description:
-      "Fotostopp beim Taj Mahal Palace Hotel. Optionale Nachmittagstee‑Erfahrung (Reservierung erforderlich, nicht inbegriffen). Empfohlene Zeit: ca. 15:00 Uhr.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Abend",
-    title: "Freizeit zum Abendessen & Einkaufen",
-    description:
-      "Freizeit für Abendessen auf eigene Kosten und Einkaufen in Mumbai.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Abend",
-    title: "Courtesy‑Zimmer im West End Hotel",
-    description:
-      "Gemeinschaftliches Erfrischungszimmer im West End Hotel vor der Nachtzugfahrt verfügbar.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · 22:00",
-    title: "Transfer zum Bahnhof",
-    description:
-      "Abfahrt vom Hotel und Transfer zum Bahnhof Chhatrapati Shivaji Maharaj.",
-    category: "reise"
-  },
-  {
-    time: "Tag 1 · 23:05",
-    title: "Nachtzug nach Goa",
-    description:
-      "Einsteigen in den Nachtzug (3‑Bett‑AC‑Schlafwagen) von Mumbai nach Goa.",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · 09:00",
-    title: "Ankunft in Goa & Hoteltransfer",
-    description:
-      "Ankunft am Bahnhof Thivim, Goa. Transfer zurück zum Hotel – Ende der Tour „Mumbai in einem Tag“.",
-    category: "ankunft"
-  }
-],
+        {
+          time: "Tag 1 · 04:00",
+          title: "Abholung vom Hotel in Goa",
+          description:
+            "Früher Morgen-Transfer von Ihrem Hotel in Arpora, Baga, Calangute oder Candolim. Andere Abholpunkte auf Anfrage gegen Aufpreis möglich.",
+          category: "reise",
+        },
+        {
+          time: "Tag 1 · 06:00",
+          title: "Flug von Goa nach Mumbai",
+          description: "Morgens Flug von Goa (Dabolim‑Flughafen) nach Mumbai.",
+          category: "reise",
+        },
+        {
+          time: "Tag 1 · 07:25",
+          title: "Ankunft in Mumbai & Treffen mit dem Guide",
+          description:
+            "Ankunft am Flughafen Mumbai. Treffen Sie Ihren englischsprachigen Reiseleiter und beginnen Sie die Stadtrundfahrt.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · Morgen",
+          title: "Besuch des Dharavi‑Slums",
+          description:
+            "Besichtigen Sie Dharavi, den größten Slum Asiens, bekannt für Kleinindustrie, Recycling und enge Gemeinschaft.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · Später Vormittag",
+          title: "Dhobi Ghat",
+          description:
+            "Entdecken Sie Dhobi Ghat – die größte Freiluftwäscherei der Welt, wo Hunderte Wäscher in langen Betonbecken arbeiten.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Nachmittag",
+          title: "Hanging Gardens",
+          description:
+            "Besuchen Sie die Hanging Gardens, einen ruhigen Hügelgarten mit Panoramablick auf Mumbais Skyline und Küste.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Nachmittag",
+          title: "Gandhi‑Museum (Mani Bhavan)",
+          description:
+            "Besuchen Sie Mani Bhavan, das frühere Zuhause von Mahatma Gandhi in Mumbai, heute ein Museum über sein Leben und Wirken.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Nachmittag",
+          title: "Chhatrapati Shivaji Maharaj Terminus",
+          description:
+            "Besuchen Sie den UNESCO‑Bahnhof (Victoria Terminus), bekannt für seine viktorianisch‑gotische Architektur und als Drehort von „Slumdog Millionär“. ",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · Später Nachmittag",
+          title: "Gateway of India",
+          description:
+            "Besuch des Wahrzeichens Gateway of India am Arabischen Meer – eines der berühmtesten Monumente Mumbais.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Optional",
+          title: "Taj Mahal Palace Hotel",
+          description:
+            "Fotostopp beim Taj Mahal Palace Hotel. Optionale Nachmittagstee‑Erfahrung (Reservierung erforderlich, nicht inbegriffen). Empfohlene Zeit: ca. 15:00 Uhr.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Abend",
+          title: "Freizeit zum Abendessen & Einkaufen",
+          description:
+            "Freizeit für Abendessen auf eigene Kosten und Einkaufen in Mumbai.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Abend",
+          title: "Courtesy‑Zimmer im West End Hotel",
+          description:
+            "Gemeinschaftliches Erfrischungszimmer im West End Hotel vor der Nachtzugfahrt verfügbar.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · 22:00",
+          title: "Transfer zum Bahnhof",
+          description:
+            "Abfahrt vom Hotel und Transfer zum Bahnhof Chhatrapati Shivaji Maharaj.",
+          category: "reise",
+        },
+        {
+          time: "Tag 1 · 23:05",
+          title: "Nachtzug nach Goa",
+          description:
+            "Einsteigen in den Nachtzug (3‑Bett‑AC‑Schlafwagen) von Mumbai nach Goa.",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · 09:00",
+          title: "Ankunft in Goa & Hoteltransfer",
+          description:
+            "Ankunft am Bahnhof Thivim, Goa. Transfer zurück zum Hotel – Ende der Tour „Mumbai in einem Tag“.",
+          category: "ankunft",
+        },
+      ],
       gallery: [
         {
           title: "Tor zu Indien",
@@ -3411,130 +3409,125 @@ export const de = {
         },
       ],
       itinerary: [
-  {
-    time: "Tag 1 · 11:00",
-    title: "Flug von Goa nach Aurangabad",
-    description:
-      "Morgenflug von Goa nach Aurangabad. Ankunft gegen 13:00 Uhr, Begrüßung durch den deutschsprachigen Reiseleiter am Flughafen.",
-    category: "reise"
-  },
-  {
-    time: "Tag 1 · 13:30",
-    title: "Check‑in im 3‑Sterne‑Hotel",
-    description:
-      "Transfer zum komfortablen Hotel in Aurangabad, Check‑in, Erfrischung und Vorbereitung auf die Besichtigung.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · 14:00",
-    title: "Mittagessen (selbst bezahlt)",
-    description:
-      "Mittagessen in einem empfohlenen Restaurant mit Vegetarischen und Nicht‑Vegetarischen Gerichten.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 1 · 15:00",
-    title: "Bibi Ka Maqbara (Mini Taj Mahal)",
-    description:
-      "Besichtigung des Mogul‑Denkmals im Stil des Taj Mahal. Highlights: Gartenanlage, weißer Marmor, Fotospots und Geschichten der Ära Aurangzebs.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · 16:30",
-    title: "Lokaler Handwerksmarkt",
-    description:
-      "Erkundung des Handwerks von Aurangabad – Paithani‑Saris, Himroo‑Schals und Steinschnitzkunst. Perfekt zum Einkaufen.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · 18:00",
-    title: "Rückkehr ins Hotel",
-    description:
-      "Rückkehr zum Hotel und Abend zur freien Verfügung.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · 20:00",
-    title: "Übernachtung",
-    description:
-      "Abendessen im Hotel (auf eigene Kosten) und Übernachtung in Aurangabad.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 2 · 07:00",
-    title: "Frühstück im Hotel",
-    description:
-      "Frühstück im Hotel vor dem Ausflug.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · 07:30",
-    title: "Fahrt zu den Ajanta‑Höhlen",
-    description:
-      "Malerische Fahrt (≈ 2,5 Std.) zu den Ajanta‑Höhlen durch Berglandschaften.",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · 10:00",
-    title: "Ajanta‑Höhlen (UNESCO‑Welterbe)",
-    description:
-      "Besichtigung des berühmten buddhistischen Höhlenkomplexes mit Fresken, Stupas, Säulen und Kunst aus dem 2. Jh. v. Chr. Ihr Guide erklärt Symbolik und Geschichte.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 2 · 13:00",
-    title: "Mittag bei Ajanta (selbst bezahlt)",
-    description:
-      "Mittagessen in einem Restaurant in der Nähe der Ajanta‑Höhlen.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · 14:00",
-    title: "Fahrt zu den Ellora‑Höhlen",
-    description:
-      "Rückfahrt Richtung Aurangabad und weiter nach Ellora (≈ 1,5 Std.).",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · 15:30",
-    title: "Ellora‑Höhlen (UNESCO‑Welterbe)",
-    description:
-      "Erkundung der Hindu‑, Buddhisten‑ und Jain‑Tempel. Höhepunkt ist der Kailasa‑Tempel (Höhle 16). Ihr Guide erklärt Architektur und Kunstwerke.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 2 · 18:00",
-    title: "Abholung des Gepäcks",
-    description:
-      "Abholung des Gepäcks im Hotel vor der Abreise.",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · 18:30",
-    title: "Transfer zum Flughafen Aurangabad",
-    description:
-      "Transfer zum Flughafen für den Rückflug.",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · 20:00",
-    title: "Rückflug nach Goa",
-    description:
-      "Abendflug von Aurangabad nach Goa (im Paket inbegriffen).",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · 21:30",
-    title: "Ankunft in Goa",
-    description:
-      "Ankunft in Goa, Abschluss der Ajanta‑ und Ellora‑Kulturreise.",
-    category: "ankunft"
-  }
-]
-,
+        {
+          time: "Tag 1 · 11:00",
+          title: "Flug von Goa nach Aurangabad",
+          description:
+            "Morgenflug von Goa nach Aurangabad. Ankunft gegen 13:00 Uhr, Begrüßung durch den deutschsprachigen Reiseleiter am Flughafen.",
+          category: "reise",
+        },
+        {
+          time: "Tag 1 · 13:30",
+          title: "Check‑in im 3‑Sterne‑Hotel",
+          description:
+            "Transfer zum komfortablen Hotel in Aurangabad, Check‑in, Erfrischung und Vorbereitung auf die Besichtigung.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · 14:00",
+          title: "Mittagessen (selbst bezahlt)",
+          description:
+            "Mittagessen in einem empfohlenen Restaurant mit Vegetarischen und Nicht‑Vegetarischen Gerichten.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 1 · 15:00",
+          title: "Bibi Ka Maqbara (Mini Taj Mahal)",
+          description:
+            "Besichtigung des Mogul‑Denkmals im Stil des Taj Mahal. Highlights: Gartenanlage, weißer Marmor, Fotospots und Geschichten der Ära Aurangzebs.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · 16:30",
+          title: "Lokaler Handwerksmarkt",
+          description:
+            "Erkundung des Handwerks von Aurangabad – Paithani‑Saris, Himroo‑Schals und Steinschnitzkunst. Perfekt zum Einkaufen.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · 18:00",
+          title: "Rückkehr ins Hotel",
+          description: "Rückkehr zum Hotel und Abend zur freien Verfügung.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · 20:00",
+          title: "Übernachtung",
+          description:
+            "Abendessen im Hotel (auf eigene Kosten) und Übernachtung in Aurangabad.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 2 · 07:00",
+          title: "Frühstück im Hotel",
+          description: "Frühstück im Hotel vor dem Ausflug.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · 07:30",
+          title: "Fahrt zu den Ajanta‑Höhlen",
+          description:
+            "Malerische Fahrt (≈ 2,5 Std.) zu den Ajanta‑Höhlen durch Berglandschaften.",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · 10:00",
+          title: "Ajanta‑Höhlen (UNESCO‑Welterbe)",
+          description:
+            "Besichtigung des berühmten buddhistischen Höhlenkomplexes mit Fresken, Stupas, Säulen und Kunst aus dem 2. Jh. v. Chr. Ihr Guide erklärt Symbolik und Geschichte.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 2 · 13:00",
+          title: "Mittag bei Ajanta (selbst bezahlt)",
+          description:
+            "Mittagessen in einem Restaurant in der Nähe der Ajanta‑Höhlen.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · 14:00",
+          title: "Fahrt zu den Ellora‑Höhlen",
+          description:
+            "Rückfahrt Richtung Aurangabad und weiter nach Ellora (≈ 1,5 Std.).",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · 15:30",
+          title: "Ellora‑Höhlen (UNESCO‑Welterbe)",
+          description:
+            "Erkundung der Hindu‑, Buddhisten‑ und Jain‑Tempel. Höhepunkt ist der Kailasa‑Tempel (Höhle 16). Ihr Guide erklärt Architektur und Kunstwerke.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 2 · 18:00",
+          title: "Abholung des Gepäcks",
+          description: "Abholung des Gepäcks im Hotel vor der Abreise.",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · 18:30",
+          title: "Transfer zum Flughafen Aurangabad",
+          description: "Transfer zum Flughafen für den Rückflug.",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · 20:00",
+          title: "Rückflug nach Goa",
+          description:
+            "Abendflug von Aurangabad nach Goa (im Paket inbegriffen).",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · 21:30",
+          title: "Ankunft in Goa",
+          description:
+            "Ankunft in Goa, Abschluss der Ajanta‑ und Ellora‑Kulturreise.",
+          category: "ankunft",
+        },
+      ],
       gallery: [
         {
           title: "Ajanta-Höhlen",
@@ -4219,115 +4212,113 @@ export const de = {
         },
       ],
       itinerary: [
-  {
-    time: "Tag 1 · 05:00",
-    title: "Abholung vom Hotel in Goa",
-    description:
-      "Frühe Abholung vom Hotel in Goa mit Klimafahrzeug. Treffen mit dem deutschsprachigen Reiseleiter. Genießen Sie den Blick auf Wälder, Flüsse und die Westghats auf dem Weg nach Dandeli.",
-    category: "reise"
-  },
-  {
-    time: "Tag 1 · 07:30",
-    title: "Frühstück unterwegs",
-    description:
-      "Stopp in einem lokalen Restaurant für ein südindisches Frühstück vor dem Waldgebiet Dandeli.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 1 · 09:30",
-    title: "Ankunft in Dandeli & Hotel Check‑in",
-    description:
-      "Ankunft in Dandeli und Check‑in in eine 3‑Sterne‑Dschungellodge oder ein Naturschutz‑Resort. Erfrischung und Vorbereitung auf die Aktivitäten.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · 10:30",
-    title: "Elefantenbeobachtung & Waldhabitat",
-    description:
-      "Besuch des Elefantenschutzgebietes – Beobachten Sie die Tiere in ihrem natürlichen Lebensraum und lernen Sie mehr über Verhalten und Schutzprogramme.",
-    category: "wildlife",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · 12:00",
-    title: "Naturwanderung & Vogelbeobachtung",
-    description:
-      "Geführter Waldspaziergang durch die grüne Landschaft von Dandeli. Mögliche Sichtungen: Nashornvögel, Eisvögel, Spechte und weitere Arten.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · 13:30",
-    title: "Mittagspause (selbstbezahlt)",
-    description:
-      "Mittagessen im Hotelrestaurant mit Vegetarischen oder Nicht‑Vegetarischen Optionen.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 1 · 15:00",
-    title: "Syntheri Felsen",
-    description:
-      "Erkunden Sie die beeindruckenden Syntheri Rocks, eine monolithische Granitformation (90 m hoch) – Flüsse, Bienenstöcke und fotogene Aussichten.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · 17:30",
-    title: "Sonnenuntergang am Kali River",
-    description:
-      "Genießen Sie den ruhigen Sonnenuntergang über den Kali‑Fluss‑Rückstauseen – ein perfekter Ort zum Entspannen.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · 19:00",
-    title: "Abendessen & Übernachtung",
-    description:
-      "Rückkehr ins Hotel, Abendessen und Übernachtung in Dandeli.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 2 · 05:30",
-    title: "Weckruf & Tee / Kaffee",
-    description:
-      "Früher Morgenstart mit einem Tee oder Kaffee vor der Safari.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · 06:00",
-    title: "Tigersafari – Dandeli‑Wildschutzgebiet",
-    description:
-      "Start der Tigersafari im dichten Dandeli‑Wald. Mögliche Sichtungen: Tiger, Elefanten, Sambar‑Hirsche, Axishirsche und Riesenhörnchen. Begleitet vom Förster.",
-    category: "wildlife",
-    highlight: true
-  },
-  {
-    time: "Tag 2 · 09:00",
-    title: "Rückkehr & Frühstück",
-    description:
-      "Rückkehr zur Lodge und reichhaltiges Frühstück.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · 10:00",
-    title: "Abfahrt & Rückfahrt nach Goa",
-    description:
-      "Check‑out und Rückfahrt nach Goa über Bergstraßen und Wälder.",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · 13:00",
-    title: "Mittagsstopp unterwegs (selbstbezahlt)",
-    description:
-      "Mittagsstopp in einem Straßenrestaurant auf Empfehlung des Guides.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · 16:30",
-    title: "Ankunft in Goa",
-    description:
-      "Ankunft im Hotel in Goa – Ende der „Elefanten & Tiger Safari Dandeli“ Tour.",
-    category: "ankunft"
-  }
-]
-,
+        {
+          time: "Tag 1 · 05:00",
+          title: "Abholung vom Hotel in Goa",
+          description:
+            "Frühe Abholung vom Hotel in Goa mit Klimafahrzeug. Treffen mit dem deutschsprachigen Reiseleiter. Genießen Sie den Blick auf Wälder, Flüsse und die Westghats auf dem Weg nach Dandeli.",
+          category: "reise",
+        },
+        {
+          time: "Tag 1 · 07:30",
+          title: "Frühstück unterwegs",
+          description:
+            "Stopp in einem lokalen Restaurant für ein südindisches Frühstück vor dem Waldgebiet Dandeli.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 1 · 09:30",
+          title: "Ankunft in Dandeli & Hotel Check‑in",
+          description:
+            "Ankunft in Dandeli und Check‑in in eine 3‑Sterne‑Dschungellodge oder ein Naturschutz‑Resort. Erfrischung und Vorbereitung auf die Aktivitäten.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · 10:30",
+          title: "Elefantenbeobachtung & Waldhabitat",
+          description:
+            "Besuch des Elefantenschutzgebietes – Beobachten Sie die Tiere in ihrem natürlichen Lebensraum und lernen Sie mehr über Verhalten und Schutzprogramme.",
+          category: "wildlife",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · 12:00",
+          title: "Naturwanderung & Vogelbeobachtung",
+          description:
+            "Geführter Waldspaziergang durch die grüne Landschaft von Dandeli. Mögliche Sichtungen: Nashornvögel, Eisvögel, Spechte und weitere Arten.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · 13:30",
+          title: "Mittagspause (selbstbezahlt)",
+          description:
+            "Mittagessen im Hotelrestaurant mit Vegetarischen oder Nicht‑Vegetarischen Optionen.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 1 · 15:00",
+          title: "Syntheri Felsen",
+          description:
+            "Erkunden Sie die beeindruckenden Syntheri Rocks, eine monolithische Granitformation (90 m hoch) – Flüsse, Bienenstöcke und fotogene Aussichten.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · 17:30",
+          title: "Sonnenuntergang am Kali River",
+          description:
+            "Genießen Sie den ruhigen Sonnenuntergang über den Kali‑Fluss‑Rückstauseen – ein perfekter Ort zum Entspannen.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · 19:00",
+          title: "Abendessen & Übernachtung",
+          description:
+            "Rückkehr ins Hotel, Abendessen und Übernachtung in Dandeli.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 2 · 05:30",
+          title: "Weckruf & Tee / Kaffee",
+          description:
+            "Früher Morgenstart mit einem Tee oder Kaffee vor der Safari.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · 06:00",
+          title: "Tigersafari – Dandeli‑Wildschutzgebiet",
+          description:
+            "Start der Tigersafari im dichten Dandeli‑Wald. Mögliche Sichtungen: Tiger, Elefanten, Sambar‑Hirsche, Axishirsche und Riesenhörnchen. Begleitet vom Förster.",
+          category: "wildlife",
+          highlight: true,
+        },
+        {
+          time: "Tag 2 · 09:00",
+          title: "Rückkehr & Frühstück",
+          description: "Rückkehr zur Lodge und reichhaltiges Frühstück.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · 10:00",
+          title: "Abfahrt & Rückfahrt nach Goa",
+          description:
+            "Check‑out und Rückfahrt nach Goa über Bergstraßen und Wälder.",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · 13:00",
+          title: "Mittagsstopp unterwegs (selbstbezahlt)",
+          description:
+            "Mittagsstopp in einem Straßenrestaurant auf Empfehlung des Guides.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · 16:30",
+          title: "Ankunft in Goa",
+          description:
+            "Ankunft im Hotel in Goa – Ende der „Elefanten & Tiger Safari Dandeli“ Tour.",
+          category: "ankunft",
+        },
+      ],
       gallery: [
         {
           title: "Interaktion mit Elefanten",
@@ -4630,146 +4621,139 @@ export const de = {
           description: "Alle wichtigen Sehenswürdigkeiten",
         },
       ],
-      itinerary:  [
-  // ---------------- TAG 1 ----------------
-  {
-    time: "Tag 1 · Ankunft",
-    title: "Ankunft in Delhi",
-    description:
-      "Ankunft am Flughafen Delhi und Begrüßung durch den Reiseleiter. Transfer zum Hotel und Check‑in.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · Morgen",
-    title: "Stadtrundfahrt Delhi",
-    description:
-      "Nach der Erfrischung Beginn der Rundfahrt mit India Gate, Rashtrapati Bhavan (außen) und Parlamentsgebäude (außen).",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Nachmittag",
-    title: "Historische Monumente Delhis",
-    description:
-      "Besuch von Qutub Minar, Humayun‑Grab und Lotus‑Tempel mit Erklärungen des Reiseleiters.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · Abend",
-    title: "Einkaufen in Connaught Place",
-    description:
-      "Freizeit am Abend zum Bummeln und Einkaufen im Connaught Place.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Nacht",
-    title: "Übernachtung in Delhi",
-    description:
-      "Rückkehr ins Hotel und Übernachtung in Delhi.",
-    category: "ankunft"
-  },
+      itinerary: [
+        // ---------------- TAG 1 ----------------
+        {
+          time: "Tag 1 · Ankunft",
+          title: "Ankunft in Delhi",
+          description:
+            "Ankunft am Flughafen Delhi und Begrüßung durch den Reiseleiter. Transfer zum Hotel und Check‑in.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · Morgen",
+          title: "Stadtrundfahrt Delhi",
+          description:
+            "Nach der Erfrischung Beginn der Rundfahrt mit India Gate, Rashtrapati Bhavan (außen) und Parlamentsgebäude (außen).",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Nachmittag",
+          title: "Historische Monumente Delhis",
+          description:
+            "Besuch von Qutub Minar, Humayun‑Grab und Lotus‑Tempel mit Erklärungen des Reiseleiters.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · Abend",
+          title: "Einkaufen in Connaught Place",
+          description:
+            "Freizeit am Abend zum Bummeln und Einkaufen im Connaught Place.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Nacht",
+          title: "Übernachtung in Delhi",
+          description: "Rückkehr ins Hotel und Übernachtung in Delhi.",
+          category: "ankunft",
+        },
 
-  // ---------------- TAG 2 ----------------
-  {
-    time: "Tag 2 · Morgen",
-    title: "Fahrt Delhi → Agra",
-    description:
-      "Nach dem Frühstück Fahrt von Delhi nach Agra (ca. 4 Std.).",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · Ankunft",
-    title: "Check‑in im Hotel in Agra",
-    description:
-      "Ankunft in Agra und Check‑in im Hotel.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 2 · Nachmittag",
-    title: "Agra Sightseeing",
-    description:
-      "Besichtigung des Taj Mahal – Symbol der Liebe – und des Agra‑Forts (UNESCO‑Welterbe).",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 2 · Abend",
-    title: "Baby Taj & Handwerkskunst",
-    description:
-      "Besuch des Itmad‑ud‑Daulah („Baby Taj“) und von Marmor‑Werkstätten und lokalen Souvenirläden.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Nacht",
-    title: "Übernachtung in Agra",
-    description:
-      "Übernachtung im Hotel in Agra.",
-    category: "ankunft"
-  },
+        // ---------------- TAG 2 ----------------
+        {
+          time: "Tag 2 · Morgen",
+          title: "Fahrt Delhi → Agra",
+          description:
+            "Nach dem Frühstück Fahrt von Delhi nach Agra (ca. 4 Std.).",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · Ankunft",
+          title: "Check‑in im Hotel in Agra",
+          description: "Ankunft in Agra und Check‑in im Hotel.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 2 · Nachmittag",
+          title: "Agra Sightseeing",
+          description:
+            "Besichtigung des Taj Mahal – Symbol der Liebe – und des Agra‑Forts (UNESCO‑Welterbe).",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 2 · Abend",
+          title: "Baby Taj & Handwerkskunst",
+          description:
+            "Besuch des Itmad‑ud‑Daulah („Baby Taj“) und von Marmor‑Werkstätten und lokalen Souvenirläden.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Nacht",
+          title: "Übernachtung in Agra",
+          description: "Übernachtung im Hotel in Agra.",
+          category: "ankunft",
+        },
 
-  // ---------------- TAG 3 ----------------
-  {
-    time: "Tag 3 · Morgen",
-    title: "Fahrt Agra → Jaipur",
-    description:
-      "Nach dem Frühstück Fahrt nach Jaipur (ca. 5 Std.).",
-    category: "reise"
-  },
-  {
-    time: "Tag 3 · Unterwegs",
-    title: "Besuch von Fatehpur Sikri",
-    description:
-      "Besichtigung der ehemaligen Mogulstadt Fatehpur Sikri mit Jama Masjid, Buland Darwaza, Panch Mahal und Jodha Bai‑Palast.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 3 · Ankunft",
-    title: "Ankunft & Check‑in in Jaipur",
-    description:
-      "Weiterfahrt nach Jaipur und Check‑in im Hotel.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 3 · Abend (optional)",
-    title: "Chokhi Dhani – Kulturelles Erlebnis",
-    description:
-      "Optionale Abendveranstaltung im Dorf Chokhi Dhani mit Rajasthani‑Dinner.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 3 · Nacht",
-    title: "Übernachtung in Jaipur",
-    description:
-      "Rückkehr ins Hotel und Übernachtung in Jaipur.",
-    category: "ankunft"
-  },
+        // ---------------- TAG 3 ----------------
+        {
+          time: "Tag 3 · Morgen",
+          title: "Fahrt Agra → Jaipur",
+          description: "Nach dem Frühstück Fahrt nach Jaipur (ca. 5 Std.).",
+          category: "reise",
+        },
+        {
+          time: "Tag 3 · Unterwegs",
+          title: "Besuch von Fatehpur Sikri",
+          description:
+            "Besichtigung der ehemaligen Mogulstadt Fatehpur Sikri mit Jama Masjid, Buland Darwaza, Panch Mahal und Jodha Bai‑Palast.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 3 · Ankunft",
+          title: "Ankunft & Check‑in in Jaipur",
+          description: "Weiterfahrt nach Jaipur und Check‑in im Hotel.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 3 · Abend (optional)",
+          title: "Chokhi Dhani – Kulturelles Erlebnis",
+          description:
+            "Optionale Abendveranstaltung im Dorf Chokhi Dhani mit Rajasthani‑Dinner.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 3 · Nacht",
+          title: "Übernachtung in Jaipur",
+          description: "Rückkehr ins Hotel und Übernachtung in Jaipur.",
+          category: "ankunft",
+        },
 
-  // ---------------- TAG 4 ----------------
-  {
-    time: "Tag 4 · Morgen",
-    title: "Jaipur Sightseeing",
-    description:
-      "Nach dem Frühstück Besuch von Amber‑Fort (mit optionalem Elefantenritt), Jal Mahal und Hawa Mahal (Fotostopp).",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 4 · Nachmittag",
-    title: "Stadtpalast & Jantar Mantar",
-    description:
-      "Besichtigung des City Palace und der Sternwarte Jantar Mantar mit Führung.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 4 · Abend",
-    title: "Transfer zum Flughafen & Abreise",
-    description:
-      "Abendlicher Transfer zum Flughafen (Jaipur oder Delhi). Ende der Tour mit schönen Erinnerungen.",
-    category: "reise"
-  }
-]
-,
+        // ---------------- TAG 4 ----------------
+        {
+          time: "Tag 4 · Morgen",
+          title: "Jaipur Sightseeing",
+          description:
+            "Nach dem Frühstück Besuch von Amber‑Fort (mit optionalem Elefantenritt), Jal Mahal und Hawa Mahal (Fotostopp).",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 4 · Nachmittag",
+          title: "Stadtpalast & Jantar Mantar",
+          description:
+            "Besichtigung des City Palace und der Sternwarte Jantar Mantar mit Führung.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 4 · Abend",
+          title: "Transfer zum Flughafen & Abreise",
+          description:
+            "Abendlicher Transfer zum Flughafen (Jaipur oder Delhi). Ende der Tour mit schönen Erinnerungen.",
+          category: "reise",
+        },
+      ],
       gallery: [
         {
           title: "Taj Mahal",
@@ -4979,7 +4963,7 @@ export const de = {
         },
       ],
     },
-    "hampi-&-badami-tour-package": {
+    "hampi-badami-tour-package": {
       file_name: "Hampi-1N-2D-Trip-Package.html",
       page: {
         slug: "Hampi-1N-2D-Trip-Package",
@@ -5143,139 +5127,136 @@ export const de = {
           image: "/assets/destinations/Hampi/Hampi-Sunset.webp",
         },
       ],
-      inclusions:  [
-  {
-    time: "Tag 1 · 05:00",
-    title: "Abholung vom Hotel in Goa",
-    description:
-      "Frühe Abholung vom Hotel in Goa mit Klimataxi. Ihr englischsprachiger Reiseleiter erklärt die Geschichte von Hampi und die Höhepunkte der Tour bei einer malerischen Fahrt durch Dörfer und Landschaften Karnatakas.",
-    category: "reise"
-  },
-  {
-    time: "Tag 1 · 08:00",
-    title: "Frühstück unterwegs",
-    description:
-      "Haltestelle in einem Straßenrestaurant für ein südindisches Frühstück, bevor es weiter nach Hampi geht.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 1 · 11:00",
-    title: "Ankunft in Hampi & Beginn der Besichtigung",
-    description:
-      "Ankunft in Hampi – der ehemaligen Hauptstadt des Vijayanagar‑Reiches und UNESCO‑Welterbe. Beginn der geführten Tour.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · 11:15",
-    title: "Virupaksha‑Tempel",
-    description:
-      "Besuch des aktiven Virupaksha‑Tempels mit hoher Gopuram‑Torhalle, Flussufer und alten Malereien. Ihr Guide erläutert Architektur und Spiritualiät des Tempels.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · 12:15",
-    title: "Hampi‑Basar & Monolithischer Stier",
-    description:
-      "Spaziergang durch den historischen Basar und Besuch der monolithischen Nandi‑Statue mit Blick auf den Königsweg.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · 13:00",
-    title: "Mittagspause (selbst bezahlt)",
-    description:
-      "Mittagessen in einem lokalen Restaurant mit südindischen Gerichten.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 1 · 14:00",
-    title: "Vittala‑Tempel",
-    description:
-      "Besuch des berühmten Vittala‑Tempels mit dem Steinwagen, Musiksäulen und feinen Schnitzereien – UNESCO‑geschützt.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · 15:30",
-    title: "Königliches Areal & Bad der Königin",
-    description:
-      "Erkundung des antiken Königsareals mit Audienzhalle, Lotus‑Mahal, Elefantenställen und Wasserbecken.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · 17:00",
-    title: "Sonnenuntergang auf dem Hemakuta‑Hügel",
-    description:
-      "Genießen Sie den wunderschönen Sonnenuntergang über den Felsenlandschaften von Hampi.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · 18:30",
-    title: "Check‑in im 3‑Sterne‑Hotel",
-    description:
-      "Check‑in im Hotel in Hampi und Abend zur freien Verfügung.",
-    category: "ankunft"
-  },
+      inclusions: [
+        {
+          time: "Tag 1 · 05:00",
+          title: "Abholung vom Hotel in Goa",
+          description:
+            "Frühe Abholung vom Hotel in Goa mit Klimataxi. Ihr englischsprachiger Reiseleiter erklärt die Geschichte von Hampi und die Höhepunkte der Tour bei einer malerischen Fahrt durch Dörfer und Landschaften Karnatakas.",
+          category: "reise",
+        },
+        {
+          time: "Tag 1 · 08:00",
+          title: "Frühstück unterwegs",
+          description:
+            "Haltestelle in einem Straßenrestaurant für ein südindisches Frühstück, bevor es weiter nach Hampi geht.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 1 · 11:00",
+          title: "Ankunft in Hampi & Beginn der Besichtigung",
+          description:
+            "Ankunft in Hampi – der ehemaligen Hauptstadt des Vijayanagar‑Reiches und UNESCO‑Welterbe. Beginn der geführten Tour.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · 11:15",
+          title: "Virupaksha‑Tempel",
+          description:
+            "Besuch des aktiven Virupaksha‑Tempels mit hoher Gopuram‑Torhalle, Flussufer und alten Malereien. Ihr Guide erläutert Architektur und Spiritualiät des Tempels.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · 12:15",
+          title: "Hampi‑Basar & Monolithischer Stier",
+          description:
+            "Spaziergang durch den historischen Basar und Besuch der monolithischen Nandi‑Statue mit Blick auf den Königsweg.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · 13:00",
+          title: "Mittagspause (selbst bezahlt)",
+          description:
+            "Mittagessen in einem lokalen Restaurant mit südindischen Gerichten.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 1 · 14:00",
+          title: "Vittala‑Tempel",
+          description:
+            "Besuch des berühmten Vittala‑Tempels mit dem Steinwagen, Musiksäulen und feinen Schnitzereien – UNESCO‑geschützt.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · 15:30",
+          title: "Königliches Areal & Bad der Königin",
+          description:
+            "Erkundung des antiken Königsareals mit Audienzhalle, Lotus‑Mahal, Elefantenställen und Wasserbecken.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · 17:00",
+          title: "Sonnenuntergang auf dem Hemakuta‑Hügel",
+          description:
+            "Genießen Sie den wunderschönen Sonnenuntergang über den Felsenlandschaften von Hampi.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · 18:30",
+          title: "Check‑in im 3‑Sterne‑Hotel",
+          description:
+            "Check‑in im Hotel in Hampi und Abend zur freien Verfügung.",
+          category: "ankunft",
+        },
 
-  {
-    time: "Tag 2 · 07:00",
-    title: "Frühstück im Hotel",
-    description:
-      "Frühstück vor der Abfahrt nach Badami.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · 07:30",
-    title: "Fahrt von Hampi nach Badami",
-    description:
-      "Fahrt (2,5 Std.) durch das ländliche Karnataka mit roten Felsen und Felsschluchten.",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · 10:00",
-    title: "Höhlentempel von Badami",
-    description:
-      "Besichtigung der Höhlentempel aus dem 6.–7. Jahrhundert mit Schnitzereien von Shiva, Vishnu und Jaina Göttern sowie der Nataraja‑Pose – Erklärung der Chalukya‑Kunst durch den Guide.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 2 · 11:30",
-    title: "Agastya‑See & Bhoothanatha‑Tempel",
-    description:
-      "Spaziergang am Agastya‑See und Besuch des Bhoothanatha‑Tempels am Wasser – ideal für ruhige Fotos.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · 12:30",
-    title: "Mittagessen (selbst bezahlt)",
-    description:
-      "Mittagessen in einem lokalen Restaurant mit regionaler Küche.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · 13:30",
-    title: "Badami‑Fort",
-    description:
-      "Aufstieg zum Badami‑Fort mit Blick auf den See und die Rotsteinfelsen. Besichtigung der Ruinen und Wachtürme.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · 14:30",
-    title: "Rückfahrt nach Goa",
-    description:
-      "Beginn der Rückfahrt nach Goa mit Pausen auf dem Weg.",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · 19:30",
-    title: "Ankunft in Goa",
-    description:
-      "Ankunft im Hotel in Goa – Ende der erlebnisreichen Reise durch Hampi und Badami.",
-    category: "ankunft"
-  }
-]
-,
+        {
+          time: "Tag 2 · 07:00",
+          title: "Frühstück im Hotel",
+          description: "Frühstück vor der Abfahrt nach Badami.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · 07:30",
+          title: "Fahrt von Hampi nach Badami",
+          description:
+            "Fahrt (2,5 Std.) durch das ländliche Karnataka mit roten Felsen und Felsschluchten.",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · 10:00",
+          title: "Höhlentempel von Badami",
+          description:
+            "Besichtigung der Höhlentempel aus dem 6.–7. Jahrhundert mit Schnitzereien von Shiva, Vishnu und Jaina Göttern sowie der Nataraja‑Pose – Erklärung der Chalukya‑Kunst durch den Guide.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 2 · 11:30",
+          title: "Agastya‑See & Bhoothanatha‑Tempel",
+          description:
+            "Spaziergang am Agastya‑See und Besuch des Bhoothanatha‑Tempels am Wasser – ideal für ruhige Fotos.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · 12:30",
+          title: "Mittagessen (selbst bezahlt)",
+          description:
+            "Mittagessen in einem lokalen Restaurant mit regionaler Küche.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · 13:30",
+          title: "Badami‑Fort",
+          description:
+            "Aufstieg zum Badami‑Fort mit Blick auf den See und die Rotsteinfelsen. Besichtigung der Ruinen und Wachtürme.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · 14:30",
+          title: "Rückfahrt nach Goa",
+          description: "Beginn der Rückfahrt nach Goa mit Pausen auf dem Weg.",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · 19:30",
+          title: "Ankunft in Goa",
+          description:
+            "Ankunft im Hotel in Goa – Ende der erlebnisreichen Reise durch Hampi und Badami.",
+          category: "ankunft",
+        },
+      ],
     },
     "hyderabad-tour-package": {
       file_name: "hyderabad-trip-1n2d.html",
@@ -5326,119 +5307,116 @@ export const de = {
         },
       ],
       itinerary: [
-  // ---------------- TAG 1 ----------------
-  {
-    time: "Tag 1 · Morgen",
-    title: "Ankunft in Hyderabad & Hoteltransfer",
-    description:
-      "Ankunft am Rajiv Gandhi International Airport (HYD). Begrüßung durch den Reiseleiter und deutschsprachige Begleitung. Transfer zum Hotel zum Check‑in und Erfrischen.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · 09:30 – 11:30",
-    title: "Golconda‑Fort",
-    description:
-      "Geführte Tour durch das Golconda‑Fort mit Akustikpunkt, Bala Hisar und Aussichtsplattform. Eines der wichtigsten Kulturerben Hyderabads.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · 11:45 – 12:30",
-    title: "Qutb‑Shahi‑Gräber (optional)",
-    description:
-      "Kurzer Besuch der Qutb‑Shahi‑Grabstätten in einer gepflegten Parkanlage – ideal für Fotografie und Geschichtseinblicke zum Golconda‑Fort.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · 13:00 – 14:00",
-    title: "Mittagspause",
-    description:
-      "Mittagessen in einem empfohlenen Restaurant – Hyderabadi Biryani oder alternativ Einheimisches nach Wahl.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 1 · 14:30 – 16:00",
-    title: "Chowmahalla‑Palast",
-    description:
-      "Besichtigung des historischen Chowmahalla‑Palastes, ehemaliger Sitz der Nizams, mit Prunkhöfen und Palastarchitektur.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · 16:15 – 18:00",
-    title: "Charminar & Laad‑Basar",
-    description:
-      "Rundgang um den Charminar (Eintritt inklusive) und Besuch des Laad‑Basaars, berühmt für Armreifen, Perlen und Kunsthandwerk. Optionaler Stopp an der Mecca‑Moschee.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · 19:00 – 20:30",
-    title: "Abendessen",
-    description:
-      "Abendessen in einem traditionellen Hyderabadi Restaurant nach Empfehlung des Guides.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 1 · 21:00",
-    title: "Rückkehr ins Hotel & Übernachtung",
-    description:
-      "Rückfahrt ins Hotel und Übernachtung in Hyderabad.",
-    category: "ankunft"
-  },
+        // ---------------- TAG 1 ----------------
+        {
+          time: "Tag 1 · Morgen",
+          title: "Ankunft in Hyderabad & Hoteltransfer",
+          description:
+            "Ankunft am Rajiv Gandhi International Airport (HYD). Begrüßung durch den Reiseleiter und deutschsprachige Begleitung. Transfer zum Hotel zum Check‑in und Erfrischen.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · 09:30 – 11:30",
+          title: "Golconda‑Fort",
+          description:
+            "Geführte Tour durch das Golconda‑Fort mit Akustikpunkt, Bala Hisar und Aussichtsplattform. Eines der wichtigsten Kulturerben Hyderabads.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · 11:45 – 12:30",
+          title: "Qutb‑Shahi‑Gräber (optional)",
+          description:
+            "Kurzer Besuch der Qutb‑Shahi‑Grabstätten in einer gepflegten Parkanlage – ideal für Fotografie und Geschichtseinblicke zum Golconda‑Fort.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · 13:00 – 14:00",
+          title: "Mittagspause",
+          description:
+            "Mittagessen in einem empfohlenen Restaurant – Hyderabadi Biryani oder alternativ Einheimisches nach Wahl.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 1 · 14:30 – 16:00",
+          title: "Chowmahalla‑Palast",
+          description:
+            "Besichtigung des historischen Chowmahalla‑Palastes, ehemaliger Sitz der Nizams, mit Prunkhöfen und Palastarchitektur.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · 16:15 – 18:00",
+          title: "Charminar & Laad‑Basar",
+          description:
+            "Rundgang um den Charminar (Eintritt inklusive) und Besuch des Laad‑Basaars, berühmt für Armreifen, Perlen und Kunsthandwerk. Optionaler Stopp an der Mecca‑Moschee.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · 19:00 – 20:30",
+          title: "Abendessen",
+          description:
+            "Abendessen in einem traditionellen Hyderabadi Restaurant nach Empfehlung des Guides.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 1 · 21:00",
+          title: "Rückkehr ins Hotel & Übernachtung",
+          description: "Rückfahrt ins Hotel und Übernachtung in Hyderabad.",
+          category: "ankunft",
+        },
 
-  // ---------------- TAG 2 ----------------
-  {
-    time: "Tag 2 · 07:30 – 08:30",
-    title: "Frühstück & Check‑out",
-    description:
-      "Frühstück im Hotel, Check‑out und Gepäckaufbewahrung bei späterem Flug möglich.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · 09:00 – 11:00",
-    title: "Salar Jung Museum",
-    description:
-      "Besuch des Salar Jung Museums – eines der größten Einzelsammler‑Museen Indiens mit Skulpturen, Gemälden und internationalen Artefakten.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 2 · 11:15 – 12:00",
-    title: "Birla‑Mandir (optional)",
-    description:
-      "Kurzer Besuch des Birla‑Tempels mit beschaulicher Atmosphäre und Blick auf die Skyline von Hyderabad.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · 12:15 – 13:15",
-    title: "Hussain Sagar See & Buddha‑Statue",
-    description:
-      "Fahrt zum Hussain Sagar See und Lumbini‑Park. Fotostopp an der Buddha‑Statue im See – optionale Bootsfahrt möglich.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · 13:30 – 14:30",
-    title: "Mittagessen",
-    description:
-      "Mittagessen in einem lokalen Restaurant.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · 14:45 – 16:00",
-    title: "Einkaufen",
-    description:
-      "Freizeit zum Einkaufen von Souvenirs und Kunsthandwerk auf den lokalen Märkten.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Abend",
-    title: "Transfer zum Flughafen Hyderabad & Abreise",
-    description:
-      "Privater Transfer zum Flughafen Hyderabad und Abschied vom Guide – Ende der Reise nach dem Flughafen‑Drop‑off.",
-    category: "reise"
-  }
-]
-,
+        // ---------------- TAG 2 ----------------
+        {
+          time: "Tag 2 · 07:30 – 08:30",
+          title: "Frühstück & Check‑out",
+          description:
+            "Frühstück im Hotel, Check‑out und Gepäckaufbewahrung bei späterem Flug möglich.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · 09:00 – 11:00",
+          title: "Salar Jung Museum",
+          description:
+            "Besuch des Salar Jung Museums – eines der größten Einzelsammler‑Museen Indiens mit Skulpturen, Gemälden und internationalen Artefakten.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 2 · 11:15 – 12:00",
+          title: "Birla‑Mandir (optional)",
+          description:
+            "Kurzer Besuch des Birla‑Tempels mit beschaulicher Atmosphäre und Blick auf die Skyline von Hyderabad.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · 12:15 – 13:15",
+          title: "Hussain Sagar See & Buddha‑Statue",
+          description:
+            "Fahrt zum Hussain Sagar See und Lumbini‑Park. Fotostopp an der Buddha‑Statue im See – optionale Bootsfahrt möglich.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · 13:30 – 14:30",
+          title: "Mittagessen",
+          description: "Mittagessen in einem lokalen Restaurant.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · 14:45 – 16:00",
+          title: "Einkaufen",
+          description:
+            "Freizeit zum Einkaufen von Souvenirs und Kunsthandwerk auf den lokalen Märkten.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Abend",
+          title: "Transfer zum Flughafen Hyderabad & Abreise",
+          description:
+            "Privater Transfer zum Flughafen Hyderabad und Abschied vom Guide – Ende der Reise nach dem Flughafen‑Drop‑off.",
+          category: "reise",
+        },
+      ],
       gallery: [
         {
           title: "Golconda Fort",
@@ -5544,165 +5522,160 @@ export const de = {
         },
       ],
       itinerary: [
-  // ---------------- TAG 1 ----------------
-  {
-    time: "Tag 1 · 9:00",
-    title: "Ankunft in Jodhpur & Abholung",
-    description:
-      "Ankunft am Flughafen oder Bahnhof Jodhpur. Abholung um 9:00 Uhr, Transfer zu einem 3‑Sterne‑Hotel, Check‑in und Frischmachen vor der Stadtrundfahrt.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · Morgen",
-    title: "Mehrangarh‑Fort",
-    description:
-      "Besuch des Mehrangarh‑Forts – das majestätischste Hügel‑Fort Rajasthans mit Panoramablick auf die Blaue Stadt und Einblicken in die Rajput‑Geschichte.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · Später Morgen",
-    title: "Jaswant Thada",
-    description:
-      "Besichtigung des Jaswant Thada, der weißen Marmor‑Gedenkstätte mit Aussicht auf einen ruhigen See.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Nachmittag",
-    title: "Umaid Bhawan Palastmuseum",
-    description:
-      "Erkunden Sie das Umaid Bhawan Palastmuseum mit königlichen Sammlungen, Fotos und Oldtimern.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Nachmittag",
-    title: "Uhrturm & Sardar‑Markt",
-    description:
-      "Fahrt durch den belebten Uhrturm‑Bereich und den Sardar‑Markt, um das bunte Leben der Einheimischen zu erleben.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Abend",
-    title: "Freizeit zum Einkaufen",
-    description:
-      "Freizeit zum Einkaufen von Kunsthandwerk, Jodhpur‑Anzügen, Mojari‑Schuhen und Souvenirs.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Nacht",
-    title: "Übernachtung in Jodhpur",
-    description:
-      "Rückkehr zum Hotel und Übernachtung in Jodhpur.",
-    category: "ankunft"
-  },
+        // ---------------- TAG 1 ----------------
+        {
+          time: "Tag 1 · 9:00",
+          title: "Ankunft in Jodhpur & Abholung",
+          description:
+            "Ankunft am Flughafen oder Bahnhof Jodhpur. Abholung um 9:00 Uhr, Transfer zu einem 3‑Sterne‑Hotel, Check‑in und Frischmachen vor der Stadtrundfahrt.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · Morgen",
+          title: "Mehrangarh‑Fort",
+          description:
+            "Besuch des Mehrangarh‑Forts – das majestätischste Hügel‑Fort Rajasthans mit Panoramablick auf die Blaue Stadt und Einblicken in die Rajput‑Geschichte.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · Später Morgen",
+          title: "Jaswant Thada",
+          description:
+            "Besichtigung des Jaswant Thada, der weißen Marmor‑Gedenkstätte mit Aussicht auf einen ruhigen See.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Nachmittag",
+          title: "Umaid Bhawan Palastmuseum",
+          description:
+            "Erkunden Sie das Umaid Bhawan Palastmuseum mit königlichen Sammlungen, Fotos und Oldtimern.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Nachmittag",
+          title: "Uhrturm & Sardar‑Markt",
+          description:
+            "Fahrt durch den belebten Uhrturm‑Bereich und den Sardar‑Markt, um das bunte Leben der Einheimischen zu erleben.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Abend",
+          title: "Freizeit zum Einkaufen",
+          description:
+            "Freizeit zum Einkaufen von Kunsthandwerk, Jodhpur‑Anzügen, Mojari‑Schuhen und Souvenirs.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Nacht",
+          title: "Übernachtung in Jodhpur",
+          description: "Rückkehr zum Hotel und Übernachtung in Jodhpur.",
+          category: "ankunft",
+        },
 
-  // ---------------- TAG 2 ----------------
-  {
-    time: "Tag 2 · Morgen",
-    title: "Frühstück & Fahrt nach Jaisalmer",
-    description:
-      "Frühstück im Hotel und malerische Fahrt nach Jaisalmer – der „Goldenen Stadt“ (280 km / ca. 5 Stunden).",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · Nachmittag",
-    title: "Gadisar‑See",
-    description:
-      "Besuch des Gadisar‑Sees, eines malerischen Reservoirs aus dem 14. Jahrhundert mit Tempeln und Ghats.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Nachmittag",
-    title: "Patwon Ki Haveli",
-    description:
-      "Erkunden Sie die kunstvoll geschnitzte Patwon Ki Haveli, berühmt für ihre Steinmetzarbeiten und Jain‑Architektur.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Nachmittag",
-    title: "Salim Singh & Nathmal Ki Haveli",
-    description:
-      "Besichtigen Sie die Havelis von Salim Singh und Nathmal, bekannt für ihre außergewöhnliche Architektur.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Später Nachmittag",
-    title: "Jaisalmer‑Fort (Lebendes Fort)",
-    description:
-      "Besuchen Sie das lebende Jaisalmer‑Fort – die einzige bewohnte Festung der Welt, mit Häusern, Läden und Tempeln innerhalb.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 2 · Abend",
-    title: "Check‑in & Sonnenuntergang",
-    description:
-      "Check‑in im 3‑Sterne‑Hotel in Jaisalmer. Genießen Sie den Sonnenuntergang von der Dachterrasse der „Goldenen Stadt“. ",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 2 · Nacht",
-    title: "Übernachtung in Jaisalmer (Stadthotel)",
-    description:
-      "Übernachtung im Hotel in Jaisalmer.",
-    category: "ankunft"
-  },
+        // ---------------- TAG 2 ----------------
+        {
+          time: "Tag 2 · Morgen",
+          title: "Frühstück & Fahrt nach Jaisalmer",
+          description:
+            "Frühstück im Hotel und malerische Fahrt nach Jaisalmer – der „Goldenen Stadt“ (280 km / ca. 5 Stunden).",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · Nachmittag",
+          title: "Gadisar‑See",
+          description:
+            "Besuch des Gadisar‑Sees, eines malerischen Reservoirs aus dem 14. Jahrhundert mit Tempeln und Ghats.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Nachmittag",
+          title: "Patwon Ki Haveli",
+          description:
+            "Erkunden Sie die kunstvoll geschnitzte Patwon Ki Haveli, berühmt für ihre Steinmetzarbeiten und Jain‑Architektur.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Nachmittag",
+          title: "Salim Singh & Nathmal Ki Haveli",
+          description:
+            "Besichtigen Sie die Havelis von Salim Singh und Nathmal, bekannt für ihre außergewöhnliche Architektur.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Später Nachmittag",
+          title: "Jaisalmer‑Fort (Lebendes Fort)",
+          description:
+            "Besuchen Sie das lebende Jaisalmer‑Fort – die einzige bewohnte Festung der Welt, mit Häusern, Läden und Tempeln innerhalb.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 2 · Abend",
+          title: "Check‑in & Sonnenuntergang",
+          description:
+            "Check‑in im 3‑Sterne‑Hotel in Jaisalmer. Genießen Sie den Sonnenuntergang von der Dachterrasse der „Goldenen Stadt“. ",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 2 · Nacht",
+          title: "Übernachtung in Jaisalmer (Stadthotel)",
+          description: "Übernachtung im Hotel in Jaisalmer.",
+          category: "ankunft",
+        },
 
-  // ---------------- TAG 3 ----------------
-  {
-    time: "Tag 3 · Morgen",
-    title: "Frühstück & Besuch des Kuldhara‑Dorfs",
-    description:
-      "Frühstück im Hotel und Besuch des verlassenen Dorfes Kuldhara, das von Legenden und Geheimnissen umgeben ist.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 3 · Später Morgen",
-    title: "Bada Bagh Cenotaphen",
-    description:
-      "Besichtigung von Bada Bagh – den königlichen Gedenkstätten der Jaisalmer‑Herrscher in malerischer Wüstenkulisse.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 3 · Nachmittag",
-    title: "Transfer zu Sam Sand Dunes & Camp Check‑in",
-    description:
-      "Fahrt zu den Sam Sand Dunes (40 km) und Check‑in im Wüstencamp mit Schweizer Zelten.",
-    category: "reise"
-  },
-  {
-    time: "Tag 3 · Abend",
-    title: "Wüstensafari & Kulturprogramm",
-    description:
-      "Genießen Sie einen Kamelritt bei Sonnenuntergang, Jeepfahrt über die Dünen, Rajasthan‑Tanz und Musik, Abendtee und Barbecue‑Abendessen.",
-    category: "abenteuer",
-    highlight: true
-  },
-  {
-    time: "Tag 3 · Nacht",
-    title: "Übernachtung im Wüstencamp",
-    description:
-      "Übernachtung im Wüstencamp in den Sam Sand Dunes.",
-    category: "ankunft"
-  },
+        // ---------------- TAG 3 ----------------
+        {
+          time: "Tag 3 · Morgen",
+          title: "Frühstück & Besuch des Kuldhara‑Dorfs",
+          description:
+            "Frühstück im Hotel und Besuch des verlassenen Dorfes Kuldhara, das von Legenden und Geheimnissen umgeben ist.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 3 · Später Morgen",
+          title: "Bada Bagh Cenotaphen",
+          description:
+            "Besichtigung von Bada Bagh – den königlichen Gedenkstätten der Jaisalmer‑Herrscher in malerischer Wüstenkulisse.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 3 · Nachmittag",
+          title: "Transfer zu Sam Sand Dunes & Camp Check‑in",
+          description:
+            "Fahrt zu den Sam Sand Dunes (40 km) und Check‑in im Wüstencamp mit Schweizer Zelten.",
+          category: "reise",
+        },
+        {
+          time: "Tag 3 · Abend",
+          title: "Wüstensafari & Kulturprogramm",
+          description:
+            "Genießen Sie einen Kamelritt bei Sonnenuntergang, Jeepfahrt über die Dünen, Rajasthan‑Tanz und Musik, Abendtee und Barbecue‑Abendessen.",
+          category: "abenteuer",
+          highlight: true,
+        },
+        {
+          time: "Tag 3 · Nacht",
+          title: "Übernachtung im Wüstencamp",
+          description: "Übernachtung im Wüstencamp in den Sam Sand Dunes.",
+          category: "ankunft",
+        },
 
-  // ---------------- TAG 4 ----------------
-  {
-    time: "Tag 4 · Morgen",
-    title: "Frühstück & Check‑out",
-    description:
-      "Frühstück im Camp und Check‑out um 9:00 Uhr.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 4 · Morgen",
-    title: "Transfer zum Flughafen Jaisalmer",
-    description:
-      "Transfer zum Flughafen Jaisalmer – Ende der Tour mit schönen Erinnerungen.",
-    category: "reise"
-  }
-]
-,
+        // ---------------- TAG 4 ----------------
+        {
+          time: "Tag 4 · Morgen",
+          title: "Frühstück & Check‑out",
+          description: "Frühstück im Camp und Check‑out um 9:00 Uhr.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 4 · Morgen",
+          title: "Transfer zum Flughafen Jaisalmer",
+          description:
+            "Transfer zum Flughafen Jaisalmer – Ende der Tour mit schönen Erinnerungen.",
+          category: "reise",
+        },
+      ],
       gallery: [
         {
           title: "Mehrangarh-Festung",
@@ -5818,176 +5791,170 @@ export const de = {
         },
       ],
       itinerary: [
-  // ================= TAG 1 =================
-  {
-    time: "Tag 1 · 9:00",
-    title: "Ankunft in Jodhpur & Hoteltransfer",
-    description:
-      "Ankunft am Flughafen Jodhpur. Begrüßung und Transfer zum Hotel. Erfrischen Sie sich und ruhen Sie sich aus.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · 12:30",
-    title: "Umaid Bhawan Palastmuseum",
-    description:
-      "Besuch des Umaid Bhawan Palastmuseums mit königlichen Artefakten, Fotos und Geschichte der Herrscherfamilie.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · 14:30",
-    title: "Mittagspause",
-    description:
-      "Mittagspause in einem lokalen Restaurant (auf eigene Kosten).",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 1 · 15:30 – 18:30",
-    title: "Mandore‑Gärten & Uhrturm‑Markt",
-    description:
-      "Besichtigen Sie die Mandore‑Gärten und den Uhrturm‑Markt (Ghanta Ghar). Freizeit zum Einkaufen von Gewürzen, Kunsthandwerk, Schuhen und Souvenirs.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Nacht",
-    title: "Übernachtung in Jodhpur",
-    description:
-      "Rückkehr ins Hotel und Übernachtung in Jodhpur.",
-    category: "ankunft"
-  },
+        // ================= TAG 1 =================
+        {
+          time: "Tag 1 · 9:00",
+          title: "Ankunft in Jodhpur & Hoteltransfer",
+          description:
+            "Ankunft am Flughafen Jodhpur. Begrüßung und Transfer zum Hotel. Erfrischen Sie sich und ruhen Sie sich aus.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · 12:30",
+          title: "Umaid Bhawan Palastmuseum",
+          description:
+            "Besuch des Umaid Bhawan Palastmuseums mit königlichen Artefakten, Fotos und Geschichte der Herrscherfamilie.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · 14:30",
+          title: "Mittagspause",
+          description:
+            "Mittagspause in einem lokalen Restaurant (auf eigene Kosten).",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 1 · 15:30 – 18:30",
+          title: "Mandore‑Gärten & Uhrturm‑Markt",
+          description:
+            "Besichtigen Sie die Mandore‑Gärten und den Uhrturm‑Markt (Ghanta Ghar). Freizeit zum Einkaufen von Gewürzen, Kunsthandwerk, Schuhen und Souvenirs.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Nacht",
+          title: "Übernachtung in Jodhpur",
+          description: "Rückkehr ins Hotel und Übernachtung in Jodhpur.",
+          category: "ankunft",
+        },
 
-  // ================= TAG 2 =================
-  {
-    time: "Tag 2 · 9:00",
-    title: "Mehrangarh‑Fort",
-    description:
-      "Geführte Tour durch das Mehrangarh‑Fort (Eintritt inbegriffen). Besuchen Sie das Museum und genießen Sie den Panoramablick auf die Blaue Stadt.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 2 · 11:30",
-    title: "Jaswant Thada",
-    description:
-      "Besuch des Jaswant Thada, eines friedlichen Marmordenkmals am Seeufer.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · 13:30",
-    title: "Mittagspause",
-    description:
-      "Mittagessen in einem lokalen Restaurant (Selbstzahlung).",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · 15:00",
-    title: "Rao Jodha Desert Park / Blaue‑Stadt‑Rundgang",
-    description:
-      "Erkunden Sie den Rao Jodha Wüstenpark oder machen Sie einen Spaziergang durch die Altstadt bis zum Aussichtspunkt Pachetia Hills.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · 18:00",
-    title: "Rückkehr ins Hotel",
-    description:
-      "Rückfahrt zum Hotel und Erholung.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 2 · Abend",
-    title: "Abendessen im Dachrestaurant (optional)",
-    description:
-      "Optionales Abendessen in einem Dachrestaurant mit Blick auf die Blaue Stadt (eigene Kosten).",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · Nacht",
-    title: "Übernachtung in Jodhpur",
-    description:
-      "Übernachtung im Hotel in Jodhpur.",
-    category: "ankunft"
-  },
+        // ================= TAG 2 =================
+        {
+          time: "Tag 2 · 9:00",
+          title: "Mehrangarh‑Fort",
+          description:
+            "Geführte Tour durch das Mehrangarh‑Fort (Eintritt inbegriffen). Besuchen Sie das Museum und genießen Sie den Panoramablick auf die Blaue Stadt.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 2 · 11:30",
+          title: "Jaswant Thada",
+          description:
+            "Besuch des Jaswant Thada, eines friedlichen Marmordenkmals am Seeufer.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · 13:30",
+          title: "Mittagspause",
+          description:
+            "Mittagessen in einem lokalen Restaurant (Selbstzahlung).",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · 15:00",
+          title: "Rao Jodha Desert Park / Blaue‑Stadt‑Rundgang",
+          description:
+            "Erkunden Sie den Rao Jodha Wüstenpark oder machen Sie einen Spaziergang durch die Altstadt bis zum Aussichtspunkt Pachetia Hills.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · 18:00",
+          title: "Rückkehr ins Hotel",
+          description: "Rückfahrt zum Hotel und Erholung.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 2 · Abend",
+          title: "Abendessen im Dachrestaurant (optional)",
+          description:
+            "Optionales Abendessen in einem Dachrestaurant mit Blick auf die Blaue Stadt (eigene Kosten).",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · Nacht",
+          title: "Übernachtung in Jodhpur",
+          description: "Übernachtung im Hotel in Jodhpur.",
+          category: "ankunft",
+        },
 
-  // ================= TAG 3 =================
-  {
-    time: "Tag 3 · 9:00",
-    title: "Abfahrt & Fahrt nach Udaipur",
-    description:
-      "Check‑out im Hotel und Fahrt nach Udaipur (260 km / ca. 5 Stunden) durch die Aravalli‑Berge.",
-    category: "reise"
-  },
-  {
-    time: "Tag 3 · 14:00",
-    title: "Ankunft & Check‑in in Udaipur",
-    description:
-      "Ankunft in Udaipur, Check‑in im 3‑Sterne‑Hotel, Erfrischung und kurze Pause.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 3 · 15:30 – 19:00",
-    title: "Fateh Sagar See & Saheliyon Ki Bari",
-    description:
-      "Besuch des Fateh Sagar Sees, der Saheliyon Ki Bari (Eintritt inklusive) und des Maharana Pratap Denkmals (Moti Magri).",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 3 · Nacht",
-    title: "Übernachtung in Udaipur",
-    description:
-      "Rückkehr ins Hotel und Übernachtung.",
-    category: "ankunft"
-  },
+        // ================= TAG 3 =================
+        {
+          time: "Tag 3 · 9:00",
+          title: "Abfahrt & Fahrt nach Udaipur",
+          description:
+            "Check‑out im Hotel und Fahrt nach Udaipur (260 km / ca. 5 Stunden) durch die Aravalli‑Berge.",
+          category: "reise",
+        },
+        {
+          time: "Tag 3 · 14:00",
+          title: "Ankunft & Check‑in in Udaipur",
+          description:
+            "Ankunft in Udaipur, Check‑in im 3‑Sterne‑Hotel, Erfrischung und kurze Pause.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 3 · 15:30 – 19:00",
+          title: "Fateh Sagar See & Saheliyon Ki Bari",
+          description:
+            "Besuch des Fateh Sagar Sees, der Saheliyon Ki Bari (Eintritt inklusive) und des Maharana Pratap Denkmals (Moti Magri).",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 3 · Nacht",
+          title: "Übernachtung in Udaipur",
+          description: "Rückkehr ins Hotel und Übernachtung.",
+          category: "ankunft",
+        },
 
-  // ================= TAG 4 =================
-  {
-    time: "Tag 4 · 9:00",
-    title: "Stadtpalast Udaipur",
-    description:
-      "Besuch des Stadtpalasts Udaipur (Eintritt inklusive). Entdecken Sie das Museum, Innenhöfe und königliche Räume.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 4 · 12:30",
-    title: "Mittagspause",
-    description:
-      "Mittagspause in einem lokalen Restaurant (Selbstzahlung).",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 4 · 14:00",
-    title: "Jagdish‑Tempel, Altstadt & Pichola‑See",
-    description:
-      "Besuchen Sie den Jagdish‑Tempel, schlendern Sie durch die Altstadt, fahren Sie zum Pichola‑See und genießen Sie eine Bootsfahrt zur Jag Mandir Insel (Tickets inklusive).",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 4 · 18:30",
-    title: "Bagore Ki Haveli – Kulturshow",
-    description:
-      "Besichtigung des Bagore Ki Haveli und Teilnahme an der Dharohar Tanzshow (inklusive).",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 4 · Nacht",
-    title: "Übernachtung in Udaipur",
-    description:
-      "Rückkehr zum Hotel und Übernachtung.",
-    category: "ankunft"
-  },
+        // ================= TAG 4 =================
+        {
+          time: "Tag 4 · 9:00",
+          title: "Stadtpalast Udaipur",
+          description:
+            "Besuch des Stadtpalasts Udaipur (Eintritt inklusive). Entdecken Sie das Museum, Innenhöfe und königliche Räume.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 4 · 12:30",
+          title: "Mittagspause",
+          description:
+            "Mittagspause in einem lokalen Restaurant (Selbstzahlung).",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 4 · 14:00",
+          title: "Jagdish‑Tempel, Altstadt & Pichola‑See",
+          description:
+            "Besuchen Sie den Jagdish‑Tempel, schlendern Sie durch die Altstadt, fahren Sie zum Pichola‑See und genießen Sie eine Bootsfahrt zur Jag Mandir Insel (Tickets inklusive).",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 4 · 18:30",
+          title: "Bagore Ki Haveli – Kulturshow",
+          description:
+            "Besichtigung des Bagore Ki Haveli und Teilnahme an der Dharohar Tanzshow (inklusive).",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 4 · Nacht",
+          title: "Übernachtung in Udaipur",
+          description: "Rückkehr zum Hotel und Übernachtung.",
+          category: "ankunft",
+        },
 
-  // ================= TAG 5 =================
-  {
-    time: "Tag 5 · Morgen",
-    title: "Frühstück, Check‑out & Abreise",
-    description:
-      "Frühstück, Check‑out und Transfer zum Flughafen Udaipur. Rückflug mit wundervollen Erinnerungen.",
-    category: "reise"
-  }
-]
-,
+        // ================= TAG 5 =================
+        {
+          time: "Tag 5 · Morgen",
+          title: "Frühstück, Check‑out & Abreise",
+          description:
+            "Frühstück, Check‑out und Transfer zum Flughafen Udaipur. Rückflug mit wundervollen Erinnerungen.",
+          category: "reise",
+        },
+      ],
       gallery: [
         {
           title: "Mehrangarh-Festung",
@@ -6693,150 +6660,147 @@ export const de = {
           description: "Alle großen Tempel",
         },
       ],
-            itinerary:  [
+      itinerary: [
         // ================= TAG 1 =================
-  {
-    time: "Tag 1 · Morgen / Mittag",
-    title: "Ankunft in Delhi & Fahrt nach Mathura",
-    description:
-      "Ankunft am Morgen oder Mittag am Flughafen oder Bahnhof in Delhi. Treffen Sie Ihren Reiseleiter und beginnen Sie die Fahrt nach Mathura (180 km / ca. 3,5 Stunden), dem Geburtsort von Lord Krishna.",
-    category: "reise"
-  },
-  {
-    time: "Tag 1 · Ankunft",
-    title: "Check‑in im Hotel in Mathura",
-    description:
-      "Nach der Ankunft Check‑in im Hotel und etwas Erholung nach der Fahrt.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · Nachmittag",
-    title: "Besichtigung Mathura – Shri Krishna Janmabhoomi",
-    description:
-      "Besuchen Sie den Shri Krishna Janmabhoomi‑Tempel, den heiligsten Ort in Mathura – den Geburtsort von Lord Krishna.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · Nachmittag",
-    title: "Dwarkadhish‑Tempel",
-    description:
-      "Besichtigen Sie den prächtigen Dwarkadhish‑Tempel, der Lord Krishna gewidmet ist und für seine Architektur und spirituelle Energie bekannt ist.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 1 · Abend",
-    title: "Vishram Ghat – Abend‑Aarti",
-    description:
-      "Erleben Sie die bezaubernde Abend‑Aarti am Vishram Ghat am Ufer der Yamuna – ein friedliches und spirituelles Erlebnis.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · Nacht",
-    title: "Übernachtung in Mathura",
-    description:
-      "Rückkehr ins Hotel. Abendessen optional. Übernachtung in Mathura.",
-    category: "ankunft"
-  },
+        {
+          time: "Tag 1 · Morgen / Mittag",
+          title: "Ankunft in Delhi & Fahrt nach Mathura",
+          description:
+            "Ankunft am Morgen oder Mittag am Flughafen oder Bahnhof in Delhi. Treffen Sie Ihren Reiseleiter und beginnen Sie die Fahrt nach Mathura (180 km / ca. 3,5 Stunden), dem Geburtsort von Lord Krishna.",
+          category: "reise",
+        },
+        {
+          time: "Tag 1 · Ankunft",
+          title: "Check‑in im Hotel in Mathura",
+          description:
+            "Nach der Ankunft Check‑in im Hotel und etwas Erholung nach der Fahrt.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · Nachmittag",
+          title: "Besichtigung Mathura – Shri Krishna Janmabhoomi",
+          description:
+            "Besuchen Sie den Shri Krishna Janmabhoomi‑Tempel, den heiligsten Ort in Mathura – den Geburtsort von Lord Krishna.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · Nachmittag",
+          title: "Dwarkadhish‑Tempel",
+          description:
+            "Besichtigen Sie den prächtigen Dwarkadhish‑Tempel, der Lord Krishna gewidmet ist und für seine Architektur und spirituelle Energie bekannt ist.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 1 · Abend",
+          title: "Vishram Ghat – Abend‑Aarti",
+          description:
+            "Erleben Sie die bezaubernde Abend‑Aarti am Vishram Ghat am Ufer der Yamuna – ein friedliches und spirituelles Erlebnis.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · Nacht",
+          title: "Übernachtung in Mathura",
+          description:
+            "Rückkehr ins Hotel. Abendessen optional. Übernachtung in Mathura.",
+          category: "ankunft",
+        },
 
-  // ================= TAG 2 =================
-  {
-    time: "Tag 2 · Morgen",
-    title: "Frühstück im Hotel",
-    description:
-      "Genießen Sie das Frühstück, bevor Sie den Ganztagesausflug beginnen.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · Morgen",
-    title: "Fahrt nach Vrindavan",
-    description:
-      "Nach dem Frühstück Fahrt nach Vrindavan – die Stadt der ewigen Liebe und Hingabe, verbunden mit Lord Krishna.",
-    category: "reise"
-  },
-  {
-    time: "Tag 2 · Morgen",
-    title: "Banke Bihari‑Tempel",
-    description:
-      "Besuchen Sie den berühmten Banke Bihari‑Tempel, den bekanntesten Krishna‑Tempel in Vrindavan.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 2 · Später Vormittag",
-    title: "ISKCON‑Tempel",
-    description:
-      "Besichtigung des ISKCON‑Tempels, ein Zentrum spiritueller Hingabe durch Bhakti‑Yoga, Musik und Tanz.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Nachmittag",
-    title: "Prem Mandir",
-    description:
-      "Besuchen Sie den modernen Marmor‑Tempel Prem Mandir mit Szenen aus Krishnas Leben – abends wunderschön beleuchtet.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Nachmittag",
-    title: "Nidhivan",
-    description:
-      "Besuch von Nidhivan, einem mystischen Hain, der als göttlicher Spielplatz Krishnas und Radhas gilt.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Nachmittag (optional)",
-    title: "Govardhan Parikrama",
-    description:
-      "Optionale Besichtigung des heiligen Govardhan‑Hügels, den Krishna der Legende nach anhob, um Dorfbewohner zu schützen.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Abend",
-    title: "Rückkehr ins Hotel & Entspannung",
-    description:
-      "Rückkehr ins Hotel in Mathura oder Vrindavan und Abend zur freien Verfügung.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 2 · Nacht",
-    title: "Übernachtung in Mathura / Vrindavan",
-    description:
-      "Übernachtung im Hotel.",
-    category: "ankunft"
-  },
+        // ================= TAG 2 =================
+        {
+          time: "Tag 2 · Morgen",
+          title: "Frühstück im Hotel",
+          description:
+            "Genießen Sie das Frühstück, bevor Sie den Ganztagesausflug beginnen.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · Morgen",
+          title: "Fahrt nach Vrindavan",
+          description:
+            "Nach dem Frühstück Fahrt nach Vrindavan – die Stadt der ewigen Liebe und Hingabe, verbunden mit Lord Krishna.",
+          category: "reise",
+        },
+        {
+          time: "Tag 2 · Morgen",
+          title: "Banke Bihari‑Tempel",
+          description:
+            "Besuchen Sie den berühmten Banke Bihari‑Tempel, den bekanntesten Krishna‑Tempel in Vrindavan.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 2 · Später Vormittag",
+          title: "ISKCON‑Tempel",
+          description:
+            "Besichtigung des ISKCON‑Tempels, ein Zentrum spiritueller Hingabe durch Bhakti‑Yoga, Musik und Tanz.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Nachmittag",
+          title: "Prem Mandir",
+          description:
+            "Besuchen Sie den modernen Marmor‑Tempel Prem Mandir mit Szenen aus Krishnas Leben – abends wunderschön beleuchtet.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Nachmittag",
+          title: "Nidhivan",
+          description:
+            "Besuch von Nidhivan, einem mystischen Hain, der als göttlicher Spielplatz Krishnas und Radhas gilt.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Nachmittag (optional)",
+          title: "Govardhan Parikrama",
+          description:
+            "Optionale Besichtigung des heiligen Govardhan‑Hügels, den Krishna der Legende nach anhob, um Dorfbewohner zu schützen.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Abend",
+          title: "Rückkehr ins Hotel & Entspannung",
+          description:
+            "Rückkehr ins Hotel in Mathura oder Vrindavan und Abend zur freien Verfügung.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 2 · Nacht",
+          title: "Übernachtung in Mathura / Vrindavan",
+          description: "Übernachtung im Hotel.",
+          category: "ankunft",
+        },
 
-  // ================= TAG 3 =================
-  {
-    time: "Tag 3 · Morgen",
-    title: "Frühstück im Hotel",
-    description:
-      "Frühstück vor dem Check‑out.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 3 · Morgen",
-    title: "Freizeit / Optionaler Tempelbesuch",
-    description:
-      "Freie Zeit oder optionaler Besuch nahegelegener Tempel.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 3 · Später Vormittag",
-    title: "Check‑out & Rückfahrt nach Delhi",
-    description:
-      "Check‑out und Rückfahrt nach Delhi (Flughafen oder Bahnhof) für die Weiterreise.",
-    category: "reise"
-  },
-  {
-    time: "Tag 3 · Nachmittag / Abend",
-    title: "Ankunft in Delhi & Ende der Tour",
-    description:
-      "Ankunft in Delhi am Nachmittag oder Abend – Ende der Tour mit spirituellen Erinnerungen.",
-    category: "ankunft"
-  }
-]
-,
+        // ================= TAG 3 =================
+        {
+          time: "Tag 3 · Morgen",
+          title: "Frühstück im Hotel",
+          description: "Frühstück vor dem Check‑out.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 3 · Morgen",
+          title: "Freizeit / Optionaler Tempelbesuch",
+          description:
+            "Freie Zeit oder optionaler Besuch nahegelegener Tempel.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 3 · Später Vormittag",
+          title: "Check‑out & Rückfahrt nach Delhi",
+          description:
+            "Check‑out und Rückfahrt nach Delhi (Flughafen oder Bahnhof) für die Weiterreise.",
+          category: "reise",
+        },
+        {
+          time: "Tag 3 · Nachmittag / Abend",
+          title: "Ankunft in Delhi & Ende der Tour",
+          description:
+            "Ankunft in Delhi am Nachmittag oder Abend – Ende der Tour mit spirituellen Erinnerungen.",
+          category: "ankunft",
+        },
+      ],
       gallery: [
         {
           title: "Shri Krishna Jamnabhoomi",
@@ -7938,121 +7902,117 @@ export const de = {
         },
       ],
       itinerary: [
-  // ================= TAG 1 =================
-  {
-    time: "Tag 1 · 9:00",
-    title: "Ankunft in Varanasi & Flughafensupport",
-    description:
-      "Ankunft am Flughafen Varanasi um 9:00 Uhr. Begrüßung und Transfer zu einem 3‑Sterne‑Hotel. Check‑in, Erfrischung und Frühstück.",
-    category: "ankunft"
-  },
-  {
-    time: "Tag 1 · Nachmittag",
-    title: "Ausflug nach Sarnath",
-    description:
-      "Besuch von Sarnath, dem Ort von Buddhas erster Predigt. Erkundung der Dhamek‑Stupa, Chaukhandi‑Stupa, des Sarnath‑Museums und der umliegenden buddhistischen Klöster mit Führung.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · Abend",
-    title: "Ganga‑Aarti an Dashashwamedh / Assi Ghat",
-    description:
-      "Transfer zu Dashashwamedh oder Assi Ghat. Erleben Sie die großartige Ganga‑Aarti‑Zeremonie und einen kurzen Spaziergang entlang der Ghats.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 1 · Nacht",
-    title: "Rückkehr ins Hotel & Übernachtung",
-    description:
-      "Rückkehr ins Hotel nach der Aarti‑Zeremonie. Übernachtung in Varanasi.",
-    category: "ankunft"
-  },
+        // ================= TAG 1 =================
+        {
+          time: "Tag 1 · 9:00",
+          title: "Ankunft in Varanasi & Flughafensupport",
+          description:
+            "Ankunft am Flughafen Varanasi um 9:00 Uhr. Begrüßung und Transfer zu einem 3‑Sterne‑Hotel. Check‑in, Erfrischung und Frühstück.",
+          category: "ankunft",
+        },
+        {
+          time: "Tag 1 · Nachmittag",
+          title: "Ausflug nach Sarnath",
+          description:
+            "Besuch von Sarnath, dem Ort von Buddhas erster Predigt. Erkundung der Dhamek‑Stupa, Chaukhandi‑Stupa, des Sarnath‑Museums und der umliegenden buddhistischen Klöster mit Führung.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · Abend",
+          title: "Ganga‑Aarti an Dashashwamedh / Assi Ghat",
+          description:
+            "Transfer zu Dashashwamedh oder Assi Ghat. Erleben Sie die großartige Ganga‑Aarti‑Zeremonie und einen kurzen Spaziergang entlang der Ghats.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 1 · Nacht",
+          title: "Rückkehr ins Hotel & Übernachtung",
+          description:
+            "Rückkehr ins Hotel nach der Aarti‑Zeremonie. Übernachtung in Varanasi.",
+          category: "ankunft",
+        },
 
-  // ================= TAG 2 =================
-  {
-    time: "Tag 2 · Frühmorgens",
-    title: "Bootsfahrt bei Sonnenaufgang auf dem Ganges",
-    description:
-      "Morgendliche Bootsfahrt auf dem Ganges bei Sonnenaufgang. Beobachten Sie die traditionellen Ghats und genießen Sie Panoramablicke auf alte Tempel.",
-    category: "erkundung",
-    highlight: true
-  },
-  {
-    time: "Tag 2 · Morgen",
-    title: "Frühstück im Hotel",
-    description:
-      "Rückkehr ins Hotel nach der Bootsfahrt und Frühstück.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · Morgen",
-    title: "Tempel- und Kulturerbetour in Varanasi",
-    description:
-      "Geführte Tour zu wichtigen Tempeln: Kashi Vishwanath, Annapurna, Kal Bhairav, Spaziergang in Vishwanath Gali und Bharat Mata Tempel.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Nachmittag",
-    title: "Mittagspause (Selbstzahlung)",
-    description:
-      "Mittagessen in einem lokalen Restaurant (auf eigene Kosten).",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 2 · Nachmittag",
-    title: "Kultur- & Universitätsbesuch",
-    description:
-      "Besuch der Banaras Hindu University, des neuen Vishwanath‑Tempels (Birla), Durga‑Mandir und Tulsi‑Manas‑Tempel.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Abend",
-    title: "Lokale Märkte & Einkaufen",
-    description:
-      "Besuch der lokalen Märkte von Varanasi – Berühmte Banarasi‑Saris, Handwerk, Süßigkeiten und Streetfood.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 2 · Nacht",
-    title: "Rückkehr ins Hotel & Übernachtung",
-    description:
-      "Rückkehr ins Hotel. Übernachtung in Varanasi.",
-    category: "ankunft"
-  },
+        // ================= TAG 2 =================
+        {
+          time: "Tag 2 · Frühmorgens",
+          title: "Bootsfahrt bei Sonnenaufgang auf dem Ganges",
+          description:
+            "Morgendliche Bootsfahrt auf dem Ganges bei Sonnenaufgang. Beobachten Sie die traditionellen Ghats und genießen Sie Panoramablicke auf alte Tempel.",
+          category: "erkundung",
+          highlight: true,
+        },
+        {
+          time: "Tag 2 · Morgen",
+          title: "Frühstück im Hotel",
+          description: "Rückkehr ins Hotel nach der Bootsfahrt und Frühstück.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · Morgen",
+          title: "Tempel- und Kulturerbetour in Varanasi",
+          description:
+            "Geführte Tour zu wichtigen Tempeln: Kashi Vishwanath, Annapurna, Kal Bhairav, Spaziergang in Vishwanath Gali und Bharat Mata Tempel.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Nachmittag",
+          title: "Mittagspause (Selbstzahlung)",
+          description:
+            "Mittagessen in einem lokalen Restaurant (auf eigene Kosten).",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 2 · Nachmittag",
+          title: "Kultur- & Universitätsbesuch",
+          description:
+            "Besuch der Banaras Hindu University, des neuen Vishwanath‑Tempels (Birla), Durga‑Mandir und Tulsi‑Manas‑Tempel.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Abend",
+          title: "Lokale Märkte & Einkaufen",
+          description:
+            "Besuch der lokalen Märkte von Varanasi – Berühmte Banarasi‑Saris, Handwerk, Süßigkeiten und Streetfood.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 2 · Nacht",
+          title: "Rückkehr ins Hotel & Übernachtung",
+          description: "Rückkehr ins Hotel. Übernachtung in Varanasi.",
+          category: "ankunft",
+        },
 
-  // ================= TAG 3 =================
-  {
-    time: "Tag 3 · Morgen",
-    title: "Frühstück im Hotel",
-    description:
-      "Genießen Sie Ihr Frühstück im Hotel.",
-    category: "mahlzeit"
-  },
-  {
-    time: "Tag 3 · Morgen",
-    title: "Freie Zeit / Optionaler Gangesbesuch",
-    description:
-      "Freie Zeit für Einkäufe oder optionalen Besuch am Ganges.",
-    category: "erkundung"
-  },
-  {
-    time: "Tag 3 · Später Vormittag",
-    title: "Check‑out & Transfer zum Flughafen",
-    description:
-      "Check‑out aus dem Hotel und Transfer zum Flughafen Varanasi für den Abflug.",
-    category: "reise"
-  },
-  {
-    time: "Tag 3 · Ende der Tour",
-    title: "Abreise aus Varanasi",
-    description:
-      "Ende der Tour mit spirituellen Erinnerungen und Segnungen.",
-    category: "ankunft"
-  }
-]
-,
+        // ================= TAG 3 =================
+        {
+          time: "Tag 3 · Morgen",
+          title: "Frühstück im Hotel",
+          description: "Genießen Sie Ihr Frühstück im Hotel.",
+          category: "mahlzeit",
+        },
+        {
+          time: "Tag 3 · Morgen",
+          title: "Freie Zeit / Optionaler Gangesbesuch",
+          description:
+            "Freie Zeit für Einkäufe oder optionalen Besuch am Ganges.",
+          category: "erkundung",
+        },
+        {
+          time: "Tag 3 · Später Vormittag",
+          title: "Check‑out & Transfer zum Flughafen",
+          description:
+            "Check‑out aus dem Hotel und Transfer zum Flughafen Varanasi für den Abflug.",
+          category: "reise",
+        },
+        {
+          time: "Tag 3 · Ende der Tour",
+          title: "Abreise aus Varanasi",
+          description:
+            "Ende der Tour mit spirituellen Erinnerungen und Segnungen.",
+          category: "ankunft",
+        },
+      ],
       gallery: [
         {
           title: "Ganga Aarti",

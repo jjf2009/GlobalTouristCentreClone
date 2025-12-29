@@ -147,7 +147,7 @@ export const metaData: Record<string, any> = {
       rating: "4.8/5 Rating",
     },
   },
-  "hampi-&-badami-tour-package": {
+  "hampi-badami-tour-package": {
     meta: {
       duration: "2 Days",
       locations: 15,

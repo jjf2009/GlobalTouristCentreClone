@@ -42,7 +42,7 @@ export const TOUR_CATEGORIES = {
     "lakshadweep-islands", // verified
     "andaman-islands-trip", // verified
     "wondrous-wilderness",
-    "hampi-&-badami-tour-package", // verified
+    "hampi-badami-tour-package", // verified
     "shimoga-nature-safari", // verified
     "ajanta-ellora-caves-tour", // verified
     "leh-turtuk-pangong-tour",
@@ -78,7 +78,7 @@ export const TOUR_CATEGORIES = {
     "georgia-caucasus-adventure", // verified
     "japan-luxury-experience", // verified
     //  "mystic-meghalaya-tour", // temporarily removed (used in en.ts)
-     "kazakhstan-almaty-explorer", // temporarily removed (used in destination.ts) // verified
+    "kazakhstan-almaty-explorer", // temporarily removed (used in destination.ts) // verified
     // "nepal-tour", // temporarily removed (used in en.ts) // verified
   ],
 } as const;

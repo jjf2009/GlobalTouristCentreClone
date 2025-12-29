@@ -113,24 +113,24 @@ export function AboutTestimonials() {
           </Carousel>
 
           {/* Pagination Dots */}
-          <div className="mt-6 flex justify-center gap-1.5 sm:gap-2.5">
-            {Array.from({ length: count }).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => api?.scrollTo(index)}
-                className={`
-        rounded-full transition
-        h-1.5 w-1.5 sm:h-2.5 sm:w-2.5
+<div className="mt-6 flex justify-center gap-1.5 sm:gap-2.5">
+  {Array.from({ length: count }).map((_, index) => (
+    <button
+      key={index}
+      onClick={() => api?.scrollTo(index)}
+      className={`
+        rounded-sm transition
+        h-0.5 w-6 sm:h-1 sm:w-8
         ${
           index === current
-            ? "bg-primary scale-110"
+            ? "bg-primary"
             : "bg-muted hover:bg-muted-foreground/40"
         }
       `}
-                aria-label={`Go to testimonial ${index + 1}`}
-              />
-            ))}
-          </div>
+      aria-label={`Go to testimonial ${index + 1}`}
+    />
+  ))}
+</div>
         </div>
       </div>
       {/* Google Reviews CTA */}
