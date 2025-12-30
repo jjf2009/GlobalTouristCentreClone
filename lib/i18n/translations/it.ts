@@ -270,6 +270,7 @@ export const it = {
   },
   // Destinations
   destinations: {
+    herotitle: "Scopri le nostre destinazioni esclusive",
     title: "Scegli la tua prossima avventura",
     subtitle:
       "Scopri la nostra selezione curata di destinazioni che creeranno ricordi che dureranno per tutta la vita.",

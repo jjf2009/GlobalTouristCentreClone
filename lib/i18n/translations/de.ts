@@ -271,6 +271,7 @@ export const de = {
   },
   // Destinations
   destinations: {
+    herotitle: "Entdecken Sie unsere exquisiten Reiseziele",
     title: "Wählen Sie Ihr nächstes Abenteuer",
     subtitle:
       "Entdecken Sie unsere sorgfältig ausgewählte Auswahl an Reisezielen, die Erinnerungen fürs Leben schaffen werden.",

@@ -28,13 +28,14 @@ const HomeCard: React.FC<HomeCardProps> = ({
     >
       <div
         className="
-          group bg-white rounded-2xl overflow-hidden
-          transition-all duration-300 ease-out
-          hover:-translate-y-3 hover:shadow-2xl
-          h-full min-h-[420px]
-          flex flex-col
-          cursor-pointer
-        "
+    group bg-white rounded-2xl overflow-hidden
+    transition-all duration-300 ease-out
+    hover:-translate-y-3 hover:shadow-2xl
+    h-full min-h-[430px]
+    flex flex-col
+    cursor-pointer
+    max-w-[18rem] sm:max-w-[18rem]
+  "
       >
         {/* IMAGE (fixed height) */}
         <div className="relative h-48 w-full overflow-hidden shrink-0">

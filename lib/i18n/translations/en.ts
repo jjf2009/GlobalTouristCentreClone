@@ -271,6 +271,7 @@ export const en = {
   },
   // Destinations
   destinations: {
+    herotitle:"Discover Our Exquisite Destinations",
     title: "Choose Your Next Adventure",
     subtitle:
       "Explore our curated selection of destinations that will create memories to last a lifetime.",

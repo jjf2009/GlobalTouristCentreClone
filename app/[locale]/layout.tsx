@@ -1,6 +1,6 @@
 import type React from "react";
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import { Montserrat } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { I18nProvider } from "@/lib/i18n/context";
@@ -16,12 +16,6 @@ import "../globals.css";
 /* -----------------------------
    Fonts
 ------------------------------ */
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
-
 export const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -100,7 +94,7 @@ export default function LocaleLayout({
       <body className="min-h-screen flex flex-col antialiased font-sans relative">
         <I18nProvider locale={locale}>
           {/* Header */}
-          <Header />
+          {/* <Header /> */}
 
           {/* Main content */}
           <main id="main-content" role="main" className="flex-1">

@@ -41,7 +41,7 @@ Phone: ${formData.phone}
   };
 
   return (
-    <section className="w-full bg-gradient-to-br from-[#f7f8fb] to-[#e6ebf1] py-20 px-4">
+    <section className="w-full bg-gradient-to-br from-[#f7f8fb] to-[#e6ebf1] py-4 px-4">
       <div className="max-w-5xl mx-auto">
         {/* TITLE */}
         <div className="mb-12">

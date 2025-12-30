@@ -33,7 +33,7 @@ export function AboutTeam() {
     snap-x snap-mandatory
     sm:grid sm:grid-cols-2 sm:overflow-visible
     lg:grid-cols-3
-    xl:grid-cols-4
+    xl:grid-cols-3
     sm:gap-8
     scrollbar-hide
   "

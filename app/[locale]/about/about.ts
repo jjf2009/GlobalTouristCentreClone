@@ -17,12 +17,12 @@ export const teamMembers = [
     imageQuery: "professional man marketing portrait",
     imagelink: "/assets/team/Hassan.webp",
   },
-  {
-    name: "Sheehan Sa",
-    role: "Web Dev.",
-    imageQuery: "professional man developer portrait",
-    imagelink: "/assets/team/Sheehan.webp",
-  },
+  // {
+  //   name: "Sheehan Sa",
+  //   role: "Web Dev.",
+  //   imageQuery: "professional man developer portrait",
+  //   imagelink: "/assets/team/Sheehan.webp",
+  // },
 ];
 
 // about.ts

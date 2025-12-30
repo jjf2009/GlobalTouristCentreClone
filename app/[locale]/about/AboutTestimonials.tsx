@@ -3,6 +3,8 @@
 import { TestimonialCard } from "@/components/testimonial-card";
 import { useI18n } from "@/lib/i18n/context";
 import { reviews } from "./about";
+import { Button } from "@/components/ui/button";
+
 
 import {
   Carousel,
@@ -113,24 +115,28 @@ export function AboutTestimonials() {
           </Carousel>
 
           {/* Pagination Dots */}
-<div className="mt-6 flex justify-center gap-1.5 sm:gap-2.5">
-  {Array.from({ length: count }).map((_, index) => (
-    <button
-      key={index}
-      onClick={() => api?.scrollTo(index)}
-      className={`
-        rounded-sm transition
-        h-0.5 w-6 sm:h-1 sm:w-8
+          <div className="mt-6 flex justify-center gap-1.5 sm:gap-2.5">
+            {Array.from({ length: count }).map((_, index) => (
+              <Button
+                key={index}
+                variant="ghost"
+                size="icon"
+                onClick={() => api?.scrollTo(index)}
+                aria-label={`Go to testimonial ${index + 1}`}
+                className={`
+        p-0 rounded-sm transition
+        h-[2px] w-3
+        sm:h-[2px] sm:w-5
+        md:h-1 md:w-8
         ${
           index === current
             ? "bg-primary"
             : "bg-muted hover:bg-muted-foreground/40"
         }
       `}
-      aria-label={`Go to testimonial ${index + 1}`}
-    />
-  ))}
-</div>
+              />
+            ))}
+          </div>
         </div>
       </div>
       {/* Google Reviews CTA */}

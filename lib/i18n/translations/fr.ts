@@ -270,6 +270,7 @@ export const fr = {
       "Vérifiez votre e-mail pour la confirmation de votre transfert aéroport gratuit. Bon voyage !",
   }, // Destinations
   destinations: {
+    herotitle:"Découvrez nos destinations d’exception",
     title: "Choisissez votre prochaine aventure",
     subtitle:
       "Découvrez notre sélection soigneusement choisie de destinations qui créeront des souvenirs inoubliables.",

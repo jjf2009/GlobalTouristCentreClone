@@ -6,6 +6,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n/context";
 import HomeCard from "./HomeCard";
+import  { SectionTitle } from "@/components/SectionTitle"; 
 
 /* ----------------------------------------
    DATA MODEL
@@ -165,12 +166,15 @@ const HomeIntro = () => {
   const carouselRef = useRef<HTMLDivElement>(null);
 
   return (
-    <section className="relative py-20 bg-gradient-to-br from-[#f7f8fb] to-[#e6ebf1]">
+    <section className="relative  bg-gradient-to-br py-8 from-[#f7f8fb] to-[#e6ebf1]">
       <div className="max-w-7xl mx-auto px-4">
         {/* =======================
             TITLE
         ======================== */}
-        <div className="text-center md:text-left mb-12">
+
+        <SectionTitle title={t.home.title} subtitle={t.home.subtitle} />
+
+        {/* <div className="text-center md:text-left mb-12">
           <div className="relative inline-block">
             <h2 className="font-serif text-slate-900 text-3xl md:text-4xl font-bold mb-3">
               {t.home.title}
@@ -184,7 +188,7 @@ const HomeIntro = () => {
           </div>
 
           <p className="text-slate-600 max-w-3xl mt-4">{t.home.mainsubtitle}</p>
-        </div>
+        </div> */}
 
         {/* =======================
             MOBILE – CAROUSEL
@@ -192,7 +196,7 @@ const HomeIntro = () => {
         <div className="md:hidden mb-14">
           <div
             ref={carouselRef}
-            className="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-4"
+            className="flex gap-1 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-4"
           >
             {travelCollections.map((tour) => {
               const content = t.home.items[tour.id];
@@ -225,7 +229,7 @@ const HomeIntro = () => {
         {/* =======================
             DESKTOP – GRID
         ======================== */}
-        <div className="hidden md:grid grid-cols-4 gap-6 mb-16">
+        <div className="hidden md:grid grid-cols-4 gap-3 mb-16">
           {travelCollections.map((tour) => {
             const content = t.home.items[tour.id];
 

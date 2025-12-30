@@ -1,9 +1,21 @@
 "use client";
 
+import Link from "next/link";
+import { useState } from "react";
 import { useI18n } from "@/lib/i18n/context";
+import { LanguageSwitcher } from "./language-switcher";
+import { Menu } from "lucide-react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+  SheetClose,
+} from "@/components/ui/sheet";
 import Image from "next/image";
 
 interface HeroSectionProps {
@@ -19,11 +31,28 @@ export function HeroSection({
   backgroundQuery,
   showForm = false,
 }: HeroSectionProps) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const navLinks = [
+    { href: `/${locale}`, label: t.nav.home },
+    { href: `/${locale}/destinations`, label: t.nav.destinations },
+    {
+      href: `https://globaltouristcentre.com/luxury-destinations`,
+      label: t.nav.luxuryDestinations,
+    },
+    { href: `/${locale}/about`, label: t.nav.about },
+    { href: `https://globaltouristcentre.com/services`, label: t.nav.services },
+    {
+      href: `https://globaltouristcentre.com/contact-us`,
+      label: t.nav.contact,
+    },
+    { href: `https://globaltouristcentre.com/blog`, label: t.nav.blog },
+  ];
 
   return (
     <section
-      className="relative min-h-[50vh] sm:min-h-[60vh] flex items-center"
+      className="relative min-h-[50vh] sm:min-h-[60vh] flex flex-col"
       aria-label={title}
     >
       {/* Background */}
@@ -40,95 +69,114 @@ export function HeroSection({
           aria-hidden="true"
         />
       </div>
-      {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 w-full">
+
+      {/* Header */}
+      <header className="relative z-50 bg-transparent" role="banner">
+        <div className="flex items-center justify-between px-[5%] py-3">
+          {/* Logo */}
+          <Link
+            href="https://globaltouristcentre.com/"
+            className="flex items-center"
+            aria-label="Global Tourist Centre - Home"
+          >
+            <div className="w-15 h-15 rounded-full border-3 border-[#f8d56b] flex items-center justify-center mb-4 sm:mt-[10px] mt-4">
+              <img
+                src="/assets/logo.webp"
+                alt="Global Tourist Centre Logo"
+                className="h-14 w-auto rounded-full"
+              />
+            </div>
+          </Link>
+
+          {/* Desktop Navigation + Language */}
+          <div className="hidden lg:flex items-center gap-3 xl:gap-4 2xl:gap-6">
+            <nav
+              className="flex items-center gap-4 xl:gap-6"
+              role="navigation"
+              aria-label="Main navigation"
+            >
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-white text-[18px] font-medium transition-colors hover:text-[#f8d56b]"
+                  style={{ textShadow: "0 1px 2px rgba(0,0,0,0.3)" }}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+
+            {/* Language Switcher as navbar item */}
+            <div className="flex items-center">
+              <LanguageSwitcher />
+            </div>
+          </div>
+
+          {/* Mobile Menu */}
+          <div className="lg:hidden">
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
+              <SheetTrigger asChild>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  aria-label="Open menu"
+                  className="text-white  hover:text-white focus:text-white h-9 w-9"
+                >
+                  <Menu className="h-5 w-5 sm:h-6 sm:w-6 md:h-8 md:w-8 lg:h-9 lg:w-9 text-white" />
+                </Button>
+              </SheetTrigger>
+
+              <SheetContent side="right" className="w-[85vw] max-w-sm p-0">
+                <SheetHeader className="p-4 border-b">
+                  <SheetTitle>Menu</SheetTitle>
+                </SheetHeader>
+
+                <nav className="flex flex-col py-2">
+                  {navLinks.map((link) => (
+                    <SheetClose asChild key={link.href}>
+                      <Link
+                        href={link.href}
+                        className="px-6 py-3 text-base font-medium hover:bg-muted"
+                      >
+                        {link.label}
+                      </Link>
+                    </SheetClose>
+                  ))}
+                </nav>
+
+                <div className="px-6 py-4 xl:hidden">
+                  <p className="text-sm mb-2">Language</p>
+                  <LanguageSwitcher variant="light" />
+                </div>
+              </SheetContent>
+            </Sheet>
+          </div>
+        </div>
+      </header>
+
+      {/* Hero Content */}
+      <div className="relative z-10 max-w-7xl mr-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-12 lg:pt-6 pb-20 w-full flex-1 flex items-start">
         <div
-          className={`grid gap-6 sm:gap-8 ${showForm ? "lg:grid-cols-2" : ""}`}
+          className={`grid gap-6 sm:gap-8 w-full ${
+            showForm ? "lg:grid-cols-2" : ""
+          }`}
         >
           <div className="flex flex-col justify-center">
-            <h1 className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3 sm:mb-4 text-balance leading-tight">
+            <h1
+              className={`font-serif text-2xl sm:text-3xl md:text-5xl lg:text-[4rem] pl-15 pt-10
+  font-bold text-white mb-3 sm:mb-4 leading-tight text-balance
+  ${!subtitle ? "max-w-[32ch] sm:max-w-[26ch]" : "max-w-[32ch]"}`}
+            >
               {title}
             </h1>
+
             {subtitle && (
               <p className="text-white/80 text-base sm:text-lg max-w-xl">
                 {subtitle}
               </p>
             )}
           </div>
-
-          {showForm && (
-            <div className="bg-white rounded-xl p-5 sm:p-6 shadow-2xl max-w-md lg:ml-auto w-full">
-              <h2 className="font-serif text-lg sm:text-xl font-semibold text-foreground mb-3 sm:mb-4 text-center">
-                {t.hero.subtitle}
-              </h2>
-              <form
-                className="space-y-3 sm:space-y-4"
-                aria-label="Request quote form"
-              >
-                <div>
-                  <Label htmlFor="hero-name" className="sr-only">
-                    {t.form.name}
-                  </Label>
-                  <Input
-                    id="hero-name"
-                    type="text"
-                    placeholder={t.form.name}
-                    className="h-11 sm:h-12 text-base"
-                    required
-                    aria-required="true"
-                  />
-                </div>
-                <div>
-                  <Label htmlFor="hero-email" className="sr-only">
-                    {t.form.email}
-                  </Label>
-                  <Input
-                    id="hero-email"
-                    type="email"
-                    placeholder={t.form.email}
-                    className="h-11 sm:h-12 text-base"
-                    required
-                    aria-required="true"
-                  />
-                </div>
-                <div>
-                  <Label htmlFor="hero-phone" className="sr-only">
-                    {t.form.phone}
-                  </Label>
-                  <Input
-                    id="hero-phone"
-                    type="tel"
-                    placeholder={t.form.phone}
-                    className="h-11 sm:h-12 text-base"
-                    required
-                    aria-required="true"
-                  />
-                </div>
-                <Button
-                  type="submit"
-                  className="w-full h-11 sm:h-12 text-base font-medium"
-                >
-                  {t.form.submit}
-                </Button>
-              </form>
-              <p className="text-xs text-muted-foreground text-center mt-3 sm:mt-4">
-                {t.form.privacyNote}{" "}
-                <a
-                  href="#"
-                  className="text-primary hover:underline focus:outline-none focus-visible:underline"
-                >
-                  {t.form.privacyPolicy}
-                </a>{" "}
-                {t.form.and}{" "}
-                <a
-                  href="#"
-                  className="text-primary hover:underline focus:outline-none focus-visible:underline"
-                >
-                  {t.form.termsOfUse}
-                </a>
-              </p>
-            </div>
-          )}
         </div>
       </div>
     </section>

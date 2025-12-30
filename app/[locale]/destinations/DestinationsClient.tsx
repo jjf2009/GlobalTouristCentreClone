@@ -3,8 +3,6 @@
 import { useI18n } from "@/lib/i18n/context";
 import { DestinationsHero } from "./destinations-hero";
 import { DestinationsSection } from "./destinations-section";
-import HomeForm from "../(home)/HomeForm";
-import { AboutTestimonials } from "../about/AboutTestimonials";
 
 export default function DestinationsClient() {
   const { t } = useI18n();
@@ -13,8 +11,6 @@ export default function DestinationsClient() {
     <>
       <DestinationsHero />
       <DestinationsSection />
-      <HomeForm />
-      <AboutTestimonials />
     </>
   );
 }
