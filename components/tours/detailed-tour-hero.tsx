@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Clock, MapPin, Star } from "lucide-react";
+import { Header } from "../header";
 
 interface DetailedTourHeroProps {
   title: string;
@@ -33,13 +34,14 @@ export function DetailedTourHero({
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
+      <Header/>
 
       {/* Content */}
       <div className="relative z-10 h-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-end">
           <div className="pb-16 max-w-3xl text-white">
             {/* Title */}
-            <h1 className="font-serif text-2xl sm:text-4xl lg:text-6xl font-bold leading-tight">
+            <h1 className="font-serif text-2xl sm:text-5xl md:text-5xl lg:text-6xl font-bold leading-tight">
               {title}
             </h1>
 

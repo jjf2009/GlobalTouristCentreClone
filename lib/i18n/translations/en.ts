@@ -1,5 +1,22 @@
 export const en = {
   // Navigation
+  // translations/en.ts
+  filters: {
+    domestic: {
+      all: "All",
+      north: "North India",
+      south: "South India",
+      east: "East & North-East India",
+      west: "West India",
+      island: "Islands",
+    },
+    international: {
+      all: "All",
+      asia: "Asia",
+      europe: "Europe",
+      "southeast-asia": "South-East Asia",
+    },
+  },
   nav: {
     home: "Home",
     destinations: "Destinations",
@@ -146,7 +163,7 @@ export const en = {
         description:
           "Immerse yourself in devotion at the sacred birthplaces of Lord Krishna with vibrant temples, soulful chants, and spiritual experiences.",
       },
-      "andaman-islands-trip": {
+      "andaman-islands-tour": {
         title: "Andaman Islands Escape",
         duration: "5 Nights / 6 Days",
         description:
@@ -271,7 +288,7 @@ export const en = {
   },
   // Destinations
   destinations: {
-    herotitle:"Discover Our Exquisite Destinations",
+    herotitle: "Discover Our Exquisite Destinations",
     title: "Choose Your Next Adventure",
     subtitle:
       "Explore our curated selection of destinations that will create memories to last a lifetime.",
@@ -294,6 +311,8 @@ export const en = {
     nights: "Nights",
     days: "Days",
     tour: {
+      itinerarytitle:"Your Day of Adventure",
+      itinararysubtitle:" Every moment carefully crafted to maximize your experience and create lasting memories",
       ctaTitle: "Ready for Your Adventure?",
       ctaSubtitle:
         "Book now and secure your spot for an unforgettable experience",
@@ -491,6 +510,8 @@ export const en = {
     meetTeam: "Meet Our Team",
     meetTeamSubtitle:
       "The passionate individuals who make your travel dreams come true.",
+    readmore: "Read More",
+    showless: "Show Less",
     reviews: [
       {
         name: "Derek Parker",
@@ -610,7 +631,7 @@ export const en = {
       duration: "5 Nights / 6 Days",
     },
 
-    "leh-turtuk-pangong-tour": {
+    "ladakh-tour": {
       title: "Leh, Turtuk & Pangong",
       description:
         "Experience Khardung La Pass, Nubra Valley, Pangong Lake, and Turtuk village in this high-altitude Himalayan adventure.",
@@ -3145,7 +3166,7 @@ export const en = {
         },
       ],
     },
-    "andaman-islands-trip": {
+    "andaman-islands-tour": {
       file_name: "andaman-tour-for-goa.html",
       page: {
         slug: "andaman-nicobar-tour-for-goa",
@@ -4881,7 +4902,7 @@ export const en = {
         slug: "Gokarna-Murdeshwar-one-day-trip-package",
         type: "day-trip",
         hero: {
-          title: "One-Day Gokarna & Murdeshwar Trip from Goa for Foreigners",
+          title: "One-Day Gokarna & Murdeshwar Trip from Goa",
           subtitle: "Discover beaches, Temples in one  day",
           backgroundImage: "/assets/hero/Gokarna-hero.webp",
           meta: {
@@ -6122,159 +6143,159 @@ export const en = {
         },
       ],
     },
-    "kashmir-tour": {
-      file_name: "Kashmir-5N6D-Trip.html",
-      page: {
-        slug: "Kashmir-5N6D-Trip",
-        type: "domestic-trip",
-        hero: {
-          title: "Kashmir 5N6D Trip Package",
-          subtitle:
-            "Experience the breathtaking beauty of Kashmir with this trip through Srinagar, Gulmarg, Pahalgam & Sonamarg",
-          backgroundImage: "/assets/hero/kashmir-5n6d-hero.webp",
-          meta: {
-            duration: "6 Days",
-            locations: 4,
-            rating: "4.9/5 Rating",
-          },
-        },
-        language: "en",
-      },
-      cta: {
-        headline: "Ready for Your Kashmir Adventure?",
-        description:
-          "Book now and secure your spot for an unforgettable 6-day journey through Paradise on Earth",
-        contact: {
-          whatsapp: {
-            number: "+919067972295",
-            message:
-              "Hi! I'm interested in your Kashmir 5N6D tour package. Please send me details.",
-          },
-          phone: "+919067972295",
-        },
-      },
-      quickInfo: [
-        {
-          title: "Hotel Stay",
-          description: "4 Nights Hotel + 1 Night Houseboat",
-        },
-        {
-          title: "Private Transport",
-          description: "Non-AC Sedan/Innova Vehicle",
-        },
-        {
-          title: "Shikara Ride",
-          description: "1 Hour Shikara on Dal Lake",
-        },
-        {
-          title: "Meals Included",
-          description: "Daily Breakfast & Dinner",
-        },
-      ],
-      itinerary: [
-        {
-          time: "Day 1",
-          title: "Srinagar Arrival - Srinagar Sightseeing",
-          description:
-            "Our service starts with arrival at Srinagar airport. Meet & greet our representative. Transfer to Srinagar hotel – relax – fresh up & leave for sightseeing trip to Mughal gardens, Cheshmashahi, Nishat Shalimar, Tulip garden (largest in Asia) & Shankarcharya temple on the top of hill. Back to hotel for dinner and overnight stay.",
-          category: "arrival",
-        },
-        {
-          time: "Day 2",
-          title: "Srinagar - Sonamarg",
-          description:
-            "Full day sightseeing trip to Sonamarg. Sonamarg is a beautiful drive from Srinagar. Sonamarg is called meadow of gold and where snow remains round the year at Thajiwas glacier. One can hire horses on their own cost to visit there. Later back to Srinagar for dinner & night stay.",
-          category: "activity",
-        },
-        {
-          time: "Day 3",
-          title: "Srinagar - Gulmarg",
-          description:
-            "Full day sightseeing trip to Gulmarg. Gulmarg is one of the most beautiful summer resorts in the valley. It is popular for its highest golf course and skiing in winters. One can enjoy gondola ride (cable car) to Apharwat (13000ft) on own cost. Back to Srinagar check-in houseboat - relax - leave for shikara ride enjoy the sunset on Dal Lake.",
-          category: "activity",
-          highlight: true,
-        },
-        {
-          time: "Day 4",
-          title: "Srinagar - Pahalgam",
-          description:
-            "Leave for sightseeing trip to Pahalgam on the way visit saffron field, Avantipora ruins – check-in hotel. Later free leisure time at Pahalgam. Enjoy the natural beauty of Pahalgam or one can take horse ride to beautiful spots around Pahalgam or go to Aru, Baisaran, Betaab Valley & Chandanwari by engaging local vehicle at Pahalgam taxi stand on the spot on own cost.",
-          category: "activity",
-        },
-        {
-          time: "Day 5",
-          title: "Pahalgam - Srinagar",
-          description:
-            "Leave for Srinagar and check-in houseboat Srinagar - relax – leave for shikara ride on Dal Lake to enjoy the sunset - back to overnight stay & dinner in houseboat.",
-          category: "activity",
-          highlight: true,
-        },
-        {
-          time: "Day 6",
-          title: "Srinagar - Airport",
-          description:
-            "After breakfast check out & if time permits shopping & get transferred to the Srinagar airport for your onward journey. Tour concludes with so many wonderful and long lasting memories.",
-          category: "activity",
-        },
-      ],
-      gallery: [
-        {
-          title: "Dal Lake Shikara",
-          description: "Iconic Kashmir experience",
-          image: "/assets/destinations/Kashmir/Dal-Lake-Shikara.webp",
-        },
-        {
-          title: "Gulmarg Gondola",
-          description: "Highest cable car in India",
-          image: "/assets/destinations/Kashmir/Gulmarg-Gondola.webp",
-        },
-        {
-          title: "Sonamarg Valley",
-          description: "Meadow of Gold",
-          image: "/assets/destinations/Kashmir/Sonamarg-Valley.webp",
-        },
-        {
-          title: "Pahalgam",
-          description: "Valley of Shepherds",
-          image: "/assets/destinations/Kashmir/Pahalgam.webp",
-        },
-        {
-          title: "Tulip Garden",
-          description: "Largest in Asia",
-          image: "/assets/destinations/Kashmir/Tulip-Garden.webp",
-        },
-      ],
-      inclusions: [
-        {
-          title: "Accommodation",
-          description:
-            "4 nights in hotels + 1 night in houseboat on double sharing basis",
-        },
-        {
-          title: "Shikara Ride",
-          description: "1 hour shikara ride in Dal Lake to enjoy sunset",
-        },
-        {
-          title: "Private Transport",
-          description:
-            "All transfers & sightseeing by non-AC sedan/Innova vehicle",
-        },
-        {
-          title: "Daily Meals",
-          description:
-            "Daily breakfast and dinner during hotel stay (MAPAI basis)",
-        },
-        {
-          title: "Airport Transfers",
-          description:
-            "All arrival/departure transfers as mentioned in itinerary",
-        },
-        {
-          title: "All Taxes",
-          description: "All applicable taxes included in the package",
-        },
-      ],
-    },
+    // "exotic-kashmir-tour": {
+    //   file_name: "Kashmir-5N6D-Trip.html",
+    //   page: {
+    //     slug: "Kashmir-5N6D-Trip",
+    //     type: "domestic-trip",
+    //     hero: {
+    //       title: "Kashmir 5N6D Trip Package",
+    //       subtitle:
+    //         "Experience the breathtaking beauty of Kashmir with this trip through Srinagar, Gulmarg, Pahalgam & Sonamarg",
+    //       backgroundImage: "/assets/hero/kashmir-5n6d-hero.webp",
+    //       meta: {
+    //         duration: "6 Days",
+    //         locations: 4,
+    //         rating: "4.9/5 Rating",
+    //       },
+    //     },
+    //     language: "en",
+    //   },
+    //   cta: {
+    //     headline: "Ready for Your Kashmir Adventure?",
+    //     description:
+    //       "Book now and secure your spot for an unforgettable 6-day journey through Paradise on Earth",
+    //     contact: {
+    //       whatsapp: {
+    //         number: "+919067972295",
+    //         message:
+    //           "Hi! I'm interested in your Kashmir 5N6D tour package. Please send me details.",
+    //       },
+    //       phone: "+919067972295",
+    //     },
+    //   },
+    //   quickInfo: [
+    //     {
+    //       title: "Hotel Stay",
+    //       description: "4 Nights Hotel + 1 Night Houseboat",
+    //     },
+    //     {
+    //       title: "Private Transport",
+    //       description: "Non-AC Sedan/Innova Vehicle",
+    //     },
+    //     {
+    //       title: "Shikara Ride",
+    //       description: "1 Hour Shikara on Dal Lake",
+    //     },
+    //     {
+    //       title: "Meals Included",
+    //       description: "Daily Breakfast & Dinner",
+    //     },
+    //   ],
+    //   itinerary: [
+    //     {
+    //       time: "Day 1",
+    //       title: "Srinagar Arrival - Srinagar Sightseeing",
+    //       description:
+    //         "Our service starts with arrival at Srinagar airport. Meet & greet our representative. Transfer to Srinagar hotel – relax – fresh up & leave for sightseeing trip to Mughal gardens, Cheshmashahi, Nishat Shalimar, Tulip garden (largest in Asia) & Shankarcharya temple on the top of hill. Back to hotel for dinner and overnight stay.",
+    //       category: "arrival",
+    //     },
+    //     {
+    //       time: "Day 2",
+    //       title: "Srinagar - Sonamarg",
+    //       description:
+    //         "Full day sightseeing trip to Sonamarg. Sonamarg is a beautiful drive from Srinagar. Sonamarg is called meadow of gold and where snow remains round the year at Thajiwas glacier. One can hire horses on their own cost to visit there. Later back to Srinagar for dinner & night stay.",
+    //       category: "activity",
+    //     },
+    //     {
+    //       time: "Day 3",
+    //       title: "Srinagar - Gulmarg",
+    //       description:
+    //         "Full day sightseeing trip to Gulmarg. Gulmarg is one of the most beautiful summer resorts in the valley. It is popular for its highest golf course and skiing in winters. One can enjoy gondola ride (cable car) to Apharwat (13000ft) on own cost. Back to Srinagar check-in houseboat - relax - leave for shikara ride enjoy the sunset on Dal Lake.",
+    //       category: "activity",
+    //       highlight: true,
+    //     },
+    //     {
+    //       time: "Day 4",
+    //       title: "Srinagar - Pahalgam",
+    //       description:
+    //         "Leave for sightseeing trip to Pahalgam on the way visit saffron field, Avantipora ruins – check-in hotel. Later free leisure time at Pahalgam. Enjoy the natural beauty of Pahalgam or one can take horse ride to beautiful spots around Pahalgam or go to Aru, Baisaran, Betaab Valley & Chandanwari by engaging local vehicle at Pahalgam taxi stand on the spot on own cost.",
+    //       category: "activity",
+    //     },
+    //     {
+    //       time: "Day 5",
+    //       title: "Pahalgam - Srinagar",
+    //       description:
+    //         "Leave for Srinagar and check-in houseboat Srinagar - relax – leave for shikara ride on Dal Lake to enjoy the sunset - back to overnight stay & dinner in houseboat.",
+    //       category: "activity",
+    //       highlight: true,
+    //     },
+    //     {
+    //       time: "Day 6",
+    //       title: "Srinagar - Airport",
+    //       description:
+    //         "After breakfast check out & if time permits shopping & get transferred to the Srinagar airport for your onward journey. Tour concludes with so many wonderful and long lasting memories.",
+    //       category: "activity",
+    //     },
+    //   ],
+    //   gallery: [
+    //     {
+    //       title: "Dal Lake Shikara",
+    //       description: "Iconic Kashmir experience",
+    //       image: "/assets/destinations/Kashmir/Dal-Lake-Shikara.webp",
+    //     },
+    //     {
+    //       title: "Gulmarg Gondola",
+    //       description: "Highest cable car in India",
+    //       image: "/assets/destinations/Kashmir/Gulmarg-Gondola.webp",
+    //     },
+    //     {
+    //       title: "Sonamarg Valley",
+    //       description: "Meadow of Gold",
+    //       image: "/assets/destinations/Kashmir/Sonamarg-Valley.webp",
+    //     },
+    //     {
+    //       title: "Pahalgam",
+    //       description: "Valley of Shepherds",
+    //       image: "/assets/destinations/Kashmir/Pahalgam.webp",
+    //     },
+    //     {
+    //       title: "Tulip Garden",
+    //       description: "Largest in Asia",
+    //       image: "/assets/destinations/Kashmir/Tulip-Garden.webp",
+    //     },
+    //   ],
+    //   inclusions: [
+    //     {
+    //       title: "Accommodation",
+    //       description:
+    //         "4 nights in hotels + 1 night in houseboat on double sharing basis",
+    //     },
+    //     {
+    //       title: "Shikara Ride",
+    //       description: "1 hour shikara ride in Dal Lake to enjoy sunset",
+    //     },
+    //     {
+    //       title: "Private Transport",
+    //       description:
+    //         "All transfers & sightseeing by non-AC sedan/Innova vehicle",
+    //     },
+    //     {
+    //       title: "Daily Meals",
+    //       description:
+    //         "Daily breakfast and dinner during hotel stay (MAPAI basis)",
+    //     },
+    //     {
+    //       title: "Airport Transfers",
+    //       description:
+    //         "All arrival/departure transfers as mentioned in itinerary",
+    //     },
+    //     {
+    //       title: "All Taxes",
+    //       description: "All applicable taxes included in the package",
+    //     },
+    //   ],
+    // },
     "kazakhstan-almaty-explorer": {
       file_name: "kazakhstan-tour-package.html",
       page: {
@@ -6599,7 +6620,7 @@ export const en = {
         slug: "Mumbai-day-trip-package",
         type: "day-trip",
         hero: {
-          title: "Mumbai Day Trip from Goa for Foreign Travelers",
+          title: "Mumbai Day Trip from Goa ",
           subtitle:
             "Full Day tour from Goa to Mumbai including airfare, Gateway of India, Taj Mahal Palace, and English-speaking guide",
           backgroundImage: "/assets/hero/mumbai-hero.webp",
@@ -8068,7 +8089,7 @@ export const en = {
         slug: "Kerala-5N6D-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Kerala 5N6D Trip Package | Global Tourist Centre",
+          title: "Kerala 5N6D Trip Package ",
           subtitle:
             "Experience the serene beauty of Kerala with this 5 nights 6 days trip through Cochin, Munnar, Thekkady & Alleppey",
           backgroundImage: "/assets/hero/Kerala-hero.webp",
@@ -8373,7 +8394,7 @@ export const en = {
         slug: "Lakshadweep-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Lakshadweep 3N4D Trip Package | Global Tourist Centre",
+          title: "Lakshadweep 3N4D Trip Package ",
           subtitle:
             "Discover the pristine beauty of India's coral islands with our 3 nights 4 days package",
           backgroundImage: "/assets/hero/Lakshadweep-hero.webp",
@@ -8909,7 +8930,7 @@ export const en = {
         slug: "North-India-Trip",
         type: "domestic-trip",
         hero: {
-          title: "North India 10 Days Trip Package | Global Tourist Centre",
+          title: "North India 10 Days Trip Package ",
           subtitle: "",
           backgroundImage: "/assets/hero/North-india-hero.webp",
           meta: {
@@ -9085,8 +9106,7 @@ export const en = {
         slug: "Rajasthan-Trip-Package",
         type: "domestic-trip",
         hero: {
-          title:
-            "Rajasthan Trip Package – 7-Day Royal Rajasthan Experience | Global Tourist Centre",
+          title: "Rajasthan Trip Package – 7-Day Royal Rajasthan Experience ",
           subtitle:
             "Discover the majestic forts, palaces, and culture of Rajasthan in 7 days",
           backgroundImage: "/assets/hero/Rajasthan-hero.webp",
@@ -9243,7 +9263,7 @@ export const en = {
         type: "domestic-trip",
         hero: {
           title:
-            "Shimoga Trip Package from Goa – 1N/2D Nature Escape | Global Tourist Centre",
+            "Shimoga Trip Package from Goa – 1N/2D Nature Escape ",
           subtitle: "",
           backgroundImage: "/assets/hero/Shimoga-hero.webp",
           meta: {
@@ -9585,7 +9605,7 @@ export const en = {
         slug: "Tamil-Nadu-trip",
         type: "domestic-trip",
         hero: {
-          title: "Tamil Nadu 7-day Trip Package | global tourist centre",
+          title: "Tamil Nadu 7-day Trip Package ",
           subtitle:
             "Experience the rich heritage, temples, and natural beauty of Tamil Nadu in this 7-day exploration",
           backgroundImage: "/assets/hero/tamil-nadu-hero.webp",

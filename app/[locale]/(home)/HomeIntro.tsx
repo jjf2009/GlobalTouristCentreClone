@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n/context";
 import HomeCard from "./HomeCard";
-import  { SectionTitle } from "@/components/SectionTitle"; 
+import { SectionTitle } from "@/components/SectionTitle";
 
 /* ----------------------------------------
    DATA MODEL
@@ -136,8 +136,8 @@ const travelCollections: TravelCollection[] = [
 
   // removed andaman-islands-5n6d because that itinerary is commented out
   {
-    id: "andaman-islands-trip",
-    href: "/itinerary/international/andaman-islands-trip", // matches int-andaman-021.slug
+    id: "andaman-islands-tour",
+    href: "/itinerary/international/andaman-islands-tour", // matches int-andaman-021.slug
     imageUrl: "/assets/destinations/Thumbnails/Andaman.webp",
   },
   {
@@ -173,22 +173,6 @@ const HomeIntro = () => {
         ======================== */}
 
         <SectionTitle title={t.home.title} subtitle={t.home.subtitle} />
-
-        {/* <div className="text-center md:text-left mb-12">
-          <div className="relative inline-block">
-            <h2 className="font-serif text-slate-900 text-3xl md:text-4xl font-bold mb-3">
-              {t.home.title}
-            </h2>
-
-            <span
-              aria-hidden="true"
-              className="absolute left-0 -bottom-1 h-[4px] w-20 rounded-full
-              bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
-            />
-          </div>
-
-          <p className="text-slate-600 max-w-3xl mt-4">{t.home.mainsubtitle}</p>
-        </div> */}
 
         {/* =======================
             MOBILE – CAROUSEL
@@ -229,7 +213,7 @@ const HomeIntro = () => {
         {/* =======================
             DESKTOP – GRID
         ======================== */}
-        <div className="hidden md:grid grid-cols-4 gap-3 mb-16">
+        <div className="hidden md:grid md:grid-cols-3 xl:grid-cols-4 gap-3 mb-16">
           {travelCollections.map((tour) => {
             const content = t.home.items[tour.id];
 

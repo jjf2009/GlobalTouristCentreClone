@@ -40,12 +40,12 @@ export const TOUR_CATEGORIES = {
     "sikkim-darjeeling-gangtok-tour", // verified
     "mystic-meghalaya-tour",
     "lakshadweep-islands", // verified
-    "andaman-islands-trip", // verified
+    "andaman-islands-tour", // verified
     "wondrous-wilderness",
     "hampi-badami-tour-package", // verified
     "shimoga-nature-safari", // verified
     "ajanta-ellora-caves-tour", // verified
-    "leh-turtuk-pangong-tour",
+    "ladakh-tour",
     "varanasi-tour-package", // verified
     "bijapur-tour-package", // verified // not used anywhere
     "hyderabad-tour-package", // temporarily removed (used in html code) // verified

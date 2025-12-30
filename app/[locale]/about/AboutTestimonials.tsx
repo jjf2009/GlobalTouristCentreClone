@@ -4,7 +4,14 @@ import { TestimonialCard } from "@/components/testimonial-card";
 import { useI18n } from "@/lib/i18n/context";
 import { reviews } from "./about";
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils"; // Ensure you have this utility or remove if not needed
 
+// 1. Import Shadcn Pagination components
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+} from "@/components/ui/pagination";
 
 import {
   Carousel,
@@ -67,8 +74,8 @@ export function AboutTestimonials() {
           {t.testimonials.hearFromCustomers}
         </p>
 
-        {/* Carousel */}
-        <div className="mt-10">
+        {/* Carousel Container */}
+        <div className="mt-10 relative">
           <Carousel
             setApi={setApi}
             plugins={[autoplayRef.current]}
@@ -76,7 +83,7 @@ export function AboutTestimonials() {
               align: "start",
               loop: true,
             }}
-            className="relative"
+            className="w-full"
           >
             <CarouselContent className="-ml-6">
               {reviews.map((review, index) => {
@@ -103,42 +110,73 @@ export function AboutTestimonials() {
                         .join("")}
                       rating={review.rating}
                       photoCount={review.photoCount}
+                      readmoreText={t.about.readmore}
+                      showlessText={t.about.showless}
                     />
                   </CarouselItem>
                 );
               })}
             </CarouselContent>
 
-            {/* Arrows */}
-            <CarouselPrevious className="hidden md:flex -left-8" />
-            <CarouselNext className="hidden md:flex -right-8" />
+            {/* UPDATED ARROWS:
+               1. Removed 'hidden' (visible on all screens)
+               2. Added absolute positioning to float them
+               3. Added styling for visibility (bg/backdrop)
+            */}
+            <CarouselPrevious
+              className="
+                absolute left-4 top-1/2 -translate-y-1/2 z-20
+                h-10 w-10 rounded-full
+                border-none bg-white/80 backdrop-blur-sm shadow-md
+                text-gray-800 hover:bg-white hover:text-primary
+                disabled:opacity-50
+              "
+            />
+            <CarouselNext
+              className="
+                absolute right-4 top-1/2 -translate-y-1/2 z-20
+                h-10 w-10 rounded-full
+                border-none bg-white/80 backdrop-blur-sm shadow-md
+                text-gray-800 hover:bg-white hover:text-primary
+                disabled:opacity-50
+              "
+            />
           </Carousel>
 
-          {/* Pagination Dots */}
-          <div className="mt-6 flex justify-center gap-1.5 sm:gap-2.5">
-            {Array.from({ length: count }).map((_, index) => (
-              <Button
-                key={index}
-                variant="ghost"
-                size="icon"
-                onClick={() => api?.scrollTo(index)}
-                aria-label={`Go to testimonial ${index + 1}`}
-                className={`
-        p-0 rounded-sm transition
-        h-[2px] w-3
-        sm:h-[2px] sm:w-5
-        md:h-1 md:w-8
-        ${
-          index === current
-            ? "bg-primary"
-            : "bg-muted hover:bg-muted-foreground/40"
-        }
-      `}
-              />
-            ))}
+          {/* UPDATED PAGINATION */}
+          <div className="mt-8">
+            <Pagination>
+              <PaginationContent className="gap-2">
+                {Array.from({ length: count }).map((_, index) => (
+                  <PaginationItem key={index}>
+                    <Button
+                      variant="ghost"
+                      // 1. REMOVED size="icon" (This was causing the big circles)
+                      onClick={() => api?.scrollTo(index)}
+                      aria-label={`Go to testimonial ${index + 1}`}
+                      className={cn(
+                        // 2. ADDED min-w-0 to allow the button to shrink to your custom width
+                        "p-0 min-w-0 min-h-0 rounded-full transition-all duration-300",
+
+                        // Mobile dimensions (Small sleek bars)
+                        "h-1.5 w-4",
+
+                        // Tablet/Desktop dimensions
+                        "sm:h-2 sm:w-6 md:h-2 md:w-8",
+
+                        index === current
+                          ? "bg-primary w-6 sm:w-8 md:w-12" // Active state expands
+                          : "bg-gray-300 hover:bg-gray-400"
+                      )}
+                    />
+                  </PaginationItem>
+                ))}
+              </PaginationContent>
+            </Pagination>
           </div>
         </div>
       </div>
+
       {/* Google Reviews CTA */}
       <div className="mt-10 flex justify-center">
         <a
@@ -146,15 +184,15 @@ export function AboutTestimonials() {
           target="_blank"
           rel="noopener noreferrer"
           className="
-      inline-flex items-center gap-3
-      rounded-full border border-gray-200
-      px-6 py-3
-      text-sm font-medium text-gray-700
-      transition-all
-      hover:border-[#f8d56b]
-      hover:bg-[#f8d56b]/10
-      hover:text-gray-900
-    "
+            inline-flex items-center gap-3
+            rounded-full border border-gray-200
+            px-6 py-3
+            text-sm font-medium text-gray-700
+            transition-all
+            hover:border-[#f8d56b]
+            hover:bg-[#f8d56b]/10
+            hover:text-gray-900
+          "
         >
           <img
             src="/assets/icons8-google-48.png"

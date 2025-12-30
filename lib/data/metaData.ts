@@ -72,7 +72,7 @@ export const metaData: Record<string, any> = {
       rating: "4.7/5 Rating",
     },
   },
-  "andaman-islands-trip": {
+  "andaman-islands-tour": {
     meta: {
       duration: "7 Days",
       rating: "4.9/5 Rating",

@@ -7,7 +7,7 @@ interface SectionTitleProps {
 
 export function SectionTitle({ title, subtitle }: SectionTitleProps) {
   return (
-    <div className="mb-12">
+    <div className="my-12 ">
       <div className="relative inline-block">
         <h2 className="font-serif text-3xl md:text-4xl font-bold text-slate-900 mb-3">
           {title}
@@ -24,7 +24,7 @@ export function SectionTitle({ title, subtitle }: SectionTitleProps) {
         />
       </div>
 
-      {subtitle && <p className="text-slate-600 max-w-xl mt-4">{subtitle}</p>}
+      {subtitle && <p className="text-slate-600 w-full mt-4">{subtitle}</p>}
     </div>
   );
 }

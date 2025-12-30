@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { getTranslations } from "@/lib/i18n/getTranslations";
 
 import { getDestinationBySlug } from "../get-destination";
 import { DestinationsGridSection } from "./DestinationsGridSection";
@@ -32,44 +33,109 @@ export function generateStaticParams() {
   );
 }
 
+function getCategoryContent(
+  category: string,
+  t: ReturnType<typeof getTranslations>
+) {
+  switch (category) {
+    case "domestic":
+      return {
+        heroTitle: t.destinations.domesticTitle,
+        subtitle: t.destinations.domesticSubtitle,
+      };
+
+    case "international":
+      return {
+        heroTitle: t.destinations.internationalTitle,
+        subtitle: t.destinations.internationalSubtitle,
+      };
+
+    case "day-trips":
+      return {
+        heroTitle: t.destinations.dayTripsTitle,
+        subtitle: t.destinations.dayTripsSubtitle,
+      };
+
+    default:
+      return null;
+  }
+}
+function getHeroContent(
+  category: string,
+  t: ReturnType<typeof getTranslations>
+) {
+  switch (category) {
+    case "domestic":
+      return {
+        heroTitle: t.destinations.domestichero,
+      };
+
+    case "international":
+      return {
+        heroTitle: t.destinations.internationalhero,
+      };
+
+    case "day-trips":
+      return {
+        heroTitle: t.destinations.dayTripsHero,
+      };
+
+    default:
+      return null;
+  }
+}
+
+
 /* ------------------------------------------------------------------ */
-/* SEO METADATA */
+/* SEO METADATA (i18n-aware, slug-based) */
 /* ------------------------------------------------------------------ */
 export function generateMetadata({ params }: PageProps): Metadata {
-  const data = getDestinationBySlug(params.category);
+  const { locale, category } = params;
+  const t = getTranslations(locale);
 
-  if (!data) {
+  const content = getCategoryContent(category, t);
+
+  if (!content) {
     return {
-      title: "Destinations Not Found | Global Tourist Centre",
-      description: "The requested destination category does not exist.",
+      title: t.common?.notFoundTitle ?? "Destinations Not Found",
+      description:
+        t.common?.notFoundDescription ??
+        "The requested destination category does not exist.",
     };
   }
 
   return {
-    title: `${data.title} Tours | Global Tourist Centre`,
-    description: data.subtitle,
+    title: content.heroTitle,
   };
 }
+
+
+
 
 /* ------------------------------------------------------------------ */
 /* PAGE */
 /* ------------------------------------------------------------------ */
 export default function DestinationsCategoryPage({ params }: PageProps) {
-  const data = getDestinationBySlug(params.category);
+  const { category, locale } = params;
 
+  const data = getDestinationBySlug(category);
   if (!data) notFound();
+
+  const t = getTranslations(locale);
+  const content = getHeroContent(category, t);
+  if (!content) notFound();
 
   return (
     <main>
       {/* HERO SECTION */}
       <HeroSection
-        title={data.herotitle}
+        title={content.heroTitle}
         backgroundQuery={data.heroImageQuery}
       />
 
       {/* DESTINATIONS GRID */}
       <DestinationsGridSection
-        slug={params.category as keyof typeof TOUR_CATEGORIES}
+        slug={category as keyof typeof TOUR_CATEGORIES}
         title={data.title}
         subtitle={data.subtitle}
         items={data.items}
@@ -80,3 +146,4 @@ export default function DestinationsCategoryPage({ params }: PageProps) {
     </main>
   );
 }
+

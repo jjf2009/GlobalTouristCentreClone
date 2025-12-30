@@ -1,10 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
+import { Menu } from "lucide-react";
+
 import { useI18n } from "@/lib/i18n/context";
 import { LanguageSwitcher } from "./language-switcher";
-import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -16,47 +18,50 @@ import {
 } from "@/components/ui/sheet";
 
 export function Header() {
- const { t, locale } = useI18n();
- const [isOpen, setIsOpen] = useState(false);
+  const { t, locale } = useI18n();
+  const [isOpen, setIsOpen] = useState(false);
 
- const navLinks = [
-   { href: `/${locale}`, label: t.nav.home },
-   { href: `/${locale}/destinations`, label: t.nav.destinations },
-   {
-     href: `https://globaltouristcentre.com/luxury-destinations`,
-     label: t.nav.luxuryDestinations,
-   },
-   { href: `/${locale}/about`, label: t.nav.about },
-   { href: `https://globaltouristcentre.com/services`, label: t.nav.services },
-   { href: `https://globaltouristcentre.com/contact-us`, label: t.nav.contact },
-   { href: `https://globaltouristcentre.com/blog`, label: t.nav.blog },
- ];
+  const navLinks = [
+    { href: `/${locale}`, label: t.nav.home },
+    { href: `/${locale}/destinations`, label: t.nav.destinations },
+    {
+      href: "https://globaltouristcentre.com/luxury-destinations",
+      label: t.nav.luxuryDestinations,
+    },
+    { href: `/${locale}/about`, label: t.nav.about },
+    { href: "https://globaltouristcentre.com/services", label: t.nav.services },
+    {
+      href: "https://globaltouristcentre.com/contact-us",
+      label: t.nav.contact,
+    },
+    { href: "https://globaltouristcentre.com/blog", label: t.nav.blog },
+  ];
 
   return (
-    <header
-      className="absolute top-0 left-0 w-full z-50 bg-transparent"
-      role="banner"
-    >
-      <div className="flex items-center justify-between px-[5%] py-7.5">
-        {/* Logo */}
+    <header className="absolute top-0 left-0 w-full z-50" role="banner">
+      <div className="flex items-center justify-between px-[5%] py-4">
+        {/* LOGO */}
         <Link
           href="https://globaltouristcentre.com/"
+          aria-label="Global Tourist Centre home"
           className="flex items-center"
-          aria-label="Global Tourist Centre - Home"
         >
-          <div className="w-15 h-15 rounded-full border-2 border-[#f8d56b] flex items-center justify-center mb-4 sm:mt-[10px]">
-            <img
+          <div className="h-14 w-14 rounded-full border-2 border-[#f8d56b] flex items-center justify-center bg-white/90 backdrop-blur">
+            <Image
               src="/assets/logo.webp"
               alt="Global Tourist Centre Logo"
-              className="h-15 w-auto rounded-full"
+              width={48}
+              height={48}
+              className="rounded-full"
+              priority
             />
           </div>
         </Link>
 
-        {/* Desktop Navigation + Language */}
-        <div className="hidden lg:flex items-center gap-8">
+        {/* DESKTOP NAV */}
+        <div className="hidden lg:flex items-center gap-6">
           <nav
-            className="flex items-center gap-8"
+            className="flex items-center gap-6"
             role="navigation"
             aria-label="Main navigation"
           >
@@ -64,21 +69,18 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-white text-xl font-medium transition-colors hover:text-[#f8d56b]"
-                style={{ textShadow: "0 1px 2px rgba(0,0,0,0.3)" }}
+                className="text-white text-lg font-medium transition-colors hover:text-[#f8d56b]"
+                style={{ textShadow: "0 1px 2px rgba(0,0,0,0.35)" }}
               >
                 {link.label}
               </Link>
             ))}
           </nav>
 
-          {/* Language Switcher as navbar item */}
-          <div className="flex items-center">
-            <LanguageSwitcher />
-          </div>
+          <LanguageSwitcher />
         </div>
 
-        {/* Mobile Menu */}
+        {/* MOBILE MENU */}
         <div className="lg:hidden">
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
@@ -86,7 +88,7 @@ export function Header() {
                 variant="ghost"
                 size="icon"
                 aria-label="Open menu"
-                className="text-white"
+                className="text-white h-10 w-10"
               >
                 <Menu className="h-6 w-6" />
               </Button>
@@ -97,12 +99,12 @@ export function Header() {
                 <SheetTitle>Menu</SheetTitle>
               </SheetHeader>
 
-              <nav className="flex flex-col py-4">
+              <nav className="flex flex-col" aria-label="Mobile navigation">
                 {navLinks.map((link) => (
                   <SheetClose asChild key={link.href}>
                     <Link
                       href={link.href}
-                      className="px-6 py-3 text-base font-medium hover:bg-muted"
+                      className="px-6 py-4 text-base font-medium hover:bg-muted"
                     >
                       {link.label}
                     </Link>
@@ -110,9 +112,9 @@ export function Header() {
                 ))}
               </nav>
 
-              <div className="px-6 py-4  sm:hidden">
+              <div className="px-6 py-4 border-t">
                 <p className="text-sm mb-2">Language</p>
-                <LanguageSwitcher />
+                <LanguageSwitcher variant="light" />
               </div>
             </SheetContent>
           </Sheet>

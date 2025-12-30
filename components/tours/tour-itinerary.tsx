@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { useI18n } from "@/lib/i18n/context";
 
 type ItineraryItem = {
   time: string;
@@ -14,6 +15,7 @@ interface TourItineraryProps {
 
 export default function TourItinerary({ items }: TourItineraryProps) {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+  const { t } = useI18n();
 
   return (
     <section className="bg-gradient-to-b from-slate-50 to-white py-20">
@@ -21,11 +23,10 @@ export default function TourItinerary({ items }: TourItineraryProps) {
         {/* HEADER */}
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl font-bold text-slate-900 mb-3">
-            Your Day of Adventure
+            {t.destinations.tour.itinerarytitle}
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Every moment carefully crafted to maximize your experience and
-            create lasting memories
+            {t.destinations.tour.itinararysubtitle}
           </p>
         </div>
 

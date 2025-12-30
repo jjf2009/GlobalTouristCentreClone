@@ -46,9 +46,9 @@ export function LanguageSwitcher({ variant = "dark" }: LanguageSwitcherProps) {
           <DropdownMenuTrigger asChild>
             <button
               className="
-          group inline-flex items-center gap-1.5
-          px-3.5 py-1.5 rounded-full
-          text-[11px] font-semibold uppercase tracking-wider
+          group inline-flex items-center gap-2
+          px-5 py-2.5 rounded-full
+          text-sm font-semibold uppercase tracking-wider
           text-white
           bg-black/30 backdrop-blur-md
           border border-white/20
@@ -62,7 +62,7 @@ export function LanguageSwitcher({ variant = "dark" }: LanguageSwitcherProps) {
               {currentLocale.toUpperCase()}
               <ChevronDown
                 className="
-            h-3.5 w-3.5
+            h-4 w-4
             transition-transform duration-200
             group-data-[state=open]:rotate-180
           "
@@ -74,7 +74,7 @@ export function LanguageSwitcher({ variant = "dark" }: LanguageSwitcherProps) {
             align="end"
             sideOffset={8}
             className="
-        min-w-[120px]
+        min-w-[140px]
         rounded-xl
         border border-gray-200
         bg-white
@@ -91,22 +91,21 @@ export function LanguageSwitcher({ variant = "dark" }: LanguageSwitcherProps) {
                   onClick={() => handleLanguageChange(lang.code)}
                   className={`
               flex items-center justify-between
-              rounded-lg px-3 py-2
+              rounded-lg px-3 py-2.5
               text-sm font-medium
               cursor-pointer
               transition-colors
               ${
                 isActive
-                  ? "bg-[#f8d56b]/20 text-gray-900"
+                  ? "bg-amber-50 text-amber-600" // Golden background tint & Golden text
                   : "text-gray-700 hover:bg-gray-100"
               }
             `}
                 >
                   {lang.label}
                   {isActive && (
-                    <span className="text-xs font-semibold text-gray-900">
-                      ✓
-                    </span>
+                    // Also made the checkmark golden
+                    <span className="text-xs font-bold text-amber-600">✓</span>
                   )}
                 </DropdownMenuItem>
               );
@@ -157,46 +156,5 @@ export function LanguageSwitcher({ variant = "dark" }: LanguageSwitcherProps) {
         </div>
       </div>
     </>
-    //     <div className="flex items-center">
-    //       <div
-    //         className={`
-    //     flex gap-1 p-1 rounded-full border
-    //     ${
-    //       variant === "dark"
-    //         ? "bg-white/10 backdrop-blur-md border-white/20"
-    //         : "bg-gray-100 border-gray-200"
-    //     }
-    //   `}
-    //         aria-label="Language selector"
-    //       >
-    //         {languages.map((lang) => {
-    //           const isActive = currentLocale === lang.code;
-
-    //           return (
-    //             <button
-    //               key={lang.code}
-    //               onClick={() => handleLanguageChange(lang.code)}
-    //               aria-current={isActive ? "true" : undefined}
-    //               aria-label={`Switch language to ${lang.label}`}
-    //               className={`
-    //   px-3 py-1.5 rounded-full
-    //   text-xs font-medium uppercase tracking-wide
-    //   transition-all duration-300
-
-    //   ${
-    //     isActive
-    //       ? "bg-[#f8d56b] text-gray-900 shadow-sm"
-    //       : variant === "dark"
-    //       ? "text-white hover:text-[#f8d56b] hover:bg-white/10"
-    //       : "text-gray-700 hover:bg-gray-200"
-    //   }
-    // `}
-    //             >
-    //               {lang.label}
-    //             </button>
-    //           );
-    //         })}
-    //       </div>
-    //     </div>
   );
 }

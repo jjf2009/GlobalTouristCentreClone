@@ -20,7 +20,7 @@ export default function TourClient({ tourId }: TourClientProps) {
   const { t } = useI18n();
 
   const data = t.tourData?.[tourId];
-  const gallery = galleryData[tourId]?.gallery ?? [];
+  const gallerydata = galleryData[tourId]?.gallery ?? [];
   const meta = metaData[tourId]?.meta ?? null;
 
   /* -------------------------------------------------------
@@ -36,7 +36,7 @@ export default function TourClient({ tourId }: TourClientProps) {
     );
   }
 
-  const { page, cta, quickInfo, itinerary, inclusions } = data;
+  const { page, cta, quickInfo, itinerary, inclusions,gallery } = data;
 
   return (
     <main className="bg-white">
@@ -71,7 +71,7 @@ export default function TourClient({ tourId }: TourClientProps) {
       {/* ======================================================
           GALLERY
       ======================================================= */}
-      {gallery?.length > 0 && <TourVisualJourney items={gallery} />}
+      {gallery?.length > 0 && <TourVisualJourney items={gallerydata} gallery={gallery} />}
 
       {/* ======================================================
           INCLUSIONS

@@ -2,30 +2,31 @@
 
 import { useState } from "react";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+} from "@/components/ui/pagination";
+import { cn } from "@/lib/utils";
 import { useI18n } from "@/lib/i18n/context";
 
 const Testimonials = () => {
   const { t } = useI18n();
-
   const testimonials = t.testimonials.items;
 
-  const [activeTestimonialIndex, setActiveTestimonialIndex] = useState(0);
-
-  const nextTestimonial = () => {
-    setActiveTestimonialIndex((prev) => (prev + 1) % testimonials.length);
-  };
-
-  const prevTestimonial = () => {
-    setActiveTestimonialIndex(
-      (prev) => (prev - 1 + testimonials.length) % testimonials.length
-    );
-  };
+  const [activeIndex, setActiveIndex] = useState(0);
 
   if (!testimonials || testimonials.length === 0) return null;
 
-  const active = testimonials[activeTestimonialIndex];
+  const count = testimonials.length;
+  const active = testimonials[activeIndex];
+
+  const next = () => setActiveIndex((i) => (i + 1) % count);
+
+  const prev = () => setActiveIndex((i) => (i - 1 + count) % count);
 
   return (
     <section
@@ -33,42 +34,37 @@ const Testimonials = () => {
       aria-labelledby="testimonials-heading"
     >
       <div className="container mx-auto px-4">
-        {/* Header */}
+        {/* HEADER */}
         <div className="text-center mb-8 sm:mb-12">
           <h2
             id="testimonials-heading"
             className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4"
           >
             {t.testimonials.title}
-            <span
-              aria-hidden="true"
-              className="absolute left-1/2 bottom-0 h-[3px] w-20 -translate-x-1/2 rounded-full
-              bg-gradient-to-r from-[#ff6b6b] via-[#f8d56b] to-[#0d9488]"
-            />
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base text-pretty">
             {t.testimonials.subtitle}
           </p>
         </div>
 
-        {/* Carousel */}
+        {/* CAROUSEL */}
         <div className="relative max-w-3xl mx-auto">
           <div className="flex items-center gap-4">
-            {/* Prev */}
+            {/* PREV */}
             <Button
               variant="outline"
               size="icon"
-              onClick={prevTestimonial}
+              onClick={prev}
               className="hidden sm:flex rounded-full bg-transparent"
               aria-label={t.testimonials.prev}
             >
               <ChevronLeft className="w-5 h-5" />
             </Button>
 
-            {/* Card */}
+            {/* CARD */}
             <Card className="flex-1 p-6 sm:p-8 lg:p-10 text-center">
               <CardContent className="p-0">
-                {/* Rating */}
+                {/* RATING */}
                 <div
                   className="flex justify-center gap-1 mb-4"
                   aria-label={`${active.rating} out of 5 stars`}
@@ -81,15 +77,15 @@ const Testimonials = () => {
                   ))}
                 </div>
 
-                {/* Quote Icon */}
+                {/* QUOTE ICON */}
                 <Quote className="w-10 h-10 text-primary/20 mx-auto mb-4" />
 
-                {/* Text */}
+                {/* TEXT */}
                 <blockquote className="text-base sm:text-lg italic mb-6 text-pretty">
                   “{active.text}”
                 </blockquote>
 
-                {/* Author */}
+                {/* AUTHOR */}
                 <cite className="not-italic">
                   <span className="font-semibold block">{active.name}</span>
                   <span className="text-sm text-muted-foreground">
@@ -99,11 +95,11 @@ const Testimonials = () => {
               </CardContent>
             </Card>
 
-            {/* Next */}
+            {/* NEXT */}
             <Button
               variant="outline"
               size="icon"
-              onClick={nextTestimonial}
+              onClick={next}
               className="hidden sm:flex rounded-full bg-transparent"
               aria-label={t.testimonials.next}
             >
@@ -111,36 +107,39 @@ const Testimonials = () => {
             </Button>
           </div>
 
-          {/* Mobile Controls */}
+          {/* MOBILE CONTROLS */}
           <div className="flex justify-center gap-4 mt-4 sm:hidden">
-            <Button variant="outline" size="icon" onClick={prevTestimonial}>
+            <Button variant="outline" size="icon" onClick={prev}>
               <ChevronLeft className="w-5 h-5" />
             </Button>
-            <Button variant="outline" size="icon" onClick={nextTestimonial}>
+            <Button variant="outline" size="icon" onClick={next}>
               <ChevronRight className="w-5 h-5" />
             </Button>
           </div>
 
-          {/* Pagination Dots */}
-          <div
-            className="flex justify-center gap-2 mt-6"
-            role="tablist"
-            aria-label={t.testimonials.pagination}
-          >
-            {testimonials.map((_, index) => {
-              const isActive = index === activeTestimonialIndex;
-              return (
-                <button
-                  key={index}
-                  onClick={() => setActiveTestimonialIndex(index)}
-                  role="tab"
-                  aria-selected={isActive}
-                  className={`rounded-full transition-all
-                    h-1.5 w-1.5 sm:h-2.5 sm:w-2.5
-                    ${isActive ? "bg-primary sm:w-6" : "bg-gray-300"}`}
-                />
-              );
-            })}
+          {/* PAGINATION (NEW SYSTEM) */}
+          <div className="mt-6">
+            <Pagination>
+              <PaginationContent className="gap-2">
+                {Array.from({ length: count }).map((_, index) => (
+                  <PaginationItem key={index}>
+                    <Button
+                      variant="ghost"
+                      onClick={() => setActiveIndex(index)}
+                      aria-label={`Go to testimonial ${index + 1}`}
+                      className={cn(
+                        "p-0 min-w-0 min-h-0 rounded-full transition-all duration-300",
+                        "h-1.5 w-4",
+                        "sm:h-2 sm:w-6 md:h-2 md:w-8",
+                        index === activeIndex
+                          ? "bg-primary w-6 sm:w-8 md:w-12"
+                          : "bg-gray-300 hover:bg-gray-400"
+                      )}
+                    />
+                  </PaginationItem>
+                ))}
+              </PaginationContent>
+            </Pagination>
           </div>
         </div>
       </div>

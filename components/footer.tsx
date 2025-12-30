@@ -2,11 +2,66 @@
 
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/context";
-import { Instagram, Facebook, MessageCircle } from "lucide-react";
+import { Instagram, Facebook,  } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
+import { useEffect, useRef } from "react";
+
 
 export function Footer() {
   const { t } = useI18n();
+  const instagramRef = useRef<HTMLDivElement>(null);
+
+useEffect(() => {
+  if (!instagramRef.current) return;
+
+  const setupInstagram = () => {
+    if (window.innerWidth < 1024) return;
+
+    instagramRef.current!.innerHTML = "";
+
+    const blockquote = document.createElement("blockquote");
+    blockquote.className = "instagram-media";
+    blockquote.setAttribute(
+      "data-instgrm-permalink",
+      "https://www.instagram.com/globaltouristcentre/"
+    );
+    blockquote.setAttribute("data-instgrm-version", "14");
+
+    instagramRef.current!.appendChild(blockquote);
+
+    if (!(window as any).instgrm) {
+      const script = document.createElement("script");
+      script.src = "https://www.instagram.com/embed.js";
+      script.async = true;
+      script.onload = () => {
+        (window as any).instgrm?.Embeds.process();
+      };
+      document.body.appendChild(script);
+    } else {
+      (window as any).instgrm.Embeds.process();
+    }
+  };
+
+  // Initial load
+  setupInstagram();
+
+  // Resize handler
+  const handleResize = () => {
+    if (window.innerWidth >= 1024) {
+      (window as any).instgrm?.Embeds.process();
+    }
+  };
+
+  window.addEventListener("resize", handleResize);
+
+  // Cleanup (CRITICAL)
+  return () => {
+    window.removeEventListener("resize", handleResize);
+  };
+}, []);
+
+
 
   const popularTours = [
     {
@@ -60,7 +115,7 @@ export function Footer() {
                 },
                 {
                   href: "https://wa.me/919067972295",
-                  icon: MessageCircle,
+                  icon: FaWhatsapp,
                   label: "WhatsApp",
                 },
               ].map(({ href, icon: Icon, label }) => (
@@ -145,20 +200,16 @@ export function Footer() {
           </nav>
 
           {/* Instagram */}
-          <div aria-label="Instagram feed" className="hidden sm:block">
+          <div aria-label="Instagram feed" className="hidden lg:block">
             <h3 className="relative font-serif text-base sm:text-lg font-semibold mb-2 sm:mb-3 pb-1.5 sm:pb-2">
               {t.footer.latestInstagram}
               <span className="absolute bottom-0 left-0 w-8 h-[2px] bg-gradient-to-r from-[#f8d56b] to-transparent" />
             </h3>
 
-            <div className="bg-gray-800 rounded-lg aspect-square flex items-center justify-center">
-              <a
-                href="https://www.instagram.com/globaltouristcentre/"
-                className="text-gray-500 text-xs sm:text-sm hover:text-[#f8d56b]"
-              >
-                Instagram Feed
-              </a>
-            </div>
+            <div
+              ref={instagramRef}
+              className="instagram-embed bg-gray-800 rounded-lg flex items-center justify-center min-h-[320px]"
+            />
 
             <Button
               className="mt-3 w-full bg-primary hover:bg-primary/90 rounded-full text-xs sm:text-sm py-2 h-auto"

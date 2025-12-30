@@ -39,7 +39,7 @@ export function DestinationCard({
 
   return (
     <a href={href} className="block focus:outline-none group max-w-sm">
-      <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 h-[400px] flex flex-col">
+      <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1   h-[360px] md:h-[320px] lg:h-[400px] flex flex-col">
         {/* Image Section */}
         <div className="relative aspect-[16/10] overflow-hidden">
           <img

@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/select";
 import { useI18n } from "@/lib/i18n/context";
 import Image from "next/image";
+import { Header } from "@/components/header";
 
 function formatWhatsAppMessage(
   title: string,
@@ -154,6 +155,7 @@ const Hero = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-slate-900/50" />
       </div>
+      <Header/>
 
       <div className="container mx-auto px-4 relative z-10 py-12 sm:py-16 lg:py-20 xl:py-24">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-10 xl:gap-12 items-center">

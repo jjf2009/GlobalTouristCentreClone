@@ -99,7 +99,7 @@ export function HeroSection({
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-white text-[18px] font-medium transition-colors hover:text-[#f8d56b]"
+                  className="text-white text-[20px] font-medium transition-colors hover:text-[#f8d56b]"
                   style={{ textShadow: "0 1px 2px rgba(0,0,0,0.3)" }}
                 >
                   {link.label}
@@ -164,7 +164,7 @@ export function HeroSection({
         >
           <div className="flex flex-col justify-center">
             <h1
-              className={`font-serif text-2xl sm:text-3xl md:text-5xl lg:text-[4rem] pl-15 pt-10
+              className={`font-serif text-3xl sm:text-3xl md:text-5xl lg:text-[4rem] pl-15 pt-10
   font-bold text-white mb-3 sm:mb-4 leading-tight text-balance
   ${!subtitle ? "max-w-[32ch] sm:max-w-[26ch]" : "max-w-[32ch]"}`}
             >

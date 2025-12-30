@@ -381,7 +381,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "andaman-islands-trip": {
+  "andaman-islands-tour": {
     gallery: [
       {
         title: "Radhanagar Beach",
@@ -705,7 +705,7 @@ export const galleryData: Record<string, any> = {
       {
         title: "Taj Mahal",
         description: "Iconic Monument of Love",
-        image: "/assets/destinations/Golden-Triangle/Taj-Mahal.webp",
+        image: "/assets/destinations/Golden-Triangle/taj-mahal.webp",
       },
       {
         title: "Amer Fort",
@@ -715,12 +715,12 @@ export const galleryData: Record<string, any> = {
       {
         title: "Hawa Mahal",
         description: "Palace of Winds",
-        image: "/assets/destinations/Golden-Triangle/Hawa-Mahal.webp",
+        image: "/assets/destinations/Golden-Triangle/hawa-mahal.webp",
       },
       {
         title: "Qutub Minar",
         description: "Delhi's Tallest Minaret",
-        image: "/assets/destinations/Golden-Triangle/Qutub-Minar.webp",
+        image: "/assets/destinations/Golden-Triangle/qutub-minar.webp",
       },
       {
         title: "Indian Culture",

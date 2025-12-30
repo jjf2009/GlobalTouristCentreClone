@@ -13,6 +13,8 @@ interface TestimonialCardProps {
   rating: number;
   text: string;
   photoCount?: number;
+  readmoreText:string;
+  showlessText:string
 }
 
 export function TestimonialCard({
@@ -22,6 +24,8 @@ export function TestimonialCard({
   rating,
   text,
   photoCount,
+  readmoreText,
+  showlessText
 }: TestimonialCardProps) {
 const [expanded, setExpanded] = useState(false);
 
@@ -117,7 +121,7 @@ const [expanded, setExpanded] = useState(false);
           group-hover:opacity-100
         "
           >
-            {expanded ? "Show less" : "Read more"}
+            {expanded ? showlessText : readmoreText}
           </Button>
         </div>
       </CardContent>

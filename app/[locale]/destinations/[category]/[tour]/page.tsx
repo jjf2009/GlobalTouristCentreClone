@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import TourClient from "./tour-detail-client";
 
 import { LOCALES, TOUR_CATEGORIES } from "@/lib/data/tour-slugs";
-import { seoData } from "@/lib/data/seodata";
+import { getTranslations } from "@/lib/i18n/getTranslations";
 
 /* ------------------------------------------------------------------ */
 /* STATIC PARAMS */
@@ -41,78 +41,47 @@ type PageProps = {
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const { tour, locale } = params;
-  const seo = seoData[tour];
+  const { locale, tour } = params;
 
-  if (!seo) {
+  const t = getTranslations(locale);
+  const data = t.tourData?.[tour];
+
+  // 🔹 Fallback if tour translation is missing
+  if (!data) {
+    const title = t.destinations?.herotitle ?? "Tour Package";
+
     return {
-      title: "Tour Package | Global Tourist Centre",
+      title,
       description:
         "Explore curated tour packages with expert planning, trusted guides, and memorable experiences.",
       openGraph: {
-        title: "Tour Package | Global Tourist Centre",
+        title,
         description:
           "Explore curated tour packages with expert planning, trusted guides, and memorable experiences.",
-        url: `https://globaltouristcentre.com/${locale}/destinations`,
         siteName: "Global Tourist Centre",
-        images: [
-          {
-            url: "https://globaltouristcentre.com/og-default.jpg",
-            width: 1200,
-            height: 630,
-            alt: "Global Tourist Centre Tours",
-          },
-        ],
-        locale: "en_US",
         type: "website",
-      },
-      twitter: {
-        card: "summary_large_image",
-        title: "Tour Package | Global Tourist Centre",
-        description:
-          "Explore curated tour packages with expert planning, trusted guides, and memorable experiences.",
-        images: ["https://globaltouristcentre.com/og-default.jpg"],
       },
     };
   }
 
   return {
-    title: seo.title,
-    description: seo.meta_description,
-    alternates: seo.actual_url ? { canonical: seo.actual_url } : undefined,
+    title: data.page?.hero?.title,
+    description: data.page?.hero?.subtitle,
 
     openGraph: {
-      title: seo.title,
-      description: seo.meta_description,
-      url: seo.actual_url,
+      title: data.page?.hero?.title,
+      description: data.page?.hero?.subtitle,
       siteName: "Global Tourist Centre",
-      images: [
-        {
-          url: seo.og_image
-            ? `https://globaltouristcentre.com${seo.og_image}`
-            : "https://globaltouristcentre.com/og-default.jpg",
-          width: 1200,
-          height: 630,
-          alt: seo.title,
-        },
-      ],
-      locale: "en_US",
       type: "article",
     },
 
     twitter: {
       card: "summary_large_image",
-      title: seo.title,
-      description: seo.meta_description,
-      images: [
-        seo.og_image
-          ? `https://globaltouristcentre.com${seo.og_image}`
-          : "https://globaltouristcentre.com/og-default.jpg",
-      ],
+      title: data.page?.hero?.title,
+      description: data.page?.hero?.subtitle,
     },
   };
 }
-
 
 /* ------------------------------------------------------------------ */
 /* PAGE */
@@ -122,6 +91,7 @@ export default function TourDetailPage({ params }: PageProps) {
 
   /* 1️⃣ Validate category */
   const validTours = TOUR_CATEGORIES[category as keyof typeof TOUR_CATEGORIES];
+
   if (!validTours) notFound();
 
   /* 2️⃣ Validate tour belongs to category */

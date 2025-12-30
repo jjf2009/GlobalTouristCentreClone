@@ -1,4 +1,20 @@
 export const de = {
+  filters: {
+    domestic: {
+      all: "Alle",
+      north: "Nordindien",
+      south: "Südindien",
+      east: "Ost- und Nordostindien",
+      west: "Westindien",
+      island: "Inseln",
+    },
+    international: {
+      all: "Alle",
+      asia: "Asien",
+      europe: "Europa",
+      "southeast-asia": "Südostasien",
+    },
+  },
   // Navigation
   nav: {
     home: "Startseite",
@@ -147,7 +163,7 @@ export const de = {
         description:
           "Erleben Sie tiefe Hingabe an den heiligen Geburtsorten von Lord Krishna.",
       },
-      "andaman-islands-trip": {
+      "andaman-islands-tour": {
         title: "Andamanen-Inseln",
         duration: "5 Nächte / 6 Tage",
         description:
@@ -294,6 +310,10 @@ export const de = {
     nights: "Nächte",
     days: "Tage",
     tour: {
+      itinerarytitle: "Ihr Tag voller Abenteuer",
+      itinararysubtitle:
+        "Jeder Moment ist sorgfältig geplant, um Ihr Erlebnis zu maximieren und bleibende Erinnerungen zu schaffen",
+
       ctaTitle: "Bereit für Ihr Abenteuer?",
       ctaSubtitle:
         "Jetzt buchen und Ihren Platz für ein unvergessliches Erlebnis sichern",
@@ -487,6 +507,8 @@ export const de = {
     meetTeam: "Lernen Sie Unser Team Kennen",
     meetTeamSubtitle:
       "Die leidenschaftlichen Menschen, die Ihre Reiseträume verwirklichen.",
+    readmore: "Mehr Lesen",
+    showless: "Weniger Anzeigen",
     reviews: [
       {
         name: "Derek Parker",
@@ -605,7 +627,7 @@ export const de = {
         "Erkunden Sie Srinagar, Sonamarg, Gulmarg und Pahalgam mit Mogul-Gärten, Hausboot-Aufenthalt und atemberaubenden Himalaya-Landschaften.",
       duration: "5 Nächte / 6 Tage",
     },
-    "leh-turtuk-pangong-tour": {
+    "ladakh-tour": {
       title: "Leh, Turtuk & Pangong",
       description:
         "Erleben Sie den Khardung La Pass, Nubra-Tal, Pangong-See und Turtuk-Dorf in diesem hochgelegenen Himalaya-Abenteuer.",
@@ -1314,7 +1336,7 @@ export const de = {
         slug: "Gokarna-Murdeshwar-one-day-trip-package",
         type: "day-trip",
         hero: {
-          title: "Eintägige Gokarna- und Murdeshwar-Reise ab Goa für Ausländer",
+          title: "Eintägige Gokarna- und Murdeshwar-Reise ab Goa",
           subtitle: "Entdecken Sie Strände und Tempel an einem Tag",
           backgroundImage: "/assets/hero/Gokarna-hero.webp",
           meta: {
@@ -1670,7 +1692,7 @@ export const de = {
         slug: "Mumbai-day-trip-package",
         type: "day-trip",
         hero: {
-          title: "Mumbai-Tagesausflug von Goa für ausländische Reisende",
+          title: "Mumbai-Tagesausflug von Goa ",
           subtitle:
             "Ganztagestour von Goa nach Mumbai inklusive Flug, Gateway of India, Taj Mahal Palace und englischsprachigem Reiseführer",
           backgroundImage: "/assets/hero/mumbai-hero.webp",
@@ -3711,7 +3733,7 @@ export const de = {
         },
       ],
     },
-    "andaman-islands-trip": {
+    "andaman-islands-tour": {
       file_name: "andaman-tour-for-goa.html",
       page: {
         slug: "andaman-nicobar-tour-for-goa",
@@ -6020,7 +6042,7 @@ export const de = {
         },
       ],
     },
-    "kashmir-tour": {
+    "exotic-kashmir-tour": {
       file_name: "Kashmir-5N6D-Trip.html",
       page: {
         slug: "Kashmir-5N6D-Trip",
@@ -6180,7 +6202,7 @@ export const de = {
         slug: "Kerala-5N6D-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Kerala 5N6D Reisepaket |Globales Touristenzentrum",
+          title: "Kerala 5N6D Reisepaket ",
           subtitle:
             "Erleben Sie die ruhige Schönheit Keralas auf dieser 5-tägigen 6-tägigen Reise durch Cochin, Munnar, Thekkady und Alleppey",
           backgroundImage: "/assets/hero/Kerala-hero.webp",
@@ -6485,7 +6507,7 @@ export const de = {
         slug: "Lakshadweep-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Lakshadweep 3N4D Reisepaket |Globales Touristenzentrum",
+          title: "Lakshadweep 3N4D Reisepaket ",
           subtitle:
             "Entdecken Sie die unberührte Schönheit der indischen Koralleninseln mit unserem 3-Nächte-4-Tage-Paket",
           backgroundImage: "/assets/hero/Lakshadweep-hero.webp",
@@ -7022,7 +7044,7 @@ export const de = {
         slug: "North-India-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Nordindien 10-Tage-Reisepaket |Globales Touristenzentrum",
+          title: "Nordindien 10-Tage-Reisepaket ",
           subtitle: "",
           backgroundImage: "/assets/hero/North-india-hero.webp",
           meta: {
@@ -7199,7 +7221,7 @@ export const de = {
         type: "domestic-trip",
         hero: {
           title:
-            "Rajasthan-Reisepaket – 7-tägiges königliches Rajasthan-Erlebnis |Globales Touristenzentrum",
+            "Rajasthan-Reisepaket – 7-tägiges königliches Rajasthan-Erlebnis",
           subtitle:
             "Entdecken Sie in 7 Tagen die majestätischen Festungen, Paläste und die Kultur Rajasthans",
           backgroundImage: "/assets/hero/Rajasthan-hero.webp",
@@ -7355,8 +7377,7 @@ export const de = {
         slug: "Shimoga-trip-package",
         type: "domestic-trip",
         hero: {
-          title:
-            "Shimoga-Reisepaket ab Goa – 1 Nacht/2 Tage Naturflucht |Globales Touristenzentrum",
+          title: "Shimoga-Reisepaket ab Goa – 1 Nacht/2 Tage Naturflucht ",
           subtitle: "",
           backgroundImage: "/assets/hero/Shimoga-hero.webp",
           meta: {
@@ -7703,8 +7724,7 @@ export const de = {
         slug: "Tamil-Nadu-trip",
         type: "domestic-trip",
         hero: {
-          title:
-            "7-tägiges Reisepaket für Tamil Nadu |globales Touristenzentrum",
+          title: "7-tägiges Reisepaket für Tamil Nadu ",
           subtitle:
             "Erleben Sie auf dieser 7-tägigen Erkundungstour das reiche Erbe, die Tempel und die natürliche Schönheit von Tamil Nadu",
           backgroundImage: "/assets/hero/tamil-nadu-hero.webp",

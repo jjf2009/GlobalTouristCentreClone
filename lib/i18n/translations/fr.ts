@@ -1,4 +1,20 @@
 export const fr = {
+  filters: {
+    domestic: {
+      all: "Tous",
+      north: "Inde du Nord",
+      south: "Inde du Sud",
+      east: "Inde de l’Est et du Nord-Est",
+      west: "Inde de l’Ouest",
+      island: "Îles",
+    },
+    international: {
+      all: "Tous",
+      asia: "Asie",
+      europe: "Europe",
+      "southeast-asia": "Asie du Sud-Est",
+    },
+  },
   // Navigation
   nav: {
     home: "Accueil",
@@ -147,7 +163,7 @@ export const fr = {
         description:
           "Plongez dans la ferveur spirituelle des lieux de naissance du Seigneur Krishna.",
       },
-      "andaman-islands-trip": {
+      "andaman-islands-tour": {
         title: "Îles Andaman",
         duration: "5 nuits / 6 jours",
         description:
@@ -270,7 +286,7 @@ export const fr = {
       "Vérifiez votre e-mail pour la confirmation de votre transfert aéroport gratuit. Bon voyage !",
   }, // Destinations
   destinations: {
-    herotitle:"Découvrez nos destinations d’exception",
+    herotitle: "Découvrez nos destinations d’exception",
     title: "Choisissez votre prochaine aventure",
     subtitle:
       "Découvrez notre sélection soigneusement choisie de destinations qui créeront des souvenirs inoubliables.",
@@ -293,6 +309,10 @@ export const fr = {
     nights: "Nuits",
     days: "Jours",
     tour: {
+      itinerarytitle: "Votre journée d’aventure",
+      itinararysubtitle:
+        "Chaque moment est soigneusement conçu pour maximiser votre expérience et créer des souvenirs inoubliables",
+
       ctaTitle: "Prêt pour l’aventure ?",
       ctaSubtitle:
         "Réservez maintenant et assurez votre place pour une expérience inoubliable",
@@ -485,6 +505,8 @@ export const fr = {
     meetTeam: "Rencontrez Notre Équipe",
     meetTeamSubtitle:
       "Les personnes passionnées qui réalisent vos rêves de voyage.",
+    readmore: "En Savoir Plus",
+    showless: "Afficher Moins",
     reviews: [
       {
         name: "Derek Parker",
@@ -602,7 +624,7 @@ export const fr = {
         "Explorez Srinagar, Sonamarg, Gulmarg et Pahalgam avec jardins moghols, séjour en bateau-maison et paysages himalayens époustouflants.",
       duration: "5 Nuits / 6 Jours",
     },
-    "leh-turtuk-pangong-tour": {
+    "ladakh-tour": {
       title: "Leh, Turtuk & Pangong",
       description:
         "Vivez le col Khardung La, vallée de Nubra, lac Pangong et village de Turtuk dans cette aventure himalayenne en haute altitude.",
@@ -1313,7 +1335,7 @@ export const fr = {
         type: "day-trip",
         hero: {
           title:
-            "Excursion d'une journée à Gokarna et Murdeshwar au départ de Goa pour les étrangers",
+            "Excursion d'une journée à Gokarna et Murdeshwar au départ de Goa ",
           subtitle: "Découvrez les plages et les temples en une journée",
           backgroundImage: "/assets/hero/Gokarna-hero.webp",
           meta: {
@@ -1667,8 +1689,7 @@ export const fr = {
         slug: "Mumbai-day-trip-package",
         type: "day-trip",
         hero: {
-          title:
-            "Excursion d'une journée à Mumbai au départ de Goa pour les voyageurs étrangers",
+          title: "Excursion d'une journée à Mumbai au départ de Goa ",
           subtitle:
             "Excursion d'une journée complète de Goa à Mumbai comprenant le billet d'avion, la Porte de l'Inde, le palais du Taj Mahal et un guide anglophone",
           backgroundImage: "/assets/hero/mumbai-hero.webp",
@@ -3712,7 +3733,7 @@ export const fr = {
         },
       ],
     },
-    "andaman-islands-trip": {
+    "andaman-islands-tour": {
       file_name: "andaman-tour-for-goa.html",
       page: {
         slug: "andaman-nicobar-tour-for-goa",
@@ -5946,7 +5967,7 @@ export const fr = {
         },
       ],
     },
-    "kashmir-tour": {
+    "exotic-kashmir-tour": {
       file_name: "Kashmir-5N6D-Trip.html",
       page: {
         slug: "Kashmir-5N6D-Trip",
@@ -6106,7 +6127,7 @@ export const fr = {
         slug: "Kerala-5N6D-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Forfait voyage Kerala 5N6D |Centre touristique mondial",
+          title: "Forfait voyage Kerala 5N6D ",
           subtitle:
             "Découvrez la beauté sereine du Kerala avec ce voyage de 5 nuits et 6 jours à travers Cochin, Munnar, Thekkady et Alleppey",
           backgroundImage: "/assets/hero/Kerala-hero.webp",
@@ -6412,7 +6433,7 @@ export const fr = {
         slug: "Lakshadweep-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Forfait voyage Lakshadweep 3N4D |Centre touristique mondial",
+          title: "Forfait voyage Lakshadweep 3N4D ",
           subtitle:
             "Découvrez la beauté immaculée des îles coralliennes de l'Inde avec notre forfait 3 nuits 4 jours",
           backgroundImage: "/assets/hero/Lakshadweep-hero.webp",
@@ -6949,8 +6970,7 @@ export const fr = {
         slug: "North-India-Trip",
         type: "domestic-trip",
         hero: {
-          title:
-            "Forfait voyage de 10 jours en Inde du Nord |Centre touristique mondial",
+          title: "Forfait voyage de 10 jours en Inde du Nord ",
           subtitle: "",
           backgroundImage: "/assets/hero/North-india-hero.webp",
           meta: {
@@ -7127,7 +7147,7 @@ export const fr = {
         type: "domestic-trip",
         hero: {
           title:
-            "Forfait voyage au Rajasthan – Expérience de 7 jours au Royal Rajasthan |Centre touristique mondial",
+            "Forfait voyage au Rajasthan – Expérience de 7 jours au Royal Rajasthan ",
           subtitle:
             "Découvrez les majestueux forts, palais et culture du Rajasthan en 7 jours",
           backgroundImage: "/assets/hero/Rajasthan-hero.webp",
@@ -7284,7 +7304,7 @@ export const fr = {
         type: "domestic-trip",
         hero: {
           title:
-            "Forfait voyage Shimoga au départ de Goa – Évasion nature 1N/2D |Centre touristique mondial",
+            "Forfait voyage Shimoga au départ de Goa – Évasion nature 1N/2D ",
           subtitle: "",
           backgroundImage: "/assets/hero/Shimoga-hero.webp",
           meta: {
@@ -7633,8 +7653,7 @@ export const fr = {
         slug: "Tamil-Nadu-trip",
         type: "domestic-trip",
         hero: {
-          title:
-            "Forfait voyage de 7 jours au Tamil Nadu |centre touristique mondial",
+          title: "Forfait voyage de 7 jours au Tamil Nadu ",
           subtitle:
             "Découvrez le riche patrimoine, les temples et la beauté naturelle du Tamil Nadu lors de cette exploration de 7 jours",
           backgroundImage: "/assets/hero/tamil-nadu-hero.webp",

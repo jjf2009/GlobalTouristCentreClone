@@ -1,4 +1,20 @@
 export const it = {
+  filters: {
+    domestic: {
+      all: "Tutti",
+      north: "India del Nord",
+      south: "India del Sud",
+      east: "India Orientale e Nord-Orientale",
+      west: "India Occidentale",
+      island: "Isole",
+    },
+    international: {
+      all: "Tutti",
+      asia: "Asia",
+      europe: "Europa",
+      "southeast-asia": "Sud-Est Asiatico",
+    },
+  },
   // Navigation
   nav: {
     home: "Home",
@@ -146,7 +162,7 @@ export const it = {
         description:
           "Immergiti nella devozione dei luoghi di nascita del Signore Krishna.",
       },
-      "andaman-islands-trip": {
+      "andaman-islands-tour": {
         title: "Isole Andamane",
         duration: "5 notti / 6 giorni",
         description:
@@ -293,6 +309,10 @@ export const it = {
     nights: "Notti",
     days: "Giorni",
     tour: {
+      itinerarytitle: "La tua giornata di avventura",
+      itinararysubtitle:
+        "Ogni momento è studiato con cura per massimizzare la tua esperienza e creare ricordi indimenticabili",
+
       ctaTitle: "Pronto per la tua avventura?",
       ctaSubtitle: "Prenota ora e assicurati un’esperienza indimenticabile",
       inclusionsTitle: "Cosa è incluso",
@@ -482,6 +502,8 @@ export const it = {
     meetTeam: "Incontra il Nostro Team",
     meetTeamSubtitle:
       "Le persone appassionate che realizzano i tuoi sogni di viaggio.",
+    readmore: "Leggi di Più",
+    showless: "Mostra Meno",
     reviews: [
       {
         name: "Derek Parker",
@@ -597,7 +619,7 @@ export const it = {
         "Esplora Srinagar, Sonamarg, Gulmarg e Pahalgam con giardini moghul, soggiorno in houseboat e paesaggi himalayani mozzafiato.",
       duration: "5 Notti / 6 Giorni",
     },
-    "leh-turtuk-pangong-tour": {
+    "ladakh-tour": {
       title: "Leh, Turtuk & Pangong",
       description:
         "Vivi il passo Khardung La, valle Nubra, lago Pangong e villaggio Turtuk in questa avventura himalayana in alta quota.",
@@ -1303,8 +1325,7 @@ export const it = {
         slug: "Gokarna-Murdeshwar-one-day-trip-package",
         type: "day-trip",
         hero: {
-          title:
-            "Viaggio di un giorno a Gokarna e Murdeshwar da Goa per stranieri",
+          title: "Viaggio di un giorno a Gokarna e Murdeshwar da Goa",
           subtitle: "Scopri spiagge, templi in un giorno",
           backgroundImage: "/assets/hero/Gokarna-hero.webp",
           meta: {
@@ -1658,7 +1679,7 @@ export const it = {
         slug: "Mumbai-day-trip-package",
         type: "day-trip",
         hero: {
-          title: "Gita di un giorno a Mumbai da Goa per viaggiatori stranieri",
+          title: "Gita di un giorno a Mumbai da Goa ",
           subtitle:
             "Tour di un'intera giornata da Goa a Mumbai incluso biglietto aereo, Porta dell'India, Palazzo Taj Mahal e guida in lingua inglese",
           backgroundImage: "/assets/hero/mumbai-hero.webp",
@@ -3731,7 +3752,7 @@ export const it = {
         },
       ],
     },
-    "andaman-islands-trip": {
+    "andaman-islands-tour": {
       file_name: "andaman-tour-for-goa.html",
       page: {
         slug: "andaman-nicobar-tour-for-goa",
@@ -5960,7 +5981,7 @@ export const it = {
         },
       ],
     },
-    "kashmir-tour": {
+    "exotic-kashmir-tour": {
       file_name: "Kashmir-5N6D-Trip.html",
       page: {
         slug: "Kashmir-5N6D-Trip",
@@ -6120,7 +6141,7 @@ export const it = {
         slug: "Kerala-5N6D-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Pacchetto viaggio Kerala 5N6D |Centro turistico globale",
+          title: "Pacchetto viaggio Kerala 5N6D ",
           subtitle:
             "Scopri la serena bellezza del Kerala con questo viaggio di 5 notti e 6 giorni attraverso Cochin, Munnar, Thekkady e Alleppey",
           backgroundImage: "/assets/hero/Kerala-hero.webp",
@@ -6427,7 +6448,7 @@ export const it = {
         slug: "Lakshadweep-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Pacchetto viaggio Lakshadweep 3N4D |Centro turistico globale",
+          title: "Pacchetto viaggio Lakshadweep 3N4D ",
           subtitle:
             "Scopri la bellezza incontaminata delle isole coralline dell'India con il nostro pacchetto 3 notti 4 giorni",
           backgroundImage: "/assets/hero/Lakshadweep-hero.webp",
@@ -6966,8 +6987,7 @@ export const it = {
         slug: "North-India-Trip",
         type: "domestic-trip",
         hero: {
-          title:
-            "Pacchetto viaggio di 10 giorni nell'India del Nord |Centro turistico globale",
+          title: "Pacchetto viaggio di 10 giorni nell'India del Nord ",
           subtitle: "",
           backgroundImage: "/assets/hero/North-india-hero.webp",
           meta: {
@@ -7144,7 +7164,7 @@ export const it = {
         type: "domestic-trip",
         hero: {
           title:
-            "Pacchetto viaggio in Rajasthan - Esperienza nel Rajasthan reale di 7 giorni |Centro turistico globale",
+            "Pacchetto viaggio in Rajasthan - Esperienza nel Rajasthan reale di 7 giorni ",
           subtitle:
             "Scopri i maestosi forti, i palazzi e la cultura del Rajasthan in 7 giorni",
           backgroundImage: "/assets/hero/Rajasthan-hero.webp",
@@ -7300,8 +7320,7 @@ export const it = {
         slug: "Shimoga-trip-package",
         type: "domestic-trip",
         hero: {
-          title:
-            "Pacchetto viaggio Shimoga da Goa – Fuga nella natura 1N/2D |Centro turistico globale",
+          title: "Pacchetto viaggio Shimoga da Goa – Fuga nella natura 1N/2D ",
           subtitle: "",
           backgroundImage: "/assets/hero/Shimoga-hero.webp",
           meta: {
@@ -7648,8 +7667,7 @@ export const it = {
         slug: "Tamil-Nadu-trip",
         type: "domestic-trip",
         hero: {
-          title:
-            "Pacchetto viaggio di 7 giorni nel Tamil Nadu |centro turistico globale",
+          title: "Pacchetto viaggio di 7 giorni nel Tamil Nadu ",
           subtitle:
             "Scopri il ricco patrimonio, i templi e le bellezze naturali del Tamil Nadu in questa esplorazione di 7 giorni",
           backgroundImage: "/assets/hero/tamil-nadu-hero.webp",

@@ -1,5 +1,21 @@
 export const ru = {
   // Navigation
+  filters: {
+    domestic: {
+      all: "Все",
+      north: "Северная Индия",
+      south: "Южная Индия",
+      east: "Восточная и Северо-Восточная Индия",
+      west: "Западная Индия",
+      island: "Острова",
+    },
+    international: {
+      all: "Все",
+      asia: "Азия",
+      europe: "Европа",
+      "southeast-asia": "Юго-Восточная Азия",
+    },
+  },
   nav: {
     home: "Главная",
     destinations: "Направления",
@@ -146,7 +162,7 @@ export const ru = {
         description:
           "Окунитесь в духовную атмосферу мест рождения Господа Кришны.",
       },
-      "andaman-islands-trip": {
+      "andaman-islands-tour": {
         title: "Андаманские острова",
         duration: "5 ночей / 6 дней",
         description:
@@ -264,6 +280,8 @@ export const ru = {
     nights: "Ночей",
     days: "Дней",
     tour: {
+      itinerarytitle: "Ваш день приключений",
+      itinararysubtitle: "Каждый момент тщательно продуман, чтобы максимально раскрыть ваши впечатления и создать незабываемые воспоминания",
       ctaTitle: "Готовы к приключению?",
       ctaSubtitle:
         "Забронируйте сейчас и обеспечьте себе незабываемые впечатления",
@@ -487,6 +505,8 @@ export const ru = {
     meetTeam: "Наша Команда",
     meetTeamSubtitle:
       "Увлечённые люди, которые воплощают ваши мечты о путешествиях.",
+    readmore: "Читать далее",
+    showless: "Показать меньше",
     reviews: [
       {
         name: "Дерек Паркер",
@@ -603,7 +623,7 @@ export const ru = {
         "Исследуйте Шринагар, Сонмарг, Гулмарг и Пахалгам с могольскими садами, проживанием на лодке-доме и захватывающими видами Гималаев.",
       duration: "5 Ночей / 6 Дней",
     },
-    "leh-turtuk-pangong-tour": {
+    "ladakh-tour": {
       title: "Лех, Туртук и Пангонг",
       description:
         "Пройдите перевал Кардунг-Ла, Долину Нубра, озеро Пангонг и деревню Туртук в этом высокогорном гималайском приключении.",
@@ -1305,7 +1325,7 @@ export const ru = {
         type: "day-trip",
         hero: {
           title:
-            "Однодневная поездка в Гокарну и Мурдешвар из Гоа для иностранцев",
+            "Однодневная поездка в Гокарну и Мурдешвар из",
           subtitle: "Откройте для себя пляжи и храмы за один день",
           backgroundImage: "/assets/hero/Gokarna-hero.webp",
           meta: {
@@ -1659,7 +1679,7 @@ export const ru = {
         type: "day-trip",
         hero: {
           title:
-            "Однодневная поездка в Мумбаи из Гоа для иностранных путешественников",
+            "Однодневная экскурсия из Гоа в Мумбаи для иностранцев",
           subtitle:
             "Экскурсия на целый день из Гоа в Мумбаи, включая авиабилеты, Ворота Индии, дворец Тадж-Махал и англоговорящий гид.",
           backgroundImage: "/assets/hero/mumbai-hero.webp",
@@ -3676,7 +3696,7 @@ export const ru = {
         },
       ],
     },
-    "andaman-islands-trip": {
+    "andaman-islands-tour": {
       file_name: "andaman-tour-for-goa.html",
       page: {
         slug: "andaman-nicobar-tour-for-goa",
@@ -5923,7 +5943,7 @@ export const ru = {
         },
       ],
     },
-    "kashmir-tour": {
+    "exotic-kashmir-tour": {
       file_name: "Kashmir-5N6D-Trip.html",
       page: {
         slug: "Kashmir-5N6D-Trip",
@@ -6083,7 +6103,7 @@ export const ru = {
         slug: "Kerala-5N6D-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Турпакет 5N6D в Кералу |Глобальный туристический центр",
+          title: "Турпакет 5N6D в Кералу ",
           subtitle:
             "Испытайте безмятежную красоту Кералы в этом путешествии на 5 ночей и 6 дней через Кочин, Муннар, Теккади и Аллеппи.",
           backgroundImage: "/assets/hero/Kerala-hero.webp",
@@ -6390,7 +6410,7 @@ export const ru = {
         slug: "Lakshadweep-Trip",
         type: "domestic-trip",
         hero: {
-          title: "Турпакет 3N4D в Лакшадвип |Глобальный туристический центр",
+          title: "Турпакет 3N4D в Лакшадвип ",
           subtitle:
             "Откройте для себя первозданную красоту коралловых островов Индии с нашим пакетом услуг на 3 ночи и 4 дня.",
           backgroundImage: "/assets/hero/Lakshadweep-hero.webp",
@@ -6810,8 +6830,7 @@ export const ru = {
         slug: "North-India-Trip",
         type: "domestic-trip",
         hero: {
-          title:
-            "Пакет путевки в Северную Индию на 10 дней |Глобальный туристический центр",
+          title: "Пакет путевки в Северную Индию на 10 дней ",
           subtitle: "",
           backgroundImage: "/assets/hero/North-india-hero.webp",
           meta: {
@@ -6988,7 +7007,7 @@ export const ru = {
         type: "domestic-trip",
         hero: {
           title:
-            "Пакет тура в Раджастан – 7-дневный опыт королевского Раджастана |Глобальный туристический центр",
+            "Пакет тура в Раджастан – 7-дневный опыт королевского Раджастана",
           subtitle:
             "Откройте для себя величественные форты, дворцы и культуру Раджастана за 7 дней.",
           backgroundImage: "/assets/hero/Rajasthan-hero.webp",
@@ -7145,7 +7164,7 @@ export const ru = {
         type: "domestic-trip",
         hero: {
           title:
-            "Турпакет в Шимога из Гоа – 1N/2D Nature Escape |Глобальный туристический центр",
+            "Турпакет в Шимога из Гоа – 1N/2D Nature Escape ",
           subtitle: "",
           backgroundImage: "/assets/hero/Shimoga-hero.webp",
           meta: {
@@ -7489,8 +7508,7 @@ export const ru = {
         slug: "Tamil-Nadu-trip",
         type: "domestic-trip",
         hero: {
-          title:
-            "Пакет 7-дневной поездки в Тамил Наду |глобальный туристический центр",
+          title: "Пакет 7-дневной поездки в Тамил Наду ",
           subtitle:
             "Познакомьтесь с богатым наследием, храмами и природной красотой Тамил Наду в этом 7-дневном исследовании.",
           backgroundImage: "/assets/hero/tamil-nadu-hero.webp",
