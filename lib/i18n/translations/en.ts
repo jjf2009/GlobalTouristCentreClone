@@ -7640,7 +7640,7 @@ export const en = {
         type: "domestic-trip",
         hero: {
           title: "Hyderabad Tour Package – 1N/2D Heritage Trip | Golconda, Charminar, Salar Jung Museum",
-          herotitle:"1N/2D Hyderabad Heritage Tour"
+          herotitle:"1N/2D Hyderabad Heritage Tour",
           subtitle:
             "1 Night 2 Days exploring Hyderabad's heritage including Golconda Fort, Charminar, and Chowmahalla Palace",
           backgroundImage: "/assets/hero/Hyderabad-hero.webp",
