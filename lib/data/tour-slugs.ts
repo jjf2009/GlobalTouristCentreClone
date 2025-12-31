@@ -12,7 +12,7 @@ export const TOUR_CATEGORIES = {
     "goa-tour", // verified //prent in en.ts
     //"crocodile-sightseeing-trip", // temporarily removed (used in home)
     "yacht-day-tour", // verified
-    "grand-island-water-sports", // temporarily removed (used in home)
+    // "grand-island-water-sports", // temporarily removed (used in home)
     "gokarna-murdeshwar-trip", // verified
     "dandeli-elephant-safari",
     "netravali-day-trip", //verified
@@ -22,9 +22,9 @@ export const TOUR_CATEGORIES = {
   domestic: [
     "goa-serai-cabo-retreat", // verified
     "goa-tour", // verified //prent in en.ts
-    "mysore-ooty-tour", // temporarily removed (used in home)
+    // "mysore-ooty-tour", // temporarily removed (used in home)
     "aurangabad-heritage", // verified
-    "taj-mahal-tour", // temporarily removed (used in home)
+    // "taj-mahal-tour", // temporarily removed (used in home)
     "kerala-tour", // verified
     "2-days-dandeli-tour-package", // verified
     "amritsar-tour-package", // verified
@@ -38,14 +38,14 @@ export const TOUR_CATEGORIES = {
     "tamil-nadu-tour", //verified
     "exotic-kashmir-tour", // verified
     "sikkim-darjeeling-gangtok-tour", // verified
-    "mystic-meghalaya-tour",
+    // "mystic-meghalaya-tour",
     "lakshadweep-islands", // verified
     "andaman-islands-tour", // verified
-    "wondrous-wilderness",
+    // "wondrous-wilderness",
     "hampi-badami-tour-package", // verified
     "shimoga-nature-safari", // verified
     "ajanta-ellora-caves-tour", // verified
-    "ladakh-tour",
+    // "ladakh-tour",
     "varanasi-tour-package", // verified
     "bijapur-tour-package", // verified // not used anywhere
     "hyderabad-tour-package", // temporarily removed (used in html code) // verified
@@ -55,13 +55,13 @@ export const TOUR_CATEGORIES = {
   ],
 
   international: [
-    "maldives-luxury-tour",
+    // "maldives-luxury-tour",
     "sri-lanka-tour", // verified
     "bhutan-tour", // verified
     "bali-luxury-getaway", // verified
     "wonders-of-vietnam", // verified
     "best-of-vietnam", // temporarily removed (used in destination.ts) // verified
-    "beautiful-nepal",
+    // "beautiful-nepal",
     "nepal-muktinath-special", // verified
     "classic-singapore-malaysia", // verified
     "thailand-bangkok-pattaya-tour", //verified
