@@ -150,14 +150,6 @@ export const domesticTrips: Destination[] = [
 
   /* ===== MERGED SHORT STAYS & MULTI-DAY ===== */
 
-  {
-    id: "dom-goa-serai-018",
-    slug: "goa-serai-cabo-retreat",
-    rating: 4.8,
-    imageQuery: "/destinations/Thumbnails/SeraiCabo.webp",
-    category: "domestic",
-    zone: "south",
-  },
   // {
   //   id: "dom-hampi-badami-019",
   //   slug: "hampi-badami-tour",
@@ -174,14 +166,14 @@ export const domesticTrips: Destination[] = [
   //   category: "domestic",
   //   zone: "south",
   // },
-  {
-    id: "dom-mumbai-021",
-    slug: "mumbai-day-trip",
-    rating: 4.6,
-    imageQuery: "/destinations/Thumbnails/Mumbai.webp",
-    category: "domestic",
-    zone: "west",
-  },
+  // {
+  //   id: "dom-mumbai-021",
+  //   slug: "mumbai-day-trip",
+  //   rating: 4.6,
+  //   imageQuery: "/destinations/Thumbnails/Mumbai.webp",
+  //   category: "domestic",
+  //   zone: "west",
+  // },
   {
     id: "dom-ellora-ajanta-022",
     slug: "ajanta-ellora-caves-tour",
@@ -206,14 +198,6 @@ export const domesticTrips: Destination[] = [
   //   category: "domestic",
   //   zone: "south",
   // },
-  {
-    id: "dom-golden-triangle-multiday-025",
-    slug: "4D-golden-triangle-tour",
-    rating: 4.7,
-    imageQuery: "/destinations/Thumbnails/GoldenTriangle.webp",
-    category: "domestic",
-    zone: "north",
-  },
   {
     id: "dom-udaipur-jodhpur-026",
     slug: "jodhpur-udaipur-tour",
@@ -307,14 +291,14 @@ export const internationalTrips: Destination[] = [
     category: "international",
     zone: "asia",
   },
-  {
-    id: "int-nepal-004",
-    slug: "beautiful-nepal",
-    rating: 4.6,
-    imageQuery: "/destinations/Thumbnails/Nepal.webp",
-    category: "international",
-    zone: "asia",
-  },
+  // {
+  //   id: "int-nepal-004",
+  //   slug: "beautiful-nepal",
+  //   rating: 4.6,
+  //   imageQuery: "/destinations/Thumbnails/Nepal.webp",
+  //   category: "international",
+  //   zone: "asia",
+  // },
   {
     id: "int-nepal-005",
     slug: "nepal-muktinath-special",
@@ -437,14 +421,14 @@ export const internationalTrips: Destination[] = [
   },
 
   /* ===== MERGED FROM itinerary list ===== */
-  {
-    id: "int-maldives-022",
-    slug: "maldives-luxury-tour",
-    rating: 4.9,
-    imageQuery: "/destinations/Thumbnails/Maldives.webp",
-    category: "international",
-    zone: "asia",
-  },
+  // {
+  //   id: "int-maldives-022",
+  //   slug: "maldives-luxury-tour",
+  //   rating: 4.9,
+  //   imageQuery: "/destinations/Thumbnails/Maldives.webp",
+  //   category: "international",
+  //   zone: "asia",
+  // },
   {
     id: "int-srilanka-023",
     slug: "sri-lanka-tour",
@@ -531,11 +515,11 @@ export const dayTrips: Destination[] = [
     imageQuery: "/destinations/Thumbnails/Yacht.webp",
     category: "day-trips",
   },
-  {
-    id: "day-grand-island-014",
-    slug: "grand-island-water-sports",
-    rating: 4.7,
-    imageQuery: "/destinations/Thumbnails/GrandIsland.webp",
-    category: "day-trips",
-  },
+  // {
+  //   id: "day-grand-island-014",
+  //   slug: "grand-island-water-sports",
+  //   rating: 4.7,
+  //   imageQuery: "/destinations/Thumbnails/GrandIsland.webp",
+  //   category: "day-trips",
+  // },
 ];

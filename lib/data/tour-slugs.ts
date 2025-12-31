@@ -60,7 +60,7 @@ export const TOUR_CATEGORIES = {
     "bhutan-tour", // verified
     "bali-luxury-getaway", // verified
     "wonders-of-vietnam", // verified
-    // "best-of-vietnam", // temporarily removed (used in destination.ts) // verified
+    "best-of-vietnam", // temporarily removed (used in destination.ts) // verified
     "beautiful-nepal",
     "nepal-muktinath-special", // verified
     "classic-singapore-malaysia", // verified

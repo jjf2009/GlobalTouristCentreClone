@@ -91,7 +91,7 @@ export const galleryData: Record<string, any> = {
       {
         title: "Calangute Beach",
         description: "Queen of Beaches",
-        image: "/assets/destinations/Goa/Calangute-Beach.webp",
+        image: "/assets/destinations/Goa/calangute-beach.webp",
       },
       {
         title: "Aguada Fort",
@@ -1797,4 +1797,33 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
+  "hyderabad-tour-package": {
+          gallery: [
+        {
+          title: "Munnar Tea Gardens",
+          description: "Rolling hills of green",
+          image: "/assets/destinations/Kerala/Munnar Tea Gardens.webp",
+        },
+        {
+          title: "Alleppey Backwaters",
+          description: "Serene houseboat experience",
+          image: "/assets/destinations/Kerala/Alleppey Backwaters.webp",
+        },
+        {
+          title: "Periyar Wildlife Sanctuary",
+          description: "Boat ride in the sanctuary",
+          image: "/assets/destinations/Kerala/Periyar Wildlife.webp",
+        },
+        {
+          title: "Cochin Fishing Nets",
+          description: "Iconic Chinese fishing nets",
+          image: "/assets/destinations/Kerala/Cochin Fishing Nets.webp",
+        },
+        {
+          title: "Kerala Backwaters",
+          description: "Tranquil waterways",
+          image: "/assets/destinations/Kerala/Kerala Backwaters.webp",
+        },
+      ]
+}
 };

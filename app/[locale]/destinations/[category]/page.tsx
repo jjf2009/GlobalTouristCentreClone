@@ -77,7 +77,7 @@ function getHeroContent(
 
     case "day-trips":
       return {
-        heroTitle: t.destinations.dayTripsHero,
+        heroTitle: t.destinations.dayhero,
       };
 
     default:

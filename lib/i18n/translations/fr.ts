@@ -4017,7 +4017,7 @@ export const fr = {
           title: "Évasion de luxe à Cabo Serai : escapade Goa 2N/3D",
           subtitle:
             "Découvrez le secret le mieux gardé de Goa : des cottages de luxe avec une vue imprenable sur la mer d'Oman",
-          backgroundImage: "../../assets/hero/Cabo-hero.webp",
+          backgroundImage: "/assets/hero/Cabo-hero.webp",
           meta: {
             duration: "2 Nuits / 3 Jours",
             rating: "5.0/5 Rating",

@@ -1,3 +1,6 @@
+import { Description } from "@radix-ui/react-dialog";
+import { describe } from "node:test";
+
 export const en = {
   // Navigation
   // translations/en.ts
@@ -311,8 +314,9 @@ export const en = {
     nights: "Nights",
     days: "Days",
     tour: {
-      itinerarytitle:"Your Day of Adventure",
-      itinararysubtitle:" Every moment carefully crafted to maximize your experience and create lasting memories",
+      itinerarytitle: "Your Day of Adventure",
+      itinararysubtitle:
+        " Every moment carefully crafted to maximize your experience and create lasting memories",
       ctaTitle: "Ready for Your Adventure?",
       ctaSubtitle:
         "Book now and secure your spot for an unforgettable experience",
@@ -2824,7 +2828,7 @@ export const en = {
         slug: "ajanta-ellora-tour",
         type: "domestic-trip",
         hero: {
-          title: "Ajanta & Ellora Tour",
+          title: "2D/1N Ajanta Ellora Tour Package from Goa | Flights & Guide",
           subtitle:
             "1 Night 2 Days exploring UNESCO World Heritage Sites Ajanta & Ellora Caves from Goa",
           backgroundImage: "/assets/hero/Ajanta-hero.webp",
@@ -3046,7 +3050,8 @@ export const en = {
         slug: "amritsar-tour-package-2n3d",
         type: "domestic-trip",
         hero: {
-          title: "Amritsar Trip (2 Nights 3 Days)",
+          title:
+            "3D/2N Amritsar Tour Package – Golden Temple & Wagah Border Trip",
           subtitle:
             "2 Nights 3 Days exploring Golden Temple, Wagah Border, Jallianwala Bagh, and Amritsar's cultural heritage",
           backgroundImage: "/assets/hero/Amritsar-hero.webp",
@@ -3499,7 +3504,7 @@ export const en = {
           title: "Cabo Serai Luxury Escape: Goa 2N/3D Getaway",
           subtitle:
             "Experience Goa's best kept secret - luxury cottages with breathtaking Arabian Sea views",
-          backgroundImage: "../../assets/hero/Cabo-hero.webp",
+          backgroundImage: "/assets/hero/Cabo-hero.webp",
           meta: {
             duration: "2 Nights / 3 Days",
             rating: "5.0/5 Rating",
@@ -4017,13 +4022,16 @@ export const en = {
         slug: "2-days-dandeli-tour-package",
         type: "domestic-trip",
         hero: {
-          title: "Elephant & Tiger Safari – Dandeli",
+          title:
+            "Dandeli Tour Package – Elephant & Tiger Safari 2D/1N from Goa",
+            herotitle:"Dandeli Tour Package with Elephant & Tiger Safari",
           subtitle:
             "1 Night 2 Days exploring Dandeli Wildlife Sanctuary with elephant interaction and tiger safari",
           backgroundImage: "/assets/hero/Dandeli-hero.webp",
           meta: {
             duration: "2 Days",
             rating: "4.6/5 Rating",
+            description:"Experience a 2D/1N Dandeli tour package with elephant interaction, tiger safari, nature walks, Syntheri Rocks, meals, transport & stay. Perfect wildlife getaway from Goa."
           },
         },
         language: "en",
@@ -5079,13 +5087,15 @@ export const en = {
         slug: "4D-golden-triangle-tour-3N4D",
         type: "domestic-trip",
         hero: {
-          title: "Golden Triangle Trip 3N4D",
+          title: "4D/3N Golden Triangle Tour Package – Delhi Agra Jaipur Trip",
+          herotitle:"Golden Triangle Express Getaway",
           subtitle:
             "3 Nights 4 Days exploring Delhi, Agra, and Jaipur with guided tours and cultural experiences",
           backgroundImage: "/assets/hero/Golden-Triangle-hero.webp",
           meta: {
             duration: "4 Days",
             rating: "4.8/5 Rating",
+            description:"Experience India’s iconic Golden Triangle with our 4D/3N tour package covering Delhi, Agra & Jaipur. Includes sightseeing, hotels, transfers & guided tours."
           },
         },
         language: "en",
@@ -5321,7 +5331,8 @@ export const en = {
         slug: "Hampi-1N-2D-Trip-Package",
         type: "domestic-trip",
         hero: {
-          title: "Hampi 1N/2D Tour Package from Goa with Stay & Sightseeing",
+          title: " Hampi & Badami Tour Package – 2 Days Heritage Trip from Goa",
+          herotitle:"2D/1N Hampi & Badami Heritage Tour",
           subtitle:
             "Discover the UNESCO World Heritage Site of Hampi with its ancient ruins and stunning landscapes",
           backgroundImage: "/assets/hero/Hampi-hero.webp",
@@ -5329,6 +5340,7 @@ export const en = {
             duration: "2 Days",
             locations: 15,
             rating: "4.8/5 Rating",
+            description:"Explore Karnataka’s heritage with our 2D/1N Hampi & Badami tour package from Goa. Includes hotel, breakfast, guides, cave temples, Stone Chariot & sightseeing"
           },
         },
         language: "en",
@@ -7372,13 +7384,18 @@ export const en = {
         slug: "bijapur-tour-package",
         type: "domestic-trip",
         hero: {
-          title: "Bijapur, Pattadakal & Aihole Tour",
+          title:
+            "2D/1N Bijapur Tour Package from Goa | Aihole & Pattadakal Trip",
+          herotitle: "Bijapur, Pattadakal & Aihole Tour",
           subtitle:
             "1 Night 2 Days exploring historical Bijapur, UNESCO World Heritage Site Pattadakal, and ancient Aihole temples",
           backgroundImage: "/assets/hero/Bijapur-hero.webp",
+
           meta: {
             duration: "2 Days",
             rating: "4.5/5 Rating",
+            description:
+              "Explore Gol Gumbaz, Aihole & Pattadakal with our 2D/1N Bijapur tour package from Goa. Includes hotel stay, guide, taxi & sightseeing for a perfect heritage getaway",
           },
         },
         language: "en",
@@ -7604,13 +7621,15 @@ export const en = {
         slug: "Hyderabad-Trip-1N2D",
         type: "domestic-trip",
         hero: {
-          title: "Hyderabad Trip 1N2D",
+          title: "Hyderabad Tour Package – 1N/2D Heritage Trip | Golconda, Charminar, Salar Jung Museum",
+          herotitle:"1N/2D Hyderabad Heritage Tour"
           subtitle:
             "1 Night 2 Days exploring Hyderabad's heritage including Golconda Fort, Charminar, and Chowmahalla Palace",
           backgroundImage: "/assets/hero/Hyderabad-hero.webp",
           meta: {
             duration: "2 Days",
             rating: "4.6/5 Rating",
+            description:" Book a 1N/2D Hyderabad tour package covering Golconda Fort,Charminar, Chowmahalla Palace, Salar Jung Museum, Hussain Sagar Lake & more"
           },
         },
         language: "en",
@@ -9262,8 +9281,7 @@ export const en = {
         slug: "Shimoga-trip-package",
         type: "domestic-trip",
         hero: {
-          title:
-            "Shimoga Trip Package from Goa – 1N/2D Nature Escape ",
+          title: "Shimoga Trip Package from Goa – 1N/2D Nature Escape ",
           subtitle: "",
           backgroundImage: "/assets/hero/Shimoga-hero.webp",
           meta: {

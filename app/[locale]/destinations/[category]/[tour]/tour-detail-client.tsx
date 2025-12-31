@@ -35,6 +35,10 @@ export default function TourClient({ tourId }: TourClientProps) {
       </main>
     );
   }
+  function toTitleCase(str: string) {
+    return str.replace(/\b\w/g, (c) => c.toUpperCase());
+  }
+
 
   const { page, cta, quickInfo, itinerary, inclusions,gallery } = data;
 
@@ -44,7 +48,7 @@ export default function TourClient({ tourId }: TourClientProps) {
           HERO
       ======================================================= */}
       <DetailedTourHero
-        title={page.hero.title}
+        title={page.hero.herotitle ?? page.hero.title}
         subtitle={page.hero.subtitle}
         backgroundImage={page.hero.backgroundImage}
         meta={meta}
@@ -54,7 +58,7 @@ export default function TourClient({ tourId }: TourClientProps) {
           CTA BAR
       ======================================================= */}
       <TourCtaBar
-        tourName={page.hero.title}
+        tourName={toTitleCase(tourId.replace(/-/g, " "))}
         phoneNumber={cta?.contact?.phone}
       />
 
@@ -71,7 +75,9 @@ export default function TourClient({ tourId }: TourClientProps) {
       {/* ======================================================
           GALLERY
       ======================================================= */}
-      {gallery?.length > 0 && <TourVisualJourney items={gallerydata} gallery={gallery} />}
+      {gallery?.length > 0 && (
+        <TourVisualJourney items={gallerydata} gallery={gallery} />
+      )}
 
       {/* ======================================================
           INCLUSIONS

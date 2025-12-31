@@ -4017,7 +4017,7 @@ export const de = {
           title: "Cabo Serai Luxury Escape: Goa 2N/3D Kurzurlaub",
           subtitle:
             "Erleben Sie Goas bestgehütetes Geheimnis – luxuriöse Cottages mit atemberaubendem Blick auf das Arabische Meer",
-          backgroundImage: "../../assets/hero/Cabo-hero.webp",
+          backgroundImage: "/assets/hero/Cabo-hero.webp",
           meta: {
             duration: "2 Nächte / 3 Tage",
             rating: "5.0/5 Rating",

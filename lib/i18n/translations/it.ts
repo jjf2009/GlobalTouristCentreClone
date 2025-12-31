@@ -4037,7 +4037,7 @@ export const it = {
           title: "Fuga di lusso a Cabo Serai: fuga a Goa 2N/3D",
           subtitle:
             "Scopri il segreto meglio custodito di Goa: cottage di lusso con vista mozzafiato sul Mar Arabico",
-          backgroundImage: "../../assets/hero/Cabo-hero.webp",
+          backgroundImage: "/assets/hero/Cabo-hero.webp",
           meta: {
             duration: "2 Notti / 3 Giorni",
             rating: "5.0/5 Rating",
