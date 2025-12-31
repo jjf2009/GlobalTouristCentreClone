@@ -1217,7 +1217,8 @@ export const en = {
         slug: "One-Day-South-Goa-trip-package",
         type: "day-trip",
         hero: {
-          title: "South Goa One-Day Tour for Foreign Travelers in India",
+          title: "South Goa Full Day Tour Package – Cultural Sightseeing Trip",
+          herotitle:"South Goa Cultural Day Tour",
           subtitle:
             "Experience the pristine beaches and hidden gems of South Goa in one unforgettable day",
           backgroundImage: "/assets/hero/Goa-1-hero.webp",
@@ -1225,6 +1226,7 @@ export const en = {
             duration: "1 Day",
             locations: 6,
             rating: "4.9/5 Rating",
+            description:"Book the South Goa Full Day Tour Package with temples, Old Goa churches, Miramar Beach, Dona Paula viewpoint & Panjim market."
           },
         },
         language: "en",
@@ -1396,13 +1398,15 @@ export const en = {
         slug: "North-Goa-English-tour",
         type: "day-trip",
         hero: {
-          title: "North Goa – Portuguese Goa",
+          title: "North Goa Day Tour Package – Beaches, Forts & Churches",
+          herotitle:"Explore the Best of North Goa in 1 Days",
           subtitle:
             "Full Day tour exploring North Goa's beaches, forts, and Portuguese heritage",
-          backgroundImage: "../../assets/hero/Goa-1-hero.jpg",
+          backgroundImage: "/assets/hero/Goa-1-hero.jpg",
           meta: {
             duration: "Full Day",
             rating: "4.8/5 Rating",
+            description:"Book a North Goa tour package covering Calangute, Baga, Anjuna, Aguada Fort, churches & flea markets with breakfast, transport & guide included."
           },
         },
         language: "en",
@@ -2829,12 +2833,14 @@ export const en = {
         type: "domestic-trip",
         hero: {
           title: "2D/1N Ajanta Ellora Tour Package from Goa | Flights & Guide",
+          herotitle:": Ajanta Ellora Tour",
           subtitle:
             "1 Night 2 Days exploring UNESCO World Heritage Sites Ajanta & Ellora Caves from Goa",
           backgroundImage: "/assets/hero/Ajanta-hero.webp",
           meta: {
             duration: "2 Days",
             rating: "4.8/5 Rating",
+            description:"Book a 2D/1N Ajanta Ellora tour from Goa with flights, 3-star stay, breakfast, entrance tickets, guide & sightseeing to Bibi Ka Maqbara, Ajanta & Ellora Caves",
           },
         },
         language: "en",
@@ -3052,12 +3058,14 @@ export const en = {
         hero: {
           title:
             "3D/2N Amritsar Tour Package – Golden Temple & Wagah Border Trip",
+            herotitle: "Amritsar Tour",
           subtitle:
             "2 Nights 3 Days exploring Golden Temple, Wagah Border, Jallianwala Bagh, and Amritsar's cultural heritage",
           backgroundImage: "/assets/hero/Amritsar-hero.webp",
           meta: {
             duration: "3 Days",
             rating: "4.7/5 Rating",
+            description:"Experience Amritsar with our 3D/2N tour package—Golden Temple, Jallianwala Bagh, Partition Museum, Wagah Border ceremony & city sightseeing."
           },
         },
         language: "en",
@@ -5734,13 +5742,15 @@ export const en = {
         slug: "jodhpur-udaipur-tour-package",
         type: "domestic-trip",
         hero: {
-          title: "Jodhpur & Udaipur (4 Nights – 5 Days)",
+          title: "Jodhpur & Udaipur Tour Package – 4N/5D Rajasthan Trip",
+          herotitle:"Royal Rajasthan: Jodhpur & Udaipur Escapey",
           subtitle:
             "4 nights and 5 days exploring Jodhpur and Udaipur with guided tours and rich cultural experiences",
           backgroundImage: "/assets/hero/Jodhpur-Udaipur-hero.webp",
           meta: {
             duration: "5 Days",
             rating: "4.7/5 Rating",
+            description:"Experience Rajasthan with our 4N/5D Jodhpur & Udaipur tour package. Explore forts, palaces, lakes and heritage sites with hotels, transfers and guided sightseeing.",
           },
         },
         language: "en",
@@ -6456,11 +6466,17 @@ export const en = {
         slug: "yacht-day-tour",
         type: "",
         hero: {
-          title: 'Luxury Yacht Tour – "From Sunset to Dinner"',
+          title: '3D/2N Yacht Day Tour Package – Luxury Sunset Cruise Goa"',
+          herotitle:"Luxury Yacht Tour: Sunset to Dinner Experience",
           subtitle:
-            "An exclusive 6-hour premium experience with infinity pool, live DJ, gourmet dining, and sunset views",
+            "An exclusive 3D/2N premium experience with infinity pool, live DJ, gourmet dining, and sunset views",
           backgroundImage: "/assets/hero/Luxury-Yacht-Goa-hero.webp",
-          meta: {},
+          meta: {
+            duration: "6 Hours",
+            rating: "4.9/5 Rating", 
+            description:"Experience a premium 3D/2N Yacht Day Tour Package with sunset cruise, infinity pool, live DJ, gourmet dinner, and hotel transfers."
+
+          },
         },
         language: "en",
       },
@@ -6632,13 +6648,15 @@ export const en = {
         slug: "Mumbai-day-trip-package",
         type: "day-trip",
         hero: {
-          title: "Mumbai Day Trip from Goa ",
+          title: "Mumbai Day Tour Package – Full-Day City Sightseeing ",
+          herotitle: "Mumbai in a Day: Complete City Tour Experience",
           subtitle:
             "Full Day tour from Goa to Mumbai including airfare, Gateway of India, Taj Mahal Palace, and English-speaking guide",
           backgroundImage: "/assets/hero/mumbai-hero.webp",
           meta: {
             duration: "Full Day",
             rating: "4.7/5 Rating",
+            description:"Book a Mumbai Day Tour Package from Goa featuring flights, breakfast, Taj Tea, guided sightseeing, Dharavi tour, markets & iconic landmarks.",
           },
         },
         language: "en",
@@ -7839,13 +7857,15 @@ export const en = {
         slug: "jodhpur-tour-package-3N4D",
         type: "domestic-trip",
         hero: {
-          title: "Jodhpur & Jaisalmer Trip 3N4D",
+          title: "Jodhpur Tour Package – 3N/4D Jodhpur Jaisalmer Trip",
+          herotitle: "Jodhpur & Jaisalmer Desert Heritage Tour",
           subtitle:
             "3 Nights 4 Days exploring Rajasthan's Blue City and Golden City with desert safari and cultural experiences",
           backgroundImage: "/assets/hero/Jodhpur-Jaisalmer-hero.webp",
           meta: {
             duration: "4 Days",
             rating: "4.7/5 Rating",
+            description:"Explore Jodhpur and Jaisalmer with our 3N/4D Jodhpur tour package. Visit forts, dunes, temples, and enjoy guided sightseeing with comfortable stays.",
           },
         },
         language: "en",
@@ -8546,13 +8566,15 @@ export const en = {
         slug: "mathura-tour-package",
         type: "",
         hero: {
-          title: "Mathura – Vrindavan Tour (2 Nights – 3 Days)",
+          title: "3D/2N Mathura Tour Package – Spiritual Trip from Delhi",
+          herottile:"3-Day Mathura–Vrindavan Pilgrimage",
           subtitle:
             "2 Nights 3 Days spiritual journey to the birthplace of Lord Krishna with guided tours and cultural experiences",
           backgroundImage: "/assets/hero/Mathura-Vrindavan-hero.webp",
           meta: {
             duration: "3 Days",
             rating: "4.8/5 Rating",
+            description:"Book a 3D/2N Mathura Tour Package covering Vrindavan, Govardhan & top Krishna temples. Includes transfers, sightseeing & hotel stay. Perfect spiritual getaway.",
           },
         },
         language: "en",
@@ -9779,12 +9801,15 @@ export const en = {
         slug: "Varanasi-2N3D",
         type: "domestic-trip",
         hero: {
-          title: "Varanasi Trip (2 Nights - 3 Days)",
+          title: "3D/2N Varanasi Tour Package – Temples, Ghats & Sarnath Trip",
+          herotitle:"3D/2N Spiritual Varanasi Journey",
           subtitle:
             "A spiritual journey to the ancient city of Varanasi with Sarnath, Ganga Aarti, temple tours, and Ganges boat ride",
           backgroundImage: "/assets/hero/Varanasi-hero.webp",
           meta: {
             duration: "2 Nights / 3 Days",
+            description:"Explore Kashi Vishwanath, Sarnath, sunrise Ganga boat ride & Ganga Aarti with our 3D/2N Varanasi tour package. Includes hotel stay, transfers & sightseeing.",
+            rating: "4.9/5 Rating",
           },
         },
         language: "en",

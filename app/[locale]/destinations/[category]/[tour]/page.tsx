@@ -63,25 +63,27 @@ export async function generateMetadata({
       },
     };
   }
+const title = data.page?.hero?.title;
+const description =data.page?.hero?.meta?.description ?? data.page?.hero?.subtitle;
 
-  return {
-    title: data.page?.hero?.title,
-    description: data.page?.hero?.subtitle,
+return {
+  title,
+  description,
 
-    openGraph: {
-      title: data.page?.hero?.title,
-      description: data.page?.hero?.subtitle,
-      siteName: "Global Tourist Centre",
-      type: "article",
-    },
+  openGraph: {
+    title,
+    description,
+    siteName: "Global Tourist Centre",
+    type: "article",
+  },
 
-    twitter: {
-      card: "summary_large_image",
-      title: data.page?.hero?.title,
-      description: data.page?.hero?.subtitle,
-    },
-  };
-}
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
+};
+
 
 /* ------------------------------------------------------------------ */
 /* PAGE */
