@@ -48,7 +48,7 @@ export async function generateMetadata({
 
   // 🔹 Fallback if tour translation is missing
   if (!data) {
-    const title = t.data.page.hero.title ?? "Tour Package";
+    const title = "Tour Package";
 
     return {
       title,
