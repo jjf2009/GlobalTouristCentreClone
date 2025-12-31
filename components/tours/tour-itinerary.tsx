@@ -32,8 +32,8 @@ export default function TourItinerary({ items }: TourItineraryProps) {
 
         {/* TIMELINE */}
         <div className="relative">
-          {/* Vertical line */}
-          <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-gradient-to-b from-emerald-200 via-emerald-300 to-emerald-200" />
+          {/* Vertical line - hidden on mobile */}
+          <div className="hidden md:block absolute left-6 top-0 bottom-0 w-0.5 bg-gradient-to-b from-emerald-200 via-emerald-300 to-emerald-200" />
 
           <div className="space-y-8">
             {items.map((item, idx) => {
@@ -46,8 +46,8 @@ export default function TourItinerary({ items }: TourItineraryProps) {
                   onMouseEnter={() => setExpandedIndex(idx)}
                   onMouseLeave={() => setExpandedIndex(null)}
                 >
-                  {/* TIMELINE MARKER */}
-                  <div className="relative w-12 flex justify-center flex-shrink-0">
+                  {/* TIMELINE MARKER - hidden on mobile */}
+                  <div className="hidden md:flex relative w-12 justify-center flex-shrink-0">
                     <div className="relative z-10 w-12 h-12 rounded-full flex items-center justify-center bg-white border-2 border-slate-200">
                       <div className="w-3 h-3 rounded-full bg-slate-400" />
                     </div>
@@ -65,11 +65,11 @@ export default function TourItinerary({ items }: TourItineraryProps) {
                           ? "shadow-lg shadow-slate-200 border-2 border-emerald-100"
                           : "shadow-sm border border-slate-100 hover:shadow-md"
                       }
-                      ${isExpanded ? "scale-[1.02]" : ""}
+                      ${isExpanded ? "md:scale-[1.02]" : ""}
                     `}
                   >
                     {/* TIME BADGE */}
-                    <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center justify-between mb-3 gap-2 flex-wrap">
                       <span
                         className={`
                           inline-flex items-center gap-2
@@ -94,12 +94,12 @@ export default function TourItinerary({ items }: TourItineraryProps) {
                     </div>
 
                     {/* TITLE */}
-                    <h3 className="font-bold text-xl text-slate-900 mb-2">
+                    <h3 className="font-bold text-xl text-slate-900 mb-2 break-words">
                       {item.title}
                     </h3>
 
                     {/* DESCRIPTION */}
-                    <p className="text-slate-600 leading-relaxed">
+                    <p className="text-slate-600 leading-relaxed break-words">
                       {item.description}
                     </p>
                   </div>

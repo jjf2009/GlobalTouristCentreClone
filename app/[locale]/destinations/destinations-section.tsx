@@ -138,17 +138,22 @@ function DestinationBlock({
           <Button
             variant="outline"
             className="
-        rounded-full
-        px-10 py-6
-        text-base font-semibold
-        transition-all duration-300 ease-out
-        border-border
-        hover:border-[#f8d56b]
-        hover:bg-[#ffcc34]
-        bg-[#f8d56b]
-        hover:text-black
-        hover:shadow-lg
-      "
+    rounded-full
+    font-semibold
+    transition-all duration-300 ease-out
+    border-border
+    bg-[#f8d56b]
+    hover:border-[#f8d56b]
+    hover:bg-[#ffcc34]
+    hover:text-black
+    hover:shadow-lg
+
+    /* SIZE RESPONSIVENESS */
+    px-5 py-3 text-sm        /* mobile */
+    sm:px-6 sm:py-3.5 sm:text-sm
+    md:px-8 md:py-4 md:text-base
+    lg:px-10 lg:py-6 lg:text-lg
+  "
           >
             View More {title}
           </Button>

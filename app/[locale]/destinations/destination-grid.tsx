@@ -7,7 +7,7 @@ interface Props {
 export function DestinationGrid({ items }: Props) {
   return (
     <div
-      className="grid sm:grid-cols-2 md:grid-cols-4 gap-1 sm:gap-6"
+      className="grid sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6"
       role="list"
     >
       {items.map((item, index) => (
