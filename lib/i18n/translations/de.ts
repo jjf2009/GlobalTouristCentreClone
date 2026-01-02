@@ -5150,136 +5150,39 @@ export const de = {
           image: "/assets/destinations/Hampi/Hampi-Sunset.webp",
         },
       ],
-      inclusions: [
-        {
-          time: "Tag 1 · 05:00",
-          title: "Abholung vom Hotel in Goa",
-          description:
-            "Frühe Abholung vom Hotel in Goa mit Klimataxi. Ihr englischsprachiger Reiseleiter erklärt die Geschichte von Hampi und die Höhepunkte der Tour bei einer malerischen Fahrt durch Dörfer und Landschaften Karnatakas.",
-          category: "reise",
-        },
-        {
-          time: "Tag 1 · 08:00",
-          title: "Frühstück unterwegs",
-          description:
-            "Haltestelle in einem Straßenrestaurant für ein südindisches Frühstück, bevor es weiter nach Hampi geht.",
-          category: "mahlzeit",
-        },
-        {
-          time: "Tag 1 · 11:00",
-          title: "Ankunft in Hampi & Beginn der Besichtigung",
-          description:
-            "Ankunft in Hampi – der ehemaligen Hauptstadt des Vijayanagar‑Reiches und UNESCO‑Welterbe. Beginn der geführten Tour.",
-          category: "ankunft",
-        },
-        {
-          time: "Tag 1 · 11:15",
-          title: "Virupaksha‑Tempel",
-          description:
-            "Besuch des aktiven Virupaksha‑Tempels mit hoher Gopuram‑Torhalle, Flussufer und alten Malereien. Ihr Guide erläutert Architektur und Spiritualiät des Tempels.",
-          category: "erkundung",
-          highlight: true,
-        },
-        {
-          time: "Tag 1 · 12:15",
-          title: "Hampi‑Basar & Monolithischer Stier",
-          description:
-            "Spaziergang durch den historischen Basar und Besuch der monolithischen Nandi‑Statue mit Blick auf den Königsweg.",
-          category: "erkundung",
-        },
-        {
-          time: "Tag 1 · 13:00",
-          title: "Mittagspause (selbst bezahlt)",
-          description:
-            "Mittagessen in einem lokalen Restaurant mit südindischen Gerichten.",
-          category: "mahlzeit",
-        },
-        {
-          time: "Tag 1 · 14:00",
-          title: "Vittala‑Tempel",
-          description:
-            "Besuch des berühmten Vittala‑Tempels mit dem Steinwagen, Musiksäulen und feinen Schnitzereien – UNESCO‑geschützt.",
-          category: "erkundung",
-          highlight: true,
-        },
-        {
-          time: "Tag 1 · 15:30",
-          title: "Königliches Areal & Bad der Königin",
-          description:
-            "Erkundung des antiken Königsareals mit Audienzhalle, Lotus‑Mahal, Elefantenställen und Wasserbecken.",
-          category: "erkundung",
-        },
-        {
-          time: "Tag 1 · 17:00",
-          title: "Sonnenuntergang auf dem Hemakuta‑Hügel",
-          description:
-            "Genießen Sie den wunderschönen Sonnenuntergang über den Felsenlandschaften von Hampi.",
-          category: "erkundung",
-        },
-        {
-          time: "Tag 1 · 18:30",
-          title: "Check‑in im 3‑Sterne‑Hotel",
-          description:
-            "Check‑in im Hotel in Hampi und Abend zur freien Verfügung.",
-          category: "ankunft",
-        },
+inclusions: [
+  {
+    title: "Privater Transport",
+    description:
+      "Komfortables klimatisiertes Fahrzeug mit erfahrenem Fahrer für die gesamte Reise",
+  },
+  {
+    title: "Hotelaufenthalt",
+    description:
+      "Unterkunft in einem 3-Sterne-Hotel in Hospete auf Doppel- oder Dreibettbasis",
+  },
+  {
+    title: "Coracle-Bootsfahrt",
+    description:
+      "Traditionelle Coracle-Bootsfahrt auf dem Sanapur-See",
+  },
+  {
+    title: "Frühstück",
+    description:
+      "Leckeres Frühstück im Hotel am zweiten Tag",
+  },
+  {
+    title: "Fotostopps",
+    description:
+      "Ausreichend Zeit für Fotos an allen landschaftlich reizvollen Orten",
+  },
+  {
+    title: "Reiseleiter",
+    description:
+      "Sachkundiger englischsprachiger Reiseleiter während der gesamten Tour",
+  },
+],
 
-        {
-          time: "Tag 2 · 07:00",
-          title: "Frühstück im Hotel",
-          description: "Frühstück vor der Abfahrt nach Badami.",
-          category: "mahlzeit",
-        },
-        {
-          time: "Tag 2 · 07:30",
-          title: "Fahrt von Hampi nach Badami",
-          description:
-            "Fahrt (2,5 Std.) durch das ländliche Karnataka mit roten Felsen und Felsschluchten.",
-          category: "reise",
-        },
-        {
-          time: "Tag 2 · 10:00",
-          title: "Höhlentempel von Badami",
-          description:
-            "Besichtigung der Höhlentempel aus dem 6.–7. Jahrhundert mit Schnitzereien von Shiva, Vishnu und Jaina Göttern sowie der Nataraja‑Pose – Erklärung der Chalukya‑Kunst durch den Guide.",
-          category: "erkundung",
-          highlight: true,
-        },
-        {
-          time: "Tag 2 · 11:30",
-          title: "Agastya‑See & Bhoothanatha‑Tempel",
-          description:
-            "Spaziergang am Agastya‑See und Besuch des Bhoothanatha‑Tempels am Wasser – ideal für ruhige Fotos.",
-          category: "erkundung",
-        },
-        {
-          time: "Tag 2 · 12:30",
-          title: "Mittagessen (selbst bezahlt)",
-          description:
-            "Mittagessen in einem lokalen Restaurant mit regionaler Küche.",
-          category: "mahlzeit",
-        },
-        {
-          time: "Tag 2 · 13:30",
-          title: "Badami‑Fort",
-          description:
-            "Aufstieg zum Badami‑Fort mit Blick auf den See und die Rotsteinfelsen. Besichtigung der Ruinen und Wachtürme.",
-          category: "erkundung",
-        },
-        {
-          time: "Tag 2 · 14:30",
-          title: "Rückfahrt nach Goa",
-          description: "Beginn der Rückfahrt nach Goa mit Pausen auf dem Weg.",
-          category: "reise",
-        },
-        {
-          time: "Tag 2 · 19:30",
-          title: "Ankunft in Goa",
-          description:
-            "Ankunft im Hotel in Goa – Ende der erlebnisreichen Reise durch Hampi und Badami.",
-          category: "ankunft",
-        },
-      ],
     },
     "hyderabad-tour-package": {
       file_name: "hyderabad-trip-1n2d.html",

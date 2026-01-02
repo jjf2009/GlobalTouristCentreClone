@@ -2833,7 +2833,7 @@ export const en = {
         type: "domestic-trip",
         hero: {
           title: "2D/1N Ajanta Ellora Tour Package from Goa | Flights & Guide",
-          herotitle:": Ajanta Ellora Tour",
+          herotitle:" Ajanta Ellora Tour",
           subtitle:
             "1 Night 2 Days exploring UNESCO World Heritage Sites Ajanta & Ellora Caves from Goa",
           backgroundImage: "/assets/hero/Ajanta-hero.webp",
@@ -5975,42 +5975,42 @@ export const en = {
           image: "../../assets/destinations/Rajasthan/Rajasthani-Cuisine.webp",
         },
       ],
-      inclusions: [
-        {
-          title: "Hin- und Rückflugtickets",
-          description: "",
-        },
-        {
-          title: "Unterkunft",
-          description: "2 Übernachtungen in Jodhpur – 3-Sterne-Hotel",
-        },
-        {
-          title: "Mahlzeiten",
-          description: "Tägliches Frühstück im Hotel",
-        },
-        {
-          title: "Professioneller Führer",
-          description:
-            "Russischsprachiger professioneller Reiseleiter während der gesamten Tour",
-        },
-        {
-          title: "Eintrittskarten",
-          description: "Alle Eintrittskarten laut Reiseverlauf:",
-        },
-        {
-          title: "Transport",
-          description:
-            "Privates, klimatisiertes Taxi für alle Besichtigungen und Transfers",
-        },
-        {
-          title: "Flughafentransfers",
-          description: "Abholung und Rückgabe vom Flughafen",
-        },
-        {
-          title: "Steuern und Gebühren",
-          description: "Alle Steuern und Fahrergebühren",
-        },
-      ],
+inclusions: [
+  {
+    title: "Round-Trip Flight Tickets",
+    description: "",
+  },
+  {
+    title: "Accommodation",
+    description: "2 nights stay in Jodhpur – 3-star hotel",
+  },
+  {
+    title: "Meals",
+    description: "Daily breakfast at the hotel",
+  },
+  {
+    title: "Professional Guide",
+    description:
+      "Professional Russian-speaking tour guide throughout the entire tour",
+  },
+  {
+    title: "Entrance Tickets",
+    description: "All entrance tickets as per the itinerary",
+  },
+  {
+    title: "Transport",
+    description:
+      "Private air-conditioned taxi for all sightseeing and transfers",
+  },
+  {
+    title: "Airport Transfers",
+    description: "Airport pickup and drop-off",
+  },
+  {
+    title: "Taxes & Charges",
+    description: "All applicable taxes and driver charges",
+  },
+],
     },
     "exotic-kashmir-tour": {
       file_name: "Kashmir-5N6D-Trip.html",

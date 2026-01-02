@@ -5959,10 +5959,7 @@ export const ru = {
         },
       ],
       inclusions: [
-        {
-          title: "Билеты туда и обратно",
-          description: "",
-        },
+
         {
           title: "Размещение",
           description: "2 ночи проживания в Джодхпуре – 3-звездочный отель",

@@ -5946,10 +5946,10 @@ export const it = {
         },
       ],
       inclusions: [
-        {
-          title: "Biglietti aerei di andata e ritorno",
-          description: "",
-        },
+        // {
+        //   title: "Biglietti aerei di andata e ritorno",
+        //   description: "",
+        // },
         {
           title: "Alloggio",
           description: "Soggiorno di 2 notti a Jodhpur – hotel 3 stelle",
