@@ -75,7 +75,7 @@ export function HeroSection({
         <div className="flex items-center justify-between px-[5%] py-3">
           {/* Logo */}
           <Link
-            href="https://globaltouristcentre.com/"
+            href={`/${locale}`}
             className="flex items-center"
             aria-label="Global Tourist Centre - Home"
           >

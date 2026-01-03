@@ -3638,62 +3638,26 @@ export const it = {
       ],
       itinerary: [
         {
-          time: "8:00",
-          title: "Partenza dall’hotel",
+          time: "Giorno 1",
+          title: "Arrivo ad Amritsar | Tempio d'Oro (Vista Notturna)",
           description:
-            "Inizia la giornata con un comodo viaggio verso Old Goa. Incontra la tua guida di lingua russa che ti introdurrà alla ricca storia e cultura di Goa.",
-          category: "viaggio",
+            "Arrivo all'aeroporto di Amritsar e incontro con la guida parlante russo. Trasferimento in un hotel a 3 stelle per il check-in. Tempo per rinfrescarsi e relax. In serata, visita al Tempio d'Oro (Sri Harmandir Sahib) per ammirare la splendida illuminazione notturna e vivere la sua calma atmosfera spirituale. Visita facoltativa alla Langar Hall per un pasto comunitario tradizionale. Rientro in hotel e pernottamento ad Amritsar.",
+          category: "arrival",
         },
         {
-          time: "9:00",
-          title: "Sosta per la colazione",
+          time: "Giorno 2",
+          title: "Tour della città di Amritsar e Cerimonia al confine di Wagah",
           description:
-            "Goditi una ricca colazione lungo il percorso prima di iniziare la tua esplorazione culturale.",
-          category: "pasto",
-        },
-        {
-          time: "9:30",
-          title: "Tour delle chiese di Old Goa",
-          description:
-            "Esplora Old Goa, sito patrimonio mondiale dell’UNESCO famoso per la sua architettura coloniale. Visita la Torre di Sant’Agostino, la Basilica di Bom Jesus (che custodisce le reliquie di San Francesco Saverio), la Cattedrale di Santa Caterina e la Chiesa di San Caetano ispirata alla Basilica di San Pietro a Roma. La guida spiegherà il significato storico di ogni monumento.",
-          category: "esplorazione",
+            "Dopo la colazione, partenza per un tour della città dell'intera giornata. Visita al Tempio d'Oro (visita diurna) con spiegazione dettagliata della guida, seguita dal memoriale e dal museo di Jallianwala Bagh, che commemora il massacro del 1919. Proseguimento verso il Museo della Partizione per conoscere la storia della divisione dell'India attraverso mostre audiovisive. Nel pomeriggio, esplorazione dei mercati locali, tra cui l'Hall Bazaar per l'artigianato, i ricami Phulkari, i capi in lana e le spezie. In serata, trasferimento al confine di Wagah per assistere all'energetica cerimonia del 'Flag Retreat'. Rientro in hotel per il pernottamento.",
+          category: "activity",
           highlight: true,
         },
         {
-          time: "11:30",
-          title: "Tour dei templi",
+          time: "Giorno 3",
+          title: "Tempio di Durgiana | Forte Gobindgarh | Partenza",
           description:
-            "Scopri il patrimonio spirituale di Goa visitando il Tempio di Shanta Durga (dea della pace), il Tempio di Mangeshi (uno dei più antichi templi di Shiva a Goa) e il Tempio di Balaji, ispirato al santuario di Tirupati Balaji immerso nel verde.",
-          category: "esplorazione",
-        },
-        {
-          time: "14:00",
-          title: "Visita alla spiaggia di Miramar",
-          description:
-            "Rilassati sulla spiaggia di Miramar, situata alla foce del fiume Mandovi, con splendide viste sul Mar Arabico.",
-          category: "esplorazione",
-        },
-        {
-          time: "14:45",
-          title: "Belvedere di Dona Paula",
-          description:
-            "Visita il panoramico e romantico punto di osservazione di Dona Paula, famoso per le viste sull’oceano e il suo molo iconico.",
-          category: "esplorazione",
-          highlight: true,
-        },
-        {
-          time: "16:30",
-          title: "Mercato di Panjim",
-          description:
-            "Esplora il mercato locale di Panjim per acquistare souvenir, spezie, anacardi, artigianato e specialità goane.",
-          category: "esplorazione",
-        },
-        {
-          time: "17:30",
-          title: "Ritorno in hotel",
-          description:
-            "Rilassati durante il viaggio di ritorno in hotel dopo una giornata piena di storia, cultura e bellezze naturali.",
-          category: "viaggio",
+            "Dopo la colazione, visita al Tempio di Durgiana, costruito nello stile architettonico del Tempio d'Oro e dedicato alla Dea Durga. Proseguimento verso il Forte Gobindgarh per esplorare le gallerie del museo, le esposizioni culturali e lo spettacolo in 7D (se operativo). Dopo pranzo, trasferimento all'aeroporto di Amritsar per la partenza. Conclusione del tour con splendidi ricordi.",
+          category: "travel",
         },
       ],
       gallery: [

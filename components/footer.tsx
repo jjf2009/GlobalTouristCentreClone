@@ -9,7 +9,7 @@ import { useEffect, useRef } from "react";
 
 
 export function Footer() {
-  const { t } = useI18n();
+  const { t,locale } = useI18n();
   const instagramRef = useRef<HTMLDivElement>(null);
 
 useEffect(() => {
@@ -142,28 +142,15 @@ useEffect(() => {
 
             <ul className="space-y-1 sm:space-y-1.5">
               {[
-                { href: "https://globaltouristcentre.com", label: t.nav.home },
-                {
-                  href: "https://globaltouristcentre.com/destinations",
-                  label: t.nav.destinations,
-                },
-                {
-                  href: "https://globaltouristcentre.com/about",
-                  label: t.nav.about,
-                },
-                {
-                  href: "https://globaltouristcentre.com/services",
-                  label: t.nav.services,
-                },
-                {
-                  href: "https://globaltouristcentre.com/contact",
-                  label: t.nav.contact,
-                },
-                {
-                  href: "https://globaltouristcentre.com/blog",
-                  label: t.nav.blog,
-                },
-              ].map((link) => (
+  { href: `/${locale}`, label: t.nav.home },
+  { href: `/${locale}/destinations`, label: t.nav.destinations },
+  { href: `/${locale}/about`, label: t.nav.about },
+
+  // Global (non-localized) pages
+  { href: "https://globaltouristcentre.com/services", label: t.nav.services },
+  { href: "https://globaltouristcentre.com/contact-us", label: t.nav.contact },
+  { href: "https://globaltouristcentre.com/blog", label: t.nav.blog },
+].map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -242,7 +229,7 @@ useEffect(() => {
               href="https://globaltouristcentre.com/legal/privacy-policy"
               className="hover:text-[#f8d56b]"
             >
-              {t.footer.privacyPolicy}
+              {t.form.privacyPolicy}
             </Link>
             <Link
               href="https://globaltouristcentre.com/legal/terms-and-conditions"

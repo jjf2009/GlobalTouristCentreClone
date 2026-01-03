@@ -42,7 +42,7 @@ export function Header() {
       <div className="flex items-center justify-between px-[5%] py-4">
         {/* LOGO */}
         <Link
-          href="https://globaltouristcentre.com/"
+          href={`/${locale}`}
           aria-label="Global Tourist Centre home"
           className="flex items-center"
         >
