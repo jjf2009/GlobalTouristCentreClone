@@ -1,121 +1,191 @@
-import type { Metadata } from "next";
+"use client";
+
+import { useI18n } from "@/lib/i18n/context";
 import { HeroSection } from "@/components/hero-section";
-import HomeForm from "@/app/[locale]/(home)/HomeForm";
-import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle } from "lucide-react";
-// import { FAQSection } from "@/components/faq-section";
+import { Check, Building, Send } from "lucide-react";
 
-/* ---------- METADATA ---------- */
-export const metadata: Metadata = {
-  title: "Hotel Booking Services | Global Tourist Centre",
-  description:
-    "Find your perfect stay with Global Tourist Centre. Book domestic and international hotels with exclusive rates, expert support, and flexible options.",
-};
-
-/* ---------- PAGE ---------- */
 export default function HotelBookingPage() {
+  const { t } = useI18n();
+  const page = t.servicePages.hotelBooking;
+  const form = t.servicePages.form;
+
+  const benefits = [
+    page.benefit1,
+    page.benefit2,
+    page.benefit3,
+    page.benefit4,
+    page.benefit5,
+    page.benefit6,
+  ];
+
   return (
-    <main>
-      {/* HERO */}
+    <>
       <HeroSection
-        title="Hotel Booking Services"
-        subtitle="Find your perfect stay with trusted hotel partners worldwide."
-        backgroundQuery="luxury hotel room ocean view"
+        title={page.heroTitle}
+        backgroundQuery="hotel-booking-hero"
       />
 
-      {/* ABOUT / WHY BOOK */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
-          {/* Image */}
-          <div className="rounded-2xl overflow-hidden shadow-md">
-            <img
-              src="https://source.unsplash.com/900x700/?luxury-hotel-room"
-              alt="Luxury hotel room"
-              className="w-full h-full object-cover"
-            />
-          </div>
-
-          {/* Content */}
-          <div>
-            <h2 className="font-serif text-3xl font-bold mb-4">
-              Find Your Perfect Stay
-            </h2>
-            <p className="text-muted-foreground mb-6">
-              We partner with hotels worldwide to offer the best accommodations
-              at competitive rates. From budget-friendly stays to boutique
-              hotels and luxury resorts, we match every preference and budget.
-            </p>
-
-            <ul className="space-y-3">
-              {[
-                "Access to exclusive rates and special offers",
-                "Verified reviews and personal recommendations",
-                "24/7 customer support for any issues",
-                "Flexible cancellation policies",
-                "Package deals with flights and activities",
-                "Personalized service from hotel experts",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-emerald-600 mt-0.5" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
+      {/* About Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <img
+                src="/assets/services/hotel-booking-about.webp"
+                alt={page.aboutTitle}
+                className="w-full h-[400px] object-cover rounded-xl shadow-lg"
+              />
+            </div>
+            <div>
+              <h2 className="font-serif text-3xl sm:text-4xl font-bold text-emerald-950 mb-6">
+                {page.aboutTitle}
+              </h2>
+              <p className="text-gray-600 text-lg mb-8 leading-relaxed">
+                {page.aboutDesc}
+              </p>
+              <div>
+                <h3 className="font-semibold text-xl text-emerald-900 mb-4">
+                  {page.whyBookTitle}
+                </h3>
+                <ul className="space-y-3">
+                  {benefits.map((benefit, idx) => (
+                    <li key={idx} className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-teal-600 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-700">{benefit}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* BOOKING FORM */}
-      <section className="py-16 bg-muted/40">
-        <div className="max-w-3xl mx-auto px-4">
-          <div className="text-center mb-8">
-            <h2 className="font-serif text-3xl font-bold">
-              Hotel Booking Request
+      {/* Form Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-emerald-950 mb-4">
+              {page.formTitle}
             </h2>
-            <p className="text-muted-foreground mt-2">
-              Fill out this form and we’ll find the perfect hotel for your stay.
-            </p>
+            <p className="text-gray-600 text-lg">{page.formDesc}</p>
           </div>
 
-          <Card className="shadow-lg">
-            <CardContent className="p-6">
-              {/* Reusing existing global form */}
-              <HomeForm />
-            </CardContent>
-          </Card>
+          <div className="bg-white rounded-2xl shadow-xl p-8">
+            <div className="text-center mb-8">
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Building className="w-8 h-8 text-teal-600" />
+              </div>
+              <h3 className="font-semibold text-xl text-emerald-950">
+                {page.formHeader}
+              </h3>
+              <p className="text-gray-500 mt-2">{page.formSubtitle}</p>
+            </div>
+
+            <form className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.yourName}
+                  </label>
+                  <input
+                    type="text"
+                    placeholder={form.namePlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.email}
+                  </label>
+                  <input
+                    type="email"
+                    placeholder={form.emailPlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.phone}
+                  </label>
+                  <input
+                    type="tel"
+                    placeholder={form.phonePlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.destination}
+                  </label>
+                  <input
+                    type="text"
+                    placeholder={form.destinationPlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                  />
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Check-in
+                  </label>
+                  <input
+                    type="date"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Check-out
+                  </label>
+                  <input
+                    type="date"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Rooms
+                  </label>
+                  <input
+                    type="number"
+                    placeholder="1"
+                    min="1"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  {form.message}
+                </label>
+                <textarea
+                  rows={4}
+                  placeholder={form.messagePlaceholder}
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition resize-none"
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="w-full bg-teal-600 hover:bg-teal-700 text-white font-semibold py-4 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
+              >
+                <Send className="w-5 h-5" />
+                {form.submit}
+              </button>
+            </form>
+          </div>
         </div>
       </section>
-
-      {/* FAQs */}
-      {/* FAQs */}
-      {/* <FAQSection
-        title="Hotel Booking FAQs"
-        subtitle="Common questions about our hotel booking services."
-        items={[
-          {
-            question:
-              "Do you offer both domestic and international hotel bookings?",
-            answer:
-              "Yes. We partner with hotels worldwide and offer both domestic and international stays across all categories.",
-          },
-          {
-            question: "Can you book hotels as part of a full tour package?",
-            answer:
-              "Absolutely. Hotels can be booked standalone or bundled with flights, transfers, and sightseeing.",
-          },
-          {
-            question: "Can I modify or cancel my hotel booking?",
-            answer:
-              "Cancellation and modification policies depend on the hotel. Most bookings allow free changes up to a specific date.",
-          },
-          {
-            question:
-              "Can I book multiple hotels in different cities under one itinerary?",
-            answer:
-              "Yes. We can manage multi-city hotel bookings seamlessly under a single travel plan.",
-          },
-        ]}
-      /> */}
-    </main>
+    </>
   );
 }

@@ -1,145 +1,191 @@
-import type { Metadata } from "next";
+"use client";
 
+import { useI18n } from "@/lib/i18n/context";
 import { HeroSection } from "@/components/hero-section";
-import HomeForm from "@/app/[locale]/(home)/HomeForm";
+import { Check, Plane, Send } from "lucide-react";
 
-/* -------------------------------------------------- */
-/* STATIC PARAMS (required for static export) */
-/* -------------------------------------------------- */
-export function generateStaticParams() {
-  return [{ locale: "en" }];
-}
-
-/* -------------------------------------------------- */
-/* METADATA */
-/* -------------------------------------------------- */
-export const metadata: Metadata = {
-  title: "Flight Booking Services | Global Tourist Centre",
-  description:
-    "Book domestic and international flights at competitive rates with expert assistance. One-way, round-trip, and multi-city flight bookings made easy.",
-};
-
-/* -------------------------------------------------- */
-/* PAGE */
-/* -------------------------------------------------- */
 export default function FlightBookingPage() {
+  const { t } = useI18n();
+  const page = t.servicePages.flightBooking;
+  const form = t.servicePages.form;
+
+  const services = [
+    page.service1,
+    page.service2,
+    page.service3,
+    page.service4,
+    page.service5,
+    page.service6,
+  ];
+
   return (
-    <main>
-      {/* ================= HERO ================= */}
+    <>
       <HeroSection
-        title="Flight Booking Services"
-        backgroundQuery="airport departure board flights"
+        title={page.heroTitle}
+        backgroundQuery="flight-booking-hero"
       />
 
-      {/* ================= ABOUT / SERVICES ================= */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-          {/* Image */}
-          <div className="rounded-xl overflow-hidden">
-            <img
-              src="https://source.unsplash.com/900x600/?airport,departure"
-              alt="Flight booking assistance"
-              className="w-full h-full object-cover"
-            />
+      {/* About Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <img
+                src="/assets/services/flight-booking-about.webp"
+                alt={page.aboutTitle}
+                className="w-full h-[400px] object-cover rounded-xl shadow-lg"
+              />
+            </div>
+            <div className="order-1 lg:order-2">
+              <h2 className="font-serif text-3xl sm:text-4xl font-bold text-emerald-950 mb-6">
+                {page.aboutTitle}
+              </h2>
+              <p className="text-gray-600 text-lg mb-8 leading-relaxed">
+                {page.aboutDesc}
+              </p>
+              <div>
+                <h3 className="font-semibold text-xl text-emerald-900 mb-4">
+                  {page.servicesTitle}
+                </h3>
+                <ul className="space-y-3">
+                  {services.map((service, idx) => (
+                    <li key={idx} className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-teal-600 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-700">{service}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
+        </div>
+      </section>
 
-          {/* Content */}
-          <div>
-            <h2 className="font-serif text-3xl font-bold mb-4">
-              Fly With Ease
+      {/* Form Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-emerald-950 mb-4">
+              {page.formTitle}
             </h2>
+            <p className="text-gray-600 text-lg">{page.formDesc}</p>
+          </div>
 
-            <p className="text-muted-foreground mb-6">
-              As an authorized flight booking agent, we provide access to
-              competitive airfares across all major airlines. Whether you need
-              domestic flights within India or international connections
-              worldwide, our experienced team will find you the best routes and
-              prices. We handle everything from simple one-way tickets to
-              complex multi-city itineraries.
-            </p>
+          <div className="bg-white rounded-2xl shadow-xl p-8">
+            <div className="text-center mb-8">
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Plane className="w-8 h-8 text-teal-600" />
+              </div>
+              <h3 className="font-semibold text-xl text-emerald-950">
+                {page.formHeader}
+              </h3>
+              <p className="text-gray-500 mt-2">{page.formSubtitle}</p>
+            </div>
 
-            <h3 className="font-semibold mb-3">Our Flight Services Include:</h3>
+            <form className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.yourName}
+                  </label>
+                  <input
+                    type="text"
+                    placeholder={form.namePlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.email}
+                  </label>
+                  <input
+                    type="email"
+                    placeholder={form.emailPlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+              </div>
 
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>✔ Domestic and international flight bookings</li>
-              <li>✔ Competitive fares, often better than online prices</li>
-              <li>✔ Multi-city and round-the-world itineraries</li>
-              <li>✔ Group flight bookings with special discounts</li>
-              <li>✔ Last-minute flight arrangements</li>
-              <li>✔ Seat selection and special meal requests</li>
-              <li>✔ Flight changes and cancellations assistance</li>
-            </ul>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.phone}
+                  </label>
+                  <input
+                    type="tel"
+                    placeholder={form.phonePlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    From - To
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Goa → Delhi"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                  />
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Departure Date
+                  </label>
+                  <input
+                    type="date"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Return Date
+                  </label>
+                  <input
+                    type="date"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.travelers}
+                  </label>
+                  <input
+                    type="number"
+                    placeholder="2"
+                    min="1"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  {form.message}
+                </label>
+                <textarea
+                  rows={4}
+                  placeholder={form.messagePlaceholder}
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition resize-none"
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="w-full bg-teal-600 hover:bg-teal-700 text-white font-semibold py-4 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
+              >
+                <Send className="w-5 h-5" />
+                {form.submit}
+              </button>
+            </form>
           </div>
         </div>
       </section>
-
-      {/* ================= BOOKING FORM ================= */}
-      <section className="py-20 bg-muted/40">
-        <div className="max-w-4xl mx-auto px-4 text-center mb-10">
-          <h2 className="font-serif text-3xl font-bold mb-2">
-            Flight Booking Request
-          </h2>
-          <p className="text-muted-foreground">
-            Provide your travel details and we’ll find the best flight options
-            for you.
-          </p>
-        </div>
-
-        {/* Reuse existing global form */}
-        <HomeForm />
-      </section>
-
-      {/* ================= FAQ ================= */}
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="font-serif text-3xl font-bold mb-6">
-            Flight Booking FAQs
-          </h2>
-
-          <div className="space-y-4">
-            <details className="rounded-lg bg-muted/40 p-4">
-              <summary className="font-medium cursor-pointer">
-                Can you add infant/child seat, pets, or sports equipment to my
-                booking?
-              </summary>
-              <p className="mt-2 text-muted-foreground text-sm">
-                We guide you on adding special services like infant seats,
-                sports equipment, or pets, based on airline policies.
-              </p>
-            </details>
-
-            <details className="rounded-lg bg-muted/40 p-4">
-              <summary className="font-medium cursor-pointer">
-                Can you arrange airport pick-up or drop-off with flights?
-              </summary>
-              <p className="mt-2 text-muted-foreground text-sm">
-                Yes. Airport transfers can be arranged as part of your overall
-                itinerary.
-              </p>
-            </details>
-
-            <details className="rounded-lg bg-muted/40 p-4">
-              <summary className="font-medium cursor-pointer">
-                What is the cancellation, change, or refund policy?
-              </summary>
-              <p className="mt-2 text-muted-foreground text-sm">
-                Policies depend on airline fare rules. We help you understand
-                options and assist with changes or cancellations.
-              </p>
-            </details>
-
-            <details className="rounded-lg bg-muted/40 p-4">
-              <summary className="font-medium cursor-pointer">
-                What support do you offer if my flight is delayed or cancelled?
-              </summary>
-              <p className="mt-2 text-muted-foreground text-sm">
-                Our team assists with rebooking, alternate routes, and guidance
-                during delays or cancellations.
-              </p>
-            </details>
-          </div>
-        </div>
-      </section>
-    </main>
+    </>
   );
 }
