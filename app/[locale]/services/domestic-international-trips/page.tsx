@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import { HeroSection } from "@/components/hero-section";
-import { DestinationGrid } from"../../destinations/destination-grid";
+import { DestinationGrid } from "../../destinations/destination-grid";
 import { DestinationCard } from "@/components/destination-card";
 import HomeForm from "@/app/[locale]/(home)/HomeForm";
 
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 import {
   domesticTrips,
   internationalTrips,
-} from "@/app/[locale]/destinations/destinations";
+} from "@/lib/data/destinations";
 
 /* ------------------------------------------------------------------ */
 /* PAGE */
@@ -88,11 +88,7 @@ export default function DomesticInternationalTripsPage() {
             destinations.
           </p>
 
-          <DestinationGrid>
-            {domesticTrips.slice(0, 4).map((trip) => (
-              <DestinationCard key={trip.slug} {...trip} />
-            ))}
-          </DestinationGrid>
+          <DestinationGrid items={domesticTrips.slice(0, 4)} />
 
           <div className="text-center mt-10">
             <a
@@ -118,11 +114,7 @@ export default function DomesticInternationalTripsPage() {
             tour packages.
           </p>
 
-          <DestinationGrid>
-            {internationalTrips.slice(0, 4).map((trip) => (
-              <DestinationCard key={trip.slug} {...trip} />
-            ))}
-          </DestinationGrid>
+          <DestinationGrid items={internationalTrips.slice(0, 4)} />
 
           <div className="text-center mt-10">
             <a

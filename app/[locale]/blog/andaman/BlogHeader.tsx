@@ -1,14 +1,16 @@
-// components/blog/BlogPostHeader.tsx
+"use client";
 
 import { HeroSection } from "@/components/hero-section";
 import { Calendar, Tag, User } from "lucide-react";
+import { useI18n } from "@/lib/i18n/context";
 
 const BlogPostHeader = () => {
+  const { t } = useI18n();
   return (
     <>
       <HeroSection
-              title={t.blog.heroTitle}
-              backgroundQuery="travel journal notebook coffee scenic" />
+        title={t.blog.heroTitle}
+        backgroundQuery="travel journal notebook coffee scenic" />
       <header className="mb-10 text-center sm:text-left">
         <div className="flex flex-wrap items-center justify-center sm:justify-start gap-4 text-sm text-emerald-800/80 font-medium mb-6">
           <span className="flex items-center gap-1.5">
