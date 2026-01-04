@@ -1,7 +1,6 @@
 "use client";
 
 import { Calendar, Tag, User } from "lucide-react";
-import { blogMeta } from "./data/blogMeta";
 import { HeroSection } from "@/components/hero-section";
 import { useI18n } from "@/lib/i18n/context";
 
@@ -10,18 +9,19 @@ const BlogMetaHeader = () => {
   return (
     <>
       <HeroSection
-        title={t.blog.heroTitle}
-        backgroundQuery="travel journal notebook coffee scenic"
+        title={t.blogKerala.heroTitle}
+        subtitle={t.blogKerala.heroSubtitle}
+        backgroundQuery="Kerala-hero"
       />
       <div className="flex flex-wrap gap-4 text-sm text-emerald-800/80 mb-8">
         <span className="flex items-center gap-1.5">
-          <Calendar className="w-4 h-4" /> {blogMeta.date}
+          <Calendar className="w-4 h-4" /> {t.blog.juneDate}
         </span>
         <span className="flex items-center gap-1.5">
-          <Tag className="w-4 h-4" /> {blogMeta.category}
+          <Tag className="w-4 h-4" /> {t.blog.groupTours}
         </span>
         <span className="flex items-center gap-1.5">
-          <User className="w-4 h-4" /> {blogMeta.author}
+          <User className="w-4 h-4" /> {t.blog.globalTeam}
         </span>
       </div>
     </>
