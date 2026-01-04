@@ -573,15 +573,42 @@ export const it = {
   },
   // Luxury Destinations
   luxury: {
-    heroTitle: "Pacchetti Vacanza Dubai",
-    discount: "Fino al 35% di Sconto",
-    getDiscount: "Ottieni il 35% di Sconto su Dubai",
-    bestPrice: "Garanzia Miglior Prezzo",
+    heroTitle: "Pacchetti Vacanze Dubai",
+    discount: "Sconto fino al 35%",
+    getDiscount: "Ottieni il 35% di SCONTO sul pacchetto Dubai",
+    bestPrice: "Miglior Prezzo Garantito",
     tailorMade: "Pacchetti vacanza su misura",
-    personalConsultants: "Consulenti Personali",
-    flexibility: "Flessibilità nell'Organizzazione",
-    recognised: "Riconosciuto dal Governo Indiano",
-    exclusiveDestinations: "Destinazioni Esclusive in India",
+    personalConsultants: "Consulenti di viaggio personali",
+    flexibility: "Flessibilità nell'organizzazione e nelle prenotazioni",
+    recognised: "Riconosciuto dal Governo dell'India",
+    exclusiveDestinations: "Esclusive destinazioni indiane",
+    destinations: {
+      "kerala-luxury": {
+        title: "Backwaters del Kerala",
+        description:
+          "Scopri la 'Terra di Dio' con serene crociere in casa galleggiante, piantagioni di spezie e ritiri ayurvedici.",
+      },
+      "mumbai-luxury": {
+        title: "Esperienza a Mumbai",
+        description:
+          "Scopri la capitale finanziaria dell'India con la sua architettura coloniale, il fascino di Bollywood e i monumenti iconici.",
+      },
+      "golden-triangle-luxury": {
+        title: "Tour del Triangolo d'Oro",
+        description:
+          "Esplora Delhi, Agra e Jaipur, ammirando il patrimonio culturale più iconico dell'India.",
+      },
+      "rajasthan-luxury": {
+        title: "Rajasthan Reale",
+        description:
+          "Immergiti in soggiorni in palazzi reali, safari nel deserto e fortezze storiche.",
+      },
+      "karnataka-luxury": {
+        title: "Bangalore, Mysore e Ooty",
+        description:
+          "Un mix perfetto di lusso urbano e serenità delle località collinari nell'India meridionale.",
+      },
+    },
   },
   // Footer
   footer: {

@@ -578,15 +578,42 @@ export const fr = {
   },
   // Luxury Destinations
   luxury: {
-    heroTitle: "Forfaits Vacances à Dubai",
-    discount: "Jusqu'à 35% de Réduction",
-    getDiscount: "Obtenez 35% de Réduction sur Dubai",
-    bestPrice: "Garantie Meilleur Prix",
-    tailorMade: "Forfaits vacances sur mesure",
-    personalConsultants: "Consultants Personnels",
-    flexibility: "Flexibilité dans l'Organisation",
-    recognised: "Reconnu par le Gouvernement Indien",
-    exclusiveDestinations: "Destinations Exclusives en Inde",
+    heroTitle: "Forfaits Vacances à Dubaï",
+    discount: "Jusqu'à 35% de RÉDUCTION",
+    getDiscount: "Obtenez 35% de RÉDUCTION sur le forfait Dubaï",
+    bestPrice: "Garantie du meilleur prix",
+    tailorMade: "Séjours sur mesure",
+    personalConsultants: "Conseillers en voyages personnels",
+    flexibility: "Flexibilité dans l'organisation et les réservations",
+    recognised: "Reconnu par le gouvernement de l'Inde",
+    exclusiveDestinations: "Destinations indiennes exclusives",
+    destinations: {
+      "kerala-luxury": {
+        title: "Backwaters du Kerala",
+        description:
+          "Découvrez le 'Pays de Dieu' avec des croisières sereines en péniche, des plantations d'épices et des retraites ayurvédiques.",
+      },
+      "mumbai-luxury": {
+        title: "Expérience à Mumbai",
+        description:
+          "Découvrez la capitale financière de l'Inde avec son architecture coloniale, le glamour de Bollywood et ses monuments emblématiques.",
+      },
+      "golden-triangle-luxury": {
+        title: "Tour du Triangle d'Or",
+        description:
+          "Explorez Delhi, Agra et Jaipur, mettant en valeur le patrimoine culturel le plus emblématique de l'Inde.",
+      },
+      "rajasthan-luxury": {
+        title: "Rajasthan Royal",
+        description:
+          "Plongez dans des séjours en palais royaux, des safaris dans le désert et des forts historiques.",
+      },
+      "karnataka-luxury": {
+        title: "Bangalore, Mysore & Ooty",
+        description:
+          "Un mélange parfait de luxe urbain et de sérénité des stations de montagne dans le sud de l'Inde.",
+      },
+    },
   },
   // Footer
   footer: {

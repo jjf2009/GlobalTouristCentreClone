@@ -582,14 +582,41 @@ export const de = {
   // Luxury Destinations
   luxury: {
     heroTitle: "Dubai Urlaubspakete",
-    discount: "Bis zu 35% Rabatt",
-    getDiscount: "Erhalten Sie 35% Rabatt auf Dubai",
+    discount: "Bis zu 35% RABATT",
+    getDiscount: "Holen Sie sich 35% RABATT auf Dubai-Pakete",
     bestPrice: "Bestpreisgarantie",
     tailorMade: "Maßgeschneiderte Urlaubspakete",
-    personalConsultants: "Persönliche Berater",
-    flexibility: "Flexibilität bei der Organisation",
-    recognised: "Von der indischen Regierung anerkannt",
-    exclusiveDestinations: "Exklusive Reiseziele in Indien",
+    personalConsultants: "Persönliche Reiseberater",
+    flexibility: "Flexibilität bei Organisation und Buchung",
+    recognised: "Anerkannt von der indischen Regierung",
+    exclusiveDestinations: "Exklusive indische Reiseziele",
+    destinations: {
+      "kerala-luxury": {
+        title: "Kerala Backwaters",
+        description:
+          "Erleben Sie 'God's Own Country' mit entspannten Hausboot-Fahrten, Gewürzplantagen und Ayurveda-Retreats.",
+      },
+      "mumbai-luxury": {
+        title: "Mumbai Erlebnis",
+        description:
+          "Entdecken Sie Indiens Finanzhauptstadt mit kolonialer Architektur, Bollywood-Glamour und ikonischen Wahrzeichen.",
+      },
+      "golden-triangle-luxury": {
+        title: "Goldenes Dreieck Tour",
+        description:
+          "Erkunden Sie Delhi, Agra und Jaipur und erleben Sie Indiens bedeutendstes kulturelles Erbe.",
+      },
+      "rajasthan-luxury": {
+        title: "Königliches Rajasthan",
+        description:
+          "Tauchen Sie ein in herrschaftliche Palastaufenthalte, Wüstensafaris und historische Festungen.",
+      },
+      "karnataka-luxury": {
+        title: "Bangalore, Mysore & Ooty",
+        description:
+          "Eine perfekte Mischung aus urbanem Luxus und der Ruhe der Hill Stations in Südindien.",
+      },
+    },
   },
   // Footer
   footer: {
@@ -5150,39 +5177,36 @@ export const de = {
           image: "/assets/destinations/Hampi/Hampi-Sunset.webp",
         },
       ],
-inclusions: [
-  {
-    title: "Privater Transport",
-    description:
-      "Komfortables klimatisiertes Fahrzeug mit erfahrenem Fahrer für die gesamte Reise",
-  },
-  {
-    title: "Hotelaufenthalt",
-    description:
-      "Unterkunft in einem 3-Sterne-Hotel in Hospete auf Doppel- oder Dreibettbasis",
-  },
-  {
-    title: "Coracle-Bootsfahrt",
-    description:
-      "Traditionelle Coracle-Bootsfahrt auf dem Sanapur-See",
-  },
-  {
-    title: "Frühstück",
-    description:
-      "Leckeres Frühstück im Hotel am zweiten Tag",
-  },
-  {
-    title: "Fotostopps",
-    description:
-      "Ausreichend Zeit für Fotos an allen landschaftlich reizvollen Orten",
-  },
-  {
-    title: "Reiseleiter",
-    description:
-      "Sachkundiger englischsprachiger Reiseleiter während der gesamten Tour",
-  },
-],
-
+      inclusions: [
+        {
+          title: "Privater Transport",
+          description:
+            "Komfortables klimatisiertes Fahrzeug mit erfahrenem Fahrer für die gesamte Reise",
+        },
+        {
+          title: "Hotelaufenthalt",
+          description:
+            "Unterkunft in einem 3-Sterne-Hotel in Hospete auf Doppel- oder Dreibettbasis",
+        },
+        {
+          title: "Coracle-Bootsfahrt",
+          description: "Traditionelle Coracle-Bootsfahrt auf dem Sanapur-See",
+        },
+        {
+          title: "Frühstück",
+          description: "Leckeres Frühstück im Hotel am zweiten Tag",
+        },
+        {
+          title: "Fotostopps",
+          description:
+            "Ausreichend Zeit für Fotos an allen landschaftlich reizvollen Orten",
+        },
+        {
+          title: "Reiseleiter",
+          description:
+            "Sachkundiger englischsprachiger Reiseleiter während der gesamten Tour",
+        },
+      ],
     },
     "hyderabad-tour-package": {
       file_name: "hyderabad-trip-1n2d.html",

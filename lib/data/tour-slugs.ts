@@ -50,7 +50,7 @@ export const TOUR_CATEGORIES = {
     "bijapur-tour-package", // verified // not used anywhere
     "hyderabad-tour-package", // temporarily removed (used in html code) // verified
     "jodhpur-tour-package", // verified //temporarily added not used anywhere
-     "ladakh-tour" // temporarily removed (used in en.ts) // verified
+    "ladakh-tour", // temporarily removed (used in en.ts) // verified
     // "meghalaya-tour", // verified // temporarily removed (used in en.ts)
   ],
 
@@ -80,5 +80,13 @@ export const TOUR_CATEGORIES = {
     //  "mystic-meghalaya-tour", // temporarily removed (used in en.ts)
     "kazakhstan-almaty-explorer", // temporarily removed (used in destination.ts) // verified
     // "nepal-tour", // temporarily removed (used in en.ts) // verified
+  ],
+
+  luxury: [
+    "kerala-luxury",
+    "mumbai-luxury",
+    "golden-triangle-luxury",
+    "rajasthan-luxury",
+    "karnataka-luxury",
   ],
 } as const;
