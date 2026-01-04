@@ -11749,4 +11749,247 @@ export const de = {
       inclusions: [],
     },
   },
+  luxuryPages: {
+    "mumbai-luxury": {
+      hero: {
+        title: "Mumbai Luxusreisen",
+        description:
+          "Erleben Sie die Megastadt Mumbai in ultimativem Luxus. Übernachten Sie in ikonischen Hotels, entdecken Sie historische Sehenswürdigkeiten, genießen Sie Gourmetküche und tauchen Sie in die lebendige Kultur der Finanzhauptstadt Indiens ein.",
+        discountBadge: "Bis zu 20 % Rabatt bei Frühbuchung",
+        image: "/assets/hero/mumbai-luxury.webp",
+      },
+
+      toursSection: {
+        title: "Premium-Mumbai-Reisepakete",
+        packages: [
+          {
+            image: "/assets/Luxury/Mumbai/Mumbai-thumb.webp",
+            badge: "Premium-Paket",
+            title: "2N/3T Mumbai Luxuspaket",
+            location: "Mumbai Stadthighlights",
+            description:
+              "Erleben Sie das Beste von Mumbai mit ikonischen Wahrzeichen, Kulturerbe-Stätten und luxuriösen Unterkünften in einer perfekt kuratierten 3-tägigen Reise.",
+            link: "/luxury-trips/mumbai-luxury/mumbai-luxury-package",
+          },
+        ],
+      },
+
+      infoCards: [
+        {
+          icon: "hotel",
+          title: "Ikonische Hotelaufenthalte",
+          description:
+            "Weltklasse-Gastfreundschaft im Taj Mahal Palace, The Oberoi und Trident Nariman Point.",
+        },
+        {
+          icon: "user-tie",
+          title: "Personalisierter Service",
+          description:
+            "Dedizierter Concierge-Service, private Guides und maßgeschneiderte Reiserouten.",
+        },
+        {
+          icon: "utensils",
+          title: "Gourmetküche",
+          description:
+            "Dachterrassen-Restaurants, historische Cafés, Chef’s-Table-Erlebnisse und Yacht-Dinner.",
+        },
+        {
+          icon: "gem",
+          title: "Exklusiver Zugang",
+          description:
+            "Private Kunstgalerien, Bollywood-Studios, Heritage-Spaziergänge und kuratierte Einkaufserlebnisse.",
+        },
+      ],
+    },
+
+    "golden-triangle-luxury": {
+      hero: {
+        title: "Golden Triangle Luxusreisen",
+        description:
+          "Erleben Sie Indiens berühmtesten Kulturkreislauf in unvergleichlichem Luxus durch Delhi, Agra und Jaipur.",
+        discountBadge: "Bis zu 25 % Rabatt bei Frühbuchung",
+        image: "/assets/hero/golden-triangle-luxury.webp",
+      },
+
+      toursSection: {
+        title: "Premium-Golden-Triangle-Reisepakete",
+        packages: [
+          {
+            image: "/assets/Luxury/Golden Triangle/golden-triangle-thumb.webp",
+            badge: "Premium-Paket",
+            title: "4N/5T Golden Triangle Luxuspaket",
+            location: "Delhi, Agra & Jaipur",
+            description:
+              "Eine kompakte Luxusreise mit allen Highlights und 5-Sterne-Aufenthalten.",
+            link: "/luxury-trips/golden-triangle-luxury-package",
+          },
+          {
+            image: "/assets/Luxury/Golden Triangle/Golden-Triangle2-thumb.webp",
+            badge: "Premium-Paket",
+            title: "6N/7T Golden Triangle Luxuspaket",
+            location: "Delhi, Agra & Jaipur",
+            description:
+              "Unsere beliebteste Reiseroute mit Palasthotels und Gourmet-Erlebnissen.",
+            link: "/luxury-trips/6n-7d-golden-triangle-luxury-tour-package",
+          },
+        ],
+      },
+
+      infoCards: [
+        {
+          icon: "crown",
+          title: "Palast- & Heritage-Aufenthalte",
+          description:
+            "Übernachten Sie in ehemaligen Königspalästen wie dem Rambagh Palace und Oberoi Amarvilas.",
+        },
+        {
+          icon: "user-tie",
+          title: "Geführte Expertentouren",
+          description:
+            "Personalisierte Touren mit erfahrenen Historikern und lokalen Experten.",
+        },
+        {
+          icon: "utensils",
+          title: "Gourmet-Erlebnisse",
+          description:
+            "Königliche Bankette, Dinner mit Taj-Blick und preisgekrönte Restaurants.",
+        },
+        {
+          icon: "gem",
+          title: "Exklusiver Zugang",
+          description:
+            "Sonnenaufgangsbesuche am Taj Mahal, privater Monumentenzugang und kuratierte Darbietungen.",
+        },
+      ],
+    },
+  },
+  luxuryTourPackages: {
+    "4n-5d-rajasthan-luxury-package": {
+      hero_section: {
+        type: "package-hero",
+        badge: "Premium-Paket",
+        title: "4N/5T Rajasthan Luxuspaket",
+        location: "Jaipur & Udaipur – 4N/5T",
+        cta_text: "Jetzt buchen",
+        cta_link:
+          "https://wa.me/919067972295?text=Hallo!%20Ich%20interessiere%20mich%20für%20das%204N/5T%20Rajasthan%20Luxuspaket%20(Jaipur%20%26%20Udaipur).%20Bitte%20senden%20Sie%20mir%20weitere%20Informationen.",
+        background_image: "/assets/Luxury/Rajasthan/raj1-hero.webp",
+      },
+
+      itinerary: {
+        title: "Königliches Erlebnis in Jaipur & Udaipur",
+        days: [
+          {
+            day_title: "Tag 1: Ankunft in Jaipur",
+            location: "Jaipur",
+            description:
+              "Ankunft am internationalen Flughafen Jaipur. Begrüßung und privater Transfer zum Palasthotel (Rambagh Palace / Jai Mahal Palace).",
+            activities: [
+              "Mittagessen & Entspannung im Palast",
+              "Stadtpalast + Jantar Mantar + Hawa Mahal (private Führung)",
+              "High Tea bei Sonnenuntergang / Spa-Erlebnis",
+              "Privates Dinner-Erlebnis",
+              "Übernachtung in Jaipur (Luxus-Palast-Hotel)",
+            ],
+          },
+          {
+            day_title: "Tag 2: Jaipur – Ganztägige Besichtigung",
+            location: "Jaipur",
+            description:
+              "Optionales Sonnenaufgangserlebnis. Privater Besuch des Amber Forts mit exklusiven Zugangsbereichen.",
+            activities: [
+              "Traditionelles Rajasthani-Mittagessen",
+              "Albert Hall (optional) & kuratierter Basarbesuch",
+              "Palast-Fotoshooting bei Sonnenuntergang",
+              "Abschieds-Dinner in Jaipur",
+              "Übernachtung in Jaipur",
+            ],
+          },
+          {
+            day_title: "Tag 3: Transfer nach Udaipur",
+            location: "Udaipur",
+            description:
+              "Flugtransfer nach Udaipur. Check-in im luxuriösen See-Palast (Oberoi Udaivilas / Taj Lake Palace).",
+            activities: [
+              "Leichtes Mittagessen bei Ankunft",
+              "Private Sonnenuntergangs-Bootsfahrt auf dem Lake Pichola",
+              "Freizeit / optionales Spa",
+              "Palast-Dinner am Abend",
+              "Übernachtung in Udaipur",
+            ],
+          },
+          {
+            day_title: "Tag 4: Udaipur – Ganztägige Besichtigung",
+            location: "Udaipur",
+            description:
+              "Private Führung durch den Stadtpalast mit exklusivem Zugang. Besuch des Jagdish-Tempels & Heritage-Spaziergang.",
+            activities: [
+              "Gourmet-Mittagessen",
+              "Saheliyon-ki-Bari & Bagore Ki Haveli Museum",
+              "Monsoon Palace für Sonnenuntergangsblick",
+              "Abschieds-Galadinner",
+              "Übernachtung in Udaipur",
+            ],
+          },
+          {
+            day_title: "Tag 5: Abreise",
+            location: "Abreise",
+            description:
+              "Optionales Boots- oder Yoga-Erlebnis am Morgen. Frühstück & privater Transfer zum Flughafen Udaipur.",
+            activities: [],
+          },
+        ],
+      },
+
+      inclusions: [
+        {
+          icon: "fas fa-hotel",
+          title: "Luxusunterkünfte",
+          description:
+            "4 Nächte in Luxus-Palast-Hotels (2N Jaipur + 2N Udaipur) inkl. täglichem Frühstück",
+        },
+        {
+          icon: "fas fa-utensils",
+          title: "Gourmet-Verpflegung",
+          description:
+            "Tägliches Frühstück + 3 private Dinner-Erlebnisse inkl. Palastdinner",
+        },
+        {
+          icon: "fas fa-car",
+          title: "Private Transfers",
+          description:
+            "Private Luxusfahrzeuge & Inlandsflüge zwischen den Städten",
+        },
+        {
+          icon: "fas fa-user-tie",
+          title: "Professionelle Guides",
+          description:
+            "Englischsprachige zertifizierte Reiseleiter für alle Besichtigungen",
+        },
+        {
+          icon: "fas fa-ship",
+          title: "Bootsfahrt",
+          description:
+            "Private Sonnenuntergangsfahrt auf dem Lake Pichola mit Erfrischungen",
+        },
+        {
+          icon: "fas fa-ticket-alt",
+          title: "Eintrittsgebühren",
+          description:
+            "Alle Eintrittsgebühren & bevorzugter Zugang, wo verfügbar",
+        },
+        {
+          icon: "fas fa-concierge-bell",
+          title: "Butler-Service",
+          description: "Butler-Service oder Willkommensritual im Palasthotel",
+        },
+        {
+          icon: "fas fa-shield-alt",
+          title: "Steuern & Support",
+          description:
+            "Alle lokalen Steuern, Servicegebühren & 24/7 Concierge-Support",
+        },
+      ],
+    },
+  },
 } as const;

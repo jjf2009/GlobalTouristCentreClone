@@ -11796,4 +11796,186 @@ export const fr = {
       inclusions: [],
     },
   },
+  luxuryPages: {
+    "mumbai-luxury": {
+      hero: {
+        title: "Voyages de Luxe à Mumbai",
+        description:
+          "Découvrez Mumbai dans un luxe absolu. Séjournez dans des hôtels emblématiques, explorez des sites historiques, savourez une gastronomie raffinée et plongez dans la culture vibrante de la capitale financière de l’Inde.",
+        discountBadge: "Jusqu’à 20 % de réduction pour réservation anticipée",
+        image: "/assets/hero/mumbai-luxury.webp",
+      },
+
+      toursSection: {
+        title: "Forfaits Touristiques Premium à Mumbai",
+        packages: [
+          {
+            image: "/assets/Luxury/Mumbai/Mumbai-thumb.webp",
+            badge: "Forfait Premium",
+            title: "Forfait Luxe Mumbai 2N/3J",
+            location: "Incontournables de Mumbai",
+            description:
+              "Découvrez le meilleur de Mumbai avec ses monuments emblématiques, son patrimoine et des hébergements de luxe lors d’un voyage de 3 jours soigneusement conçu.",
+            link: "/luxury-trips/mumbai-luxury/mumbai-luxury-package",
+          },
+        ],
+      },
+
+      infoCards: [
+        {
+          icon: "hotel",
+          title: "Séjours Hôteliers Emblématiques",
+          description:
+            "Hospitalité de classe mondiale au Taj Mahal Palace, The Oberoi et Trident Nariman Point.",
+        },
+        {
+          icon: "user-tie",
+          title: "Service Personnalisé",
+          description:
+            "Service de conciergerie dédié, guides privés et itinéraires sur mesure.",
+        },
+        {
+          icon: "utensils",
+          title: "Gastronomie Raffinée",
+          description:
+            "Restaurants sur les toits, cafés historiques, expériences chef’s table et dîners en yacht.",
+        },
+        {
+          icon: "gem",
+          title: "Accès Exclusif",
+          description:
+            "Galeries d’art privées, studios Bollywood, visites patrimoniales et shopping sur mesure.",
+        },
+      ],
+    },
+  },
+  luxuryTourPackages: {
+    "4n-5d-rajasthan-luxury-package": {
+      hero_section: {
+        type: "package-hero",
+        badge: "Forfait Premium",
+        title: "Forfait de Luxe Rajasthan 4N/5J",
+        location: "Jaipur & Udaipur – 4N/5J",
+        cta_text: "Réserver maintenant",
+        cta_link:
+          "https://wa.me/919067972295?text=Bonjour!%20Je%20suis%20intéressé(e)%20par%20le%20forfait%20de%20luxe%20Rajasthan%204N/5J%20(Jaipur%20%26%20Udaipur).%20Pouvez-vous%20me%20donner%20plus%20de%20détails?",
+        background_image: "/assets/Luxury/Rajasthan/raj1-hero.webp",
+      },
+
+      itinerary: {
+        title: "Expérience Royale à Jaipur & Udaipur",
+        days: [
+          {
+            day_title: "Jour 1 : Arrivée à Jaipur",
+            location: "Jaipur",
+            description:
+              "Arrivée à l’aéroport international de Jaipur. Accueil personnalisé et transfert privé vers l’hôtel-palais (Rambagh Palace / Jai Mahal Palace).",
+            activities: [
+              "Déjeuner et détente au palais",
+              "City Palace + Jantar Mantar + Hawa Mahal (visite guidée privée)",
+              "High tea au coucher du soleil / expérience spa",
+              "Dîner privé exclusif",
+              "Nuit à Jaipur (Hôtel-palais de luxe)",
+            ],
+          },
+          {
+            day_title: "Jour 2 : Jaipur – Journée complète",
+            location: "Jaipur",
+            description:
+              "Expérience optionnelle au lever du soleil. Visite privée du Fort d’Amber avec accès exclusif.",
+            activities: [
+              "Déjeuner traditionnel rajasthani",
+              "Albert Hall (optionnel) & shopping guidé dans les bazars",
+              "Séance photo au coucher du soleil au palais",
+              "Dîner d’adieu spécial à Jaipur",
+              "Nuit à Jaipur",
+            ],
+          },
+          {
+            day_title: "Jour 3 : Transfert vers Udaipur",
+            location: "Udaipur",
+            description:
+              "Transfert vers l’aéroport de Jaipur et vol vers Udaipur. Installation dans un palais de luxe au bord du lac (Oberoi Udaivilas / Taj Lake Palace).",
+            activities: [
+              "Déjeuner léger à l’arrivée",
+              "Croisière privée au coucher du soleil sur le lac Pichola",
+              "Temps libre / spa optionnel",
+              "Dîner royal illuminé au palais",
+              "Nuit à Udaipur",
+            ],
+          },
+          {
+            day_title: "Jour 4 : Udaipur – Journée complète",
+            location: "Udaipur",
+            description:
+              "Visite guidée privée du City Palace avec accès exclusif. Visite du temple Jagdish et promenade patrimoniale.",
+            activities: [
+              "Déjeuner gastronomique",
+              "Saheliyon-ki-Bari & musée Bagore Ki Haveli",
+              "Monsoon Palace (Sajjangarh) pour le coucher du soleil",
+              "Dîner d’adieu exclusif",
+              "Nuit à Udaipur",
+            ],
+          },
+          {
+            day_title: "Jour 5 : Départ",
+            location: "Départ",
+            description:
+              "Option : balade en bateau à l’aube ou séance de yoga. Petit-déjeuner et transfert privé vers l’aéroport d’Udaipur.",
+            activities: [],
+          },
+        ],
+      },
+
+      inclusions: [
+        {
+          icon: "fas fa-hotel",
+          title: "Hébergement de Luxe",
+          description:
+            "4 nuits dans des hôtels-palais de luxe (2N Jaipur + 2N Udaipur) avec petit-déjeuner quotidien",
+        },
+        {
+          icon: "fas fa-utensils",
+          title: "Gastronomie",
+          description:
+            "Petit-déjeuner quotidien + 3 expériences culinaires privées, incluant des dîners au palais",
+        },
+        {
+          icon: "fas fa-car",
+          title: "Transferts Privés",
+          description: "Véhicules de luxe privés et vols interurbains inclus",
+        },
+        {
+          icon: "fas fa-user-tie",
+          title: "Guides Professionnels",
+          description:
+            "Guides professionnels anglophones pour toutes les visites prévues",
+        },
+        {
+          icon: "fas fa-ship",
+          title: "Croisière sur le Lac",
+          description:
+            "Croisière privée au coucher du soleil sur le lac Pichola avec rafraîchissements",
+        },
+        {
+          icon: "fas fa-ticket-alt",
+          title: "Entrées aux Monuments",
+          description:
+            "Tous les frais d’entrée et accès prioritaire lorsque disponible",
+        },
+        {
+          icon: "fas fa-concierge-bell",
+          title: "Service de Majordome",
+          description:
+            "Service de majordome ou rituel d’accueil dans les hôtels-palais",
+        },
+        {
+          icon: "fas fa-shield-alt",
+          title: "Taxes & Assistance",
+          description:
+            "Toutes taxes locales, frais de service et assistance concierge 24h/24",
+        },
+      ],
+    },
+  },
 } as const;

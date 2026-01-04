@@ -51,7 +51,7 @@ const luxuryDestinations = [
 ---------------------------------- */
 
 export default function LuxuryDestinationsPage() {
-  const { t } = useI18n();
+  const { t,locale } = useI18n();
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -205,7 +205,7 @@ export default function LuxuryDestinationsPage() {
                     </p>
 
                     {/* CTA */}
-                    <Link href={`/luxury-destinations/${item.slug}`}>
+                    <Link href={`/${locale}/luxury-destinations/${item.slug}`}>
                       <button
                         className="
                     w-full group/btn relative
