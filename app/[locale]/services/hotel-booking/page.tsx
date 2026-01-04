@@ -7,7 +7,9 @@ import { Check, Building, Send } from "lucide-react";
 export default function HotelBookingPage() {
   const { t } = useI18n();
   const page = t.servicePages.hotelBooking;
-  const form = t.servicePages.form;
+  // Use type assertion or optional chaining to access form properties safely
+  // The translation files have been updated, but TypeScript might not pick it up immediately
+  const form = page as any;
 
   const benefits = [
     page.benefit1,
@@ -16,6 +18,25 @@ export default function HotelBookingPage() {
     page.benefit4,
     page.benefit5,
     page.benefit6,
+  ];
+
+  const faqs = [
+    {
+      question: page.faq1Question,
+      answer: page.faq1Answer,
+    },
+    {
+      question: page.faq2Question,
+      answer: page.faq2Answer,
+    },
+    {
+      question: page.faq3Question,
+      answer: page.faq3Answer,
+    },
+    {
+      question: page.faq4Question,
+      answer: page.faq4Answer,
+    },
   ];
 
   return (
@@ -128,37 +149,81 @@ export default function HotelBookingPage() {
                     type="text"
                     placeholder={form.destinationPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
                   />
                 </div>
               </div>
 
-              <div className="grid md:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Check-in
+                    {form.checkIn}
                   </label>
                   <input
                     type="date"
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Check-out
+                    {form.checkOut}
                   </label>
                   <input
                     type="date"
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
                   />
                 </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Rooms
+                    {form.guests}
                   </label>
                   <input
                     type="number"
-                    placeholder="1"
                     min="1"
+                    placeholder={form.guestsPlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.rooms}
+                  </label>
+                  <input
+                    type="number"
+                    min="1"
+                    placeholder={form.roomsPlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.category}
+                  </label>
+                  <select className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition bg-white">
+                    <option value="">{form.categoryPlaceholder}</option>
+                    <option value="luxury">Luxury (5 Star)</option>
+                    <option value="premium">Premium (4 Star)</option>
+                    <option value="standard">Standard (3 Star)</option>
+                    <option value="budget">Budget</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.budget}
+                  </label>
+                  <input
+                    type="text"
+                    placeholder={form.budgetPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                   />
                 </div>
@@ -183,6 +248,53 @@ export default function HotelBookingPage() {
                 {form.submit}
               </button>
             </form>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-emerald-950 mb-4">
+              {page.faqTitle}
+            </h2>
+            <p className="text-gray-600 text-lg">{page.faqDesc}</p>
+          </div>
+
+          <div className="space-y-4">
+            {faqs.map((faq, idx) => (
+              <div
+                key={idx}
+                className="border border-gray-200 rounded-lg overflow-hidden"
+              >
+                <details className="group">
+                  <summary className="flex justify-between items-center p-6 cursor-pointer bg-gray-50 hover:bg-gray-100 transition-colors">
+                    <h3 className="font-semibold text-lg text-emerald-950 pr-8">
+                      {faq.question}
+                    </h3>
+                    <span className="transition-transform group-open:rotate-180">
+                      <svg
+                        className="w-6 h-6 text-teal-600"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 9l-7 7-7-7"
+                        />
+                      </svg>
+                    </span>
+                  </summary>
+                  <div className="p-6 bg-white text-gray-600 leading-relaxed border-t border-gray-200">
+                    {faq.answer}
+                  </div>
+                </details>
+              </div>
+            ))}
           </div>
         </div>
       </section>
