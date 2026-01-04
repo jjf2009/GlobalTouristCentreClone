@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { HeroSection } from "@/components/hero-section";
-import { FeatureSplitSection } from "@/components/feature-split-section";
-import { ServiceFormCard } from "@/components/service-form-card";
-import { FAQSection } from "@/components/faq-section";
+// import { FeatureSplitSection } from "@/components/feature-split-section";
+// import { ServiceFormCard } from "@/components/service-form-card";
+// import { FAQSection } from "@/components/faq-section";
 
 /* ---------- METADATA ---------- */
 export const metadata: Metadata = {
@@ -23,7 +23,8 @@ export default function GroupToursPage() {
       />
 
       {/* ABOUT / BENEFITS */}
-      <FeatureSplitSection
+      {/* ABOUT / BENEFITS */}
+      {/* <FeatureSplitSection
         imageQuery="group tourists walking european street"
         title="Travel Together, Save Together"
         description="Our group tours offer the perfect blend of social connection, convenience, and value. Whether you're traveling with family, friends, or colleagues, our expertly planned itineraries take care of every detail so you can focus on enjoying the journey together."
@@ -35,7 +36,7 @@ export default function GroupToursPage() {
           "Special group activities and exclusive access",
           "Customizable options for private groups",
         ]}
-      />
+      /> */}
 
       {/* FORM SECTION */}
       <section className="bg-muted/30 py-16">
@@ -50,7 +51,7 @@ export default function GroupToursPage() {
             </p>
           </div>
 
-          <ServiceFormCard
+          {/* <ServiceFormCard
             icon="users"
             title="Let's Get Started"
             subtitle="Fill in the details below and we'll contact you within 24 hours"
@@ -103,6 +104,7 @@ export default function GroupToursPage() {
                 name: "duration",
                 label: "Trip Duration (Days)",
                 type: "number",
+                required: false,
               },
               {
                 name: "budget",
@@ -115,12 +117,13 @@ export default function GroupToursPage() {
                 type: "textarea",
               },
             ]}
-          />
+          /> */}
         </div>
       </section>
 
       {/* FAQ */}
-      <FAQSection
+      {/* FAQ */}
+      {/* <FAQSection
         title="Group Tour FAQs"
         subtitle="Common questions about our group travel services."
         items={[
@@ -148,7 +151,7 @@ export default function GroupToursPage() {
               "Typically, a 25% advance confirms the booking, with the remaining balance due before departure. Flexible payment schedules can be arranged for large groups.",
           },
         ]}
-      />
+      /> */}
     </main>
   );
 }

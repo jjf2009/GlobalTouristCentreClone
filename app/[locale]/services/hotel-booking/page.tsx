@@ -3,7 +3,7 @@ import { HeroSection } from "@/components/hero-section";
 import HomeForm from "@/app/[locale]/(home)/HomeForm";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
-import { FAQSection } from "@/components/faq-section";
+// import { FAQSection } from "@/components/faq-section";
 
 /* ---------- METADATA ---------- */
 export const metadata: Metadata = {
@@ -87,7 +87,8 @@ export default function HotelBookingPage() {
       </section>
 
       {/* FAQs */}
-      <FAQSection
+      {/* FAQs */}
+      {/* <FAQSection
         title="Hotel Booking FAQs"
         subtitle="Common questions about our hotel booking services."
         items={[
@@ -114,7 +115,7 @@ export default function HotelBookingPage() {
               "Yes. We can manage multi-city hotel bookings seamlessly under a single travel plan.",
           },
         ]}
-      />
+      /> */}
     </main>
   );
 }
