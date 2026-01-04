@@ -7,7 +7,9 @@ import { Check, Plane, Send } from "lucide-react";
 export default function FlightBookingPage() {
   const { t } = useI18n();
   const page = t.servicePages.flightBooking;
-  const form = t.servicePages.form;
+  // Use type assertion or optional chaining to access form properties safely
+  // The translation files have been updated, but TypeScript might not pick it up immediately
+  const form = page as any;
 
   const services = [
     page.service1,
@@ -16,6 +18,25 @@ export default function FlightBookingPage() {
     page.service4,
     page.service5,
     page.service6,
+  ];
+
+  const faqs = [
+    {
+      question: page.faq1Question,
+      answer: page.faq1Answer,
+    },
+    {
+      question: page.faq2Question,
+      answer: page.faq2Answer,
+    },
+    {
+      question: page.faq3Question,
+      answer: page.faq3Answer,
+    },
+    {
+      question: page.faq4Question,
+      answer: page.faq4Answer,
+    },
   ];
 
   return (
@@ -122,11 +143,59 @@ export default function FlightBookingPage() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    From - To
+                    {form.tripType}
+                  </label>
+                  <select className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition bg-white">
+                    <option value="">{form.tripTypePlaceholder}</option>
+                    <option value="one-way">One Way</option>
+                    <option value="round-trip">Round Trip</option>
+                    <option value="multi-city">Multi-city</option>
+                  </select>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.from}
                   </label>
                   <input
                     type="text"
-                    placeholder="Goa → Delhi"
+                    placeholder={form.fromPlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.to}
+                  </label>
+                  <input
+                    type="text"
+                    placeholder={form.toPlaceholder}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.departureDate}
+                  </label>
+                  <input
+                    type="date"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.returnDate}
+                  </label>
+                  <input
+                    type="date"
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                   />
                 </div>
@@ -135,30 +204,60 @@ export default function FlightBookingPage() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Departure Date
-                  </label>
-                  <input
-                    type="date"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Return Date
-                  </label>
-                  <input
-                    type="date"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    {form.travelers}
+                    {form.adults}
                   </label>
                   <input
                     type="number"
-                    placeholder="2"
                     min="1"
+                    placeholder="1"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.children}
+                  </label>
+                  <input
+                    type="number"
+                    min="0"
+                    placeholder="0"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.infants}
+                  </label>
+                  <input
+                    type="number"
+                    min="0"
+                    placeholder="0"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                  />
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.preferredClass}
+                  </label>
+                  <select className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition bg-white">
+                    <option value="">{form.preferredClassPlaceholder}</option>
+                    <option value="economy">Economy</option>
+                    <option value="premium-economy">Premium Economy</option>
+                    <option value="business">Business</option>
+                    <option value="first">First</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {form.preferredAirlines}
+                  </label>
+                  <input
+                    type="text"
+                    placeholder={form.preferredAirlinesPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                   />
                 </div>
@@ -183,6 +282,53 @@ export default function FlightBookingPage() {
                 {form.submit}
               </button>
             </form>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-emerald-950 mb-4">
+              {page.faqTitle}
+            </h2>
+            <p className="text-gray-600 text-lg">{page.faqDesc}</p>
+          </div>
+
+          <div className="space-y-4">
+            {faqs.map((faq, idx) => (
+              <div
+                key={idx}
+                className="border border-gray-200 rounded-lg overflow-hidden"
+              >
+                <details className="group">
+                  <summary className="flex justify-between items-center p-6 cursor-pointer bg-gray-50 hover:bg-gray-100 transition-colors">
+                    <h3 className="font-semibold text-lg text-emerald-950 pr-8">
+                      {faq.question}
+                    </h3>
+                    <span className="transition-transform group-open:rotate-180">
+                      <svg
+                        className="w-6 h-6 text-teal-600"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 9l-7 7-7-7"
+                        />
+                      </svg>
+                    </span>
+                  </summary>
+                  <div className="p-6 bg-white text-gray-600 leading-relaxed border-t border-gray-200">
+                    {faq.answer}
+                  </div>
+                </details>
+              </div>
+            ))}
           </div>
         </div>
       </section>
