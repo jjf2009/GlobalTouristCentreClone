@@ -11775,21 +11775,21 @@ export const it = {
       hero: {
         title: "Tour di Lusso a Mumbai",
         description:
-          "Vivi Mumbai nel massimo lusso. Soggiorna in hotel iconici, esplora siti storici, gusta l’alta cucina e scopri la vibrante cultura della capitale finanziaria dell’India.",
-        discountBadge: "Fino al 20% di sconto per prenotazioni anticipate",
+          "Scopri la «Città del Massimo» nel massimo del lusso. Soggiorna in hotel iconici, esplora siti storici, goditi la cucina raffinata e scopri la vibrante cultura della capitale finanziaria dell'India.",
+        discountBadge: "Fino al 20% di SCONTO sulle prenotazioni anticipate",
         image: "/assets/hero/mumbai-luxury.webp",
       },
 
       toursSection: {
-        title: "Pacchetti Tour Premium a Mumbai",
+        title: "Pacchetti Viaggio Premium a Mumbai",
         packages: [
           {
             image: "/assets/Luxury/Mumbai/Mumbai-thumb.webp",
             badge: "Pacchetto Premium",
-            title: "Pacchetto di Lusso Mumbai 2N/3G",
-            location: "Attrazioni Principali di Mumbai",
+            title: "Pacchetto Lusso Mumbai 2N/3G",
+            location: "Punti salienti della città di Mumbai",
             description:
-              "Scopri il meglio di Mumbai con monumenti iconici, patrimonio culturale e sistemazioni di lusso in un viaggio curato di 3 giorni.",
+              "Scopri il meglio di Mumbai con monumenti iconici, siti storici e sistemazioni di lusso in questo viaggio di 3 giorni perfettamente curato.",
             link: "/luxury-trips/mumbai-luxury/mumbai-luxury-package",
           },
         ],
@@ -11800,7 +11800,7 @@ export const it = {
           icon: "hotel",
           title: "Soggiorni in Hotel Iconici",
           description:
-            "Ospitalità di livello mondiale al Taj Mahal Palace, The Oberoi e Trident Nariman Point.",
+            "Ospitalità di classe mondiale al Taj Mahal Palace, The Oberoi e Trident Nariman Point.",
         },
         {
           icon: "user-tie",
@@ -11810,147 +11810,723 @@ export const it = {
         },
         {
           icon: "utensils",
-          title: "Alta Gastronomia",
+          title: "Cucina Gourmet",
           description:
-            "Ristoranti panoramici, caffè storici, esperienze chef’s table e cene in yacht.",
+            "Ristoranti panoramici, caffè storici, esperienze a tavola con lo chef e cene in yacht.",
         },
         {
           icon: "gem",
           title: "Accesso Esclusivo",
           description:
-            "Gallerie d’arte private, studi di Bollywood, tour storici e shopping curato.",
+            "Gallerie d'arte private, studi di Bollywood, passeggiate storiche e shopping curato.",
         },
       ],
     },
-  },
-  luxuryTourPackages: {
-    "4n-5d-rajasthan-luxury-package": {
-      hero_section: {
-        type: "package-hero",
-        badge: "Pacchetto Premium",
-        title: "Pacchetto di Lusso Rajasthan 4N/5G",
-        location: "Jaipur & Udaipur – 4N/5G",
-        cta_text: "Prenota ora",
-        cta_link:
-          "https://wa.me/919067972295?text=Ciao!%20Sono%20interessato/a%20al%20Pacchetto%20di%20Lusso%20Rajasthan%204N/5G%20(Jaipur%20%26%20Udaipur).%20Potresti%20fornirmi%20maggiori%20dettagli?",
-        background_image: "/assets/Luxury/Rajasthan/raj1-hero.webp",
+
+    "golden-triangle-luxury": {
+      hero: {
+        title: "Tour di Lusso Triangolo d'Oro",
+        description:
+          "Scopri il circuito culturale più iconico dell'India in un lusso senza pari tra Delhi, Agra e Jaipur.",
+        discountBadge: "Fino al 25% di SCONTO sulle prenotazioni anticipate",
+        image: "/assets/hero/golden-triangle-luxury.webp",
       },
 
-      itinerary: {
-        title: "Esperienza Reale a Jaipur & Udaipur",
-        days: [
+      toursSection: {
+        title: "Pacchetti Premium Triangolo d'Oro",
+        packages: [
           {
-            day_title: "Giorno 1: Arrivo a Jaipur",
-            location: "Jaipur",
+            image: "/assets/Luxury/Golden Triangle/golden-triangle-thumb.webp",
+            badge: "Pacchetto Premium",
+            title: "Pacchetto Lusso Triangolo d'Oro 4N/5G",
+            location: "Delhi, Agra e Jaipur",
             description:
-              "Arrivo all’Aeroporto Internazionale di Jaipur. Accoglienza personalizzata e trasferimento privato all’hotel-palazzo (Rambagh Palace / Jai Mahal Palace).",
-            activities: [
-              "Pranzo e relax al palazzo",
-              "City Palace + Jantar Mantar + Hawa Mahal (visita guidata privata)",
-              "High tea al tramonto / esperienza spa",
-              "Cena privata esclusiva",
-              "Pernottamento a Jaipur (Hotel Palazzo di Lusso)",
-            ],
+              "Un tour di lusso condensato che copre tutti i punti salienti con soggiorni in hotel a 5 stelle.",
+            link: "/luxury-trips/golden-triangle-luxury/golden-triangle-luxury-package",
           },
           {
-            day_title: "Giorno 2: Jaipur – Intera Giornata",
-            location: "Jaipur",
+            image: "/assets/Luxury/Golden Triangle/Golden-Triangle2-thumb.webp",
+            badge: "Pacchetto Premium",
+            title: "Pacchetto Lusso Triangolo d'Oro 6N/7G",
+            location: "Delhi, Agra e Jaipur",
             description:
-              "Esperienza opzionale all’alba. Visita privata al Forte Amber con accesso esclusivo.",
-            activities: [
-              "Pranzo tradizionale rajasthano",
-              "Albert Hall (opzionale) e shopping guidato nei bazar",
-              "Sessione fotografica al tramonto nel palazzo",
-              "Cena di arrivederci speciale a Jaipur",
-              "Pernottamento a Jaipur",
-            ],
-          },
-          {
-            day_title: "Giorno 3: Trasferimento a Udaipur",
-            location: "Udaipur",
-            description:
-              "Trasferimento all’aeroporto di Jaipur e volo per Udaipur. Check-in in un palazzo di lusso sul lago (Oberoi Udaivilas / Taj Lake Palace).",
-            activities: [
-              "Pranzo leggero all’arrivo",
-              "Crociera privata al tramonto sul Lago Pichola",
-              "Tempo libero / spa opzionale",
-              "Cena serale illuminata nel palazzo",
-              "Pernottamento a Udaipur",
-            ],
-          },
-          {
-            day_title: "Giorno 4: Udaipur – Intera Giornata",
-            location: "Udaipur",
-            description:
-              "Visita guidata privata del City Palace con accesso esclusivo. Visita al Tempio Jagdish e passeggiata culturale.",
-            activities: [
-              "Pranzo gourmet",
-              "Saheliyon-ki-Bari e Museo Bagore Ki Haveli",
-              "Monsoon Palace (Sajjangarh) per il tramonto",
-              "Cena di addio esclusiva",
-              "Pernottamento a Udaipur",
-            ],
-          },
-          {
-            day_title: "Giorno 5: Partenza",
-            location: "Partenza",
-            description:
-              "Opzionale: esperienza in barca all’alba o sessione yoga. Colazione e trasferimento privato all’aeroporto di Udaipur.",
-            activities: [],
+              "Il nostro itinerario più popolare con soggiorni in palazzi e cene gourmet.",
+            link: "/luxury-trips/golden-triangle-luxury/6n-7d-golden-triangle-luxury-tour-package",
           },
         ],
       },
 
-      inclusions: [
+      infoCards: [
         {
-          icon: "fas fa-hotel",
-          title: "Alloggio di Lusso",
+          icon: "crown",
+          title: "Soggiorni in Palazzi Storici",
           description:
-            "4 notti in hotel-palazzo di lusso (2N Jaipur + 2N Udaipur) con colazione giornaliera",
+            "Soggiorna in ex palazzi reali come il Rambagh Palace e l'Oberoi Amarvilas.",
         },
         {
-          icon: "fas fa-utensils",
-          title: "Esperienze Gastronomiche",
+          icon: "user-tie",
+          title: "Tour con Guide Esperte",
           description:
-            "Colazione giornaliera + 3 esperienze culinarie private incluse cene nei palazzi",
+            "Tour personalizzati guidati da esperti storici e guide locali.",
         },
         {
-          icon: "fas fa-car",
-          title: "Trasferimenti Privati",
+          icon: "utensils",
+          title: "Cucina Gourmet",
           description:
-            "Trasferimenti privati in veicoli di lusso e voli interni inclusi",
+            "Banchetti reali, cene con vista sul Taj Mahal e ristoranti pluripremiati.",
         },
         {
-          icon: "fas fa-user-tie",
-          title: "Guide Professionali",
+          icon: "gem",
+          title: "Accesso Esclusivo",
           description:
-            "Guide professionali parlanti inglese per tutte le visite programmate",
+            "Visite al Taj all'alba, accesso privato ai monumenti e spettacoli curati.",
+        },
+      ],
+    },
+
+    "kerala-luxury": {
+      hero: {
+        title: "Tour di Lusso in Kerala",
+        description:
+          "Naviga tra le serene backwaters, soggiorna in case galleggianti premium, rigenerati con l'ayurveda ed esplora rigogliose stazioni collinari.",
+        discountBadge: "Fino al 30% di SCONTO sulle prenotazioni anticipate",
+        image: "/assets/hero/kerala-luxury.webp",
+      },
+
+      toursSection: {
+        title: "Pacchetti Viaggio Premium Kerala",
+        packages: [
+          {
+            image: "/assets/Luxury/Kerala/kerala1-thumb.webp",
+            badge: "Pacchetto Premium",
+            title: "Pacchetto Lusso Kerala 4N/5G",
+            location: "Cochin, Munnar e Alleppey",
+            description:
+              "Backwaters, stazioni collinari e patrimonio culturale in un viaggio curato.",
+            link: "/itinerary/luxury-trips/kerala-luxury-package",
+          },
+          {
+            image: "/assets/Luxury/Kerala/kerala2-thumb.webp",
+            badge: "Pacchetto Premium",
+            title: "Pacchetto Lusso Kerala 6N/7G",
+            location: "Cochin, Munnar, Thekkady e Alleppey",
+            description:
+              "Case galleggianti di lusso, esperienze naturalistiche e resort collinari premium.",
+            link: "/itinerary/luxury-trips/kerala-luxury-tour-package",
+          },
+        ],
+      },
+
+      infoCards: [
+        {
+          icon: "ship",
+          title: "Houseboat di Lusso",
+          description:
+            "Case galleggianti premium con ponti privati e ristorazione gourmet.",
         },
         {
-          icon: "fas fa-ship",
-          title: "Crociere sul Lago",
-          description:
-            "Crociera privata al tramonto sul Lago Pichola con rinfreschi",
+          icon: "spa",
+          title: "Ayurveda e Benessere",
+          description: "Autentici trattamenti ayurvedici e programmi di benessere.",
         },
         {
-          icon: "fas fa-ticket-alt",
-          title: "Ingressi ai Monumenti",
-          description:
-            "Tutti i biglietti di ingresso e accesso prioritario dove disponibile",
+          icon: "utensils",
+          title: "Cucina Gourmet",
+          description: "Tradizionale Kerala Sadya e banchetti di pesce.",
         },
         {
-          icon: "fas fa-concierge-bell",
-          title: "Servizio Maggiordomo",
+          icon: "gem",
+          title: "Accesso Esclusivo",
           description:
-            "Servizio maggiordomo o rituale di benvenuto negli hotel-palazzo",
+            "Rotte private tra le backwaters ed esperienze culturali curate.",
+        },
+      ],
+    },
+
+    "rajasthan-luxury": {
+      hero: {
+        title: "Tour Reali nel Rajasthan",
+        description:
+          "Soggiorna in maestosi palazzi, esplora antiche fortezze e vivi l'eredità reale dell'India.",
+        discountBadge: "Fino al 30% di SCONTO sulle prenotazioni anticipate",
+        image: "/assets/hero/rajasthan-luxury.webp",
+      },
+
+      toursSection: {
+        title: "Pacchetti Viaggio Premium Rajasthan",
+        packages: [
+          {
+            image: "/assets/Luxury/Rajasthan/Rajasthan2-thumb.webp",
+            badge: "Pacchetto Premium",
+            title: "Pacchetto Lusso Rajasthan 4N/5G",
+            location: "Jaipur e Udaipur",
+            description:
+              "Palazzi reali e laghi romantici in una fuga curata.",
+            link: "/luxury-trips/rajasthan-luxury/4n-5d-rajasthan-luxury-package",
+          },
+          {
+            image: "/assets/Luxury/Rajasthan/Rajasthan3-thumb.webp",
+            badge: "Pacchetto Premium",
+            title: "Pacchetto Lusso Rajasthan 6N/7G",
+            location: "Jaipur, Jodhpur e Udaipur",
+            description:
+              "Soggiorni in palazzi e immersione culturale tra le città reali.",
+            link: "/luxury-trips/rajasthan-luxury/6n-7d-rajasthan-luxury-package",
+          },
+          {
+            image: "/assets/Luxury/Rajasthan/Rajasthan4-thumb.webp",
+            badge: "Pacchetto Ultra Premium",
+            title: "Pacchetto Lusso Rajasthan 8N/9G",
+            location: "Jaipur, Udaipur, Jodhpur e Ranthambore",
+            description: "Palazzi, forti e safari naturalistici in un unico viaggio.",
+            link: "/luxury-trips/rajasthan-luxury/rajasthan-luxury-package",
+          },
+        ],
+      },
+
+      infoCards: [
+        {
+          icon: "crown",
+          title: "Soggiorni in Palazzi Reali",
+          description:
+            "Soggiorna negli ex palazzi dei Maharaja come il Rambagh e l'Umaid Bhawan.",
         },
         {
-          icon: "fas fa-shield-alt",
-          title: "Tasse e Assistenza",
+          icon: "user-tie",
+          title: "Servizio Personalizzato",
           description:
-            "Tutte le tasse locali, costi di servizio e assistenza concierge 24/7",
+            "Maggiordomi dedicati, guide private e itinerari su misura.",
+        },
+        {
+          icon: "utensils",
+          title: "Cucina Gourmet",
+          description: "Cene nei cortili dei palazzi e banchetti reali del Rajasthan.",
+        },
+        {
+          icon: "gem",
+          title: "Accesso Esclusivo",
+          description:
+            "Accesso limitato alle fortezze e spettacoli culturali privati.",
+        },
+      ],
+    },
+
+    "karnataka-luxury": {
+      hero: {
+        title: "Tour di Lusso in Karnataka",
+        description:
+          "Palazzi reali, safari naturalistici, stazioni collinari e città moderne combinati nel lusso.",
+        discountBadge: "Fino al 25% di SCONTO sulle prenotazioni anticipate",
+        image: "/assets/hero/karnataka-luxury.webp",
+      },
+
+      toursSection: {
+        title: "Pacchetti Viaggio Premium Karnataka",
+        packages: [
+          {
+            image: "/assets/Luxury/Karnataka/Karnataka-thumb.webp",
+            badge: "Pacchetto Premium",
+            title: "Pacchetto Lusso Karnataka 7N/8G",
+            location: "Bangalore, Mysore e Ooty",
+            description:
+              "Patrimonio culturale, natura e rifugi collinari in un unico viaggio.",
+            link: "/luxury-trips/karnataka-luxury/karnataka-luxury-package",
+          },
+        ],
+      },
+
+      infoCards: [
+        {
+          icon: "landmark",
+          title: "Soggiorni Storici Reali",
+          description: "Palazzi storici e resort collinari di lusso.",
+        },
+        {
+          icon: "user-tie",
+          title: "Servizio Personalizzato",
+          description: "Guide private e itinerari su misura.",
+        },
+        {
+          icon: "utensils",
+          title: "Cucina Gourmet",
+          description: "Cucina tradizionale del Karnataka e cene esclusive.",
+        },
+        {
+          icon: "gem",
+          title: "Accesso Esclusivo",
+          description: "Spettacoli culturali privati e visite guidate al patrimonio.",
         },
       ],
     },
   },
+  luxuryTourPackage:{
+  "4n-5d-rajasthan-luxury-package": {
+    hero_section: {
+      type: "package-hero",
+      badge: "Pacchetto Premium",
+      title: "Rajasthan Luxury Experience (4N/5G)",
+      location: "Jaipur & Udaipur - 4 Notti / 5 Giorni",
+      cta_text: "Prenota Ora",
+      cta_link: "https://wa.me/919067972295?text=Salve!%20Sono%20interessato%20al%20Pacchetto%20di%20Lusso%20in%20Rajasthan%20di%204N/5G%20(Jaipur%20e%20Udaipur).%20Potrebbe%20fornirmi%20maggiori%20dettagli?",
+      background_image: "/assets/Luxury/Rajasthan/raj1-hero.webp"
+    },
+    itinerary: {
+      title: "Esperienza Reale tra Jaipur e Udaipur",
+      days: [
+        {
+          day_title: "Giorno 1: Arrivo a Jaipur",
+          location: "Jaipur",
+          description: "Arrivo all'Aeroporto Internazionale di Jaipur. Cerimonia di benvenuto e trasferimento privato in hotel palazzo (Rambagh Palace / Jai Mahal Palace).",
+          activities: [
+            "Pranzo e relax a palazzo",
+            "Tour privato con guida: City Palace, Jantar Mantar e Hawa Mahal",
+            "High tea al tramonto o esperienza Spa",
+            "Cena privata esclusiva",
+            "Pernottamento a Jaipur (Hotel Palazzo di Lusso)"
+          ]
+        },
+        {
+          day_title: "Giorno 3: Trasferimento a Udaipur",
+          location: "Udaipur",
+          description: "Trasferimento all'aeroporto di Jaipur per il volo verso Udaipur. Check-in presso un lussuoso palazzo sul lago (Oberoi Udaivilas / Taj Lake Palace).",
+          activities: [
+            "Pranzo leggero all'arrivo",
+            "Crociera privata sul Lago Pichola al tramonto",
+            "Tempo libero o trattamenti Spa opzionali",
+            "Cena di gala illuminata a palazzo",
+            "Pernottamento a Udaipur (Hotel Palazzo di Lusso)"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        icon: "fas fa-hotel",
+        title: "Soggiorno di Lusso",
+        description: "4 notti in hotel palazzo (2N Jaipur + 2N Udaipur) con colazione inclusa"
+      },
+      {
+        icon: "fas fa-ship",
+        title: "Crociera sul Lago",
+        description: "Crociera privata al tramonto sul Lago Pichola con rinfreschi"
+      },
+      {
+        icon: "fas fa-concierge-bell",
+        title: "Servizio Maggiordomo",
+        description: "Servizio di maggiordomo o rituale di benvenuto in camera negli hotel palazzo"
+      }
+    ]
+  },
+  "6n-7d-golden-triangle-luxury-tour-package": {
+    file_name: "6n-7d-golden-triangle-luxury-tour-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Pacchetto Premium",
+      title: "Triangolo d'Oro di Lusso (6N/7G)",
+      location: "Delhi, Agra, Jaipur - 6 Notti / 7 Giorni",
+      cta_text: "Prenota Ora",
+      background_image: "/assets/Luxury/Golden Triangle/hero.webp"
+    },
+    itinerary: {
+      title: "Viaggio nel Cuore Culturale dell'India",
+      days: [
+        {
+          day_title: "Giorno 01: Arrivo a Delhi",
+          location: "Delhi",
+          description: "Arrivo all'Aeroporto Internazionale di Delhi. Trasferimento privato di lusso in hotel (The Imperial / The Oberoi / ITC Maurya).",
+          activities: [
+            "Cena di benvenuto presso Indian Accent o Bukhara (fine dining)",
+            "Pernottamento a Delhi"
+          ]
+        },
+        {
+          day_title: "Giorno 04: Alla scoperta di Agra",
+          location: "Agra",
+          description: "Al mattino presto: visita del Taj Mahal all'alba. Rientro in hotel per la colazione e tempo per il relax.",
+          activities: [
+            "Passeggiata nell'eredità Moghul o Spa di lusso",
+            "Pernottamento ad Agra"
+          ]
+        },
+        {
+          day_title: "Giorno 06: Tour Completo di Jaipur",
+          location: "Jaipur",
+          description: "Esplorazione della 'Città Rosa': Forte Amber (salita in jeep o elefante), City Palace, Jantar Mantar e Hawa Mahal.",
+          activities: [
+            "Shopping curato di gemme, tessuti e artigianato",
+            "Opzionale: Cena Reale presso '1135 AD' (Forte Amber) o cena a palazzo",
+            "Pernottamento a Jaipur"
+          ]
+        }
+      ]
+    },
+    accommodations: [
+      {
+        name: "The Oberoi Amarvilas",
+        location: "Agra, India",
+        description: "Resort di lusso che offre una vista mozzafiato sul Taj Mahal da ogni camera, con architettura ispirata allo stile Moghul.",
+        rating: 5
+      }
+    ]
+  },
+  "6n-7d-rajasthan-luxury-package": {
+    file_name: "6N-7D-rajasthan-luxury-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Pacchetto Premium",
+      title: "Gran Tour del Rajasthan di Lusso (6N/7G)",
+      location: "Jaipur, Jodhpur e Udaipur - 6 Notti / 7 Giorni",
+      cta_text: "Prenota Ora",
+      background_image: "/assets/Luxury/Rajasthan/raj2-hero.webp"
+    },
+    itinerary: {
+      title: "Il Triangolo Reale: Jaipur, Jodhpur e Udaipur",
+      days: [
+        {
+          day_title: "Giorno 3: Trasferimento a Jodhpur",
+          location: "Jodhpur",
+          description: "Trasferimento all'aeroporto di Jaipur per un breve volo verso Jodhpur. Check-in presso un palazzo di lusso (Umaid Bhawan Palace / RAAS).",
+          activities: [
+            "Relax a palazzo",
+            "Tour privato del Forte Mehrangarh al tramonto",
+            "Cena privata in terrazza con vista sul forte",
+            "Pernottamento a Jodhpur (Hotel Palazzo di Lusso)"
+          ]
+        },
+        {
+          day_title: "Giorno 5: Verso la romantica Udaipur",
+          location: "Udaipur",
+          description: "Volo per Udaipur o viaggio panoramico con soste selezionate. Check-in presso un palazzo sul lago.",
+          activities: [
+            "Crociera privata sul Lago Pichola con champagne e canapés",
+            "Cena privata in riva al lago con musica classica",
+            "Pernottamento a Udaipur"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        icon: "fas fa-plane",
+        title: "Voli Interni",
+        description: "Voli domestici tra le città (classe economica o business su richiesta)"
+      },
+      {
+        icon: "fas fa-gem",
+        title: "Esperienze Private",
+        description: "3 esperienze esclusive (Chef's table, shopping privato, sessione fotografica)"
+      }
+    ]
+  },
+  "golden-triangle-luxury-package": {
+    file_name: "golden-triangle-luxury-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Pacchetto Premium",
+      title: "Tour di Lusso Triangolo d'Oro 4N/5G (DELHI, AGRA, JAIPUR)",
+      location: "Delhi, Agra, Jaipur - 4 Notti / 5 Giorni",
+      cta_text: "Prenota Ora",
+      cta_link: "https://wa.me/919067972295?text=Salve!%20Sono%20interessato%20al%20Pacchetto%20di%20Lusso%20Triangolo%20d'Oro%204N/5G.%20Potrebbe%20fornirmi%20maggiori%20dettagli?",
+      background_image: "/assets/Luxury/Golden Triangle/hero.webp"
+    },
+    itinerary: {
+      title: "Viaggio nel Cuore Culturale dell'India",
+      days: [
+        {
+          day_title: "Giorno 01: Arrivo a Delhi (1 Notte)",
+          location: "Delhi",
+          description: "Arrivo all'aeroporto di Delhi. Trasferimento privato presso il vostro Hotel di Lusso 5★ (The Imperial / The Oberoi / ITC Maurya).",
+          activities: [
+            "Cena di benvenuto presso Bukhara / Indian Accent (ristorazione d'eccellenza)",
+            "Pernottamento a Delhi"
+          ]
+        },
+        {
+          day_title: "Giorno 02: Delhi → Agra (1 Notte)",
+          location: "Agra",
+          description: "Colazione in hotel. Partenza per Agra (circa 3,5 ore via Yamuna Expressway). Lungo il percorso, visita opzionale del Tempio Akshardham.",
+          activities: [
+            "Spa di lusso o passeggiata nell'eredità Moghul",
+            "Pernottamento ad Agra (The Oberoi Amarvilas – hotel di lusso con vista sul Taj Mahal)"
+          ]
+        },
+        {
+          day_title: "Giorno 03: Agra → Jaipur (2 Notti)",
+          location: "Jaipur",
+          description: "Visita del Taj Mahal all'alba (luce migliore e meno folla). Rientro per colazione e check-out.",
+          activities: [
+            "Serata di svago con musica folk del Rajasthan e cena",
+            "Pernottamento a Jaipur (Taj Rambagh Palace / Fairmont / The Oberoi Rajvilas)"
+          ]
+        },
+        {
+          day_title: "Giorno 04: Visita Guidata di Jaipur",
+          location: "Jaipur",
+          description: "Colazione in hotel. Giornata intera dedicata alla visita guidata di Jaipur: Forte di Amber (salita in elefante o jeep), City Palace e Museo, Osservatorio Jantar Mantar (Sito UNESCO), Hawa Mahal (Palazzo dei Venti) – sosta fotografica.",
+          activities: [
+            "Visita ai mercati artigianali locali / shopping di lusso",
+            "Cena presso 1135 AD (Forte di Amber) o esperienza culinaria reale privata in hotel",
+            "Pernottamento a Jaipur"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        title: "Soggiorni di Lusso",
+        description: "1N Delhi, 1N Agra (camera vista Taj), 2N Jaipur (Palazzi o Resort di lusso)"
+      },
+      {
+        title: "Trasferimenti Privati",
+        description: "Veicolo AC di lusso privato con autista parlante inglese"
+      }
+    ]
+  },
+  "karnataka-luxury-package": {
+    file_name: "Karnataka-Luxury-Package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Pacchetto Premium",
+      title: "Tour di Lusso Karnataka 7N/8G (Bangalore, Mysore, Ooty)",
+      location: "Bangalore, Mysore, Bandipur e Ooty - 7N/8G",
+      cta_text: "Prenota Ora",
+      background_image: "/assets/Luxury/Karnataka/hero.webp"
+    },
+    itinerary: {
+      title: "Viaggio tra l'Eredità Reale e la Bellezza Naturale del Karnataka",
+      days: [
+        {
+          day_title: "Giorno 01: Arrivo a Bengaluru (1N)",
+          location: "Bengaluru",
+          description: "Arrivo all'aeroporto internazionale di Bengaluru. Trasferimento privato di lusso in un hotel 5★. Tempo libero: spa dell'hotel o shopping privato a UB City.",
+          activities: [
+            "Prenotazione cena gourmet (rooftop o fine-dining)",
+            "Pernottamento presso The Ritz-Carlton, Bangalore o simile"
+          ]
+        },
+        {
+          day_title: "Giorno 05: Safari a Bandipur → Ooty",
+          location: "Bandipur e Ooty",
+          description: "Safari mattutino privato in jeep a Bandipur (2–3 ore). Rientro per colazione e partenza per Ooty. Check-in presso il Savoy, Ooty (IHCL SeleQtions).",
+          activities: ["Pernottamento a Ooty"]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        title: "Safari Naturalistico",
+        description: "Safari privato in jeep a Bandipur con naturalista esperto e permessi inclusi"
+      }
+    ]
+  },
+  "kerala-luxury-package": {
+    file_name: "Kerala-luxury-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Pacchetto Premium",
+      title: "Tour di Lusso Kerala 4N/5G (Cochin, Alleppey, Munnar)",
+      location: "Cochin, Munnar, Alleppey - 4N/5G",
+      cta_text: "Prenota Ora",
+      background_image: "/assets/Luxury/Kerala/hero-backwaters.webp"
+    },
+    itinerary: {
+      title: "Viaggio nella 'Terra di Dio'",
+      days: [
+        {
+          day_title: "Giorno 01: Arrivo a Cochin (1 Notte)",
+          location: "Cochin",
+          description: "Arrivo a Cochin. Trasferimento privato di lusso in hotel 5★. Pomeriggio dedicato alla visita di Fort Kochi, del Palazzo di Mattancherry e delle reti da pesca cinesi.",
+          activities: [
+            "Spettacolo serale di danza Kathakali o crociera con cena di lusso",
+            "Pernottamento a Cochin"
+          ]
+        },
+        {
+          day_title: "Giorno 04: Munnar → Alleppey (Soggiorno in Houseboat)",
+          location: "Alleppey",
+          description: "Partenza per Alleppey. Check-in su una Houseboat Privata di Lusso. Navigazione tra le lagune, i campi di riso e i palmeti. Pranzo e cena tradizionali a bordo.",
+          activities: [
+            "Tramonto dal ponte della houseboat",
+            "Pernottamento in Houseboat di Lusso"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        title: "Esperienza in Houseboat",
+        description: "1 Notte in Houseboat Privata di Lusso con tutti i pasti inclusi"
+      },
+      {
+        title: "Benessere e Cultura",
+        description: "1 sessione di Spa/Ayurveda, spettacolo Kathakali e giro in barca sul lago Kundala"
+      }
+    ]
+  },
+  "mumbai-luxury-package": {
+    file_name: "mumbai-luxury-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Pacchetto Premium",
+      title: "Soggiorno di Lusso a Mumbai (2N/3G)",
+      location: "Mumbai, India - Il Taj e le Icone della Città",
+      cta_text: "Prenota Ora",
+      cta_link: "https://wa.me/919067972295?text=Salve!%20Sono%20interessato%20al%20Pacchetto%20di%20Lusso%20a%20Mumbai%20di%202N/3G.%20Potrebbe%20fornirmi%20maggiori%20dettagli?",
+      background_image: "/assets/Luxury/Mumbai/mumbai-hero.webp"
+    },
+    itinerary: {
+      title: "Vivi il Glamour e l'Eredità di Mumbai",
+      days: [
+        {
+          day_title: "Giorno 01: Arrivo a Mumbai",
+          location: "Mumbai",
+          description: "Arrivo all'Aeroporto Internazionale Chhatrapati Shivaji Maharaj. Trasferimento privato di lusso verso il vostro Hotel 5★ (Taj Mahal Palace / The Oberoi / Trident Nariman Point).",
+          activities: [
+            "Visite pomeridiane: Gateway of India, Marine Drive, spiaggia di Chowpatty, Colaba Causeway",
+            "Opzionale: Esperienza gastronomica in un lussuoso ristorante panoramico",
+            "Pernottamento in Hotel di Lusso a Mumbai"
+          ]
+        },
+        {
+          day_title: "Giorno 02: Esperienza di Lusso a Mumbai",
+          location: "Mumbai",
+          description: "Colazione in hotel. Escursione mattutina alle Grotte di Elephanta (sito UNESCO) in traghetto. Rientro e pranzo in un caffè storico (Leopold Café o ristorante di lusso).",
+          activities: [
+            "Pomeriggio: Museo Prince of Wales, Dhobi Ghat, Mani Bhavan",
+            "Sera: Traversata del ponte Bandra-Worli al tramonto",
+            "Esplorazione di Bandra tra boutique, caffè e atmosfere Bollywood",
+            "Pernottamento in Hotel di Lusso a Mumbai"
+          ]
+        },
+        {
+          day_title: "Giorno 03: Partenza da Mumbai",
+          location: "Partenza",
+          description: "Colazione in hotel. In base all'orario del volo, shopping presso High Street Phoenix / Palladium Mall o visita al Tempio Siddhivinayak per un tocco culturale.",
+          activities: [
+            "Trasferimento privato in aeroporto con i ricordi di una vacanza esclusiva"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        icon: "fas fa-hotel",
+        title: "Soggiorno di Lusso",
+        description: "2 notti in Hotel di Lusso 5★ (The Taj Mahal Palace / The Oberoi / Trident)"
+      },
+      {
+        icon: "fas fa-car",
+        title: "Trasferimenti Privati",
+        description: "Auto di lusso privata con aria condizionata per visite e trasferimenti"
+      }
+    ]
+  },
+  "rajasthan-luxury-package": {
+    file_name: "rajasthan-luxury-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Pacchetto Ultra Premium",
+      title: "Gran Tour del Rajasthan di Lusso (8N/9G)",
+      location: "Jaipur, Udaipur, Jodhpur, Ranthambore - 8N/9G",
+      cta_text: "Prenota Ora",
+      background_image: "/assets/Luxury/Rajasthan/raj3-hero.webp"
+    },
+    itinerary: {
+      title: "Viaggio Reale in Rajasthan tra Palazzi e Forti",
+      days: [
+        {
+          day_title: "Giorno 1: Arrivo a Jaipur",
+          location: "Jaipur",
+          description: "Arrivo all'Aeroporto Internazionale di Jaipur. Trasferimento privato verso il vostro hotel palazzo (Rambagh Palace / Jai Mahal Palace). Accoglienza reale e check-in prioritario.",
+          activities: [
+            "Pranzo rilassante e rituale Spa signature",
+            "Tardo pomeriggio: Visita privata di City Palace e Jantar Mantar",
+            "Cena privata nel cortile con musica classica del Rajasthan",
+            "Pernottamento a Jaipur (Hotel Palazzo di Lusso)"
+          ]
+        },
+        {
+          day_title: "Giorno 3: Jaipur → Ranthambore",
+          location: "Ranthambore",
+          description: "Trasferimento a Ranthambore. Check-in presso un lussuoso lodge naturalistico (Oberoi Vanyavilas o equivalente).",
+          activities: [
+            "Esperienza di osservazione delle stelle",
+            "Cena privata ispirata alla giungla sotto il cielo stellato",
+            "Pernottamento a Ranthambore (Lodge di Lusso)"
+          ]
+        },
+        {
+          day_title: "Giorno 7: Jodhpur → Udaipur",
+          location: "Udaipur",
+          description: "Volo mattutino per Udaipur. Check-in in un palazzo sul lago (Oberoi Udaivilas / Taj Lake Palace).",
+          activities: [
+            "Crociera privata sul Lago Pichola all'ora dorata",
+            "Cena privata in riva al lago con musica classica",
+            "Pernottamento a Udaipur (Hotel Palazzo di Lusso)"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        icon: "fas fa-paw",
+        title: "Esperienze Safari",
+        description: "2 safari nel Parco Nazionale di Ranthambore con permessi inclusi"
+      },
+      {
+        icon: "fas fa-ship",
+        title: "Crociera sul Lago",
+        description: "Crociera privata al tramonto sul Lago Pichola con champagne e tartine"
+      }
+    ]
+  },
+  "kerala-luxury-tour-package": {
+    file_name: "kerala-luxury-tour-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Pacchetto Premium",
+      title: "L'Incanto del Kerala di Lusso (7N/8G)",
+      location: "Kochi, Alleppey, Munnar, Thekkady, Poovar - 7N/8G",
+      cta_text: "Prenota Ora",
+      background_image: "/assets/Luxury/Kerala/hero-comprehensive.webp"
+    },
+    itinerary: {
+      title: "Esperienza Completa nel Kerala di Lusso",
+      days: [
+        {
+          day_title: "Giorno 02: Kochi → Alleppey (Houseboat di Lusso)",
+          location: "Alleppey",
+          description: "Dopo colazione, partenza per Alleppey. Check-in su una Houseboat Privata di Lusso. Navigazione tra le backwaters, lagune e villaggi.",
+          activities: [
+            "Crociera panoramica tra i canali",
+            "Cucina tradizionale del Kerala a bordo",
+            "Pernottamento in Houseboat di Lusso"
+          ]
+        },
+        {
+          day_title: "Giorno 06: Thekkady → Poovar",
+          location: "Poovar",
+          description: "Proseguimento per Poovar. Check-in in un resort di lusso tra backwaters e spiaggia, situato dove il fiume incontra il mare.",
+          activities: [
+            "Tramonto mozzafiato sull'estuario",
+            "Pernottamento a Poovar (Resort di Lusso)"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        icon: "fas fa-binoculars",
+        title: "Esperienze Esclusive",
+        description: "Crociera al tramonto a Poovar, safari in barca sul lago Periyar, sessione Spa Ayurveda"
+      },
+      {
+        icon: "fas fa-ticket-alt",
+        title: "Attività Culturali",
+        description: "Spettacolo di danza Kathakali, tour delle piantagioni di spezie e di tè"
+      }
+    ]
+  }
+
+  }
 } as const;

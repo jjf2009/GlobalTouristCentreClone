@@ -11267,605 +11267,842 @@ export const ru = {
         },
       ],
     },
-    "4n-5d-rajasthan-luxury-package": {
-      file_name: "4n-5d-rajasthan-luxury-package.html",
-      page: {
-        slug: "4n-5d-rajasthan-luxury-package",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур-пакет 4N/5D в Раджастхане |Глобальный туристический центр",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "6n-7d-golden-triangle-luxury-tour-package": {
-      file_name: "6n-7d-golden-triangle-luxury-tour-package.html",
-      page: {
-        slug: "6n-7d-golden-triangle-luxury-tour-package",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур-пакет «Золотой треугольник» 6 N/7 D |Глобальный туристический центр",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "6N-7D-rajasthan-luxury-package": {
-      file_name: "6N-7D-rajasthan-luxury-package.html",
-      page: {
-        slug: "6N-7D-rajasthan-luxury-package",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур-пакет по Раджастхану на 6 ночей и 7 дней |Глобальный туристический центр",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "golden-triangle-luxury": {
-      file_name: "golden-triangle-luxury.html",
-      page: {
-        slug: "golden-triangle-luxury",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур по Золотому треугольнику |Премиальная трасса Дели-Агра-Джайпур – Глобальный туристический центр",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "golden-triangle-luxury-package": {
-      file_name: "golden-triangle-luxury-package.html",
-      page: {
-        slug: "golden-triangle-luxury-package",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур-пакет «Золотой треугольник» 4N/5D |Глобальный туристический центр",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "karnataka-luxury": {
-      file_name: "karnataka-luxury.html",
-      page: {
-        slug: "karnataka-luxury",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур по Карнатаке – индивидуальный опыт наследия и дикой природы |ГлобалТуристический Центр",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "Karnataka-Luxury-Package": {
-      file_name: "Karnataka-Luxury-Package.html",
-      page: {
-        slug: "Karnataka-Luxury-Package",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур 7N/8D по Карнатаке |GlobalTouristCentre – Отели Heritage и частное сафари",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "kerala-luxury": {
-      file_name: "kerala-luxury.html",
-      page: {
-        slug: "kerala-luxury",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур по Керале |Глобальный туристический центр – Премиальный отдых в Керале",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "Kerala-luxury-package": {
-      file_name: "Kerala-luxury-package.html",
-      page: {
-        slug: "Kerala-luxury-package",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур 4N/5D по Керале – скидка 30% |Глобальный туристический центр",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "kerala-luxury-tour-package": {
-      file_name: "kerala-luxury-tour-package.html",
-      page: {
-        slug: "kerala-luxury-tour-package",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур 7N/8D по Керале – скидка 30% |Глобальный туристический центр",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "mumbai-luxury": {
-      file_name: "mumbai-luxury.html",
-      page: {
-        slug: "mumbai-luxury",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур в Мумбаи |Глобальный туристический центр – Премиальный отдых в Мумбаи",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "mumbai-luxury-package": {
-      file_name: "mumbai-luxury-package.html",
-      page: {
-        slug: "mumbai-luxury-package",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур 2N/3D в Мумбаи |Премиальный отдых в Мумбаи – Глобальный туристический центр",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "rajasthan-luxury": {
-      file_name: "rajasthan-luxury.html",
-      page: {
-        slug: "rajasthan-luxury",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур по Раджастану |Глобальный туристический центр – королевское наследие и 5-звездочный комфорт",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
-    "rajasthan-luxury-package": {
-      file_name: "rajasthan-luxury-package.html",
-      page: {
-        slug: "rajasthan-luxury-package",
-        type: "",
-        hero: {
-          title:
-            "Роскошный тур по Раджастану на 8 дней и 9 дней |Глобальный туристический центр – Королевское наследие, 5★ Комфорт",
-          subtitle: "",
-          backgroundImage: "",
-          meta: {},
-        },
-        language: "ru",
-      },
-      cta: {
-        headline: "",
-        description: "",
-        contact: {
-          whatsapp: {
-            number: "",
-            message: "",
-          },
-          phone: "",
-        },
-      },
-      quickInfo: [],
-      itinerary: [],
-      gallery: [],
-      inclusions: [],
-    },
   },
+
   luxuryPages: {
     "mumbai-luxury": {
-      hero: {
-        title: "Роскошные Туры в Мумбаи",
-        description:
-          "Откройте для себя Мумбаи в атмосфере абсолютной роскоши. Проживание в культовых отелях, исторические достопримечательности, изысканная кухня и яркая культура финансовой столицы Индии.",
-        discountBadge: "Скидка до 20 % при раннем бронировании",
-        image: "/assets/hero/mumbai-luxury.webp",
+      "hero": {
+        "title": "Роскошные туры в Мумбаи",
+        "description": "Познакомьтесь с «Городом Максимума» в атмосфере абсолютной роскоши. Останавливайтесь в культовых отелях, исследуйте объекты наследия, наслаждайтесь изысканной кухней и открывайте для себя яркую культуру финансовой столицы Индии.",
+        "discountBadge": "Скидка до 20% при раннем бронировании",
+        "image": "/assets/hero/mumbai-luxury.webp"
       },
-
-      toursSection: {
-        title: "Премиальные Турпакеты в Мумбаи",
-        packages: [
+      "toursSection": {
+        "title": "Премиальные турпакеты в Мумбаи",
+        "packages": [
           {
-            image: "/assets/Luxury/Mumbai/Mumbai-thumb.webp",
-            badge: "Премиум-пакет",
-            title: "Роскошный пакет Мумбаи 2Н/3Д",
-            location: "Главные достопримечательности Мумбаи",
-            description:
-              "Лучшие впечатления от Мумбаи с культовыми местами, историческим наследием и роскошными отелями в тщательно продуманном 3-дневном туре.",
-            link: "/luxury-trips/mumbai-luxury/mumbai-luxury-package",
-          },
-        ],
+            "image": "/assets/Luxury/Mumbai/Mumbai-thumb.webp",
+            "badge": "Премиум-пакет",
+            "title": "2Н/3Д Роскошный пакет в Мумбаи",
+            "location": "Главные достопримечательности Мумбаи",
+            "description": "Познакомьтесь с лучшим в Мумбаи: культовые достопримечательности, объекты наследия и роскошное жилье в этом идеально спланированном 3-дневном путешествии.",
+            "link": "/luxury-trips/mumbai-luxury/mumbai-luxury-package"
+          }
+        ]
       },
-
-      infoCards: [
+      "infoCards": [
         {
-          icon: "hotel",
-          title: "Культовые Отели",
-          description:
-            "Гостеприимство мирового уровня в Taj Mahal Palace, The Oberoi и Trident Nariman Point.",
+          "icon": "hotel",
+          "title": "Культовые отели",
+          "description": "Гостеприимство мирового уровня в Taj Mahal Palace, The Oberoi и Trident Nariman Point."
         },
         {
-          icon: "user-tie",
-          title: "Персональный Сервис",
-          description:
-            "Индивидуальный консьерж, частные гиды и персональные маршруты.",
+          "icon": "user-tie",
+          "title": "Персонализированный сервис",
+          "description": "Выделенная служба консьержей, частные гиды и индивидуальные маршруты."
         },
         {
-          icon: "utensils",
-          title: "Гастрономические Впечатления",
-          description:
-            "Рестораны на крышах, исторические кафе, ужины от шефа и яхтенные ужины.",
+          "icon": "utensils",
+          "title": "Изысканная кухня",
+          "description": "Рестораны на крышах, исторические кафе, ужины от шеф-повара и прогулки на яхтах."
         },
         {
-          icon: "gem",
-          title: "Эксклюзивный Доступ",
-          description:
-            "Частные художественные галереи, студии Болливуда, культурные прогулки и индивидуальный шопинг.",
-        },
-      ],
+          "icon": "gem",
+          "title": "Эксклюзивный доступ",
+          "description": "Частные художественные галереи, студии Болливуда, исторические прогулки и кураторский шопинг."
+        }
+      ]
     },
-  },
-  luxuryTourPackages: {
-    "4n-5d-rajasthan-luxury-package": {
-      hero_section: {
-        type: "package-hero",
-        badge: "Премиум-пакет",
-        title: "Роскошный тур по Раджастхану 4Н/5Д",
-        location: "Джайпур и Удайпур — 4Н/5Д",
-        cta_text: "Забронировать сейчас",
-        cta_link:
-          "https://wa.me/919067972295?text=Здравствуйте!%20Я%20заинтересован(а)%20в%20роскошном%20туре%20по%20Раджастхану%204Н/5Д%20(Джайпур%20и%20Удайпур).%20Пожалуйста,%20предоставьте%20подробности.",
-        background_image: "/assets/Luxury/Rajasthan/raj1-hero.webp",
+    "golden-triangle-luxury": {
+      "hero": {
+        "title": "Роскошные туры по Золотому треугольнику",
+        "description": "Познакомьтесь с самым знаковым культурным маршрутом Индии в условиях беспрецедентной роскоши в Дели, Агре и Джайпуре.",
+        "discountBadge": "Скидка до 25% при раннем бронировании",
+        "image": "/assets/hero/golden-triangle-luxury.webp"
       },
-
-      itinerary: {
-        title: "Королевский опыт в Джайпуре и Удайпуре",
-        days: [
+      "toursSection": {
+        "title": "Премиальные пакеты по Золотому треугольнику",
+        "packages": [
           {
-            day_title: "День 1: Прибытие в Джайпур",
-            location: "Джайпур",
-            description:
-              "Прибытие в международный аэропорт Джайпура. Торжественная встреча и индивидуальный трансфер в дворцовый отель (Rambagh Palace / Jai Mahal Palace).",
-            activities: [
-              "Обед и отдых во дворце",
-              "City Palace + Jantar Mantar + Hawa Mahal (частная экскурсия)",
-              "Чаепитие на закате / спа-процедуры",
-              "Индивидуальный ужин",
-              "Ночь в Джайпуре (роскошный дворцовый отель)",
-            ],
+            "image": "/assets/Luxury/Golden Triangle/golden-triangle-thumb.webp",
+            "badge": "Премиум-пакет",
+            "title": "4Н/5Д Роскошный пакет по Золотому треугольнику",
+            "location": "Дели, Агра и Джайпур",
+            "description": "Насыщенный люкс-тур, охватывающий все основные достопримечательности с проживанием в 5-звездочных отелях.",
+            "link": "/luxury-trips/golden-triangle-luxury/golden-triangle-luxury-package"
           },
           {
-            day_title: "День 2: Джайпур — полный день",
-            location: "Джайпур",
-            description:
-              "Дополнительные утренние впечатления. Частное посещение форта Амбер с эксклюзивным доступом.",
-            activities: [
-              "Традиционный раджастханский обед",
-              "Albert Hall (по желанию) и шопинг в сопровождении гида",
-              "Фотосессия на закате во дворце",
-              "Прощальный ужин в Джайпуре",
-              "Ночь в Джайпуре",
-            ],
-          },
-          {
-            day_title: "День 3: Переезд в Удайпур",
-            location: "Удайпур",
-            description:
-              "Трансфер в аэропорт Джайпура и перелёт в Удайпур. Заселение в роскошный дворец на берегу озера (Oberoi Udaivilas / Taj Lake Palace).",
-            activities: [
-              "Лёгкий обед по прибытии",
-              "Частный круиз на закате по озеру Пичола",
-              "Свободное время / спа по желанию",
-              "Ужин при подсвеченном дворце",
-              "Ночь в Удайпуре",
-            ],
-          },
-          {
-            day_title: "День 4: Удайпур — полный день",
-            location: "Удайпур",
-            description:
-              "Частная экскурсия по City Palace с эксклюзивным доступом. Посещение храма Джагдиш и прогулка по историческому центру.",
-            activities: [
-              "Гурмэ-обед",
-              "Saheliyon-ki-Bari и музей Bagore Ki Haveli",
-              "Monsoon Palace (Саджангарх) для встречи заката",
-              "Прощальный ужин",
-              "Ночь в Удайпуре",
-            ],
-          },
-          {
-            day_title: "День 5: Отъезд",
-            location: "Отъезд",
-            description:
-              "По желанию: утренняя прогулка на лодке или занятие йогой. Завтрак и индивидуальный трансфер в аэропорт Удайпура.",
-            activities: [],
-          },
-        ],
+            "image": "/assets/Luxury/Golden Triangle/Golden-Triangle2-thumb.webp",
+            "badge": "Премиум-пакет",
+            "title": "6Н/7Д Роскошный пакет по Золотому треугольнику",
+            "location": "Дели, Агра и Джайпур",
+            "description": "Наш самый популярный маршрут с проживанием во дворцах и изысканными ужинами.",
+            "link": "/luxury-trips/golden-triangle-luxury/6n-7d-golden-triangle-luxury-tour-package"
+          }
+        ]
       },
-
-      inclusions: [
+      "infoCards": [
         {
-          icon: "fas fa-hotel",
-          title: "Роскошное размещение",
-          description:
-            "4 ночи в дворцовых отелях класса люкс (2Н Джайпур + 2Н Удайпур) с ежедневным завтраком",
+          "icon": "crown",
+          "title": "Дворцы и исторические поместья",
+          "description": "Проживание в бывших королевских дворцах, таких как Rambagh Palace и Oberoi Amarvilas."
         },
         {
-          icon: "fas fa-utensils",
-          title: "Гастрономические впечатления",
-          description:
-            "Ежедневный завтрак + 3 индивидуальных ужина, включая дворцовые трапезы",
+          "icon": "user-tie",
+          "title": "Экспертные экскурсии",
+          "description": "Индивидуальные туры под руководством профессиональных историков и местных гидов."
         },
         {
-          icon: "fas fa-car",
-          title: "Индивидуальные трансферы",
-          description:
-            "Частные трансферы на автомобилях класса люкс и внутренние перелёты",
+          "icon": "utensils",
+          "title": "Изысканная кухня",
+          "description": "Королевские пиры, ужины с видом на Тадж-Махал и отмеченные наградами рестораны."
         },
         {
-          icon: "fas fa-user-tie",
-          title: "Профессиональные гиды",
-          description: "Лицензированные англоговорящие гиды для всех экскурсий",
-        },
-        {
-          icon: "fas fa-ship",
-          title: "Озёрный круиз",
-          description: "Частный круиз на закате по озеру Пичола с напитками",
-        },
-        {
-          icon: "fas fa-ticket-alt",
-          title: "Входные билеты",
-          description: "Все входные билеты и ускоренный доступ (где доступно)",
-        },
-        {
-          icon: "fas fa-concierge-bell",
-          title: "Сервис дворецкого",
-          description:
-            "Услуги дворецкого или традиционный ритуал приветствия в отелях",
-        },
-        {
-          icon: "fas fa-shield-alt",
-          title: "Налоги и поддержка",
-          description:
-            "Все местные налоги, сервисные сборы и круглосуточная поддержка",
-        },
-      ],
+          "icon": "gem",
+          "title": "Эксклюзивный доступ",
+          "description": "Посещение Тадж-Махала на рассвете, доступ к закрытым памятникам и частные представления."
+        }
+      ]
     },
+    "kerala-luxury": {
+      "hero": {
+        "title": "Роскошные туры в Кералу",
+        "description": "Круизы по безмятежным заводям, проживание на премиальных хаусботах, омоложение с аюрведой и исследование пышных горных станций.",
+        "discountBadge": "Скидка до 30% при раннем бронировании",
+        "image": "/assets/hero/kerala-luxury.webp"
+      },
+      "toursSection": {
+        "title": "Премиальные турпакеты в Кералу",
+        "packages": [
+          {
+            "image": "/assets/Luxury/Kerala/kerala1-thumb.webp",
+            "badge": "Премиум-пакет",
+            "title": "4Н/5Д Роскошный пакет в Кералу",
+            "location": "Кочин, Муннар и Аллеппи",
+            "description": "Заводи, горные станции и культурное наследие в тщательно продуманном путешествии.",
+            "link": "/itinerary/luxury-trips/kerala-luxury-package"
+          },
+          {
+            "image": "/assets/Luxury/Kerala/kerala2-thumb.webp",
+            "badge": "Премиум-пакет",
+            "title": "6Н/7Д Роскошный пакет в Кералу",
+            "location": "Кочин, Муннар, Теккади и Аллеппи",
+            "description": "Роскошные хаусботы, знакомство с дикой природой и премиальные горные курорты.",
+            "link": "/itinerary/luxury-trips/kerala-luxury-tour-package"
+          }
+        ]
+      },
+      "infoCards": [
+        {
+          "icon": "ship",
+          "title": "Роскошные хаусботы",
+          "description": "Хаусботы премиум-класса с частными палубами и изысканным питанием."
+        },
+        {
+          "icon": "spa",
+          "title": "Аюрведа и велнес",
+          "description": "Аутентичные аюрведические процедуры и оздоровительные программы."
+        },
+        {
+          "icon": "utensils",
+          "title": "Изысканная кухня",
+          "description": "Традиционная керальская садхья и пиры из морепродуктов."
+        },
+        {
+          "icon": "gem",
+          "title": "Эксклюзивный доступ",
+          "description": "Частные маршруты по заводям и кураторские культурные мероприятия."
+        }
+      ]
+    },
+    "rajasthan-luxury": {
+      "hero": {
+        "title": "Королевские туры в Раджастхан",
+        "description": "Останавливайтесь в величественных дворцах, исследуйте древние форты и познайте королевское наследие Индии.",
+        "discountBadge": "Скидка до 30% при раннем бронировании",
+        "image": "/assets/hero/rajasthan-luxury.webp"
+      },
+      "toursSection": {
+        "title": "Премиальные турпакеты в Раджастхан",
+        "packages": [
+          {
+            "image": "/assets/Luxury/Rajasthan/Rajasthan2-thumb.webp",
+            "badge": "Премиум-пакет",
+            "title": "4Н/5Д Роскошный пакет в Раджастхан",
+            "location": "Джайпур и Удайпур",
+            "description": "Королевские дворцы и романтические озера в продуманном побеге от реальности.",
+            "link": "/luxury-trips/rajasthan-luxury/4n-5d-rajasthan-luxury-package"
+          },
+          {
+            "image": "/assets/Luxury/Rajasthan/Rajasthan3-thumb.webp",
+            "badge": "Премиум-пакет",
+            "title": "6Н/7Д Роскошный пакет в Раджастхан",
+            "location": "Джайпур, Джодхпур и Удайпур",
+            "description": "Проживание во дворцах и культурное погружение в королевских городах.",
+            "link": "/luxury-trips/rajasthan-luxury/6n-7d-rajasthan-luxury-package"
+          },
+          {
+            "image": "/assets/Luxury/Rajasthan/Rajasthan4-thumb.webp",
+            "badge": "Ультра-премиум пакет",
+            "title": "8Н/9Д Роскошный пакет в Раджастхан",
+            "location": "Джайпур, Удайпур, Джодхпур и Рантхамбор",
+            "description": "Дворцы, форты и сафари на дикую природу в одном путешествии.",
+            "link": "/luxury-trips/rajasthan-luxury/rajasthan-luxury-package"
+          }
+        ]
+      },
+      "infoCards": [
+        {
+          "icon": "crown",
+          "title": "Королевские дворцы",
+          "description": "Проживание в бывших дворцах махараджей, таких как Rambagh и Umaid Bhawan."
+        },
+        {
+          "icon": "user-tie",
+          "title": "Персонализированный сервис",
+          "description": "Личные дворецкие, частные гиды и индивидуальные маршруты."
+        },
+        {
+          "icon": "utensils",
+          "title": "Изысканная кухня",
+          "description": "Ужины во внутренних двориках дворцов и королевские раджастханские пиры."
+        },
+        {
+          "icon": "gem",
+          "title": "Эксклюзивный доступ",
+          "description": "Доступ к закрытым частям фортов и частные культурные представления."
+        }
+      ]
+    },
+    "karnataka-luxury": {
+      "hero": {
+        "title": "Роскошные туры в Карнатаку",
+        "description": "Королевские дворцы, сафари на дикую природу, горные станции и современные города в сочетании с роскошью.",
+        "discountBadge": "Скидка до 25% при раннем бронировании",
+        "image": "/assets/hero/karnataka-luxury.webp"
+      },
+      "toursSection": {
+        "title": "Премиальные турпакеты в Карнатаку",
+        "packages": [
+          {
+            "image": "/assets/Luxury/Karnataka/Karnataka-thumb.webp",
+            "badge": "Премиум-пакет",
+            "title": "7Н/8Д Роскошный пакет в Карнатаку",
+            "location": "Бангалор, Майсур и Ути",
+            "description": "Культурное наследие, дикая природа и отдых в горах в одном путешествии.",
+            "link": "/luxury-trips/karnataka-luxury/karnataka-luxury-package"
+          }
+        ]
+      },
+      "infoCards": [
+        {
+          "icon": "landmark",
+          "title": "Королевское наследие",
+          "description": "Исторические дворцы и роскошные горные курорты."
+        },
+        {
+          "icon": "user-tie",
+          "title": "Персонализированный сервис",
+          "description": "Частные гиды и индивидуальные маршруты."
+        },
+        {
+          "icon": "utensils",
+          "title": "Изысканная кухня",
+          "description": "Традиционная кухня Карнатаки и эксклюзивные ужины."
+        },
+        {
+          "icon": "gem",
+          "title": "Эксклюзивный доступ",
+          "description": "Частные культурные шоу и кураторские визиты к объектам наследия."
+        }
+      ]
+    }
   },
+luxuryTourPackages:{
+  "4n-5d-rajasthan-luxury-package": {
+    hero_section: {
+      type: "package-hero",
+      badge: "Премиум Пакет",
+      title: "Роскошный тур по Раджастану: 4 ночи / 5 дней",
+      location: "Джайпур и Удайпур — 4Н/5Д",
+      cta_text: "Забронировать",
+      cta_link: "https://wa.me/919067972295?text=Здравствуйте!%20Меня%20интересует%20роскошный%20тур%20в%20Раджастан%20(Джайпур%20и%20Удайпур)%20на%204%20ночи.%20Пришлите,%20пожалуйста,%20подробности.",
+      background_image: "/assets/Luxury/Rajasthan/raj1-hero.webp"
+    },
+    itinerary: {
+      title: "Королевское путешествие: Джайпур и Удайпур",
+      days: [
+        {
+          day_title: "День 1: Прибытие в Джайпур",
+          location: "Джайпур",
+          description: "Прибытие в международный аэропорт Джайпура. Торжественная встреча и частный трансфер в отель-дворец (Rambagh Palace / Jai Mahal Palace).",
+          activities: [
+            "Обед и отдых во дворце",
+            "Городской дворец + Джантар-Мантар + Хава-Махал (с частным гидом)",
+            "Чаепитие на закате / спа-процедуры",
+            "Эксклюзивный ужин",
+            "Ночлег в Джайпуре (Luxury Palace Hotel)"
+          ]
+        },
+        {
+          day_title: "День 2: Джайпур — полное погружение",
+          location: "Джайпур",
+          description: "По желанию: встреча рассвета. Частный визит в форт Амбер с доступом в эксклюзивные зоны.",
+          activities: [
+            "Традиционный обед в стиле Раджастана",
+            "Альберт-холл (опционально) и шопинг на кураторских базарах",
+            "Фотосессия во дворце на закате",
+            "Особый прощальный ужин в Джайпуре",
+            "Ночлег в Джайпуре (Luxury Palace Hotel)"
+          ]
+        },
+        {
+          day_title: "День 3: Переезд в Удайпур",
+          location: "Удайпур",
+          description: "Трансфер в аэропорт Джайпура для перелета в Удайпур. Регистрация в роскошном дворце на берегу озера (Oberoi Udaivilas / Taj Lake Palace).",
+          activities: [
+            "Легкий обед по прибытии",
+            "Частный круиз на закате по озеру Пичола",
+            "Свободное время / спа-процедуры",
+            "Ужин при свечах в дворцовых интерьерах",
+            "Ночлег в Удайпуре (Luxury Palace Hotel)"
+          ]
+        },
+        {
+          day_title: "День 4: Удайпур — Венеция Востока",
+          location: "Удайпур",
+          description: "Частная экскурсия по Городскому дворцу с эксклюзивным доступом. Посещение храма Джагдиш и прогулка по историческому центру.",
+          activities: [
+            "Гурме-обед",
+            "Посещение Сахелион-ки-Бари и музея Багоре-ки-Хавели",
+            "Муссонный дворец (Саджангарх) для наблюдения за закатом",
+            "Праздничный прощальный ужин",
+            "Ночлег в Удайпуре (Luxury Palace Hotel)"
+          ]
+        },
+        {
+          day_title: "День 5: Отъезд",
+          location: "Вылет",
+          description: "По желанию: прогулка на лодке на рассвете или занятие йогой. Завтрак и сборы. Частный трансфер в аэропорт Удайпура для вылета.",
+          activities: []
+        }
+      ]
+    },
+    accommodations: [
+      {
+        name: "Rambagh Palace",
+        location: "Джайпур, Индия",
+        description: "Бывшая резиденция махараджи Джайпура, предлагающая непревзойденную роскошь и королевское гостеприимство в сердце «Розового города».",
+        rating: 5
+      },
+      {
+        name: "Oberoi Udaivilas",
+        location: "Удайпур, Индия",
+        description: "Роскошный курорт на берегу озера Пичола с величественной архитектурой и захватывающими видами на воду.",
+        rating: 5
+      }
+    ],
+    inclusions: [
+      {
+        title: "Роскошное проживание",
+        description: "4 ночи в отелях-дворцах (2 в Джайпуре + 2 в Удайпуре) с завтраками"
+      },
+      {
+        title: "Изысканное питание",
+        description: "Ежедневные завтраки + 3 специально организованных ужина, включая дворцовые трапезы"
+      },
+      {
+        title: "Частные трансферы",
+        description: "Трансферы на автомобилях представительского класса + внутренние авиаперелеты"
+      },
+      {
+        title: "Профессиональные гиды",
+        description: "Услуги лицензированных русскоговорящих или англоговорящих гидов на всех экскурсиях"
+      }
+    ]
+  },
+  "6n-7d-golden-triangle-luxury-tour-package": {
+    hero_section: {
+      type: "package-hero",
+      badge: "Премиум Пакет",
+      title: "Золотой треугольник: Роскошный тур 6 ночей / 7 дней",
+      location: "Дели, Агра, Джайпур — 6Н/7Д",
+      cta_text: "Забронировать",
+      cta_link: "https://wa.me/919067972295?text=Здравствуйте!%20Меня%20интересует%20тур%20Золотой%20треугольник%20на%206%20ночей.%20Пришлите%20подробности.",
+      background_image: "/assets/Luxury/Golden Triangle/hero.webp"
+    },
+    itinerary: {
+      title: "Путешествие в культурное сердце Индии",
+      days: [
+        {
+          day_title: "День 1: Прибытие в Дели (2 ночи)",
+          location: "Дели",
+          description: "Прибытие в Дели. Частный трансфер в отель (The Imperial / The Oberoi).",
+          activities: [
+            "Приветственный ужин в лучших ресторанах города (Indian Accent / Bukhara)",
+            "Ночлег в Дели"
+          ]
+        },
+        {
+          day_title: "День 3: Дели → Агра (2 ночи)",
+          location: "Агра",
+          description: "Переезд в Агру. По пути — посещение храма Акшардхам.",
+          activities: [
+            "Размещение в The Oberoi Amarvilas (отель с видом на Тадж-Махал из каждого номера)",
+            "Ночлег в Агре"
+          ]
+        },
+        {
+          day_title: "День 4: Агра — Величие Моголов",
+          location: "Агра",
+          description: "Визит в Тадж-Махал на рассвете. Завтрак и отдых в отеле.",
+          activities: [
+            "Прогулка по объектам наследия или спа-процедуры",
+            "Ночлег в Агре"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        title: "Элитное размещение",
+        description: "2 ночи в Дели, 2 ночи в Агре (Oberoi Amarvilas), 2 ночи в Джайпуре (Rambagh Palace)"
+      },
+      {
+        title: "VIP Транспорт",
+        description: "Частный автомобиль класса люкс с водителем на протяжении всего маршрута"
+      }
+    ]
+  },
+  "6n-7d-rajasthan-luxury-package": {
+    hero_section: {
+      type: "package-hero",
+      badge: "Премиум Пакет",
+      title: "Королевский Раджастан: 6 ночей / 7 дней",
+      location: "Джайпур, Джодхпур и Удайпур — 6Н/7Д",
+      cta_text: "Забронировать",
+      background_image: "/assets/Luxury/Rajasthan/raj2-hero.webp"
+    },
+    itinerary: {
+      title: "Королевский Треугольник: Джайпур, Джодхпур и Удайпур",
+      days: [
+        {
+          day_title: "День 3: Переезд в Джодхпур",
+          location: "Джодхпур",
+          description: "Перелет в Джодхпур. Заселение в Umaid Bhawan Palace — один из крупнейших частных дворцов мира.",
+          activities: [
+            "Частная экскурсия по форту Мехрангарх на закате",
+            "Ужин на крыше с видом на «Голубой город»",
+            "Ночлег в Джодхпуре"
+          ]
+        },
+        {
+          day_title: "День 5: Переезд в Удайпур",
+          location: "Удайпур",
+          description: "Перелет или живописный переезд в Удайпур. Заселение в прибрежный дворец.",
+          activities: [
+            "Частный круиз по озеру с шампанским",
+            "Ужин под звуки классической музыки у воды",
+            "Ночлег в Удайпуре"
+          ]
+        }
+      ]
+    }
+  },
+  "golden-triangle-luxury-package": {
+    file_name: "golden-triangle-luxury-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Премиум Пакет",
+      title: "Роскошный тур «Золотой треугольник»: 4 ночи / 5 дней (ДЕЛИ, АГРА, ДЖАЙПУР)",
+      location: "Дели, Агра, Джайпур — 4Н/5Д",
+      cta_text: "Забронировать",
+      cta_link: "https://wa.me/919067972295?text=Здравствуйте!%20Меня%20интересует%20роскошный%20тур%20«Золотой%20треугольник»%20(Дели,%20Агра,%20Джайпур)%20на%204%20ночи.%20Пришлите,%20пожалуйста,%20подробности.",
+      background_image: "/assets/Luxury/Golden Triangle/hero.webp"
+    },
+    itinerary: {
+      title: "Путешествие в культурное сердце Индии",
+      days: [
+        {
+          day_title: "День 01: Прибытие в Дели (1 ночь)",
+          location: "Дели",
+          description: "Прибытие в аэропорт Дели. Частный трансфер в ваш роскошный 5★ отель (The Imperial / The Oberoi / ITC Maurya).",
+          activities: [
+            "Приветственный ужин в Bukhara / Indian Accent (высокая кухня)",
+            "Ночлег в Дели"
+          ]
+        },
+        {
+          day_title: "День 02: Дели → Агра (1 ночь)",
+          location: "Агра",
+          description: "Завтрак в отеле. Переезд в Агру (около 3.5 часов по скоростной трассе Ямуна). По пути возможен визит в храм Акшардхам.",
+          activities: [
+            "Роскошное спа или прогулка по объектам наследия Моголов",
+            "Ночлег в Агре (The Oberoi Amarvilas — люкс-отель с видом на Тадж-Махал из каждого номера)"
+          ]
+        },
+        {
+          day_title: "День 03: Агра → Джайпур (2 ночи)",
+          location: "Джайпур",
+          description: "Рано утром: посещение Тадж-Махала на рассвете (лучшее освещение и меньше людей). Возвращение на завтрак и выезд из отеля.",
+          activities: [
+            "Вечер отдыха с раджастанской народной музыкой и ужином",
+            "Ночлег в Джайпуре (Taj Rambagh Palace / Fairmont / The Oberoi Rajvilas)"
+          ]
+        },
+        {
+          day_title: "День 04: Джайпур — полный день экскурсий",
+          location: "Джайпур",
+          description: "Завтрак в отеле. Весь день с гидом: Форт Амбер (подъем на слонах или джипах), Городской дворец и музей, обсерватория Джантар-Мантар (ЮНЕСКО), Хава-Махал (Дворец Ветров) — фото-стоп.",
+          activities: [
+            "Посещение рынков народных промыслов / эксклюзивный шопинг",
+            "Ужин в ресторане «1135 AD» (Форт Амбер) или частный королевский ужин в отеле-дворце",
+            "Ночлег в Джайпуре"
+          ]
+        },
+        {
+          day_title: "День 05: Джайпур → Дели / Вылет",
+          location: "Вылет",
+          description: "Завтрак в отеле. В зависимости от времени рейса — переезд в Дели (около 5 часов) для вылета или трансфер в аэропорт Джайпура.",
+          activities: []
+        }
+      ]
+    },
+    accommodations: [
+      {
+        name: "The Imperial",
+        location: "Нью-Дели, Индия",
+        description: "Легендарный отель в самом сердце Дели, сочетающий колониальный шарм и современную роскошь с безупречным сервисом.",
+        rating: 5
+      },
+      {
+        name: "The Oberoi Amarvilas",
+        location: "Агра, Индия",
+        description: "Роскошный курорт, предлагающий захватывающий вид на Тадж-Махал из каждого номера, в архитектуре которого угадывается величие эпохи Моголов.",
+        rating: 5
+      },
+      {
+        name: "Taj Rambagh Palace",
+        location: "Джайпур, Индия",
+        description: "Бывшая резиденция махараджи Джайпура — воплощение королевского гостеприимства и непревзойденной роскоши в «Розовом городе».",
+        rating: 5
+      }
+    ],
+    inclusions: [
+      {
+        title: "Размещение класса люкс",
+        description: "1Н Дели, 1Н Агра (номер с видом на Тадж), 2Н Джайпур (отели-дворцы высшей категории)"
+      },
+      {
+        title: "Изысканное питание",
+        description: "Ежедневные завтраки + 1 королевский ужин"
+      },
+      {
+        title: "Частные трансферы",
+        description: "Индивидуальный автомобиль представительского класса с англоговорящим водителем"
+      },
+      {
+        title: "Профессиональные гиды",
+        description: "Услуги лицензированных гидов-экспертов в каждом городе"
+      }
+    ]
+  },
+  "karnataka-luxury-package": {
+    file_name: "Karnataka-Luxury-Package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Премиум Пакет",
+      title: "Роскошный тур по Карнатаке: 7 ночей / 8 дней (Бангалор, Майсур, Ути)",
+      location: "Бангалор, Майсур, Бандипур и Ути — 7Н/8Д",
+      cta_text: "Забронировать",
+      cta_link: "https://wa.me/919067972295?text=Здравствуйте!%20Меня%20интересует%20роскошный%20тур%20по%20Карнатаке%20(Бангалор,%20Майсур%20и%20Ути).%20Пришлите%20подробности.",
+      background_image: "/assets/Luxury/Karnataka/hero.webp"
+    },
+    itinerary: {
+      title: "Путешествие сквозь королевское наследие и природную красоту Карнатаки",
+      days: [
+        {
+          day_title: "День 01: Прибытие в Бангалор (1 ночь)",
+          location: "Бангалор (Бенгалуру)",
+          description: "Встреча в международном аэропорту. Частный трансфер в топ-5★ отель. Отдых: спа, шопинг в UB City или обзорная прогулка.",
+          activities: [
+            "Ужин в изысканном ресторане (на крыше или fine-dining)",
+            "Ночлег в The Ritz-Carlton или аналогичном"
+          ]
+        },
+        {
+          day_title: "День 02: Бангалор → Майсур",
+          location: "Майсур",
+          description: "Переезд в Майсур. Заселение в люкс-отель. Визит в Майсурский дворец или вечернее культурное шоу.",
+          activities: [
+            "Ночлег: Radisson Blu Plaza / Grand Mercure / Lalitha Mahal Palace"
+          ]
+        },
+        {
+          day_title: "День 05: Сафари в Бандипуре → Переезд в Ути",
+          location: "Бандипур и Ути",
+          description: "Рано утром: частное джип-сафари в национальном парке Бандипур (2–3 часа). Завтрак и переезд в высокогорный Ути.",
+          activities: [
+            "Ночлег в Savoy Ooty (IHCL SeleQtions) или премиальном горном курорте"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        title: "Элитное размещение",
+        description: "6 ночей в роскошных отелях с завтраками"
+      },
+      {
+        title: "Сафари в дикой природе",
+        description: "Частное сафари на джипе в Бандипуре с опытным натуралистом"
+      }
+    ]
+  },
+  "kerala-luxury-package": {
+    file_name: "Kerala-luxury-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Премиум Пакет",
+      title: "Роскошный тур по Керале: 4 ночи / 5 дней (Кочин, Аллеппи, Муннар)",
+      location: "Кочин, Муннар, Аллеппи — 4Н/5Д",
+      cta_text: "Забронировать",
+      cta_link: "https://wa.me/919067972295?text=Здравствуйте!%20Меня%20интересует%20люкс-тур%20по%20Керале%20(Кочин,%20Муннар,%20Аллеппи).%20Пришлите%20подробности.",
+      background_image: "/assets/Luxury/Kerala/hero-backwaters.webp"
+    },
+    itinerary: {
+      title: "Путешествие в «Собственную страну Бога»",
+      days: [
+        {
+          day_title: "День 01: Прибытие в Кочин (1 ночь)",
+          location: "Кочин",
+          description: "Прибытие в аэропорт. Частный трансфер в 5★ отель. Экскурсия: Форт Кочи, Дворец Маттанчерри, Китайские рыболовные сети.",
+          activities: [
+            "Вечернее шоу танцев Катхакали или круиз с ужином",
+            "Ночлег в Кочине (5★ отель/курорт)"
+          ]
+        },
+        {
+          day_title: "День 02: Кочин → Муннар (2 ночи)",
+          location: "Муннар",
+          description: "Переезд в Муннар через чайные плантации и водопады. Заселение в горный люкс-курорт. Вечернее спа / сеанс аюрведы.",
+          activities: [
+            "Сеанс аюрведы высшего класса",
+            "Ночлег в Муннаре (5★ Luxury Resort)"
+          ]
+        },
+        {
+          day_title: "День 04: Муннар → Аллеппи (Ночь на хаусботе)",
+          location: "Аллеппи",
+          description: "Переезд в Аллеппи. Регистрация на частном люкс-хаусботе (доме на воде). Круиз по заводям: деревни, рисовые поля и кокосовые лагуны.",
+          activities: [
+            "Традиционный обед и ужин от личного повара на борту",
+            "Закат с палубы хаусбота",
+            "Ночлег на борту Luxury Houseboat"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        title: "Премиальное питание",
+        description: "Ежедневные завтраки + полный пансион (завтрак, обед, ужин) на хаусботе"
+      },
+      {
+        title: "Эксклюзивные впечатления",
+        description: "Шоу Катхакали, сеанс аюрведы, прогулка на лодке по озеру Кундала"
+      }
+    ]
+  },
+  "mumbai-luxury-package": {
+    file_name: "mumbai-luxury-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Премиум Пакет",
+      title: "Роскошный тур в Мумбаи (2 ночи / 3 дня)",
+      location: "Мумбаи, Индия — Отель Taj и главные достопримечательности",
+      cta_text: "Забронировать",
+      cta_link: "https://wa.me/919067972295?text=Здравствуйте!%20Меня%20интересует%20роскошный%20тур%20в%20Мумбаи%20на%202%20ночи.%20Пришлите,%20пожалуйста,%20подробности.",
+      background_image: "/assets/Luxury/Mumbai/mumbai-hero.webp"
+    },
+    itinerary: {
+      title: "Погрузитесь в гламур и наследие Мумбаи",
+      days: [
+        {
+          day_title: "День 01: Прибытие в Мумбаи",
+          location: "Мумбаи",
+          description: "Прибытие в международный аэропорт имени Чхатрапати Шиваджи. Частный люкс-трансфер в ваш 5★ отель (Taj Mahal Palace / The Oberoi / Trident Nariman Point).",
+          activities: [
+            "Дневная экскурсия: Ворота Индии, набережная Марин-Драйв, пляж Чоупатти, рынок Колаба-Козуэй",
+            "По желанию: ужин в роскошном панорамном ресторане на крыше",
+            "Ночлег в люкс-отеле Мумбаи"
+          ]
+        },
+        {
+          day_title: "День 02: Мумбаи — день роскошных впечатлений",
+          location: "Мумбаи",
+          description: "Завтрак в отеле. Утренняя экскурсия на пароме к пещерам Элефанта (объект ЮНЕСКО). Возвращение и обед в историческом кафе (Leopold Café или ресторан высокой кухни).",
+          activities: [
+            "Днем: Музей принца Уэльского, прачечная Доби-Гхат, Мани-Бхаван",
+            "Вечером: Поездка на закате по мосту Бандра-Ворли",
+            "Прогулка по району Бандра: бутики, кафе и атмосфера Болливуда",
+            "Ночлег в люкс-отеле Мумбаи"
+          ]
+        },
+        {
+          day_title: "День 03: Отъезд из Мумбаи",
+          location: "Вылет",
+          description: "Завтрак в отеле. Свободное время для шопинга в High Street Phoenix / Palladium Mall или визит в храм Сиддхивинаяк перед трансфером в аэропорт.",
+          activities: [
+            "Частный трансфер в аэропорт с незабываемыми впечатлениями"
+          ]
+        }
+      ]
+    },
+    accommodations: [
+      {
+        name: "Taj Mahal Palace",
+        location: "Мумбаи, Индия",
+        description: "Легендарный гранд-отель с видом на Ворота Индии, предлагающий сервис мирового уровня и историческое величие.",
+        rating: 5
+      }
+    ],
+    inclusions: [
+      {
+        title: "Роскошное проживание",
+        description: "2 ночи в 5★ люкс-отеле (The Taj Mahal Palace / The Oberoi / Trident)"
+      },
+      {
+        title: "Частные трансферы",
+        description: "Индивидуальный автомобиль представительского класса с кондиционером для всех поездок"
+      },
+      {
+        title: "Экскурсия на Элефанту",
+        description: "Билеты на паром к пещерам Элефанта включены в стоимость"
+      }
+    ]
+  },
+  "rajasthan-luxury-package": {
+    file_name: "rajasthan-luxury-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Ультра-Премиум Пакет",
+      title: "Роскошное путешествие по Раджастану (8 ночей / 9 дней)",
+      location: "Джайпур, Удайпур, Джодхпур, Рантхамбор — 8Н/9Д",
+      cta_text: "Забронировать",
+      background_image: "/assets/Luxury/Rajasthan/raj3-hero.webp"
+    },
+    itinerary: {
+      title: "Королевский путь: через дворцы и форты Раджастана",
+      days: [
+        {
+          day_title: "День 1: Прибытие в Джайпур",
+          location: "Джайпур",
+          description: "Встреча в аэропорту и трансфер в ваш отель-дворец (Rambagh Palace / Jai Mahal Palace). Приоритетная регистрация и приветственный ритуал.",
+          activities: [
+            "Частная экскурсия в Городской дворец и обсерваторию Джантар-Мантар",
+            "Ужин во внутреннем дворике под классическую музыку Раджастана",
+            "Ночлег в Джайпуре (Отель-дворец)"
+          ]
+        },
+        {
+          day_title: "День 3: Джайпур → Рантхамбор",
+          location: "Рантхамбор",
+          description: "Переезд в Рантхамбор. Заселение в роскошный сафари-лодж (Oberoi Vanyavilas или эквивалент).",
+          activities: [
+            "Частный ужин в стиле джунглей под звездным небом",
+            "Ночлег в Рантхамборе (Люкс-лодж)"
+          ]
+        },
+        {
+          day_title: "День 4: Сафари в Рантхамборе",
+          location: "Рантхамбор",
+          description: "Утреннее и дневное сафари на джипах в национальном парке Рантхамбор для наблюдения за тиграми.",
+          activities: [
+            "Два сафари включены в стоимость",
+            "Ночлег в Рантхамборе"
+          ]
+        },
+        {
+          day_title: "День 7: Джодхпур → Удайпур",
+          location: "Удайпур",
+          description: "Перелет или переезд в Удайпур. Заселение в отель-дворец на воде (Oberoi Udaivilas / Taj Lake Palace).",
+          activities: [
+            "Частный круиз по озеру Пичола в 'золотой час' заката",
+            "Романтический ужин на берегу озера",
+            "Ночлег в Удайпуре"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        title: "Королевское проживание",
+        description: "8 ночей в лучших отелях-дворцах Индии с завтраками"
+      },
+      {
+        title: "Гастрономические впечатления",
+        description: "5 эксклюзивных частных ужинов, включая 'стол шеф-повара'"
+      },
+      {
+        title: "Сафари и круизы",
+        description: "Сафари в Рантхамборе и частная прогулка на лодке с шампанским в Удайпуре"
+      }
+    ]
+  },
+  "kerala-luxury-tour-package": {
+    file_name: "kerala-luxury-tour-package.html",
+    hero_section: {
+      type: "package-hero",
+      badge: "Премиум Пакет",
+      title: "Гранд-тур 'Роскошная Керала' (7 ночей / 8 дней)",
+      location: "Кочин, Аллеппи, Муннар, Теккади, Пувар — 7Н/8Д",
+      cta_text: "Забронировать",
+      background_image: "/assets/Luxury/Kerala/hero-comprehensive.webp"
+    },
+    itinerary: {
+      title: "Полное погружение в роскошь Кералы",
+      days: [
+        {
+          day_title: "День 02: Кочин → Аллеппи (Люкс-хаусбот)",
+          location: "Аллеппи",
+          description: "Заселение на частный люкс-хаусбот. Круиз по тихим заводям, мимо рисовых полей и кокосовых рощ.",
+          activities: [
+            "Полный пансион с блюдами традиционной кухни Кералы на борту",
+            "Ночлег на хаусботе"
+          ]
+        },
+        {
+          day_title: "День 05: Муннар → Теккади",
+          location: "Теккади",
+          description: "Переезд в Теккади. Прогулка на лодке по озеру Перияр для наблюдения за слонами и экскурсия на плантацию специй.",
+          activities: [
+            "Круиз по озеру Перияр",
+            "Тур по плантациям специй",
+            "Ночлег в Теккади (Люкс-курорт)"
+          ]
+        },
+        {
+          day_title: "День 06: Теккади → Пувар",
+          location: "Пувар",
+          description: "Переезд в Пувар, на уникальный курорт в месте слияния реки, озера и моря.",
+          activities: [
+            "Круиз на закате по заводям Пувара",
+            "Ночлег в Пуваре (Люкс-курорт)"
+          ]
+        }
+      ]
+    },
+    inclusions: [
+      {
+        title: "Проживание Премиум-класса",
+        description: "Кочин (1Н), Хаусбот (1Н), Муннар (2Н), Теккади (1Н), Пувар (2Н)"
+      },
+      {
+        title: "Эксклюзивный сервис",
+        description: "Индивидуальный люкс-автомобиль с водителем на весь маршрут, сеанс Аюрведы, круиз на закате"
+      }
+    ]
+  }
+}
 } as const;
