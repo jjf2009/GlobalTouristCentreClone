@@ -428,7 +428,8 @@ export const it = {
       faqTitle: "FAQ Tour Personalizzati",
       faqSubtitle: "Risposte alle domande comuni sui nostri pacchetti turistici personalizzati.",
       faq1Question: "Progettate tour per famiglie, gruppi o viaggiatori singoli?",
-      faq1Answer: "Sì, assolutamente! Siamo specializzati nella creazione di itinerari personalizzati per tutti i tipi di viaggiatori - che tu sia un avventuriero solitario, una coppia in luna di miele, una famiglia con bambini o un grande gruppo di amici. Adattiamo il ritmo, le attività e gli alloggi alla composizione del tuo gruppo.",
+      faq1Answer: "Progettiamo tour per tutti, incluse famiglie, gruppi di amici, avventurieri solitari e tutti coloro che amano evadere di tanto in tanto. Che si tratti di una vacanza rilassante, un viaggio in solitaria o un viaggio divertente pieno di spontaneità, facciamo in modo che l'itinerario sembri pianificato apposta per te.",
+
       faq2Question: "Cosa è incluso in un pacchetto personalizzato?",
       faq2Answer: "Riceverai un itinerario progettato intorno a ciò che conta per te. Include destinazioni, soggiorni, trasferimenti comodi, guide locali e persino attività che corrispondono ai tuoi interessi. Gestiremo i dettagli in modo che tu possa concentrarti solo sul goderti il viaggio.",
       faq3Question: "Quanto tempo ci vuole per progettare un viaggio personalizzato?",
@@ -529,11 +530,14 @@ export const it = {
       faq1Question: "Offrite prenotazioni hotel sia nazionali che internazionali?",
       faq1Answer: "Assolutamente. Collaboriamo con hotel in tutto il mondo per offrirti le migliori sistemazioni a tariffe competitive. Che tu stia cercando un soggiorno economico, un boutique hotel o un resort di lusso, abbiamo opzioni per ogni preferenza e budget.",
       faq2Question: "Potete prenotare hotel come parte di un pacchetto turistico completo o solo soggiorni singoli?",
-      faq2Answer: "Offriamo entrambi! Puoi prenotare un hotel come servizio autonomo, oppure possiamo integrarlo in un pacchetto vacanza completo che include voli, trasferimenti e visite turistiche.",
+      faq2Answer: "Possiamo fare entrambe le cose. Puoi richiedere una prenotazione autonoma o farci prenotare l'hotel come parte del tuo pacchetto completo con voli, trasferimenti e attività. Qualunque cosa ti serva, gestiremo i dettagli.",
+
       faq3Question: "Posso modificare o cancellare la mia prenotazione hotel?",
-      faq3Answer: "Sì, modifiche e cancellazioni sono possibili, soggette alla politica specifica dell'hotel. Consigliamo sempre di controllare i termini di cancellazione prima di prenotare, e il nostro team è qui per assisterti con qualsiasi modifica.",
+      faq3Answer: "Le politiche di modifica e cancellazione variano in base all'hotel. La maggior parte delle prenotazioni può essere modificata o cancellata gratuitamente fino a 24-48 ore prima del check-in. Alcune prenotazioni a tariffa speciale potrebbero avere politiche diverse. La tua email di conferma specificherà la politica di cancellazione per la tua prenotazione particolare.",
+
       faq4Question: "Posso prenotare più hotel in diverse città in un unico itinerario?",
-      faq4Answer: "Sì, siamo specializzati in itinerari multi-città. Facci sapere il tuo piano di viaggio e organizzeremo sistemazioni senza problemi in tutte le tue destinazioni.",
+      faq4Answer: "Sicuramente. Ad esempio, se il tuo viaggio ti porta da Mumbai al Sikkim alle Andamane, prenoteremo ogni hotel per le notti giuste durante il tuo viaggio. Per rendere il tuo viaggio fluido, siamo qui se vuoi cambiare i tuoi piani o aggiungere una tappa in seguito.",
+
     },
     flightBooking: {
       heroTitle: "Prenotazioni Voli",
@@ -578,13 +582,17 @@ export const it = {
       faqTitle: "FAQ Prenotazione Voli",
       faqDesc: "Domande frequenti sui nostri servizi di prenotazione voli.",
       faq1Question: "Potete aggiungere seggiolino per bambini, animale domestico o attrezzatura sportiva alla mia prenotazione?",
-      faq1Answer: "Sì, possiamo assisterti con richieste speciali come seggiolini per bambini, viaggi con animali o trasporto di attrezzature sportive. Ti preghiamo di menzionare questi requisiti al momento della prenotazione in modo che possiamo verificare con la compagnia aerea e organizzare tutto per te.",
+      faq1Answer: "Possiamo guidarti su come includere articoli speciali come seggiolini per bambini o attrezzature sportive. Molte compagnie aeree ti permettono di aggiungerli tramite servizi aggiuntivi al momento della prenotazione. Per gli animali domestici dipende dalle regole della compagnia aerea. Condivideremo cosa è permesso e come includerlo quando prenoti.",
+
       faq2Question: "Potete organizzare il coordinamento per il ritiro o la consegna in aeroporto insieme ai voli?",
-      faq2Answer: "Certamente! Possiamo organizzare trasferimenti aeroportuali senza problemi sia nelle città di partenza che in quelle di arrivo per garantire un viaggio senza problemi.",
+      faq2Answer: "Sì, ci occupiamo noi di questo. Puoi chiederci di organizzare un ritiro o una consegna alla tua destinazione come parte del tuo itinerario.",
+
       faq3Question: "Qual è la politica di cancellazione, modifica o rimborso per le prenotazioni?",
-      faq3Answer: "Le politiche variano in base alla compagnia aerea e alla classe tariffaria. Ti forniremo i termini e le condizioni specifici per il tuo biglietto prima della prenotazione. Se hai bisogno di apportare modifiche, il nostro team è qui per aiutarti a navigare nel processo.",
+      faq3Answer: "Tutto è stabilito dalla compagnia aerea o dalle regole del biglietto. Siamo lì per aiutarti con le opzioni in modo che tu possa scegliere ciò che ha senso, sia che tu debba spostare le date o cancellare del tutto.",
+
       faq4Question: "Che supporto offrite se il mio volo è in ritardo o cancellato?",
-      faq4Answer: "Offriamo supporto 24/7. Se il tuo volo è in ritardo o cancellato, ti aiuteremo a prenotare di nuovo, trovare coincidenze alternative o assisterti con le richieste di risarcimento ove applicabile.",
+      faq4Answer: "Quando si verificano ritardi o cancellazioni, siamo qui per aiutare. Puoi contattarci e ti guideremo su cosa fare dopo. Potrebbe trattarsi di riprenotare, ottenere supporto in aeroporto o prendere voli alternativi. Ti aiutiamo a mantenere la calma e a continuare a muoverti.",
+
     },
     groupTrip: {
       heroTitle: "Tour di Gruppo",
@@ -625,13 +633,17 @@ export const it = {
       faqTitle: "FAQ Tour di Gruppo",
       faqDesc: "Domande frequenti sui nostri servizi di viaggio di gruppo.",
       faq1Question: "Qual è la dimensione minima e massima del gruppo per i vostri tour nazionali e internazionali?",
-      faq1Answer: "Per i tour nazionali, richiediamo generalmente un minimo di 10 persone. Per i tour internazionali, il minimo è solitamente 15. Non c'è una dimensione massima rigorosa, poiché possiamo organizzare più pullman e guide per gruppi molto numerosi.",
+      faq1Answer: "La maggior parte dei nostri tour è progettata per piccoli gruppi, spesso tra sei e dodici viaggiatori alla volta. Se richiesto, possiamo aumentare un po' le dimensioni a seconda dello stile del viaggio e del tuo livello di comfort.",
+
       faq2Question: "Come garantite un coordinamento fluido e la gestione del tempo durante un viaggio di gruppo?",
-      faq2Answer: "Assegniamo tour manager dedicati esperti nella gestione della logistica, dei tempi e delle dinamiche di gruppo. Assicurano che l'itinerario proceda secondo i piani pur consentendo la necessaria flessibilità.",
+      faq2Answer: "Mappiamo ogni giorno con orari chiari, trasporti comodi e guide locali fidate che conoscono bene il posto. Ci assicuriamo anche di rimanere connessi sulla strada, così nulla va fuori strada e non vedi l'ora di scoprire cosa succederà dopo.",
+
       faq3Question: "Potete organizzare visti, voli e prenotazioni alberghiere per tutti i membri del gruppo?",
-      faq3Answer: "Sì, offriamo servizi completi tra cui assistenza visti, prenotazioni voli e sistemazioni alberghiere per l'intero gruppo, garantendo un'esperienza senza interruzioni per tutti.",
+      faq3Answer: "Sì, gestiamo tutto dall'inizio alla fine per il tuo gruppo. Una volta ottenuti tutti i dettagli da tutti, ci occupiamo di voli, soggiorni degli ospiti, visti, trasferimenti e mettiamo tutto insieme in un unico itinerario coeso. Viaggi rilassato e spensierato con il tuo gruppo mentre noi coordiniamo la logistica.",
+
       faq4Question: "Quali piani di pagamento o opzioni rateali offrite per le prenotazioni di tour di gruppo?",
-      faq4Answer: "Offriamo piani di pagamento flessibili in cui è possibile pagare un acconto iniziale per garantire la prenotazione, seguito da pagamenti rateali fino alla data di partenza. I termini specifici dipendono dal pacchetto turistico.",
+      faq4Answer: "Per le prenotazioni di gruppo, richiediamo in genere un acconto del 25% per confermare le prenotazioni, con il saldo dovuto 30-45 giorni prima della partenza. Per gruppi molto numerosi o itinerari complessi, possiamo organizzare un piano di pagamento con più rate. Possiamo anche accettare pagamenti individuali dai membri del gruppo se preferito.",
+
     },
     form: {
       yourName: "Il Tuo Nome*",

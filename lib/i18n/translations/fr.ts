@@ -430,7 +430,8 @@ export const fr = {
       faqTitle: "FAQ Voyage Sur Mesure",
       faqSubtitle: "Réponses aux questions courantes sur nos forfaits personnalisés.",
       faq1Question: "Concevez-vous des voyages pour les familles, les groupes ou les voyageurs solos ?",
-      faq1Answer: "Oui, absolument ! Nous sommes spécialisés dans la création d'itinéraires personnalisés pour tous les types de voyageurs - que vous soyez un aventurier solo, un couple en lune de miel, une famille avec enfants ou un grand groupe d'amis. Nous adaptons le rythme, les activités et l'hébergement à la composition de votre groupe.",
+      faq1Answer: "Nous concevons des circuits pour tous, y compris les familles, les groupes d'amis, les aventuriers solitaires et tous ceux qui aiment s'évader de temps en temps. Qu'il s'agisse de vacances détendues, d'un voyage en solo ou d'un voyage amusant rempli de spontanéité, nous faisons en sorte que l'itinéraire semble avoir été planifié pour vous.",
+
       faq2Question: "Qu'est-ce qui est inclus dans un forfait personnalisé ?",
       faq2Answer: "Vous recevrez un itinéraire conçu autour de ce qui compte pour vous. Il comprend les destinations, les séjours, les transferts confortables, les guides locaux et même des activités correspondant à vos intérêts. Nous gérons les détails pour que vous puissiez profiter pleinement de votre voyage.",
       faq3Question: "Combien de temps faut-il pour concevoir un voyage personnalisé ?",
@@ -531,11 +532,14 @@ export const fr = {
       faq1Question: "Proposez-vous des réservations d'hôtels nationales et internationales ?",
       faq1Answer: "Absolument. Nous travaillons avec des hôtels du monde entier pour vous offrir les meilleurs hébergements à des tarifs compétitifs. Que vous cherchiez un séjour économique, un hôtel de charme ou un complexe de luxe, nous avons des options pour tous les goûts et budgets.",
       faq2Question: "Pouvez-vous réserver des hôtels dans le cadre d'un forfait ou uniquement des séjours seuls ?",
-      faq2Answer: "Nous proposons les deux ! Vous pouvez réserver un hôtel comme service autonome, ou nous pouvons l'intégrer dans un forfait vacances complet incluant vols, transferts et visites.",
+      faq2Answer: "Nous pouvons faire les deux. Vous pouvez soit demander une réservation autonome, soit nous demander de réserver l'hôtel dans le cadre de votre forfait complet avec vols, transferts et activités. Quels que soient vos besoins, nous nous occupons des détails.",
+
       faq3Question: "Puis-je modifier ou annuler ma réservation d'hôtel ?",
-      faq3Answer: "Oui, les modifications et annulations sont possibles, sous réserve de la politique spécifique de l'hôtel. Nous recommandons toujours de vérifier les conditions d'annulation avant de réserver, et notre équipe est là pour vous aider avec tout changement.",
+      faq3Answer: "Les politiques de modification et d'annulation varient selon l'hôtel. La plupart des réservations peuvent être modifiées ou annulées sans frais jusqu'à 24-48 heures avant l'enregistrement. Certaines réservations à tarif spécial peuvent avoir des politiques différentes. Votre e-mail de confirmation précisera la politique d'annulation pour votre réservation particulière.",
+
       faq4Question: "Puis-je réserver plusieurs hôtels dans différentes villes sous un même itinéraire ?",
-      faq4Answer: "Oui, nous sommes spécialisés dans les itinéraires multi-villes. Faites-nous simplement part de votre plan de voyage, et nous organiserons un hébergement sans faille dans toutes vos destinations.",
+      faq4Answer: "Absolument. Par exemple, si votre voyage vous emmène de Mumbai au Sikkim puis aux Andaman, nous réserverons chaque hôtel pour les bonnes nuits tout au long de votre voyage. Pour rendre votre voyage fluide, nous sommes là si vous souhaitez modifier vos plans ou ajouter une étape plus tard.",
+
     },
     flightBooking: {
       heroTitle: "Réservations de Vols",
@@ -580,13 +584,17 @@ export const fr = {
       faqTitle: "FAQ Réservation de Vol",
       faqDesc: "Questions fréquentes sur nos services de réservation de vol.",
       faq1Question: "Pouvez-vous ajouter un siège bébé/enfant, un animal ou un équipement de sport à ma réservation ?",
-      faq1Answer: "Oui, nous pouvons vous aider avec des demandes spéciales telles que des sièges bébé, le transport d'animaux ou d'équipements sportifs. Veuillez mentionner ces exigences lors de la réservation afin que nous puissions vérifier avec la compagnie aérienne et tout organiser pour vous.",
+      faq1Answer: "Nous pouvons vous guider sur la façon d'inclure des articles spéciaux comme des sièges pour bébés ou des équipements sportifs. De nombreuses compagnies aériennes vous permettent de les ajouter via des services complémentaires lors de la réservation. Pour les animaux de compagnie, cela dépend des règles de la compagnie aérienne. Nous vous indiquerons ce qui est autorisé et comment l'inclure lors de votre réservation.",
+
       faq2Question: "Pouvez-vous organiser la coordination de la prise en charge ou du dépôt à l'aéroport avec les vols ?",
-      faq2Answer: "Certainement ! Nous pouvons organiser des transferts aéroport fluides dans vos villes de départ et d'arrivée pour assurer un voyage sans tracas.",
+      faq2Answer: "Oui, nous nous occupons de cela. Vous pouvez nous demander d'organiser une prise en charge ou une dépose à votre destination dans le cadre de votre itinéraire.",
+
       faq3Question: "Quelle est la politique d'annulation, de modification ou de remboursement pour les réservations ?",
-      faq3Answer: "Les politiques varient selon la compagnie aérienne et la classe tarifaire. Nous vous fournirons les conditions spécifiques de votre billet avant que vous ne réserviez. Si vous devez apporter des modifications, notre équipe est là pour vous aider à naviguer dans le processus.",
+      faq3Answer: "Tout est défini par la compagnie aérienne ou les règles du billet. Nous sommes là pour vous aider avec les options afin que vous puissiez choisir ce qui est le plus sensé, que vous ayez besoin de décaler des dates ou d'annuler complètement.",
+
       faq4Question: "Quel soutien offrez-vous si mon vol est retardé ou annulé ?",
-      faq4Answer: "Nous offrons un soutien 24/7. Si votre vol est retardé ou annulé, nous vous aiderons à réserver à nouveau, à trouver des correspondances alternatives ou à vous aider avec les demandes d'indemnisation le cas échéant.",
+      faq4Answer: "En cas de retard ou d'annulation, nous sommes là pour vous aider. Vous pouvez nous contacter et nous vous guiderons sur la marche à suivre. Cela peut être une nouvelle réservation, obtenir de l'aide à l'aéroport ou prendre d'autres vols. Nous vous aidons à rester calme et à continuer d'avancer.",
+
     },
     groupTrip: {
       heroTitle: "Tours de Groupe",
@@ -627,13 +635,17 @@ export const fr = {
       faqTitle: "FAQ Tours de Groupe",
       faqDesc: "Questions fréquentes sur nos services de voyage de groupe.",
       faq1Question: "Quelle est la taille minimale et maximale du groupe pour vos tours nationaux et internationaux ?",
-      faq1Answer: "Pour les tours nationaux, nous demandons généralement un minimum de 10 personnes. Pour les tours internationaux, le minimum est généralement de 15. Il n'y a pas de taille maximale stricte, car nous pouvons organiser plusieurs autocars et guides pour les très grands groupes.",
+      faq1Answer: "La plupart de nos circuits sont conçus pour de petits groupes, souvent entre six et douze voyageurs à la fois. Si demandé, nous pouvons augmenter un peu la taille selon le style de voyage et votre niveau de confort.",
+
       faq2Question: "Comment assurez-vous une coordination fluide et une gestion du temps lors d'un voyage de groupe ?",
-      faq2Answer: "Nous affectons des tour managers dédiés expérimentés dans la gestion de la logistique, du timing et de la dynamique de groupe. Ils veillent à ce que l'itinéraire se déroule comme prévu tout en permettant la flexibilité nécessaire.",
+      faq2Answer: "Nous planifions chaque journée avec des horaires clairs, des transports confortables et des guides locaux de confiance qui connaissent bien les lieux. Nous veillons également à rester connectés sur la route, afin que rien ne déraille et que vous ayez toujours hâte de voir la suite.",
+
       faq3Question: "Pouvez-vous organiser les visas, les vols et les réservations d'hôtel pour tous les membres du groupe ?",
-      faq3Answer: "Oui, nous offrons des services complets incluant l'assistance visa, les réservations de vols et l'hébergement à l'hôtel pour tout le groupe, assurant une expérience fluide pour tous.",
+      faq3Answer: "Oui, nous gérons cela de bout en bout pour votre groupe. Une fois que nous avons tous les détails de chacun, nous nous occupons des vols, des séjours, des visas, des transferts et nous rassemblons le tout dans un itinéraire cohérent. Vous voyagez détendu et sans souci avec votre groupe pendant que nous coordonnons la logistique.",
+
       faq4Question: "Quels plans de paiement ou options de versement proposez-vous pour les réservations de tours de groupe ?",
-      faq4Answer: "Nous proposons des plans de paiement flexibles où vous pouvez payer un acompte initial pour garantir la réservation, suivi de paiements échelonnés jusqu'à la date de départ. Les conditions spécifiques dépendent du forfait touristique.",
+      faq4Answer: "Pour les réservations de groupe, nous demandons généralement un acompte de 25% pour confirmer les réservations, le solde étant dû 30 à 45 jours avant le départ. Pour les très grands groupes ou les itinéraires complexes, nous pouvons organiser un échéancier de paiement avec plusieurs versements. Nous pouvons également accepter les paiements individuels des membres du groupe si vous le préférez.",
+
     },
     form: {
       yourName: "Votre Nom*",

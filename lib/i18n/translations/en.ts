@@ -435,7 +435,8 @@ export const en = {
       faqTitle: "Custom Tour FAQs",
       faqSubtitle: "Answers to common questions about our customized tour packages.",
       faq1Question: "Do you design tours for families, groups, or solo travelers?",
-      faq1Answer: "Yes, absolutely! We specialize in creating personalized itineraries for all types of travelers - whether you're a solo adventurer, a couple on honeymoon, a family with kids, or a large group of friends. We tailor the pace, activities, and accommodations to suit your specific group composition.",
+      faq1Answer: "We design tours for everyone including families, travel squads, solo adventurers and all those who love to escape every now and then. Whether it's a relaxed vacation, a solo journey or fun trip filled with spontaneity, we make the itinerary feel like it was planned for you.",
+
       faq2Question: "What's included in a customized package?",
       faq2Answer: "You will receive an itinerary that's designed around what matters to you. It includes destinations, stays, comfy and seamless transfers, local guides and even activities that match your interests. We will handle the details so that your focus is purely on enjoying your travel.",
       faq3Question: "How long does it typically take to design a personalized trip?",
@@ -538,11 +539,14 @@ export const en = {
       faq1Question: "Do you offer both domestic and international hotel bookings?",
       faq1Answer: "Absolutely. We partner with hotels worldwide to offer you the best accommodations at competitive rates. Whether you're looking for a budget-friendly stay, a boutique hotel or a luxury resort, we have options to suit every preference and budget.",
       faq2Question: "Can you book hotels as part of a complete tour package or only standalone stays?",
-      faq2Answer: "We offer both! You can book a hotel as a standalone service, or we can integrate it into a complete holiday package including flights, transfers, and sightseeing.",
+      faq2Answer: "We can do both. You can either ask for a standalone booking or have us book the hotel as part of your full package with flights, transfers and activities. Whatever you need, we will handle the details.",
+
       faq3Question: "Can I modify or cancel my hotel booking?",
-      faq3Answer: "Yes, modifications and cancellations are possible, subject to the specific hotel's policy. We always recommend checking the cancellation terms before booking, and our team is here to assist with any changes.",
+      faq3Answer: "Modification and cancellation policies vary by hotel. Most bookings can be modified or cancelled free of charge up to 24-48 hours before check-in. Some special rate bookings may have different policies. Your confirmation email will specify the cancellation policy for your particular reservation.",
+
       faq4Question: "Can I book multiple hotels in different cities under one itinerary?",
-      faq4Answer: "Yes, we specialize in multi-city itineraries. Just let us know your travel plan, and we will arrange seamless accommodation across all your destinations.",
+      faq4Answer: "Definitely. For example, if your journey takes you from Mumbai to Sikkim to Andaman, we will book each hotel for the right nights across your trip. To make your travel seamless, we are here if you want to change your plans or add a stop later.",
+
     },
     // Flight Booking
     flightBooking: {
@@ -588,13 +592,17 @@ export const en = {
       faqTitle: "Flight Booking FAQs",
       faqDesc: "Common questions about our flight booking services.",
       faq1Question: "Can you add infant/child seat, pet, or sports equipment to my booking?",
-      faq1Answer: "Yes, we can assist with special requests such as infant seats, pet travel, or carrying sports equipment. Please mention these requirements when booking so we can check with the airline and arrange everything for you.",
+      faq1Answer: "We can guide you on how to include special items like infant seats or sports equipment. Many airlines let you add those through addon services when booking. For pets it depends on the airline's rules. We'll share what's allowed and how to include it when you book.",
+
       faq2Question: "Can you issue airport pick-up or drop-off coordination along with flights?",
-      faq2Answer: "Certainly! We can arrange seamless airport transfers at both your departure and arrival cities to ensure a hassle-free journey.",
+      faq2Answer: "Yes, we do take care of that. You can ask us to arrange a pickup or drop-off at your destination as part of your itinerary.",
+
       faq3Question: "What's the cancellation, change, or refund policy for bookings?",
-      faq3Answer: "Policies vary by airline and fare class. We will provide you with the specific terms and conditions for your ticket before you book. If you need to make changes, our team is here to help navigate the process.",
+      faq3Answer: "All are set by the airline or rules of the ticket. We are there to help you with the options so you can choose what makes sense, whether you need to shift dates or cancel altogether.",
+
       faq4Question: "What support do you offer if my flight is delayed or cancelled?",
-      faq4Answer: "We provide 24/7 support. If your flight is delayed or cancelled, we will help you rebook, find alternative connections, or assist with compensation claims where applicable.",
+      faq4Answer: "When delays or cancellations happen, we are here to help. You can reach to us and we will guide you on what to do next. That could be rebooking, getting support at the airport or catching alternate flights. We help you stay calm and keep moving.",
+
     },
     // Group Trip
     groupTrip: {
@@ -636,13 +644,17 @@ export const en = {
       faqTitle: "Group Tour FAQs",
       faqDesc: "Common questions about our group travel services.",
       faq1Question: "What is the minimum and maximum group size for your domestic and international tours?",
-      faq1Answer: "For domestic tours, we generally require a minimum of 10 people. For international tours, the minimum is usually 15. There is no strict maximum size, as we can arrange multiple coaches and guides for very large groups.",
+      faq1Answer: "Most of our tours are designed for small groups, often between six to twelve travellers at a time. If requested, we can scale up a bit depending on the style of trip and your comfort level.",
+
       faq2Question: "How do you ensure smooth coordination and time management during a group trip?",
-      faq2Answer: "We assign dedicated tour managers who are experienced in handling logistics, timing, and group dynamics. They ensure the itinerary runs on schedule while allowing for necessary flexibility.",
+      faq2Answer: "We map every day with clear timings, comfy transport and trusted local guides who know the place well. We also ensure to stay connected on the road, so nothing goes off track and you are always looking forward to what comes next.",
+
       faq3Question: "Can you arrange visa, flight, and hotel bookings for all members of the group?",
-      faq3Answer: "Yes, we offer end-to-end services including visa assistance, flight bookings, and hotel accommodations for the entire group, ensuring a seamless experience for everyone.",
+      faq3Answer: "Yes, we handle it end-to-end for your group. Once we get all details from everyone, we take care of flights, guest stays, visas, transfers and put them together in one cohesive itinerary. You travel relaxed and carefree with your group while we coordinate the logistics.",
+
       faq4Question: "What payment plans or installment options do you offer for group tour bookings?",
-      faq4Answer: "We offer flexible payment plans where you can pay an initial deposit to secure the booking, followed by installment payments leading up to the departure date. Specific terms depend on the tour package.",
+      faq4Answer: "For group bookings, we typically require a 25% deposit to confirm reservations, with the balance due 30-45 days before departure. For very large groups or complex itineraries, we may arrange a payment schedule with multiple instalments. We can also accommodate individual payments from group members if preferred.",
+
     },
     // Common form labels
     form: {

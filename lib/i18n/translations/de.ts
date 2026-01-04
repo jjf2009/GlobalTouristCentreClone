@@ -430,7 +430,8 @@ export const de = {
       faqTitle: "FAQ zu individuellen Touren",
       faqSubtitle: "Antworten auf häufige Fragen zu unseren maßgeschneiderten Reisepaketen.",
       faq1Question: "Entwerfen Sie Touren für Familien, Gruppen oder Alleinreisende?",
-      faq1Answer: "Ja, absolut! Wir sind darauf spezialisiert, persönliche Reiserouten für alle Arten von Reisenden zu erstellen - ob Sie ein Solo-Abenteurer, ein Paar in den Flitterwochen, eine Familie mit Kindern oder eine große Gruppe von Freunden sind. Wir passen das Tempo, die Aktivitäten und die Unterkünfte an Ihre Gruppenzusammensetzung an.",
+      faq1Answer: "Wir entwerfen Touren für alle, einschließlich Familien, Reisegruppen, Alleinreisende und alle, die ab und zu entfliehen möchten. Ob es sich um einen entspannten Urlaub, eine Solo-Reise oder einen lustigen Trip voller Spontanität handelt, wir sorgen dafür, dass sich die Reiseroute anfühlt, als wäre sie für Sie geplant.",
+
       faq2Question: "Was ist in einem maßgeschneiderten Paket enthalten?",
       faq2Answer: "Sie erhalten eine Reiseroute, die auf das zugeschnitten ist, was Ihnen wichtig ist. Sie umfasst Reiseziele, Aufenthalte, bequeme Transfers, lokale Guides und sogar Aktivitäten, die Ihren Interessen entsprechen. Wir kümmern uns um die Details, damit Sie sich ganz auf den Genuss Ihrer Reise konzentrieren können.",
       faq3Question: "Wie lange dauert es normalerweise, eine persönliche Reise zu entwerfen?",
@@ -531,11 +532,14 @@ export const de = {
       faq1Question: "Bieten Sie sowohl nationale als auch internationale Hotelbuchungen an?",
       faq1Answer: "Absolut. Wir arbeiten mit Hotels weltweit zusammen, um Ihnen die besten Unterkünfte zu wettbewerbsfähigen Preisen anzubieten. Ob Sie einen günstigen Aufenthalt, ein Boutique-Hotel oder ein Luxusresort suchen, wir haben Optionen für jeden Geschmack und jedes Budget.",
       faq2Question: "Können Sie Hotels als Teil eines kompletten Reisepakets oder nur als Einzelaufenthalt buchen?",
-      faq2Answer: "Wir bieten beides an! Sie können ein Hotel als eigenständigen Service buchen, oder wir integrieren es in ein komplettes Urlaubspaket inklusive Flügen, Transfers und Besichtigungen.",
+      faq2Answer: "Wir können beides tun. Sie können entweder eine eigenständige Buchung anfragen oder uns das Hotel als Teil Ihres kompletten Pakets mit Flügen, Transfers und Aktivitäten buchen lassen. Was auch immer Sie brauchen, wir kümmern uns um die Details.",
+
       faq3Question: "Kann ich meine Hotelbuchung ändern oder stornieren?",
-      faq3Answer: "Ja, Änderungen und Stornierungen sind möglich, vorbehaltlich der spezifischen Richtlinien des Hotels. Wir empfehlen immer, die Stornierungsbedingungen vor der Buchung zu prüfen, und unser Team ist hier, um Ihnen bei Änderungen zu helfen.",
+      faq3Answer: "Änderungs- und Stornierungsrichtlinien variieren je nach Hotel. Die meisten Buchungen können bis zu 24-48 Stunden vor dem Check-in kostenlos geändert oder storniert werden. Einige Buchungen mit Sonderraten können abweichende Richtlinien haben. Ihre Bestätigungs-E-Mail wird die Stornierungsbedingungen für Ihre spezielle Reservierung angeben.",
+
       faq4Question: "Kann ich mehrere Hotels in verschiedenen Städten unter einem Reiseplan buchen?",
-      faq4Answer: "Ja, wir sind auf Multi-City-Reiserouten spezialisiert. Teilen Sie uns einfach Ihren Reiseplan mit, und wir organisieren nahtlose Unterkünfte an allen Ihren Zielen.",
+      faq4Answer: "Definitiv. Zum Beispiel, wenn Ihre Reise Sie von Mumbai nach Sikkim und zu den Andamanen führt, buchen wir jedes Hotel für die richtigen Nächte während Ihrer Reise. Um Ihre Reise nahtlos zu gestalten, sind wir da, wenn Sie Ihre Pläne ändern oder später einen Stopp hinzufügen möchten.",
+
     },
     flightBooking: {
       heroTitle: "Flugbuchungen",
@@ -580,13 +584,17 @@ export const de = {
       faqTitle: "Flugbuchung FAQ",
       faqDesc: "Häufige Fragen zu unseren Flugbuchungsdiensten.",
       faq1Question: "Können Sie Kindersitze, Haustiere oder Sportausrüstung zu meiner Buchung hinzufügen?",
-      faq1Answer: "Ja, wir können bei Sonderwünschen wie Kindersitzen, Reisen mit Haustieren oder dem Transport von Sportausrüstung helfen. Bitte geben Sie diese Anforderungen bei der Buchung an, damit wir dies mit der Fluggesellschaft klären und alles für Sie arrangieren können.",
+      faq1Answer: "Wir können Sie anleiten, wie Sie spezielle Gegenstände wie Kindersitze oder Sportausrüstung einbeziehen können. Viele Fluggesellschaften ermöglichen es Ihnen, diese bei der Buchung über Zusatzdienste hinzuzufügen. Bei Haustieren hängt es von den Regeln der Fluggesellschaft ab. Wir teilen Ihnen mit, was erlaubt ist und wie Sie es bei der Buchung einbeziehen können.",
+
       faq2Question: "Können Sie neben den Flügen auch Flughafentransfers organisieren?",
-      faq2Answer: "Sicherlich! Wir können nahtlose Flughafentransfers sowohl an Ihren Abflug- als auch an Ihren Zielorten organisieren, um eine stressfreie Reise zu gewährleisten.",
+      faq2Answer: "Ja, wir kümmern uns darum. Sie können uns bitten, eine Abholung oder einen Transfer an Ihrem Zielort als Teil Ihrer Reiseroute zu organisieren.",
+
       faq3Question: "Wie lauten die Stornierungs-, Änderungs- oder Rückerstattungsrichtlinien für Buchungen?",
-      faq3Answer: "Die Richtlinien variieren je nach Fluggesellschaft und Tarifklasse. Wir teilen Ihnen die spezifischen Bedingungen für Ihr Ticket vor der Buchung mit. Wenn Sie Änderungen vornehmen müssen, hilft Ihnen unser Team gerne durch den Prozess.",
+      faq3Answer: "Alles wird von der Fluggesellschaft oder den Regeln des Tickets festgelegt. Wir sind da, um Ihnen bei den Optionen zu helfen, damit Sie wählen können, was Sinn macht, egal ob Sie Daten verschieben oder ganz stornieren müssen.",
+
       faq4Question: "Welche Unterstützung bieten Sie bei Flugverspätungen oder -annullierungen?",
-      faq4Answer: "Wir bieten 24/7 Support. Wenn Ihr Flug verspätet ist oder annulliert wird, helfen wir Ihnen bei der Umbuchung, finden alternative Verbindungen oder unterstützen Sie bei Entschädigungsansprüchen, falls zutreffend.",
+      faq4Answer: "Wenn Verspätungen oder Annullierungen auftreten, sind wir hier, um zu helfen. Sie können uns erreichen und wir werden Sie anleiten, was als nächstes zu tun ist. Das könnte eine Umbuchung sein, Unterstützung am Flughafen oder das Erreichen alternativer Flüge. Wir helfen Ihnen, ruhig zu bleiben und weiterzukommen.",
+
     },
     groupTrip: {
       heroTitle: "Gruppenreisen",
@@ -627,13 +635,17 @@ export const de = {
       faqTitle: "Gruppenreisen FAQ",
       faqDesc: "Häufige Fragen zu unseren Gruppenreisediensten.",
       faq1Question: "Was ist die minimale und maximale Gruppengröße für Ihre nationalen und internationalen Touren?",
-      faq1Answer: "Für nationale Touren benötigen wir in der Regel mindestens 10 Personen. Für internationale Touren liegt das Minimum normalerweise bei 15. Es gibt keine strikte maximale Größe, da wir mehrere Busse und Reiseleiter für sehr große Gruppen organisieren können.",
+      faq1Answer: "Die meisten unserer Touren sind für kleine Gruppen konzipiert, oft zwischen sechs und zwölf Reisenden gleichzeitig. Auf Wunsch können wir die Größe je nach Reisestil und Ihrem Komfortniveau etwas erhöhen.",
+
       faq2Question: "Wie stellen Sie eine reibungslose Koordination und Zeitmanagement während einer Gruppenreise sicher?",
-      faq2Answer: "Wir setzen engagierte Reiseleiter ein, die Erfahrung in Logistik, Zeitplanung und Gruppendynamik haben. Sie sorgen dafür, dass der Reiseplan eingehalten wird und gleichzeitig die notwendige Flexibilität gewährleistet ist.",
+      faq2Answer: "Wir planen jeden Tag mit klaren Zeitplänen, bequemen Transportmitteln und vertrauenswürdigen lokalen Guides, die den Ort gut kennen. Wir sorgen auch dafür, dass wir unterwegs in Verbindung bleiben, damit nichts vom Weg abkommt und Sie sich immer auf das freuen, was als nächstes kommt.",
+
       faq3Question: "Können Sie Visa, Flüge und Hotelbuchungen für alle Mitglieder der Gruppe arrangieren?",
-      faq3Answer: "Ja, wir bieten umfassende Dienstleistungen an, einschließlich Visa-Unterstützung, Flugbuchungen und Hotelunterkünften für die gesamte Gruppe, um ein nahtloses Erlebnis für alle zu gewährleisten.",
+      faq3Answer: "Ja, wir wickeln das für Ihre Gruppe von A bis Z ab. Sobald wir alle Details von jedem haben, kümmern wir uns um Flüge, Gästeaufenthalte, Visa, Transfers und fügen sie in einer zusammenhängenden Reiseroute zusammen. Sie reisen entspannt und sorgenfrei mit Ihrer Gruppe, während wir die Logistik koordinieren.",
+
       faq4Question: "Welche Zahlungspläne oder Ratenzahlungsoptionen bieten Sie für Gruppenreisebuchungen an?",
-      faq4Answer: "Wir bieten flexible Zahlungspläne an, bei denen Sie eine erste Anzahlung leisten können, um die Buchung zu sichern, gefolgt von Ratenzahlungen bis zum Abreisedatum. Die spezifischen Bedingungen hängen vom Reisepaket ab.",
+      faq4Answer: "Für Gruppenbuchungen verlangen wir in der Regel eine Anzahlung von 25%, um Reservierungen zu bestätigen, wobei der Restbetrag 30-45 Tage vor Abflug fällig ist. Für sehr große Gruppen oder komplexe Reiserouten können wir einen Zahlungsplan mit mehreren Raten vereinbaren. Wir können auch individuelle Zahlungen von Gruppenmitgliedern akzeptieren, wenn dies bevorzugt wird.",
+
     },
     form: {
       yourName: "Ihr Name*",
