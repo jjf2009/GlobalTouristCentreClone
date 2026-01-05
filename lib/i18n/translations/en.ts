@@ -730,6 +730,67 @@ export const en = {
       submit: "Submit Request",
       submitting: "Submitting...",
     },
+    domesticInternational: {
+      hero: {
+        title: "Domestic & International Tour Packages",
+      },
+      about: {
+        title: "Explore the World With Us",
+        description:
+          "Whether you're looking to explore the hidden gems of India or venture to exotic international destinations, we craft personalized itineraries that cater to your travel style and preferences. Our domestic and international tour packages are designed to offer authentic experiences, comfortable accommodations, and seamless logistics.",
+        whyTitle: "Why Choose Our Packages:",
+        points: [
+          "Carefully curated itineraries with local experiences",
+          "Expert guides and 24/7 support during your trip",
+          "Competitive pricing with no hidden costs",
+          "Flexible customization options",
+          "Hand-picked accommodations and transportation",
+        ],
+      },
+      domestic: {
+        title: "Domestic Trips",
+        subtitle:
+          "Explore the diverse beauty of India with our handpicked domestic destinations.",
+        viewMore: "View More Domestic Trips",
+      },
+      international: {
+        title: "International Trips",
+        subtitle:
+          "Discover exotic destinations around the world with our international tour packages.",
+        viewMore: "View More International Trips",
+      },
+      faq: {
+        title: "Frequently Asked Questions",
+        subtitle:
+          "Find answers to common questions about our domestic and international tours.",
+        questions: [
+          {
+            question:
+              "What documents do you need from me at the time of booking?",
+            answer:
+              "We will need a valid passport and government-issued identity proof to get the booking started. As per the destination and airline requirements, we may ask for more documentation such as your Aadhaar card or a copy of your travel documents.",
+          },
+          {
+            question:
+              "Do you offer visa assistance or visa processing services?",
+            answer:
+              "Yes, our team will guide through the process, help you with the necessary paperwork and make sure that everything is in order before submission.",
+          },
+          {
+            question:
+              "What is your policy for refunds/compensation in case of service failures (missed hotel nights, cancelled excursions)?",
+            answer:
+              "If a hotel night is missed or an excursion gets cancelled due to service issues, we will step in to sort it out. Depending on the circumstance, you may be offered a refund or travel credit.",
+          },
+          {
+            question:
+              "Should I arrive earlier for international flights than domestic ones?",
+            answer:
+              "For domestic flights, reach the airport 2 hours before. For international flights, arrive 3 to 4 hours early to manage security and immigration without stress.",
+          },
+        ],
+      },
+    },
   },
   // Why Choose Us
   whyChoose: {
