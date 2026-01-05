@@ -21,18 +21,25 @@ interface PackageHeroProps {
 }
 
 export function PackageHero({ data }: PackageHeroProps) {
+  // Defensive check
+  if (!data) return null;
+
+  const backgroundImage = data.background_image || "/assets/Luxury/default-hero.webp";
+  const title = data.title || "Luxury Experience";
+  const ctaLink = data.cta_link || "#";
+
   return (
     <section className="relative h-[60vh] min-h-[500px] w-full flex flex-col items-center justify-center text-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src={data.background_image}
-          alt={data.title}
+          src={backgroundImage}
+          alt={title}
           fill
           className="object-cover"
           priority
         />
-        <Header/>
+        <Header />
         {/* Gradient Overlay - Dark Teal/Blue tint to match the reference image */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#0f2d40]/90 via-[#0f2d40]/60 to-[#0f2d40]/40" />
       </div>
@@ -59,7 +66,7 @@ export function PackageHero({ data }: PackageHeroProps) {
 
         {/* CTA Button */}
         <Link
-          href={data.cta_link}
+          href={ctaLink}
           target="_blank" // Opens WhatsApp/Link in new tab
           rel="noopener noreferrer"
           className="inline-block"

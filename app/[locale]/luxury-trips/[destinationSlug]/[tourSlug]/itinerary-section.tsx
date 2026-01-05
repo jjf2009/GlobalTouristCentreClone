@@ -5,11 +5,11 @@ import { ItineraryDayCard } from "./itinerary-day-card";
 // Define interface based on your JSON structure
 interface ItineraryData {
   title: string;
-  days: {
+  days: readonly {
     day_title: string;
     location: string;
     description: string;
-    activities: string[];
+    activities: readonly string[];
   }[];
 }
 

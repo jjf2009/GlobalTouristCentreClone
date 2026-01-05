@@ -13627,6 +13627,8 @@ export const fr = {
           "Séjour de Luxe au Kerala : 4 Nuits / 5 Jours (Cochin, Alleppey, Munnar)",
         location: "Cochin, Munnar, Alleppey - 4N/5D",
         cta_text: "Réserver",
+        cta_link:
+          "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%204N/5D%20Kerala%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Kerala/hero-backwaters.webp",
       },
       itinerary: {
@@ -13636,35 +13638,119 @@ export const fr = {
             day_title: "Jour 01 : Arrivée à Cochin (1 Nuit)",
             location: "Cochin",
             description:
-              "Transfert privé vers votre hôtel 5★. Visite du Fort Kochi, du Palais Mattancherry et des filets de pêche chinois.",
+              "Arrivée à l'aéroport international de Cochin. Transfert privé de luxe vers votre hôtel 5★. Après-midi consacré à la visite de Cochin : Fort Kochi, Palais Mattancherry (Palais Hollandais), Synagogue Juive, Église Saint-François et Filets de pêche chinois.",
             activities: [
-              "Spectacle de danse Kathakali ou dîner-croisière de luxe",
-              "Nuit à Cochin",
+              "Spectacle de danse Kathakali en soirée / Dîner-croisière de luxe",
+              "Nuit à Cochin (Hôtel/Resort 5★)",
+            ],
+          },
+          {
+            day_title: "Jour 02 : Cochin → Munnar (Env. 4,5 h de route) (2 Nuits)",
+            location: "Munnar",
+            description:
+              "Petit-déjeuner à l'hôtel. Route vers Munnar, profitez des plantations de thé pittoresques, des cascades et de la verdure luxuriante en chemin. Enregistrement dans un complexe de luxe en colline. Soirée libre au complexe avec séance de spa/Ayurveda.",
+            activities: [
+              "Séance de spa de luxe/Ayurveda",
+              "Nuit à Munnar (Resort de luxe 5★)",
+            ],
+          },
+          {
+            day_title: "Jour 03 : Visite de Munnar",
+            location: "Munnar",
+            description:
+              "Après le petit-déjeuner, journée complète de visite à Munnar : Parc National d'Eravikulam, Musée du Thé et plantations de thé, barrage de Mattupetty et Echo Point, et lac Kundala (Promenade en bateau).",
+            activities: [
+              "Expérience de navigation sur le lac Kundala",
+              "Soirée libre pour le shopping (thé, épices, chocolats maison)",
+              "Nuit à Munnar",
             ],
           },
           {
             day_title: "Jour 04 : Munnar → Alleppey (Nuit sur un Houseboat)",
             location: "Alleppey",
             description:
-              "Installation sur votre Houseboat Privé de Luxe. Navigation sur les backwaters à travers villages et lagunes de cocotiers.",
+              "Après le petit-déjeuner, route vers Alleppey (env. 5 h). Installation sur votre Houseboat Privé de Luxe. Navigation sur les backwaters à travers villages, rizières et lagunes de cocotiers. Déjeuner et dîner traditionnels du Kerala à bord.",
             activities: [
-              "Coucher de soleil depuis le pont supérieur",
-              "Dîner traditionnel du Kerala à bord",
+              "Coucher de soleil depuis le pont du houseboat",
               "Nuit sur le Houseboat de luxe",
             ],
           },
+          {
+            day_title: "Jour 05 : Alleppey → Départ de Cochin",
+            location: "Départ",
+            description:
+              "Petit-déjeuner à bord. Départ et retour en voiture à Cochin. Transfert à l'aéroport/gare avec de doux souvenirs du Kerala.",
+            activities: [],
+          },
         ],
       },
-      inclusions: [
+      accommodations: [
         {
-          title: "Hébergement Insolite de Luxe",
+          image: {
+            src: "/assets/Luxury/Kerala/forte-kochi.webp",
+            alt: "Forte Kochi - Hôtel Boutique de Patrimoine et Luxe",
+          },
+          name: "Forte Kochi",
+          location: "Kochi, Inde",
           description:
-            "Hôtel 5★ à Cochin, Resort avec vue à Munnar et Houseboat Privé à Alleppey",
+            "Hôtel Boutique de patrimoine et luxe offrant des hébergements élégants au charme colonial et aux équipements modernes au cœur de Fort Kochi.",
+          rating: 5,
         },
         {
-          title: "Expériences Culturelles",
+          image: {
+            src: "/assets/Luxury/Kerala/hotel-amber-dale.webp",
+            alt: "Hôtel Amber Dale",
+          },
+          name: "Hôtel Amber Dale",
+          location: "Munnar, Inde",
           description:
-            "Spectacle Kathakali, session de spa/Ayurveda et balade en bateau sur le lac Kundala",
+            "Hôtel de luxe niché dans les collines de Munnar avec des vues imprenables sur les plantations de thé, offrant des équipements haut de gamme et des services de spa.",
+          rating: 5,
+        },
+        {
+          image: {
+            src: "/assets/Luxury/Kerala/southern-panorama-cruise.webp",
+            alt: "Southern Panorama Cruise Luxury",
+          },
+          name: "Southern Panorama Cruise Luxury",
+          location: "Alleppey, Inde",
+          description:
+            "Houseboat de luxe offrant des équipements haut de gamme, une cuisine traditionnelle du Kerala et des vues panoramiques sur les backwaters sereins.",
+          rating: 5,
+        },
+      ],
+      inclusions: [
+        {
+          icon: "fas fa-hotel",
+          title: "Hébergement de Luxe",
+          description:
+            "1N Cochin (Hôtel/Resort 5★), 2N Munnar (Resort de luxe avec vue), 1N Alleppey (Houseboat Privé de Luxe)",
+        },
+        {
+          icon: "fas fa-utensils",
+          title: "Dîner Gastronomique",
+          description: "Petit-déjeuner quotidien + Tous les repas sur le Houseboat",
+        },
+        {
+          icon: "fas fa-car",
+          title: "Transferts Privés",
+          description: "Véhicule de luxe climatisé privé pour les transferts et visites",
+        },
+        {
+          icon: "fas fa-user-tie",
+          title: "Guides Professionnels",
+          description: "Chauffeur-guide, parking, péages et taxes",
+        },
+        {
+          icon: "fas fa-ticket-alt",
+          title: "Activités et Expériences",
+          description:
+            "Spectacle de danse Kathakali / programme culturel ou Dîner-croisière, 1 séance de spa/Ayurveda, Navigation lac Kundala",
+        },
+        {
+          icon: "fas fa-shield-alt",
+          title: "Taxes et Support",
+          description: "Tous les parkings, péages, taxes applicables et assistance",
         },
       ],
     },

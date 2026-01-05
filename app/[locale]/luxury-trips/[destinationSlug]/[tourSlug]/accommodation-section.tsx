@@ -15,7 +15,7 @@ interface AccommodationData {
 }
 
 interface AccommodationSectionProps {
-  data: AccommodationData[];
+  data: readonly AccommodationData[];
 }
 
 export function AccommodationSection({ data }: AccommodationSectionProps) {

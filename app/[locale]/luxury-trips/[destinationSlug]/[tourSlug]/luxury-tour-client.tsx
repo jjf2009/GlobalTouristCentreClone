@@ -14,26 +14,38 @@ type TourClientProps = {
 
 export default function TourClient({ tourSlug }: TourClientProps) {
   const { t } = useI18n();
+  const packageData = t.luxuryTourPackages?.[tourSlug];
+
+  if (!packageData) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-[#fdfbf7]">
+        <div className="text-center px-4">
+          <h1 className="text-2xl font-serif font-bold text-[#1a2238] mb-4">Package details not available</h1>
+          <p className="text-slate-600">We couldn't find the details for this luxury package in your selected language.</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <main className="bg-white">
       {/* ======================================================
           HERO
       ======================================================= */}
-      <PackageHero data={t.luxuryTourPackages[tourSlug]?.hero_section} />
+      <PackageHero data={packageData.hero_section} />
 
       {/* ======================================================
-          CItinerarySection
+          ITINERARY
       ======================================================= */}
-      <ItinerarySection data={t.luxuryTourPackages[tourSlug]?.itinerary} />
+      <ItinerarySection data={packageData.itinerary} />
       {/* ======================================================
-            AccommodationSection
+            ACCOMMODATION
       ======================================================= */}
-      <AccommodationSection data={t.luxuryTourPackages[tourSlug]?.accommodations } />
+      <AccommodationSection data={packageData.accommodations} />
       {/* ======================================================
-          INCLUSIONS
+          INCLUSIONS & EXCLUSIONS
       ======================================================= */}
-      <InclusionsSection data={t.luxuryTourPackages[tourSlug]?.inclusions} />
+      <InclusionsSection data={packageData.inclusions} />
     </main>
   );
 }

@@ -9,7 +9,7 @@ interface InclusionItem {
 }
 
 interface InclusionsSectionProps {
-  data: InclusionItem[];
+  data: readonly InclusionItem[];
 }
 
 export function InclusionsSection({ data }: InclusionsSectionProps) {

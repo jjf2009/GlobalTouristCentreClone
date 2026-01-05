@@ -717,55 +717,55 @@ export const it = {
       submit: "Invia Richiesta",
       submitting: "Invio in corso...",
     },
-"domesticInternational": {
-  "hero": {
-    "title": "Pacchetti Turistici Nazionali e Internazionali"
-  },
-  "about": {
-    "title": "Esplora il Mondo con Noi",
-    "description": "Che tu stia cercando di esplorare le gemme nascoste dell'India o di avventurarti verso esotiche destinazioni internazionali, creiamo itinerari personalizzati che soddisfano il tuo stile di viaggio. I nostri pacchetti nazionali e internazionali sono progettati per offrire esperienze autentiche, sistemazioni confortevoli e una logistica impeccabile.",
-    "whyTitle": "Perché scegliere i nostri pacchetti:",
-    "points": [
-      "Itinerari curati con cura con esperienze locali",
-      "Guide esperte e supporto 24/7 durante il tuo viaggio",
-      "Prezzi competitivi senza costi nascosti",
-      "Opzioni di personalizzazione flessibili",
-      "Sistemazioni e trasporti selezionati con cura"
-    ]
-  },
-  "domestic": {
-    "title": "Viaggi Nazionali",
-    "subtitle": "Esplora la variegata bellezza dell'India con le nostre destinazioni nazionali selezionate.",
-    "viewMore": "Vedi altri viaggi nazionali"
-  },
-  "international": {
-    "title": "Viaggi Internazionali",
-    "subtitle": "Scopri destinazioni esotiche in tutto il mondo con i nostri pacchetti turistici internazionali.",
-    "viewMore": "Vedi altri viaggi internazionali"
-  },
-  "faq": {
-    "title": "Domande Frequenti",
-    "subtitle": "Trova le risposte alle domande comuni sui nostri tour nazionali e internazionali.",
-    "questions": [
-      {
-        "question": "Quali documenti sono necessari al momento della prenotazione?",
-        "answer": "Avremo bisogno di un passaporto valido e di un documento d'identità rilasciato dal governo per avviare la prenotazione. In base alla destinazione e ai requisiti della compagnia aerea, potremmo richiedere ulteriori documenti come la carta Aadhaar o una copia dei documenti di viaggio."
+    "domesticInternational": {
+      "hero": {
+        "title": "Pacchetti Turistici Nazionali e Internazionali"
       },
-      {
-        "question": "Offrite assistenza per il visto o servizi di elaborazione del visto?",
-        "answer": "Sì, il nostro team ti guiderà attraverso il processo, ti aiuterà con la documentazione necessaria e si assicurerà che tutto sia in ordine prima della presentazione."
+      "about": {
+        "title": "Esplora il Mondo con Noi",
+        "description": "Che tu stia cercando di esplorare le gemme nascoste dell'India o di avventurarti verso esotiche destinazioni internazionali, creiamo itinerari personalizzati che soddisfano il tuo stile di viaggio. I nostri pacchetti nazionali e internazionali sono progettati per offrire esperienze autentiche, sistemazioni confortevoli e una logistica impeccabile.",
+        "whyTitle": "Perché scegliere i nostri pacchetti:",
+        "points": [
+          "Itinerari curati con cura con esperienze locali",
+          "Guide esperte e supporto 24/7 durante il tuo viaggio",
+          "Prezzi competitivi senza costi nascosti",
+          "Opzioni di personalizzazione flessibili",
+          "Sistemazioni e trasporti selezionati con cura"
+        ]
       },
-      {
-        "question": "Qual è la vostra politica di rimborso in caso di guasti al servizio (notti in hotel perse, escursioni cancellate)?",
-        "answer": "Se una notte in hotel viene persa o un'escursione viene cancellata a causa di problemi di servizio, interverremo per risolvere la questione. A seconda della circostanza, potrebbe essere offerto un rimborso o un credito di viaggio."
+      "domestic": {
+        "title": "Viaggi Nazionali",
+        "subtitle": "Esplora la variegata bellezza dell'India con le nostre destinazioni nazionali selezionate.",
+        "viewMore": "Vedi altri viaggi nazionali"
       },
-      {
-        "question": "Devo arrivare in aeroporto prima per i voli internazionali rispetto a quelli nazionali?",
-        "answer": "Per i voli nazionali, arriva in aeroporto 2 ore prima. Per i voli internazionali, arriva dalle 3 alle 4 ore prima per gestire i controlli di sicurezza e l'immigrazione senza stress."
+      "international": {
+        "title": "Viaggi Internazionali",
+        "subtitle": "Scopri destinazioni esotiche in tutto il mondo con i nostri pacchetti turistici internazionali.",
+        "viewMore": "Vedi altri viaggi internazionali"
+      },
+      "faq": {
+        "title": "Domande Frequenti",
+        "subtitle": "Trova le risposte alle domande comuni sui nostri tour nazionali e internazionali.",
+        "questions": [
+          {
+            "question": "Quali documenti sono necessari al momento della prenotazione?",
+            "answer": "Avremo bisogno di un passaporto valido e di un documento d'identità rilasciato dal governo per avviare la prenotazione. In base alla destinazione e ai requisiti della compagnia aerea, potremmo richiedere ulteriori documenti come la carta Aadhaar o una copia dei documenti di viaggio."
+          },
+          {
+            "question": "Offrite assistenza per il visto o servizi di elaborazione del visto?",
+            "answer": "Sì, il nostro team ti guiderà attraverso il processo, ti aiuterà con la documentazione necessaria e si assicurerà che tutto sia in ordine prima della presentazione."
+          },
+          {
+            "question": "Qual è la vostra politica di rimborso in caso di guasti al servizio (notti in hotel perse, escursioni cancellate)?",
+            "answer": "Se una notte in hotel viene persa o un'escursione viene cancellata a causa di problemi di servizio, interverremo per risolvere la questione. A seconda della circostanza, potrebbe essere offerto un rimborso o un credito di viaggio."
+          },
+          {
+            "question": "Devo arrivare in aeroporto prima per i voli internazionali rispetto a quelli nazionali?",
+            "answer": "Per i voli nazionali, arriva in aeroporto 2 ore prima. Per i voli internazionali, arriva dalle 3 alle 4 ore prima per gestire i controlli di sicurezza e l'immigrazione senza stress."
+          }
+        ]
       }
-    ]
-  }
-}
+    }
   },
   // Why Choose Us
   whyChoose: {
@@ -13582,6 +13582,8 @@ export const it = {
         title: "Tour di Lusso Kerala 4N/5G (Cochin, Alleppey, Munnar)",
         location: "Cochin, Munnar, Alleppey - 4N/5G",
         cta_text: "Prenota Ora",
+        cta_link:
+          "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%204N/5D%20Kerala%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Kerala/hero-backwaters.webp",
       },
       itinerary: {
@@ -13591,34 +13593,119 @@ export const it = {
             day_title: "Giorno 01: Arrivo a Cochin (1 Notte)",
             location: "Cochin",
             description:
-              "Arrivo a Cochin. Trasferimento privato di lusso in hotel 5★. Pomeriggio dedicato alla visita di Fort Kochi, del Palazzo di Mattancherry e delle reti da pesca cinesi.",
+              "Arrivo all'aeroporto internazionale di Cochin. Trasferimento privato di lusso in hotel 5★. Pomeriggio dedicato alla visita di Cochin: Fort Kochi, Palazzo di Mattancherry (Palazzo Olandese), Sinagoga Ebraica, Chiesa di San Francesco e Reti da pesca cinesi.",
             activities: [
-              "Spettacolo serale di danza Kathakali o crociera con cena di lusso",
-              "Pernottamento a Cochin",
+              "Spettacolo serale di danza Kathakali / Crociera con cena di lusso",
+              "Pernottamento a Cochin (Hotel/Resort 5★)",
+            ],
+          },
+          {
+            day_title: "Giorno 02: Cochin → Munnar (Circa 4,5 ore di auto) (2 Notti)",
+            location: "Munnar",
+            description:
+              "Colazione in hotel. Partenza per Munnar, goditi le pittoresche piantagioni di tè, le cascate e la lussureggiante vegetazione lungo il percorso. Check-in in un lussuoso resort in collina. Serata libera al resort con sessione di spa/Ayurveda.",
+            activities: [
+              "Sessione spa di lusso/Ayurveda",
+              "Pernottamento a Munnar (Resort di lusso 5★)",
+            ],
+          },
+          {
+            day_title: "Giorno 03: Visita di Munnar",
+            location: "Munnar",
+            description:
+              "Dopo colazione, giornata intera dedicata alla visita di Munnar: Parco Nazionale di Eravikulam, Museo del Tè e piantagioni di tè, Diga di Mattupetty ed Echo Point, e Lago Kundala (Giro in barca).",
+            activities: [
+              "Esperienza in barca sul lago Kundala",
+              "Serata libera per lo shopping (tè, spezie, cioccolato fatto in casa)",
+              "Pernottamento a Munnar",
             ],
           },
           {
             day_title: "Giorno 04: Munnar → Alleppey (Soggiorno in Houseboat)",
             location: "Alleppey",
             description:
-              "Partenza per Alleppey. Check-in su una Houseboat Privata di Lusso. Navigazione tra le lagune, i campi di riso e i palmeti. Pranzo e cena tradizionali a bordo.",
+              "Dopo colazione, partenza per Alleppey (circa 5 ore). Check-in su una Houseboat Privata di Lusso. Navigazione tra le lagune, i campi di riso e i palmeti. Pranzo e cena tradizionali del Kerala a bordo.",
             activities: [
               "Tramonto dal ponte della houseboat",
               "Pernottamento in Houseboat di Lusso",
             ],
           },
+          {
+            day_title: "Giorno 05: Alleppey → Partenza da Cochin",
+            location: "Partenza",
+            description:
+              "Colazione a bordo. Check-out e ritorno in auto a Cochin. Trasferimento in aeroporto/stazione con dolci ricordi del Kerala.",
+            activities: [],
+          },
         ],
       },
-      inclusions: [
+      accommodations: [
         {
-          title: "Esperienza in Houseboat",
+          image: {
+            src: "/assets/Luxury/Kerala/forte-kochi.webp",
+            alt: "Forte Kochi - Heritage & Luxury Boutique Hotel",
+          },
+          name: "Forte Kochi",
+          location: "Kochi, India",
           description:
-            "1 Notte in Houseboat Privata di Lusso con tutti i pasti inclusi",
+            "Heritage & Luxury Boutique Hotel che offre sistemazioni eleganti con fascino coloniale e comfort moderni nel cuore di Fort Kochi.",
+          rating: 5,
         },
         {
-          title: "Benessere e Cultura",
+          image: {
+            src: "/assets/Luxury/Kerala/hotel-amber-dale.webp",
+            alt: "Hotel Amber Dale",
+          },
+          name: "Hotel Amber Dale",
+          location: "Munnar, India",
           description:
-            "1 sessione di Spa/Ayurveda, spettacolo Kathakali e giro in barca sul lago Kundala",
+            "Hotel di lusso immerso nelle colline di Munnar con viste mozzafiato sulle piantagioni di tè, che offre servizi premium e trattamenti spa.",
+          rating: 5,
+        },
+        {
+          image: {
+            src: "/assets/Luxury/Kerala/southern-panorama-cruise.webp",
+            alt: "Southern Panorama Cruise Luxury",
+          },
+          name: "Southern Panorama Cruise Luxury",
+          location: "Alleppey, India",
+          description:
+            "Houseboat di lusso che offre servizi premium, cucina tradizionale del Kerala e viste panoramiche sulle serene lagune.",
+          rating: 5,
+        },
+      ],
+      inclusions: [
+        {
+          icon: "fas fa-hotel",
+          title: "Sistemazioni di Lusso",
+          description:
+            "1N Cochin (Hotel/Resort 5★), 2N Munnar (Luxury Resort con vista), 1N Alleppey (Houseboat Privata di Lusso)",
+        },
+        {
+          icon: "fas fa-utensils",
+          title: "Cena Gourmet",
+          description: "Colazione quotidiana + Tutti i pasti in Houseboat",
+        },
+        {
+          icon: "fas fa-car",
+          title: "Trasferimenti Privati",
+          description: "Veicolo di lusso privato AC per trasferimenti e visite",
+        },
+        {
+          icon: "fas fa-user-tie",
+          title: "Guide Professionali",
+          description: "Autista-guida, parcheggio, pedaggi e tasse",
+        },
+        {
+          icon: "fas fa-ticket-alt",
+          title: "Attività ed Esperienze",
+          description:
+            "Spettacolo di danza Kathakali / programma culturale o crociera con cena, 1 sessione spa/Ayurveda, giro in barca sul lago Kundala",
+        },
+        {
+          icon: "fas fa-shield-alt",
+          title: "Tasse e Supporto",
+          description: "Tutti i parcheggi, pedaggi, tasse applicabili e assistenza",
         },
       ],
     },
