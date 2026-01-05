@@ -66,15 +66,15 @@ useEffect(() => {
   const popularTours = [
     {
       label: t.footer.goaBeach,
-      href: "https://globaltouristcentre.com/itinerary/day-trips/south-goa-beach-tour",
+      href: `/${locale}/destinations/day-trips/full-day-south-goa-tour`,
     },
     {
       label: t.footer.exploreSikkim,
-      href: "https://globaltouristcentre.com/itinerary/domestic-trips/sikkim-tour",
+      href: `/${locale}/destinations/domestic/sikkim-darjeeling-gangtok-tour`,
     },
     {
       label: t.footer.keralaBackwaters,
-      href: "https://globaltouristcentre.com/itinerary/domestic-trips/kerala-backwaters-tour",
+      href: `/${locale}/destinations/domestic/kerala-tour/`,
     },
   ];
   return (
@@ -142,15 +142,19 @@ useEffect(() => {
 
             <ul className="space-y-1 sm:space-y-1.5">
               {[
-  { href: `/${locale}`, label: t.nav.home },
-  { href: `/${locale}/destinations`, label: t.nav.destinations },
-  { href: `/${locale}/about`, label: t.nav.about },
-
-  // Global (non-localized) pages
-  { href: "https://globaltouristcentre.com/services", label: t.nav.services },
-  { href: "https://globaltouristcentre.com/contact-us", label: t.nav.contact },
-  { href: "https://globaltouristcentre.com/blog", label: t.nav.blog },
-].map((link) => (
+                { href: `/${locale}`, label: t.nav.home },
+                { href: `/${locale}/destinations`, label: t.nav.destinations },
+                { href: `/${locale}/about`, label: t.nav.about },
+                { href: `/${locale}/services`, label: t.nav.services },
+                {
+                  href: `/${locale}/contact-us`,
+                  label: t.nav.contact,
+                },
+                {
+                  href: `/${locale}/blog`,
+                  label: t.nav.blog,
+                },
+              ].map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -226,13 +230,13 @@ useEffect(() => {
 
           <div className="flex gap-3 sm:gap-4">
             <Link
-              href="https://globaltouristcentre.com/legal/privacy-policy"
+              href={`/${locale}/legal/privacy-policy`}
               className="hover:text-[#f8d56b]"
             >
               {t.form.privacyPolicy}
             </Link>
             <Link
-              href="https://globaltouristcentre.com/legal/terms-and-conditions"
+              href={`/${locale}/legal/terms-and-conditions`}
               className="hover:text-[#f8d56b]"
             >
               {t.footer.termsConditions}

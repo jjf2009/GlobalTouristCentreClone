@@ -26,37 +26,38 @@ import { useI18n } from "@/lib/i18n/context";
 /* ------------------------------------------------------------------ */
 /* STRUCTURAL DATA ONLY */
 /* ------------------------------------------------------------------ */
-const premiumServices = [
-  {
-    id: "custom",
-    icon: Sparkles,
-    link: "https://globaltouristcentre.com/service/hotel-booking",
-  },
-  {
-    id: "luxury",
-    icon: Hotel,
-    link: "https://globaltouristcentre.com/service/hotel-booking",
-  },
-  {
-    id: "group",
-    icon: Users,
-    link: "https://globaltouristcentre.com/service/hotel-booking",
-  },
-  {
-    id: "visa",
-    icon: FileText,
-    link: "https://globaltouristcentre.com/service/hotel-booking",
-  },
-  {
-    id: "flight",
-    icon: Plane,
-    link: "https://globaltouristcentre.com/service/hotel-booking",
-  },
-];
 
 const Services = () => {
-  const { t } = useI18n();
+  const { t ,locale} = useI18n();
   const [activeIndex, setActiveIndex] = useState(0);
+
+  const premiumServices = [
+    {
+      id: "custom",
+      icon: Sparkles,
+      link: `/${locale}/services/custom-tour`,
+    },
+    {
+      id: "luxury",
+      icon: Hotel,
+      link: `/${locale}/services/hotel-booking`,
+    },
+    {
+      id: "group",
+      icon: Users,
+      link: `/${locale}/services/group-tours`,
+    },
+    {
+      id: "visa",
+      icon: FileText,
+      link: `/${locale}/services/visa-assistance`,
+    },
+    {
+      id: "flight",
+      icon: Plane,
+      link: `/${locale}/services/flight-booking`,
+    },
+  ];
 
   /* ------------------------------------------------------------------ */
   /* AUTO ROTATION */

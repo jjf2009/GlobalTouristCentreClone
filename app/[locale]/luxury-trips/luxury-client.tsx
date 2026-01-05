@@ -108,7 +108,7 @@ export default function LuxuryDestinationsPage() {
                   >
                     <Check className="text-secondary w-5 h-5" />
                     <span className="text-white text-sm">
-                      {t.luxury[feature.key as keyof typeof t.luxury]}
+                      {t.luxury[feature.key as keyof Omit<typeof t.luxury, 'destinations'>] as string}
                     </span>
                   </div>
                 ))}
@@ -189,7 +189,7 @@ export default function LuxuryDestinationsPage() {
                     <div className="absolute top-4 left-4 z-20 flex items-center gap-2 bg-white/95 backdrop-blur-sm px-3 py-2 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <MapPin className="w-3.5 h-3.5 text-amber-600" />
                       <span className="text-xs font-medium text-slate-900">
-                        {t.luxury.explore ?? "Explore"}
+                        {t.experiences.explore ?? "Explore"}
                       </span>
                     </div>
                   </div>
@@ -205,7 +205,7 @@ export default function LuxuryDestinationsPage() {
                     </p>
 
                     {/* CTA */}
-                    <Link href={`/${locale}/luxury-destinations/${item.slug}`}>
+                    <Link href={`/${locale}/luxury-trips/${item.slug}`}>
                       <button
                         className="
                     w-full group/btn relative

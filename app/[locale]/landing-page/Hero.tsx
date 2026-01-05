@@ -46,7 +46,7 @@ const DESTINATION_MAP: Record<string, string> = {
 };
 
 const Hero = () => {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const [highlightForm, setHighlightForm] = useState(false);
   const formRef = useRef<HTMLDivElement>(null);
 
@@ -155,7 +155,7 @@ const Hero = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-slate-900/50" />
       </div>
-      <Header/>
+      <Header />
 
       <div className="container mx-auto px-4 relative z-10 py-12 sm:py-16 lg:py-20 xl:py-24">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-10 xl:gap-12 items-center">
@@ -233,9 +233,9 @@ const Hero = () => {
                 <h2 className="font-serif text-xl sm:text-2xl font-bold text-foreground mb-1.5 sm:mb-2">
                   {t.hero.subtitle}
                 </h2>
-                <p className="text-xs sm:text-sm text-muted-foreground">
+                {/* <p className="text-xs sm:text-sm text-muted-foreground">
                   Get personalized quotes within 24 hours
-                </p>
+                </p> */}
               </div>
 
               <form
@@ -372,7 +372,7 @@ const Hero = () => {
                 <p className="text-xs text-muted-foreground text-center mt-3">
                   {t.form.privacyNote}{" "}
                   <Link
-                    href="/privacy"
+                    href={`/${locale}/legal/privacy-policy`}
                     className="text-primary hover:underline focus:underline"
                   >
                     {t.form.privacyPolicy}

@@ -396,7 +396,8 @@ export const en = {
     customizeTripPackage: {
       heroTitle: "Customized Tour Packages",
       aboutTitle: "Your Journey, Your Way",
-      aboutDesc: "We believe every traveler is unique, and your vacation should reflect your personal style. Our customized tour packages are designed around your interests, budget, and travel preferences. Whether you're looking for adventure, relaxation, culture, or a mix of everything, we'll create an itinerary that's perfect for you.",
+      aboutDesc:
+        "We believe every traveler is unique, and your vacation should reflect your personal style. Our customized tour packages are designed around your interests, budget, and travel preferences. Whether you're looking for adventure, relaxation, culture, or a mix of everything, we'll create an itinerary that's perfect for you.",
       whyChooseTitle: "Why Choose Customized Tours:",
       benefit1: "Tailored to your specific interests and pace",
       benefit2: "Flexible dates and duration",
@@ -405,9 +406,11 @@ export const en = {
       benefit5: "Local expert guides for authentic experiences",
       benefit6: "24/7 support during your trip",
       formTitle: "Create Your Dream Vacation",
-      formDesc: "Tell us about your travel preferences and we'll design a personalized itinerary just for you.",
+      formDesc:
+        "Tell us about your travel preferences and we'll design a personalized itinerary just for you.",
       formHeader: "Let's Get Started",
-      formSubtitle: "Fill in the details below and we'll contact you within 24 hours",
+      formSubtitle:
+        "Fill in the details below and we'll contact you within 24 hours",
       // Form Specifics
       travelDates: "Preferred Travel Dates",
       datesPlaceholder: "Flexible or specific dates",
@@ -426,27 +429,38 @@ export const en = {
       budgetLuxury: "Luxury (₹60,000+)",
       budgetFlexible: "Flexible/Not Sure",
       specialLabel: "Special Requirements",
-      specialPlaceholder: "Dietary needs, accessibility requirements, special occasions, etc.",
+      specialPlaceholder:
+        "Dietary needs, accessibility requirements, special occasions, etc.",
       submitButton: "Get Custom Itinerary",
-      privacyNote: "We respect your privacy. Your information will not be shared.",
+      privacyNote:
+        "We respect your privacy. Your information will not be shared.",
       // FAQ
       faqTitle: "Custom Tour FAQs",
-      faqSubtitle: "Answers to common questions about our customized tour packages.",
-      faq1Question: "Do you design tours for families, groups, or solo travelers?",
-      faq1Answer: "We design tours for everyone including families, travel squads, solo adventurers and all those who love to escape every now and then. Whether it's a relaxed vacation, a solo journey or fun trip filled with spontaneity, we make the itinerary feel like it was planned for you.",
+      faqSubtitle:
+        "Answers to common questions about our customized tour packages.",
+      faq1Question:
+        "Do you design tours for families, groups, or solo travelers?",
+      faq1Answer:
+        "We design tours for everyone including families, travel squads, solo adventurers and all those who love to escape every now and then. Whether it's a relaxed vacation, a solo journey or fun trip filled with spontaneity, we make the itinerary feel like it was planned for you.",
 
       faq2Question: "What's included in a customized package?",
-      faq2Answer: "You will receive an itinerary that's designed around what matters to you. It includes destinations, stays, comfy and seamless transfers, local guides and even activities that match your interests. We will handle the details so that your focus is purely on enjoying your travel.",
-      faq3Question: "How long does it typically take to design a personalized trip?",
-      faq3Answer: "We aim to keep the planning smooth and timely. First, our travel expert will contact you to discuss your requirements in detail. We will then create a preliminary itinerary for your review. You can request changes until the itinerary perfectly matches your expectations. Once finalized, we will handle all bookings and provide you with detailed travel documents.",
-      faq4Question: "Can I modify a standard package instead of creating a new one?",
-      faq4Answer: "Absolutely. Our itinerary planning service is free when you book your tour with us. But please note that for complex itineraries requiring significant research, a nominal planning fee may apply, which is fully deductible from your final booking amount.",
+      faq2Answer:
+        "You will receive an itinerary that's designed around what matters to you. It includes destinations, stays, comfy and seamless transfers, local guides and even activities that match your interests. We will handle the details so that your focus is purely on enjoying your travel.",
+      faq3Question:
+        "How long does it typically take to design a personalized trip?",
+      faq3Answer:
+        "We aim to keep the planning smooth and timely. First, our travel expert will contact you to discuss your requirements in detail. We will then create a preliminary itinerary for your review. You can request changes until the itinerary perfectly matches your expectations. Once finalized, we will handle all bookings and provide you with detailed travel documents.",
+      faq4Question:
+        "Can I modify a standard package instead of creating a new one?",
+      faq4Answer:
+        "Absolutely. Our itinerary planning service is free when you book your tour with us. But please note that for complex itineraries requiring significant research, a nominal planning fee may apply, which is fully deductible from your final booking amount.",
     },
     // Visa Agent
     visaAgent: {
       heroTitle: "Visa & Documentation Services",
       aboutTitle: "Simplify Your Visa Process",
-      aboutDesc: "Navigating visa requirements can be complex and time-consuming. Our expert visa assistance service takes the stress out of international travel documentation. We handle everything from application forms to document verification, ensuring your visa process is smooth and successful.",
+      aboutDesc:
+        "Navigating visa requirements can be complex and time-consuming. Our expert visa assistance service takes the stress out of international travel documentation. We handle everything from application forms to document verification, ensuring your visa process is smooth and successful.",
       servicesTitle: "Our Visa Services Include:",
       service1: "Comprehensive visa consultation for all countries",
       service2: "Document checklist and preparation assistance",
@@ -455,18 +469,24 @@ export const en = {
       service5: "Follow-up and status tracking",
       service6: "Express processing for urgent applications",
       processTitle: "Visa Application Process",
-      processDesc: "Our step-by-step process ensures your visa application is handled professionally.",
+      processDesc:
+        "Our step-by-step process ensures your visa application is handled professionally.",
       step1Title: "Step 1: Consultation",
-      step1Desc: "We assess your travel plans and provide detailed information about visa requirements, processing times, and fees for your destination.",
+      step1Desc:
+        "We assess your travel plans and provide detailed information about visa requirements, processing times, and fees for your destination.",
       step2Title: "Step 2: Document Preparation",
-      step2Desc: "Our experts guide you in gathering all necessary documents including passport, photographs, financial proofs, and supporting letters.",
+      step2Desc:
+        "Our experts guide you in gathering all necessary documents including passport, photographs, financial proofs, and supporting letters.",
       step3Title: "Step 3: Application Submission",
-      step3Desc: "We complete all application forms accurately, schedule appointments, and submit your application to the appropriate consulate or embassy.",
+      step3Desc:
+        "We complete all application forms accurately, schedule appointments, and submit your application to the appropriate consulate or embassy.",
       step4Title: "Step 4: Tracking & Collection",
-      step4Desc: "We monitor your application status and keep you updated. Once approved, we coordinate passport collection and delivery.",
+      step4Desc:
+        "We monitor your application status and keep you updated. Once approved, we coordinate passport collection and delivery.",
       // Form Specifics
       formTitle: "Apply for Visa Assistance",
-      formDesc: "Fill out this form and our visa experts will contact you within 24 hours.",
+      formDesc:
+        "Fill out this form and our visa experts will contact you within 24 hours.",
       fullNameLabel: "Full Name*",
       fullNamePlaceholder: "Your full name",
       emailLabel: "Email*",
@@ -481,24 +501,32 @@ export const en = {
       notesLabel: "Additional Notes",
       notesPlaceholder: "Any special requirements or notes",
       submitButton: "Submit Visa Request",
-      privacyNote: "We respect your privacy. Your information will not be shared.",
+      privacyNote:
+        "We respect your privacy. Your information will not be shared.",
       // FAQ
       faqTitle: "Visa FAQs",
       faqDesc: "Common questions about our visa assistance services.",
       faq1Question: "Do you assist with both tourist and business visas?",
-      faq1Answer: "Yes, we help with both tourist and business visa documentation. We guide through the forms, help put together the right documentation and keep track of all requirements so that nothing is left out.",
-      faq2Question: "When should I start the visa process before my travel date?",
-      faq2Answer: "It is smart to get started at least a few weeks ahead. Some countries move faster; others take longer. Hence, giving yourself enough time helps avoid stress.",
+      faq1Answer:
+        "Yes, we help with both tourist and business visa documentation. We guide through the forms, help put together the right documentation and keep track of all requirements so that nothing is left out.",
+      faq2Question:
+        "When should I start the visa process before my travel date?",
+      faq2Answer:
+        "It is smart to get started at least a few weeks ahead. Some countries move faster; others take longer. Hence, giving yourself enough time helps avoid stress.",
       faq3Question: "Do you provide appointment booking for visa interviews?",
-      faq3Answer: "We help you figure out where to go and how to book. The embassies or consulates set the slots, and we will do everything we can to point you in the right direction in terms of documents and preparation.",
-      faq4Question: "Can I extend my trip abroad if my visa allows more days than planned?",
-      faq4Answer: "It will depend on the rules of your destination. Specific countries will help you stay longer if your visa covers it or if you apply for an extension locally.",
+      faq3Answer:
+        "We help you figure out where to go and how to book. The embassies or consulates set the slots, and we will do everything we can to point you in the right direction in terms of documents and preparation.",
+      faq4Question:
+        "Can I extend my trip abroad if my visa allows more days than planned?",
+      faq4Answer:
+        "It will depend on the rules of your destination. Specific countries will help you stay longer if your visa covers it or if you apply for an extension locally.",
     },
     // Hotel Booking
     hotelBooking: {
       heroTitle: "Hotel Booking Services",
       aboutTitle: "Find Your Perfect Stay",
-      aboutDesc: "We partner with hotels worldwide to offer you the best accommodations at competitive rates. Whether you're looking for a budget-friendly stay, a boutique hotel, or a luxury resort, we have options to suit every preference and budget. Our local expertise ensures you get the best locations and amenities for your travel needs.",
+      aboutDesc:
+        "We partner with hotels worldwide to offer you the best accommodations at competitive rates. Whether you're looking for a budget-friendly stay, a boutique hotel, or a luxury resort, we have options to suit every preference and budget. Our local expertise ensures you get the best locations and amenities for your travel needs.",
       whyBookTitle: "Why Book With Us:",
       benefit1: "Access to exclusive rates and special offers",
       benefit2: "Verified reviews and personal recommendations",
@@ -507,9 +535,11 @@ export const en = {
       benefit5: "Package deals with flights and activities",
       benefit6: "Personalized service from hotel experts",
       formTitle: "Hotel Booking Request",
-      formDesc: "Fill out this form and we'll find the perfect hotel for your stay.",
+      formDesc:
+        "Fill out this form and we'll find the perfect hotel for your stay.",
       formHeader: "Let's Find Your Perfect Stay",
-      formSubtitle: "Fill in the details below and we'll contact you within 24 hours",
+      formSubtitle:
+        "Fill in the details below and we'll contact you within 24 hours",
       yourName: "Your Name*",
       namePlaceholder: "Full name",
       email: "Email*",
@@ -534,23 +564,30 @@ export const en = {
       // FAQ
       faqTitle: "Hotel Booking FAQs",
       faqDesc: "Common questions about our hotel booking services.",
-      faq1Question: "Do you offer both domestic and international hotel bookings?",
-      faq1Answer: "Absolutely. We partner with hotels worldwide to offer you the best accommodations at competitive rates. Whether you're looking for a budget-friendly stay, a boutique hotel or a luxury resort, we have options to suit every preference and budget.",
-      faq2Question: "Can you book hotels as part of a complete tour package or only standalone stays?",
-      faq2Answer: "We can do both. You can either ask for a standalone booking or have us book the hotel as part of your full package with flights, transfers and activities. Whatever you need, we will handle the details.",
+      faq1Question:
+        "Do you offer both domestic and international hotel bookings?",
+      faq1Answer:
+        "Absolutely. We partner with hotels worldwide to offer you the best accommodations at competitive rates. Whether you're looking for a budget-friendly stay, a boutique hotel or a luxury resort, we have options to suit every preference and budget.",
+      faq2Question:
+        "Can you book hotels as part of a complete tour package or only standalone stays?",
+      faq2Answer:
+        "We can do both. You can either ask for a standalone booking or have us book the hotel as part of your full package with flights, transfers and activities. Whatever you need, we will handle the details.",
 
       faq3Question: "Can I modify or cancel my hotel booking?",
-      faq3Answer: "Modification and cancellation policies vary by hotel. Most bookings can be modified or cancelled free of charge up to 24-48 hours before check-in. Some special rate bookings may have different policies. Your confirmation email will specify the cancellation policy for your particular reservation.",
+      faq3Answer:
+        "Modification and cancellation policies vary by hotel. Most bookings can be modified or cancelled free of charge up to 24-48 hours before check-in. Some special rate bookings may have different policies. Your confirmation email will specify the cancellation policy for your particular reservation.",
 
-      faq4Question: "Can I book multiple hotels in different cities under one itinerary?",
-      faq4Answer: "Definitely. For example, if your journey takes you from Mumbai to Sikkim to Andaman, we will book each hotel for the right nights across your trip. To make your travel seamless, we are here if you want to change your plans or add a stop later.",
-
+      faq4Question:
+        "Can I book multiple hotels in different cities under one itinerary?",
+      faq4Answer:
+        "Definitely. For example, if your journey takes you from Mumbai to Sikkim to Andaman, we will book each hotel for the right nights across your trip. To make your travel seamless, we are here if you want to change your plans or add a stop later.",
     },
     // Flight Booking
     flightBooking: {
       heroTitle: "Flight Booking Services",
       aboutTitle: "Fly With Ease",
-      aboutDesc: "As an authorized flight booking agent, we provide access to competitive airfares across all major airlines. Whether you need domestic flights within India or international connections worldwide, our experienced team will find you the best routes and prices. We handle everything from simple one-way tickets to complex multi-city itineraries.",
+      aboutDesc:
+        "As an authorized flight booking agent, we provide access to competitive airfares across all major airlines. Whether you need domestic flights within India or international connections worldwide, our experienced team will find you the best routes and prices. We handle everything from simple one-way tickets to complex multi-city itineraries.",
       servicesTitle: "Our Flight Services Include:",
       service1: "Domestic and international flight bookings",
       service2: "Multi-city and round-trip itineraries",
@@ -559,9 +596,11 @@ export const en = {
       service5: "Group booking discounts",
       service6: "24/7 booking support",
       formTitle: "Flight Booking Request",
-      formDesc: "Provide your travel details and we'll find the best flight options for you.",
+      formDesc:
+        "Provide your travel details and we'll find the best flight options for you.",
       formHeader: "Let's Get Started",
-      formSubtitle: "Fill in the details below and we'll contact you within 24 hours",
+      formSubtitle:
+        "Fill in the details below and we'll contact you within 24 hours",
       yourName: "Your Name*",
       namePlaceholder: "Full name",
       email: "Email*",
@@ -589,24 +628,32 @@ export const en = {
       // FAQ
       faqTitle: "Flight Booking FAQs",
       faqDesc: "Common questions about our flight booking services.",
-      faq1Question: "Can you add infant/child seat, pet, or sports equipment to my booking?",
-      faq1Answer: "We can guide you on how to include special items like infant seats or sports equipment. Many airlines let you add those through addon services when booking. For pets it depends on the airline's rules. We'll share what's allowed and how to include it when you book.",
+      faq1Question:
+        "Can you add infant/child seat, pet, or sports equipment to my booking?",
+      faq1Answer:
+        "We can guide you on how to include special items like infant seats or sports equipment. Many airlines let you add those through addon services when booking. For pets it depends on the airline's rules. We'll share what's allowed and how to include it when you book.",
 
-      faq2Question: "Can you issue airport pick-up or drop-off coordination along with flights?",
-      faq2Answer: "Yes, we do take care of that. You can ask us to arrange a pickup or drop-off at your destination as part of your itinerary.",
+      faq2Question:
+        "Can you issue airport pick-up or drop-off coordination along with flights?",
+      faq2Answer:
+        "Yes, we do take care of that. You can ask us to arrange a pickup or drop-off at your destination as part of your itinerary.",
 
-      faq3Question: "What's the cancellation, change, or refund policy for bookings?",
-      faq3Answer: "All are set by the airline or rules of the ticket. We are there to help you with the options so you can choose what makes sense, whether you need to shift dates or cancel altogether.",
+      faq3Question:
+        "What's the cancellation, change, or refund policy for bookings?",
+      faq3Answer:
+        "All are set by the airline or rules of the ticket. We are there to help you with the options so you can choose what makes sense, whether you need to shift dates or cancel altogether.",
 
-      faq4Question: "What support do you offer if my flight is delayed or cancelled?",
-      faq4Answer: "When delays or cancellations happen, we are here to help. You can reach to us and we will guide you on what to do next. That could be rebooking, getting support at the airport or catching alternate flights. We help you stay calm and keep moving.",
-
+      faq4Question:
+        "What support do you offer if my flight is delayed or cancelled?",
+      faq4Answer:
+        "When delays or cancellations happen, we are here to help. You can reach to us and we will guide you on what to do next. That could be rebooking, getting support at the airport or catching alternate flights. We help you stay calm and keep moving.",
     },
     // Group Trip
     groupTrip: {
       heroTitle: "Group Tours & Packages",
       aboutTitle: "Travel Together, Save Together",
-      aboutDesc: "Our group tours offer the perfect blend of social connection, convenience, and value. Whether you're traveling with family, friends, or colleagues, our expertly planned group itineraries take care of all the details so you can focus on enjoying the journey together. With special group discounts and dedicated tour managers, you'll experience more while spending less.",
+      aboutDesc:
+        "Our group tours offer the perfect blend of social connection, convenience, and value. Whether you're traveling with family, friends, or colleagues, our expertly planned group itineraries take care of all the details so you can focus on enjoying the journey together. With special group discounts and dedicated tour managers, you'll experience more while spending less.",
       benefitsTitle: "Benefits of Group Travel:",
       benefit1: "Significant savings with group discounts",
       benefit2: "Professional tour manager throughout",
@@ -615,9 +662,11 @@ export const en = {
       benefit5: "Hassle-free logistics and transfers",
       benefit6: "Group activities and bonding experiences",
       formTitle: "Let's Get Started",
-      formDesc: "Fill in the details below and we'll contact you within 24 hours",
+      formDesc:
+        "Fill in the details below and we'll contact you within 24 hours",
       formHeader: "Let's Get Started", // Keeping for compatibility if used elsewhere, but main header is updated
-      formSubtitle: "Fill in the details below and we'll contact you within 24 hours",
+      formSubtitle:
+        "Fill in the details below and we'll contact you within 24 hours",
       groupOrganizerName: "Group Organizer Name*",
       namePlaceholder: "Full name",
       phoneNumber: "Phone Number*",
@@ -635,24 +684,33 @@ export const en = {
       budget: "Approximate Budget (per person)",
       budgetPlaceholder: "Your budget range",
       interests: "Group Interests/Activities",
-      interestsPlaceholder: "What type of experiences is your group interested in?",
+      interestsPlaceholder:
+        "What type of experiences is your group interested in?",
       submit: "Request Group Proposal",
-      privacyFooter: "We respect your privacy. Your information will not be shared.",
+      privacyFooter:
+        "We respect your privacy. Your information will not be shared.",
       // FAQ
       faqTitle: "Group Tour FAQs",
       faqDesc: "Common questions about our group travel services.",
-      faq1Question: "What is the minimum and maximum group size for your domestic and international tours?",
-      faq1Answer: "Most of our tours are designed for small groups, often between six to twelve travellers at a time. If requested, we can scale up a bit depending on the style of trip and your comfort level.",
+      faq1Question:
+        "What is the minimum and maximum group size for your domestic and international tours?",
+      faq1Answer:
+        "Most of our tours are designed for small groups, often between six to twelve travellers at a time. If requested, we can scale up a bit depending on the style of trip and your comfort level.",
 
-      faq2Question: "How do you ensure smooth coordination and time management during a group trip?",
-      faq2Answer: "We map every day with clear timings, comfy transport and trusted local guides who know the place well. We also ensure to stay connected on the road, so nothing goes off track and you are always looking forward to what comes next.",
+      faq2Question:
+        "How do you ensure smooth coordination and time management during a group trip?",
+      faq2Answer:
+        "We map every day with clear timings, comfy transport and trusted local guides who know the place well. We also ensure to stay connected on the road, so nothing goes off track and you are always looking forward to what comes next.",
 
-      faq3Question: "Can you arrange visa, flight, and hotel bookings for all members of the group?",
-      faq3Answer: "Yes, we handle it end-to-end for your group. Once we get all details from everyone, we take care of flights, guest stays, visas, transfers and put them together in one cohesive itinerary. You travel relaxed and carefree with your group while we coordinate the logistics.",
+      faq3Question:
+        "Can you arrange visa, flight, and hotel bookings for all members of the group?",
+      faq3Answer:
+        "Yes, we handle it end-to-end for your group. Once we get all details from everyone, we take care of flights, guest stays, visas, transfers and put them together in one cohesive itinerary. You travel relaxed and carefree with your group while we coordinate the logistics.",
 
-      faq4Question: "What payment plans or installment options do you offer for group tour bookings?",
-      faq4Answer: "For group bookings, we typically require a 25% deposit to confirm reservations, with the balance due 30-45 days before departure. For very large groups or complex itineraries, we may arrange a payment schedule with multiple instalments. We can also accommodate individual payments from group members if preferred.",
-
+      faq4Question:
+        "What payment plans or installment options do you offer for group tour bookings?",
+      faq4Answer:
+        "For group bookings, we typically require a 25% deposit to confirm reservations, with the balance due 30-45 days before departure. For very large groups or complex itineraries, we may arrange a payment schedule with multiple instalments. We can also accommodate individual payments from group members if preferred.",
     },
     // Common form labels
     form: {
@@ -863,7 +921,8 @@ export const en = {
     mainSubtitle: "Read about our most recent adventures and experiences",
     readMore: "Read More",
     comingSoon: "Coming Soon",
-    comingSoonDesc: "We're working on more travel stories for you. Check back later!",
+    comingSoonDesc:
+      "We're working on more travel stories for you. Check back later!",
     // Categories
     photography: "Photography",
     groupTours: "Group Tours",
@@ -873,89 +932,120 @@ export const en = {
     // Author
     globalTeam: "Global Tourist Centre Team",
     // Andaman Post
-    andamanTitle: "Click, Capture & Chill: Andaman's Most Instagram-Worthy Places",
-    andamanSubtitle: "Explore stunning Instagram spots in Andaman for picture-perfect trips",
+    andamanTitle:
+      "Click, Capture & Chill: Andaman's Most Instagram-Worthy Places",
+    andamanSubtitle:
+      "Explore stunning Instagram spots in Andaman for picture-perfect trips",
     // Kerala Post
     keralaTitle: "From Goa to God's Own Country",
-    keralaSubtitle: "A Kerala trip built for young explorers - monsoon escapes, backwaters, and hill stations.",
+    keralaSubtitle:
+      "A Kerala trip built for young explorers - monsoon escapes, backwaters, and hill stations.",
     // Coming Soon Post
     comingSoonTitle: "New Adventure Coming Soon",
-    comingSoonSubtitle: "We're working on new travel stories for you. Check back later!",
+    comingSoonSubtitle:
+      "We're working on new travel stories for you. Check back later!",
   },
   // Andaman Blog Detail Page
   blogAndaman: {
     heroTitle: "Click, Capture & Chill: Andaman's Most Instagram-Worthy Places",
     heroSubtitle: "July 2025 • Photography",
-    introQuote: "Imagine yourself standing on a sunlit beach where turquoise-coloured waves kiss your feet...",
-    introParagraph: "Tucked away in the Bay of Bengal, Andaman has subtly garnered the reputation of being a visual paradise. Read further as we explore the most Instagrammable spots in Andaman.",
+    introQuote:
+      "Imagine yourself standing on a sunlit beach where turquoise-coloured waves kiss your feet...",
+    introParagraph:
+      "Tucked away in the Bay of Bengal, Andaman has subtly garnered the reputation of being a visual paradise. Read further as we explore the most Instagrammable spots in Andaman.",
     // Sections
     radhanagar: {
       title: "Radhanagar Beach – The Perfect Sunset",
       caption: "The stunning sunset views at Radhanagar Beach",
-      desc1: "Why not begin with one of the most famous names in the list? Radhanagar Beach on Havelock Island has been voted one of Asia's top beaches, and rightly so. Visit her and you will realize that the waves here whisper. The sands stretch far and wide with such a sheen that it catches every shade in the sky.",
-      desc2: "The best shot you will get here is that of a sunset and if you are lucky, with fiery skies, silhouettes and wide-angle beach frames which you can include in your golden hour dream.",
-      desc3: "Try low-angle shots with bare feet in frame or a soft-focus portrait with the ocean behind you.",
+      desc1:
+        "Why not begin with one of the most famous names in the list? Radhanagar Beach on Havelock Island has been voted one of Asia's top beaches, and rightly so. Visit her and you will realize that the waves here whisper. The sands stretch far and wide with such a sheen that it catches every shade in the sky.",
+      desc2:
+        "The best shot you will get here is that of a sunset and if you are lucky, with fiery skies, silhouettes and wide-angle beach frames which you can include in your golden hour dream.",
+      desc3:
+        "Try low-angle shots with bare feet in frame or a soft-focus portrait with the ocean behind you.",
     },
     neilIsland: {
       title: "Neil Island Natural Bridge – A Masterpiece By Nature",
       caption: "The stunning natural rock formation at Neil Island",
-      desc1: "Nature decided to be a lot more creative on Neil Island. The Natural Bridge here is a rock formation shaped over years by wind, water and time. Covered aesthetically in wild green vines and framed by crashing waves, it makes every Neil Island Natural Bridge photo you take look like a hidden wonder.",
-      desc2: "The best shots will come during the mid-day for sharp shadows and details. You can even go wide to frame the whole bridge or get innovative with angles through the arc.",
-      desc3: "You can have a model standing at a distance under an arc to make it a dramatic shot.",
+      desc1:
+        "Nature decided to be a lot more creative on Neil Island. The Natural Bridge here is a rock formation shaped over years by wind, water and time. Covered aesthetically in wild green vines and framed by crashing waves, it makes every Neil Island Natural Bridge photo you take look like a hidden wonder.",
+      desc2:
+        "The best shots will come during the mid-day for sharp shadows and details. You can even go wide to frame the whole bridge or get innovative with angles through the arc.",
+      desc3:
+        "You can have a model standing at a distance under an arc to make it a dramatic shot.",
     },
     kalapathar: {
       title: "Kalapathar Beach – Blue Hues Meets Clear Waters",
       caption: "The serene beauty of Kalapathar Beach",
-      desc1: "Quiet, serene, lesser-known and soaked in mood, Kalapathar Beach is for those who love pastel blues and reflective sands. Flanked by black rocks and dense forests on one side and a luminous shore on the other, this place is perfect to execute your Kalapathar Beach photography.",
-      desc2: "The best shots can come during golden hour with long shadows and drone shots showing the stark yet beautiful contrast of black rocks and blue waters.",
+      desc1:
+        "Quiet, serene, lesser-known and soaked in mood, Kalapathar Beach is for those who love pastel blues and reflective sands. Flanked by black rocks and dense forests on one side and a luminous shore on the other, this place is perfect to execute your Kalapathar Beach photography.",
+      desc2:
+        "The best shots can come during golden hour with long shadows and drone shots showing the stark yet beautiful contrast of black rocks and blue waters.",
     },
     rossIsland: {
       title: "Ross Island – Ruins With a Story",
       caption: "The historic ruins of Ross Island",
-      desc1: "Abandoned buildings, creeping tree roots and colonial remnants – Your Ross Island photography can be eerie and beautiful all at once. If you are drawn to places with history and mood, this is where you should go. The ruins themselves are poetic.",
-      desc2: "The best shots can come by framing a decaying archway or ivy-covered wall with sunbeams filtering in. It is perfect for silent reels, portraits or even cinematic transitions.",
+      desc1:
+        "Abandoned buildings, creeping tree roots and colonial remnants – Your Ross Island photography can be eerie and beautiful all at once. If you are drawn to places with history and mood, this is where you should go. The ruins themselves are poetic.",
+      desc2:
+        "The best shots can come by framing a decaying archway or ivy-covered wall with sunbeams filtering in. It is perfect for silent reels, portraits or even cinematic transitions.",
     },
     chidiyaTapu: {
       title: "Chidiya Tapu – The Home Of Sunsets",
       caption: "Breathtaking sunsets at Chidiya Tapu",
-      desc1: "If your phone's gallery is filled with sunsets, remember to add Chidiya Tapu's photography to it. The place is breezy, quiet and perfect for those mellow end-of-the-day pictures. The location is framed by mangroves and rocky shores with a horizon that seems to go on forever.",
-      desc2: "The best shots you get are obviously during sunsets, with soft blues and oranges melting into each other.",
-      desc3: "You can use the rocks in the foreground or silhouetted people in motion to add the desired emotions.",
+      desc1:
+        "If your phone's gallery is filled with sunsets, remember to add Chidiya Tapu's photography to it. The place is breezy, quiet and perfect for those mellow end-of-the-day pictures. The location is framed by mangroves and rocky shores with a horizon that seems to go on forever.",
+      desc2:
+        "The best shots you get are obviously during sunsets, with soft blues and oranges melting into each other.",
+      desc3:
+        "You can use the rocks in the foreground or silhouetted people in motion to add the desired emotions.",
     },
     mountHarriet: {
       title: "Mount Harriet – Postcard From Above",
       caption: "Panoramic views from Mount Harriet",
-      desc1: "Being one of the highest points in the islands, Mount Harriet offers sweeping views of forests, coasts and faraway islands. The mist, clouds and raw green surroundings make your Mount Harriet photography look like a forest fantasy. You will also get a wide variety of textures such as wooden paths, moss-covered stones and lookout points.",
-      desc2: "The best shots can be taken mid-morning when the light cuts through trees or the wide angles at the viewpoints.",
+      desc1:
+        "Being one of the highest points in the islands, Mount Harriet offers sweeping views of forests, coasts and faraway islands. The mist, clouds and raw green surroundings make your Mount Harriet photography look like a forest fantasy. You will also get a wide variety of textures such as wooden paths, moss-covered stones and lookout points.",
+      desc2:
+        "The best shots can be taken mid-morning when the light cuts through trees or the wide angles at the viewpoints.",
     },
     baratang: {
       title: "Baratang Limestone Caves – A Walk In The Wild",
       caption: "The unique limestone formations at Baratang",
-      desc1: "Baratang Island brings you somewhere completely different, through mangrove forests, tribal territories and into ancient limestone caves that feel almost secret. The light filtering through the cave walls will make your Baratang Limestone Cave photos feel cinematic and strange in the best way.",
-      desc2: "The best shots come inside the cave that capture the curves and textures imbued with soft natural light. The journey through the mangroves can also be extremely photogenic.",
+      desc1:
+        "Baratang Island brings you somewhere completely different, through mangrove forests, tribal territories and into ancient limestone caves that feel almost secret. The light filtering through the cave walls will make your Baratang Limestone Cave photos feel cinematic and strange in the best way.",
+      desc2:
+        "The best shots come inside the cave that capture the curves and textures imbued with soft natural light. The journey through the mangroves can also be extremely photogenic.",
     },
     northBay: {
       title: "North Bay – An Underwater Adventure",
       caption: "Vibrant marine life at North Bay",
-      desc1: "Want to capture something unforgettable? Go below the surface. North Bay is one of the best spots in Andaman for underwater photography. Whether you're snorkeling or doing a sea walk, the clarity of the water and variety of marine life make every North Bay underwater photography shot feel surreal.",
-      desc2: "Go prepared with a GoPro camera with a water-proof case so that you can capture wide angles of coral reefs and colourful fish.",
+      desc1:
+        "Want to capture something unforgettable? Go below the surface. North Bay is one of the best spots in Andaman for underwater photography. Whether you're snorkeling or doing a sea walk, the clarity of the water and variety of marine life make every North Bay underwater photography shot feel surreal.",
+      desc2:
+        "Go prepared with a GoPro camera with a water-proof case so that you can capture wide angles of coral reefs and colourful fish.",
     },
     wandoor: {
       title: "Wandoor Beach – Offbeat Coastal Beauty",
       caption: "The peaceful shores of Wandoor Beach",
-      desc1: "Fewer tourists, more space to explore. Wandoor Beach loves the serene silence. Fallen trees, gentle waves and small islets in the distance make it a great setting for dramatic or peaceful photo shoots.",
-      desc2: "The best shots can be taken while walking along the coastline with driftwood or reflections in shallow water that are ideal for soft, light and moody portraits.",
+      desc1:
+        "Fewer tourists, more space to explore. Wandoor Beach loves the serene silence. Fallen trees, gentle waves and small islets in the distance make it a great setting for dramatic or peaceful photo shoots.",
+      desc2:
+        "The best shots can be taken while walking along the coastline with driftwood or reflections in shallow water that are ideal for soft, light and moody portraits.",
     },
     cellularJail: {
       title: "Cellular Jail – Framed in Light and Shadow",
       caption: "The dramatic architecture of Cellular Jail",
-      desc1: "It may not sound Instagrammable at first glance, but the Cellular Jail in Port Blair is a powerful backdrop. The architecture and shadows inside the corridors create strong lines and drama for black-and-white or storytelling pictures.",
-      desc2: "The best shots come from taking light and shadow compositions in the long hallways or emotional portraits near the narrow cell doors.",
+      desc1:
+        "It may not sound Instagrammable at first glance, but the Cellular Jail in Port Blair is a powerful backdrop. The architecture and shadows inside the corridors create strong lines and drama for black-and-white or storytelling pictures.",
+      desc2:
+        "The best shots come from taking light and shadow compositions in the long hallways or emotional portraits near the narrow cell doors.",
     },
     // Conclusion
     planningTrip: "Planning Your Andaman Trip?",
-    planningDesc: "At Global Tourist Centre, we make sure your experience feels like a journey worth remembering. Our Andaman tour packages include stays, local guides, curated sightseeing, transport and beach time. Whether you're going solo, with friends or simply as a group, we craft your trip to suit your pace and passion.",
-    conclusionNote: "Although we do have one humble recommendation: Let your camera rest in your pocket once in a while too. Some frames are meant just for the eyes!",
+    planningDesc:
+      "At Global Tourist Centre, we make sure your experience feels like a journey worth remembering. Our Andaman tour packages include stays, local guides, curated sightseeing, transport and beach time. Whether you're going solo, with friends or simply as a group, we craft your trip to suit your pace and passion.",
+    conclusionNote:
+      "Although we do have one humble recommendation: Let your camera rest in your pocket once in a while too. Some frames are meant just for the eyes!",
     enquireNow: "Enquire Now",
     viewItinerary: "View Full Itinerary",
     youMightAlsoLike: "You Might Also Like",
@@ -966,13 +1056,17 @@ export const en = {
     heroSubtitle: "A Kerala trip built for young explorers",
     // Intro sections
     introTitle: "Why Kerala?",
-    introDesc: "Kerala isn't just another destination. It's a mood, a pace, a way of life that slows you down just enough to notice things. Whether it's the mist rolling over tea plantations in Munnar, the quiet ripple of a houseboat through Alleppey's backwaters, or the smell of fresh fish frying along Varkala's cliffs – this state has stories waiting at every corner.",
+    introDesc:
+      "Kerala isn't just another destination. It's a mood, a pace, a way of life that slows you down just enough to notice things. Whether it's the mist rolling over tea plantations in Munnar, the quiet ripple of a houseboat through Alleppey's backwaters, or the smell of fresh fish frying along Varkala's cliffs – this state has stories waiting at every corner.",
     discoveryTitle: "A Trip Built for Discovery",
-    discoveryDesc: "We've designed this journey to take you across the best of what Kerala has to offer – hills, water, forests, beaches. It's not rushed. It's not generic. It's a blend of adventure and leisure that rewards the curious traveller. You'll come back with memories and maybe a new favourite chai spot.",
+    discoveryDesc:
+      "We've designed this journey to take you across the best of what Kerala has to offer – hills, water, forests, beaches. It's not rushed. It's not generic. It's a blend of adventure and leisure that rewards the curious traveller. You'll come back with memories and maybe a new favourite chai spot.",
     groupTravelTitle: "For the Young, Restless and Ready",
-    groupTravelDesc: "We've seen too many young travellers miss out on Kerala because the trips were either too expensive, too boring, or too family-focused. So we decided to make our own kind. Think of it as a friend-group trip – but handled by professionals.",
+    groupTravelDesc:
+      "We've seen too many young travellers miss out on Kerala because the trips were either too expensive, too boring, or too family-focused. So we decided to make our own kind. Think of it as a friend-group trip – but handled by professionals.",
     monsoonTitle: "When to Go",
-    monsoonDesc: "Kerala is beautiful year-round but if you're looking for an experience that's a little moody and a lot cinematic – aim for the monsoon months. Waterfalls are at full flow, the hills are impossibly green, and there's a romance in rain that only Kerala can serve.",
+    monsoonDesc:
+      "Kerala is beautiful year-round but if you're looking for an experience that's a little moody and a lot cinematic – aim for the monsoon months. Waterfalls are at full flow, the hills are impossibly green, and there's a romance in rain that only Kerala can serve.",
     // Itinerary
     itineraryTitle: "7-Day Itinerary",
     day1: "Day 1",
@@ -983,19 +1077,26 @@ export const en = {
     day6: "Day 6",
     day7: "Day 7",
     departureTitle: "Departure from Goa",
-    departureDesc: "Start your journey by road or train. Meet your fellow travelers, share your playlists, play travel games and get ready to have an adventure of a lifetime!",
+    departureDesc:
+      "Start your journey by road or train. Meet your fellow travelers, share your playlists, play travel games and get ready to have an adventure of a lifetime!",
     munnarArrival: "Arrival at Munnar",
-    munnarDesc: "Reach the hills by morning. Munnar will welcome you with rolling tea gardens, cool breeze and peaceful trails. Visit local markets, unwind in your room and stretch your legs with a gentle evening hike.",
+    munnarDesc:
+      "Reach the hills by morning. Munnar will welcome you with rolling tea gardens, cool breeze and peaceful trails. Visit local markets, unwind in your room and stretch your legs with a gentle evening hike.",
     munnarAdventures: "Munnar Adventures",
-    munnarAdventuresDesc: "Trek to the Top Station for panoramic valley views. Stop by Eravikulam National Park where you might spot the Nilgiri Tahr. Explore waterfalls, echo points and the winding hill roads.",
+    munnarAdventuresDesc:
+      "Trek to the Top Station for panoramic valley views. Stop by Eravikulam National Park where you might spot the Nilgiri Tahr. Explore waterfalls, echo points and the winding hill roads.",
     thekkadyThrills: "Thekkady Thrills",
-    thekkadyDesc: "Leave for Thekkady early morning. This region near Periyar Tiger Reserve will give you a taste of Kerala's wilder side. Go for a guided jungle walk, bamboo rafting or elephant camp visit.",
+    thekkadyDesc:
+      "Leave for Thekkady early morning. This region near Periyar Tiger Reserve will give you a taste of Kerala's wilder side. Go for a guided jungle walk, bamboo rafting or elephant camp visit.",
     backwatersTitle: "Alleppey/Kumarakom Backwaters",
-    backwatersDesc: "Check into a houseboat and sail away. The world will slow down as you float past coconut palms, waterbirds and quiet village life. Lunch will be served hot on deck.",
+    backwatersDesc:
+      "Check into a houseboat and sail away. The world will slow down as you float past coconut palms, waterbirds and quiet village life. Lunch will be served hot on deck.",
     kochiVarkala: "Kochi City & Varkala Beach",
-    kochiVarkalaDesc: "Drive toward Kochi or Varkala. Kochi will charm you with colonial streets, quirky cafes and antique shops. Varkala offers cliffside cafes, golden beaches and good surf.",
+    kochiVarkalaDesc:
+      "Drive toward Kochi or Varkala. Kochi will charm you with colonial streets, quirky cafes and antique shops. Varkala offers cliffside cafes, golden beaches and good surf.",
     returnTitle: "Return to Goa",
-    returnDesc: "It will be finally time to head back. Watch reels of your favourite moments, swap numbers and make a promise to travel again. You might return with a tan, new friends and stories for a lifetime.",
+    returnDesc:
+      "It will be finally time to head back. Watch reels of your favourite moments, swap numbers and make a promise to travel again. You might return with a tan, new friends and stories for a lifetime.",
     // Highlights
     memorableTitle: "Why This Trip Will Be Memorable",
     highlight1: "Houseboat cruise on scenic backwaters",
@@ -1018,7 +1119,8 @@ export const en = {
     // Tips
     proTips: "Pro Tips for First-Timers",
     tip1Title: "Keep an open mind",
-    tip1Desc: "Every region will feel different. Embrace the diversity of experiences.",
+    tip1Desc:
+      "Every region will feel different. Embrace the diversity of experiences.",
     tip2Title: "Carry a raincoat",
     tip2Desc: "Essential for monsoon trips to stay dry during sudden showers.",
     tip3Title: "Use local transport",
@@ -1031,11 +1133,14 @@ export const en = {
     tip6Desc: "You'll be moving frequently - keep your luggage manageable.",
     // Conclusion
     conclusionTitle: "In Conclusion",
-    conclusionDesc: "In our opinion, you are at that phase of life where moments matter more than things. If nothing else, we are boldly confident that this journey will give you a brand-new perspective.",
-    conclusionQuote: "Because every corner in Kerala has its own unique story. A fisherman pulling his net to check his catch. A child waving enthusiastically from a houseboat. A jolly woman selling spices in a quiet lane. They are attractions. And they also are life in its simplest and most beautiful form.",
+    conclusionDesc:
+      "In our opinion, you are at that phase of life where moments matter more than things. If nothing else, we are boldly confident that this journey will give you a brand-new perspective.",
+    conclusionQuote:
+      "Because every corner in Kerala has its own unique story. A fisherman pulling his net to check his catch. A child waving enthusiastically from a houseboat. A jolly woman selling spices in a quiet lane. They are attractions. And they also are life in its simplest and most beautiful form.",
     // CTA
     ctaTitle: "Ready to Explore?",
-    ctaDesc: "If you are all set for a real experience, a shared trip with exceptional and real people and real memories, then this Kerala tour is calling your name. The best part is you won't need to do it alone. Gather your friends or arrive solo and meet new ones. Our Kerala tour packages from Goa are specially built for young hearts with an explorer's spirit.",
+    ctaDesc:
+      "If you are all set for a real experience, a shared trip with exceptional and real people and real memories, then this Kerala tour is calling your name. The best part is you won't need to do it alone. Gather your friends or arrive solo and meet new ones. Our Kerala tour packages from Goa are specially built for young hearts with an explorer's spirit.",
     bookNow: "Book Your Spot",
     enquireNow: "Enquire Now",
     viewFullItinerary: "View Full Itinerary",
@@ -6819,8 +6924,7 @@ export const en = {
         slug: "kazakhstan-tour-package",
         type: "",
         hero: {
-          title:
-            "4n/5d Kazakhstan Tour Package – 30% Off Only for Goans | Global Tourist Centre",
+          title: "4n/5d Kazakhstan Tour Package – 30% Off Only for Goans",
           subtitle:
             "Discover the City of a Thousand Colours with mountain adventures, cultural experiences, and modern charm",
           backgroundImage: "/assets/hero/Almaty-hero.webp",
@@ -12421,7 +12525,7 @@ export const en = {
         description:
           "Experience the Maximum City in ultimate luxury. Stay at iconic hotels, explore heritage sites, enjoy fine dining, and discover the vibrant culture of India's financial capital.",
         discountBadge: "Up to 20% OFF on Early Bookings",
-        image: "/assets/hero/mumbai-luxury.webp",
+        image: "/assets/Luxury/Mumbai/mumbai-hero.webp",
       },
 
       toursSection: {
@@ -12473,7 +12577,7 @@ export const en = {
         description:
           "Experience India’s most iconic cultural circuit in unparalleled luxury across Delhi, Agra, and Jaipur.",
         discountBadge: "Up to 25% OFF on Early Bookings",
-        image: "/assets/hero/golden-triangle-luxury.webp",
+        image: "/assets/Luxury/Golden Triangle/hero.webp",
       },
 
       toursSection: {
@@ -12489,7 +12593,7 @@ export const en = {
             link: "/luxury-trips/golden-triangle-luxury/golden-triangle-luxury-package",
           },
           {
-            image: "/assets/Luxury/Golden Triangle/Golden-Triangle2-thumb.webp",
+            image: "/assets/Luxury/Golden Triangle/Golden Triangle2-thumb.webp",
             badge: "Premium Package",
             title: "6N/7D Golden Triangle Luxury Package",
             location: "Delhi, Agra & Jaipur",
@@ -12534,7 +12638,7 @@ export const en = {
         description:
           "Cruise serene backwaters, stay in premium houseboats, rejuvenate with ayurveda, and explore lush hill stations.",
         discountBadge: "Up to 30% OFF on Early Bookings",
-        image: "/assets/hero/kerala-luxury.webp",
+        image: "/assets/Luxury/Kerala/hero-backwaters.webp",
       },
 
       toursSection: {
@@ -12547,7 +12651,7 @@ export const en = {
             location: "Cochin, Munnar & Alleppey",
             description:
               "Backwaters, hill stations, and cultural heritage in a curated journey.",
-            link: "/itinerary/luxury-trips/kerala-luxury-package",
+            link: "/luxury-trips/kerala-luxury/kerala-luxury-package",
           },
           {
             image: "/assets/Luxury/Kerala/kerala2-thumb.webp",
@@ -12556,7 +12660,7 @@ export const en = {
             location: "Cochin, Munnar, Thekkady & Alleppey",
             description:
               "Luxury houseboats, wildlife experiences, and premium hill resorts.",
-            link: "/itinerary/luxury-trips/kerala-luxury-tour-package",
+            link: "/luxury-trips/kerala-luxury/kerala-luxury-tour-package",
           },
         ],
       },
@@ -12593,7 +12697,7 @@ export const en = {
         description:
           "Stay in majestic palaces, explore ancient forts, and experience India’s royal heritage.",
         discountBadge: "Up to 30% OFF on Early Bookings",
-        image: "/assets/hero/rajasthan-luxury.webp",
+        image: "/assets/Luxury/Rajasthan/Rajasthan-Luxury.webp",
       },
 
       toursSection: {
@@ -12661,7 +12765,7 @@ export const en = {
         description:
           "Royal palaces, wildlife safaris, hill stations, and modern cities combined in luxury.",
         discountBadge: "Up to 25% OFF on Early Bookings",
-        image: "/assets/hero/karnataka-luxury.webp",
+        image: "/assets/Luxury/Karnataka/hero.webp",
       },
 
       toursSection: {

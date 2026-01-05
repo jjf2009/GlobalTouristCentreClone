@@ -12,6 +12,7 @@ interface LuxuryTourCardProps {
   buttonText: string;
   badgeText: string;
   href: string; // ✅ new
+  locale: string; // ✅ new
 }
 
 export function LuxuryTourCard({
@@ -22,6 +23,7 @@ export function LuxuryTourCard({
   buttonText,
   badgeText,
   href,
+  locale
 }: LuxuryTourCardProps) {
   return (
     <div
@@ -32,6 +34,7 @@ export function LuxuryTourCard({
         transition-all duration-300
         hover:-translate-y-1
         flex flex-col h-full
+        w-full max-w-[520px] mx-auto
       "
     >
       {/* IMAGE */}
@@ -94,7 +97,7 @@ export function LuxuryTourCard({
         </p>
 
         {/* CTA */}
-        <Link href={href} className="mt-auto">
+        <Link href={`/${locale}/${href}`} className="mt-auto">
           <Button
             className="
               w-full bg-[#d4af37] hover:bg-[#b8962e]

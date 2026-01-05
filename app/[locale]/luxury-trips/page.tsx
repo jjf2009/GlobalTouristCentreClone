@@ -12,7 +12,7 @@ export async function generateMetadata({
   const t = getTranslations(params.locale);
 
   return {
-    title: t.luxury.heroTitle,
+    title: t.nav.luxuryDestinations,
   };
 }
 /* ---------- STATIC PARAMS (REQUIRED FOR EXPORT) ---------- */

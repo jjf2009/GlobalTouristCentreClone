@@ -1,18 +1,18 @@
 export const luxuryPageContent = {
   "kerala-luxury": {
-    image: "/assets/Luxury/Kerala/kerala1-thumb.webp",
+    image: "/assets/Luxury/Kerala/Kerala Backwaters.webp",
   },
   "mumbai-luxury": {
-    image: "/assets/Luxury/Mumbai/mumbai1-thumb.webp",
+    image: "/assets/Luxury/Mumbai/mumbai-hero.webp",
   },
   "golden-triangle-luxury": {
-    image: "/assets/Luxury/GoldenTriangle/golden-triangle-luxury-thumb.webp",
+    image: "/assets/Luxury/Golden Triangle/golden-triangle-thumb.webp",
   },
   "rajasthan-luxury": {
-    image: "/assets/Luxury/Rajasthan/rajasthan-luxury-thumb.webp",
+    image: "/assets/Luxury/Rajasthan/Rajasthan-Luxury-hero.webp",
   },
   "karnataka-luxury": {
-    image: "/assets/Luxury/Karnataka/karnataka-luxury-thumb.webp",
+    image: "/assets/Luxury/Karnataka/hero.webp",
   },
 
 } as const;

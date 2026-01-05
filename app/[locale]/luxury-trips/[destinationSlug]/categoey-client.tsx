@@ -29,7 +29,7 @@ export function LuxuryClient({ params }: PageProps) {
       <HeroSection slug={params.slug} />
       <LuxuryToursSection slug={params.slug} />
 
-      <WhyChooseLuxury />
+      <WhyChooseLuxury slug={params.slug} />
     </main>
   );
 }

@@ -1,5 +1,4 @@
 // components/blog/BlogSectionItem.tsx
-
 import { BlogSectionData } from "../blogData";
 
 const BlogSectionItem = ({ data }: { data: BlogSectionData }) => {
@@ -9,20 +8,21 @@ const BlogSectionItem = ({ data }: { data: BlogSectionData }) => {
         {data.title}
       </h2>
 
-      <figure className="mb-6 overflow-hidden rounded-xl shadow-md bg-gray-100">
-        <div className="aspect-video relative">
+      {/* Image Wrapper */}
+      <figure className="mb-6 mx-auto max-w-[600px] w-full overflow-hidden rounded-xl shadow-md bg-gray-100">
+        <div className="relative aspect-video">
           <img
             src={data.image}
             alt={data.imageAlt}
-            className="w-full h-full object-cover"
+            className="max-w-[600px] max-h-[600px] object-cover transition-transform duration-300"
           />
         </div>
-        <figcaption className="p-3 text-center text-sm italic text-emerald-800/70 bg-emerald-50/50">
+        <figcaption className="px-4 py-3 text-center text-xs sm:text-sm italic text-emerald-800/70 bg-emerald-50/50">
           {data.caption}
         </figcaption>
       </figure>
 
-      <div className="space-y-4 text-gray-700 leading-relaxed">
+      <div className="space-y-4 text-gray-700 leading-relaxed max-w-3xl mx-auto">
         {data.paragraphs.map((p, i) => (
           <p key={i}>{p}</p>
         ))}

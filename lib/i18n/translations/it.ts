@@ -391,7 +391,8 @@ export const it = {
     customizeTripPackage: {
       heroTitle: "Tour Personalizzati",
       aboutTitle: "Il Tuo Viaggio, A Modo Tuo",
-      aboutDesc: "Crediamo che ogni viaggiatore sia unico. I nostri tour personalizzati sono progettati intorno ai tuoi interessi, budget e preferenze di viaggio.",
+      aboutDesc:
+        "Crediamo che ogni viaggiatore sia unico. I nostri tour personalizzati sono progettati intorno ai tuoi interessi, budget e preferenze di viaggio.",
       whyChooseTitle: "Perché Scegliere Tour Personalizzati:",
       benefit1: "Su misura per i tuoi interessi e ritmo",
       benefit2: "Date e durata flessibili",
@@ -400,7 +401,8 @@ export const it = {
       benefit5: "Guide esperte locali",
       benefit6: "Supporto 24/7 durante il viaggio",
       formTitle: "Crea la Tua Vacanza dei Sogni",
-      formDesc: "Raccontaci le tue preferenze e creeremo un itinerario personalizzato.",
+      formDesc:
+        "Raccontaci le tue preferenze e creeremo un itinerario personalizzato.",
       formHeader: "Iniziamo",
       formSubtitle: "Compila i dettagli e ti contatteremo entro 24 ore",
       // Form Specifics
@@ -421,26 +423,37 @@ export const it = {
       budgetLuxury: "Lusso (₹60,000+)",
       budgetFlexible: "Flessibile/Non Sicuro",
       specialLabel: "Richieste Speciali",
-      specialPlaceholder: "Esigenze dietetiche, accessibilità, occasioni speciali, ecc.",
+      specialPlaceholder:
+        "Esigenze dietetiche, accessibilità, occasioni speciali, ecc.",
       submitButton: "Ottieni Itinerario Personalizzato",
-      privacyNote: "Rispettiamo la tua privacy. Le tue informazioni non saranno condivise.",
+      privacyNote:
+        "Rispettiamo la tua privacy. Le tue informazioni non saranno condivise.",
       // FAQ
       faqTitle: "FAQ Tour Personalizzati",
-      faqSubtitle: "Risposte alle domande comuni sui nostri pacchetti turistici personalizzati.",
-      faq1Question: "Progettate tour per famiglie, gruppi o viaggiatori singoli?",
-      faq1Answer: "Progettiamo tour per tutti, incluse famiglie, gruppi di amici, avventurieri solitari e tutti coloro che amano evadere di tanto in tanto. Che si tratti di una vacanza rilassante, un viaggio in solitaria o un viaggio divertente pieno di spontaneità, facciamo in modo che l'itinerario sembri pianificato apposta per te.",
+      faqSubtitle:
+        "Risposte alle domande comuni sui nostri pacchetti turistici personalizzati.",
+      faq1Question:
+        "Progettate tour per famiglie, gruppi o viaggiatori singoli?",
+      faq1Answer:
+        "Progettiamo tour per tutti, incluse famiglie, gruppi di amici, avventurieri solitari e tutti coloro che amano evadere di tanto in tanto. Che si tratti di una vacanza rilassante, un viaggio in solitaria o un viaggio divertente pieno di spontaneità, facciamo in modo che l'itinerario sembri pianificato apposta per te.",
 
       faq2Question: "Cosa è incluso in un pacchetto personalizzato?",
-      faq2Answer: "Riceverai un itinerario progettato intorno a ciò che conta per te. Include destinazioni, soggiorni, trasferimenti comodi, guide locali e persino attività che corrispondono ai tuoi interessi. Gestiremo i dettagli in modo che tu possa concentrarti solo sul goderti il viaggio.",
-      faq3Question: "Quanto tempo ci vuole per progettare un viaggio personalizzato?",
-      faq3Answer: "Miriamo a mantenere la pianificazione fluida e tempestiva. Prima, il nostro esperto di viaggi ti contatterà per discutere i tuoi requisiti. Creeremo quindi un itinerario preliminare per la tua revisione. Puoi richiedere modifiche finché l'itinerario non corrisponde perfettamente alle tue aspettative. Una volta finalizzato, gestiremo tutte le prenotazioni e ti forniremo documenti di viaggio dettagliati.",
-      faq4Question: "Posso modificare un pacchetto standard invece di crearne uno nuovo?",
-      faq4Answer: "Assolutamente. Il nostro servizio di pianificazione dell'itinerario è gratuito quando prenoti il tuo tour con noi. Tieni presente però che per itinerari complessi che richiedono ricerche significative, potrebbe essere applicata una tariffa di pianificazione nominale, che è interamente deducibile dall'importo finale della prenotazione.",
+      faq2Answer:
+        "Riceverai un itinerario progettato intorno a ciò che conta per te. Include destinazioni, soggiorni, trasferimenti comodi, guide locali e persino attività che corrispondono ai tuoi interessi. Gestiremo i dettagli in modo che tu possa concentrarti solo sul goderti il viaggio.",
+      faq3Question:
+        "Quanto tempo ci vuole per progettare un viaggio personalizzato?",
+      faq3Answer:
+        "Miriamo a mantenere la pianificazione fluida e tempestiva. Prima, il nostro esperto di viaggi ti contatterà per discutere i tuoi requisiti. Creeremo quindi un itinerario preliminare per la tua revisione. Puoi richiedere modifiche finché l'itinerario non corrisponde perfettamente alle tue aspettative. Una volta finalizzato, gestiremo tutte le prenotazioni e ti forniremo documenti di viaggio dettagliati.",
+      faq4Question:
+        "Posso modificare un pacchetto standard invece di crearne uno nuovo?",
+      faq4Answer:
+        "Assolutamente. Il nostro servizio di pianificazione dell'itinerario è gratuito quando prenoti il tuo tour con noi. Tieni presente però che per itinerari complessi che richiedono ricerche significative, potrebbe essere applicata una tariffa di pianificazione nominale, che è interamente deducibile dall'importo finale della prenotazione.",
     },
     visaAgent: {
       heroTitle: "Servizi Visti e Documentazione",
       aboutTitle: "Semplifica il Processo del Visto",
-      aboutDesc: "Ottenere un visto può essere un processo complesso e lungo. Il nostro servizio di assistenza esperta si fa carico di tutto lo stress legato alla documentazione di viaggio internazionale. Gestiamo tutto, dalla compilazione dei moduli alla verifica accurata dei documenti, garantendo un risultato positivo.",
+      aboutDesc:
+        "Ottenere un visto può essere un processo complesso e lungo. Il nostro servizio di assistenza esperta si fa carico di tutto lo stress legato alla documentazione di viaggio internazionale. Gestiamo tutto, dalla compilazione dei moduli alla verifica accurata dei documenti, garantendo un risultato positivo.",
       servicesTitle: "I Nostri Servizi per i Visti Includono:",
       service1: "Consulenza completa sui visti per tutti i paesi",
       service2: "Assistenza nella preparazione e verifica dei documenti",
@@ -449,18 +462,24 @@ export const it = {
       service5: "Monitoraggio continuo dello stato della domanda",
       service6: "Elaborazione rapida per richieste urgenti",
       processTitle: "Processo di Richiesta Visto",
-      processDesc: "Il nostro processo passo dopo passo garantisce che la tua domanda di visto venga gestita in modo professionale ed efficiente.",
+      processDesc:
+        "Il nostro processo passo dopo passo garantisce che la tua domanda di visto venga gestita in modo professionale ed efficiente.",
       step1Title: "Fase 1: Consulenza",
-      step1Desc: "Valutiamo i tuoi piani di viaggio e ti forniamo informazioni dettagliate sui requisiti, i tempi di elaborazione e le tariffe dei visti per la tua destinazione.",
+      step1Desc:
+        "Valutiamo i tuoi piani di viaggio e ti forniamo informazioni dettagliate sui requisiti, i tempi di elaborazione e le tariffe dei visti per la tua destinazione.",
       step2Title: "Fase 2: Preparazione Documenti",
-      step2Desc: "I nostri esperti ti guidano nella raccolta di tutti i documenti necessari, inclusi passaporto, fotografie, prove finanziarie e lettere di supporto.",
+      step2Desc:
+        "I nostri esperti ti guidano nella raccolta di tutti i documenti necessari, inclusi passaporto, fotografie, prove finanziarie e lettere di supporto.",
       step3Title: "Fase 3: Presentazione Domanda",
-      step3Desc: "Compiliamo accuratamente tutti i moduli di domanda, pianifichiamo gli appuntamenti e presentiamo il tuo fascicolo al consolato o all'ambasciata appropriata.",
+      step3Desc:
+        "Compiliamo accuratamente tutti i moduli di domanda, pianifichiamo gli appuntamenti e presentiamo il tuo fascicolo al consolato o all'ambasciata appropriata.",
       step4Title: "Fase 4: Monitoraggio e Ritiro",
-      step4Desc: "Monitoriamo lo stato della tua domanda e ti teniamo aggiornato. Una volta approvato, coordiniamo il ritiro e la consegna del tuo passaporto.",
+      step4Desc:
+        "Monitoriamo lo stato della tua domanda e ti teniamo aggiornato. Una volta approvato, coordiniamo il ritiro e la consegna del tuo passaporto.",
       // Form Specifics
       formTitle: "Richiedi Assistenza Visti",
-      formDesc: "Compila questo modulo e i nostri esperti di visti ti contatteranno entro 24 ore per avviare il processo.",
+      formDesc:
+        "Compila questo modulo e i nostri esperti di visti ti contatteranno entro 24 ore per avviare il processo.",
       fullNameLabel: "Nome Completo*",
       fullNamePlaceholder: "Il tuo nome completo",
       emailLabel: "Email*",
@@ -475,23 +494,32 @@ export const it = {
       notesLabel: "Note Aggiuntive",
       notesPlaceholder: "Esigenze speciali o domande particolari",
       submitButton: "Invia Richiesta",
-      privacyNote: "Rispettiamo la tua privacy. Le tue informazioni personali sono al sicuro e non saranno condivise.",
+      privacyNote:
+        "Rispettiamo la tua privacy. Le tue informazioni personali sono al sicuro e non saranno condivise.",
       // FAQ
       faqTitle: "FAQ sui Visti",
-      faqDesc: "Risposte alle domande frequenti sui nostri servizi di assistenza visti.",
+      faqDesc:
+        "Risposte alle domande frequenti sui nostri servizi di assistenza visti.",
       faq1Question: "Assistete sia per visti turistici che business?",
-      faq1Answer: "Sì, forniamo assistenza completa per la documentazione sia per visti turistici che per affari. Ti guidiamo attraverso i moduli, ti aiutiamo a raccogliere la documentazione corretta e teniamo traccia di tutti i requisiti affinché nulla venga tralasciato.",
-      faq2Question: "Quando dovrei iniziare la procedura di visto prima del viaggio?",
-      faq2Answer: "È consigliabile iniziare almeno alcune settimane prima. Alcuni paesi elaborano le domande rapidamente, altri richiedono più tempo. Avere un margine di tempo sufficiente aiuta a evitare stress inutile.",
+      faq1Answer:
+        "Sì, forniamo assistenza completa per la documentazione sia per visti turistici che per affari. Ti guidiamo attraverso i moduli, ti aiutiamo a raccogliere la documentazione corretta e teniamo traccia di tutti i requisiti affinché nulla venga tralasciato.",
+      faq2Question:
+        "Quando dovrei iniziare la procedura di visto prima del viaggio?",
+      faq2Answer:
+        "È consigliabile iniziare almeno alcune settimane prima. Alcuni paesi elaborano le domande rapidamente, altri richiedono più tempo. Avere un margine di tempo sufficiente aiuta a evitare stress inutile.",
       faq3Question: "Prenotate gli appuntamenti per i colloqui di visto?",
-      faq3Answer: "Ti aiutiamo a capire esattamente dove andare e come prenotare il tuo appuntamento. Le ambasciate o i consolati stabiliscono le disponibilità, ma faremo tutto il possibile per indirizzarti e prepararti al meglio.",
-      faq4Question: "Posso prolungare il mio soggiorno all'estero se il mio visto lo consente?",
-      faq4Answer: "Dipende interamente dalle regole del paese di destinazione. Alcuni paesi consentono l'estensione in loco se il tuo tipo di visto lo prevede. Ti consigliamo di verificare questo aspetto in anticipo.",
+      faq3Answer:
+        "Ti aiutiamo a capire esattamente dove andare e come prenotare il tuo appuntamento. Le ambasciate o i consolati stabiliscono le disponibilità, ma faremo tutto il possibile per indirizzarti e prepararti al meglio.",
+      faq4Question:
+        "Posso prolungare il mio soggiorno all'estero se il mio visto lo consente?",
+      faq4Answer:
+        "Dipende interamente dalle regole del paese di destinazione. Alcuni paesi consentono l'estensione in loco se il tuo tipo di visto lo prevede. Ti consigliamo di verificare questo aspetto in anticipo.",
     },
     hotelBooking: {
       heroTitle: "Prenotazioni Hotel",
       aboutTitle: "Trova il Soggiorno Perfetto",
-      aboutDesc: "Collaboriamo con hotel in tutto il mondo per offrirti le migliori sistemazioni a tariffe competitive.",
+      aboutDesc:
+        "Collaboriamo con hotel in tutto il mondo per offrirti le migliori sistemazioni a tariffe competitive.",
       whyBookTitle: "Perché Prenotare con Noi:",
       benefit1: "Tariffe esclusive e offerte speciali",
       benefit2: "Recensioni verificate e raccomandazioni",
@@ -527,22 +555,29 @@ export const it = {
       // FAQ
       faqTitle: "FAQ Prenotazione Hotel",
       faqDesc: "Domande frequenti sui nostri servizi di prenotazione hotel.",
-      faq1Question: "Offrite prenotazioni hotel sia nazionali che internazionali?",
-      faq1Answer: "Assolutamente. Collaboriamo con hotel in tutto il mondo per offrirti le migliori sistemazioni a tariffe competitive. Che tu stia cercando un soggiorno economico, un boutique hotel o un resort di lusso, abbiamo opzioni per ogni preferenza e budget.",
-      faq2Question: "Potete prenotare hotel come parte di un pacchetto turistico completo o solo soggiorni singoli?",
-      faq2Answer: "Possiamo fare entrambe le cose. Puoi richiedere una prenotazione autonoma o farci prenotare l'hotel come parte del tuo pacchetto completo con voli, trasferimenti e attività. Qualunque cosa ti serva, gestiremo i dettagli.",
+      faq1Question:
+        "Offrite prenotazioni hotel sia nazionali che internazionali?",
+      faq1Answer:
+        "Assolutamente. Collaboriamo con hotel in tutto il mondo per offrirti le migliori sistemazioni a tariffe competitive. Che tu stia cercando un soggiorno economico, un boutique hotel o un resort di lusso, abbiamo opzioni per ogni preferenza e budget.",
+      faq2Question:
+        "Potete prenotare hotel come parte di un pacchetto turistico completo o solo soggiorni singoli?",
+      faq2Answer:
+        "Possiamo fare entrambe le cose. Puoi richiedere una prenotazione autonoma o farci prenotare l'hotel come parte del tuo pacchetto completo con voli, trasferimenti e attività. Qualunque cosa ti serva, gestiremo i dettagli.",
 
       faq3Question: "Posso modificare o cancellare la mia prenotazione hotel?",
-      faq3Answer: "Le politiche di modifica e cancellazione variano in base all'hotel. La maggior parte delle prenotazioni può essere modificata o cancellata gratuitamente fino a 24-48 ore prima del check-in. Alcune prenotazioni a tariffa speciale potrebbero avere politiche diverse. La tua email di conferma specificherà la politica di cancellazione per la tua prenotazione particolare.",
+      faq3Answer:
+        "Le politiche di modifica e cancellazione variano in base all'hotel. La maggior parte delle prenotazioni può essere modificata o cancellata gratuitamente fino a 24-48 ore prima del check-in. Alcune prenotazioni a tariffa speciale potrebbero avere politiche diverse. La tua email di conferma specificherà la politica di cancellazione per la tua prenotazione particolare.",
 
-      faq4Question: "Posso prenotare più hotel in diverse città in un unico itinerario?",
-      faq4Answer: "Sicuramente. Ad esempio, se il tuo viaggio ti porta da Mumbai al Sikkim alle Andamane, prenoteremo ogni hotel per le notti giuste durante il tuo viaggio. Per rendere il tuo viaggio fluido, siamo qui se vuoi cambiare i tuoi piani o aggiungere una tappa in seguito.",
-
+      faq4Question:
+        "Posso prenotare più hotel in diverse città in un unico itinerario?",
+      faq4Answer:
+        "Sicuramente. Ad esempio, se il tuo viaggio ti porta da Mumbai al Sikkim alle Andamane, prenoteremo ogni hotel per le notti giuste durante il tuo viaggio. Per rendere il tuo viaggio fluido, siamo qui se vuoi cambiare i tuoi piani o aggiungere una tappa in seguito.",
     },
     flightBooking: {
       heroTitle: "Prenotazioni Voli",
       aboutTitle: "Vola con Facilità",
-      aboutDesc: "Come agente autorizzato, offriamo tariffe competitive su tutte le principali compagnie aeree per voli nazionali e internazionali.",
+      aboutDesc:
+        "Come agente autorizzato, offriamo tariffe competitive su tutte le principali compagnie aeree per voli nazionali e internazionali.",
       servicesTitle: "I Nostri Servizi Voli:",
       service1: "Prenotazioni voli nazionali e internazionali",
       service2: "Itinerari multi-città",
@@ -551,9 +586,11 @@ export const it = {
       service5: "Sconti per gruppi",
       service6: "Supporto prenotazioni 24/7",
       formTitle: "Richiesta Prenotazione Volo",
-      formDesc: "Fornisci i dettagli del tuo viaggio e troveremo le migliori opzioni di volo per te.",
+      formDesc:
+        "Fornisci i dettagli del tuo viaggio e troveremo le migliori opzioni di volo per te.",
       formHeader: "Iniziamo",
-      formSubtitle: "Compila i dettagli qui sotto e ti contatteremo entro 24 ore",
+      formSubtitle:
+        "Compila i dettagli qui sotto e ti contatteremo entro 24 ore",
       yourName: "Il Tuo Nome*",
       namePlaceholder: "Nome completo",
       email: "Email*",
@@ -581,23 +618,31 @@ export const it = {
       // FAQ
       faqTitle: "FAQ Prenotazione Voli",
       faqDesc: "Domande frequenti sui nostri servizi di prenotazione voli.",
-      faq1Question: "Potete aggiungere seggiolino per bambini, animale domestico o attrezzatura sportiva alla mia prenotazione?",
-      faq1Answer: "Possiamo guidarti su come includere articoli speciali come seggiolini per bambini o attrezzature sportive. Molte compagnie aeree ti permettono di aggiungerli tramite servizi aggiuntivi al momento della prenotazione. Per gli animali domestici dipende dalle regole della compagnia aerea. Condivideremo cosa è permesso e come includerlo quando prenoti.",
+      faq1Question:
+        "Potete aggiungere seggiolino per bambini, animale domestico o attrezzatura sportiva alla mia prenotazione?",
+      faq1Answer:
+        "Possiamo guidarti su come includere articoli speciali come seggiolini per bambini o attrezzature sportive. Molte compagnie aeree ti permettono di aggiungerli tramite servizi aggiuntivi al momento della prenotazione. Per gli animali domestici dipende dalle regole della compagnia aerea. Condivideremo cosa è permesso e come includerlo quando prenoti.",
 
-      faq2Question: "Potete organizzare il coordinamento per il ritiro o la consegna in aeroporto insieme ai voli?",
-      faq2Answer: "Sì, ci occupiamo noi di questo. Puoi chiederci di organizzare un ritiro o una consegna alla tua destinazione come parte del tuo itinerario.",
+      faq2Question:
+        "Potete organizzare il coordinamento per il ritiro o la consegna in aeroporto insieme ai voli?",
+      faq2Answer:
+        "Sì, ci occupiamo noi di questo. Puoi chiederci di organizzare un ritiro o una consegna alla tua destinazione come parte del tuo itinerario.",
 
-      faq3Question: "Qual è la politica di cancellazione, modifica o rimborso per le prenotazioni?",
-      faq3Answer: "Tutto è stabilito dalla compagnia aerea o dalle regole del biglietto. Siamo lì per aiutarti con le opzioni in modo che tu possa scegliere ciò che ha senso, sia che tu debba spostare le date o cancellare del tutto.",
+      faq3Question:
+        "Qual è la politica di cancellazione, modifica o rimborso per le prenotazioni?",
+      faq3Answer:
+        "Tutto è stabilito dalla compagnia aerea o dalle regole del biglietto. Siamo lì per aiutarti con le opzioni in modo che tu possa scegliere ciò che ha senso, sia che tu debba spostare le date o cancellare del tutto.",
 
-      faq4Question: "Che supporto offrite se il mio volo è in ritardo o cancellato?",
-      faq4Answer: "Quando si verificano ritardi o cancellazioni, siamo qui per aiutare. Puoi contattarci e ti guideremo su cosa fare dopo. Potrebbe trattarsi di riprenotare, ottenere supporto in aeroporto o prendere voli alternativi. Ti aiutiamo a mantenere la calma e a continuare a muoverti.",
-
+      faq4Question:
+        "Che supporto offrite se il mio volo è in ritardo o cancellato?",
+      faq4Answer:
+        "Quando si verificano ritardi o cancellazioni, siamo qui per aiutare. Puoi contattarci e ti guideremo su cosa fare dopo. Potrebbe trattarsi di riprenotare, ottenere supporto in aeroporto o prendere voli alternativi. Ti aiutiamo a mantenere la calma e a continuare a muoverti.",
     },
     groupTrip: {
       heroTitle: "Tour di Gruppo",
       aboutTitle: "Viaggia Insieme, Risparmia Insieme",
-      aboutDesc: "I nostri tour di gruppo offrono il perfetto mix di connessione sociale, convenienza e valore. Ci occupiamo di tutti i dettagli.",
+      aboutDesc:
+        "I nostri tour di gruppo offrono il perfetto mix di connessione sociale, convenienza e valore. Ci occupiamo di tutti i dettagli.",
       benefitsTitle: "Vantaggi del Viaggio di Gruppo:",
       benefit1: "Risparmi significativi con sconti di gruppo",
       benefit2: "Tour manager professionale",
@@ -608,7 +653,8 @@ export const it = {
       formTitle: "Iniziamo",
       formDesc: "Compila i dettagli qui sotto e ti contatteremo entro 24 ore",
       formHeader: "Iniziamo",
-      formSubtitle: "Compila i dettagli qui sotto e ti contatteremo entro 24 ore",
+      formSubtitle:
+        "Compila i dettagli qui sotto e ti contatteremo entro 24 ore",
       groupOrganizerName: "Nome Organizzatore Gruppo*",
       namePlaceholder: "Nome completo",
       phoneNumber: "Numero di Telefono*",
@@ -626,24 +672,33 @@ export const it = {
       budget: "Budget Approssimativo (a persona)",
       budgetPlaceholder: "La tua fascia di budget",
       interests: "Interessi/Attività del Gruppo",
-      interestsPlaceholder: "A che tipo di esperienze è interessato il tuo gruppo?",
+      interestsPlaceholder:
+        "A che tipo di esperienze è interessato il tuo gruppo?",
       submit: "Richiedi Proposta Gruppo",
-      privacyFooter: "Rispettiamo la tua privacy. Le tue informazioni non saranno condivise.",
+      privacyFooter:
+        "Rispettiamo la tua privacy. Le tue informazioni non saranno condivise.",
       // FAQ
       faqTitle: "FAQ Tour di Gruppo",
       faqDesc: "Domande frequenti sui nostri servizi di viaggio di gruppo.",
-      faq1Question: "Qual è la dimensione minima e massima del gruppo per i vostri tour nazionali e internazionali?",
-      faq1Answer: "La maggior parte dei nostri tour è progettata per piccoli gruppi, spesso tra sei e dodici viaggiatori alla volta. Se richiesto, possiamo aumentare un po' le dimensioni a seconda dello stile del viaggio e del tuo livello di comfort.",
+      faq1Question:
+        "Qual è la dimensione minima e massima del gruppo per i vostri tour nazionali e internazionali?",
+      faq1Answer:
+        "La maggior parte dei nostri tour è progettata per piccoli gruppi, spesso tra sei e dodici viaggiatori alla volta. Se richiesto, possiamo aumentare un po' le dimensioni a seconda dello stile del viaggio e del tuo livello di comfort.",
 
-      faq2Question: "Come garantite un coordinamento fluido e la gestione del tempo durante un viaggio di gruppo?",
-      faq2Answer: "Mappiamo ogni giorno con orari chiari, trasporti comodi e guide locali fidate che conoscono bene il posto. Ci assicuriamo anche di rimanere connessi sulla strada, così nulla va fuori strada e non vedi l'ora di scoprire cosa succederà dopo.",
+      faq2Question:
+        "Come garantite un coordinamento fluido e la gestione del tempo durante un viaggio di gruppo?",
+      faq2Answer:
+        "Mappiamo ogni giorno con orari chiari, trasporti comodi e guide locali fidate che conoscono bene il posto. Ci assicuriamo anche di rimanere connessi sulla strada, così nulla va fuori strada e non vedi l'ora di scoprire cosa succederà dopo.",
 
-      faq3Question: "Potete organizzare visti, voli e prenotazioni alberghiere per tutti i membri del gruppo?",
-      faq3Answer: "Sì, gestiamo tutto dall'inizio alla fine per il tuo gruppo. Una volta ottenuti tutti i dettagli da tutti, ci occupiamo di voli, soggiorni degli ospiti, visti, trasferimenti e mettiamo tutto insieme in un unico itinerario coeso. Viaggi rilassato e spensierato con il tuo gruppo mentre noi coordiniamo la logistica.",
+      faq3Question:
+        "Potete organizzare visti, voli e prenotazioni alberghiere per tutti i membri del gruppo?",
+      faq3Answer:
+        "Sì, gestiamo tutto dall'inizio alla fine per il tuo gruppo. Una volta ottenuti tutti i dettagli da tutti, ci occupiamo di voli, soggiorni degli ospiti, visti, trasferimenti e mettiamo tutto insieme in un unico itinerario coeso. Viaggi rilassato e spensierato con il tuo gruppo mentre noi coordiniamo la logistica.",
 
-      faq4Question: "Quali piani di pagamento o opzioni rateali offrite per le prenotazioni di tour di gruppo?",
-      faq4Answer: "Per le prenotazioni di gruppo, richiediamo in genere un acconto del 25% per confermare le prenotazioni, con il saldo dovuto 30-45 giorni prima della partenza. Per gruppi molto numerosi o itinerari complessi, possiamo organizzare un piano di pagamento con più rate. Possiamo anche accettare pagamenti individuali dai membri del gruppo se preferito.",
-
+      faq4Question:
+        "Quali piani di pagamento o opzioni rateali offrite per le prenotazioni di tour di gruppo?",
+      faq4Answer:
+        "Per le prenotazioni di gruppo, richiediamo in genere un acconto del 25% per confermare le prenotazioni, con il saldo dovuto 30-45 giorni prima della partenza. Per gruppi molto numerosi o itinerari complessi, possiamo organizzare un piano di pagamento con più rate. Possiamo anche accettare pagamenti individuali dai membri del gruppo se preferito.",
     },
     form: {
       yourName: "Il Tuo Nome*",
@@ -855,87 +910,118 @@ export const it = {
     // Author
     globalTeam: "Team Global Tourist Centre",
     // Andaman Post
-    andamanTitle: "Scatta, Cattura e Rilassati: I Luoghi Più Instagrammabili delle Andamane",
-    andamanSubtitle: "Scopri i luoghi più spettacolari per foto perfette alle Andamane",
+    andamanTitle:
+      "Scatta, Cattura e Rilassati: I Luoghi Più Instagrammabili delle Andamane",
+    andamanSubtitle:
+      "Scopri i luoghi più spettacolari per foto perfette alle Andamane",
     // Kerala Post
     keralaTitle: "Da Goa al Paese di Dio",
-    keralaSubtitle: "Un viaggio in Kerala per giovani esploratori - fughe monsoniche, backwaters e stazioni collinari.",
+    keralaSubtitle:
+      "Un viaggio in Kerala per giovani esploratori - fughe monsoniche, backwaters e stazioni collinari.",
     // Coming Soon Post
     comingSoonTitle: "Nuove Avventure in Arrivo",
-    comingSoonSubtitle: "Stiamo lavorando a nuove storie per te. Torna più tardi!",
+    comingSoonSubtitle:
+      "Stiamo lavorando a nuove storie per te. Torna più tardi!",
   },
   // Andaman Blog Detail Page
   blogAndaman: {
-    heroTitle: "Scatta, Cattura e Rilassati: I Luoghi Più Instagrammabili delle Andamane",
+    heroTitle:
+      "Scatta, Cattura e Rilassati: I Luoghi Più Instagrammabili delle Andamane",
     heroSubtitle: "Luglio 2025 • Fotografia",
-    introQuote: "Immagina di stare su una spiaggia soleggiata dove le onde turchesi accarezzano i tuoi piedi...",
-    introParagraph: "Nascoste nel Golfo del Bengala, le Isole Andamane hanno guadagnato la reputazione di paradiso visivo. Continua a leggere per esplorare i luoghi più instagrammabili delle Andamane.",
+    introQuote:
+      "Immagina di stare su una spiaggia soleggiata dove le onde turchesi accarezzano i tuoi piedi...",
+    introParagraph:
+      "Nascoste nel Golfo del Bengala, le Isole Andamane hanno guadagnato la reputazione di paradiso visivo. Continua a leggere per esplorare i luoghi più instagrammabili delle Andamane.",
     radhanagar: {
       title: "Spiaggia di Radhanagar – Il Tramonto Perfetto",
       caption: "Le splendide viste del tramonto a Radhanagar Beach",
-      desc1: "Perché non iniziare con uno dei nomi più famosi? Radhanagar Beach sull'isola di Havelock è stata votata una delle migliori spiagge dell'Asia.",
-      desc2: "Lo scatto migliore sarà quello del tramonto con cieli infuocati e silhouette.",
+      desc1:
+        "Perché non iniziare con uno dei nomi più famosi? Radhanagar Beach sull'isola di Havelock è stata votata una delle migliori spiagge dell'Asia.",
+      desc2:
+        "Lo scatto migliore sarà quello del tramonto con cieli infuocati e silhouette.",
       desc3: "Prova scatti ad angolo basso con i piedi nudi nell'inquadratura.",
     },
     neilIsland: {
       title: "Ponte Naturale di Neil Island – Un Capolavoro della Natura",
       caption: "La splendida formazione rocciosa naturale di Neil Island",
-      desc1: "La natura ha deciso di essere più creativa a Neil Island. Il ponte naturale è una formazione rocciosa scolpita da vento, acqua e tempo.",
-      desc2: "Gli scatti migliori arrivano a mezzogiorno per ombre nette e dettagli.",
-      desc3: "Puoi posizionare un modello sotto l'arco per uno scatto drammatico.",
+      desc1:
+        "La natura ha deciso di essere più creativa a Neil Island. Il ponte naturale è una formazione rocciosa scolpita da vento, acqua e tempo.",
+      desc2:
+        "Gli scatti migliori arrivano a mezzogiorno per ombre nette e dettagli.",
+      desc3:
+        "Puoi posizionare un modello sotto l'arco per uno scatto drammatico.",
     },
     kalapathar: {
       title: "Spiaggia di Kalapathar – Tonalità Blu e Acque Cristalline",
       caption: "La bellezza serena di Kalapathar Beach",
-      desc1: "Tranquilla, serena e poco conosciuta, Kalapathar Beach è perfetta per chi ama i blu pastello e le sabbie riflettenti.",
-      desc2: "Gli scatti migliori vengono durante l'ora d'oro con ombre lunghe e droni che mostrano il contrasto.",
+      desc1:
+        "Tranquilla, serena e poco conosciuta, Kalapathar Beach è perfetta per chi ama i blu pastello e le sabbie riflettenti.",
+      desc2:
+        "Gli scatti migliori vengono durante l'ora d'oro con ombre lunghe e droni che mostrano il contrasto.",
     },
     rossIsland: {
       title: "Ross Island – Rovine con una Storia",
       caption: "Le rovine storiche di Ross Island",
-      desc1: "Edifici abbandonati, radici striscianti e resti coloniali – la fotografia di Ross Island può essere inquietante e bella allo stesso tempo.",
-      desc2: "Gli scatti migliori vengono inquadrando un arco in rovina o un muro coperto di edera con raggi di sole.",
+      desc1:
+        "Edifici abbandonati, radici striscianti e resti coloniali – la fotografia di Ross Island può essere inquietante e bella allo stesso tempo.",
+      desc2:
+        "Gli scatti migliori vengono inquadrando un arco in rovina o un muro coperto di edera con raggi di sole.",
     },
     chidiyaTapu: {
       title: "Chidiya Tapu – La Casa dei Tramonti",
       caption: "Tramonti mozzafiato a Chidiya Tapu",
-      desc1: "Se la tua galleria è piena di tramonti, ricorda di aggiungere quelli di Chidiya Tapu. Il luogo è perfetto per le foto serali.",
-      desc2: "Gli scatti migliori sono durante il tramonto con blu e arancioni che si fondono.",
-      desc3: "Usa le rocce in primo piano o silhouette di persone in movimento.",
+      desc1:
+        "Se la tua galleria è piena di tramonti, ricorda di aggiungere quelli di Chidiya Tapu. Il luogo è perfetto per le foto serali.",
+      desc2:
+        "Gli scatti migliori sono durante il tramonto con blu e arancioni che si fondono.",
+      desc3:
+        "Usa le rocce in primo piano o silhouette di persone in movimento.",
     },
     mountHarriet: {
       title: "Mount Harriet – Cartolina dall'Alto",
       caption: "Viste panoramiche dal Mount Harriet",
-      desc1: "Essendo uno dei punti più alti delle isole, Mount Harriet offre viste mozzafiato su foreste, coste e isole lontane.",
-      desc2: "Gli scatti migliori si fanno al mattino quando la luce filtra tra gli alberi.",
+      desc1:
+        "Essendo uno dei punti più alti delle isole, Mount Harriet offre viste mozzafiato su foreste, coste e isole lontane.",
+      desc2:
+        "Gli scatti migliori si fanno al mattino quando la luce filtra tra gli alberi.",
     },
     baratang: {
       title: "Grotte Calcaree di Baratang – Una Passeggiata nel Selvaggio",
       caption: "Le uniche formazioni calcaree di Baratang",
-      desc1: "L'isola di Baratang ti porta in un luogo completamente diverso, attraverso foreste di mangrovie e in antiche grotte calcaree.",
-      desc2: "Gli scatti migliori vengono dentro la grotta catturando curve e texture con luce naturale.",
+      desc1:
+        "L'isola di Baratang ti porta in un luogo completamente diverso, attraverso foreste di mangrovie e in antiche grotte calcaree.",
+      desc2:
+        "Gli scatti migliori vengono dentro la grotta catturando curve e texture con luce naturale.",
     },
     northBay: {
       title: "North Bay – Un'Avventura Subacquea",
       caption: "Vita marina vibrante a North Bay",
-      desc1: "Vuoi catturare qualcosa di indimenticabile? Vai sotto la superficie. North Bay è uno dei migliori spot per la fotografia subacquea.",
-      desc2: "Prepara una GoPro con custodia impermeabile per catturare barriere coralline e pesci colorati.",
+      desc1:
+        "Vuoi catturare qualcosa di indimenticabile? Vai sotto la superficie. North Bay è uno dei migliori spot per la fotografia subacquea.",
+      desc2:
+        "Prepara una GoPro con custodia impermeabile per catturare barriere coralline e pesci colorati.",
     },
     wandoor: {
       title: "Wandoor Beach – Bellezza Costiera Fuori dai Sentieri Battuti",
       caption: "Le rive tranquille di Wandoor Beach",
-      desc1: "Meno turisti, più spazio da esplorare. Wandoor Beach ama il silenzio sereno con alberi caduti e onde gentili.",
-      desc2: "Gli scatti migliori si fanno camminando lungo la costa con legname o riflessi in acqua bassa.",
+      desc1:
+        "Meno turisti, più spazio da esplorare. Wandoor Beach ama il silenzio sereno con alberi caduti e onde gentili.",
+      desc2:
+        "Gli scatti migliori si fanno camminando lungo la costa con legname o riflessi in acqua bassa.",
     },
     cellularJail: {
       title: "Cellular Jail – Incorniciata in Luce e Ombra",
       caption: "L'architettura drammatica della Cellular Jail",
-      desc1: "Potrebbe non sembrare instagrammabile a prima vista, ma la Cellular Jail a Port Blair è uno sfondo potente.",
-      desc2: "Gli scatti migliori vengono dalle composizioni di luce e ombra nei lunghi corridoi.",
+      desc1:
+        "Potrebbe non sembrare instagrammabile a prima vista, ma la Cellular Jail a Port Blair è uno sfondo potente.",
+      desc2:
+        "Gli scatti migliori vengono dalle composizioni di luce e ombra nei lunghi corridoi.",
     },
     planningTrip: "Stai Pianificando il Tuo Viaggio alle Andamane?",
-    planningDesc: "Al Global Tourist Centre ci assicuriamo che la tua esperienza sia un viaggio da ricordare. I nostri pacchetti includono soggiorni, guide locali, escursioni e trasporti.",
-    conclusionNote: "Anche se abbiamo un umile consiglio: lascia riposare la fotocamera ogni tanto. Alcune immagini sono solo per gli occhi!",
+    planningDesc:
+      "Al Global Tourist Centre ci assicuriamo che la tua esperienza sia un viaggio da ricordare. I nostri pacchetti includono soggiorni, guide locali, escursioni e trasporti.",
+    conclusionNote:
+      "Anche se abbiamo un umile consiglio: lascia riposare la fotocamera ogni tanto. Alcune immagini sono solo per gli occhi!",
     enquireNow: "Richiedi Informazioni",
     viewItinerary: "Vedi Itinerario Completo",
     youMightAlsoLike: "Potrebbe Piacerti Anche",
@@ -945,29 +1031,46 @@ export const it = {
     heroTitle: "Da Goa al Paese di Dio",
     heroSubtitle: "Un viaggio in Kerala per giovani esploratori",
     introTitle: "Perché Kerala?",
-    introDesc: "Kerala non è solo una destinazione. È uno stato d'animo, un ritmo di vita che ti rallenta. La nebbia sulle piantagioni di tè di Munnar, l'ondeggiare tranquillo di una houseboat attraverso i backwaters di Alleppey.",
+    introDesc:
+      "Kerala non è solo una destinazione. È uno stato d'animo, un ritmo di vita che ti rallenta. La nebbia sulle piantagioni di tè di Munnar, l'ondeggiare tranquillo di una houseboat attraverso i backwaters di Alleppey.",
     discoveryTitle: "Un Viaggio per Scoprire",
-    discoveryDesc: "Abbiamo progettato questo viaggio per mostrarti il meglio del Kerala – colline, acqua, foreste, spiagge. Un mix di avventura e relax.",
+    discoveryDesc:
+      "Abbiamo progettato questo viaggio per mostrarti il meglio del Kerala – colline, acqua, foreste, spiagge. Un mix di avventura e relax.",
     groupTravelTitle: "Per i Giovani e Avventurosi",
-    groupTravelDesc: "Abbiamo visto troppi giovani viaggiatori perdere il Kerala perché i viaggi erano troppo costosi o noiosi. Così abbiamo creato il nostro formato.",
+    groupTravelDesc:
+      "Abbiamo visto troppi giovani viaggiatori perdere il Kerala perché i viaggi erano troppo costosi o noiosi. Così abbiamo creato il nostro formato.",
     monsoonTitle: "Quando Andare",
-    monsoonDesc: "Il Kerala è bello tutto l'anno, ma se cerchi un'esperienza cinematografica – punta ai mesi dei monsoni. Cascate in piena, colline incredibilmente verdi.",
+    monsoonDesc:
+      "Il Kerala è bello tutto l'anno, ma se cerchi un'esperienza cinematografica – punta ai mesi dei monsoni. Cascate in piena, colline incredibilmente verdi.",
     itineraryTitle: "Itinerario di 7 Giorni",
-    day1: "Giorno 1", day2: "Giorno 2", day3: "Giorno 3", day4: "Giorno 4", day5: "Giorno 5", day6: "Giorno 6", day7: "Giorno 7",
+    day1: "Giorno 1",
+    day2: "Giorno 2",
+    day3: "Giorno 3",
+    day4: "Giorno 4",
+    day5: "Giorno 5",
+    day6: "Giorno 6",
+    day7: "Giorno 7",
     departureTitle: "Partenza da Goa",
-    departureDesc: "Inizia il viaggio in treno o autobus. Incontra i tuoi compagni di viaggio e preparati all'avventura!",
+    departureDesc:
+      "Inizia il viaggio in treno o autobus. Incontra i tuoi compagni di viaggio e preparati all'avventura!",
     munnarArrival: "Arrivo a Munnar",
-    munnarDesc: "Raggiungi le colline al mattino. Munnar ti accoglierà con giardini di tè, brezza fresca e sentieri tranquilli.",
+    munnarDesc:
+      "Raggiungi le colline al mattino. Munnar ti accoglierà con giardini di tè, brezza fresca e sentieri tranquilli.",
     munnarAdventures: "Avventure a Munnar",
-    munnarAdventuresDesc: "Trekking alla Top Station per viste panoramiche. Visita il Parco Nazionale di Eravikulam.",
+    munnarAdventuresDesc:
+      "Trekking alla Top Station per viste panoramiche. Visita il Parco Nazionale di Eravikulam.",
     thekkadyThrills: "Brividi a Thekkady",
-    thekkadyDesc: "Parti per Thekkady al mattino presto. Questa regione ti mostrerà il lato selvaggio del Kerala.",
+    thekkadyDesc:
+      "Parti per Thekkady al mattino presto. Questa regione ti mostrerà il lato selvaggio del Kerala.",
     backwatersTitle: "Backwaters di Alleppey/Kumarakom",
-    backwatersDesc: "Sali su una houseboat e parti. Il mondo rallenterà mentre navighi tra palme da cocco e vita di villaggio.",
+    backwatersDesc:
+      "Sali su una houseboat e parti. Il mondo rallenterà mentre navighi tra palme da cocco e vita di villaggio.",
     kochiVarkala: "Kochi e Spiaggia di Varkala",
-    kochiVarkalaDesc: "Vai verso Kochi o Varkala. Kochi ti incanterà con strade coloniali, mentre Varkala offre caffè sulla scogliera e spiagge dorate.",
+    kochiVarkalaDesc:
+      "Vai verso Kochi o Varkala. Kochi ti incanterà con strade coloniali, mentre Varkala offre caffè sulla scogliera e spiagge dorate.",
     returnTitle: "Ritorno a Goa",
-    returnDesc: "È ora di tornare. Tornerai abbronzato, con nuovi amici e storie per tutta la vita.",
+    returnDesc:
+      "È ora di tornare. Tornerai abbronzato, con nuovi amici e storie per tutta la vita.",
     memorableTitle: "Perché Questo Viaggio Sarà Memorabile",
     highlight1: "Crociera in houseboat sui pittoreschi backwaters",
     highlight2: "Trekking nelle fresche colline verdi del tè",
@@ -999,10 +1102,13 @@ export const it = {
     tip6Title: "Viaggia leggero",
     tip6Desc: "Ti sposterai spesso - mantieni il bagaglio gestibile.",
     conclusionTitle: "In Conclusione",
-    conclusionDesc: "Secondo noi, sei in quella fase della vita dove i momenti contano più delle cose. Siamo sicuri che questo viaggio ti darà una prospettiva completamente nuova.",
-    conclusionQuote: "Perché ogni angolo del Kerala ha la sua storia unica. Un pescatore che tira le reti. Un bambino che saluta da una houseboat. Una donna allegra che vende spezie in un vicolo tranquillo. Sono attrazioni. E sono anche la vita nella sua forma più semplice e bella.",
+    conclusionDesc:
+      "Secondo noi, sei in quella fase della vita dove i momenti contano più delle cose. Siamo sicuri che questo viaggio ti darà una prospettiva completamente nuova.",
+    conclusionQuote:
+      "Perché ogni angolo del Kerala ha la sua storia unica. Un pescatore che tira le reti. Un bambino che saluta da una houseboat. Una donna allegra che vende spezie in un vicolo tranquillo. Sono attrazioni. E sono anche la vita nella sua forma più semplice e bella.",
     ctaTitle: "Pronto a Esplorare?",
-    ctaDesc: "Se sei pronto per un'esperienza reale, un viaggio condiviso con persone reali e ricordi autentici, allora questo tour del Kerala ti sta chiamando.",
+    ctaDesc:
+      "Se sei pronto per un'esperienza reale, un viaggio condiviso con persone reali e ricordi autentici, allora questo tour del Kerala ti sta chiamando.",
     bookNow: "Prenota il Tuo Posto",
     enquireNow: "Richiedi Informazioni",
     viewFullItinerary: "Vedi Itinerario Completo",
@@ -10553,7 +10659,7 @@ export const it = {
         type: "",
         hero: {
           title:
-            "Pacchetto Tour Kazakistan 4n/5d – Sconto del 30% solo per Goan |Centro turistico globale",
+            "Pacchetto Tour Kazakistan 4n/5d – Sconto del 30% solo per Goan",
           subtitle:
             "Scopri la Città dai Mille Colori con avventure in montagna, esperienze culturali e fascino moderno",
           backgroundImage: "/assets/hero/Almaty-hero.webp",
@@ -12218,7 +12324,7 @@ export const it = {
         description:
           "Scopri la «Città del Massimo» nel massimo del lusso. Soggiorna in hotel iconici, esplora siti storici, goditi la cucina raffinata e scopri la vibrante cultura della capitale finanziaria dell'India.",
         discountBadge: "Fino al 20% di SCONTO sulle prenotazioni anticipate",
-        image: "/assets/hero/mumbai-luxury.webp",
+        image: "/assets/Luxury/Mumbai/mumbai-hero.webp",
       },
 
       toursSection: {
@@ -12270,7 +12376,7 @@ export const it = {
         description:
           "Scopri il circuito culturale più iconico dell'India in un lusso senza pari tra Delhi, Agra e Jaipur.",
         discountBadge: "Fino al 25% di SCONTO sulle prenotazioni anticipate",
-        image: "/assets/hero/golden-triangle-luxury.webp",
+        image: "/assets/Luxury/Golden Triangle/hero.webp",
       },
 
       toursSection: {
@@ -12286,7 +12392,7 @@ export const it = {
             link: "/luxury-trips/golden-triangle-luxury/golden-triangle-luxury-package",
           },
           {
-            image: "/assets/Luxury/Golden Triangle/Golden-Triangle2-thumb.webp",
+            image: "/assets/Luxury/Golden Triangle/Golden Triangle2-thumb.webp",
             badge: "Pacchetto Premium",
             title: "Pacchetto Lusso Triangolo d'Oro 6N/7G",
             location: "Delhi, Agra e Jaipur",
@@ -12331,7 +12437,7 @@ export const it = {
         description:
           "Naviga tra le serene backwaters, soggiorna in case galleggianti premium, rigenerati con l'ayurveda ed esplora rigogliose stazioni collinari.",
         discountBadge: "Fino al 30% di SCONTO sulle prenotazioni anticipate",
-        image: "/assets/hero/kerala-luxury.webp",
+        image: "/assets/Luxury/Kerala/hero-backwaters.webp",
       },
 
       toursSection: {
@@ -12344,7 +12450,7 @@ export const it = {
             location: "Cochin, Munnar e Alleppey",
             description:
               "Backwaters, stazioni collinari e patrimonio culturale in un viaggio curato.",
-            link: "/itinerary/luxury-trips/kerala-luxury-package",
+            link: "/luxury-trips/kerala-luxury/kerala-luxury-package",
           },
           {
             image: "/assets/Luxury/Kerala/kerala2-thumb.webp",
@@ -12353,7 +12459,7 @@ export const it = {
             location: "Cochin, Munnar, Thekkady e Alleppey",
             description:
               "Case galleggianti di lusso, esperienze naturalistiche e resort collinari premium.",
-            link: "/itinerary/luxury-trips/kerala-luxury-tour-package",
+            link: "/luxury-trips/kerala-luxury/kerala-luxury-tour-package",
           },
         ],
       },
@@ -12368,7 +12474,8 @@ export const it = {
         {
           icon: "spa",
           title: "Ayurveda e Benessere",
-          description: "Autentici trattamenti ayurvedici e programmi di benessere.",
+          description:
+            "Autentici trattamenti ayurvedici e programmi di benessere.",
         },
         {
           icon: "utensils",
@@ -12390,7 +12497,7 @@ export const it = {
         description:
           "Soggiorna in maestosi palazzi, esplora antiche fortezze e vivi l'eredità reale dell'India.",
         discountBadge: "Fino al 30% di SCONTO sulle prenotazioni anticipate",
-        image: "/assets/hero/rajasthan-luxury.webp",
+        image: "/assets/Luxury/Rajasthan/Rajasthan-Luxury.webp",
       },
 
       toursSection: {
@@ -12401,8 +12508,7 @@ export const it = {
             badge: "Pacchetto Premium",
             title: "Pacchetto Lusso Rajasthan 4N/5G",
             location: "Jaipur e Udaipur",
-            description:
-              "Palazzi reali e laghi romantici in una fuga curata.",
+            description: "Palazzi reali e laghi romantici in una fuga curata.",
             link: "/luxury-trips/rajasthan-luxury/4n-5d-rajasthan-luxury-package",
           },
           {
@@ -12419,7 +12525,8 @@ export const it = {
             badge: "Pacchetto Ultra Premium",
             title: "Pacchetto Lusso Rajasthan 8N/9G",
             location: "Jaipur, Udaipur, Jodhpur e Ranthambore",
-            description: "Palazzi, forti e safari naturalistici in un unico viaggio.",
+            description:
+              "Palazzi, forti e safari naturalistici in un unico viaggio.",
             link: "/luxury-trips/rajasthan-luxury/rajasthan-luxury-package",
           },
         ],
@@ -12441,7 +12548,8 @@ export const it = {
         {
           icon: "utensils",
           title: "Cucina Gourmet",
-          description: "Cene nei cortili dei palazzi e banchetti reali del Rajasthan.",
+          description:
+            "Cene nei cortili dei palazzi e banchetti reali del Rajasthan.",
         },
         {
           icon: "gem",
@@ -12458,7 +12566,7 @@ export const it = {
         description:
           "Palazzi reali, safari naturalistici, stazioni collinari e città moderne combinati nel lusso.",
         discountBadge: "Fino al 25% di SCONTO sulle prenotazioni anticipate",
-        image: "/assets/hero/karnataka-luxury.webp",
+        image: "/assets/Luxury/Karnataka/hero.webp",
       },
 
       toursSection: {
@@ -12495,479 +12603,523 @@ export const it = {
         {
           icon: "gem",
           title: "Accesso Esclusivo",
-          description: "Spettacoli culturali privati e visite guidate al patrimonio.",
+          description:
+            "Spettacoli culturali privati e visite guidate al patrimonio.",
         },
       ],
     },
   },
-  luxuryTourPackage:{
-  "4n-5d-rajasthan-luxury-package": {
-    hero_section: {
-      type: "package-hero",
-      badge: "Pacchetto Premium",
-      title: "Rajasthan Luxury Experience (4N/5G)",
-      location: "Jaipur & Udaipur - 4 Notti / 5 Giorni",
-      cta_text: "Prenota Ora",
-      cta_link: "https://wa.me/919067972295?text=Salve!%20Sono%20interessato%20al%20Pacchetto%20di%20Lusso%20in%20Rajasthan%20di%204N/5G%20(Jaipur%20e%20Udaipur).%20Potrebbe%20fornirmi%20maggiori%20dettagli?",
-      background_image: "/assets/Luxury/Rajasthan/raj1-hero.webp"
-    },
-    itinerary: {
-      title: "Esperienza Reale tra Jaipur e Udaipur",
-      days: [
-        {
-          day_title: "Giorno 1: Arrivo a Jaipur",
-          location: "Jaipur",
-          description: "Arrivo all'Aeroporto Internazionale di Jaipur. Cerimonia di benvenuto e trasferimento privato in hotel palazzo (Rambagh Palace / Jai Mahal Palace).",
-          activities: [
-            "Pranzo e relax a palazzo",
-            "Tour privato con guida: City Palace, Jantar Mantar e Hawa Mahal",
-            "High tea al tramonto o esperienza Spa",
-            "Cena privata esclusiva",
-            "Pernottamento a Jaipur (Hotel Palazzo di Lusso)"
-          ]
-        },
-        {
-          day_title: "Giorno 3: Trasferimento a Udaipur",
-          location: "Udaipur",
-          description: "Trasferimento all'aeroporto di Jaipur per il volo verso Udaipur. Check-in presso un lussuoso palazzo sul lago (Oberoi Udaivilas / Taj Lake Palace).",
-          activities: [
-            "Pranzo leggero all'arrivo",
-            "Crociera privata sul Lago Pichola al tramonto",
-            "Tempo libero o trattamenti Spa opzionali",
-            "Cena di gala illuminata a palazzo",
-            "Pernottamento a Udaipur (Hotel Palazzo di Lusso)"
-          ]
-        }
-      ]
-    },
-    inclusions: [
-      {
-        icon: "fas fa-hotel",
-        title: "Soggiorno di Lusso",
-        description: "4 notti in hotel palazzo (2N Jaipur + 2N Udaipur) con colazione inclusa"
+  luxuryTourPackage: {
+    "4n-5d-rajasthan-luxury-package": {
+      hero_section: {
+        type: "package-hero",
+        badge: "Pacchetto Premium",
+        title: "Rajasthan Luxury Experience (4N/5G)",
+        location: "Jaipur & Udaipur - 4 Notti / 5 Giorni",
+        cta_text: "Prenota Ora",
+        cta_link:
+          "https://wa.me/919067972295?text=Salve!%20Sono%20interessato%20al%20Pacchetto%20di%20Lusso%20in%20Rajasthan%20di%204N/5G%20(Jaipur%20e%20Udaipur).%20Potrebbe%20fornirmi%20maggiori%20dettagli?",
+        background_image: "/assets/Luxury/Rajasthan/raj1-hero.webp",
       },
-      {
-        icon: "fas fa-ship",
-        title: "Crociera sul Lago",
-        description: "Crociera privata al tramonto sul Lago Pichola con rinfreschi"
+      itinerary: {
+        title: "Esperienza Reale tra Jaipur e Udaipur",
+        days: [
+          {
+            day_title: "Giorno 1: Arrivo a Jaipur",
+            location: "Jaipur",
+            description:
+              "Arrivo all'Aeroporto Internazionale di Jaipur. Cerimonia di benvenuto e trasferimento privato in hotel palazzo (Rambagh Palace / Jai Mahal Palace).",
+            activities: [
+              "Pranzo e relax a palazzo",
+              "Tour privato con guida: City Palace, Jantar Mantar e Hawa Mahal",
+              "High tea al tramonto o esperienza Spa",
+              "Cena privata esclusiva",
+              "Pernottamento a Jaipur (Hotel Palazzo di Lusso)",
+            ],
+          },
+          {
+            day_title: "Giorno 3: Trasferimento a Udaipur",
+            location: "Udaipur",
+            description:
+              "Trasferimento all'aeroporto di Jaipur per il volo verso Udaipur. Check-in presso un lussuoso palazzo sul lago (Oberoi Udaivilas / Taj Lake Palace).",
+            activities: [
+              "Pranzo leggero all'arrivo",
+              "Crociera privata sul Lago Pichola al tramonto",
+              "Tempo libero o trattamenti Spa opzionali",
+              "Cena di gala illuminata a palazzo",
+              "Pernottamento a Udaipur (Hotel Palazzo di Lusso)",
+            ],
+          },
+        ],
       },
-      {
-        icon: "fas fa-concierge-bell",
-        title: "Servizio Maggiordomo",
-        description: "Servizio di maggiordomo o rituale di benvenuto in camera negli hotel palazzo"
-      }
-    ]
-  },
-  "6n-7d-golden-triangle-luxury-tour-package": {
-    file_name: "6n-7d-golden-triangle-luxury-tour-package.html",
-    hero_section: {
-      type: "package-hero",
-      badge: "Pacchetto Premium",
-      title: "Triangolo d'Oro di Lusso (6N/7G)",
-      location: "Delhi, Agra, Jaipur - 6 Notti / 7 Giorni",
-      cta_text: "Prenota Ora",
-      background_image: "/assets/Luxury/Golden Triangle/hero.webp"
-    },
-    itinerary: {
-      title: "Viaggio nel Cuore Culturale dell'India",
-      days: [
+      inclusions: [
         {
-          day_title: "Giorno 01: Arrivo a Delhi",
-          location: "Delhi",
-          description: "Arrivo all'Aeroporto Internazionale di Delhi. Trasferimento privato di lusso in hotel (The Imperial / The Oberoi / ITC Maurya).",
-          activities: [
-            "Cena di benvenuto presso Indian Accent o Bukhara (fine dining)",
-            "Pernottamento a Delhi"
-          ]
+          icon: "fas fa-hotel",
+          title: "Soggiorno di Lusso",
+          description:
+            "4 notti in hotel palazzo (2N Jaipur + 2N Udaipur) con colazione inclusa",
         },
         {
-          day_title: "Giorno 04: Alla scoperta di Agra",
-          location: "Agra",
-          description: "Al mattino presto: visita del Taj Mahal all'alba. Rientro in hotel per la colazione e tempo per il relax.",
-          activities: [
-            "Passeggiata nell'eredità Moghul o Spa di lusso",
-            "Pernottamento ad Agra"
-          ]
+          icon: "fas fa-ship",
+          title: "Crociera sul Lago",
+          description:
+            "Crociera privata al tramonto sul Lago Pichola con rinfreschi",
         },
         {
-          day_title: "Giorno 06: Tour Completo di Jaipur",
-          location: "Jaipur",
-          description: "Esplorazione della 'Città Rosa': Forte Amber (salita in jeep o elefante), City Palace, Jantar Mantar e Hawa Mahal.",
-          activities: [
-            "Shopping curato di gemme, tessuti e artigianato",
-            "Opzionale: Cena Reale presso '1135 AD' (Forte Amber) o cena a palazzo",
-            "Pernottamento a Jaipur"
-          ]
-        }
-      ]
-    },
-    accommodations: [
-      {
-        name: "The Oberoi Amarvilas",
-        location: "Agra, India",
-        description: "Resort di lusso che offre una vista mozzafiato sul Taj Mahal da ogni camera, con architettura ispirata allo stile Moghul.",
-        rating: 5
-      }
-    ]
-  },
-  "6n-7d-rajasthan-luxury-package": {
-    file_name: "6N-7D-rajasthan-luxury-package.html",
-    hero_section: {
-      type: "package-hero",
-      badge: "Pacchetto Premium",
-      title: "Gran Tour del Rajasthan di Lusso (6N/7G)",
-      location: "Jaipur, Jodhpur e Udaipur - 6 Notti / 7 Giorni",
-      cta_text: "Prenota Ora",
-      background_image: "/assets/Luxury/Rajasthan/raj2-hero.webp"
-    },
-    itinerary: {
-      title: "Il Triangolo Reale: Jaipur, Jodhpur e Udaipur",
-      days: [
-        {
-          day_title: "Giorno 3: Trasferimento a Jodhpur",
-          location: "Jodhpur",
-          description: "Trasferimento all'aeroporto di Jaipur per un breve volo verso Jodhpur. Check-in presso un palazzo di lusso (Umaid Bhawan Palace / RAAS).",
-          activities: [
-            "Relax a palazzo",
-            "Tour privato del Forte Mehrangarh al tramonto",
-            "Cena privata in terrazza con vista sul forte",
-            "Pernottamento a Jodhpur (Hotel Palazzo di Lusso)"
-          ]
+          icon: "fas fa-concierge-bell",
+          title: "Servizio Maggiordomo",
+          description:
+            "Servizio di maggiordomo o rituale di benvenuto in camera negli hotel palazzo",
         },
-        {
-          day_title: "Giorno 5: Verso la romantica Udaipur",
-          location: "Udaipur",
-          description: "Volo per Udaipur o viaggio panoramico con soste selezionate. Check-in presso un palazzo sul lago.",
-          activities: [
-            "Crociera privata sul Lago Pichola con champagne e canapés",
-            "Cena privata in riva al lago con musica classica",
-            "Pernottamento a Udaipur"
-          ]
-        }
-      ]
+      ],
     },
-    inclusions: [
-      {
-        icon: "fas fa-plane",
-        title: "Voli Interni",
-        description: "Voli domestici tra le città (classe economica o business su richiesta)"
+    "6n-7d-golden-triangle-luxury-tour-package": {
+      file_name: "6n-7d-golden-triangle-luxury-tour-package.html",
+      hero_section: {
+        type: "package-hero",
+        badge: "Pacchetto Premium",
+        title: "Triangolo d'Oro di Lusso (6N/7G)",
+        location: "Delhi, Agra, Jaipur - 6 Notti / 7 Giorni",
+        cta_text: "Prenota Ora",
+        background_image: "/assets/Luxury/Golden Triangle/hero.webp",
       },
-      {
-        icon: "fas fa-gem",
-        title: "Esperienze Private",
-        description: "3 esperienze esclusive (Chef's table, shopping privato, sessione fotografica)"
-      }
-    ]
-  },
-  "golden-triangle-luxury-package": {
-    file_name: "golden-triangle-luxury-package.html",
-    hero_section: {
-      type: "package-hero",
-      badge: "Pacchetto Premium",
-      title: "Tour di Lusso Triangolo d'Oro 4N/5G (DELHI, AGRA, JAIPUR)",
-      location: "Delhi, Agra, Jaipur - 4 Notti / 5 Giorni",
-      cta_text: "Prenota Ora",
-      cta_link: "https://wa.me/919067972295?text=Salve!%20Sono%20interessato%20al%20Pacchetto%20di%20Lusso%20Triangolo%20d'Oro%204N/5G.%20Potrebbe%20fornirmi%20maggiori%20dettagli?",
-      background_image: "/assets/Luxury/Golden Triangle/hero.webp"
-    },
-    itinerary: {
-      title: "Viaggio nel Cuore Culturale dell'India",
-      days: [
-        {
-          day_title: "Giorno 01: Arrivo a Delhi (1 Notte)",
-          location: "Delhi",
-          description: "Arrivo all'aeroporto di Delhi. Trasferimento privato presso il vostro Hotel di Lusso 5★ (The Imperial / The Oberoi / ITC Maurya).",
-          activities: [
-            "Cena di benvenuto presso Bukhara / Indian Accent (ristorazione d'eccellenza)",
-            "Pernottamento a Delhi"
-          ]
-        },
-        {
-          day_title: "Giorno 02: Delhi → Agra (1 Notte)",
-          location: "Agra",
-          description: "Colazione in hotel. Partenza per Agra (circa 3,5 ore via Yamuna Expressway). Lungo il percorso, visita opzionale del Tempio Akshardham.",
-          activities: [
-            "Spa di lusso o passeggiata nell'eredità Moghul",
-            "Pernottamento ad Agra (The Oberoi Amarvilas – hotel di lusso con vista sul Taj Mahal)"
-          ]
-        },
-        {
-          day_title: "Giorno 03: Agra → Jaipur (2 Notti)",
-          location: "Jaipur",
-          description: "Visita del Taj Mahal all'alba (luce migliore e meno folla). Rientro per colazione e check-out.",
-          activities: [
-            "Serata di svago con musica folk del Rajasthan e cena",
-            "Pernottamento a Jaipur (Taj Rambagh Palace / Fairmont / The Oberoi Rajvilas)"
-          ]
-        },
-        {
-          day_title: "Giorno 04: Visita Guidata di Jaipur",
-          location: "Jaipur",
-          description: "Colazione in hotel. Giornata intera dedicata alla visita guidata di Jaipur: Forte di Amber (salita in elefante o jeep), City Palace e Museo, Osservatorio Jantar Mantar (Sito UNESCO), Hawa Mahal (Palazzo dei Venti) – sosta fotografica.",
-          activities: [
-            "Visita ai mercati artigianali locali / shopping di lusso",
-            "Cena presso 1135 AD (Forte di Amber) o esperienza culinaria reale privata in hotel",
-            "Pernottamento a Jaipur"
-          ]
-        }
-      ]
-    },
-    inclusions: [
-      {
-        title: "Soggiorni di Lusso",
-        description: "1N Delhi, 1N Agra (camera vista Taj), 2N Jaipur (Palazzi o Resort di lusso)"
+      itinerary: {
+        title: "Viaggio nel Cuore Culturale dell'India",
+        days: [
+          {
+            day_title: "Giorno 01: Arrivo a Delhi",
+            location: "Delhi",
+            description:
+              "Arrivo all'Aeroporto Internazionale di Delhi. Trasferimento privato di lusso in hotel (The Imperial / The Oberoi / ITC Maurya).",
+            activities: [
+              "Cena di benvenuto presso Indian Accent o Bukhara (fine dining)",
+              "Pernottamento a Delhi",
+            ],
+          },
+          {
+            day_title: "Giorno 04: Alla scoperta di Agra",
+            location: "Agra",
+            description:
+              "Al mattino presto: visita del Taj Mahal all'alba. Rientro in hotel per la colazione e tempo per il relax.",
+            activities: [
+              "Passeggiata nell'eredità Moghul o Spa di lusso",
+              "Pernottamento ad Agra",
+            ],
+          },
+          {
+            day_title: "Giorno 06: Tour Completo di Jaipur",
+            location: "Jaipur",
+            description:
+              "Esplorazione della 'Città Rosa': Forte Amber (salita in jeep o elefante), City Palace, Jantar Mantar e Hawa Mahal.",
+            activities: [
+              "Shopping curato di gemme, tessuti e artigianato",
+              "Opzionale: Cena Reale presso '1135 AD' (Forte Amber) o cena a palazzo",
+              "Pernottamento a Jaipur",
+            ],
+          },
+        ],
       },
-      {
-        title: "Trasferimenti Privati",
-        description: "Veicolo AC di lusso privato con autista parlante inglese"
-      }
-    ]
-  },
-  "karnataka-luxury-package": {
-    file_name: "Karnataka-Luxury-Package.html",
-    hero_section: {
-      type: "package-hero",
-      badge: "Pacchetto Premium",
-      title: "Tour di Lusso Karnataka 7N/8G (Bangalore, Mysore, Ooty)",
-      location: "Bangalore, Mysore, Bandipur e Ooty - 7N/8G",
-      cta_text: "Prenota Ora",
-      background_image: "/assets/Luxury/Karnataka/hero.webp"
-    },
-    itinerary: {
-      title: "Viaggio tra l'Eredità Reale e la Bellezza Naturale del Karnataka",
-      days: [
+      accommodations: [
         {
-          day_title: "Giorno 01: Arrivo a Bengaluru (1N)",
-          location: "Bengaluru",
-          description: "Arrivo all'aeroporto internazionale di Bengaluru. Trasferimento privato di lusso in un hotel 5★. Tempo libero: spa dell'hotel o shopping privato a UB City.",
-          activities: [
-            "Prenotazione cena gourmet (rooftop o fine-dining)",
-            "Pernottamento presso The Ritz-Carlton, Bangalore o simile"
-          ]
+          name: "The Oberoi Amarvilas",
+          location: "Agra, India",
+          description:
+            "Resort di lusso che offre una vista mozzafiato sul Taj Mahal da ogni camera, con architettura ispirata allo stile Moghul.",
+          rating: 5,
         },
-        {
-          day_title: "Giorno 05: Safari a Bandipur → Ooty",
-          location: "Bandipur e Ooty",
-          description: "Safari mattutino privato in jeep a Bandipur (2–3 ore). Rientro per colazione e partenza per Ooty. Check-in presso il Savoy, Ooty (IHCL SeleQtions).",
-          activities: ["Pernottamento a Ooty"]
-        }
-      ]
+      ],
     },
-    inclusions: [
-      {
-        title: "Safari Naturalistico",
-        description: "Safari privato in jeep a Bandipur con naturalista esperto e permessi inclusi"
-      }
-    ]
-  },
-  "kerala-luxury-package": {
-    file_name: "Kerala-luxury-package.html",
-    hero_section: {
-      type: "package-hero",
-      badge: "Pacchetto Premium",
-      title: "Tour di Lusso Kerala 4N/5G (Cochin, Alleppey, Munnar)",
-      location: "Cochin, Munnar, Alleppey - 4N/5G",
-      cta_text: "Prenota Ora",
-      background_image: "/assets/Luxury/Kerala/hero-backwaters.webp"
-    },
-    itinerary: {
-      title: "Viaggio nella 'Terra di Dio'",
-      days: [
-        {
-          day_title: "Giorno 01: Arrivo a Cochin (1 Notte)",
-          location: "Cochin",
-          description: "Arrivo a Cochin. Trasferimento privato di lusso in hotel 5★. Pomeriggio dedicato alla visita di Fort Kochi, del Palazzo di Mattancherry e delle reti da pesca cinesi.",
-          activities: [
-            "Spettacolo serale di danza Kathakali o crociera con cena di lusso",
-            "Pernottamento a Cochin"
-          ]
-        },
-        {
-          day_title: "Giorno 04: Munnar → Alleppey (Soggiorno in Houseboat)",
-          location: "Alleppey",
-          description: "Partenza per Alleppey. Check-in su una Houseboat Privata di Lusso. Navigazione tra le lagune, i campi di riso e i palmeti. Pranzo e cena tradizionali a bordo.",
-          activities: [
-            "Tramonto dal ponte della houseboat",
-            "Pernottamento in Houseboat di Lusso"
-          ]
-        }
-      ]
-    },
-    inclusions: [
-      {
-        title: "Esperienza in Houseboat",
-        description: "1 Notte in Houseboat Privata di Lusso con tutti i pasti inclusi"
+    "6n-7d-rajasthan-luxury-package": {
+      file_name: "6N-7D-rajasthan-luxury-package.html",
+      hero_section: {
+        type: "package-hero",
+        badge: "Pacchetto Premium",
+        title: "Gran Tour del Rajasthan di Lusso (6N/7G)",
+        location: "Jaipur, Jodhpur e Udaipur - 6 Notti / 7 Giorni",
+        cta_text: "Prenota Ora",
+        background_image: "/assets/Luxury/Rajasthan/raj2-hero.webp",
       },
-      {
-        title: "Benessere e Cultura",
-        description: "1 sessione di Spa/Ayurveda, spettacolo Kathakali e giro in barca sul lago Kundala"
-      }
-    ]
-  },
-  "mumbai-luxury-package": {
-    file_name: "mumbai-luxury-package.html",
-    hero_section: {
-      type: "package-hero",
-      badge: "Pacchetto Premium",
-      title: "Soggiorno di Lusso a Mumbai (2N/3G)",
-      location: "Mumbai, India - Il Taj e le Icone della Città",
-      cta_text: "Prenota Ora",
-      cta_link: "https://wa.me/919067972295?text=Salve!%20Sono%20interessato%20al%20Pacchetto%20di%20Lusso%20a%20Mumbai%20di%202N/3G.%20Potrebbe%20fornirmi%20maggiori%20dettagli?",
-      background_image: "/assets/Luxury/Mumbai/mumbai-hero.webp"
-    },
-    itinerary: {
-      title: "Vivi il Glamour e l'Eredità di Mumbai",
-      days: [
-        {
-          day_title: "Giorno 01: Arrivo a Mumbai",
-          location: "Mumbai",
-          description: "Arrivo all'Aeroporto Internazionale Chhatrapati Shivaji Maharaj. Trasferimento privato di lusso verso il vostro Hotel 5★ (Taj Mahal Palace / The Oberoi / Trident Nariman Point).",
-          activities: [
-            "Visite pomeridiane: Gateway of India, Marine Drive, spiaggia di Chowpatty, Colaba Causeway",
-            "Opzionale: Esperienza gastronomica in un lussuoso ristorante panoramico",
-            "Pernottamento in Hotel di Lusso a Mumbai"
-          ]
-        },
-        {
-          day_title: "Giorno 02: Esperienza di Lusso a Mumbai",
-          location: "Mumbai",
-          description: "Colazione in hotel. Escursione mattutina alle Grotte di Elephanta (sito UNESCO) in traghetto. Rientro e pranzo in un caffè storico (Leopold Café o ristorante di lusso).",
-          activities: [
-            "Pomeriggio: Museo Prince of Wales, Dhobi Ghat, Mani Bhavan",
-            "Sera: Traversata del ponte Bandra-Worli al tramonto",
-            "Esplorazione di Bandra tra boutique, caffè e atmosfere Bollywood",
-            "Pernottamento in Hotel di Lusso a Mumbai"
-          ]
-        },
-        {
-          day_title: "Giorno 03: Partenza da Mumbai",
-          location: "Partenza",
-          description: "Colazione in hotel. In base all'orario del volo, shopping presso High Street Phoenix / Palladium Mall o visita al Tempio Siddhivinayak per un tocco culturale.",
-          activities: [
-            "Trasferimento privato in aeroporto con i ricordi di una vacanza esclusiva"
-          ]
-        }
-      ]
-    },
-    inclusions: [
-      {
-        icon: "fas fa-hotel",
-        title: "Soggiorno di Lusso",
-        description: "2 notti in Hotel di Lusso 5★ (The Taj Mahal Palace / The Oberoi / Trident)"
+      itinerary: {
+        title: "Il Triangolo Reale: Jaipur, Jodhpur e Udaipur",
+        days: [
+          {
+            day_title: "Giorno 3: Trasferimento a Jodhpur",
+            location: "Jodhpur",
+            description:
+              "Trasferimento all'aeroporto di Jaipur per un breve volo verso Jodhpur. Check-in presso un palazzo di lusso (Umaid Bhawan Palace / RAAS).",
+            activities: [
+              "Relax a palazzo",
+              "Tour privato del Forte Mehrangarh al tramonto",
+              "Cena privata in terrazza con vista sul forte",
+              "Pernottamento a Jodhpur (Hotel Palazzo di Lusso)",
+            ],
+          },
+          {
+            day_title: "Giorno 5: Verso la romantica Udaipur",
+            location: "Udaipur",
+            description:
+              "Volo per Udaipur o viaggio panoramico con soste selezionate. Check-in presso un palazzo sul lago.",
+            activities: [
+              "Crociera privata sul Lago Pichola con champagne e canapés",
+              "Cena privata in riva al lago con musica classica",
+              "Pernottamento a Udaipur",
+            ],
+          },
+        ],
       },
-      {
-        icon: "fas fa-car",
-        title: "Trasferimenti Privati",
-        description: "Auto di lusso privata con aria condizionata per visite e trasferimenti"
-      }
-    ]
-  },
-  "rajasthan-luxury-package": {
-    file_name: "rajasthan-luxury-package.html",
-    hero_section: {
-      type: "package-hero",
-      badge: "Pacchetto Ultra Premium",
-      title: "Gran Tour del Rajasthan di Lusso (8N/9G)",
-      location: "Jaipur, Udaipur, Jodhpur, Ranthambore - 8N/9G",
-      cta_text: "Prenota Ora",
-      background_image: "/assets/Luxury/Rajasthan/raj3-hero.webp"
-    },
-    itinerary: {
-      title: "Viaggio Reale in Rajasthan tra Palazzi e Forti",
-      days: [
+      inclusions: [
         {
-          day_title: "Giorno 1: Arrivo a Jaipur",
-          location: "Jaipur",
-          description: "Arrivo all'Aeroporto Internazionale di Jaipur. Trasferimento privato verso il vostro hotel palazzo (Rambagh Palace / Jai Mahal Palace). Accoglienza reale e check-in prioritario.",
-          activities: [
-            "Pranzo rilassante e rituale Spa signature",
-            "Tardo pomeriggio: Visita privata di City Palace e Jantar Mantar",
-            "Cena privata nel cortile con musica classica del Rajasthan",
-            "Pernottamento a Jaipur (Hotel Palazzo di Lusso)"
-          ]
+          icon: "fas fa-plane",
+          title: "Voli Interni",
+          description:
+            "Voli domestici tra le città (classe economica o business su richiesta)",
         },
         {
-          day_title: "Giorno 3: Jaipur → Ranthambore",
-          location: "Ranthambore",
-          description: "Trasferimento a Ranthambore. Check-in presso un lussuoso lodge naturalistico (Oberoi Vanyavilas o equivalente).",
-          activities: [
-            "Esperienza di osservazione delle stelle",
-            "Cena privata ispirata alla giungla sotto il cielo stellato",
-            "Pernottamento a Ranthambore (Lodge di Lusso)"
-          ]
+          icon: "fas fa-gem",
+          title: "Esperienze Private",
+          description:
+            "3 esperienze esclusive (Chef's table, shopping privato, sessione fotografica)",
         },
-        {
-          day_title: "Giorno 7: Jodhpur → Udaipur",
-          location: "Udaipur",
-          description: "Volo mattutino per Udaipur. Check-in in un palazzo sul lago (Oberoi Udaivilas / Taj Lake Palace).",
-          activities: [
-            "Crociera privata sul Lago Pichola all'ora dorata",
-            "Cena privata in riva al lago con musica classica",
-            "Pernottamento a Udaipur (Hotel Palazzo di Lusso)"
-          ]
-        }
-      ]
+      ],
     },
-    inclusions: [
-      {
-        icon: "fas fa-paw",
-        title: "Esperienze Safari",
-        description: "2 safari nel Parco Nazionale di Ranthambore con permessi inclusi"
+    "golden-triangle-luxury-package": {
+      file_name: "golden-triangle-luxury-package.html",
+      hero_section: {
+        type: "package-hero",
+        badge: "Pacchetto Premium",
+        title: "Tour di Lusso Triangolo d'Oro 4N/5G (DELHI, AGRA, JAIPUR)",
+        location: "Delhi, Agra, Jaipur - 4 Notti / 5 Giorni",
+        cta_text: "Prenota Ora",
+        cta_link:
+          "https://wa.me/919067972295?text=Salve!%20Sono%20interessato%20al%20Pacchetto%20di%20Lusso%20Triangolo%20d'Oro%204N/5G.%20Potrebbe%20fornirmi%20maggiori%20dettagli?",
+        background_image: "/assets/Luxury/Golden Triangle/hero.webp",
       },
-      {
-        icon: "fas fa-ship",
-        title: "Crociera sul Lago",
-        description: "Crociera privata al tramonto sul Lago Pichola con champagne e tartine"
-      }
-    ]
-  },
-  "kerala-luxury-tour-package": {
-    file_name: "kerala-luxury-tour-package.html",
-    hero_section: {
-      type: "package-hero",
-      badge: "Pacchetto Premium",
-      title: "L'Incanto del Kerala di Lusso (7N/8G)",
-      location: "Kochi, Alleppey, Munnar, Thekkady, Poovar - 7N/8G",
-      cta_text: "Prenota Ora",
-      background_image: "/assets/Luxury/Kerala/hero-comprehensive.webp"
-    },
-    itinerary: {
-      title: "Esperienza Completa nel Kerala di Lusso",
-      days: [
+      itinerary: {
+        title: "Viaggio nel Cuore Culturale dell'India",
+        days: [
+          {
+            day_title: "Giorno 01: Arrivo a Delhi (1 Notte)",
+            location: "Delhi",
+            description:
+              "Arrivo all'aeroporto di Delhi. Trasferimento privato presso il vostro Hotel di Lusso 5★ (The Imperial / The Oberoi / ITC Maurya).",
+            activities: [
+              "Cena di benvenuto presso Bukhara / Indian Accent (ristorazione d'eccellenza)",
+              "Pernottamento a Delhi",
+            ],
+          },
+          {
+            day_title: "Giorno 02: Delhi → Agra (1 Notte)",
+            location: "Agra",
+            description:
+              "Colazione in hotel. Partenza per Agra (circa 3,5 ore via Yamuna Expressway). Lungo il percorso, visita opzionale del Tempio Akshardham.",
+            activities: [
+              "Spa di lusso o passeggiata nell'eredità Moghul",
+              "Pernottamento ad Agra (The Oberoi Amarvilas – hotel di lusso con vista sul Taj Mahal)",
+            ],
+          },
+          {
+            day_title: "Giorno 03: Agra → Jaipur (2 Notti)",
+            location: "Jaipur",
+            description:
+              "Visita del Taj Mahal all'alba (luce migliore e meno folla). Rientro per colazione e check-out.",
+            activities: [
+              "Serata di svago con musica folk del Rajasthan e cena",
+              "Pernottamento a Jaipur (Taj Rambagh Palace / Fairmont / The Oberoi Rajvilas)",
+            ],
+          },
+          {
+            day_title: "Giorno 04: Visita Guidata di Jaipur",
+            location: "Jaipur",
+            description:
+              "Colazione in hotel. Giornata intera dedicata alla visita guidata di Jaipur: Forte di Amber (salita in elefante o jeep), City Palace e Museo, Osservatorio Jantar Mantar (Sito UNESCO), Hawa Mahal (Palazzo dei Venti) – sosta fotografica.",
+            activities: [
+              "Visita ai mercati artigianali locali / shopping di lusso",
+              "Cena presso 1135 AD (Forte di Amber) o esperienza culinaria reale privata in hotel",
+              "Pernottamento a Jaipur",
+            ],
+          },
+        ],
+      },
+      inclusions: [
         {
-          day_title: "Giorno 02: Kochi → Alleppey (Houseboat di Lusso)",
-          location: "Alleppey",
-          description: "Dopo colazione, partenza per Alleppey. Check-in su una Houseboat Privata di Lusso. Navigazione tra le backwaters, lagune e villaggi.",
-          activities: [
-            "Crociera panoramica tra i canali",
-            "Cucina tradizionale del Kerala a bordo",
-            "Pernottamento in Houseboat di Lusso"
-          ]
+          title: "Soggiorni di Lusso",
+          description:
+            "1N Delhi, 1N Agra (camera vista Taj), 2N Jaipur (Palazzi o Resort di lusso)",
         },
         {
-          day_title: "Giorno 06: Thekkady → Poovar",
-          location: "Poovar",
-          description: "Proseguimento per Poovar. Check-in in un resort di lusso tra backwaters e spiaggia, situato dove il fiume incontra il mare.",
-          activities: [
-            "Tramonto mozzafiato sull'estuario",
-            "Pernottamento a Poovar (Resort di Lusso)"
-          ]
-        }
-      ]
+          title: "Trasferimenti Privati",
+          description:
+            "Veicolo AC di lusso privato con autista parlante inglese",
+        },
+      ],
     },
-    inclusions: [
-      {
-        icon: "fas fa-binoculars",
-        title: "Esperienze Esclusive",
-        description: "Crociera al tramonto a Poovar, safari in barca sul lago Periyar, sessione Spa Ayurveda"
+    "karnataka-luxury-package": {
+      file_name: "Karnataka-Luxury-Package.html",
+      hero_section: {
+        type: "package-hero",
+        badge: "Pacchetto Premium",
+        title: "Tour di Lusso Karnataka 7N/8G (Bangalore, Mysore, Ooty)",
+        location: "Bangalore, Mysore, Bandipur e Ooty - 7N/8G",
+        cta_text: "Prenota Ora",
+        background_image: "/assets/Luxury/Karnataka/hero.webp",
       },
-      {
-        icon: "fas fa-ticket-alt",
-        title: "Attività Culturali",
-        description: "Spettacolo di danza Kathakali, tour delle piantagioni di spezie e di tè"
-      }
-    ]
-  }
-
-  }
+      itinerary: {
+        title:
+          "Viaggio tra l'Eredità Reale e la Bellezza Naturale del Karnataka",
+        days: [
+          {
+            day_title: "Giorno 01: Arrivo a Bengaluru (1N)",
+            location: "Bengaluru",
+            description:
+              "Arrivo all'aeroporto internazionale di Bengaluru. Trasferimento privato di lusso in un hotel 5★. Tempo libero: spa dell'hotel o shopping privato a UB City.",
+            activities: [
+              "Prenotazione cena gourmet (rooftop o fine-dining)",
+              "Pernottamento presso The Ritz-Carlton, Bangalore o simile",
+            ],
+          },
+          {
+            day_title: "Giorno 05: Safari a Bandipur → Ooty",
+            location: "Bandipur e Ooty",
+            description:
+              "Safari mattutino privato in jeep a Bandipur (2–3 ore). Rientro per colazione e partenza per Ooty. Check-in presso il Savoy, Ooty (IHCL SeleQtions).",
+            activities: ["Pernottamento a Ooty"],
+          },
+        ],
+      },
+      inclusions: [
+        {
+          title: "Safari Naturalistico",
+          description:
+            "Safari privato in jeep a Bandipur con naturalista esperto e permessi inclusi",
+        },
+      ],
+    },
+    "kerala-luxury-package": {
+      file_name: "Kerala-luxury-package.html",
+      hero_section: {
+        type: "package-hero",
+        badge: "Pacchetto Premium",
+        title: "Tour di Lusso Kerala 4N/5G (Cochin, Alleppey, Munnar)",
+        location: "Cochin, Munnar, Alleppey - 4N/5G",
+        cta_text: "Prenota Ora",
+        background_image: "/assets/Luxury/Kerala/hero-backwaters.webp",
+      },
+      itinerary: {
+        title: "Viaggio nella 'Terra di Dio'",
+        days: [
+          {
+            day_title: "Giorno 01: Arrivo a Cochin (1 Notte)",
+            location: "Cochin",
+            description:
+              "Arrivo a Cochin. Trasferimento privato di lusso in hotel 5★. Pomeriggio dedicato alla visita di Fort Kochi, del Palazzo di Mattancherry e delle reti da pesca cinesi.",
+            activities: [
+              "Spettacolo serale di danza Kathakali o crociera con cena di lusso",
+              "Pernottamento a Cochin",
+            ],
+          },
+          {
+            day_title: "Giorno 04: Munnar → Alleppey (Soggiorno in Houseboat)",
+            location: "Alleppey",
+            description:
+              "Partenza per Alleppey. Check-in su una Houseboat Privata di Lusso. Navigazione tra le lagune, i campi di riso e i palmeti. Pranzo e cena tradizionali a bordo.",
+            activities: [
+              "Tramonto dal ponte della houseboat",
+              "Pernottamento in Houseboat di Lusso",
+            ],
+          },
+        ],
+      },
+      inclusions: [
+        {
+          title: "Esperienza in Houseboat",
+          description:
+            "1 Notte in Houseboat Privata di Lusso con tutti i pasti inclusi",
+        },
+        {
+          title: "Benessere e Cultura",
+          description:
+            "1 sessione di Spa/Ayurveda, spettacolo Kathakali e giro in barca sul lago Kundala",
+        },
+      ],
+    },
+    "mumbai-luxury-package": {
+      file_name: "mumbai-luxury-package.html",
+      hero_section: {
+        type: "package-hero",
+        badge: "Pacchetto Premium",
+        title: "Soggiorno di Lusso a Mumbai (2N/3G)",
+        location: "Mumbai, India - Il Taj e le Icone della Città",
+        cta_text: "Prenota Ora",
+        cta_link:
+          "https://wa.me/919067972295?text=Salve!%20Sono%20interessato%20al%20Pacchetto%20di%20Lusso%20a%20Mumbai%20di%202N/3G.%20Potrebbe%20fornirmi%20maggiori%20dettagli?",
+        background_image: "/assets/Luxury/Mumbai/mumbai-hero.webp",
+      },
+      itinerary: {
+        title: "Vivi il Glamour e l'Eredità di Mumbai",
+        days: [
+          {
+            day_title: "Giorno 01: Arrivo a Mumbai",
+            location: "Mumbai",
+            description:
+              "Arrivo all'Aeroporto Internazionale Chhatrapati Shivaji Maharaj. Trasferimento privato di lusso verso il vostro Hotel 5★ (Taj Mahal Palace / The Oberoi / Trident Nariman Point).",
+            activities: [
+              "Visite pomeridiane: Gateway of India, Marine Drive, spiaggia di Chowpatty, Colaba Causeway",
+              "Opzionale: Esperienza gastronomica in un lussuoso ristorante panoramico",
+              "Pernottamento in Hotel di Lusso a Mumbai",
+            ],
+          },
+          {
+            day_title: "Giorno 02: Esperienza di Lusso a Mumbai",
+            location: "Mumbai",
+            description:
+              "Colazione in hotel. Escursione mattutina alle Grotte di Elephanta (sito UNESCO) in traghetto. Rientro e pranzo in un caffè storico (Leopold Café o ristorante di lusso).",
+            activities: [
+              "Pomeriggio: Museo Prince of Wales, Dhobi Ghat, Mani Bhavan",
+              "Sera: Traversata del ponte Bandra-Worli al tramonto",
+              "Esplorazione di Bandra tra boutique, caffè e atmosfere Bollywood",
+              "Pernottamento in Hotel di Lusso a Mumbai",
+            ],
+          },
+          {
+            day_title: "Giorno 03: Partenza da Mumbai",
+            location: "Partenza",
+            description:
+              "Colazione in hotel. In base all'orario del volo, shopping presso High Street Phoenix / Palladium Mall o visita al Tempio Siddhivinayak per un tocco culturale.",
+            activities: [
+              "Trasferimento privato in aeroporto con i ricordi di una vacanza esclusiva",
+            ],
+          },
+        ],
+      },
+      inclusions: [
+        {
+          icon: "fas fa-hotel",
+          title: "Soggiorno di Lusso",
+          description:
+            "2 notti in Hotel di Lusso 5★ (The Taj Mahal Palace / The Oberoi / Trident)",
+        },
+        {
+          icon: "fas fa-car",
+          title: "Trasferimenti Privati",
+          description:
+            "Auto di lusso privata con aria condizionata per visite e trasferimenti",
+        },
+      ],
+    },
+    "rajasthan-luxury-package": {
+      file_name: "rajasthan-luxury-package.html",
+      hero_section: {
+        type: "package-hero",
+        badge: "Pacchetto Ultra Premium",
+        title: "Gran Tour del Rajasthan di Lusso (8N/9G)",
+        location: "Jaipur, Udaipur, Jodhpur, Ranthambore - 8N/9G",
+        cta_text: "Prenota Ora",
+        background_image: "/assets/Luxury/Rajasthan/raj3-hero.webp",
+      },
+      itinerary: {
+        title: "Viaggio Reale in Rajasthan tra Palazzi e Forti",
+        days: [
+          {
+            day_title: "Giorno 1: Arrivo a Jaipur",
+            location: "Jaipur",
+            description:
+              "Arrivo all'Aeroporto Internazionale di Jaipur. Trasferimento privato verso il vostro hotel palazzo (Rambagh Palace / Jai Mahal Palace). Accoglienza reale e check-in prioritario.",
+            activities: [
+              "Pranzo rilassante e rituale Spa signature",
+              "Tardo pomeriggio: Visita privata di City Palace e Jantar Mantar",
+              "Cena privata nel cortile con musica classica del Rajasthan",
+              "Pernottamento a Jaipur (Hotel Palazzo di Lusso)",
+            ],
+          },
+          {
+            day_title: "Giorno 3: Jaipur → Ranthambore",
+            location: "Ranthambore",
+            description:
+              "Trasferimento a Ranthambore. Check-in presso un lussuoso lodge naturalistico (Oberoi Vanyavilas o equivalente).",
+            activities: [
+              "Esperienza di osservazione delle stelle",
+              "Cena privata ispirata alla giungla sotto il cielo stellato",
+              "Pernottamento a Ranthambore (Lodge di Lusso)",
+            ],
+          },
+          {
+            day_title: "Giorno 7: Jodhpur → Udaipur",
+            location: "Udaipur",
+            description:
+              "Volo mattutino per Udaipur. Check-in in un palazzo sul lago (Oberoi Udaivilas / Taj Lake Palace).",
+            activities: [
+              "Crociera privata sul Lago Pichola all'ora dorata",
+              "Cena privata in riva al lago con musica classica",
+              "Pernottamento a Udaipur (Hotel Palazzo di Lusso)",
+            ],
+          },
+        ],
+      },
+      inclusions: [
+        {
+          icon: "fas fa-paw",
+          title: "Esperienze Safari",
+          description:
+            "2 safari nel Parco Nazionale di Ranthambore con permessi inclusi",
+        },
+        {
+          icon: "fas fa-ship",
+          title: "Crociera sul Lago",
+          description:
+            "Crociera privata al tramonto sul Lago Pichola con champagne e tartine",
+        },
+      ],
+    },
+    "kerala-luxury-tour-package": {
+      file_name: "kerala-luxury-tour-package.html",
+      hero_section: {
+        type: "package-hero",
+        badge: "Pacchetto Premium",
+        title: "L'Incanto del Kerala di Lusso (7N/8G)",
+        location: "Kochi, Alleppey, Munnar, Thekkady, Poovar - 7N/8G",
+        cta_text: "Prenota Ora",
+        background_image: "/assets/Luxury/Kerala/hero-comprehensive.webp",
+      },
+      itinerary: {
+        title: "Esperienza Completa nel Kerala di Lusso",
+        days: [
+          {
+            day_title: "Giorno 02: Kochi → Alleppey (Houseboat di Lusso)",
+            location: "Alleppey",
+            description:
+              "Dopo colazione, partenza per Alleppey. Check-in su una Houseboat Privata di Lusso. Navigazione tra le backwaters, lagune e villaggi.",
+            activities: [
+              "Crociera panoramica tra i canali",
+              "Cucina tradizionale del Kerala a bordo",
+              "Pernottamento in Houseboat di Lusso",
+            ],
+          },
+          {
+            day_title: "Giorno 06: Thekkady → Poovar",
+            location: "Poovar",
+            description:
+              "Proseguimento per Poovar. Check-in in un resort di lusso tra backwaters e spiaggia, situato dove il fiume incontra il mare.",
+            activities: [
+              "Tramonto mozzafiato sull'estuario",
+              "Pernottamento a Poovar (Resort di Lusso)",
+            ],
+          },
+        ],
+      },
+      inclusions: [
+        {
+          icon: "fas fa-binoculars",
+          title: "Esperienze Esclusive",
+          description:
+            "Crociera al tramonto a Poovar, safari in barca sul lago Periyar, sessione Spa Ayurveda",
+        },
+        {
+          icon: "fas fa-ticket-alt",
+          title: "Attività Culturali",
+          description:
+            "Spettacolo di danza Kathakali, tour delle piantagioni di spezie e di tè",
+        },
+      ],
+    },
+  },
 } as const;

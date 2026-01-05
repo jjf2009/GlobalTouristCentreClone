@@ -25,16 +25,16 @@ export function Header() {
     { href: `/${locale}`, label: t.nav.home },
     { href: `/${locale}/destinations`, label: t.nav.destinations },
     {
-      href: "https://globaltouristcentre.com/luxury-destinations",
+      href: `/${locale}/luxury-trips`,
       label: t.nav.luxuryDestinations,
     },
     { href: `/${locale}/about`, label: t.nav.about },
-    { href: "https://globaltouristcentre.com/services", label: t.nav.services },
+    { href: `/${locale}/services`, label: t.nav.services },
     {
-      href: "https://globaltouristcentre.com/contact-us",
+      href: `/${locale}/contact-us`,
       label: t.nav.contact,
     },
-    { href: "https://globaltouristcentre.com/blog", label: t.nav.blog },
+    { href: `/${locale}/blog`, label: t.nav.blog },
   ];
 
   return (

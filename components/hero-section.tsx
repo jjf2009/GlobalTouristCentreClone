@@ -38,16 +38,16 @@ export function HeroSection({
     { href: `/${locale}`, label: t.nav.home },
     { href: `/${locale}/destinations`, label: t.nav.destinations },
     {
-      href: `https://globaltouristcentre.com/luxury-destinations`,
+      href: `/${locale}/luxury-trips`,
       label: t.nav.luxuryDestinations,
     },
     { href: `/${locale}/about`, label: t.nav.about },
-    { href: `https://globaltouristcentre.com/services`, label: t.nav.services },
+    { href: `/${locale}/services`, label: t.nav.services },
     {
-      href: `https://globaltouristcentre.com/contact-us`,
+      href: `/${locale}/contact-us`,
       label: t.nav.contact,
     },
-    { href: `https://globaltouristcentre.com/blog`, label: t.nav.blog },
+    { href: `/${locale}/blog`, label: t.nav.blog },
   ];
 
   return (
@@ -156,23 +156,25 @@ export function HeroSection({
       </header>
 
       {/* Hero Content */}
-      <div className="relative z-10 max-w-7xl mr-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-12 lg:pt-6 pb-20 w-full flex-1 flex items-start">
+      {/* Hero Content */}
+      <div className="relative z-10 w-full flex-1 flex items-center px-[5%]">
         <div
-          className={`grid gap-6 sm:gap-8 w-full ${
-            showForm ? "lg:grid-cols-2" : ""
+          className={`w-full ${
+            showForm ? "grid lg:grid-cols-2 gap-6 sm:gap-8" : "flex flex-col"
           }`}
         >
-          <div className="flex flex-col justify-center">
+          {/* Set the max-width here to 800px */}
+          <div className="max-w-[800px] w-full">
             <h1
-              className={`font-serif text-3xl sm:text-3xl md:text-5xl lg:text-[4rem] pl-15 pt-10
-  font-bold text-white mb-3 sm:mb-4 leading-tight text-balance
-  ${!subtitle ? "max-w-[32ch] sm:max-w-[26ch]" : "max-w-[32ch]"}`}
+              className={`font-serif font-bold text-white text-balance
+        text-3xl sm:text-4xl md:text-5xl lg:text-[4rem]
+        leading-[1.1] drop-shadow-lg`}
             >
               {title}
             </h1>
 
             {subtitle && (
-              <p className="text-white/80 text-base sm:text-lg max-w-xl">
+              <p className="mt-4 text-white/90 text-base sm:text-lg max-w-xl drop-shadow-md">
                 {subtitle}
               </p>
             )}

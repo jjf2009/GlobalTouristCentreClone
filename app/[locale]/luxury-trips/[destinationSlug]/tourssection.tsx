@@ -9,7 +9,7 @@ interface LuxuryToursSectionProps {
 }
 
 export function LuxuryToursSection({ slug }: LuxuryToursSectionProps) {
-  const { t } = useI18n();
+  const { t ,locale} = useI18n();
 
   const section = t.luxuryPages?.[slug]?.toursSection;
 
@@ -27,7 +27,16 @@ export function LuxuryToursSection({ slug }: LuxuryToursSectionProps) {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div
+          className={`
+    grid gap-8 max-w-6xl mx-auto justify-items-center
+    ${
+      section.packages.length === 1
+        ? "grid-cols-1"
+        : "grid-cols-1 md:grid-cols-2"
+    }
+  `}
+        >
           {section.packages.map((pkg, index) => (
             <LuxuryTourCard
               key={index}
@@ -38,6 +47,7 @@ export function LuxuryToursSection({ slug }: LuxuryToursSectionProps) {
               image={pkg.image}
               buttonText={t.destinations.exploreTours}
               href={pkg.link}
+              locale={locale}
             />
           ))}
         </div>
