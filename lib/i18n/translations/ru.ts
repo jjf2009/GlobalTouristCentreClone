@@ -1,5 +1,3 @@
-import { Description } from "@radix-ui/react-dialog";
-
 export const ru = {
   // Navigation
   filters: {
@@ -26,6 +24,41 @@ export const ru = {
     services: "Услуги",
     contact: "Контакты",
     blog: "Блог",
+  },
+  // Page Metadata for SEO
+  metadata: {
+    home: {
+      title: "Турагентство №1 в Индии для внутренних и международных путешествий в Гоа | GTC",
+      description: "Спланируйте идеальный отпуск с GTC — ведущим турагентством Гоа. От туров по Индии до международных путешествий — персонализированные пакеты и экспертная поддержка.",
+    },
+    about: {
+      title: "Global Tourist Centre — Ваш надёжный туристический партнёр",
+      description: "Откройте Global Tourist Centre — надёжное турагентство Гоа с 2010 года. Индивидуальные туры по Индии и миру с экспертной поддержкой.",
+    },
+    contact: {
+      title: "Свяжитесь с Global Tourist Centre — Ваш туристический партнёр",
+      description: "Свяжитесь с Global Tourist Centre в Гоа. Позвоните, напишите или посетите нас для персонализированных пакетов и визовой поддержки.",
+    },
+    destinations: {
+      title: "Откройте направления | Global Tourist Centre",
+      description: "Откройте тщательно отобранные направления по Индии и миру. От тихих пляжей до величественных гор.",
+    },
+    services: {
+      title: "Global Tourist Centre — Услуги: Визы, Отели и Турпакеты",
+      description: "Индивидуальные решения для путешествий с Global Tourist Centre — визовая поддержка, бронирование отелей и турпакеты в Южном Гоа.",
+    },
+    blog: {
+      title: "Блог Global Tourist Centre — Вдохновляющие истории путешествий и Гиды",
+      description: "Читайте наш блог с вдохновляющими историями, гидами по направлениям и советами по путешествиям по Индии и миру.",
+    },
+    luxuryDestinations: {
+      title: "Роскошные туры по Индии | Global Tourist Centre — Премиум номера и Мировые направления",
+      description: "Откройте роскошные туры по Индии и миру. От дворцов до вилл на воде — эксклюзивный отдых и индивидуальные впечатления.",
+    },
+    landingPage: {
+      title: "Global Tourist Centre | Роскошные впечатления от путешествий",
+      description: "Незабываемые путешествия с ведущим турагентством Гоа. Роскошные туры по Индии и миру, персонализированные путешествия.",
+    },
   },
   // Hero Section
   hero: {
@@ -728,54 +761,54 @@ export const ru = {
       submitting: "Отправка...",
     },
     "domesticInternational": {
-  "hero": {
-    "title": "Внутренние и международные турпакеты"
-  },
-  "about": {
-    "title": "Исследуйте мир вместе с нами",
-    "description": "Независимо от того, хотите ли вы изучить скрытые жемчужины Индии или отправиться в экзотические зарубежные страны, мы создаем персонализированные маршруты, соответствующие вашему стилю путешествий и предпочтениям. Наши внутренние и международные туры разработаны так, чтобы предложить аутентичный опыт, комфортное проживание и безупречную логистику.",
-    "whyTitle": "Почему выбирают наши пакеты:",
-    "points": [
-      "Тщательно проработанные маршруты с погружением в местную культуру",
-      "Экспертные гиды и поддержка 24/7 во время вашей поездки",
-      "Конкурентные цены без скрытых расходов",
-      "Гибкие возможности индивидуальной настройки",
-      "Тщательно отобранные отели и транспорт"
-    ]
-  },
-  "domestic": {
-    "title": "Туры по Индии",
-    "subtitle": "Откройте для себя многогранную красоту Индии с нашими лучшими внутренними направлениями.",
-    "viewMore": "Посмотреть все туры по Индии"
-  },
-  "international": {
-    "title": "Международные туры",
-    "subtitle": "Откройте для себя экзотические уголки мира с нашими международными турпакетами.",
-    "viewMore": "Посмотреть все международные туры"
-  },
-  "faq": {
-    "title": "Часто задаваемые вопросы",
-    "subtitle": "Найдите ответы на основные вопросы о наших внутренних и международных турах.",
-    "questions": [
-      {
-        "question": "Какие документы необходимы при бронировании?",
-        "answer": "Для начала бронирования нам потребуется действующий загранпаспорт и удостоверение личности государственного образца. В зависимости от требований страны назначения и авиакомпании мы можем запросить дополнительные документы, такие как карта Aadhaar или копии проездных документов."
+      "hero": {
+        "title": "Внутренние и международные турпакеты"
       },
-      {
-        "question": "Оказываете ли вы помощь в оформлении визы?",
-        "answer": "Да, наша команда сопроводит вас в этом процессе, поможет с оформлением необходимых документов и убедится, что все в порядке перед подачей."
+      "about": {
+        "title": "Исследуйте мир вместе с нами",
+        "description": "Независимо от того, хотите ли вы изучить скрытые жемчужины Индии или отправиться в экзотические зарубежные страны, мы создаем персонализированные маршруты, соответствующие вашему стилю путешествий и предпочтениям. Наши внутренние и международные туры разработаны так, чтобы предложить аутентичный опыт, комфортное проживание и безупречную логистику.",
+        "whyTitle": "Почему выбирают наши пакеты:",
+        "points": [
+          "Тщательно проработанные маршруты с погружением в местную культуру",
+          "Экспертные гиды и поддержка 24/7 во время вашей поездки",
+          "Конкурентные цены без скрытых расходов",
+          "Гибкие возможности индивидуальной настройки",
+          "Тщательно отобранные отели и транспорт"
+        ]
       },
-      {
-        "question": "Какова ваша политика возврата в случае сбоев в обслуживании (пропуск ночи в отеле, отмена экскурсии)?",
-        "answer": "Если ночь в отеле пропущена или экскурсия отменена из-за проблем с обслуживанием, мы вмешаемся, чтобы решить вопрос. В зависимости от обстоятельств вам может быть предложен возврат средств или кредит на будущие поездки."
+      "domestic": {
+        "title": "Туры по Индии",
+        "subtitle": "Откройте для себя многогранную красоту Индии с нашими лучшими внутренними направлениями.",
+        "viewMore": "Посмотреть все туры по Индии"
       },
-      {
-        "question": "Нужно ли приезжать в аэропорт раньше на международные рейсы, чем на внутренние?",
-        "answer": "На внутренние рейсы рекомендуется прибывать за 2 часа до вылета. На международные рейсы — за 3–4 часа, чтобы без стресса пройти контроль безопасности и иммиграционные формальности."
+      "international": {
+        "title": "Международные туры",
+        "subtitle": "Откройте для себя экзотические уголки мира с нашими международными турпакетами.",
+        "viewMore": "Посмотреть все международные туры"
+      },
+      "faq": {
+        "title": "Часто задаваемые вопросы",
+        "subtitle": "Найдите ответы на основные вопросы о наших внутренних и международных турах.",
+        "questions": [
+          {
+            "question": "Какие документы необходимы при бронировании?",
+            "answer": "Для начала бронирования нам потребуется действующий загранпаспорт и удостоверение личности государственного образца. В зависимости от требований страны назначения и авиакомпании мы можем запросить дополнительные документы, такие как карта Aadhaar или копии проездных документов."
+          },
+          {
+            "question": "Оказываете ли вы помощь в оформлении визы?",
+            "answer": "Да, наша команда сопроводит вас в этом процессе, поможет с оформлением необходимых документов и убедится, что все в порядке перед подачей."
+          },
+          {
+            "question": "Какова ваша политика возврата в случае сбоев в обслуживании (пропуск ночи в отеле, отмена экскурсии)?",
+            "answer": "Если ночь в отеле пропущена или экскурсия отменена из-за проблем с обслуживанием, мы вмешаемся, чтобы решить вопрос. В зависимости от обстоятельств вам может быть предложен возврат средств или кредит на будущие поездки."
+          },
+          {
+            "question": "Нужно ли приезжать в аэропорт раньше на международные рейсы, чем на внутренние?",
+            "answer": "На внутренние рейсы рекомендуется прибывать за 2 часа до вылета. На международные рейсы — за 3–4 часа, чтобы без стресса пройти контроль безопасности и иммиграционные формальности."
+          }
+        ]
       }
-    ]
-  }
-}
+    }
   },
   // Why Choose Us
   whyChoose: {
@@ -13129,392 +13162,392 @@ export const ru = {
         },
       ],
     },
-"mumbai-luxury-package": {
-  "file_name": "mumbai-luxury-package.html",
-  "hero_section": {
-    "type": "package-hero",
-    "badge": "Премиум-пакет",
-    "title": "Роскошный тур в Мумбаи 2 ночи/3 дня",
-    "location": "Mumbai, India - Taj & City Highlights",
-    "cta_text": "Забронировать сейчас",
-    "cta_link": "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%202N/3D%20Mumbai%20Luxury%20Package.%20Can%20you%20please%20provide%20more%20details?",
-    "background_image": "/assets/Luxury/Mumbai/mumbai-hero.webp"
-  },
-  "footer": {
-    "about": "Воплощаем ваши мечты в незабываемые приключения с 2010 года. Ваш надежный партнер по организации индивидуальных туров.",
-    "social_links": [
-      { "platform": "Instagram", "url": "https://www.instagram.com/globaltouristcentre/" },
-      { "platform": "Facebook", "url": "https://www.facebook.com/share/1H23K6UQPt/" },
-      { "platform": "WhatsApp", "url": "https://wa.me/919067972295" }
-    ],
-    "sections": [
-      {
-        "heading": "Быстрые ссылки",
-        "links": [
-          { "text": "Главная", "href": "../../" },
-          { "text": "Направления", "href": "../../destinations" },
-          { "text": "О нас", "href": "../../about-us" },
-          { "text": "Услуги", "href": "../../services" },
-          { "text": "Контакты", "href": "../../contact-us" },
-          { "text": "Блог", "href": "../../blog" }
+    "mumbai-luxury-package": {
+      "file_name": "mumbai-luxury-package.html",
+      "hero_section": {
+        "type": "package-hero",
+        "badge": "Премиум-пакет",
+        "title": "Роскошный тур в Мумбаи 2 ночи/3 дня",
+        "location": "Mumbai, India - Taj & City Highlights",
+        "cta_text": "Забронировать сейчас",
+        "cta_link": "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%202N/3D%20Mumbai%20Luxury%20Package.%20Can%20you%20please%20provide%20more%20details?",
+        "background_image": "/assets/Luxury/Mumbai/mumbai-hero.webp"
+      },
+      "footer": {
+        "about": "Воплощаем ваши мечты в незабываемые приключения с 2010 года. Ваш надежный партнер по организации индивидуальных туров.",
+        "social_links": [
+          { "platform": "Instagram", "url": "https://www.instagram.com/globaltouristcentre/" },
+          { "platform": "Facebook", "url": "https://www.facebook.com/share/1H23K6UQPt/" },
+          { "platform": "WhatsApp", "url": "https://wa.me/919067972295" }
+        ],
+        "sections": [
+          {
+            "heading": "Быстрые ссылки",
+            "links": [
+              { "text": "Главная", "href": "../../" },
+              { "text": "Направления", "href": "../../destinations" },
+              { "text": "О нас", "href": "../../about-us" },
+              { "text": "Услуги", "href": "../../services" },
+              { "text": "Контакты", "href": "../../contact-us" },
+              { "text": "Блог", "href": "../../blog" }
+            ]
+          },
+          {
+            "heading": "Популярные туры",
+            "links": [
+              { "text": "Пляжный отдых в Гоа", "href": "../itinerary/day-trips/South-Goa-1-Day-Trip-package" },
+              { "text": "Исследуйте Сикким", "href": "../itinerary/domestic-trips/sikkim-tour-for-goa" },
+              { "text": "Заводи Кералы", "href": "../itinerary/domestic-trips/Kerala-5N6D-Trip" }
+            ]
+          },
+          {
+            "heading": "Последнее в Instagram",
+            "links": [
+              { "text": "Подписаться", "href": "https://www.instagram.com/globaltouristcentre/" }
+            ]
+          }
+        ],
+        "copyright": "© 2023 Global Tourist Centre. Все права защищены."
+      },
+      "itinerary": {
+        "title": "Окунитесь в гламур и наследие Мумбаи",
+        "days": [
+          {
+            "day_title": "День 01: Прибытие в Мумбаи",
+            "location": "Mumbai",
+            "description": "Прибытие в международный аэропорт имени Чхатрапати Шиваджи. Частный трансфер класса люкс в ваш 5★ отель (Taj Mahal Palace / The Oberoi / Trident Nariman Point).",
+            "activities": [
+              "Дневная экскурсия: Ворота Индии, набережная Марин-Драйв и пляж Чоупатти, рынок Колаба-Козуэй",
+              "По желанию: ужин в роскошном панорамном ресторане на крыше",
+              "Ночь в роскошном отеле Мумбаи"
+            ]
+          },
+          {
+            "day_title": "День 02: Роскошный день в Мумбаи",
+            "location": "Mumbai",
+            "description": "Завтрак в отеле. Утренняя экскурсия на пароме к пещерам Элефанта (объект ЮНЕСКО). Возвращение и обед в историческом кафе (Leopold Café или элитный ресторан).",
+            "activities": [
+              "День: Музей принца Уэльского, Дхоби-Гхат, Мани-Бхаван",
+              "Вечер: Поездка на закате по мосту Бандра-Ворли",
+              "Прогулка по району Бандра: кафе, бутики и атмосфера Болливуда",
+              "Ночь в роскошном отеле Мумбаи"
+            ]
+          },
+          {
+            "day_title": "День 03: Отъезд из Мумбаи",
+            "location": "Departure",
+            "description": "Завтрак в отеле. В зависимости от времени рейса — шопинг в High Street Phoenix / Palladium Mall или посещение храма Сиддхивинаяк / Хаджи Али для знакомства с культурой.",
+            "activities": [
+              "Частный трансфер в аэропорт с воспоминаниями о роскошном отдыхе"
+            ]
+          }
         ]
       },
-      {
-        "heading": "Популярные туры",
-        "links": [
-          { "text": "Пляжный отдых в Гоа", "href": "../itinerary/day-trips/South-Goa-1-Day-Trip-package" },
-          { "text": "Исследуйте Сикким", "href": "../itinerary/domestic-trips/sikkim-tour-for-goa" },
-          { "text": "Заводи Кералы", "href": "../itinerary/domestic-trips/Kerala-5N6D-Trip" }
-        ]
-      },
-      {
-        "heading": "Последнее в Instagram",
-        "links": [
-          { "text": "Подписаться", "href": "https://www.instagram.com/globaltouristcentre/" }
-        ]
-      }
-    ],
-    "copyright": "© 2023 Global Tourist Centre. Все права защищены."
-  },
-  "itinerary": {
-    "title": "Окунитесь в гламур и наследие Мумбаи",
-    "days": [
-      {
-        "day_title": "День 01: Прибытие в Мумбаи",
-        "location": "Mumbai",
-        "description": "Прибытие в международный аэропорт имени Чхатрапати Шиваджи. Частный трансфер класса люкс в ваш 5★ отель (Taj Mahal Palace / The Oberoi / Trident Nariman Point).",
-        "activities": [
-          "Дневная экскурсия: Ворота Индии, набережная Марин-Драйв и пляж Чоупатти, рынок Колаба-Козуэй",
-          "По желанию: ужин в роскошном панорамном ресторане на крыше",
-          "Ночь в роскошном отеле Мумбаи"
-        ]
-      },
-      {
-        "day_title": "День 02: Роскошный день в Мумбаи",
-        "location": "Mumbai",
-        "description": "Завтрак в отеле. Утренняя экскурсия на пароме к пещерам Элефанта (объект ЮНЕСКО). Возвращение и обед в историческом кафе (Leopold Café или элитный ресторан).",
-        "activities": [
-          "День: Музей принца Уэльского, Дхоби-Гхат, Мани-Бхаван",
-          "Вечер: Поездка на закате по мосту Бандра-Ворли",
-          "Прогулка по району Бандра: кафе, бутики и атмосфера Болливуда",
-          "Ночь в роскошном отеле Мумбаи"
-        ]
-      },
-      {
-        "day_title": "День 03: Отъезд из Мумбаи",
-        "location": "Departure",
-        "description": "Завтрак в отеле. В зависимости от времени рейса — шопинг в High Street Phoenix / Palladium Mall или посещение храма Сиддхивинаяк / Хаджи Али для знакомства с культурой.",
-        "activities": [
-          "Частный трансфер в аэропорт с воспоминаниями о роскошном отдыхе"
-        ]
-      }
-    ]
-  },
-  "accommodations": [
-    {
-      "image": { "src": "/assets/Luxury/Mumbai/Taj Mahal Palace.webp", "alt": "Taj Mahal Palace" },
-      "name": "Taj Mahal Palace",
-      "location": "Мумбаи, Индия",
-      "description": "Культовый роскошный отель с видом на Ворота Индии, предлагающий сервис мирового уровня.",
-      "rating": 5
+      "accommodations": [
+        {
+          "image": { "src": "/assets/Luxury/Mumbai/Taj Mahal Palace.webp", "alt": "Taj Mahal Palace" },
+          "name": "Taj Mahal Palace",
+          "location": "Мумбаи, Индия",
+          "description": "Культовый роскошный отель с видом на Ворота Индии, предлагающий сервис мирового уровня.",
+          "rating": 5
+        },
+        {
+          "image": { "src": "/assets/Luxury/Mumbai/The Oberoi.webp", "alt": "The Oberoi Mumbai" },
+          "name": "The Oberoi",
+          "location": "Мумбаи, Индия",
+          "description": "Современный люкс-отель с потрясающим видом на Марин-Драйв и изысканной кухней.",
+          "rating": 5
+        },
+        {
+          "image": { "src": "/assets/Luxury/Mumbai/Trident Nariman Point.webp", "alt": "Trident Nariman Point" },
+          "name": "Trident Nariman Point",
+          "location": "Мумбаи, Индия",
+          "description": "Роскошный отель на побережье с панорамным видом на Аравийское море.",
+          "rating": 5
+        }
+      ],
+      "inclusions": [
+        { "icon": "fas fa-hotel", "title": "Роскошное проживание", "description": "2 ночи в 5★ отеле (Taj Mahal Palace / The Oberoi / Trident)" },
+        { "icon": "fas fa-utensils", "title": "Ежедневный завтрак", "description": "Бесплатный завтрак в ресторане отеля" },
+        { "icon": "fas fa-car", "title": "Частные трансферы", "description": "Частный роскошный автомобиль с кондиционером для экскурсий и трансферов" },
+        { "icon": "fas fa-ship", "title": "Паром к пещерам Элефанта", "description": "Билеты на паром включены в стоимость" },
+        { "icon": "fas fa-user-tie", "title": "Профессиональный гид", "description": "Опытный гид для знакомства с городом" },
+        { "icon": "fas fa-shield-alt", "title": "Налоги и поддержка", "description": "Все сборы за парковку, дороги и налоги включены" }
+      ]
     },
-    {
-      "image": { "src": "/assets/Luxury/Mumbai/The Oberoi.webp", "alt": "The Oberoi Mumbai" },
-      "name": "The Oberoi",
-      "location": "Мумбаи, Индия",
-      "description": "Современный люкс-отель с потрясающим видом на Марин-Драйв и изысканной кухней.",
-      "rating": 5
+    "rajasthan-luxury-package": {
+      "file_name": "rajasthan-luxury-package.html",
+      "hero_section": {
+        "type": "package-hero",
+        "badge": "Ultra Premium Paket",
+        "title": "8N/9D Rajasthan Luxus-Paket",
+        "location": "Jaipur, Udaipur, Jodhpur, Ranthambore - 8N/9D",
+        "cta_text": "Jetzt buchen",
+        "cta_link": "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%208N/9D%20Rajasthan%20Luxury%20Package.%20Can%20you%20please%20provide%20more%20details?",
+        "background_image": "/assets/Luxury/Rajasthan/raj3-hero.webp"
+      },
+      "itinerary": {
+        "title": "Königliche Rajasthan-Reise durch Paläste & Forts",
+        "days": [
+          {
+            "day_title": "Tag 1: Ankunft in Jaipur",
+            "location": "Jaipur",
+            "description": "Ankunft am Flughafen Jaipur. Privater Luxustransfer zu Ihrem Palasthotel (Rambagh Palace / Jai Mahal Palace). Bevorzugter Check-in und Begrüßungsritual.",
+            "activities": [
+              "Gemütliches Mittagessen & Signature Spa-Ritual",
+              "Private Tour: Stadtpalast + Jantar Mantar",
+              "Abendessen im Innenhof mit klassischer Rajasthani-Musik",
+              "Übernachtung in Jaipur (Luxus-Palasthotel)"
+            ]
+          },
+          {
+            "day_title": "Tag 2: Jaipur (Ganztägig)",
+            "location": "Jaipur",
+            "description": "Heißluftballon-Erlebnis zum Sonnenaufgang mit Champagner-Frühstück oder Fotoshooting am Nahargarh. Besuch des Amber Forts (Jeep- oder Elefanten-Option).",
+            "activities": [
+              "Mittagessen in einem historischen Haveli",
+              "Kuratiertes Shopping auf lokalen Märkten",
+              "Chef's-Table Abendessen oder privates Palast-Dining",
+              "Übernachtung in Jaipur (Luxus-Palasthotel)"
+            ]
+          },
+          {
+            "day_title": "Tag 3: Jaipur → Ranthambore",
+            "location": "Ranthambore",
+            "description": "Transfer nach Ranthambore. Check-in in einer Luxus-Wildnis-Lodge (Oberoi Vanyavilas o.ä.). Zeit zur freien Verfügung.",
+            "activities": [
+              "Sternenbeobachtung",
+              "Privates Dschungel-Dinner unter den Sternen",
+              "Übernachtung in Ranthambore (Luxus-Wildnis-Lodge)"
+            ]
+          },
+          {
+            "day_title": "Tag 4: Ranthambore Safari-Tag",
+            "location": "Ranthambore",
+            "description": "Frühmorgendliche Safari im Ranthambore Nationalpark. Frühstück im Resort. Mittags Spa oder optionaler Dorfbesuch.",
+            "activities": [
+              "Nachmittags-Safari in einer anderen Zone",
+              "Privates Lagerfeuer-Abendessen oder Resort Fine Dining",
+              "Übernachtung in Ranthambore (Luxus-Wildnis-Lodge)"
+            ]
+          },
+          {
+            "day_title": "Tag 5: Ranthambore → Jodhpur",
+            "location": "Jodhpur",
+            "description": "Transfer nach Jodhpur. Check-in im Umaid Bhawan Palace oder RAAS. Abendliche Tour zum Mehrangarh Fort bei Sonnenuntergang.",
+            "activities": [
+              "Rooftop-Dinner mit Blick auf das Fort",
+              "Übernachtung in Jodhpur (Luxus-Palasthotel)"
+            ]
+          },
+          {
+            "day_title": "Tag 6: Jodhpur intensiv",
+            "location": "Jodhpur",
+            "description": "Besuch von Jaswant Thada & Fotowanderung durch die Blaue Stadt. Besuche bei lokalen Kunsthandwerkern.",
+            "activities": [
+              "Besuch des Polofelds oder königlicher Kochkurs",
+              "Heritage Dinner-Erlebnis",
+              "Übernachtung in Jodhpur (Luxus-Palasthotel)"
+            ]
+          },
+          {
+            "day_title": "Tag 7: Jodhpur → Udaipur",
+            "location": "Udaipur",
+            "description": "Morgendlicher Flug nach Udaipur. Check-in im Palast am See (Oberoi Udaivilas / Taj Lake Palace). Private Bootsfahrt auf dem Pichola-See zur Goldenen Stunde.",
+            "activities": [
+              "Privates Dinner am Seeufer mit klassischer Musik",
+              "Übernachtung in Udaipur (Luxus-Palasthotel)"
+            ]
+          },
+          {
+            "day_title": "Tag 8: Udaipur (Ganztägig)",
+            "location": "Udaipur",
+            "description": "Kuratierte Stadtpalast-Tour. Chef's Table Mittagessen. Besuch von Saheliyon-ki-Bari oder Malkurs.",
+            "activities": [
+              "Monsun-Palast (Sajjangarh) zum Sonnenuntergang",
+              "Abschiedsbankett (Palasterrasse oder Privatboot)",
+              "Übernachtung in Udaipur (Luxus-Palasthotel)"
+            ]
+          },
+          {
+            "day_title": "Tag 9: Abreise",
+            "location": "Departure",
+            "description": "Frühstück im Hotel. Optionales Bootserlebnis oder Spa. Privater Flughafentransfer. Ende der königlichen Reise.",
+            "activities": []
+          }
+        ]
+      },
+      "accommodations": [
+        {
+          "image": { "src": "/assets/Luxury/Rajasthan/Rambagh Palace.webp", "alt": "Rambagh Palace" },
+          "name": "Rambagh Palace",
+          "location": "Jaipur, Indien",
+          "description": "Ehemalige Residenz des Maharadschas von Jaipur mit unvergleichlichem Luxus im Herzen der Pink City.",
+          "rating": 5
+        },
+        {
+          "image": { "src": "/assets/Luxury/Rajasthan/Oberoi Vanyavilas.webp", "alt": "Oberoi Vanyavilas" },
+          "name": "Oberoi Vanyavilas",
+          "location": "Ranthambore, Indien",
+          "description": "Luxuriöses Zeltcamp für ein exquisites Wildniserlebnis mit erstklassigem Safari-Service.",
+          "rating": 5
+        },
+        {
+          "image": { "src": "/assets/Luxury/Rajasthan/Umaid Bhawan Palace.webp", "alt": "Umaid Bhawan Palace" },
+          "name": "Umaid Bhawan Palace",
+          "location": "Jodhpur, Indien",
+          "description": "Eine der weltweit größten Privatresidenzen mit königlichen Suiten und Art-Déco-Interieur.",
+          "rating": 5
+        },
+        {
+          "image": { "src": "/assets/Luxury/Rajasthan/Oberoi Udaivilas.webp", "alt": "Oberoi Udaivilas" },
+          "name": "Oberoi Udaivilas",
+          "location": "Udaipur, Indien",
+          "description": "Weitläufiges Luxusresort am Ufer des Pichola-Sees mit prachtvoller Palastarchitektur.",
+          "rating": 5
+        }
+      ],
+      "inclusions": [
+        { "icon": "fas fa-hotel", "title": "Luxus-Unterkunft", "description": "8 Nächte in Luxus-Palasthotels (Jaipur, Ranthambore, Jodhpur, Udaipur) inkl. Frühstück" },
+        { "icon": "fas fa-utensils", "title": "Gourmet-Dining", "description": "Frühstück + 5 private kulinarische Erlebnisse (Chef’s Table und Palast-Dinner)" },
+        { "icon": "fas fa-car", "title": "Private Transfers", "description": "Durchgehend private Luxusfahrzeuge + Inlandsflüge oder Chauffeur-Service" },
+        { "icon": "fas fa-user-tie", "title": "Professionelle Guides", "description": "Englischsprachige Profi-Guides für alle geplanten Besichtigungen" },
+        { "icon": "fas fa-paw", "title": "Safari-Erlebnisse", "description": "2 Safaris im Ranthambore Nationalpark inkl. Genehmigungen & Gebühren" },
+        { "icon": "fas fa-ship", "title": "Bootsfahrt", "description": "Private Sonnenuntergangs-Bootsfahrt auf dem Pichola-See mit Champagner & Canapés" },
+        { "icon": "fas fa-gem", "title": "Kuratierte Erlebnisse", "description": "3 private Erlebnisse (Jaipur Dinner, Shopping-Tour, Udaipur Chef's Table)" },
+        { "icon": "fas fa-shield-alt", "title": "Steuern & Support", "description": "Sämtliche Eintrittsgelder, Fast-Track-Zugang und 24/7 Concierge-Support" }
+      ]
     },
-    {
-      "image": { "src": "/assets/Luxury/Mumbai/Trident Nariman Point.webp", "alt": "Trident Nariman Point" },
-      "name": "Trident Nariman Point",
-      "location": "Мумбаи, Индия",
-      "description": "Роскошный отель на побережье с панорамным видом на Аравийское море.",
-      "rating": 5
+    "kerala-luxury-tour-package": {
+      "file_name": "kerala-luxury-tour-package.html",
+      "hero_section": {
+        "type": "package-hero",
+        "badge": "Премиум-пакет",
+        "title": "Роскошный тур по Керале 7 ночей/8 дней (Кочи, Аллеппи, Муннар, Теккади, Пувар)",
+        "location": "Kochi, Alleppey, Munnar, Thekkady, Poovar - 7N/8D",
+        "cta_text": "Забронировать сейчас",
+        "cta_link": "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%207N/8D%20Kerala%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
+        "background_image": "/assets/Luxury/Kerala/hero-comprehensive.webp"
+      },
+      "itinerary": {
+        "title": "Комплексный роскошный отдых в Керале",
+        "days": [
+          {
+            "day_title": "День 01: Прибытие в Кочи (1 ночь)",
+            "location": "Kochi",
+            "description": "Прибытие в аэропорт Кочи. Частный трансфер в отель. Дневная экскурсия: Форт Кочи, китайские рыболовные сети, церковь Св. Франциска, дворец Маттанчерри и еврейская синагога.",
+            "activities": [
+              "Вечерняя программа: танцевальное шоу Катхакали или роскошный круиз с ужином",
+              "Ночь в Кочи (Роскошный 5★ отель/курорт)"
+            ]
+          },
+          {
+            "day_title": "День 02: Кочи → Аллеппи (Роскошный плавучий дом – 1 ночь)",
+            "location": "Alleppey",
+            "description": "После завтрака переезд в Аллеппи. Заселение в частный роскошный хаусбот (плавучий дом). Круиз по заводям мимо лагун, кокосовых рощ и деревень. Обед и ужин на борту.",
+            "activities": [
+              "Живописный круиз по заводям",
+              "Традиционная кухня Кералы",
+              "Ночь на роскошном хаусботе"
+            ]
+          },
+          {
+            "day_title": "День 03: Аллеппи → Муннар (2 ночи)",
+            "location": "Munnar",
+            "description": "Завтрак на борту и выезд. Переезд в Муннар через живописные холмы, чайные плантации и водопады. Свободный вечер для отдыха на курорте.",
+            "activities": [
+              "Поездка через чайные плантации",
+              "Ночь в Муннаре (Роскошный курорт)"
+            ]
+          },
+          {
+            "day_title": "День 04: Достопримечательности Муннара",
+            "location": "Munnar",
+            "description": "Полный день в Муннаре: национальный парк Эравикулам, Музей чая, плотина Маттупетти и озеро Кундала (прогулка на лодке).",
+            "activities": [
+              "Наблюдение за дикой природой в парке Эравикулам",
+              "Тур по чайным плантациям и дегустация",
+              "Прогулка на лодке по озеру Кундала",
+              "Ночь в Муннаре"
+            ]
+          },
+          {
+            "day_title": "День 05: Муннар → Теккади (1 ночь)",
+            "location": "Thekkady",
+            "description": "Переезд в Теккади. Заселение в люкс-курорт среди плантаций специй. Круиз по озеру Перияр (наблюдение за слонами) и тур по плантации специй.",
+            "activities": [
+              "Лодочный круиз по озеру Перияр",
+              "Тур по плантации специй",
+              "Дополнительно: боевое искусство Каларипаятту",
+              "Ночь в Теккади (Роскошный курорт)"
+            ]
+          },
+          {
+            "day_title": "День 06: Теккади → Пувар (1 ночь)",
+            "location": "Poovar",
+            "description": "Переезд в Пувар. Заселение в роскошный курорт на побережье. Свободный вечер в месте, где река встречается с морем.",
+            "activities": [
+              "Вид на закат в эстуарии",
+              "Ночь в Пуваре (Роскошный курорт)"
+            ]
+          },
+          {
+            "day_title": "День 07: Отдых в Пуваре / Визит в Ковалам (1 ночь)",
+            "location": "Poovar",
+            "description": "Утренний отдых на пляже Пувар. Опционально: поездка в Ковалам для пляжного отдыха. Аюрведический спа или круиз на закате.",
+            "activities": [
+              "Сеанс аюрведического спа",
+              "Круиз на закате в заводях Пувара",
+              "Дополнительная экскурсия на пляж Ковалам",
+              "Ночь в Пуваре"
+            ]
+          },
+          {
+            "day_title": "День 08: Отъезд (Аэропорт Тривандрам / Кочи)",
+            "location": "Departure",
+            "description": "Завтрак и выезд. Трансфер в аэропорт Тривандрам или Кочи в зависимости от вашего рейса.",
+            "activities": []
+          }
+        ]
+      },
+      "accommodations": [
+        {
+          "image": { "src": "/assets/Luxury/Kerala/grand-hyatt-kochi.webp", "alt": "Grand Hyatt Kochi Bolgatty" },
+          "name": "Grand Hyatt Kochi Bolgatty",
+          "location": "Кочи, Индия",
+          "description": "Роскошный 5-звездочный отель на острове Болгатти с панорамным видом на заводи.",
+          "rating": 5
+        },
+        {
+          "image": { "src": "/assets/Luxury/Kerala/blanket-resort.webp", "alt": "Blanket Hotel & Spa" },
+          "name": "Blanket Hotel & Spa",
+          "location": "Муннар, Индия",
+          "description": "Горный курорт среди чайных плантаций с премиальными спа-услугами.",
+          "rating": 5
+        },
+        {
+          "image": { "src": "/assets/Luxury/Kerala/elephant-court.webp", "alt": "Elephant Court" },
+          "name": "Elephant Court",
+          "location": "Теккади, Индия",
+          "description": "Элегантный курорт рядом с заповедником Перияр.",
+          "rating": 5
+        },
+        {
+          "image": { "src": "/assets/Luxury/Kerala/estuary-sarovar.webp", "alt": "Estuary Sarovar Portico" },
+          "name": "Estuary Sarovar Portico",
+          "location": "Пувар, Индия",
+          "description": "Курорт на стыке реки и моря с уникальными видами на эстуарий.",
+          "rating": 5
+        }
+      ],
+      "inclusions": [
+        { "icon": "fas fa-hotel", "title": "Размещение премиум-класса", "description": "1н Кочи, 1н Аллеппи (хаусбот), 2н Муннар, 1н Теккади, 2н Пувар" },
+        { "icon": "fas fa-utensils", "title": "Гурманское питание", "description": "Ежедневный завтрак + полное питание на хаусботе" },
+        { "icon": "fas fa-car", "title": "Частные VIP-трансферы", "description": "Роскошный автомобиль с кондиционером и водителем на весь тур" },
+        { "icon": "fas fa-binoculars", "title": "Эксклюзивный опыт", "description": "Круиз на закате в Пуваре, лодка на озере Перияр, сеанс Аюрведы" },
+        { "icon": "fas fa-ticket-alt", "title": "Культурная программа", "description": "Шоу Катхакали, туры по плантациям специй и чая" },
+        { "icon": "fas fa-shield-alt", "title": "Налоги и поддержка", "description": "Все применимые налоги и экскурсии включены" }
+      ]
     }
-  ],
-  "inclusions": [
-    { "icon": "fas fa-hotel", "title": "Роскошное проживание", "description": "2 ночи в 5★ отеле (Taj Mahal Palace / The Oberoi / Trident)" },
-    { "icon": "fas fa-utensils", "title": "Ежедневный завтрак", "description": "Бесплатный завтрак в ресторане отеля" },
-    { "icon": "fas fa-car", "title": "Частные трансферы", "description": "Частный роскошный автомобиль с кондиционером для экскурсий и трансферов" },
-    { "icon": "fas fa-ship", "title": "Паром к пещерам Элефанта", "description": "Билеты на паром включены в стоимость" },
-    { "icon": "fas fa-user-tie", "title": "Профессиональный гид", "description": "Опытный гид для знакомства с городом" },
-    { "icon": "fas fa-shield-alt", "title": "Налоги и поддержка", "description": "Все сборы за парковку, дороги и налоги включены" }
-  ]
-},
-"rajasthan-luxury-package": {
-  "file_name": "rajasthan-luxury-package.html",
-  "hero_section": {
-    "type": "package-hero",
-    "badge": "Ultra Premium Paket",
-    "title": "8N/9D Rajasthan Luxus-Paket",
-    "location": "Jaipur, Udaipur, Jodhpur, Ranthambore - 8N/9D",
-    "cta_text": "Jetzt buchen",
-    "cta_link": "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%208N/9D%20Rajasthan%20Luxury%20Package.%20Can%20you%20please%20provide%20more%20details?",
-    "background_image": "/assets/Luxury/Rajasthan/raj3-hero.webp"
-  },
-  "itinerary": {
-    "title": "Königliche Rajasthan-Reise durch Paläste & Forts",
-    "days": [
-      {
-        "day_title": "Tag 1: Ankunft in Jaipur",
-        "location": "Jaipur",
-        "description": "Ankunft am Flughafen Jaipur. Privater Luxustransfer zu Ihrem Palasthotel (Rambagh Palace / Jai Mahal Palace). Bevorzugter Check-in und Begrüßungsritual.",
-        "activities": [
-          "Gemütliches Mittagessen & Signature Spa-Ritual",
-          "Private Tour: Stadtpalast + Jantar Mantar",
-          "Abendessen im Innenhof mit klassischer Rajasthani-Musik",
-          "Übernachtung in Jaipur (Luxus-Palasthotel)"
-        ]
-      },
-      {
-        "day_title": "Tag 2: Jaipur (Ganztägig)",
-        "location": "Jaipur",
-        "description": "Heißluftballon-Erlebnis zum Sonnenaufgang mit Champagner-Frühstück oder Fotoshooting am Nahargarh. Besuch des Amber Forts (Jeep- oder Elefanten-Option).",
-        "activities": [
-          "Mittagessen in einem historischen Haveli",
-          "Kuratiertes Shopping auf lokalen Märkten",
-          "Chef's-Table Abendessen oder privates Palast-Dining",
-          "Übernachtung in Jaipur (Luxus-Palasthotel)"
-        ]
-      },
-      {
-        "day_title": "Tag 3: Jaipur → Ranthambore",
-        "location": "Ranthambore",
-        "description": "Transfer nach Ranthambore. Check-in in einer Luxus-Wildnis-Lodge (Oberoi Vanyavilas o.ä.). Zeit zur freien Verfügung.",
-        "activities": [
-          "Sternenbeobachtung",
-          "Privates Dschungel-Dinner unter den Sternen",
-          "Übernachtung in Ranthambore (Luxus-Wildnis-Lodge)"
-        ]
-      },
-      {
-        "day_title": "Tag 4: Ranthambore Safari-Tag",
-        "location": "Ranthambore",
-        "description": "Frühmorgendliche Safari im Ranthambore Nationalpark. Frühstück im Resort. Mittags Spa oder optionaler Dorfbesuch.",
-        "activities": [
-          "Nachmittags-Safari in einer anderen Zone",
-          "Privates Lagerfeuer-Abendessen oder Resort Fine Dining",
-          "Übernachtung in Ranthambore (Luxus-Wildnis-Lodge)"
-        ]
-      },
-      {
-        "day_title": "Tag 5: Ranthambore → Jodhpur",
-        "location": "Jodhpur",
-        "description": "Transfer nach Jodhpur. Check-in im Umaid Bhawan Palace oder RAAS. Abendliche Tour zum Mehrangarh Fort bei Sonnenuntergang.",
-        "activities": [
-          "Rooftop-Dinner mit Blick auf das Fort",
-          "Übernachtung in Jodhpur (Luxus-Palasthotel)"
-        ]
-      },
-      {
-        "day_title": "Tag 6: Jodhpur intensiv",
-        "location": "Jodhpur",
-        "description": "Besuch von Jaswant Thada & Fotowanderung durch die Blaue Stadt. Besuche bei lokalen Kunsthandwerkern.",
-        "activities": [
-          "Besuch des Polofelds oder königlicher Kochkurs",
-          "Heritage Dinner-Erlebnis",
-          "Übernachtung in Jodhpur (Luxus-Palasthotel)"
-        ]
-      },
-      {
-        "day_title": "Tag 7: Jodhpur → Udaipur",
-        "location": "Udaipur",
-        "description": "Morgendlicher Flug nach Udaipur. Check-in im Palast am See (Oberoi Udaivilas / Taj Lake Palace). Private Bootsfahrt auf dem Pichola-See zur Goldenen Stunde.",
-        "activities": [
-          "Privates Dinner am Seeufer mit klassischer Musik",
-          "Übernachtung in Udaipur (Luxus-Palasthotel)"
-        ]
-      },
-      {
-        "day_title": "Tag 8: Udaipur (Ganztägig)",
-        "location": "Udaipur",
-        "description": "Kuratierte Stadtpalast-Tour. Chef's Table Mittagessen. Besuch von Saheliyon-ki-Bari oder Malkurs.",
-        "activities": [
-          "Monsun-Palast (Sajjangarh) zum Sonnenuntergang",
-          "Abschiedsbankett (Palasterrasse oder Privatboot)",
-          "Übernachtung in Udaipur (Luxus-Palasthotel)"
-        ]
-      },
-      {
-        "day_title": "Tag 9: Abreise",
-        "location": "Departure",
-        "description": "Frühstück im Hotel. Optionales Bootserlebnis oder Spa. Privater Flughafentransfer. Ende der königlichen Reise.",
-        "activities": []
-      }
-    ]
-  },
-  "accommodations": [
-    {
-      "image": { "src": "/assets/Luxury/Rajasthan/Rambagh Palace.webp", "alt": "Rambagh Palace" },
-      "name": "Rambagh Palace",
-      "location": "Jaipur, Indien",
-      "description": "Ehemalige Residenz des Maharadschas von Jaipur mit unvergleichlichem Luxus im Herzen der Pink City.",
-      "rating": 5
-    },
-    {
-      "image": { "src": "/assets/Luxury/Rajasthan/Oberoi Vanyavilas.webp", "alt": "Oberoi Vanyavilas" },
-      "name": "Oberoi Vanyavilas",
-      "location": "Ranthambore, Indien",
-      "description": "Luxuriöses Zeltcamp für ein exquisites Wildniserlebnis mit erstklassigem Safari-Service.",
-      "rating": 5
-    },
-    {
-      "image": { "src": "/assets/Luxury/Rajasthan/Umaid Bhawan Palace.webp", "alt": "Umaid Bhawan Palace" },
-      "name": "Umaid Bhawan Palace",
-      "location": "Jodhpur, Indien",
-      "description": "Eine der weltweit größten Privatresidenzen mit königlichen Suiten und Art-Déco-Interieur.",
-      "rating": 5
-    },
-    {
-      "image": { "src": "/assets/Luxury/Rajasthan/Oberoi Udaivilas.webp", "alt": "Oberoi Udaivilas" },
-      "name": "Oberoi Udaivilas",
-      "location": "Udaipur, Indien",
-      "description": "Weitläufiges Luxusresort am Ufer des Pichola-Sees mit prachtvoller Palastarchitektur.",
-      "rating": 5
-    }
-  ],
-  "inclusions": [
-    { "icon": "fas fa-hotel", "title": "Luxus-Unterkunft", "description": "8 Nächte in Luxus-Palasthotels (Jaipur, Ranthambore, Jodhpur, Udaipur) inkl. Frühstück" },
-    { "icon": "fas fa-utensils", "title": "Gourmet-Dining", "description": "Frühstück + 5 private kulinarische Erlebnisse (Chef’s Table und Palast-Dinner)" },
-    { "icon": "fas fa-car", "title": "Private Transfers", "description": "Durchgehend private Luxusfahrzeuge + Inlandsflüge oder Chauffeur-Service" },
-    { "icon": "fas fa-user-tie", "title": "Professionelle Guides", "description": "Englischsprachige Profi-Guides für alle geplanten Besichtigungen" },
-    { "icon": "fas fa-paw", "title": "Safari-Erlebnisse", "description": "2 Safaris im Ranthambore Nationalpark inkl. Genehmigungen & Gebühren" },
-    { "icon": "fas fa-ship", "title": "Bootsfahrt", "description": "Private Sonnenuntergangs-Bootsfahrt auf dem Pichola-See mit Champagner & Canapés" },
-    { "icon": "fas fa-gem", "title": "Kuratierte Erlebnisse", "description": "3 private Erlebnisse (Jaipur Dinner, Shopping-Tour, Udaipur Chef's Table)" },
-    { "icon": "fas fa-shield-alt", "title": "Steuern & Support", "description": "Sämtliche Eintrittsgelder, Fast-Track-Zugang und 24/7 Concierge-Support" }
-  ]
-},
-"kerala-luxury-tour-package": {
-  "file_name": "kerala-luxury-tour-package.html",
-  "hero_section": {
-    "type": "package-hero",
-    "badge": "Премиум-пакет",
-    "title": "Роскошный тур по Керале 7 ночей/8 дней (Кочи, Аллеппи, Муннар, Теккади, Пувар)",
-    "location": "Kochi, Alleppey, Munnar, Thekkady, Poovar - 7N/8D",
-    "cta_text": "Забронировать сейчас",
-    "cta_link": "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%207N/8D%20Kerala%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
-    "background_image": "/assets/Luxury/Kerala/hero-comprehensive.webp"
-  },
-  "itinerary": {
-    "title": "Комплексный роскошный отдых в Керале",
-    "days": [
-      {
-        "day_title": "День 01: Прибытие в Кочи (1 ночь)",
-        "location": "Kochi",
-        "description": "Прибытие в аэропорт Кочи. Частный трансфер в отель. Дневная экскурсия: Форт Кочи, китайские рыболовные сети, церковь Св. Франциска, дворец Маттанчерри и еврейская синагога.",
-        "activities": [
-          "Вечерняя программа: танцевальное шоу Катхакали или роскошный круиз с ужином",
-          "Ночь в Кочи (Роскошный 5★ отель/курорт)"
-        ]
-      },
-      {
-        "day_title": "День 02: Кочи → Аллеппи (Роскошный плавучий дом – 1 ночь)",
-        "location": "Alleppey",
-        "description": "После завтрака переезд в Аллеппи. Заселение в частный роскошный хаусбот (плавучий дом). Круиз по заводям мимо лагун, кокосовых рощ и деревень. Обед и ужин на борту.",
-        "activities": [
-          "Живописный круиз по заводям",
-          "Традиционная кухня Кералы",
-          "Ночь на роскошном хаусботе"
-        ]
-      },
-      {
-        "day_title": "День 03: Аллеппи → Муннар (2 ночи)",
-        "location": "Munnar",
-        "description": "Завтрак на борту и выезд. Переезд в Муннар через живописные холмы, чайные плантации и водопады. Свободный вечер для отдыха на курорте.",
-        "activities": [
-          "Поездка через чайные плантации",
-          "Ночь в Муннаре (Роскошный курорт)"
-        ]
-      },
-      {
-        "day_title": "День 04: Достопримечательности Муннара",
-        "location": "Munnar",
-        "description": "Полный день в Муннаре: национальный парк Эравикулам, Музей чая, плотина Маттупетти и озеро Кундала (прогулка на лодке).",
-        "activities": [
-          "Наблюдение за дикой природой в парке Эравикулам",
-          "Тур по чайным плантациям и дегустация",
-          "Прогулка на лодке по озеру Кундала",
-          "Ночь в Муннаре"
-        ]
-      },
-      {
-        "day_title": "День 05: Муннар → Теккади (1 ночь)",
-        "location": "Thekkady",
-        "description": "Переезд в Теккади. Заселение в люкс-курорт среди плантаций специй. Круиз по озеру Перияр (наблюдение за слонами) и тур по плантации специй.",
-        "activities": [
-          "Лодочный круиз по озеру Перияр",
-          "Тур по плантации специй",
-          "Дополнительно: боевое искусство Каларипаятту",
-          "Ночь в Теккади (Роскошный курорт)"
-        ]
-      },
-      {
-        "day_title": "День 06: Теккади → Пувар (1 ночь)",
-        "location": "Poovar",
-        "description": "Переезд в Пувар. Заселение в роскошный курорт на побережье. Свободный вечер в месте, где река встречается с морем.",
-        "activities": [
-          "Вид на закат в эстуарии",
-          "Ночь в Пуваре (Роскошный курорт)"
-        ]
-      },
-      {
-        "day_title": "День 07: Отдых в Пуваре / Визит в Ковалам (1 ночь)",
-        "location": "Poovar",
-        "description": "Утренний отдых на пляже Пувар. Опционально: поездка в Ковалам для пляжного отдыха. Аюрведический спа или круиз на закате.",
-        "activities": [
-          "Сеанс аюрведического спа",
-          "Круиз на закате в заводях Пувара",
-          "Дополнительная экскурсия на пляж Ковалам",
-          "Ночь в Пуваре"
-        ]
-      },
-      {
-        "day_title": "День 08: Отъезд (Аэропорт Тривандрам / Кочи)",
-        "location": "Departure",
-        "description": "Завтрак и выезд. Трансфер в аэропорт Тривандрам или Кочи в зависимости от вашего рейса.",
-        "activities": []
-      }
-    ]
-  },
-  "accommodations": [
-    {
-      "image": { "src": "/assets/Luxury/Kerala/grand-hyatt-kochi.webp", "alt": "Grand Hyatt Kochi Bolgatty" },
-      "name": "Grand Hyatt Kochi Bolgatty",
-      "location": "Кочи, Индия",
-      "description": "Роскошный 5-звездочный отель на острове Болгатти с панорамным видом на заводи.",
-      "rating": 5
-    },
-    {
-      "image": { "src": "/assets/Luxury/Kerala/blanket-resort.webp", "alt": "Blanket Hotel & Spa" },
-      "name": "Blanket Hotel & Spa",
-      "location": "Муннар, Индия",
-      "description": "Горный курорт среди чайных плантаций с премиальными спа-услугами.",
-      "rating": 5
-    },
-    {
-      "image": { "src": "/assets/Luxury/Kerala/elephant-court.webp", "alt": "Elephant Court" },
-      "name": "Elephant Court",
-      "location": "Теккади, Индия",
-      "description": "Элегантный курорт рядом с заповедником Перияр.",
-      "rating": 5
-    },
-    {
-      "image": { "src": "/assets/Luxury/Kerala/estuary-sarovar.webp", "alt": "Estuary Sarovar Portico" },
-      "name": "Estuary Sarovar Portico",
-      "location": "Пувар, Индия",
-      "description": "Курорт на стыке реки и моря с уникальными видами на эстуарий.",
-      "rating": 5
-    }
-  ],
-  "inclusions": [
-    { "icon": "fas fa-hotel", "title": "Размещение премиум-класса", "description": "1н Кочи, 1н Аллеппи (хаусбот), 2н Муннар, 1н Теккади, 2н Пувар" },
-    { "icon": "fas fa-utensils", "title": "Гурманское питание", "description": "Ежедневный завтрак + полное питание на хаусботе" },
-    { "icon": "fas fa-car", "title": "Частные VIP-трансферы", "description": "Роскошный автомобиль с кондиционером и водителем на весь тур" },
-    { "icon": "fas fa-binoculars", "title": "Эксклюзивный опыт", "description": "Круиз на закате в Пуваре, лодка на озере Перияр, сеанс Аюрведы" },
-    { "icon": "fas fa-ticket-alt", "title": "Культурная программа", "description": "Шоу Катхакали, туры по плантациям специй и чая" },
-    { "icon": "fas fa-shield-alt", "title": "Налоги и поддержка", "description": "Все применимые налоги и экскурсии включены" }
-  ]
-}
   },
 } as const;

@@ -11,12 +11,13 @@ export async function generateMetadata({
   const t = getTranslations(params.locale);
 
   return {
-    title: t.destinations.herotitle,
+    title: t.metadata?.destinations?.title || t.destinations.herotitle,
+    description: t.metadata?.destinations?.description || "Discover handpicked domestic and international destinations with Global Tourist Centre.",
   };
 }
 /* ---------- STATIC PARAMS (REQUIRED FOR EXPORT) ---------- */
 export async function generateStaticParams() {
-  const params: { locale: string}[] = [];
+  const params: { locale: string }[] = [];
 
   for (const locale of LOCALES) {
     for (const category of Object.keys(TOUR_CATEGORIES)) {

@@ -15,16 +15,17 @@ export async function generateMetadata({
   const t = getTranslations(params.locale);
 
   return {
-    title: t.hero.tagline,
+    title: t.metadata?.home?.title || "Global Tourist Centre | Your Journey Begins Here",
+    description: t.metadata?.home?.description || "Plan your perfect vacation with GTC - Goa's leading travel agency. From domestic tours to international holidays, we offer personalized packages.",
   };
 }
 const page = () => {
   return (
-    <>  
+    <>
       <HomeHero />
-      <Homeintro/>
-      <HomeForm/>
-      <AboutTestimonials/>
+      <Homeintro />
+      <HomeForm />
+      <AboutTestimonials />
     </>
   )
 }
