@@ -65,7 +65,7 @@ export default function DomesticInternationalTripsPage() {
 
           <div className="text-center mt-10">
             <a
-              href={`/${lang}/destinations/domestic`}
+              href={`/${locale}/destinations/domestic`}
               className="inline-flex items-center rounded-full px-10 py-4
                          bg-[#f8d56b] text-black font-semibold
                          hover:bg-[#f8d56b]/90 transition"
