@@ -32,3 +32,16 @@ export const LUXURY_TOUR_SLUGS = [
 
 export type LuxurySlug = keyof typeof luxuryPageContent;
 export type LuxuryTourSlug = (typeof LUXURY_TOUR_SLUGS)[number];
+
+/**
+ * Mapping of destination slugs to their valid tour package slugs.
+ * This ensures generateStaticParams() only creates valid routes.
+ */
+export const DESTINATION_TOURS: Record<LuxurySlug, LuxuryTourSlug[]> = {
+  "kerala-luxury": ["kerala-luxury-package", "kerala-luxury-tour-package"],
+  "mumbai-luxury": ["mumbai-luxury-package"],
+  "golden-triangle-luxury": ["golden-triangle-luxury-package", "6n-7d-golden-triangle-luxury-tour-package"],
+  "rajasthan-luxury": ["4n-5d-rajasthan-luxury-package", "6n-7d-rajasthan-luxury-package", "rajasthan-luxury-package"],
+  "karnataka-luxury": ["karnataka-luxury-package"],
+};
+

@@ -8,6 +8,7 @@ import {
   luxuryPageContent,
   LuxurySlug,
   LuxuryTourSlug,
+  DESTINATION_TOURS,
 } from "@/lib/data/luxury-page-content";
 
 /* ------------------------------------------------------------------ */
@@ -24,7 +25,9 @@ export function generateStaticParams() {
 
   for (const locale of LOCALES) {
     for (const destinationSlug of destinationSlugs) {
-      for (const tourSlug of LUXURY_TOUR_SLUGS) {
+      // Only generate routes for tours that belong to this destination
+      const toursForDestination = DESTINATION_TOURS[destinationSlug] || [];
+      for (const tourSlug of toursForDestination) {
         params.push({
           locale,
           destinationSlug,
