@@ -12658,7 +12658,7 @@ export const it = {
       ],
     },
   },
-  luxuryTourPackage: {
+  luxuryTourPackages: {
     "4n-5d-rajasthan-luxury-package": {
       hero_section: {
         type: "package-hero",
