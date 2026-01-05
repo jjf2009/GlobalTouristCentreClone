@@ -13,6 +13,11 @@ interface InclusionsSectionProps {
 }
 
 export function InclusionsSection({ data }: InclusionsSectionProps) {
+  // Defensive check: don't render if data is missing or empty
+  if (!data || !Array.isArray(data) || data.length === 0) {
+    return null;
+  }
+
   return (
     <section className="py-24 bg-slate-50/50">
       <div className="container mx-auto px-4">
@@ -34,7 +39,7 @@ export function InclusionsSection({ data }: InclusionsSectionProps) {
           {data.map((item, index) => (
             <InclusionCard
               key={index}
-              iconString={item.icon}
+              iconString={item.icon || "fas fa-check"}
               title={item.title}
               description={item.description}
             />
@@ -44,3 +49,4 @@ export function InclusionsSection({ data }: InclusionsSectionProps) {
     </section>
   );
 }
+

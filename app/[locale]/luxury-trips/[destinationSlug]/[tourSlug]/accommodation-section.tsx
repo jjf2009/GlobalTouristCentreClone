@@ -19,6 +19,11 @@ interface AccommodationSectionProps {
 }
 
 export function AccommodationSection({ data }: AccommodationSectionProps) {
+  // Defensive check: don't render if data is missing or empty
+  if (!data || !Array.isArray(data) || data.length === 0) {
+    return null;
+  }
+
   return (
     <section className="py-24 bg-[#fdfbf7]">
       <div className="container mx-auto px-4">
@@ -36,8 +41,8 @@ export function AccommodationSection({ data }: AccommodationSectionProps) {
           {data.map((hotel, index) => (
             <AccommodationCard
               key={index}
-              imageSrc={hotel.image.src}
-              imageAlt={hotel.image.alt}
+              imageSrc={hotel.image?.src || ""}
+              imageAlt={hotel.image?.alt || ""}
               name={hotel.name}
               location={hotel.location}
               description={hotel.description}
@@ -49,3 +54,4 @@ export function AccommodationSection({ data }: AccommodationSectionProps) {
     </section>
   );
 }
+

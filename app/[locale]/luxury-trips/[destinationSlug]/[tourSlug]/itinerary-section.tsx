@@ -18,6 +18,11 @@ interface ItinerarySectionProps {
 }
 
 export function ItinerarySection({ data }: ItinerarySectionProps) {
+  // Defensive check: don't render if data is missing or incomplete
+  if (!data || !data.days || !Array.isArray(data.days) || data.days.length === 0) {
+    return null;
+  }
+
   return (
     <section className="py-20 bg-[#fdfbf7]">
       <div className="container mx-auto px-4 max-w-5xl">
@@ -38,7 +43,7 @@ export function ItinerarySection({ data }: ItinerarySectionProps) {
               dayTitle={day.day_title}
               location={day.location}
               description={day.description}
-              activities={day.activities}
+              activities={day.activities || []}
             />
           ))}
         </div>
@@ -46,3 +51,4 @@ export function ItinerarySection({ data }: ItinerarySectionProps) {
     </section>
   );
 }
+
