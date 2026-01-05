@@ -3,7 +3,6 @@
 import { useI18n } from "@/lib/i18n/context"
 import { HeroSection } from "@/components/hero-section"
 import { ServiceCard } from "@/components/service-card"
-import { OfferBanner } from "@/components/offer-banner"
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Globe,
@@ -21,15 +20,15 @@ import {
 } from "lucide-react"
 
 export default function ServicesPage() {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
 
   const services = [
-    { icon: Globe, title: t.services.domesticInternational, description: t.services.domesticInternationalDesc },
-    { icon: Package, title: t.services.customizedHolidays, description: t.services.customizedHolidaysDesc },
-    { icon: FileText, title: t.services.visaDocumentation, description: t.services.visaDocumentationDesc },
-    { icon: Building, title: t.services.hotelBookings, description: t.services.hotelBookingsDesc },
-    { icon: Plane, title: t.services.airTicketing, description: t.services.airTicketingDesc },
-    { icon: Users, title: t.services.groupTours, description: t.services.groupToursDesc },
+    { icon: Globe, title: t.services.domesticInternational, description: t.services.domesticInternationalDesc , link: 'services/domestic-international-trips' },
+    { icon: Package, title: t.services.customizedHolidays, description: t.services.customizedHolidaysDesc,link: 'services/customize-trip-package' },
+    { icon: FileText, title: t.services.visaDocumentation, description: t.services.visaDocumentationDesc,link:'services/visa-documentation' },
+    { icon: Building, title: t.services.hotelBookings, description: t.services.hotelBookingsDesc , link:'services/hotel-booking'},
+    { icon: Plane, title: t.services.airTicketing, description: t.services.airTicketingDesc ,link:'services/flight-booking'  },
+    { icon: Users, title: t.services.groupTours, description: t.services.groupToursDesc   , link:'services/customized-group-tours' },
   ]
 
   const whyChooseUs = [
@@ -43,9 +42,9 @@ export default function ServicesPage() {
 
   return (
     <div>
-      <HeroSection title={t.services.title} backgroundQuery="traveler silhouette sunset scenic view" />
+      <HeroSection title={t.services.title} backgroundQuery="Service-hero" />
 
-      <OfferBanner mode="inline" />
+      {/* <OfferBanner mode="inline" /> */}
 
       {/* Our Services */}
       <section className="py-12 sm:py-16" aria-labelledby="services-heading">
@@ -57,14 +56,28 @@ export default function ServicesPage() {
             >
               {t.services.title}
             </h2>
-            <div className="w-12 sm:w-16 h-1 bg-primary mb-3 sm:mb-4" aria-hidden="true" />
-            <p className="text-muted-foreground text-sm sm:text-base">{t.services.subtitle}</p>
+            <div
+              className="w-12 sm:w-16 h-1 bg-primary mb-3 sm:mb-4"
+              aria-hidden="true"
+            />
+            <p className="text-muted-foreground text-sm sm:text-base">
+              {t.services.subtitle}
+            </p>
           </header>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6" role="list">
+          <div
+            className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
+            role="list"
+          >
             {services.map((service, index) => (
               <div key={index} role="listitem">
-                <ServiceCard icon={service.icon} title={service.title} description={service.description} />
+                <ServiceCard
+                  icon={service.icon}
+                  title={service.title}
+                  description={service.description}
+                  link={service.link}
+                  locale={locale}
+                />
               </div>
             ))}
           </div>
@@ -72,7 +85,10 @@ export default function ServicesPage() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-12 sm:py-16 bg-muted/50" aria-labelledby="why-choose-heading">
+      <section
+        className="py-12 sm:py-16 bg-muted/50"
+        aria-labelledby="why-choose-heading"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <header className="mb-8 sm:mb-12">
             <h2
@@ -81,12 +97,21 @@ export default function ServicesPage() {
             >
               {t.whyChoose.title}
             </h2>
-            <p className="text-muted-foreground text-sm sm:text-base">{t.whyChoose.subtitle}</p>
+            <p className="text-muted-foreground text-sm sm:text-base">
+              {t.whyChoose.subtitle}
+            </p>
           </header>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6" role="list">
+          <div
+            className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
+            role="list"
+          >
             {whyChooseUs.map((item, index) => (
-              <Card key={index} className="bg-secondary/20 hover:bg-secondary/30 transition-colors" role="listitem">
+              <Card
+                key={index}
+                className="bg-secondary/20 hover:bg-secondary/30 transition-colors"
+                role="listitem"
+              >
                 <CardContent className="p-4 sm:p-6 text-center">
                   <div
                     className="w-12 h-12 sm:w-14 sm:h-14 mx-auto mb-3 sm:mb-4 rounded-full bg-secondary/50 flex items-center justify-center"
@@ -97,7 +122,9 @@ export default function ServicesPage() {
                   <h3 className="font-serif font-semibold text-foreground mb-1.5 sm:mb-2 text-sm sm:text-base">
                     {item.title}
                   </h3>
-                  <p className="text-muted-foreground text-xs sm:text-sm">{item.description}</p>
+                  <p className="text-muted-foreground text-xs sm:text-sm">
+                    {item.description}
+                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -105,5 +132,5 @@ export default function ServicesPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }

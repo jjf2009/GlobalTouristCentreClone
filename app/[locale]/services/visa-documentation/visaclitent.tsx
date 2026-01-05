@@ -27,7 +27,6 @@ export default function VisaAgentPage() {
     const form = t.servicePages.visaAgent || {};
 
     const services = [
-
         page.service1,
         page.service2,
         page.service3,
@@ -227,6 +226,7 @@ export default function VisaAgentPage() {
                                         </div>
                                         <select
                                             className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition appearance-none bg-white"
+                                            title={form.destinationLabel || "Destination Country"}
                                             required
                                         >
                                             <option value="">{form.destinationPlaceholder || "Select Country"}</option>
@@ -258,6 +258,7 @@ export default function VisaAgentPage() {
                                         </div>
                                         <select
                                             className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition appearance-none bg-white"
+                                            title={form.visaTypeLabel || "Visa Type"}
                                             required
                                         >
                                             <option value="">{form.visaTypePlaceholder || "Select Visa Type"}</option>
@@ -282,6 +283,7 @@ export default function VisaAgentPage() {
                                         </div>
                                         <input
                                             type="date"
+                                            // placeholder={form.travelDatePlaceholder || "Select your travel date"}
                                             className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                                             required
                                         />
