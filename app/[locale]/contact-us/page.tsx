@@ -1,4 +1,4 @@
-"use client"
+
 
 import { ContactHero } from "./ContactHero";
 import { ContactInfoGrid } from "./ContactInfoGrid";
@@ -14,13 +14,16 @@ export async function generateMetadata({
 }: {
   params: { locale: string };
 }): Promise<Metadata> {
-  const t = getTranslations(params.locale);
+  const t = await getTranslations(params.locale);
 
   return {
-    title: t.metadata?.contact?.title || "Contact Us | Global Tourist Centre",
-    description: t.metadata?.contact?.description || "Contact Global Tourist Centre for personalized travel packages and visa assistance.",
+    title: t.metadata?.contact?.title ?? "Contact Us | Global Tourist Centre",
+    description:
+      t.metadata?.contact?.description ??
+      "Contact Global Tourist Centre for personalized travel packages and visa assistance.",
   };
 }
+
 
 export default function ContactPage() {
   return (
