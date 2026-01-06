@@ -80,8 +80,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title,
-      description,
+      title:pageData.hero.title,
+      description:pageData.hero.description,
     },
   };
 }
