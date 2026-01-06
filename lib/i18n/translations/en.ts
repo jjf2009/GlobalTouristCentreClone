@@ -26,6 +26,41 @@ export const en = {
     contact: "Contact",
     blog: "Blog",
   },
+  // Page Metadata for SEO
+  metadata: {
+    home: {
+      title: "India No.1 Domestic & International Travel Agency in Goa | GTC",
+      description: "Plan your perfect getaway with GTC – Goa's No.1 travel agency. From domestic tours to global holidays, we offer custom packages, flight & rail bookings, and expert travel support.",
+    },
+    about: {
+      title: "Global Tourist Centre – Your Trusted Travel Partner",
+      description: "Discover Global Tourist Centre – Goa's trusted travel agency since 2010. Offering bespoke domestic & international tours, customized itineraries, and expert travel support.",
+    },
+    contact: {
+      title: "Contact Global Tourist Centre – Your Travel Partner",
+      description: "Get in touch with Global Tourist Centre in Goa. Call, email, or visit us for personalized travel packages, visa support, and tour enquiries.",
+    },
+    destinations: {
+      title: "Explore Destinations | Global Tourist Centre",
+      description: "Discover handpicked domestic and international destinations with Global Tourist Centre. From serene beaches to majestic mountains, find your perfect getaway.",
+    },
+    services: {
+      title: "Global Tourist Centre – Services: Visa, Hotels & Tour Packages",
+      description: "Explore tailored travel solutions with Global Tourist Centre—visa assistance, hotel bookings, and domestic/international tour packages in South Goa.",
+    },
+    blog: {
+      title: "Global Tourist Centre Blog – Inspiring Travel Stories & Guides",
+      description: "Explore Global Tourist Centre's travel blog—discover inspiring trip stories, curated destination guides, and travel tips from India and beyond to fuel your wanderlust.",
+    },
+    luxuryDestinations: {
+      title: "Luxury Indian Tours | Global Tourist Centre – Premium Suites, Palaces & World Destinations",
+      description: "Explore our curated luxury Indian tours and worldwide premium getaways with Global Tourist Centre. From heritage palaces to over-water villas, enjoy exquisite stays, private transfers and tailor-made experiences.",
+    },
+    landingPage: {
+      title: "Global Tourist Centre | Luxury Travel Experiences",
+      description: "Experience unforgettable journeys with Goa's premier travel agency. Luxury domestic & international tour packages, customized trips, and exclusive experiences.",
+    },
+  },
   // Hero Section
   hero: {
     title: "Discover Extraordinary Journeys",
@@ -12588,7 +12623,10 @@ export const en = {
         discountBadge: "Up to 20% OFF on Early Bookings",
         image: "/assets/Luxury/Mumbai/mumbai-hero.webp",
       },
-
+      metadata:{
+        title:"Mumbai Luxury Trip Package | Global Tourist Centre – Premium Mumbai Getaway",
+        description:"Explore the exclusive Mumbai luxury trip package from Global Tourist Centre. Experience 5-star hotels, private chauffeur drives, premium dining and curated city tours in India’s City of Dreams "
+      },
       toursSection: {
         title: "Premium Mumbai Tour Packages",
         packages: [
@@ -12639,6 +12677,10 @@ export const en = {
           "Experience India’s most iconic cultural circuit in unparalleled luxury across Delhi, Agra, and Jaipur.",
         discountBadge: "Up to 25% OFF on Early Bookings",
         image: "/assets/Luxury/Golden Triangle/hero.webp",
+      },
+      meta:{
+       title:"Luxury Golden Triangle Tour | Premium Delhi-Agra-Jaipur Circuit – Global Tourist Centre",
+       description:"Enjoy an exclusive luxury Golden Triangle tour with Global Tourist Centre: indulgent stays in heritage palaces, private chauffeur transfers, VIP sightseeing of Delhi, Agra & Jaipur, and curated experiences for discerning travellers."
       },
 
       toursSection: {
@@ -12697,9 +12739,13 @@ export const en = {
       hero: {
         title: "Kerala Luxury Tours",
         description:
-          "Cruise serene backwaters, stay in premium houseboats, rejuvenate with ayurveda, and explore lush hill stations.",
+          "Experience God's Own Country in ultimate luxury. Cruise through serene backwaters, stay in premium houseboats, rejuvenate with ayurveda, and explore lush hill stations",
         discountBadge: "Up to 30% OFF on Early Bookings",
         image: "/assets/Luxury/Kerala/hero-backwaters.webp",
+      },
+      meta:{
+       title:"Kerala Luxury Tour Package | Global Tourist Centre – Premium Kerala Getaway",
+       description:"Our exclusive Kerala luxury tour package with Global Tourist Centre. Experience opulent stays, private houseboats, scenic hill-stations and backwaters, along with personalized service and unforgettable moments in “God’s Own Country”"
       },
 
       toursSection: {
@@ -12756,9 +12802,13 @@ export const en = {
       hero: {
         title: "Rajasthan Royal Tours",
         description:
-          "Stay in majestic palaces, explore ancient forts, and experience India’s royal heritage.",
+          "Experience the royal heritage of Rajasthan with our exclusive luxury tours. Stay in majestic palaces, explore ancient forts, and immerse yourself in the vibrant culture of India's Land of Kings.",
         discountBadge: "Up to 30% OFF on Early Bookings",
         image: "/assets/Luxury/Rajasthan/Rajasthan-Luxury.webp",
+      },
+      meta:{
+       title:"Luxury Rajasthan Tour | Global Tourist Centre – Royal Heritage & 5‑Star Comfort",
+       description:"Explore the ultimate Rajasthan luxury tour package with Global Tourist Centre — stay in palaces & heritage hotels, enjoy private guides, curated experiences and seamless transfers across Jaipur, Udaipur, Jodhpur and more. Book your royal journey now!"
       },
 
       toursSection: {
@@ -12828,6 +12878,10 @@ export const en = {
         discountBadge: "Up to 25% OFF on Early Bookings",
         image: "/assets/Luxury/Karnataka/hero.webp",
       },
+      meta:{
+        title:"Karnataka Luxury Tour – Bespoke Heritage & Wildlife Experience | Global Tourist Centre",
+        description:"Embark on an unforgettable karnataka luxury tour with Global Tourist Centre. Stay in royal palaces, explore Mysore’s regal heritage, delve into Bandipur’s wild safaris, unwind in the Western Ghats, and enjoy private guides plus gourmet dining in style."
+      },
 
       toursSection: {
         title: "Premium Karnataka Tour Packages",
@@ -12879,6 +12933,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%204N/5D%20Rajasthan%20Luxury%20Package%20(Jaipur%20%26%20Udaipur).%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Rajasthan/raj1-hero.webp",
+      },
+      metadata:{
+        title:"Luxury 4N/5D Rajasthan Luxury Tour Package | Global Tourist Centre",
+        description:"A decadent 4N/5D Rajasthan luxury tour package with Global Tourist Centre — stay in royal heritage hotels, explore Jaipur, Udaipur & Jodhpur, enjoy private transfers, curated experiences and seamless service. Book your regal escape now."
       },
       itinerary: {
         title: "Royal Experience of Jaipur & Udaipur",
@@ -13053,6 +13111,10 @@ export const en = {
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%206N/7D%20Golden%20Triangle%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Golden Triangle/hero.webp",
       },
+      metadata:{
+        title:"6 N/7 D Luxury Golden Triangle Tour Package | Global Tourist Centre",
+        description:"Embark on our 6 N/7 D luxury Golden Triangle tour package with Global Tourist Centre — premium heritage palaces, private chauffeur transfers, Taj Mahal sunrise, Jaipur royal stays, and impeccable service for discerning travellers."
+      },
       itinerary: {
         title: "Journey Through India's Cultural Heartland",
         days: [
@@ -13206,6 +13268,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%206N/7D%20Rajasthan%20Luxury%20Package%20(Jaipur,%20Jodhpur%20%26%20Udaipur).%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Rajasthan/raj2-hero.webp",
+      },
+      metadata:{
+        title:"Luxury 6N/7D Rajasthan Luxury Tour Package | Global Tourist Centre",
+        description:"Embark on a 6n/7d Rajasthan luxury tour package with Global Tourist Centre — stay in palace‑heritage hotels, explore Jaipur, Udaipur, Jodhpur & Jaisalmer, enjoy private transfers, curated experiences and royal service. Reserve your regal escape today!"
       },
       footer: {
         about:
@@ -13479,6 +13545,10 @@ export const en = {
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%204N/5D%20Golden%20Triangle%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Golden Triangle/hero.webp",
       },
+      metadata:{
+        title:"4N/5D Luxury Golden Triangle Tour Package | Global Tourist Centre",
+        description:"Explore our exclusive 4 N/5 D luxury Golden Triangle tour package with Global Tourist Centre. Stay in heritage palaces, travel by private chauffeur from Delhi to Agra and Jaipur, enjoy VIP sightseeing and lavish experiences crafted for discerning travellers.",
+      },
       itinerary: {
         title: "Journey Through India's Cultural Heartland",
         days: [
@@ -13613,6 +13683,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%20Karnataka%20Luxury%20Tour%20Package%20(Bangalore,%20Mysore%20%26%20Ooty).%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Karnataka/hero.webp",
+      },
+      metadata:{
+        title:"7N/8D Karnataka Luxury Tour Package | Global Tourist Centre – Heritage Hotels & Private Safari",
+        description:"Experience an exquisite 7n/8d Karnataka luxury tour package with Global Tourist Centre: From Bengaluru’s cosmopolitan 5‑star comforts to Mysore’s regal palaces, a private safari in Bandipur and tea‑estate stays in Ooty"
       },
       footer: {
         about:
@@ -13825,130 +13899,134 @@ export const en = {
         },
       ],
     },
-"kerala-luxury-package": {
-  "file_name": "Kerala-luxury-package.html",
-  "hero_section": {
-    "type": "package-hero",
-    "badge": "Pacchetto Premium",
-    "title": "Pacchetto Lusso Kerala 4N/5G (Cochin, Alleppey, Munnar)",
-    "location": "Cochin, Munnar, Alleppey - 4N/5D",
-    "cta_text": "Prenota ora",
-    "cta_link": "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%204N/5D%20Kerala%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
-    "background_image": "/assets/Luxury/Kerala/hero-backwaters.webp"
-  },
-  "itinerary": {
-    "title": "Viaggio nella Terra di Dio",
-    "days": [
-      {
-        "day_title": "Giorno 01: Arrivo a Cochin (1 notte)",
-        "location": "Cochin",
-        "description": "Arrivo all'aeroporto internazionale di Cochin. Trasferimento privato di lusso al vostro hotel 5★. Pomeriggio dedicato alla visita di Cochin, inclusi Fort Kochi, il Palazzo Mattancherry (Palazzo Olandese), la Sinagoga Ebraica, la Chiesa di San Francesco e le Reti da Pesca Cinesi.",
-        "activities": [
-          "Sera: Spettacolo di danza Kathakali / Crociera con cena di lusso",
-          "Pernottamento a Cochin (Hotel/Resort 5★)"
+    "kerala-luxury-package": {
+      "file_name": "Kerala-luxury-package.html",
+      "hero_section": {
+        "type": "package-hero",
+        "badge": "Pacchetto Premium",
+        "title": "Pacchetto Lusso Kerala 4N/5G (Cochin, Alleppey, Munnar)",
+        "location": "Cochin, Munnar, Alleppey - 4N/5D",
+        "cta_text": "Prenota ora",
+        "cta_link": "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%204N/5D%20Kerala%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
+        "background_image": "/assets/Luxury/Kerala/hero-backwaters.webp"
+      },
+      metadata:{
+        title:"4N/5D Kerala Luxury Trip Package – 30% Off | Global Tourist Centre",
+        description:"Book your 4N/5D Kerala luxury trip package at a 30% discount with Global Tourist Centre. Enjoy over-water villas, private back-water cruises, hill-station views, personalised service and opulent stays in God’s Own Country"
+      },
+      "itinerary": {
+        "title": "Viaggio nella Terra di Dio",
+        "days": [
+          {
+            "day_title": "Giorno 01: Arrivo a Cochin (1 notte)",
+            "location": "Cochin",
+            "description": "Arrivo all'aeroporto internazionale di Cochin. Trasferimento privato di lusso al vostro hotel 5★. Pomeriggio dedicato alla visita di Cochin, inclusi Fort Kochi, il Palazzo Mattancherry (Palazzo Olandese), la Sinagoga Ebraica, la Chiesa di San Francesco e le Reti da Pesca Cinesi.",
+            "activities": [
+              "Sera: Spettacolo di danza Kathakali / Crociera con cena di lusso",
+              "Pernottamento a Cochin (Hotel/Resort 5★)"
+            ]
+          },
+          {
+            "day_title": "Giorno 02: Cochin → Munnar (Circa 4,5 ore di auto) (2 notti)",
+            "location": "Munnar",
+            "description": "Colazione in hotel. Partenza per Munnar godendo dei paesaggi delle piantagioni di tè, cascate e vegetazione lussureggiante lungo il percorso. Check-in in un resort di lusso in collina. Serata libera presso il resort con sessione spa/ayurveda.",
+            "activities": [
+              "Sessione spa di lusso o trattamento ayurvedico",
+              "Pernottamento a Munnar (Resort di lusso 5★)"
+            ]
+          },
+          {
+            "day_title": "Giorno 03: Visite a Munnar",
+            "location": "Munnar",
+            "description": "Dopo colazione, visita di Munnar per l'intera giornata: Parco Nazionale di Eravikulam (habitat del Nilgiri Tahr), Museo del Tè e piantagioni, Diga di Mattupetty, Echo Point e Lago Kundala (Giro in barca).",
+            "activities": [
+              "Esperienza in barca sul Lago Kundala",
+              "Serata libera per lo shopping (tè, spezie, cioccolato artigianale)",
+              "Pernottamento a Munnar"
+            ]
+          },
+          {
+            "day_title": "Giorno 04: Munnar → Alleppey (Soggiorno in Houseboat – 1 notte)",
+            "location": "Alleppey",
+            "description": "Dopo colazione, partenza per Alleppey (circa 5 ore). Check-in in una Houseboat privata di lusso. Navigazione attraverso le panoramiche backwaters, passando tra villaggi, risaie e lagune di cocco. Pranzo e cena tradizionali del Kerala a bordo.",
+            "activities": [
+              "Vista del tramonto dal ponte della houseboat",
+              "Pernottamento in Houseboat di lusso"
+            ]
+          },
+          {
+            "day_title": "Giorno 05: Partenza da Alleppey verso Cochin",
+            "location": "Departure",
+            "description": "Colazione a bordo. Check-out e ritorno a Cochin. Trasferimento in aeroporto o stazione ferroviaria con splendidi ricordi del Kerala.",
+            "activities": []
+          }
         ]
       },
-      {
-        "day_title": "Giorno 02: Cochin → Munnar (Circa 4,5 ore di auto) (2 notti)",
-        "location": "Munnar",
-        "description": "Colazione in hotel. Partenza per Munnar godendo dei paesaggi delle piantagioni di tè, cascate e vegetazione lussureggiante lungo il percorso. Check-in in un resort di lusso in collina. Serata libera presso il resort con sessione spa/ayurveda.",
-        "activities": [
-          "Sessione spa di lusso o trattamento ayurvedico",
-          "Pernottamento a Munnar (Resort di lusso 5★)"
-        ]
-      },
-      {
-        "day_title": "Giorno 03: Visite a Munnar",
-        "location": "Munnar",
-        "description": "Dopo colazione, visita di Munnar per l'intera giornata: Parco Nazionale di Eravikulam (habitat del Nilgiri Tahr), Museo del Tè e piantagioni, Diga di Mattupetty, Echo Point e Lago Kundala (Giro in barca).",
-        "activities": [
-          "Esperienza in barca sul Lago Kundala",
-          "Serata libera per lo shopping (tè, spezie, cioccolato artigianale)",
-          "Pernottamento a Munnar"
-        ]
-      },
-      {
-        "day_title": "Giorno 04: Munnar → Alleppey (Soggiorno in Houseboat – 1 notte)",
-        "location": "Alleppey",
-        "description": "Dopo colazione, partenza per Alleppey (circa 5 ore). Check-in in una Houseboat privata di lusso. Navigazione attraverso le panoramiche backwaters, passando tra villaggi, risaie e lagune di cocco. Pranzo e cena tradizionali del Kerala a bordo.",
-        "activities": [
-          "Vista del tramonto dal ponte della houseboat",
-          "Pernottamento in Houseboat di lusso"
-        ]
-      },
-      {
-        "day_title": "Giorno 05: Partenza da Alleppey verso Cochin",
-        "location": "Departure",
-        "description": "Colazione a bordo. Check-out e ritorno a Cochin. Trasferimento in aeroporto o stazione ferroviaria con splendidi ricordi del Kerala.",
-        "activities": []
-      }
-    ]
-  },
-  "accommodations": [
-    {
-      "image": {
-        "src": "/assets/Luxury/Kerala/forte-kochi.webp",
-        "alt": "Forte Kochi - Boutique Hotel storico e di lusso"
-      },
-      "name": "Forte Kochi",
-      "location": "Kochi, India",
-      "description": "Boutique hotel di lusso e patrimonio storico, offre sistemazioni eleganti con fascino coloniale e comfort moderni nel cuore di Fort Kochi.",
-      "rating": 5
+      "accommodations": [
+        {
+          "image": {
+            "src": "/assets/Luxury/Kerala/forte-kochi.webp",
+            "alt": "Forte Kochi - Boutique Hotel storico e di lusso"
+          },
+          "name": "Forte Kochi",
+          "location": "Kochi, India",
+          "description": "Boutique hotel di lusso e patrimonio storico, offre sistemazioni eleganti con fascino coloniale e comfort moderni nel cuore di Fort Kochi.",
+          "rating": 5
+        },
+        {
+          "image": {
+            "src": "/assets/Luxury/Kerala/hotel-amber-dale.webp",
+            "alt": "Hotel Amber Dale"
+          },
+          "name": "Hotel Amber Dale",
+          "location": "Munnar, India",
+          "description": "Hotel di lusso immerso tra le colline di Munnar con viste mozzafiato sulle piantagioni di tè, servizi premium e centro benessere.",
+          "rating": 5
+        },
+        {
+          "image": {
+            "src": "/assets/Luxury/Kerala/southern-panorama-cruise.webp",
+            "alt": "Southern Panorama Cruise Luxury"
+          },
+          "name": "Southern Panorama Cruise Luxury",
+          "location": "Alleppey, India",
+          "description": "Houseboat di lusso con servizi di alta gamma, cucina tradizionale del Kerala e viste panoramiche sulle serene backwaters.",
+          "rating": 5
+        }
+      ],
+      "inclusions": [
+        {
+          "icon": "fas fa-hotel",
+          "title": "Sistemazione di Lusso",
+          "description": "1 Notte a Cochin (Hotel/Resort 5★), 2 Notti a Munnar (Resort di lusso con vista), 1 Notte ad Alleppey (Houseboat privata di lusso)"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "Ristorazione Gourmet",
+          "description": "Colazione quotidiana + tutti i pasti sulla Houseboat"
+        },
+        {
+          "icon": "fas fa-car",
+          "title": "Trasferimenti Privati",
+          "description": "Veicolo AC di lusso privato per trasferimenti e visite turistiche"
+        },
+        {
+          "icon": "fas fa-user-tie",
+          "title": "Guide Professionali",
+          "description": "Autista/Guida, parcheggi, pedaggi e tasse inclusi"
+        },
+        {
+          "icon": "fas fa-ticket-alt",
+          "title": "Attività ed Esperienze",
+          "description": "Programma culturale Kathakali o Crociera con cena, 1 sessione spa/ayurveda, giro in barca sul lago Kundala"
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Tasse e Assistenza",
+          "description": "Tutti i parcheggi, pedaggi, tasse applicabili e assistenza h24"
+        }
+      ]
     },
-    {
-      "image": {
-        "src": "/assets/Luxury/Kerala/hotel-amber-dale.webp",
-        "alt": "Hotel Amber Dale"
-      },
-      "name": "Hotel Amber Dale",
-      "location": "Munnar, India",
-      "description": "Hotel di lusso immerso tra le colline di Munnar con viste mozzafiato sulle piantagioni di tè, servizi premium e centro benessere.",
-      "rating": 5
-    },
-    {
-      "image": {
-        "src": "/assets/Luxury/Kerala/southern-panorama-cruise.webp",
-        "alt": "Southern Panorama Cruise Luxury"
-      },
-      "name": "Southern Panorama Cruise Luxury",
-      "location": "Alleppey, India",
-      "description": "Houseboat di lusso con servizi di alta gamma, cucina tradizionale del Kerala e viste panoramiche sulle serene backwaters.",
-      "rating": 5
-    }
-  ],
-  "inclusions": [
-    {
-      "icon": "fas fa-hotel",
-      "title": "Sistemazione di Lusso",
-      "description": "1 Notte a Cochin (Hotel/Resort 5★), 2 Notti a Munnar (Resort di lusso con vista), 1 Notte ad Alleppey (Houseboat privata di lusso)"
-    },
-    {
-      "icon": "fas fa-utensils",
-      "title": "Ristorazione Gourmet",
-      "description": "Colazione quotidiana + tutti i pasti sulla Houseboat"
-    },
-    {
-      "icon": "fas fa-car",
-      "title": "Trasferimenti Privati",
-      "description": "Veicolo AC di lusso privato per trasferimenti e visite turistiche"
-    },
-    {
-      "icon": "fas fa-user-tie",
-      "title": "Guide Professionali",
-      "description": "Autista/Guida, parcheggi, pedaggi e tasse inclusi"
-    },
-    {
-      "icon": "fas fa-ticket-alt",
-      "title": "Attività ed Esperienze",
-      "description": "Programma culturale Kathakali o Crociera con cena, 1 sessione spa/ayurveda, giro in barca sul lago Kundala"
-    },
-    {
-      "icon": "fas fa-shield-alt",
-      "title": "Tasse e Assistenza",
-      "description": "Tutti i parcheggi, pedaggi, tasse applicabili e assistenza h24"
-    }
-  ]
-},
     "mumbai-luxury-package": {
       file_name: "mumbai-luxury-package.html",
       hero_section: {
@@ -13960,6 +14038,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%202N/3D%20Mumbai%20Luxury%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Mumbai/mumbai-hero.webp",
+      },
+      metadata:{
+        title:"2N/3D Mumbai Luxury Tour Package | Premium Mumbai Getaway – Global Tourist Centre",
+        description:"Our exclusive 2 N/3 D Mumbai luxury tour package with Global Tourist Centre. Stay in 5-star hotels, enjoy private chauffeur transfers, premium city tours and curated experiences in India’s “City of Dreams”."
       },
       footer: {
         about:
@@ -14155,6 +14237,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%208N/9D%20Rajasthan%20Luxury%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Rajasthan/raj3-hero.webp",
+      },
+      metadata:{
+        title:"8N/9D Rajasthan Luxury Tour Package | Global Tourist Centre – Royal Heritage, 5★ Comfort",
+        description:"The ultimate 8n/9d Rajasthan luxury tour package with Global Tourist Centre — stay in palace‑heritage hotels across Jaipur, Udaipur, Jodhpur & Jaisalmer, enjoy private transfers, curated royal experiences, and seamless VIP service. Book your regal escape today.",
       },
       itinerary: {
         title: "Royal Rajasthan Journey Through Palaces & Forts",
@@ -14365,6 +14451,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%207N/8D%20Kerala%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Kerala/hero-comprehensive.webp",
+      },
+      metadata:{
+        title:"7N/8D Kerala Luxury Trip Package – 30% Off | Global Tourist Centre",
+        description:"Enjoy our exclusive 7N/8D Kerala luxury trip package with 30% off. Experience ultra-luxury stays, private back-water cruises, hill-station views and personalised service in God’s Own Country with Global Tourist Centre."
       },
       itinerary: {
         title: "Comprehensive Kerala Luxury Experience",

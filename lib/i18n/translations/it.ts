@@ -25,6 +25,41 @@ export const it = {
     contact: "Contatti",
     blog: "Blog",
   },
+  // Page Metadata for SEO
+  metadata: {
+    home: {
+      title: "Agenzia di viaggi n.1 in India per viaggi nazionali e internazionali a Goa | GTC",
+      description: "Pianifica la tua vacanza perfetta con GTC – la principale agenzia di viaggi di Goa. Dai viaggi nazionali alle vacanze internazionali, offriamo pacchetti personalizzati e supporto esperto.",
+    },
+    about: {
+      title: "Global Tourist Centre – Il tuo partner di viaggio di fiducia",
+      description: "Scopri Global Tourist Centre – l'agenzia di viaggi di fiducia di Goa dal 2010. Viaggi su misura nazionali e internazionali con supporto esperto.",
+    },
+    contact: {
+      title: "Contatta Global Tourist Centre – Il tuo partner di viaggio",
+      description: "Contatta Global Tourist Centre a Goa. Chiamaci, inviaci un'email o visitaci per pacchetti personalizzati e assistenza visti.",
+    },
+    destinations: {
+      title: "Scopri le destinazioni | Global Tourist Centre",
+      description: "Scopri destinazioni nazionali e internazionali selezionate con cura. Dalle spiagge serene alle montagne maestose.",
+    },
+    services: {
+      title: "Global Tourist Centre – Servizi: Visti, Hotel e Pacchetti viaggio",
+      description: "Soluzioni di viaggio su misura con Global Tourist Centre – assistenza visti, prenotazioni hotel e pacchetti viaggio a Goa Sud.",
+    },
+    blog: {
+      title: "Blog Global Tourist Centre – Storie di viaggio ispiratrici e Guide",
+      description: "Scopri il nostro blog di viaggio con storie ispiratrici, guide delle destinazioni e consigli di viaggio dall'India e dal mondo.",
+    },
+    luxuryDestinations: {
+      title: "Viaggi di lusso in India | Global Tourist Centre – Suite premium e Destinazioni mondiali",
+      description: "Scopri i nostri viaggi di lusso in India e nel mondo. Dai palazzi storici alle ville sull'acqua – soggiorni esclusivi ed esperienze su misura.",
+    },
+    landingPage: {
+      title: "Global Tourist Centre | Esperienze di viaggio di lusso",
+      description: "Vivi viaggi indimenticabili con la principale agenzia di viaggi di Goa. Pacchetti lusso nazionali e internazionali, viaggi personalizzati.",
+    },
+  },
   // Hero Section
   hero: {
     title: "Scopri Viaggi Straordinari",

@@ -25,6 +25,41 @@ export const de = {
     contact: "Kontakt",
     blog: "Blog",
   },
+  // Page Metadata for SEO
+  metadata: {
+    home: {
+      title: "Indiens Nr. 1 Reisebüro für In- und Auslandsreisen in Goa | GTC",
+      description: "Planen Sie Ihren perfekten Urlaub mit GTC – Goas führendem Reisebüro. Von Inlandsreisen bis zu internationalen Reisen bieten wir maßgeschneiderte Pakete, Flug- und Bahnbuchungen sowie Expertenberatung.",
+    },
+    about: {
+      title: "Global Tourist Centre – Ihr vertrauenswürdiger Reisepartner",
+      description: "Entdecken Sie Global Tourist Centre – Goas vertrauenswürdiges Reisebüro seit 2010. Maßgeschneiderte In- und Auslandsreisen sowie Expertenberatung.",
+    },
+    contact: {
+      title: "Global Tourist Centre kontaktieren – Ihr Reisepartner",
+      description: "Kontaktieren Sie Global Tourist Centre in Goa. Rufen Sie an, mailen Sie oder besuchen Sie uns für personalisierte Reisepakete und Visum-Unterstützung.",
+    },
+    destinations: {
+      title: "Reiseziele entdecken | Global Tourist Centre",
+      description: "Entdecken Sie handverlesene In- und Auslandsziele mit Global Tourist Centre. Von ruhigen Stränden bis zu majestätischen Bergen.",
+    },
+    services: {
+      title: "Global Tourist Centre – Dienstleistungen: Visum, Hotels & Reisepakete",
+      description: "Maßgeschneiderte Reiselösungen mit Global Tourist Centre – Visum-Unterstützung, Hotelbuchungen und Reisepakete in Süd-Goa.",
+    },
+    blog: {
+      title: "Global Tourist Centre Blog – Inspirierende Reisegeschichten & Guides",
+      description: "Entdecken Sie unseren Reiseblog mit inspirierenden Reisegeschichten, kuratierten Reiseführern und Tipps aus Indien und der Welt.",
+    },
+    luxuryDestinations: {
+      title: "Luxusreisen Indien | Global Tourist Centre – Premium Suiten & Weltweite Ziele",
+      description: "Entdecken Sie kuratierte Luxusreisen in Indien und weltweit. Von Erbpalästen bis zu Überwasservillen – exklusive Aufenthalte und maßgeschneiderte Erlebnisse.",
+    },
+    landingPage: {
+      title: "Global Tourist Centre | Luxuriöse Reiseerlebnisse",
+      description: "Erleben Sie unvergessliche Reisen mit Goas führendem Reisebüro. Luxuriöse In- und Auslandspakete, maßgeschneiderte Reisen und exklusive Erlebnisse.",
+    },
+  },
   // Hero Section
   hero: {
     title: "Entdecken Sie Außergewöhnliche Reisen",
