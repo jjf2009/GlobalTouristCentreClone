@@ -51,11 +51,11 @@ const travelCollections: TravelCollection[] = [
     href: "/destinations/day-trips/yacht-day-tour", // matches day-yacht-013.slug
     imageUrl: "/assets/destinations/Thumbnails/Yacht.webp",
   },
-  {
-    id: "grand-island-water-sport",
-    href: "/destinations/day-trips/grand-island-water-sports", // matches day-grand-island-014.slug
-    imageUrl: "/assets/destinations/Thumbnails/GrandIsland.webp",
-  },
+  // {
+  //   id: "grand-island-water-sport",
+  //   href: "/destinations/day-trips/grand-island-water-sports", // matches day-grand-island-014.slug
+  //   imageUrl: "/assets/destinations/Thumbnails/GrandIsland.webp",
+  // },
   {
     id: "gokarna-murdeshwar-trip",
     href: "/destinations/day-trips/gokarna-murdeshwar-trip", // matches day-gokarna-005.slug (updated from old -tour)
@@ -63,7 +63,7 @@ const travelCollections: TravelCollection[] = [
   },
   {
     id: "2-days-dandeli-tour-package",
-    href: "/destinations/day-trips/2-days-dandeli-tour-package", // matches day-dandeli-001.slug
+    href: "/destinations/domestic/2-days-dandeli-tour-package", // matches day-dandeli-001.slug
     imageUrl: "/assets/destinations/Thumbnails/Dandeli.webp",
   },
 
@@ -80,11 +80,11 @@ const travelCollections: TravelCollection[] = [
     imageUrl: "/assets/destinations/Thumbnails/Hampi.webp",
   },
   // removed hampi-badami because that trip is commented out in domesticTrips source of truth
-  {
-    id: "mysore-ooty-tour",
-    href: "/destinations/domestic/mysore-ooty-tour", // matches dom-mysore-ooty-020.slug
-    imageUrl: "/assets/destinations/Thumbnails/Ooty.webp",
-  },
+  // {
+  //   id: "mysore-ooty-tour",
+  //   href: "/destinations/domestic/mysore-ooty-tour", // matches dom-mysore-ooty-020.slug
+  //   imageUrl: "/assets/destinations/Thumbnails/Ooty.webp",
+  // },
   {
     id: "mumbai-day-trip",
     href: "/destinations/day-trips/mumbai-day-trip", // matches dom-mumbai-021.slug
@@ -95,11 +95,11 @@ const travelCollections: TravelCollection[] = [
     href: "/destinations/domestic/ajanta-ellora-caves-tour", // matches dom-ajanta-ellora-022.slug
     imageUrl: "/assets/destinations/Thumbnails/Ellora.webp",
   },
-  {
-    id: "taj-mahal-tour",
-    href: "/destinations/domestic/taj-mahal-tour", // matches dom-taj-mahal-023.slug
-    imageUrl: "/assets/destinations/Thumbnails/TajMahal.webp",
-  },
+  // {
+  //   id: "taj-mahal-tour",
+  //   href: "/destinations/domestic/taj-mahal-tour", // matches dom-taj-mahal-023.slug
+  //   imageUrl: "/assets/destinations/Thumbnails/TajMahal.webp",
+  // },
   // removed taj-mahal-1n2d because that trip is commented out in domesticTrips source of truth
 
   /* ================= MULTI-DAY DOMESTIC ================= */
@@ -137,22 +137,22 @@ const travelCollections: TravelCollection[] = [
   // removed andaman-islands-5n6d because that itinerary is commented out
   {
     id: "andaman-islands-tour",
-    href: "/itinerary/international/andaman-islands-tour", // matches int-andaman-021.slug
+    href: "/destinations/international/andaman-islands-tour", // matches int-andaman-021.slug
     imageUrl: "/assets/destinations/Thumbnails/Andaman.webp",
   },
   {
     id: "maldives-luxury-tour",
-    href: "/itinerary/international/maldives-luxury-tour", // matches int-maldives-022.slug
+    href: "/destinations/international/maldives-luxury-tour", // matches int-maldives-022.slug
     imageUrl: "/assets/destinations/Thumbnails/Maldives.webp",
   },
   {
     id: "sri-lanka-tour",
-    href: "/itinerary/international/sri-lanka-tour", // matches int-srilanka-023.slug
+    href: "/destinations/international/sri-lanka-tour", // matches int-srilanka-023.slug
     imageUrl: "/assets/destinations/Thumbnails/SriLanka.webp",
   },
   {
     id: "bhutan-tour",
-    href: "/itinerary/international/bhutan-tour", // matches int-bhutan-024.slug
+    href: "/destinations/international/bhutan-tour", // matches int-bhutan-024.slug
     imageUrl: "/assets/destinations/Thumbnails/Bhutan.webp",
   },
 ];

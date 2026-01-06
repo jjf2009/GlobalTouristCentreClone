@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-
+import { getTranslations } from "@/lib/i18n/getTranslations";
 import TourClient from "./luxury-tour-client";
 import { LOCALES } from "@/lib/data/tour-slugs";
 import {
@@ -55,22 +55,26 @@ type PageProps = {
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const { tourSlug } = params;
-
+ const { locale, destinationSlug } = params;
+  const t = getTranslations(locale);
   // 🔹 Temporary static metadata (no i18n)
-  const title = tourSlug
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase());
 
-  const description =
-    "Explore curated luxury tour packages with expert planning, premium stays, and unforgettable experiences.";
+  const pageData = t.luxuryPages?.[destinationSlug];
+    if (!pageData) {
+      return {
+        title: "Luxury Tours",
+        description:
+          "Explore curated luxury travel experiences with premium stays and personalized service.",
+      };
+    }
+
 
   return {
-    title,
-    description,
+    title: pageData.hero.title,
+    description: pageData.hero.description,
     openGraph: {
-      title,
-      description,
+      title: pageData.hero.title,
+      description: pageData.hero.description,
       siteName: "Global Tourist Centre",
       type: "article",
     },

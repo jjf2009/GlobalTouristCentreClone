@@ -16,22 +16,24 @@ const ConclusionBox = () => {
         {t.blogAndaman.planningTrip}
       </h2>
 
-      <p className="text-gray-700 mb-4">
-        {t.blogAndaman.planningDesc}
-      </p>
+      <p className="text-gray-700 mb-4">{t.blogAndaman.planningDesc}</p>
 
       <div className="bg-amber-50 border-l-4 border-amber-400 p-4 mb-6 rounded-r-lg">
         <p className="text-gray-700 italic">{t.blogAndaman.conclusionNote}</p>
       </div>
 
       <div className="flex gap-4 flex-wrap">
-        <Link href={`/${locale}/contact`}>
+        <Link href={`/${locale}/contact-us`}>
           <Button size="lg" className="bg-teal-600 hover:bg-teal-700">
             {t.blogAndaman.enquireNow}
           </Button>
         </Link>
-        <Link href={`/${locale}/destinations/domestic/andaman-nicobar-tour-for-goa`}>
-          <Button variant="outline" size="lg" className="border-teal-600 text-teal-600 hover:bg-teal-50">
+        <Link href={`/${locale}/destinations/domestic/andaman-islands-tour/`}>
+          <Button
+            variant="outline"
+            size="lg"
+            className="border-teal-600 text-teal-600 hover:bg-teal-50"
+          >
             {t.blogAndaman.viewItinerary}
           </Button>
         </Link>

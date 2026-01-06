@@ -40,7 +40,7 @@ export function ContactForm() {
     `.trim();
 
     const encoded = encodeURIComponent(whatsappMessage);
-    window.open(`https://wa.me/918421012788?text=${encoded}`, "_blank");
+    window.open(`https://wa.me/919067972295?text=${encoded}`, "_blank");
   };
 
   return (

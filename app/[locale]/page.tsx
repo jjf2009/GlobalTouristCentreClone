@@ -16,6 +16,7 @@ export async function generateMetadata({
 
   return {
     title: t.hero.tagline,
+    description: t.hero.description,
   };
 }
 const page = () => {

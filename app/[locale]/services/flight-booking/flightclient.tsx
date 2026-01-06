@@ -38,6 +38,44 @@ export default function FlightBookingPage() {
     },
   ];
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.currentTarget);
+
+    const message = `
+✈️ Flight Enquiry
+
+Name: ${formData.get("name")}
+Email: ${formData.get("email")}
+Phone: ${formData.get("phone")}
+
+Trip Type: ${formData.get("tripType")}
+From: ${formData.get("from")}
+To: ${formData.get("to")}
+
+Departure Date: ${formData.get("departureDate")}
+Return Date: ${formData.get("returnDate") || "N/A"}
+
+Passengers:
+Adults: ${formData.get("adults")}
+Children: ${formData.get("children") || 0}
+Infants: ${formData.get("infants") || 0}
+
+Preferred Class: ${formData.get("preferredClass") || "Any"}
+Preferred Airlines: ${formData.get("preferredAirlines") || "No preference"}
+
+Message:
+${formData.get("message") || "—"}
+`;
+
+    const whatsappUrl = `https://wa.me/919067972295?text=${encodeURIComponent(
+      message.trim()
+    )}`;
+
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <>
       <HeroSection
@@ -102,7 +140,7 @@ export default function FlightBookingPage() {
               <p className="text-gray-500 mt-2">{page.formSubtitle}</p>
             </div>
 
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -110,6 +148,7 @@ export default function FlightBookingPage() {
                   </label>
                   <input
                     type="text"
+                    name="name"
                     placeholder={form.namePlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -121,6 +160,7 @@ export default function FlightBookingPage() {
                   </label>
                   <input
                     type="email"
+                    name="email"
                     placeholder={form.emailPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -135,6 +175,7 @@ export default function FlightBookingPage() {
                   </label>
                   <input
                     type="tel"
+                    name="phone"
                     placeholder={form.phonePlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -144,7 +185,10 @@ export default function FlightBookingPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     {form.tripType}
                   </label>
-                  <select className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition bg-white">
+                  <select
+                    name="tripType"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition bg-white"
+                  >
                     <option value="">{form.tripTypePlaceholder}</option>
                     <option value="one-way">One Way</option>
                     <option value="round-trip">Round Trip</option>
@@ -160,6 +204,7 @@ export default function FlightBookingPage() {
                   </label>
                   <input
                     type="text"
+                    name="from"
                     placeholder={form.fromPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -171,6 +216,7 @@ export default function FlightBookingPage() {
                   </label>
                   <input
                     type="text"
+                    name="to"
                     placeholder={form.toPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -195,6 +241,8 @@ export default function FlightBookingPage() {
                   </label>
                   <input
                     type="date"
+                    name="returnDate"
+                    name="departureDate"
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                   />
                 </div>
@@ -207,6 +255,7 @@ export default function FlightBookingPage() {
                   </label>
                   <input
                     type="number"
+                    name="adults"
                     min="1"
                     placeholder="1"
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
@@ -219,6 +268,7 @@ export default function FlightBookingPage() {
                   </label>
                   <input
                     type="number"
+                    name="children"
                     min="0"
                     placeholder="0"
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
@@ -230,6 +280,7 @@ export default function FlightBookingPage() {
                   </label>
                   <input
                     type="number"
+                    name="infants"
                     min="0"
                     placeholder="0"
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
@@ -268,6 +319,7 @@ export default function FlightBookingPage() {
                 </label>
                 <textarea
                   rows={4}
+                  name="message"
                   placeholder={form.messagePlaceholder}
                   className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition resize-none"
                 />

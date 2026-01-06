@@ -38,7 +38,39 @@ export default function HotelBookingPage() {
       answer: page.faq4Answer,
     },
   ];
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
 
+    const formData = new FormData(e.currentTarget);
+
+    const message = `
+🏨 Hotel Enquiry
+
+Name: ${formData.get("name")}
+Email: ${formData.get("email")}
+Phone: ${formData.get("phone")}
+
+Destination: ${formData.get("destination")}
+
+Check-in: ${formData.get("checkIn")}
+Check-out: ${formData.get("checkOut")}
+
+Guests: ${formData.get("guests")}
+Rooms: ${formData.get("rooms")}
+
+Hotel Category: ${formData.get("category") || "Any"}
+Budget: ${formData.get("budget") || "Not specified"}
+
+Message:
+${formData.get("message") || "—"}
+`;
+
+    const whatsappUrl = `https://wa.me/919067972295?text=${encodeURIComponent(
+      message.trim()
+    )}`;
+
+    window.open(whatsappUrl, "_blank");
+  };
   return (
     <>
       <HeroSection
@@ -103,7 +135,7 @@ export default function HotelBookingPage() {
               <p className="text-gray-500 mt-2">{page.formSubtitle}</p>
             </div>
 
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -111,6 +143,7 @@ export default function HotelBookingPage() {
                   </label>
                   <input
                     type="text"
+                    name="name"
                     placeholder={form.namePlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -122,6 +155,7 @@ export default function HotelBookingPage() {
                   </label>
                   <input
                     type="email"
+                    name="email"
                     placeholder={form.emailPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -136,6 +170,7 @@ export default function HotelBookingPage() {
                   </label>
                   <input
                     type="tel"
+                    name="phone"
                     placeholder={form.phonePlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -147,6 +182,7 @@ export default function HotelBookingPage() {
                   </label>
                   <input
                     type="text"
+                    name="destination"
                     placeholder={form.destinationPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -161,6 +197,7 @@ export default function HotelBookingPage() {
                   </label>
                   <input
                     type="date"
+                    name="checkIn"
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
                   />
@@ -171,6 +208,7 @@ export default function HotelBookingPage() {
                   </label>
                   <input
                     type="date"
+                    name="checkOut"
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
                   />
@@ -185,6 +223,7 @@ export default function HotelBookingPage() {
                   <input
                     type="number"
                     min="1"
+                    name="guests"
                     placeholder={form.guestsPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -197,6 +236,7 @@ export default function HotelBookingPage() {
                   <input
                     type="number"
                     min="1"
+                    name="rooms"
                     placeholder={form.roomsPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                     required
@@ -209,7 +249,10 @@ export default function HotelBookingPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     {form.category}
                   </label>
-                  <select className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition bg-white">
+                  <select
+                    name="category"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition bg-white"
+                  >
                     <option value="">{form.categoryPlaceholder}</option>
                     <option value="luxury">Luxury (5 Star)</option>
                     <option value="premium">Premium (4 Star)</option>
@@ -223,6 +266,7 @@ export default function HotelBookingPage() {
                   </label>
                   <input
                     type="text"
+                    name="budget"
                     placeholder={form.budgetPlaceholder}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
                   />
@@ -235,6 +279,7 @@ export default function HotelBookingPage() {
                 </label>
                 <textarea
                   rows={4}
+                  name="message"
                   placeholder={form.messagePlaceholder}
                   className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition resize-none"
                 />

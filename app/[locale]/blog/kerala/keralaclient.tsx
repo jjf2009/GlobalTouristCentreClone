@@ -258,7 +258,7 @@ export default function KeralaBlogPage() {
           <section className="mb-16">
             <p className="text-gray-700 mb-6 text-lg">{t.blogKerala.ctaDesc}</p>
             <div className="flex gap-4 flex-wrap">
-              <Link href={`/${locale}/contact`}>
+              <Link href={`/${locale}/contact-us`}>
                 <Button
                   size="lg"
                   className="bg-teal-600 hover:bg-teal-700 rounded-full px-8"
@@ -266,7 +266,7 @@ export default function KeralaBlogPage() {
                   {t.blogKerala.enquireNow}
                 </Button>
               </Link>
-              <Link href={`/${locale}/destinations/domestic/Kerala-5N6D-Trip`}>
+              <Link href={`/${locale}/destinations/domestic/kerala-tour`}>
                 <Button
                   variant="outline"
                   size="lg"
