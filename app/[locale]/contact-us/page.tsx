@@ -1,3 +1,5 @@
+"use client"
+
 import { ContactHero } from "./ContactHero";
 import { ContactInfoGrid } from "./ContactInfoGrid";
 import { ContactForm } from "./ContactForm";
