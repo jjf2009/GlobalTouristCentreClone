@@ -70,18 +70,18 @@ export async function generateMetadata({
 
 
   return {
-    title: pageData.hero.title,
-    description: pageData.hero.description,
+    // title: pageData.hero_section.title,
+    // description: pageData.hero.description,
     openGraph: {
-      title: pageData.hero.title,
-      description: pageData.hero.description,
+      // title: pageData.hero.title,
+      // description: pageData.hero.description,
       siteName: "Global Tourist Centre",
       type: "article",
     },
     twitter: {
       card: "summary_large_image",
-      title:pageData.hero.title,
-      description:pageData.hero.description,
+      // title:pageData.hero.title,
+      // description:pageData.hero.description,
     },
   };
 }
