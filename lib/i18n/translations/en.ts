@@ -12623,7 +12623,10 @@ export const en = {
         discountBadge: "Up to 20% OFF on Early Bookings",
         image: "/assets/Luxury/Mumbai/mumbai-hero.webp",
       },
-
+      metadata:{
+        title:"Mumbai Luxury Trip Package | Global Tourist Centre – Premium Mumbai Getaway",
+        description:"Explore the exclusive Mumbai luxury trip package from Global Tourist Centre. Experience 5-star hotels, private chauffeur drives, premium dining and curated city tours in India’s City of Dreams "
+      },
       toursSection: {
         title: "Premium Mumbai Tour Packages",
         packages: [
@@ -12674,6 +12677,10 @@ export const en = {
           "Experience India’s most iconic cultural circuit in unparalleled luxury across Delhi, Agra, and Jaipur.",
         discountBadge: "Up to 25% OFF on Early Bookings",
         image: "/assets/Luxury/Golden Triangle/hero.webp",
+      },
+      meta:{
+       title:"Luxury Golden Triangle Tour | Premium Delhi-Agra-Jaipur Circuit – Global Tourist Centre",
+       description:"Enjoy an exclusive luxury Golden Triangle tour with Global Tourist Centre: indulgent stays in heritage palaces, private chauffeur transfers, VIP sightseeing of Delhi, Agra & Jaipur, and curated experiences for discerning travellers."
       },
 
       toursSection: {
@@ -12732,9 +12739,13 @@ export const en = {
       hero: {
         title: "Kerala Luxury Tours",
         description:
-          "Cruise serene backwaters, stay in premium houseboats, rejuvenate with ayurveda, and explore lush hill stations.",
+          "Experience God's Own Country in ultimate luxury. Cruise through serene backwaters, stay in premium houseboats, rejuvenate with ayurveda, and explore lush hill stations",
         discountBadge: "Up to 30% OFF on Early Bookings",
         image: "/assets/Luxury/Kerala/hero-backwaters.webp",
+      },
+      meta:{
+       title:"Kerala Luxury Tour Package | Global Tourist Centre – Premium Kerala Getaway",
+       description:"Our exclusive Kerala luxury tour package with Global Tourist Centre. Experience opulent stays, private houseboats, scenic hill-stations and backwaters, along with personalized service and unforgettable moments in “God’s Own Country”"
       },
 
       toursSection: {
@@ -12791,9 +12802,13 @@ export const en = {
       hero: {
         title: "Rajasthan Royal Tours",
         description:
-          "Stay in majestic palaces, explore ancient forts, and experience India’s royal heritage.",
+          "Experience the royal heritage of Rajasthan with our exclusive luxury tours. Stay in majestic palaces, explore ancient forts, and immerse yourself in the vibrant culture of India's Land of Kings.",
         discountBadge: "Up to 30% OFF on Early Bookings",
         image: "/assets/Luxury/Rajasthan/Rajasthan-Luxury.webp",
+      },
+      meta:{
+       title:"Luxury Rajasthan Tour | Global Tourist Centre – Royal Heritage & 5‑Star Comfort",
+       description:"Explore the ultimate Rajasthan luxury tour package with Global Tourist Centre — stay in palaces & heritage hotels, enjoy private guides, curated experiences and seamless transfers across Jaipur, Udaipur, Jodhpur and more. Book your royal journey now!"
       },
 
       toursSection: {
@@ -12863,6 +12878,10 @@ export const en = {
         discountBadge: "Up to 25% OFF on Early Bookings",
         image: "/assets/Luxury/Karnataka/hero.webp",
       },
+      meta:{
+        title:"Karnataka Luxury Tour – Bespoke Heritage & Wildlife Experience | Global Tourist Centre",
+        description:"Embark on an unforgettable karnataka luxury tour with Global Tourist Centre. Stay in royal palaces, explore Mysore’s regal heritage, delve into Bandipur’s wild safaris, unwind in the Western Ghats, and enjoy private guides plus gourmet dining in style."
+      },
 
       toursSection: {
         title: "Premium Karnataka Tour Packages",
@@ -12914,6 +12933,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%204N/5D%20Rajasthan%20Luxury%20Package%20(Jaipur%20%26%20Udaipur).%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Rajasthan/raj1-hero.webp",
+      },
+      metadata:{
+        title:"Luxury 4N/5D Rajasthan Luxury Tour Package | Global Tourist Centre",
+        description:"A decadent 4N/5D Rajasthan luxury tour package with Global Tourist Centre — stay in royal heritage hotels, explore Jaipur, Udaipur & Jodhpur, enjoy private transfers, curated experiences and seamless service. Book your regal escape now."
       },
       itinerary: {
         title: "Royal Experience of Jaipur & Udaipur",
@@ -13088,6 +13111,10 @@ export const en = {
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%206N/7D%20Golden%20Triangle%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Golden Triangle/hero.webp",
       },
+      metadata:{
+        title:"6 N/7 D Luxury Golden Triangle Tour Package | Global Tourist Centre",
+        description:"Embark on our 6 N/7 D luxury Golden Triangle tour package with Global Tourist Centre — premium heritage palaces, private chauffeur transfers, Taj Mahal sunrise, Jaipur royal stays, and impeccable service for discerning travellers."
+      },
       itinerary: {
         title: "Journey Through India's Cultural Heartland",
         days: [
@@ -13241,6 +13268,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%206N/7D%20Rajasthan%20Luxury%20Package%20(Jaipur,%20Jodhpur%20%26%20Udaipur).%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Rajasthan/raj2-hero.webp",
+      },
+      metadata:{
+        title:"Luxury 6N/7D Rajasthan Luxury Tour Package | Global Tourist Centre",
+        description:"Embark on a 6n/7d Rajasthan luxury tour package with Global Tourist Centre — stay in palace‑heritage hotels, explore Jaipur, Udaipur, Jodhpur & Jaisalmer, enjoy private transfers, curated experiences and royal service. Reserve your regal escape today!"
       },
       footer: {
         about:
@@ -13514,6 +13545,10 @@ export const en = {
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%204N/5D%20Golden%20Triangle%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Golden Triangle/hero.webp",
       },
+      metadata:{
+        title:"4N/5D Luxury Golden Triangle Tour Package | Global Tourist Centre",
+        description:"Explore our exclusive 4 N/5 D luxury Golden Triangle tour package with Global Tourist Centre. Stay in heritage palaces, travel by private chauffeur from Delhi to Agra and Jaipur, enjoy VIP sightseeing and lavish experiences crafted for discerning travellers.",
+      },
       itinerary: {
         title: "Journey Through India's Cultural Heartland",
         days: [
@@ -13648,6 +13683,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%20Karnataka%20Luxury%20Tour%20Package%20(Bangalore,%20Mysore%20%26%20Ooty).%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Karnataka/hero.webp",
+      },
+      metadata:{
+        title:"7N/8D Karnataka Luxury Tour Package | Global Tourist Centre – Heritage Hotels & Private Safari",
+        description:"Experience an exquisite 7n/8d Karnataka luxury tour package with Global Tourist Centre: From Bengaluru’s cosmopolitan 5‑star comforts to Mysore’s regal palaces, a private safari in Bandipur and tea‑estate stays in Ooty"
       },
       footer: {
         about:
@@ -13871,6 +13910,10 @@ export const en = {
         "cta_link": "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%204N/5D%20Kerala%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
         "background_image": "/assets/Luxury/Kerala/hero-backwaters.webp"
       },
+      metadata:{
+        title:"4N/5D Kerala Luxury Trip Package – 30% Off | Global Tourist Centre",
+        description:"Book your 4N/5D Kerala luxury trip package at a 30% discount with Global Tourist Centre. Enjoy over-water villas, private back-water cruises, hill-station views, personalised service and opulent stays in God’s Own Country"
+      },
       "itinerary": {
         "title": "Viaggio nella Terra di Dio",
         "days": [
@@ -13995,6 +14038,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%202N/3D%20Mumbai%20Luxury%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Mumbai/mumbai-hero.webp",
+      },
+      metadata:{
+        title:"2N/3D Mumbai Luxury Tour Package | Premium Mumbai Getaway – Global Tourist Centre",
+        description:"Our exclusive 2 N/3 D Mumbai luxury tour package with Global Tourist Centre. Stay in 5-star hotels, enjoy private chauffeur transfers, premium city tours and curated experiences in India’s “City of Dreams”."
       },
       footer: {
         about:
@@ -14190,6 +14237,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%208N/9D%20Rajasthan%20Luxury%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Rajasthan/raj3-hero.webp",
+      },
+      metadata:{
+        title:"8N/9D Rajasthan Luxury Tour Package | Global Tourist Centre – Royal Heritage, 5★ Comfort",
+        description:"The ultimate 8n/9d Rajasthan luxury tour package with Global Tourist Centre — stay in palace‑heritage hotels across Jaipur, Udaipur, Jodhpur & Jaisalmer, enjoy private transfers, curated royal experiences, and seamless VIP service. Book your regal escape today.",
       },
       itinerary: {
         title: "Royal Rajasthan Journey Through Palaces & Forts",
@@ -14400,6 +14451,10 @@ export const en = {
         cta_link:
           "https://wa.me/919067972295?text=Hi!%20I'm%20interested%20in%20the%207N/8D%20Kerala%20Luxury%20Tour%20Package.%20Can%20you%20please%20provide%20more%20details?",
         background_image: "/assets/Luxury/Kerala/hero-comprehensive.webp",
+      },
+      metadata:{
+        title:"7N/8D Kerala Luxury Trip Package – 30% Off | Global Tourist Centre",
+        description:"Enjoy our exclusive 7N/8D Kerala luxury trip package with 30% off. Experience ultra-luxury stays, private back-water cruises, hill-station views and personalised service in God’s Own Country with Global Tourist Centre."
       },
       itinerary: {
         title: "Comprehensive Kerala Luxury Experience",

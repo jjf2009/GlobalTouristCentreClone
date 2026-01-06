@@ -12,6 +12,35 @@ import { locales } from "@/lib/i18n/config";
 import type { Locale } from "@/lib/i18n/translations";
 import { notFound } from "next/navigation";
 import "../globals.css";
+import Script from "next/script";
+
+const travelAgencySchema = {
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  name: "Global Tourist Centre",
+  image: "https://globaltouristcentre.com/wp-content/uploads/2024/05/logo.png",
+  "@id": "https://globaltouristcentre.com/",
+  url: "https://globaltouristcentre.com/",
+  telephone: "+91-9067972295",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Benaulim Beach Road, South Goa",
+    addressLocality: "Benaulim",
+    addressRegion: "Goa",
+    postalCode: "403716",
+    addressCountry: "IN",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 15.2602,
+    longitude: 73.9272,
+  },
+  sameAs: [
+    "https://www.facebook.com/globaltouristcentre",
+    "https://www.instagram.com/globaltouristcentre",
+  ],
+};
+
 
 /* -----------------------------
    Fonts
@@ -104,8 +133,6 @@ export default function LocaleLayout({
           {/* Footer */}
           <Footer />
 
-
-
           {/* WhatsApp CTA */}
           <WhatsAppButton
             phoneNumber="919067972295"
@@ -113,24 +140,32 @@ export default function LocaleLayout({
             tooltipText="Chat with us on WhatsApp"
           />
         </I18nProvider>
+        <Script
+          id="travel-agency-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(travelAgencySchema),
+          }}
+        />
 
         <Analytics />
 
-              <noscript>
-        <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-5CNKV323"
-          height="0"
-          width="0"
-          style={{ display: "none", visibility: "hidden" }}
-        />
-      </noscript>
-      <noscript>
-        <img
-          src="https://mc.yandex.ru/watch/105467216"
-          style={{ position: "absolute", left: "-9999px" }}
-          alt=""
-        />
-      </noscript>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5CNKV323"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+        <noscript>
+          <img
+            src="https://mc.yandex.ru/watch/105467216"
+            style={{ position: "absolute", left: "-9999px" }}
+            alt=""
+          />
+        </noscript>
       </body>
     </html>
   );
