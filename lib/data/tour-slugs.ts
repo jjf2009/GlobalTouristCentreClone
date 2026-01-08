@@ -50,7 +50,7 @@ export const TOUR_CATEGORIES = {
     "hyderabad-tour-package-from-goa", // temporarily removed (used in html code) // verified
     "jodhpur-tour-package-from-goa", // verified //temporarily added not used anywhere
     "ladakh-tour-package-from-goa", // temporarily removed (used in en.ts) // verified
-    // "meghalaya-tour", // verified // temporarily removed (used in en.ts)
+    "meghalaya-tour", // verified // temporarily removed (used in en.ts)
   ],
 
   international: [
@@ -76,7 +76,6 @@ export const TOUR_CATEGORIES = {
     "cambodia-laos-discovery", // verified
     "georgia-caucasus-adventure", // verified
     "japan-luxury-experience", // verified
-    "meghalaya-tour", // temporarily removed (used in en.ts)
     "kazakhstan-almaty-explorer", // temporarily removed (used in destination.ts) // verified
     // "nepal-tour", // temporarily removed (used in en.ts) // verified
   ],
