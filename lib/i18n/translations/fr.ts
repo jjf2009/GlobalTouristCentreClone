@@ -41,10 +41,10 @@ export const fr = {
       title: "Contactez Global Tourist Centre – Réservez Votre Forfait Voyage Personnalisé",
       description: "Contactez Global Tourist Centre — le partenaire de voyage de confiance de Goa Sud avec plus de 25 ans d’expertise. Appelez, envoyez un e-mail ou remplissez un formulaire pour commencer l’élaboration de votre circuit sur mesure.",
     },
-    destinations: {
-      title: "Global Tourist Centre - Destinations",
-      description: "Créateur de voyages inoubliables depuis 1997. Votre partenaire de voyage de confiance pour des circuits nationaux et internationaux sur mesure.",
-    },
+destinations: {
+  title: "Découvrez les plus belles destinations de l’Inde – Global Tourist Centre",
+  description: "Des escapades indiennes incontournables comme le Kerala, Goa, les Andaman, le Rajasthan, Sikkim-Darjeeling, Hampi et bien plus avec Global Tourist Centre."
+},
     domestic: {
       title: "Voyages Nationaux - Global Tourist Centre",
       description: "Explorez la beauté diverse de l’Inde avec nos destinations nationales sélectionnées. Des backwaters du Kerala aux vallées du Cachemire.",

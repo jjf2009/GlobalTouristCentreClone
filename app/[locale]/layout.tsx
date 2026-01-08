@@ -40,10 +40,7 @@ export async function generateStaticParams() {
    Metadata (base – overridden per page)
 ------------------------------ */
 export const metadata: Metadata = {
-  title: {
-    default: "Global Tourist Centre | Luxury Travel Experiences",
-    template: "%s | Global Tourist Centre",
-  },
+  title:  "Global Tourist Centre | Luxury Travel Experiences",
   description:
     "We don't just book trips — we design lifetimes of stories. Bespoke domestic and international tours since 2010.",
   keywords: [

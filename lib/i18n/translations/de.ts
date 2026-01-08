@@ -41,10 +41,11 @@ export const de = {
       title: "Global Tourist Centre kontaktieren – Buchen Sie Ihr personalisiertes Reisepaket",
       description: "Nehmen Sie Kontakt mit dem Global Tourist Centre auf – Ihrem vertrauenswürdigen Reisepartner in Süd-Goa mit über 25 Jahren Erfahrung. Rufen Sie an, schreiben Sie eine E-Mail oder füllen Sie ein Formular aus, um mit der Gestaltung Ihrer individuellen Tour zu beginnen.",
     },
-    destinations: {
-      title: "Global Tourist Centre - Reiseziele",
-      description: "Unvergessliche Reisen seit 1997. Ihr vertrauenswürdiger Reisepartner für maßgeschneiderte Inlands- und Auslandsreisen.",
-    },
+destinations: {
+  title: "Entdecken Sie Indiens eindrucksvollste Reiseziele – Global Tourist Centre",
+  description: "Top-Reiseziele in Indien wie Kerala, Goa, die Andamanen, Rajasthan, Sikkim-Darjeeling, Hampi und mehr mit Global Tourist Centre."
+}
+,
     domestic: {
       title: "Inlandsreisen - Global Tourist Centre",
       description: "Erforschen Sie die vielfältige Schönheit Indiens mit unseren handverlesenen Inlandszielen. Von Keralas Backwaters bis zu den Tälern Kaschmirs.",

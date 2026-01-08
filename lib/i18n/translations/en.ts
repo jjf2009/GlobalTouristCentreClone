@@ -43,8 +43,8 @@ export const en = {
       description: "Get in touch with Global Tourist Centre—South Goa's trusted travel partner with 25+ years of expertise. Call, email, or submit a form to start crafting your custom tour.",
     },
     destinations: {
-      title: "Global Tourist Centre - Destinations",
-      description: "Crafting unforgettable journeys since 1997. Your trusted travel partner for bespoke domestic and international tours.",
+      title: "Explore India’s Finest Destinations – Global Tourist Centre",
+      description: "top-rated Indian getaways like Kerala, Goa, Andaman, Rajasthan, Sikkim‑Darjeeling, Hampi, and more with Global Tourist Centre.",
     },
     domestic: {
       title: "Domestic Trips - Global Tourist Centre",
