@@ -24,43 +24,43 @@ const CuratedTravel = () => {
     badge: string | null;
     link: string;
   }[] = [
-    {
-      id: "dudhsagar",
-      category: "domestic",
-      imageUrl: "/assets/destinations/Thumbnails/Dudhsagar.webp",
-      rating: 4.6,
-      tags: ["Waterfalls", "Spices", "Nature"],
-      badge: null,
-      link: `/${locale}/destinations/day-trips/dudhsagar-spice-plantation`,
-    },
-    {
-      id: "4D-golden-triangle-tour",
-      category: "domestic",
-      imageUrl: "/assets/destinations/Thumbnails/GoldenTriangle.webp",
-      rating: 4.8,
-      tags: ["Heritage", "Taj Mahal", "Cultural"],
-      badge: null,
-      link: `/${locale}/destinations/domestic/4D-golden-triangle-tour`,
-    },
-    {
-      id: "varanasi",
-      category: "domestic",
-      imageUrl: "/assets/destinations/Thumbnails/varanasi.webp",
-      rating: 4.7,
-      tags: ["Spiritual", "Pilgrimage", "Ganga Aarti"],
-      badge: null,
-      link: `/${locale}/destinations/domestic/varanasi-tour-package`,
-    },
-    {
-      id: "amritsar",
-      category: "domestic",
-      imageUrl: "/assets/hero/Amritsar-hero.webp",
-      rating: 4.7,
-      tags: ["Spiritual", "Cultural", "Historical"],
-      badge: null,
-      link: `/${locale}/destinations/domestic/amritsar-tour-package`,
-    },
-  ];
+      {
+        id: "dudhsagar",
+        category: "domestic",
+        imageUrl: "/assets/destinations/Thumbnails/Dudhsagar.webp",
+        rating: 4.6,
+        tags: ["Waterfalls", "Spices", "Nature"],
+        badge: null,
+        link: `/${locale}/destinations/day-trips/dudhsagar-waterfall-spice-plantation`,
+      },
+      {
+        id: "golden-triangle-4-day-tour-from-goa",
+        category: "domestic",
+        imageUrl: "/assets/destinations/Thumbnails/GoldenTriangle.webp",
+        rating: 4.8,
+        tags: ["Heritage", "Taj Mahal", "Cultural"],
+        badge: null,
+        link: `/${locale}/destinations/domestic/golden-triangle-4-day-tour-from-goa`,
+      },
+      {
+        id: "varanasi",
+        category: "domestic",
+        imageUrl: "/assets/destinations/Thumbnails/varanasi.webp",
+        rating: 4.7,
+        tags: ["Spiritual", "Pilgrimage", "Ganga Aarti"],
+        badge: null,
+        link: `/${locale}/destinations/domestic/varanasi-tour-package-from-goa`,
+      },
+      {
+        id: "amritsar",
+        category: "domestic",
+        imageUrl: "/assets/hero/Amritsar-hero.webp",
+        rating: 4.7,
+        tags: ["Spiritual", "Cultural", "Historical"],
+        badge: null,
+        link: `/${locale}/destinations/domestic/amritsar-tour-package-from-goa`,
+      },
+    ];
 
   // const scrollExperiences = (direction: "left" | "right") => {
   //   if (experiencesRef.current) {

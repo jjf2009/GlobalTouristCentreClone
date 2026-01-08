@@ -13,7 +13,7 @@ export type Destination = {
 export const domesticTrips: Destination[] = [
   {
     id: "dom-kashmir-001",
-    slug: "exotic-kashmir-tour",
+    slug: "kashmir-tour-package-from-goa",
     rating: 4.9,
     imageQuery: "/destinations/Thumbnails/Kashmir.webp",
     category: "domestic",
@@ -21,7 +21,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-ladakh-002",
-    slug: "ladakh-tour",
+    slug: "ladakh-tour-package-from-goa",
     rating: 4.8,
     imageQuery: "/destinations/Thumbnails/Leh.webp",
     category: "domestic",
@@ -29,7 +29,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-sikkim-003",
-    slug: "sikkim-darjeeling-gangtok-tour",
+    slug: "sikkim-darjeeling-gangtok-tour-from-goa",
     rating: 4.8,
     imageQuery: "/destinations/Thumbnails/Sikkim.webp",
     category: "domestic",
@@ -45,7 +45,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-north-heritage-005",
-    slug: "north-india-heritage-tour",
+    slug: "north-india-heritage-tour-from-goa",
     rating: 4.6,
     imageQuery: "/destinations/Thumbnails/GoldenTriangle.webp",
     category: "domestic",
@@ -53,7 +53,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-golden-triangle-006",
-    slug: "4D-golden-triangle-tour",
+    slug: "golden-triangle-4-day-tour-from-goa",
     rating: 4.7,
     imageQuery: "/destinations/Thumbnails/North-India.webp",
     category: "domestic",
@@ -61,7 +61,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-rajasthan-007",
-    slug: "rajasthan-royal",
+    slug: "rajasthan-royal-tour-from-goa",
     rating: 4.8,
     imageQuery: "/destinations/Thumbnails/Rajasthan.webp",
     category: "domestic",
@@ -69,7 +69,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-kerala-008",
-    slug: "kerala-tour",
+    slug: "kerala-tour-package-from-goa",
     rating: 4.8,
     imageQuery: "/destinations/Thumbnails/Kerala.webp",
     category: "domestic",
@@ -77,7 +77,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-tamilnadu-009",
-    slug: "tamil-nadu-tour",
+    slug: "tamil-nadu-tour-package-from-goa",
     rating: 4.7,
     imageQuery: "/destinations/Thumbnails/Tamil-Nadu.webp",
     category: "domestic",
@@ -85,7 +85,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-andaman-010",
-    slug: "andaman-islands-tour",
+    slug: "andaman-islands-tour-from-goa",
     rating: 4.9,
     imageQuery: "/destinations/Thumbnails/Andaman.webp",
     category: "domestic",
@@ -93,7 +93,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-lakshadweep-011",
-    slug: "lakshadweep-islands",
+    slug: "lakshadweep-islands-tour-from-goa",
     rating: 4.9,
     imageQuery: "/destinations/Thumbnails/Lakshadweep.webp",
     category: "domestic",
@@ -109,7 +109,7 @@ export const domesticTrips: Destination[] = [
   // },
   {
     id: "dom-cabo-serai-013",
-    slug: "goa-serai-cabo-retreat",
+    slug: "goa-luxury-retreat-serai-cabo",
     rating: 4.8,
     imageQuery: "/destinations/Thumbnails/Cabo-Serai.webp",
     category: "domestic",
@@ -117,7 +117,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-shimoga-014",
-    slug: "shimoga-nature-safari",
+    slug: "shimoga-nature-tour-from-goa",
     rating: 4.6,
     imageQuery: "/destinations/Thumbnails/Shimoga.webp",
     category: "domestic",
@@ -125,7 +125,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-aurangabad-015",
-    slug: "aurangabad-heritage",
+    slug: "aurangabad-heritage-tour-from-goa",
     rating: 4.7,
     imageQuery: "/destinations/Thumbnails/Aurangabad.webp",
     category: "domestic",
@@ -141,7 +141,7 @@ export const domesticTrips: Destination[] = [
   // },
   {
     id: "dom-hampi-017",
-    slug: "hampi-badami-tour-package",
+    slug: "hampi-badami-heritage-tour-from-goa",
     rating: 4.8,
     imageQuery: "/destinations/Thumbnails/Hampi.webp",
     category: "domestic",
@@ -168,7 +168,7 @@ export const domesticTrips: Destination[] = [
   // },
   // {
   //   id: "dom-mumbai-021",
-  //   slug: "mumbai-day-trip",
+  //   slug: "mumbai-one-day-tour-from-goa",
   //   rating: 4.6,
   //   imageQuery: "/destinations/Thumbnails/Mumbai.webp",
   //   category: "domestic",
@@ -176,7 +176,7 @@ export const domesticTrips: Destination[] = [
   // },
   {
     id: "dom-ellora-ajanta-022",
-    slug: "ajanta-ellora-caves-tour",
+    slug: "ajanta-ellora-caves-tour-from-goa",
     rating: 4.8,
     imageQuery: "/destinations/Thumbnails/Ellora.webp",
     category: "domestic",
@@ -200,7 +200,7 @@ export const domesticTrips: Destination[] = [
   // },
   {
     id: "dom-udaipur-jodhpur-026",
-    slug: "jodhpur-udaipur-tour",
+    slug: "odhpur-udaipur-tour-from-goa",
     rating: 4.8,
     imageQuery: "/destinations/Thumbnails/Udaipur.webp",
     category: "domestic",
@@ -208,7 +208,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-varanasi-027",
-    slug: "varanasi-tour-package",
+    slug: "varanasi-tour-package-from-goa",
     rating: 4.7,
     imageQuery: "/destinations/Thumbnails/Varanasi.webp",
     category: "domestic",
@@ -216,7 +216,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-mathura-vrindavan-028",
-    slug: "mathura-tour-package",
+    slug: "mathura-vrindavan-tour-from-goa",
     rating: 4.6,
     imageQuery: "/destinations/Thumbnails/Mathura.webp",
     category: "domestic",
@@ -224,7 +224,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-amritsar-019",
-    slug: "amritsar-tour-package",
+    slug: "amritsar-tour-package-from-goa",
     rating: 4.9,
     imageQuery: "/destinations/Thumbnails/Amritsar.webp",
     category: "domestic",
@@ -232,7 +232,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-bijapur-019",
-    slug: "bijapur-tour-package",
+    slug: "bijapur-heritage-tour-from-goa",
     rating: 4.9,
     imageQuery: "/destinations/Thumbnails/Bijapur.webp",
     category: "domestic",
@@ -240,7 +240,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-andaman-019",
-    slug: "2-days-dandeli-tour-package",
+    slug: "dandeli-2-day-tour-from-goa",
     rating: 4.9,
     imageQuery: "/destinations/Thumbnails/Dandeli.webp",
     category: "domestic",
@@ -248,7 +248,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-hyderabad-019",
-    slug: "hyderabad-tour-package",
+    slug: "hyderabad-tour-package-from-goa",
     rating: 4.9,
     imageQuery: "/destinations/Thumbnails/Hyderabad.webp",
     category: "domestic",
@@ -256,7 +256,7 @@ export const domesticTrips: Destination[] = [
   },
   {
     id: "dom-jodhpur-019",
-    slug: "jodhpur-tour-package",
+    slug: "jodhpur-tour-package-from-goa",
     rating: 4.9,
     imageQuery: "/destinations/Thumbnails/Jodhpur.webp",
     category: "domestic",
@@ -444,49 +444,49 @@ export const internationalTrips: Destination[] = [
 export const dayTrips: Destination[] = [
   {
     id: "day-dandeli-001",
-    slug: "dandeli-elephant-safari",
+    slug: "dandeli-elephant-safari-day-trip",
     rating: 4.9,
     imageQuery: "/destinations/Dandeli/elephant-safari.webp",
     category: "day-trips",
   },
   {
     id: "day-dudhsagar-002",
-    slug: "dudhsagar-spice-plantation",
+    slug: "dudhsagar-waterfall-spice-plantation",
     rating: 4.4,
     imageQuery: "/destinations/Thumbnails/Dudhsagar.webp",
     category: "day-trips",
   },
   {
     id: "day-mumbai-003",
-    slug: "mumbai-day-trip",
+    slug: "mumbai-one-day-tour-from-goa",
     rating: 4.6,
     imageQuery: "/hero/mumbai-hero.webp",
     category: "day-trips",
   },
   {
     id: "day-netravali-004",
-    slug: "netravali-day-trip",
+    slug: "netravali-wildlife-day-trip",
     rating: 4.9,
     imageQuery: "/destinations/Thumbnails/netravali.webp",
     category: "day-trips",
   },
   {
     id: "day-gokarna-005",
-    slug: "gokarna-murdeshwar-trip",
+    slug: "gokarna-murdeshwar-day-trip",
     rating: 4.1,
     imageQuery: "/destinations/Thumbnails/Gokarna.webp",
     category: "day-trips",
   },
   {
     id: "day-palolem-006",
-    slug: "palolem-cola-beach-dolphin-spotting",
+    slug: "palolem-cola-beach-dolphin-tour",
     rating: 4.6,
     imageQuery: "/destinations/South-goa/palolem-beach.webp",
     category: "day-trips",
   },
   {
     id: "day-south-goa-cultural-007",
-    slug: "full-day-south-goa-tour",
+    slug: "south-goa-full-day-tour",
     rating: 4.2,
     imageQuery: "/destinations/Thumbnails/Goa3.webp",
     category: "day-trips",
@@ -496,7 +496,7 @@ export const dayTrips: Destination[] = [
 
   {
     id: "day-north-goa-009",
-    slug: "north-goa-day-tour",
+    slug: "north-goa-full-day-tour",
     rating: 4.6,
     imageQuery: "/destinations/Thumbnails/NorthGoa.webp",
     category: "day-trips",
@@ -510,7 +510,7 @@ export const dayTrips: Destination[] = [
   // },
   {
     id: "day-yacht-013",
-    slug: "yacht-day-tour",
+    slug: "luxury-yacht-day-tour-goa",
     rating: 4.8,
     imageQuery: "/destinations/Thumbnails/Yacht.webp",
     category: "day-trips",

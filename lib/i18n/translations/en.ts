@@ -92,25 +92,25 @@ export const en = {
     subtitle:
       "Share your details and we'll create the perfect itinerary for you",
     items: {
-      "full-day-south-goa-tour": {
+      "south-goa-full-day-tour": {
         title: "South Goa – Cultural Goa",
         duration: "1 Day",
         description:
           "Explore South Goa’s rich heritage with visits to Old Goa Churches, St. Augustine Tower, Shantadurga and Mangeshi Temples, Miramar, Colva and Dona Paula beaches, Panjim Market, and a Mandovi River dinner cruise.",
       },
-      "north-goa-day-tour": {
+      "north-goa-full-day-tour": {
         title: "North Goa Sightseeing",
         duration: "1 Day",
         description:
           "Experience the vibrant side of Goa with famous beaches like Baga, Calangute, and Anjuna, along with historic forts, flea markets, nightlife, and Portuguese-era churches.",
       },
-      "dudhsagar-spice-plantation": {
+      "dudhsagar-waterfall-spice-plantation": {
         title: "Dudhsagar Waterfall & Spice Plantation",
         duration: "1 Day",
         description:
           "Witness the majestic Dudhsagar Waterfalls surrounded by lush forests, followed by a guided visit to aromatic spice plantations with cultural insights and a traditional lunch.",
       },
-      "palolem-cola-beach-dolphin-spotting": {
+      "palolem-cola-beach-dolphin-tour": {
         title: "Palolem & Cola Beach Dolphin Spotting",
         duration: "1 Day",
         description:
@@ -122,7 +122,7 @@ export const en = {
         description:
           "Observe crocodiles in their natural river habitat on a thrilling wildlife excursion ideal for nature lovers and photographers.",
       },
-      "yacht-day-tour": {
+      "luxury-yacht-day-tour-goa": {
         title: "Luxury Yacht Dusk to Dine Experience",
         duration: "4 PM – 10 PM",
         description:
@@ -134,31 +134,31 @@ export const en = {
         description:
           "Take a scenic boat trip to Grand Island and enjoy snorkeling, jet skiing, banana rides, parasailing, dolphin spotting, swimming, and a full day of sea adventure.",
       },
-      "goa-serai-cabo-retreat": {
+      "goa-luxury-retreat-serai-cabo": {
         title: "Goa Luxury Serai Cabo Retreat",
         duration: "2 Nights / 3 Days",
         description:
           "Relax at a luxury cliffside retreat at Cabo de Rama offering serene sea views, premium accommodation, and a peaceful escape close to nature.",
       },
-      "gokarna-murdeshwar-trip": {
+      "gokarna-murdeshwar-day-trip": {
         title: "Gokarna & Murdeshwar Tour",
         duration: "1 Day",
         description:
           "Visit the serene beaches of Gokarna and the iconic Murdeshwar Shiva statue and seafront temple, blending spirituality with coastal beauty.",
       },
-      "hampi-badami-tour-package": {
+      "hampi-badami-heritage-tour-from-goa": {
         title: "Hampi & Badami Heritage Tour",
         duration: "1 Night / 2 Days",
         description:
           "Explore the UNESCO World Heritage ruins of Hampi and the ancient rock-cut cave temples of Badami showcasing Chalukyan architecture.",
       },
-      "2-days-dandeli-tour-package": {
+      "dandeli-2-day-tour-from-goa": {
         title: "Dandeli Elephant & Tiger Safari",
         duration: "1 Day",
         description:
           "Embark on a wildlife adventure through the forests of Dandeli featuring elephant and tiger safaris amid breathtaking natural landscapes.",
       },
-      "kerala-tour": {
+      "kerala-tour-package-from-goa": {
         title: "Kerala Backwaters & Hills Tour",
         duration: "4 Nights / 5 Days",
         description:
@@ -176,19 +176,19 @@ export const en = {
         description:
           "Explore Mumbai’s iconic landmarks such as Gateway of India, CST, Marine Drive, famous beaches, bustling markets, and Bollywood culture.",
       },
-      "ajanta-ellora-caves-tour": {
+      "ajanta-ellora-caves-tour-from-goa": {
         title: "Ellora & Ajanta Caves Tour",
         duration: "2 Nights / 3 Days",
         description:
           "Marvel at the ancient rock-cut caves of Ellora and Ajanta, showcasing Buddhist, Hindu, and Jain art, sculptures, and frescoes.",
       },
-      "4D-golden-triangle-tour": {
+      "golden-triangle-4-day-tour-from-goa": {
         title: "Golden Triangle Tour",
         duration: "3 Nights / 4 Days",
         description:
           "Cover Delhi, Agra, and Jaipur with visits to India Gate, Qutub Minar, Taj Mahal, Agra Fort, Amber Fort, royal palaces, and vibrant local bazaars.",
       },
-      "jodhpur-udaipur-tour": {
+      "odhpur-udaipur-tour-from-goa": {
         title: "Udaipur & Jodhpur Royal Rajasthan Tour",
         duration: "4 Nights / 5 Days",
         description:
@@ -200,19 +200,19 @@ export const en = {
         description:
           "Visit the world-famous Taj Mahal, a symbol of eternal love, along with Agra Fort and surrounding Mughal heritage sites.",
       },
-      "varanasi-tour-package": {
+      "varanasi-tour-package-from-goa": {
         title: "Varanasi – Spiritual India",
         duration: "3 Nights / 4 Days",
         description:
           "Experience India’s spiritual heart with Ganga ghats, Ganga Aarti, Kashi Vishwanath Temple, and a visit to the Buddhist site of Sarnath.",
       },
-      "mathura-tour-package": {
+      "mathura-vrindavan-tour-from-goa": {
         title: "Mathura & Vrindavan Tour",
         duration: "2 Nights / 3 Days",
         description:
           "Immerse yourself in devotion at the sacred birthplaces of Lord Krishna with vibrant temples, soulful chants, and spiritual experiences.",
       },
-      "andaman-islands-tour": {
+      "andaman-islands-tour-from-goa": {
         title: "Andaman Islands Escape",
         duration: "5 Nights / 6 Days",
         description:
@@ -388,7 +388,7 @@ export const en = {
         description:
           "Visit the majestic Dudhsagar Waterfalls and explore aromatic spice plantations with guided tours.",
       },
-      "4D-golden-triangle-tour": {
+      "golden-triangle-4-day-tour-from-goa": {
         title: "Golden Triangle Trip 3N/4D",
         duration: "3 Nights / 4 Days",
         description:
@@ -1330,21 +1330,21 @@ export const en = {
   },
   trips: {
     // Domestic Trips
-    "exotic-kashmir-tour": {
+    "kashmir-tour-package-from-goa": {
       title: "Exotic Kashmir",
       description:
         "Explore Srinagar, Sonamarg, Gulmarg, and Pahalgam with Mughal gardens, houseboat stay, and breathtaking Himalayan landscapes.",
       duration: "5 Nights / 6 Days",
     },
 
-    "ladakh-tour": {
+    "ladakh-tour-package-from-goa": {
       title: "Leh, Turtuk & Pangong",
       description:
         "Experience Khardung La Pass, Nubra Valley, Pangong Lake, and Turtuk village in this high-altitude Himalayan adventure.",
       duration: "6 Nights / 7 Days",
     },
 
-    "sikkim-darjeeling-gangtok-tour": {
+    "sikkim-darjeeling-gangtok-tour-from-goa": {
       title: "Sikkim - Eastern Himalayas",
       description:
         "Discover Gangtok, Darjeeling, Pelling with Tsomgo Lake, mountain views, and Buddhist monasteries in the Eastern Himalayas.",
@@ -1358,33 +1358,33 @@ export const en = {
       duration: "6 Nights / 7 Days",
     },
 
-    "north-india-heritage-tour": {
+    "north-india-heritage-tour-from-goa": {
       title: "North India Heritage",
       description:
         "Golden Triangle plus Amritsar and Ranthambore - experience cultural heritage, Golden Temple, and tiger safari adventure.",
       duration: "10 Days / 9 Nights",
     },
 
-    "4D-golden-triangle-tour": {
+    "golden-triangle-4-day-tour-from-goa": {
       title: "Golden Triangle",
       description:
         "Delhi, Agra, Jaipur - Experience India's rich cultural heritage with Taj Mahal, Amber Fort, and historic monuments.",
       duration: "5 Nights / 6 Days",
     },
 
-    "rajasthan-royal": {
+    "rajasthan-royal-tour-from-goa": {
       title: "Rajasthan Royal",
       description:
         "Jaipur, Udaipur, Jodhpur, Jaisalmer desert camp & Bikaner - experience royal palaces, desert safaris, and vibrant culture.",
       duration: "8 Nights / 9 Days",
     },
-    "kerala-tour": {
+    "kerala-tour-package-from-goa": {
       title: "Scenic Kerala",
       description:
         "Experience God's Own Country with backwaters, hills, beaches, houseboat stay, tea plantations, and spice gardens.",
       duration: "5 Nights / 6 Days",
     },
-    "tamil-nadu-tour": {
+    "tamil-nadu-tour-package-from-goa": {
       title: "Tamil Nadu - Temple Tour",
       description:
         "Kanyakumari, Rameshwaram, Madurai temples & Ooty hill station - spiritual journey through South India's sacred sites.",
@@ -1396,7 +1396,7 @@ export const en = {
         "Discover coral beaches, island hopping, water sports, pristine marine life, and historical Cellular Jail across tropical islands.",
       duration: "6 Nights / 7 Days",
     },
-    "lakshadweep-islands": {
+    "lakshadweep-islands-tour-from-goa": {
       title: "Lakshadweep Islands",
       description:
         "Pristine beaches, coral reefs & marine life in Agatti, Thinnakara & Kalpitti islands with snorkeling and water sports.",
@@ -1409,21 +1409,21 @@ export const en = {
       duration: "2 Nights / 3 Days",
     },
 
-    "goa-serai-cabo-retreat": {
+    "goa-luxury-retreat-serai-cabo": {
       title: "Secret Cabo Serai",
       description:
         "Luxury getaway at Cabo Serai with breathtaking Arabian Sea views, nature walks, birdwatching, and optional wellness experiences.",
       duration: "2 Nights / 3 Days",
     },
 
-    "shimoga-nature-safari": {
+    "shimoga-nature-tour-from-goa": {
       title: "Shimoga Nature & Safari",
       description:
         "Explore Yana Caves' mystical rock formations, enjoy thrilling jeep and boat safaris, and witness the majestic Jog Falls.",
       duration: "1 Night / 2 Days",
     },
 
-    "aurangabad-heritage": {
+    "aurangabad-heritage-tour-from-goa": {
       title: "Aurangabad Heritage",
       description:
         "Discover UNESCO World Heritage Sites Ajanta & Ellora Caves, Bibi Ka Maqbara, and the historic Daulatabad Fort.",
@@ -1436,7 +1436,7 @@ export const en = {
         "Experience the iconic Taj Mahal, Agra Fort, and Baby Taj with Russian-speaking guides on this romantic heritage journey.",
       duration: "1 Night / 2 Days",
     },
-    "hampi-badami-tour-package": {
+    "hampi-badami-heritage-tour-from-goa": {
       title: "Hampi Heritage",
       description:
         "Explore the UNESCO World Heritage Site of Hampi's ancient ruins, royal enclosures, temples, and unique stone chariot.",
@@ -1567,49 +1567,49 @@ export const en = {
     },
 
     // Day Trips
-    "dandeli-elephant-safari": {
+    "dandeli-elephant-safari-day-trip": {
       title: "Dandeli Elephant Safari",
       description:
         "Thrilling wildlife adventure featuring elephant safaris, white water rafting, and jungle exploration in the lush landscapes of Dandeli.",
       duration: "1 Day",
     },
-    "dudhsagar-spice-plantation": {
+    "dudhsagar-waterfall-spice-plantation": {
       title: "Dudhsagar Waterfall & Spice Plantation",
       description:
         "Experience the majestic Dudhsagar Falls with jeep safari through Bhagwan Mahaveer Sanctuary followed by authentic Goan lunch at a spice plantation.",
       duration: "1 Day",
     },
-    "mumbai-day-trip": {
+    "mumbai-one-day-tour-from-goa": {
       title: "Mumbai in a Day Trip",
       description:
         "Comprehensive Mumbai tour covering iconic landmarks including Gateway of India, Dharavi Slum, Dhobi Ghat, and overnight train return to Goa.",
       duration: "1 Day",
     },
-    "netravali-day-trip": {
+    "netravali-wildlife-day-trip": {
       title: "Netravali Day Trip",
       description:
         "Explore Netravali's mystical Bubbling Lake, trek to pristine waterfalls, and discover rich biodiversity in this untouched wildlife sanctuary.",
       duration: "1 Day",
     },
-    "gokarna-murdeshwar-trip": {
+    "gokarna-murdeshwar-day-trip": {
       title: "Gokarna Murdeshwar Trip",
       description:
         "Spiritual journey visiting ancient Mahabaleshwar Temple in Gokarna and the magnificent Murdeshwar Temple with world's tallest Shiva statue.",
       duration: "1 Day",
     },
-    "palolem-cola-beach-dolphin-spotting": {
+    "palolem-cola-beach-dolphin-tour": {
       title: "Palolem, Cola Beach - Dolphin Spotting",
       description:
         "Complete South Goa experience featuring dolphin spotting, 4-point boat tour, kayaking in blue lagoons, and historic Cabo de Rama Fort sunset.",
       duration: "1 Day",
     },
-    "full-day-south-goa-tour": {
+    "south-goa-full-day-tour": {
       title: "South Goa Cultural & Coastal Tour",
       description:
         "Complete South Goa experience featuring UNESCO heritage sites in Old Goa, ancient temples, dolphin spotting, pristine beaches, and sunset at Cabo de Rama Fort with Mandovi River dinner cruise.",
       duration: "1 Day",
     },
-    "north-goa-day-tour": {
+    "north-goa-full-day-tour": {
       title: "North Goa Sightseeing",
       duration: "1 Day",
       description:
@@ -1622,7 +1622,7 @@ export const en = {
         "Observe crocodiles in their natural river habitat on a thrilling wildlife excursion ideal for nature lovers and photographers.",
     },
 
-    "yacht-day-tour": {
+    "luxury-yacht-day-tour-goa": {
       title: "Luxury Yacht Dusk to Dine Experience",
       duration: "4 PM / 10 PM",
       description:
@@ -1636,7 +1636,7 @@ export const en = {
         "Take a scenic boat trip to Grand Island and enjoy snorkeling, jet skiing, banana rides, parasailing, dolphin spotting, swimming, and a full day of sea adventure.",
     },
 
-    "2-days-dandeli-tour-package": {
+    "dandeli-2-day-tour-from-goa": {
       title: "Dandeli Elephant & Tiger Safari",
       duration: "2 Day",
       description:
@@ -1649,34 +1649,34 @@ export const en = {
         "Discover Mysore’s royal heritage including Mysore Palace and Chamundi Hill, followed by Ooty’s tea gardens, botanical gardens, and scenic Nilgiri views.",
     },
 
-    "ajanta-ellora-caves-tour": {
+    "ajanta-ellora-caves-tour-from-goa": {
       title: "Ellora & Ajanta Caves Tour",
       duration: "2 Nights / 3 Days",
       description:
         "Marvel at the ancient rock-cut caves of Ellora and Ajanta, showcasing Buddhist, Hindu, and Jain art, sculptures, and frescoes.",
     },
 
-    "jodhpur-udaipur-tour": {
+    "odhpur-udaipur-tour-from-goa": {
       title: "Udaipur & Jodhpur Royal Rajasthan Tour",
       duration: "4 Nights / 5 Days",
       description:
         "Experience Rajasthan’s regal charm through grand palaces, serene lakes, majestic forts, blue streets, and vibrant markets.",
     },
 
-    "varanasi-tour-package": {
+    "varanasi-tour-package-from-goa": {
       title: "Varanasi – Spiritual India",
       duration: "3 Nights / 4 Days",
       description:
         "Experience India’s spiritual heart with Ganga ghats, Ganga Aarti, Kashi Vishwanath Temple, and a visit to the Buddhist site of Sarnath.",
     },
 
-    "mathura-tour-package": {
+    "mathura-vrindavan-tour-from-goa": {
       title: "Mathura & Vrindavan Tour",
       duration: "2 Nights / 3 Days",
       description:
         "Immerse yourself in devotion at the sacred birthplaces of Lord Krishna with vibrant temples, soulful chants, and spiritual experiences.",
     },
-    "andaman-islands-tour": {
+    "andaman-islands-tour-from-goa": {
       title: "Andaman Islands Escape",
       duration: "5 Nights / 6 Days",
       description:
@@ -1689,25 +1689,25 @@ export const en = {
       description:
         "Indulge in a luxury Maldives getaway with overwater villas, pristine beaches, private dining, spa retreats, and stunning sunsets.",
     },
-    "amritsar-tour-package": {
+    "amritsar-tour-package-from-goa": {
       title: "Amritsar Heritage Tour",
       duration: "2 Nights / 3 Days",
       description:
         "Discover the spiritual and historical significance of Amritsar with visits to Golden Temple, Jallianwala Bagh, and other iconic sites.",
     },
-    "bijapur-tour-package": {
+    "bijapur-heritage-tour-from-goa": {
       title: "Bijapur Heritage Tour",
       duration: "1 Nights / 2 Days",
       description:
         "Discover the spiritual and historical significance of Bijapur with visits to the Gol Gumbaz, Ibrahim Rauza, and other iconic sites.",
     },
-    "hyderabad-tour-package": {
+    "hyderabad-tour-package-from-goa": {
       title: "Hyderabad  Tour",
       duration: "2 Nights / 3 Days",
       description:
         "Discover the spiritual and historical significance of Hyderabad with visits to the Charminar, Golconda Fort, and other iconic sites.",
     },
-    "jodhpur-tour-package": {
+    "jodhpur-tour-package-from-goa": {
       title: "Jodhpur Heritage Tour",
       duration: "3 Nights / 4 Days",
       description:
@@ -1716,7 +1716,7 @@ export const en = {
   },
 
   tourData: {
-    "aurangabad-heritage": {
+    "aurangabad-heritage-tour-from-goa": {
       "file_name": "2-Day-Aurangabad-Trip-Package.html",
       "page": {
         "slug": "2-Day-Aurangabad-Trip-Package",
@@ -1900,7 +1900,7 @@ export const en = {
         }
       ]
     },
-    "goa-in-a-day-tour": {
+    "goa-one-day-sightseeing-tour": {
       "file_name": "One-Day-South-Goa-trip-package.html",
       "page": {
         "slug": "One-Day-South-Goa-trip-package",
@@ -2071,7 +2071,7 @@ export const en = {
         }
       ]
     },
-    "goa-tour": {
+    "goa-sightseeing-tour": {
       "file_name": "north-goa-english-tour.html",
       "page": {
         "slug": "North-Goa-English-tour",
@@ -2237,7 +2237,7 @@ export const en = {
         }
       ]
     },
-    "north-goa-day-tour": {
+    "north-goa-full-day-tour": {
       "file_name": "north-goa-english-tour.html",
       "page": {
         "slug": "North-Goa-English-tour",
@@ -3450,7 +3450,7 @@ export const en = {
         }
       ]
     },
-    "ajanta-ellora-caves-tour": {
+    "ajanta-ellora-caves-tour-from-goa": {
       "file_name": "ajanta-ellora-tour-from-goa.html",
       "page": {
         "slug": "ajanta-ellora-tour",
@@ -3662,10 +3662,10 @@ export const en = {
         }
       ]
     },
-    "amritsar-tour-package": {
-      "file_name": "amritsar-tour-package-2n3d-from-goa.html",
+    "amritsar-tour-package-from-goa": {
+      "file_name": "amritsar-tour-package-from-goa-2n3d-from-goa.html",
       "page": {
-        "slug": "amritsar-tour-package-2n3d",
+        "slug": "amritsar-tour-package-from-goa-2n3d",
         "type": "domestic-trip",
         "hero": {
           "title": "3D/2N Amritsar Tour Package – Golden Temple & Wagah Border Trip",
@@ -3784,7 +3784,7 @@ export const en = {
         }
       ]
     },
-    "andaman-islands-tour": {
+    "andaman-islands-tour-from-goa": {
       "file_name": "andaman-tour-for-goa.html",
       "page": {
         "slug": "andaman-nicobar-tour-for-goa",
@@ -4096,7 +4096,7 @@ export const en = {
         }
       ]
     },
-    "goa-serai-cabo-retreat": {
+    "goa-luxury-retreat-serai-cabo": {
       "file_name": "Cabo-Serai-2N-3D-Luxury-Getaway.html",
       "page": {
         "slug": "Cabo-Serai-2N-3D-Luxury-Getaway",
@@ -4426,7 +4426,7 @@ export const en = {
         }
       ]
     },
-    "dandeli-elephant-safari": {
+    "dandeli-elephant-safari-day-trip": {
       "file_name": "Dandeli-Elephant-Safari-Day-Trip-package.html",
       "page": {
         "slug": "Dandeli-Elephant-Safari-Day-Trip-package",
@@ -4589,10 +4589,10 @@ export const en = {
         }
       ]
     },
-    "2-days-dandeli-tour-package": {
-      "file_name": "2-days-dandeli-tour-package-from-goa.html",
+    "dandeli-2-day-tour-from-goa": {
+      "file_name": "dandeli-2-day-tour-from-goa-from-goa.html",
       "page": {
-        "slug": "2-days-dandeli-tour-package",
+        "slug": "dandeli-2-day-tour-from-goa",
         "type": "domestic-trip",
         "hero": {
           "title": "Dandeli Tour Package – Elephant & Tiger Safari 2D/1N from Goa",
@@ -4784,7 +4784,7 @@ export const en = {
         }
       ]
     },
-    "delhi-agra-trip": {
+    "delhi-agra-tour-from-goa": {
       "file_name": "Delhi-Agra-1N-2D-Trip-Package.html",
       "page": {
         "slug": "Delhi-Agra-1N-2D-Trip-Package",
@@ -5113,7 +5113,7 @@ export const en = {
         }
       ]
     },
-    "dudhsagar-spice-plantation": {
+    "dudhsagar-waterfall-spice-plantation": {
       "file_name": "Dudhsagar-and-Spice-Plantation-Day-Trip-package.html",
       "page": {
         "slug": "Dudhsagar-and-Spice-Plantation-Day-Trip-package",
@@ -5426,7 +5426,7 @@ export const en = {
         }
       ]
     },
-    "gokarna-murdeshwar-trip": {
+    "gokarna-murdeshwar-day-trip": {
       "file_name": "Gokarna-Murdeshwar-one-day-trip-package.html",
       "page": {
         "slug": "Gokarna-Murdeshwar-one-day-trip-package",
@@ -5596,10 +5596,10 @@ export const en = {
         }
       ]
     },
-    "4D-golden-triangle-tour": {
-      "file_name": "4D-golden-triangle-tour-3n4d.html",
+    "golden-triangle-4-day-tour-from-goa": {
+      "file_name": "golden-triangle-4-day-tour-from-goa-3n4d.html",
       "page": {
-        "slug": "4D-golden-triangle-tour-3N4D",
+        "slug": "golden-triangle-4-day-tour-from-goa-3N4D",
         "type": "domestic-trip",
         "hero": {
           "title": "4D/3N Golden Triangle Tour Package – Delhi Agra Jaipur Trip",
@@ -5815,7 +5815,7 @@ export const en = {
         }
       ]
     },
-    "hampi-badami-tour-package": {
+    "hampi-badami-heritage-tour-from-goa": {
       "file_name": "Hampi-1N-2D-Trip-Package.html",
       "page": {
         "slug": "Hampi-1N-2D-Trip-Package",
@@ -6190,10 +6190,10 @@ export const en = {
         }
       ]
     },
-    "jodhpur-udaipur-tour": {
+    "odhpur-udaipur-tour-from-goa": {
       "file_name": "jodhpur-udaipur-trip-4n5d.html",
       "page": {
-        "slug": "jodhpur-udaipur-tour-package",
+        "slug": "odhpur-udaipur-tour-from-goa-package",
         "type": "domestic-trip",
         "hero": {
           "title": "Jodhpur & Udaipur (4 Nights - 5 days)",
@@ -6442,7 +6442,7 @@ export const en = {
         }
       ]
     },
-    "exotic-kashmir-tour": {
+    "kashmir-tour-package-from-goa": {
       "file_name": "Kashmir-5N6D-Trip.html",
       "page": {
         "slug": "Kashmir-5N6D-Trip",
@@ -6723,10 +6723,10 @@ export const en = {
         }
       ]
     },
-    "yacht-day-tour": {
-      "file_name": "yacht-day-tour.html",
+    "luxury-yacht-day-tour-goa": {
+      "file_name": "luxury-yacht-day-tour-goa.html",
       "page": {
-        "slug": "yacht-day-tour",
+        "slug": "luxury-yacht-day-tour-goa",
         "type": "",
         "hero": {
           "title": "3D/2N Yacht Day Tour Package – Luxury Sunset Cruise Goa\"",
@@ -6889,7 +6889,7 @@ export const en = {
         }
       ]
     },
-    "mumbai-day-trip": {
+    "mumbai-one-day-tour-from-goa": {
       "file_name": "Mumbai-day-trip-package.html",
       "page": {
         "slug": "Mumbai-day-trip-package",
@@ -7092,7 +7092,7 @@ export const en = {
         }
       ]
     },
-    "netravali-day-trip": {
+    "netravali-wildlife-day-trip": {
       "file_name": "Netravali-day-trip-package.html",
       "page": {
         "slug": "Netravali-day-trip-package",
@@ -7273,7 +7273,7 @@ export const en = {
         }
       ]
     },
-    "full-day-south-goa-tour": {
+    "south-goa-full-day-tour": {
       "file_name": "South-Goa-1-Day-Cultural-and-Beach-Tour-package.html",
       "page": {
         "slug": "South-Goa-1-Day-Cultural-and-Beach-Tour-package",
@@ -7419,7 +7419,7 @@ export const en = {
         }
       ]
     },
-    "palolem-cola-beach-dolphin-spotting": {
+    "palolem-cola-beach-dolphin-tour": {
       "file_name": "South-Goa-1-Day-Trip-package.html",
       "page": {
         "slug": "palolem-cola-full-day-tour",
@@ -7608,10 +7608,10 @@ export const en = {
         }
       ]
     },
-    "bijapur-tour-package": {
-      "file_name": "bijapur-tour-package-from-goa.html",
+    "bijapur-heritage-tour-from-goa": {
+      "file_name": "bijapur-heritage-tour-from-goa-from-goa.html",
       "page": {
-        "slug": "bijapur-tour-package",
+        "slug": "bijapur-heritage-tour-from-goa",
         "type": "domestic-trip",
         "hero": {
           "title": "2D/1N Bijapur Tour Package from Goa | Aihole & Pattadakal Trip",
@@ -7822,7 +7822,7 @@ export const en = {
         }
       ]
     },
-    "hyderabad-tour-package": {
+    "hyderabad-tour-package-from-goa": {
       "file_name": "hyderabad-trip-1n2d.html",
       "page": {
         "slug": "Hyderabad-Trip-1N2D",
@@ -8022,10 +8022,10 @@ export const en = {
         }
       ]
     },
-    "jodhpur-tour-package": {
-      "file_name": "jodhpur-tour-package-3n4d.html",
+    "jodhpur-tour-package-from-goa": {
+      "file_name": "jodhpur-tour-package-from-goa-3n4d.html",
       "page": {
-        "slug": "jodhpur-tour-package-3N4D",
+        "slug": "jodhpur-tour-package-from-goa-3N4D",
         "type": "domestic-trip",
         "hero": {
           "title": "Jodhpur Tour Package – 3N/4D Jodhpur Jaisalmer Trip",
@@ -8262,7 +8262,7 @@ export const en = {
         }
       ]
     },
-    "kerala-tour": {
+    "kerala-tour-package-from-goa": {
       "file_name": "Kerala-5N6D-Trip.html",
       "page": {
         "slug": "Kerala-5N6D-Trip",
@@ -8406,10 +8406,10 @@ export const en = {
         }
       ]
     },
-    "ladakh-tour": {
-      "file_name": "ladakh-tour-for-goa.html",
+    "ladakh-tour-package-from-goa": {
+      "file_name": "ladakh-tour-package-from-goa-for-goa.html",
       "page": {
-        "slug": "ladakh-tour-for-goa",
+        "slug": "ladakh-tour-package-from-goa-for-goa",
         "type": "domestic-trip",
         "hero": {
           "title": "Ladakh Tour Package from Goa",
@@ -8552,7 +8552,7 @@ export const en = {
         }
       ]
     },
-    "lakshadweep-islands": {
+    "lakshadweep-islands-tour-from-goa": {
       "file_name": "Lakshadweep-Trip.html",
       "page": {
         "slug": "Lakshadweep-Trip",
@@ -8682,10 +8682,10 @@ export const en = {
         }
       ]
     },
-    "mathura-tour-package": {
+    "mathura-vrindavan-tour-from-goa": {
       "file_name": "mathura-vrindavan-trip-2n3d.html",
       "page": {
-        "slug": "mathura-tour-package",
+        "slug": "mathura-vrindavan-tour-from-goa",
         "type": "",
         "hero": {
           "title": "Mathura – Vrindavan Tour (2 Nights – 3 Days)",
@@ -9060,7 +9060,7 @@ export const en = {
         }
       ]
     },
-    "north-india-heritage-tour": {
+    "north-india-heritage-tour-from-goa": {
       "file_name": "North-India-Trip.html",
       "page": {
         "slug": "North-India-Trip",
@@ -9228,7 +9228,7 @@ export const en = {
         }
       ]
     },
-    "rajasthan-royal": {
+    "rajasthan-royal-tour-from-goa": {
       "file_name": "Rajasthan-Trip-Package.html",
       "page": {
         "slug": "Rajasthan-Trip-Package",
@@ -9378,7 +9378,7 @@ export const en = {
         }
       ]
     },
-    "shimoga-nature-safari": {
+    "shimoga-nature-tour-from-goa": {
       "file_name": "Shimoga-trip-package.html",
       "page": {
         "slug": "Shimoga-trip-package",
@@ -9559,7 +9559,7 @@ export const en = {
         }
       ]
     },
-    "sikkim-darjeeling-gangtok-tour": {
+    "sikkim-darjeeling-gangtok-tour-from-goa": {
       "file_name": "sikkim-tour-for-goa.html",
       "page": {
         "slug": "sikkim-tour-for-goa",
@@ -9709,7 +9709,7 @@ export const en = {
         }
       ]
     },
-    "tamil-nadu-tour": {
+    "tamil-nadu-tour-package-from-goa": {
       "file_name": "Tamil-Nadu-trip.html",
       "page": {
         "slug": "Tamil-Nadu-trip",
@@ -9859,7 +9859,7 @@ export const en = {
         }
       ]
     },
-    "varanasi-tour-package": {
+    "varanasi-tour-package-from-goa": {
       "file_name": "varanasi-2n3d-trip.html",
       "page": {
         "slug": "Varanasi-2N3D",
@@ -11389,10 +11389,10 @@ export const en = {
         }
       ]
     },
-    "golden-triangle-tour-special": {
-      "file_name": "4D-golden-triangle-tour-package.html",
+    "golden-triangle-tour-from-goa": {
+      "file_name": "golden-triangle-4-day-tour-from-goa-package.html",
       "page": {
-        "slug": "4D-golden-triangle-tour-package",
+        "slug": "golden-triangle-4-day-tour-from-goa-package",
         "type": "domestic-trip",
         "hero": {
           "title": "Golden Triangle Tour - Delhi, Agra, Jaipur | Global Tourist Centre",
@@ -11529,7 +11529,7 @@ export const en = {
       ]
     },
     "south-goa-sightseeing-tour": {
-      "file_name": "south-goa-sunset-cruise-tour.html",
+      "file_name": "south-goa-sunset-cruise.html",
       "page": {
         "slug": "South-Goa-Sightseeing-Sunset-Cruise",
         "type": "day-trip",
@@ -11696,8 +11696,8 @@ export const en = {
         }
       ]
     },
-    "south-goa-sunset-cruise-tour": {
-      "file_name": "south-goa-sunset-cruise-tour.html",
+    "south-goa-sunset-cruise": {
+      "file_name": "south-goa-sunset-cruise.html",
       "page": {
         "slug": "South-Goa-Sightseeing-Sunset-Cruise",
         "type": "day-trip",

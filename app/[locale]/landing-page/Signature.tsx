@@ -24,42 +24,42 @@ const Signature = () => {
     link: string;
     popular: boolean;
   }[] = [
-    {
-      id: "all-goa",
-      imageUrl: "/assets/destinations/Thumbnails/Goa3.webp",
-      price: "$70",
-      link: `/${locale}/destinations/day-trips/full-day-south-goa-tour`,
-      popular: false,
-    },
-    {
-      id: "palolem",
-      imageUrl: "/assets/destinations/Thumbnails/Palolem.webp",
-      price: "$70",
-      link: `/${locale}/destinations/day-trips/palolem-cola-beach-dolphin-spotting`,
-      popular: true,
-    },
-    {
-      id: "mumbai",
-      imageUrl: "/assets/destinations/Thumbnails/mumbai.webp",
-      price: "$360",
-      link: `/${locale}/destinations/day-trips/mumbai-day-trip`,
-      popular: true,
-    },
-    {
-      id: "taj",
-      imageUrl: "/assets/destinations/Thumbnails/agra.webp",
-      price: "$300",
-      link: `/${locale}/destinations/domestic/delhi-agra-trip`,
-      popular: true,
-    },
-    {
-      id: "hampi",
-      imageUrl: "/assets/destinations/Thumbnails/Hampi.webp",
-      price: "$170",
-      link: `/${locale}/destinations/domestic/hampi-badami-tour-package`,
-      popular: false,
-    },
-  ];
+      {
+        id: "all-goa",
+        imageUrl: "/assets/destinations/Thumbnails/Goa3.webp",
+        price: "$70",
+        link: `/${locale}/destinations/day-trips/south-goa-full-day-tour`,
+        popular: false,
+      },
+      {
+        id: "palolem",
+        imageUrl: "/assets/destinations/Thumbnails/Palolem.webp",
+        price: "$70",
+        link: `/${locale}/destinations/day-trips/palolem-cola-beach-dolphin-tour`,
+        popular: true,
+      },
+      {
+        id: "mumbai",
+        imageUrl: "/assets/destinations/Thumbnails/mumbai.webp",
+        price: "$360",
+        link: `/${locale}/destinations/day-trips/mumbai-one-day-tour-from-goa`,
+        popular: true,
+      },
+      {
+        id: "taj",
+        imageUrl: "/assets/destinations/Thumbnails/agra.webp",
+        price: "$300",
+        link: `/${locale}/destinations/domestic/delhi-agra-tour-from-goa`,
+        popular: true,
+      },
+      {
+        id: "hampi",
+        imageUrl: "/assets/destinations/Thumbnails/Hampi.webp",
+        price: "$170",
+        link: `/${locale}/destinations/domestic/hampi-badami-heritage-tour-from-goa`,
+        popular: false,
+      },
+    ];
 
   const scrollExperiences = (direction: "left" | "right") => {
     if (!experiencesRef.current) return;

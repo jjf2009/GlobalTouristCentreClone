@@ -28,7 +28,7 @@ const ConclusionBox = () => {
             {t.blogAndaman.enquireNow}
           </Button>
         </Link>
-        <Link href={`/${locale}/destinations/domestic/andaman-islands-tour/`}>
+        <Link href={`/${locale}/destinations/domestic/andaman-islands-tour-from-goa/`}>
           <Button
             variant="outline"
             size="lg"

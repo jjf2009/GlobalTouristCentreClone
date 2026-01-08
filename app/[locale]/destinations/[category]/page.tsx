@@ -60,6 +60,34 @@ function getCategoryContent(
       return null;
   }
 }
+
+function getMetaContent(
+  category: string,
+  t: ReturnType<typeof getTranslations>
+) {
+  switch (category) {
+    case "domestic":
+      return {
+        title: t.metadata.domestic.title,
+        description: t.metadata.domestic.description,
+      };
+
+    case "international":
+      return {
+        title: t.metadata.international.title,
+        description: t.metadata.international.description,
+      };
+
+    case "day-trips":
+      return {
+        title: t.metadata["day-trips"].title,
+        description: t.metadata["day-trips"].description,
+      };
+
+    default:
+      return null;
+  }
+}
 function getHeroContent(
   category: string,
   t: ReturnType<typeof getTranslations>
@@ -93,7 +121,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale, category } = params;
   const t = getTranslations(locale);
 
-  const content = getCategoryContent(category, t);
+  const content = getMetaContent(category, t);
   const data = getDestinationBySlug(category);
 
   if (!content || !data) {
@@ -109,29 +137,28 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 
   return {
-    title: `${content.heroTitle} |${t.metadata.brandname}`,
-    description: content.subtitle,
+    title: `${content.title} |${t.metadata.brandname}`,
+    description: content.description,
     alternates: {
       canonical,
     },
     openGraph: {
-      title: `${content.heroTitle} |${t.metadata.brandname}`,
-      description: content.subtitle,
+      title: `${content.title} |${t.metadata.brandname}`,
+      description: content.description,
       images: [image],
-      siteName: t.metadata.brandname,
       type: "website",
       url: canonical,
     },
     twitter: {
-      title: `${content.heroTitle} |${t.metadata.brandname}`,
-      description: content.subtitle,
+      title: `${content.title} |${t.metadata.brandname}`,
+      description: content.description,
       card: "summary_large_image",
       images: [
         {
           url: image,
           width: 1200,
           height: 630,
-          alt: content.heroTitle,
+          alt: content.title,
         },
       ],
     },

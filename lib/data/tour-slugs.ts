@@ -2,54 +2,54 @@ export const LOCALES = ["en", "fr", "it", "de", "ru"] as const;
 
 export const TOUR_CATEGORIES = {
   "day-trips": [
-    "full-day-south-goa-tour", // verified
+    "south-goa-full-day-tour", // verified
     "south-goa-sightseeing-tour", // verified // peresnt in en.ts
-    "south-goa-sunset-cruise-tour", // verified // peresnt in en.ts
-    "goa-in-a-day-tour", // verified // peresnt in en.ts
-    "dudhsagar-spice-plantation", // verified
-    "palolem-cola-beach-dolphin-spotting", // verified
-    "north-goa-day-tour", // verified
-    "goa-tour", // verified //prent in en.ts
+    "south-goa-sunset-cruise", // verified // peresnt in en.ts
+    "goa-one-day-sightseeing-tour", // verified // peresnt in en.ts
+    "dudhsagar-waterfall-spice-plantation", // verified
+    "palolem-cola-beach-dolphin-tour", // verified
+    "north-goa-full-day-tour", // verified
+    "goa-sightseeing-tour", // verified //prent in en.ts
     //"crocodile-sightseeing-trip", // temporarily removed (used in home)
-    "yacht-day-tour", // verified
+    "luxury-yacht-day-tour-goa", // verified
     // "grand-island-water-sports", // temporarily removed (used in home)
-    "gokarna-murdeshwar-trip", // verified
-    "dandeli-elephant-safari",
-    "netravali-day-trip", //verified
-    "mumbai-day-trip", // verified
+    "gokarna-murdeshwar-day-trip", // verified
+    "dandeli-elephant-safari-day-trip",
+    "netravali-wildlife-day-trip", //verified
+    "mumbai-one-day-tour-from-goa", // verified
   ],
 
   domestic: [
-    "goa-serai-cabo-retreat", // verified
-    "goa-tour", // verified //prent in en.ts
+    "goa-luxury-retreat-serai-cabo", // verified
+    "goa-sightseeing-tour", // verified //prent in en.ts
     // "mysore-ooty-tour", // temporarily removed (used in home)
-    "aurangabad-heritage", // verified
+    "aurangabad-heritage-tour-from-goa", // verified
     // "taj-mahal-tour", // temporarily removed (used in home)
-    "kerala-tour", // verified
-    "2-days-dandeli-tour-package", // verified
-    "amritsar-tour-package", // verified
-    "4D-golden-triangle-tour", // verified // two are there with same name
-    "golden-triangle-tour-special", // verified
-    "delhi-agra-trip", // verified
-    "jodhpur-udaipur-tour", // temporarily removed (used in home) // verified
-    "rajasthan-royal", // temporarily removed (used in desination.ts)  // verified
-    "north-india-heritage-tour", // verified
-    "mathura-tour-package", // verified
-    "tamil-nadu-tour", //verified
-    "exotic-kashmir-tour", // verified
-    "sikkim-darjeeling-gangtok-tour", // verified
-    "lakshadweep-islands", // verified
-    "andaman-islands-tour", // verified
+    "kerala-tour-package-from-goa", // verified
+    "dandeli-2-day-tour-from-goa", // verified
+    "amritsar-tour-package-from-goa", // verified
+    "golden-triangle-4-day-tour-from-goa", // verified // two are there with same name
+    "golden-triangle-tour-from-goa", // verified
+    "delhi-agra-tour-from-goa", // verified
+    "odhpur-udaipur-tour-from-goa", // temporarily removed (used in home) // verified
+    "rajasthan-royal-tour-from-goa", // temporarily removed (used in desination.ts)  // verified
+    "north-india-heritage-tour-from-goa", // verified
+    "mathura-vrindavan-tour-from-goa", // verified
+    "tamil-nadu-tour-package-from-goa", //verified
+    "kashmir-tour-package-from-goa", // verified
+    "sikkim-darjeeling-gangtok-tour-from-goa", // verified
+    "lakshadweep-islands-tour-from-goa", // verified
+    "andaman-islands-tour-from-goa", // verified
     // "wondrous-wilderness",
-    "hampi-badami-tour-package", // verified
-    "shimoga-nature-safari", // verified
-    "ajanta-ellora-caves-tour", // verified
-    // "ladakh-tour",
-    "varanasi-tour-package", // verified
-    "bijapur-tour-package", // verified // not used anywhere
-    "hyderabad-tour-package", // temporarily removed (used in html code) // verified
-    "jodhpur-tour-package", // verified //temporarily added not used anywhere
-    "ladakh-tour", // temporarily removed (used in en.ts) // verified
+    "hampi-badami-heritage-tour-from-goa", // verified
+    "shimoga-nature-tour-from-goa", // verified
+    "ajanta-ellora-caves-tour-from-goa", // verified
+    // "ladakh-tour-package-from-goa",
+    "varanasi-tour-package-from-goa", // verified
+    "bijapur-heritage-tour-from-goa", // verified // not used anywhere
+    "hyderabad-tour-package-from-goa", // temporarily removed (used in html code) // verified
+    "jodhpur-tour-package-from-goa", // verified //temporarily added not used anywhere
+    "ladakh-tour-package-from-goa", // temporarily removed (used in en.ts) // verified
     // "meghalaya-tour", // verified // temporarily removed (used in en.ts)
   ],
 

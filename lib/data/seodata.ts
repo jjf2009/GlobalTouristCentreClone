@@ -1,7 +1,7 @@
 export const seoData = {
-  "yacht-day-tour": {
+  "luxury-yacht-day-tour-goa": {
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/yacht-day-tour",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/luxury-yacht-day-tour-goa",
     title: "3D/2N Yacht Day Tour Package – Luxury Sunset Cruise Goa",
     meta_description:
       "Experience a premium 3D/2N Yacht Day Tour Package with sunset cruise, infinity pool, live DJ, gourmet dinner, and hotel transfers. Book your luxury yacht tour today.",
@@ -9,7 +9,7 @@ export const seoData = {
     duration: "3D/2N",
     category_match: true,
   },
-  "mumbai-day-trip": {
+  "mumbai-one-day-tour-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1Jr-hAY-49RWzG8XIvctR2A3mRQLa1O71/view?usp=drive_link",
     actual_url:
@@ -21,11 +21,11 @@ export const seoData = {
     duration: "1 Day",
     category_match: true,
   },
-  "dandeli-elephant-safari": {
+  "dandeli-elephant-safari-day-trip": {
     google_drive_link:
       "https://drive.google.com/file/d/1l2FvgLkPk6Bb5MaUIu8IM4c-ygN-V7cl/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinationsdomestic-trips/2-days-dandeli-tour-package",
+      "https://globaltouristcentre.com/en/destinationsdomestic-trips/dandeli-2-day-tour-from-goa",
     title: "Dandeli Tour Package – Elephant & Tiger Safari 2D/1N from Goa",
     meta_description:
       "Experience a 2D/1N Dandeli tour package with elephant interaction, tiger safari, nature walks, Syntheri Rocks, meals, transport & stay. Perfect wildlife getaway from Goa.",
@@ -33,11 +33,11 @@ export const seoData = {
     duration: "2D/1N",
     category_match: true,
   },
-  "north-goa-day-tour": {
+  "north-goa-full-day-tour": {
     google_drive_link:
       "https://drive.google.com/file/d/1EmKQMhsiVRNsnfZGz78VpIXf2d4pzZML/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/north-goa-day-tour",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/north-goa-full-day-tour",
     title: "North Goa day Tour Package – Beaches, Forts & Churches",
     meta_description:
       "Book a North Goa tour package covering Calangute, Baga, Anjuna, Aguada Fort, churches & flea markets with breakfast, transport & guide included.",
@@ -45,11 +45,11 @@ export const seoData = {
     duration: "1 Day",
     category_match: true,
   },
-  "full-day-south-goa-tour": {
+  "south-goa-full-day-tour": {
     google_drive_link:
       "https://drive.google.com/file/d/1BMm-PzyKjRjKuqQRdQ9PI8SXAKd6NY8B/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/full-day-south-goa-tour",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/south-goa-full-day-tour",
     title: "South Goa Full Day Tour Package – Cultural Sightseeing Trip",
     meta_description:
       "Book the South Goa Full Day Tour Package with temples, Old Goa churches, Miramar Beach, Dona Paula viewpoint & Panjim market. Includes guide, transport & breakfast.",
@@ -57,7 +57,7 @@ export const seoData = {
     duration: "1 Day",
     category_match: true,
   },
-  "ajanta-ellora-caves-tour": {
+  "ajanta-ellora-caves-tour-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1Ws7EQVtzatQ5VNH9uHNCOZnLGSU3C1UD/view?usp=drive_link",
     actual_url:
@@ -69,7 +69,7 @@ export const seoData = {
     duration: "2D/1N",
     category_match: true,
   },
-  "amritsar-tour-package": {
+  "amritsar-tour-package-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/17tabL-Xs2hhzcW2VTq-joVayABUtqyIF/view?usp=drive_link",
     actual_url:
@@ -81,11 +81,11 @@ export const seoData = {
     duration: "3D/2N",
     category_match: true,
   },
-  "bijapur-tour-package": {
+  "bijapur-heritage-tour-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1N0C9y2-kN1KA9v6PfQDg5y2lj6YdbMqS/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/bijapur-tour-package",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/bijapur-heritage-tour-from-goa",
     title: "2D/1N Bijapur Tour Package from Goa | Aihole & Pattadakal Trip",
     meta_description:
       "Explore Gol Gumbaz, Aihole & Pattadakal with our 2D/1N Bijapur tour package from Goa. Includes hotel stay, guide, taxi & sightseeing for a perfect heritage getaway.",
@@ -93,11 +93,11 @@ export const seoData = {
     duration: "2D/1N",
     category_match: true,
   },
-  "2-days-dandeli-tour-package": {
+  "dandeli-2-day-tour-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1l2FvgLkPk6Bb5MaUIu8IM4c-ygN-V7cl/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/2-days-dandeli-tour-package",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/dandeli-2-day-tour-from-goa",
     title: "Dandeli Tour Package – Elephant & Tiger Safari 2D/1N from Goa",
     meta_description:
       "Experience a 2D/1N Dandeli tour package with elephant interaction, tiger safari, nature walks, Syntheri Rocks, meals, transport & stay. Perfect wildlife getaway from Goa.",
@@ -105,11 +105,11 @@ export const seoData = {
     duration: "2D/1N",
     category_match: true,
   },
-  "4D-golden-triangle-tour": {
+  "golden-triangle-4-day-tour-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1Y2x4X9a2z_gcj2Reoh_26ORnwfakhPce/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/4D-golden-triangle-tour",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/golden-triangle-4-day-tour-from-goa",
     title: "4D/3N Golden Triangle Tour Package – Delhi Agra Jaipur Trip",
     meta_description:
       "Experience India's iconic Golden Triangle with our 4D/3N tour package covering Delhi, Agra & Jaipur. Includes sightseeing, hotels, transfers & guided tours.",
@@ -117,11 +117,11 @@ export const seoData = {
     duration: "4D/3N",
     category_match: true,
   },
-  "hampi-badami-tour-package": {
+  "hampi-badami-heritage-tour-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1GzOefffCvl-f5RoZGIEGZucivQAhvMwm/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/hampi-badami-tour-package",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/hampi-badami-heritage-tour-from-goa",
     title: "Hampi & Badami Tour Package – 2 Days Heritage Trip from Goa",
     meta_description:
       "Explore Karnataka's heritage with our 2D/1N Hampi & Badami tour package from Goa. Includes hotel, breakfast, guides, cave temples, Stone Chariot & sightseeing.",
@@ -129,11 +129,11 @@ export const seoData = {
     duration: "2D/1N",
     category_match: true,
   },
-  "hyderabad-tour-package": {
+  "hyderabad-tour-package-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1nys1nrErgkYAKN6PxJMvuf-WyU8xTHzp/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/hyderabad-tour-package-package",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/hyderabad-tour-package-from-goa-package",
     title:
       "Hyderabad Tour Package – 1N/2D Heritage Trip | Golconda, Charminar, Salar Jung Museum",
     meta_description:
@@ -142,11 +142,11 @@ export const seoData = {
     duration: "1N/2D",
     category_match: true,
   },
-  "jodhpur-tour-package": {
+  "jodhpur-tour-package-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1YXHyP64N-xfTaHU4W9xfwtMh2hzw6BYL/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/jodhpur-tour-package",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/jodhpur-tour-package-from-goa",
     title: "Jodhpur Tour Package – 3N/4D Jodhpur Jaisalmer Trip",
     meta_description:
       "Explore Jodhpur and Jaisalmer with our 3N/4D Jodhpur tour package. Visit forts, dunes, temples, and enjoy guided sightseeing with comfortable stays.",
@@ -154,11 +154,11 @@ export const seoData = {
     duration: "3N/4D",
     category_match: true,
   },
-  "jodhpur-udaipur-tour": {
+  "odhpur-udaipur-tour-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1YXHyP64N-xfTaHU4W9xfwtMh2hzw6BYL/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/jodhpur-tour-package",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/jodhpur-tour-package-from-goa",
     title: "Jodhpur & Udaipur Tour Package – 4N/5D Rajasthan Trip",
     meta_description:
       "Experience Rajasthan with our 4N/5D Jodhpur & Udaipur tour package. Explore forts, palaces, lakes and heritage sites with hotels, transfers and guided sightseeing.",
@@ -166,11 +166,11 @@ export const seoData = {
     duration: "4N/5D",
     category_match: true,
   },
-  "mathura-tour-package": {
+  "mathura-vrindavan-tour-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1Vi74DS1euZj7Jl7-PsWsnU9-2HdA6Gl1/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/mathura-tour-package",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/mathura-vrindavan-tour-from-goa",
     title: "3D/2N Mathura Tour Package – Spiritual Trip from Delhi",
     meta_description:
       "Book a 3D/2N Mathura Tour Package covering Vrindavan, Govardhan & top Krishna temples. Includes transfers, sightseeing & hotel stay. Perfect spiritual getaway.",
@@ -178,11 +178,11 @@ export const seoData = {
     duration: "3D/2N",
     category_match: true,
   },
-  "varanasi-tour-package": {
+  "varanasi-tour-package-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1flo7dHNhbsoXwYO2nj0amyc-TEGZ2s86/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/varanasi-tour-package",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/varanasi-tour-package-from-goa",
     title: "3D/2N Varanasi Tour Package – Temples, Ghats & Sarnath Trip",
     meta_description:
       "Explore Kashi Vishwanath, Sarnath, sunrise Ganga boat ride & Ganga Aarti with our 3D/2N Varanasi tour package. Includes hotel stay, transfers & sightseeing.",
@@ -190,7 +190,7 @@ export const seoData = {
     duration: "3D/2N",
     category_match: true,
   },
-  "aurangabad-heritage": {
+  "aurangabad-heritage-tour-from-goa": {
     google_drive_link:
       "https://drive.google.com/file/d/1Ws7EQVtzatQ5VNH9uHNCOZnLGSU3C1UD/view?usp=drive_link",
     actual_url:
@@ -201,6 +201,6 @@ export const seoData = {
     h1: "Ajanta Ellora Tour",
     duration: "2D/1N",
     category_match: true,
-    note: "Matches aurangabad-heritage as it covers Ajanta Ellora near Aurangabad",
+    note: "Matches aurangabad-heritage-tour-from-goa as it covers Ajanta Ellora near Aurangabad",
   },
 };

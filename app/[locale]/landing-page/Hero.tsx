@@ -42,7 +42,7 @@ const DESTINATION_MAP: Record<string, string> = {
   "palolem-cola-dolphin": "PALOLEM COLA – DOLPHIN",
   "mumbai-one-day": "MUMBAI 1 DAY",
   "taj-mahal-tour": "TAJ MAHAL 1N2D",
-  "hampi-badami-tour-package": "HAMPI BADAMI 1N2D",
+  "hampi-badami-heritage-tour-from-goa": "HAMPI BADAMI 1N2D",
 };
 
 const Hero = () => {
@@ -221,11 +221,10 @@ const Hero = () => {
     transition-all duration-500
     border-2
 
-    ${
-      highlightForm
-        ? "border-amber-400 shadow-[0_0_0_6px_rgba(248,213,107,0.35)]"
-        : "border-transparent"
-    }
+    ${highlightForm
+                ? "border-amber-400 shadow-[0_0_0_6px_rgba(248,213,107,0.35)]"
+                : "border-transparent"
+              }
   `}
           >
             <CardContent className="p-4 sm:p-5 lg:p-6 xl:p-7">
@@ -335,7 +334,7 @@ const Hero = () => {
                         {t.form.destinations.taj}
                       </SelectItem>
 
-                      <SelectItem value="hampi-badami-tour-package">
+                      <SelectItem value="hampi-badami-heritage-tour-from-goa">
                         {t.form.destinations.hampi}
                       </SelectItem>
                     </SelectContent>

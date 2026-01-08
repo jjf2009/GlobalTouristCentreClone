@@ -1,5 +1,5 @@
 export const galleryData: Record<string, any> = {
-  "aurangabad-heritage": {
+  "aurangabad-heritage-tour-from-goa": {
     gallery: [
       {
         title: "Ellora Caves",
@@ -28,7 +28,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "goa-in-a-day-tour": {
+  "goa-one-day-sightseeing-tour": {
     gallery: [
       {
         title: "Palolem Beach",
@@ -57,7 +57,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "goa-tour": {
+  "goa-sightseeing-tour": {
     gallery: [
       {
         title: "Wildernest Nature Resort",
@@ -86,7 +86,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "north-goa-day-tour": {
+  "north-goa-full-day-tour": {
     gallery: [
       {
         title: "Calangute Beach",
@@ -323,7 +323,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "ajanta-ellora-caves-tour": {
+  "ajanta-ellora-caves-tour-from-goa": {
     gallery: [
       {
         title: "Ajanta Caves",
@@ -352,7 +352,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "amritsar-tour-package": {
+  "amritsar-tour-package-from-goa": {
     gallery: [
       {
         title: "Golden Temple",
@@ -381,7 +381,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "andaman-islands-tour": {
+  "andaman-islands-tour-from-goa": {
     gallery: [
       {
         title: "Radhanagar Beach",
@@ -444,7 +444,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "goa-serai-cabo-retreat": {
+  "goa-luxury-retreat-serai-cabo": {
     gallery: [
       {
         title: "Luxury Cottage",
@@ -502,7 +502,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "dandeli-elephant-safari": {
+  "dandeli-elephant-safari-day-trip": {
     gallery: [
       {
         title: "Dandeli Forests",
@@ -531,7 +531,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "2-days-dandeli-tour-package": {
+  "dandeli-2-day-tour-from-goa": {
     gallery: [
       {
         title: "Elephant Interaction",
@@ -560,7 +560,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "delhi-agra-trip": {
+  "delhi-agra-tour-from-goa": {
     gallery: [
       {
         title: "Taj Mahal",
@@ -618,7 +618,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "dudhsagar-spice-plantation": {
+  "dudhsagar-waterfall-spice-plantation": {
     gallery: [
       {
         title: "Dudhsagar Falls",
@@ -671,7 +671,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "gokarna-murdeshwar-trip": {
+  "gokarna-murdeshwar-day-trip": {
     gallery: [
       {
         title: "Gokarna Beaches",
@@ -700,7 +700,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "4D-golden-triangle-tour": {
+  "golden-triangle-4-day-tour-from-goa": {
     gallery: [
       {
         title: "Taj Mahal",
@@ -729,7 +729,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "hampi-badami-tour-package": {
+  "hampi-badami-heritage-tour-from-goa": {
     gallery: [
       {
         title: "Hampi Ruins",
@@ -787,7 +787,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "jodhpur-udaipur-tour": {
+  "odhpur-udaipur-tour-from-goa": {
     gallery: [
       {
         title: "Mehrangarh-Festung",
@@ -816,7 +816,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "exotic-kashmir-tour": {
+  "kashmir-tour-package-from-goa": {
     gallery: [
       {
         title: "Dal Lake Shikara",
@@ -903,7 +903,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "yacht-day-tour": {
+  "luxury-yacht-day-tour-goa": {
     gallery: [
       {
         title: "Premium Yacht",
@@ -927,7 +927,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "mumbai-day-trip": {
+  "mumbai-one-day-tour-from-goa": {
     gallery: [
       {
         title: "Gateway of India",
@@ -956,7 +956,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "netravali-day-trip": {
+  "netravali-wildlife-day-trip": {
     gallery: [
       {
         title: "Netravali Waterfalls",
@@ -985,7 +985,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "full-day-south-goa-tour": {
+  "south-goa-full-day-tour": {
     gallery: [
       {
         title: "Old Goa Churches",
@@ -1014,7 +1014,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "palolem-cola-beach-dolphin-spotting": {
+  "palolem-cola-beach-dolphin-tour": {
     gallery: [
       {
         title: "Cola Beach Blue Lagoon",
@@ -1038,7 +1038,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "bijapur-tour-package": {
+  "bijapur-heritage-tour-from-goa": {
     gallery: [
       {
         title: "Gol Gumbaz",
@@ -1096,7 +1096,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "jodhpur-tour-package": {
+  "jodhpur-tour-package-from-goa": {
     gallery: [
       {
         title: "Mehrangarh Fort",
@@ -1125,7 +1125,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "kerala-tour": {
+  "kerala-tour-package-from-goa": {
     gallery: [
       {
         title: "Munnar Tea Gardens",
@@ -1154,7 +1154,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "ladakh-tour": {
+  "ladakh-tour-package-from-goa": {
     gallery: [
       {
         title: "Pangong Lake",
@@ -1183,7 +1183,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "lakshadweep-islands": {
+  "lakshadweep-islands-tour-from-goa": {
     gallery: [
       {
         title: "Agatti Island",
@@ -1212,7 +1212,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "mathura-tour-package": {
+  "mathura-vrindavan-tour-from-goa": {
     gallery: [
       {
         title: "Shri Krishna Jamnabhoomi",
@@ -1270,7 +1270,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "north-india-heritage-tour": {
+  "north-india-heritage-tour-from-goa": {
     gallery: [
       {
         title: "Taj Mahal",
@@ -1299,7 +1299,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "rajasthan-royal": {
+  "rajasthan-royal-tour-from-goa": {
     gallery: [
       {
         title: "Amber Fort",
@@ -1328,7 +1328,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "shimoga-nature-safari": {
+  "shimoga-nature-tour-from-goa": {
     gallery: [
       {
         title: "Yana Caves",
@@ -1357,7 +1357,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "sikkim-darjeeling-gangtok-tour": {
+  "sikkim-darjeeling-gangtok-tour-from-goa": {
     gallery: [
       {
         title: "Tsomgo Lake",
@@ -1386,7 +1386,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "tamil-nadu-tour": {
+  "tamil-nadu-tour-package-from-goa": {
     gallery: [
       {
         title: "Meenakshi Temple",
@@ -1415,7 +1415,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "varanasi-tour-package": {
+  "varanasi-tour-package-from-goa": {
     gallery: [
       {
         title: "Ganga Aarti",
@@ -1710,7 +1710,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "golden-triangle-tour-special": {
+  "golden-triangle-tour-from-goa": {
     gallery: [
       {
         title: "Taj Mahal",
@@ -1768,7 +1768,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "south-goa-sunset-cruise-tour": {
+  "south-goa-sunset-cruise": {
     gallery: [
       {
         title: "Sunset Cruise",
@@ -1797,33 +1797,33 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "hyderabad-tour-package": {
-          gallery: [
-        {
-          title: "Munnar Tea Gardens",
-          description: "Rolling hills of green",
-          image: "/assets/destinations/Kerala/Munnar Tea Gardens.webp",
-        },
-        {
-          title: "Alleppey Backwaters",
-          description: "Serene houseboat experience",
-          image: "/assets/destinations/Kerala/Alleppey Backwaters.webp",
-        },
-        {
-          title: "Periyar Wildlife Sanctuary",
-          description: "Boat ride in the sanctuary",
-          image: "/assets/destinations/Kerala/Periyar Wildlife.webp",
-        },
-        {
-          title: "Cochin Fishing Nets",
-          description: "Iconic Chinese fishing nets",
-          image: "/assets/destinations/Kerala/Cochin Fishing Nets.webp",
-        },
-        {
-          title: "Kerala Backwaters",
-          description: "Tranquil waterways",
-          image: "/assets/destinations/Kerala/Kerala Backwaters.webp",
-        },
-      ]
-}
+  "hyderabad-tour-package-from-goa": {
+    gallery: [
+      {
+        title: "Munnar Tea Gardens",
+        description: "Rolling hills of green",
+        image: "/assets/destinations/Kerala/Munnar Tea Gardens.webp",
+      },
+      {
+        title: "Alleppey Backwaters",
+        description: "Serene houseboat experience",
+        image: "/assets/destinations/Kerala/Alleppey Backwaters.webp",
+      },
+      {
+        title: "Periyar Wildlife Sanctuary",
+        description: "Boat ride in the sanctuary",
+        image: "/assets/destinations/Kerala/Periyar Wildlife.webp",
+      },
+      {
+        title: "Cochin Fishing Nets",
+        description: "Iconic Chinese fishing nets",
+        image: "/assets/destinations/Kerala/Cochin Fishing Nets.webp",
+      },
+      {
+        title: "Kerala Backwaters",
+        description: "Tranquil waterways",
+        image: "/assets/destinations/Kerala/Kerala Backwaters.webp",
+      },
+    ]
+  }
 };

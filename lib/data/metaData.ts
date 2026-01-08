@@ -1,18 +1,18 @@
 export const metaData: Record<string, any> = {
-  "goa-in-a-day-tour": {
+  "goa-one-day-sightseeing-tour": {
     meta: {
       duration: "1 Day",
       locations: 6,
       rating: "4.9/5 Rating",
     },
   },
-  "goa-tour": {
+  "goa-sightseeing-tour": {
     meta: {
       duration: "3 Tage",
       rating: "4.8/5 Rating",
     },
   },
-  "north-goa-day-tour": {
+  "north-goa-full-day-tour": {
     meta: {
       duration: "Full Day",
       rating: "4.8/5 Rating",
@@ -60,19 +60,19 @@ export const metaData: Record<string, any> = {
       rating: "4.8/5 Rating",
     },
   },
-  "ajanta-ellora-caves-tour": {
+  "ajanta-ellora-caves-tour-from-goa": {
     meta: {
       duration: "2 Days",
       rating: "4.8/5 Rating",
     },
   },
-  "amritsar-tour-package": {
+  "amritsar-tour-package-from-goa": {
     meta: {
       duration: "3 Days",
       rating: "4.7/5 Rating",
     },
   },
-  "andaman-islands-tour": {
+  "andaman-islands-tour-from-goa": {
     meta: {
       duration: "7 Days",
       rating: "4.9/5 Rating",
@@ -84,7 +84,7 @@ export const metaData: Record<string, any> = {
       rating: "4.8/5 Rating",
     },
   },
-  "goa-serai-cabo-retreat": {
+  "goa-luxury-retreat-serai-cabo": {
     meta: {
       duration: "2 Nights / 3 Days",
       rating: "5.0/5 Rating",
@@ -96,20 +96,20 @@ export const metaData: Record<string, any> = {
       rating: "4.7/5 Rating",
     },
   },
-  "dandeli-elephant-safari": {
+  "dandeli-elephant-safari-day-trip": {
     meta: {
       duration: "1 Day",
       locations: 4,
       rating: "4.7/5 Rating",
     },
   },
-  "2-days-dandeli-tour-package": {
+  "dandeli-2-day-tour-from-goa": {
     meta: {
       duration: "2 Days",
       rating: "4.6/5 Rating",
     },
   },
-  "delhi-agra-trip": {
+  "delhi-agra-tour-from-goa": {
     meta: {
       duration: "2 Days",
       locations: 6,
@@ -121,7 +121,7 @@ export const metaData: Record<string, any> = {
       duration: "6 Days",
     },
   },
-  "dudhsagar-spice-plantation": {
+  "dudhsagar-waterfall-spice-plantation": {
     meta: {
       duration: "1 Day",
       locations: 3,
@@ -134,20 +134,20 @@ export const metaData: Record<string, any> = {
       rating: "4.8/5 Rating",
     },
   },
-  "gokarna-murdeshwar-trip": {
+  "gokarna-murdeshwar-day-trip": {
     meta: {
       duration: "1 Day",
       locations: 5,
       rating: "4.8/5 Rating",
     },
   },
-  "4D-golden-triangle-tour": {
+  "golden-triangle-4-day-tour-from-goa": {
     meta: {
       duration: "4 Days",
       rating: "4.8/5 Rating",
     },
   },
-  "hampi-badami-tour-package": {
+  "hampi-badami-heritage-tour-from-goa": {
     meta: {
       duration: "2 Days",
       locations: 15,
@@ -160,13 +160,13 @@ export const metaData: Record<string, any> = {
       rating: "4.8/5 Rating",
     },
   },
-  "jodhpur-udaipur-tour": {
+  "odhpur-udaipur-tour-from-goa": {
     meta: {
       duration: "5 Tage",
       rating: "4.7/5 Rating",
     },
   },
-  "exotic-kashmir-tour": {
+  "kashmir-tour-package-from-goa": {
     meta: {
       duration: "6 Days",
       locations: 4,
@@ -186,31 +186,31 @@ export const metaData: Record<string, any> = {
       rating: "4.6/5 Rating",
     },
   },
-  "mumbai-day-trip": {
+  "mumbai-one-day-tour-from-goa": {
     meta: {
       duration: "Full Day",
       rating: "4.7/5 Rating",
     },
   },
-  "netravali-day-trip": {
+  "netravali-wildlife-day-trip": {
     meta: {
       duration: "1 Day",
       locations: 5,
       rating: "4.7/5 Rating",
     },
   },
-  "full-day-south-goa-tour": {
+  "south-goa-full-day-tour": {
     meta: {
       duration: "Full Day (8:00 AM – 5:30 PM)",
     },
   },
-  "palolem-cola-beach-dolphin-spotting": {
+  "palolem-cola-beach-dolphin-tour": {
     meta: {
       duration: "Full Day",
       rating: "4.9/5 Rating",
     },
   },
-  "bijapur-tour-package": {
+  "bijapur-heritage-tour-from-goa": {
     meta: {
       duration: "2 Days",
       rating: "4.5/5 Rating",
@@ -222,26 +222,26 @@ export const metaData: Record<string, any> = {
       rating: "4.6/5 Rating",
     },
   },
-  "jodhpur-tour-package": {
+  "jodhpur-tour-package-from-goa": {
     meta: {
       duration: "4 Days",
       rating: "4.7/5 Rating",
     },
   },
-  "kerala-tour": {
+  "kerala-tour-package-from-goa": {
     meta: {
       duration: "6 Days",
       locations: 4,
       rating: "4.8/5 Rating",
     },
   },
-  "lakshadweep-islands": {
+  "lakshadweep-islands-tour-from-goa": {
     meta: {
       duration: "3 Nights / 4 Days",
       rating: "4.8/5 Rating",
     },
   },
-  "mathura-tour-package": {
+  "mathura-vrindavan-tour-from-goa": {
     meta: {
       duration: "3 Days",
       rating: "4.8/5 Rating",
@@ -253,39 +253,39 @@ export const metaData: Record<string, any> = {
       rating: "4.7/5 Rating",
     },
   },
-  "north-india-heritage-tour": {
+  "north-india-heritage-tour-from-goa": {
     meta: {
       duration: "10 Days",
       rating: "4.9/5 Rating",
     },
   },
-  "rajasthan-royal": {
+  "rajasthan-royal-tour-from-goa": {
     meta: {
       duration: "7 Days",
       rating: "4.8/5 Rating",
     },
   },
-  "shimoga-nature-safari": {
+  "shimoga-nature-tour-from-goa": {
     meta: {
       duration: "1 Night / 2 Days",
       locations: 5,
       rating: "4.7/5 Rating",
     },
   },
-  "sikkim-darjeeling-gangtok-tour": {
+  "sikkim-darjeeling-gangtok-tour-from-goa": {
     meta: {
       duration: "7 Days",
       rating: "4.9/5 Rating",
     },
   },
-  "tamil-nadu-tour": {
+  "tamil-nadu-tour-package-from-goa": {
     meta: {
       duration: "7 Days",
       locations: 15,
       rating: "4.7/5 Rating",
     },
   },
-  "varanasi-tour-package": {
+  "varanasi-tour-package-from-goa": {
     meta: {
       duration: "2 Nights / 3 Days",
     },
@@ -344,7 +344,7 @@ export const metaData: Record<string, any> = {
       rating: "4.8/5 Rating",
     },
   },
-  "golden-triangle-tour-special": {
+  "golden-triangle-tour-from-goa": {
     meta: {
       duration: "6 Days",
       locations: 20,
@@ -356,7 +356,7 @@ export const metaData: Record<string, any> = {
       duration: "Full Day Trip (08:00 – 20:00)",
     },
   },
-  "south-goa-sunset-cruise-tour": {
+  "south-goa-sunset-cruise": {
     meta: {
       duration: "Full Day Trip (08:00 – 20:00)",
     },

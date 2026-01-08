@@ -182,7 +182,7 @@ export default function LocaleLayout({
           "itemListElement": [
             {
               "@type": "Offer",
-              "url": `https://globaltouristcentre.com/${params.locale}/destination/domestic/exotic-kashmir-tour`,
+              "url": `https://globaltouristcentre.com/${params.locale}/destination/domestic/kashmir-tour-package-from-goa`,
               "itemOffered": {
                 "@type": "TouristTrip",
                 "name": "Kashmir 5N/6D Trip",
@@ -191,7 +191,7 @@ export default function LocaleLayout({
             },
             {
               "@type": "Offer",
-              "url": `https://globaltouristcentre.com/${params.locale}/destination/domestic/ladakh-tour`,
+              "url": `https://globaltouristcentre.com/${params.locale}/destination/domestic/ladakh-tour-package-from-goa`,
               "itemOffered": {
                 "@type": "TouristTrip",
                 "name": "Ladakh Tour for Goa",
@@ -200,7 +200,7 @@ export default function LocaleLayout({
             },
             {
               "@type": "Offer",
-              "url": `https://globaltouristcentre.com/${params.locale}/destination/domestic/sikkim-darjeeling-gangtok-tour`,
+              "url": `https://globaltouristcentre.com/${params.locale}/destination/domestic/sikkim-darjeeling-gangtok-tour-from-goa`,
               "itemOffered": {
                 "@type": "TouristTrip",
                 "name": "Sikkim Tour for Goa",

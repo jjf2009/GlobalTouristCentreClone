@@ -158,11 +158,10 @@ export default function KeralaBlogPage() {
                   <button
                     key={idx}
                     onClick={() => setActiveTab(idx)}
-                    className={`px-6 py-4 text-sm font-semibold whitespace-nowrap transition-colors ${
-                      activeTab === idx
+                    className={`px-6 py-4 text-sm font-semibold whitespace-nowrap transition-colors ${activeTab === idx
                         ? "text-emerald-700 border-b-2 border-emerald-600 bg-emerald-50/50"
                         : "text-gray-500 hover:text-gray-700 hover:bg-gray-50"
-                    }`}
+                      }`}
                   >
                     {item.day}
                   </button>
@@ -266,7 +265,7 @@ export default function KeralaBlogPage() {
                   {t.blogKerala.enquireNow}
                 </Button>
               </Link>
-              <Link href={`/${locale}/destinations/domestic/kerala-tour`}>
+              <Link href={`/${locale}/destinations/domestic/kerala-tour-package-from-goa`}>
                 <Button
                   variant="outline"
                   size="lg"

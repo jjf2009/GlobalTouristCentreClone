@@ -31,35 +31,47 @@ export const ru = {
     brandtagline: "Luxury Travel Experiences",
     home: {
       title: "Турагентство №1 в Индии для внутренних и международных путешествий в Гоа | GTC",
-      description: "Спланируйте идеальный отпуск с GTC — ведущим турагентством Гоа. От туров по Индии до международных путешествий — персонализированные пакеты и экспертная поддержка.",
+      description: "Спланируйте идеальный отпуск с GTC — ведущим турагентством Гоа. От туров по Индии до международных путешествий — мы предлагаем индивидуальные пакеты, бронирование авиабилетов и поездов, а также экспертную поддержку.",
     },
     about: {
-      title: "Global Tourist Centre — Ваш надёжный туристический партнёр",
-      description: "Откройте Global Tourist Centre — надёжное турагентство Гоа с 2010 года. Индивидуальные туры по Индии и миру с экспертной поддержкой.",
+      title: "О нас – Турагентство в Гоа | Global Tourist Centre",
+      description: "Global Tourist Centre — надежное турагентство, основанное в Гоа в 2010 году. Мы воплощаем ваши мечты в незабываемые внутренние и международные путешествия с энтузиазмом и опытом.",
     },
     contact: {
-      title: "Свяжитесь с Global Tourist Centre — Ваш туристический партнёр",
-      description: "Свяжитесь с Global Tourist Centre в Гоа. Позвоните, напишите или посетите нас для персонализированных пакетов и визовой поддержки.",
+      title: "Свяжитесь с Global Tourist Centre – Забронируйте свой индивидуальный турпакет",
+      description: "Свяжитесь с Global Tourist Centre — вашим надежным туристическим партнером в Южном Гоа с опытом работы более 25 лет. Позвоните, напишите нам или заполните форму, чтобы начать создание вашего индивидуального тура.",
     },
     destinations: {
-      title: "Откройте направления | Global Tourist Centre",
-      description: "Откройте тщательно отобранные направления по Индии и миру. От тихих пляжей до величественных гор.",
+      title: "Global Tourist Centre - Направления",
+      description: "Создаем незабываемые путешествия с 1997 года. Ваш надежный партнер по организации индивидуальных туров по Индии и миру.",
+    },
+    domestic: {
+      title: "Туры по Индии - Global Tourist Centre",
+      description: "Откройте для себя многогранную красоту Индии с нашими отобранными внутренними направлениями. От заводей Кералы до долин Кашмира.",
+    },
+    international: {
+      title: "Международные туры - Global Tourist Centre",
+      description: "Откройте для себя экзотические уголки мира с нашими международными турпакетами. От Вьетнама до Турции и далее.",
+    },
+    "day-trips": {
+      title: "Однодневные поездки - Global Tourist Centre",
+      description: "Идеальные короткие путешествия из крупных городов. Исследуйте близлежащие достопримечательности с нашими кураторскими однодневными поездками.",
     },
     services: {
-      title: "Global Tourist Centre — Услуги: Визы, Отели и Турпакеты",
-      description: "Индивидуальные решения для путешествий с Global Tourist Centre — визовая поддержка, бронирование отелей и турпакеты в Южном Гоа.",
+      title: "Global Tourist Centre – Услуги: Визы, Отели и Турпакеты",
+      description: "Ознакомьтесь с индивидуальными решениями для путешествий от Global Tourist Centre — визовая поддержка, бронирование отелей и внутренние/международные турпакеты в Южном Гоа.",
     },
     blog: {
-      title: "Блог Global Tourist Centre — Вдохновляющие истории путешествий и Гиды",
-      description: "Читайте наш блог с вдохновляющими историями, гидами по направлениям и советами по путешествиям по Индии и миру.",
+      title: "Блог Global Tourist Centre – Вдохновляющие истории путешествий и Гиды",
+      description: "Читайте блог Global Tourist Centre — вдохновляющие истории, гиды по направлениям и советы по путешествиям по Индии и миру.",
     },
     luxuryDestinations: {
-      title: "Роскошные туры по Индии | Global Tourist Centre — Премиум номера и Мировые направления",
-      description: "Откройте роскошные туры по Индии и миру. От дворцов до вилл на воде — эксклюзивный отдых и индивидуальные впечатления.",
+      title: "Роскошные туры по Индии | Global Tourist Centre – Премиум-люксы, Дворцы и Мировые направления",
+      description: "Откройте для себя наши роскошные туры по Индии и премиальный отдых по всему миру с Global Tourist Centre. От исторических дворцов до вилл над водой — наслаждайтесь изысканным проживанием, частными трансферами и индивидуальными впечатлениями.",
     },
     landingPage: {
       title: "Global Tourist Centre | Роскошные впечатления от путешествий",
-      description: "Незабываемые путешествия с ведущим турагентством Гоа. Роскошные туры по Индии и миру, персонализированные путешествия.",
+      description: "Незабываемые путешествия с ведущим турагентством Гоа. Роскошные туры по Индии и миру, индивидуальные поездки и эксклюзивные впечатления.",
     },
   },
   // Hero Section
@@ -79,25 +91,25 @@ export const ru = {
     subtitle:
       "Поделитесь своими данными, и мы создадим для вас идеальный маршрут.",
     items: {
-      "full-day-south-goa-tour": {
+      "south-goa-full-day-tour": {
         title: "Южный Гоа — Культурный Гоа",
         duration: "1 день",
         description:
           "Познакомьтесь с богатым наследием Южного Гоа, посетив церкви Старого Гоа, башню Святого Августина, храмы Шантадурга и Мангеши, пляжи Мирамар, Колва и Дона Паула, рынок Панаджи и ужин-круиз по реке Мандови.",
       },
-      "north-goa-day-tour": {
+      "north-goa-full-day-tour": {
         title: "Обзорная экскурсия по Северному Гоа",
         duration: "1 день",
         description:
           "Откройте для себя яркий Северный Гоа с пляжами Бага, Калангут и Анджуна, историческими фортами, блошиными рынками, ночной жизнью и церквями португальской эпохи.",
       },
-      "dudhsagar-spice-plantation": {
+      "dudhsagar-waterfall-spice-plantation": {
         title: "Водопад Дудхсагар и плантация специй",
         duration: "1 день",
         description:
           "Полюбуйтесь величественным водопадом Дудхсагар среди густых лесов и посетите ароматные плантации специй с культурными рассказами и традиционным обедом.",
       },
-      "palolem-cola-beach-dolphin-spotting": {
+      "palolem-cola-beach-dolphin-tour": {
         title: "Палолем и пляж Кола — наблюдение за дельфинами",
         duration: "1 день",
         description:
@@ -109,7 +121,7 @@ export const ru = {
         description:
           "Наблюдайте за крокодилами в их естественной речной среде во время захватывающей экскурсии для любителей природы и фотографов.",
       },
-      "yacht-day-tour": {
+      "luxury-yacht-day-tour-goa": {
         title: "Роскошная яхта — вечерний ужин",
         duration: "16:00–22:00",
         description:
@@ -121,31 +133,31 @@ export const ru = {
         description:
           "Лодочная прогулка к острову Гранд с снорклингом, гидроциклами, банановыми лодками, парасейлингом, наблюдением за дельфинами и морскими приключениями.",
       },
-      "goa-serai-cabo-retreat": {
+      "goa-luxury-retreat-serai-cabo": {
         title: "Роскошный отдых Serai Cabo в Гоа",
         duration: "2 ночи / 3 дня",
         description:
           "Расслабьтесь в роскошном курорте на утёсе Кабо-де-Рама с потрясающими морскими видами и атмосферой полного уединения.",
       },
-      "gokarna-murdeshwar-trip": {
+      "gokarna-murdeshwar-day-trip": {
         title: "Гокарна и Мурдешвар",
         duration: "1 день",
         description:
           "Посетите спокойные пляжи Гокарны и знаменитую статую Шивы в Мурдешваре, сочетая духовность и прибрежную красоту.",
       },
-      "hampi-badami-tour-package": {
+      "hampi-badami-heritage-tour-from-goa": {
         title: "Исторический тур Хампи и Бадами",
         duration: "1 ночь / 2 дня",
         description:
           "Исследуйте объекты ЮНЕСКО в Хампи и древние пещерные храмы Бадами с архитектурой династии Чалукья.",
       },
-      "2-days-dandeli-tour-package": {
+      "dandeli-2-day-tour-from-goa": {
         title: "Сафари со слонами и тиграми в Дандели",
         duration: "1 день",
         description:
           "Захватывающее сафари по лесам Дандели с возможностью увидеть слонов и тигров в естественной среде.",
       },
-      "kerala-tour": {
+      "kerala-tour-package-from-goa": {
         title: "Керала — заводи и холмы",
         duration: "4 ночи / 5 дней",
         description:
@@ -163,19 +175,19 @@ export const ru = {
         description:
           "Исследуйте знаковые достопримечательности Мумбаи, пляжи, рынки и культуру Болливуда.",
       },
-      "ajanta-ellora-caves-tour": {
+      "ajanta-ellora-caves-tour-from-goa": {
         title: "Пещеры Эллора и Аджанта",
         duration: "2 ночи / 3 дня",
         description:
           "Посетите древние пещеры Эллоры и Аджанты с выдающимися буддийскими, индуистскими и джайнскими скульптурами.",
       },
-      "4D-golden-triangle-tour": {
+      "golden-triangle-4-day-tour-from-goa": {
         title: "Золотой треугольник Индии",
         duration: "3 ночи / 4 дня",
         description:
           "Откройте Дели, Агру и Джайпур с Тадж-Махалом, фортами и королевскими дворцами.",
       },
-      "jodhpur-udaipur-tour": {
+      "odhpur-udaipur-tour-from-goa": {
         title: "Королевский Раджастхан — Удайпур и Джодхпур",
         duration: "4 ночи / 5 дней",
         description:
@@ -187,19 +199,19 @@ export const ru = {
         description:
           "Посетите Тадж-Махал — символ вечной любви, и другие памятники эпохи Моголов.",
       },
-      "varanasi-tour-package": {
+      "varanasi-tour-package-from-goa": {
         title: "Варанаси — Духовная Индия",
         duration: "3 ночи / 4 дня",
         description:
           "Погрузитесь в духовную атмосферу Варанаси с гхатами Ганга, Аарти и храмом Каши Вишванатх.",
       },
-      "mathura-tour-package": {
+      "mathura-vrindavan-tour-from-goa": {
         title: "Матхура и Вриндаван",
         duration: "2 ночи / 3 дня",
         description:
           "Окунитесь в духовную атмосферу мест рождения Господа Кришны.",
       },
-      "andaman-islands-tour": {
+      "andaman-islands-tour-from-goa": {
         title: "Андаманские острова",
         duration: "5 ночей / 6 дней",
         description:
@@ -346,7 +358,7 @@ export const ru = {
         description:
           "Посещение водопадов Дудхсагар и ароматных плантаций специй с гидом.",
       },
-      "4D-golden-triangle-tour": {
+      "golden-triangle-4-day-tour-from-goa": {
         title: "Золотой треугольник 3Н/4Д",
         duration: "3 ночи / 4 дня",
         description:
@@ -1285,19 +1297,19 @@ export const ru = {
   },
   trips: {
     // Domestic Trips (Внутренние поездки)
-    "exotic-kashmir-tour": {
+    "kashmir-tour-package-from-goa": {
       title: "Экзотический Кашмир",
       description:
         "Исследуйте Шринагар, Сонмарг, Гулмарг и Пахалгам с могольскими садами, проживанием на лодке-доме и захватывающими видами Гималаев.",
       duration: "5 Ночей / 6 Дней",
     },
-    "ladakh-tour": {
+    "ladakh-tour-package-from-goa": {
       title: "Лех, Туртук и Пангонг",
       description:
         "Пройдите перевал Кардунг-Ла, Долину Нубра, озеро Пангонг и деревню Туртук в этом высокогорном гималайском приключении.",
       duration: "6 Ночей / 7 Дней",
     },
-    "sikkim-darjeeling-gangtok-tour": {
+    "sikkim-darjeeling-gangtok-tour-from-goa": {
       title: "Сикким - Восточные Гималаи",
       description:
         "Откройте для себя Гангток, Дарджилинг, Пеллинг с озером Цомго, горными видами и буддийскими монастырями в Восточных Гималаях.",
@@ -1309,31 +1321,31 @@ export const ru = {
         "Исследуйте живые корневые мосты, кристально чистые реки в Дawki, самую чистую деревню Азии и сафари в Казиранге на северо-востоке Индии.",
       duration: "6 Ночей / 7 Дней",
     },
-    "north-india-heritage-tour": {
+    "north-india-heritage-tour-from-goa": {
       title: "Наследие Северной Индии",
       description:
         "Золотой треугольник плюс Амритсар и Рантхамбор - культурное наследие, Золотой храм и сафари на тигров.",
       duration: "10 Дней / 9 Ночей",
     },
-    "4D-golden-triangle-tour": {
+    "golden-triangle-4-day-tour-from-goa": {
       title: "Золотой Треугольник",
       description:
         "Дели, Агрa, Джайпур - богатое культурное наследие Индии с Тадж-Махалом, фортом Амбер и историческими памятниками.",
       duration: "5 Ночей / 6 Дней",
     },
-    "rajasthan-royal": {
+    "rajasthan-royal-tour-from-goa": {
       title: "Королевский Раджастан",
       description:
         "Джайпур, Удайпур, Джодхпур, пустынный лагерь Джайсалмер и Биканер - королевские дворцы, сафари в пустыне и яркая культура.",
       duration: "8 Ночей / 9 Дней",
     },
-    "kerala-tour": {
+    "kerala-tour-package-from-goa": {
       title: "Живописный Керала",
       description:
         "Страна Бога с гирляндами лагун, холмами, пляжами, проживанием на лодке-доме, чайными плантациями и садом специй.",
       duration: "5 Ночей / 6 Дней",
     },
-    "tamil-nadu-tour": {
+    "tamil-nadu-tour-package-from-goa": {
       title: "Тамил Наду - Храмовый тур",
       description:
         "Каньякумари, Рамешварам, храмы Мадурай и холм Ооти - духовное путешествие по священным местам Южной Индии.",
@@ -1345,7 +1357,7 @@ export const ru = {
         "Откройте коралловые пляжи, островные прыжки, водные виды спорта, нетронутую морскую жизнь и историческую тюрьму Селлюлар Джейл на тропических островах.",
       duration: "6 Ночей / 7 Дней",
     },
-    "lakshadweep-islands": {
+    "lakshadweep-islands-tour-from-goa": {
       title: "Острова Лакшадвип",
       description:
         "Нетронутые пляжи, коралловые рифы и морская жизнь на островах Агатти, Тиннакара и Калпитти со сноркелингом и водными видами спорта.",
@@ -1357,19 +1369,19 @@ export const ru = {
         "Погрузитесь в природу с лесными треккингами, гончарными мастер-классами, мехенди и закатами в этом спокойном природном курорте Гоа.",
       duration: "2 Ночи / 3 Дня",
     },
-    "goa-serai-cabo-retreat": {
+    "goa-luxury-retreat-serai-cabo": {
       title: "Тайный Кабо-Серай",
       description:
         "Роскошный отдых в Кабо-Серай с потрясающими видами на Аравийское море, прогулками по природе, наблюдением за птицами и оздоровительными процедурами.",
       duration: "2 Ночи / 3 Дня",
     },
-    "shimoga-nature-safari": {
+    "shimoga-nature-tour-from-goa": {
       title: "Шимога - Природа и Сафари",
       description:
         "Исследуйте мистические скальные образования пещер Яна, наслаждайтесь захватывающими джип- и лодочными сафари и наблюдайте величественный водопад Джог.",
       duration: "1 Ночь / 2 Дня",
     },
-    "aurangabad-heritage": {
+    "aurangabad-heritage-tour-from-goa": {
       title: "Наследие Аурангабада",
       description:
         "Откройте объекты Всемирного наследия ЮНЕСКО - пещеры Аджанта и Эллора, Биби-ка-Макбара и исторический форт Даулатабад.",
@@ -1381,7 +1393,7 @@ export const ru = {
         "Познакомьтесь с иконой Тадж-Махал, фортом Агры и Малым Тадж с русскоязычными гидами в этом романтическом путешествии по наследию.",
       duration: "1 Ночь / 2 Дня",
     },
-    "hampi-badami-tour-package": {
+    "hampi-badami-heritage-tour-from-goa": {
       title: "Наследие Хампи",
       description:
         "Исследуйте объект Всемирного наследия ЮНЕСКО Хампи - древние руины, королевские дворцы, храмы и уникальную каменную колесницу.",
@@ -1511,49 +1523,49 @@ export const ru = {
     },
 
     // Day Trips (Однодневные поездки)
-    "dandeli-elephant-safari": {
+    "dandeli-elephant-safari-day-trip": {
       title: "Слонье сафари в Дандели",
       description:
         "Захватывающее приключение в дикой природе со слоновьими сафари, рафтингом и исследованием джунглей в пышных ландшафтах Дандели.",
       duration: "1 День",
     },
-    "dudhsagar-spice-plantation": {
+    "dudhsagar-waterfall-spice-plantation": {
       title: "Водопад Дудхсагар и плантация специй",
       description:
         "Могучий водопад Дудхсагар с джип-сафари через заповедник Бхагван Махавир и аутентичный гoanский обед на плантации специй.",
       duration: "1 День",
     },
-    "mumbai-day-trip": {
+    "mumbai-one-day-tour-from-goa": {
       title: "Мумбаи за один день",
       description:
         "Полный тур по Мумбаи: Ворота Индии, трущобы Дхарави, Дхоби Гхат и ночной поезд обратно в Гоа.",
       duration: "1 День",
     },
-    "netravali-day-trip": {
+    "netravali-wildlife-day-trip": {
       title: "Однодневная поездка в Нетравали",
       description:
         "Исследуйте мистическое Бурлящее озеро Нетравали, поход к нетронутым водопадам и богатое биоразнообразие в нетронутом заповеднике.",
       duration: "1 День",
     },
-    "gokarna-murdeshwar-trip": {
+    "gokarna-murdeshwar-day-trip": {
       title: "Поездка Гокарна-Мурдешвар",
       description:
         "Духовное путешествие к древнему храму Махабалешвар в Гокарне и величественному храму Мурдешвар с самой высокой статуей Шивы.",
       duration: "1 День",
     },
-    "palolem-cola-beach-dolphin-spotting": {
+    "palolem-cola-beach-dolphin-tour": {
       title: "Палолем, Колa Бич - Наблюдение за дельфинами",
       description:
         "Полный опыт Южного Гоа: наблюдение за дельфинами, 4-точечный лодочный тур, каякинг в голубых лагунах и закат у форта Кабу де Рама.",
       duration: "1 День",
     },
-    "full-day-south-goa-tour": {
+    "south-goa-full-day-tour": {
       title: "Южный Гоа - Культурно-прибрежный тур",
       description:
         "Полный опыт Южного Гоа: объекты ЮНЕСКО в Старом Гоа, древние храмы, дельфины, нетронутые пляжи, закат у форта Кабу де Рама и круиз по реке Мандови.",
       duration: "1 День",
     },
-    "north-goa-day-tour": {
+    "north-goa-full-day-tour": {
       title: "Обзорная экскурсия по Северному Гоа",
       duration: "1 день",
       description:
@@ -1565,7 +1577,7 @@ export const ru = {
       description:
         "Наблюдайте за крокодилами в их естественной речной среде во время захватывающей экскурсии для любителей природы и фотографии.",
     },
-    "yacht-day-tour": {
+    "luxury-yacht-day-tour-goa": {
       title: "Роскошный яхт-тур от заката до ужина",
       duration: "16:00 / 22:00",
       description:
@@ -1577,7 +1589,7 @@ export const ru = {
       description:
         "Отправьтесь в живописное морское путешествие на остров Гранд и насладитесь сноркелингом, водными мотоциклами, банан-райдом, парасейлингом, наблюдением за дельфинами и купанием.",
     },
-    "2-days-dandeli-tour-package": {
+    "dandeli-2-day-tour-from-goa": {
       title: "Сафари со слонами и тиграми в Дандели",
       duration: "2 дня",
       description:
@@ -1589,31 +1601,31 @@ export const ru = {
       description:
         "Откройте королевское наследие Майсура с дворцом Майсур и холмом Чамунди, а затем насладитесь чайными садами и живописными видами Ути.",
     },
-    "ajanta-ellora-caves-tour": {
+    "ajanta-ellora-caves-tour-from-goa": {
       title: "Тур по пещерам Эллоры и Аджанты",
       duration: "2 ночи / 3 дня",
       description:
         "Полюбуйтесь древними пещерами Эллоры и Аджанты с уникальными буддийскими, индуистскими и джайнскими скульптурами и фресками.",
     },
-    "jodhpur-udaipur-tour": {
+    "odhpur-udaipur-tour-from-goa": {
       title: "Королевский тур по Раджастхану: Удайпур и Джодхпур",
       duration: "4 ночи / 5 дней",
       description:
         "Почувствуйте королевское очарование Раджастхана с величественными дворцами, спокойными озёрами, могучими фортами и яркими рынками.",
     },
-    "varanasi-tour-package": {
+    "varanasi-tour-package-from-goa": {
       title: "Варанаси — духовная Индия",
       duration: "3 ночи / 4 дня",
       description:
         "Погрузитесь в духовное сердце Индии с гхатами Ганга, церемонией Ганга Аарти, храмом Каши Вишванатх и посещением Сарнатха.",
     },
-    "mathura-tour-package": {
+    "mathura-vrindavan-tour-from-goa": {
       title: "Тур по Матхуре и Вриндавану",
       duration: "2 ночи / 3 дня",
       description:
         "Погрузитесь в атмосферу преданности в священных местах рождения Кришны с храмами, мантрами и духовными переживаниями.",
     },
-    "andaman-islands-tour": {
+    "andaman-islands-tour-from-goa": {
       title: "Отдых на Андаманских островах",
       duration: "5 ночей / 6 дней",
       description:
@@ -1625,25 +1637,25 @@ export const ru = {
       description:
         "Побалуйте себя роскошным отдыхом на Мальдивах с виллами над водой, частными ужинами, спа-процедурами и незабываемыми закатами.",
     },
-    "amritsar-tour-package": {
+    "amritsar-tour-package-from-goa": {
       title: "Исторический тур по Амритсару",
       duration: "2 ночи / 3 дня",
       description:
         "Откройте для себя духовное и историческое значение Амритсара с посещением Золотого храма, Джаллианвала-Багха и других знаковых мест.",
     },
-    "bijapur-tour-package": {
+    "bijapur-heritage-tour-from-goa": {
       title: "Исторический тур по Биджапуру",
       duration: "1 ночь / 2 дня",
       description:
         "Откройте для себя духовное и историческое значение Биджапура с посещением Гол-Гумбаза, Ибрагим-Раузе и других знаковых памятников.",
     },
-    "hyderabad-tour-package": {
+    "hyderabad-tour-package-from-goa": {
       title: "Тур по Хайдарабаду",
       duration: "2 ночи / 3 дня",
       description:
         "Откройте для себя духовное и историческое значение Хайдарабада с посещением Чарминара, форта Голконда и других знаковых достопримечательностей.",
     },
-    "jodhpur-tour-package": {
+    "jodhpur-tour-package-from-goa": {
       title: "Исторический тур по Джодхпуру",
       duration: "3 ночи / 4 дня",
       description:
@@ -1651,7 +1663,7 @@ export const ru = {
     },
   },
   tourData: {
-    "dandeli-elephant-safari": {
+    "dandeli-elephant-safari-day-trip": {
       file_name: "Dandeli-Elephant-Safari-Day-Trip-package.html",
       page: {
         slug: "Dandeli-Elephant-Safari-Day-Trip-package",
@@ -1827,7 +1839,7 @@ export const ru = {
         },
       ],
     },
-    "dudhsagar-spice-plantation": {
+    "dudhsagar-waterfall-spice-plantation": {
       file_name: "Dudhsagar-and-Spice-Plantation-Day-Trip-package.html",
       page: {
         slug: "Dudhsagar-and-Spice-Plantation-Day-Trip-package",
@@ -1993,7 +2005,7 @@ export const ru = {
         },
       ],
     },
-    "gokarna-murdeshwar-trip": {
+    "gokarna-murdeshwar-day-trip": {
       file_name: "Gokarna-Murdeshwar-one-day-trip-package.html",
       page: {
         slug: "Gokarna-Murdeshwar-one-day-trip-package",
@@ -2173,10 +2185,10 @@ export const ru = {
         },
       ],
     },
-    "yacht-day-tour": {
-      file_name: "yacht-day-tour.html",
+    "luxury-yacht-day-tour-goa": {
+      file_name: "luxury-yacht-day-tour-goa.html",
       page: {
-        slug: "yacht-day-tour",
+        slug: "luxury-yacht-day-tour-goa",
         type: "day-trips",
         hero: {
           title: "Однодневный тур на яхте 3д/2н – люксовый круиз на закате в Гоа",
@@ -2358,7 +2370,7 @@ export const ru = {
         },
       ],
     },
-    "mumbai-day-trip": {
+    "mumbai-one-day-tour-from-goa": {
       file_name: "Mumbai-day-trip-package.html",
       page: {
         slug: "Mumbai-day-trip-package",
@@ -2570,7 +2582,7 @@ export const ru = {
         },
       ],
     },
-    "netravali-day-trip": {
+    "netravali-wildlife-day-trip": {
       file_name: "Netravali-day-trip-package.html",
       page: {
         slug: "Netravali-day-trip-package",
@@ -2765,7 +2777,7 @@ export const ru = {
         },
       ],
     },
-    "north-goa-day-tour": {
+    "north-goa-full-day-tour": {
       file_name: "north-goa-english-tour.html",
       page: {
         slug: "North-Goa-English-tour",
@@ -2943,7 +2955,7 @@ export const ru = {
         },
       ],
     },
-    "goa-in-a-day-tour": {
+    "goa-one-day-sightseeing-tour": {
       file_name: "One-Day-South-Goa-trip-package.html",
       page: {
         slug: "One-Day-South-Goa-trip-package",
@@ -3126,7 +3138,7 @@ export const ru = {
         },
       ],
     },
-    "full-day-south-goa-tour": {
+    "south-goa-full-day-tour": {
       file_name: "South-Goa-1-Day-Cultural-and-Beach-Tour-package.html",
       page: {
         slug: "South-Goa-1-Day-Cultural-and-Beach-Tour-package",
@@ -3285,7 +3297,7 @@ export const ru = {
         },
       ],
     },
-    "palolem-cola-beach-dolphin-spotting": {
+    "palolem-cola-beach-dolphin-tour": {
       file_name: "South-Goa-1-Day-Trip-package.html",
       page: {
         slug: "palolem-cola-full-day-tour",
@@ -3488,8 +3500,8 @@ export const ru = {
         },
       ],
     },
-    "south-goa-sunset-cruise-tour": {
-      file_name: "south-goa-sunset-cruise-tour.html",
+    "south-goa-sunset-cruise": {
+      file_name: "south-goa-sunset-cruise.html",
       page: {
         slug: "South-Goa-Sightseeing-Sunset-Cruise",
         type: "day-trip",
@@ -3672,7 +3684,7 @@ export const ru = {
         },
       ],
     },
-    "aurangabad-heritage": {
+    "aurangabad-heritage-tour-from-goa": {
       file_name: "2-Day-Aurangabad-Trip-Package.html",
       page: {
         slug: "2-Day-Aurangabad-Trip-Package",
@@ -3870,7 +3882,7 @@ export const ru = {
         },
       ],
     },
-    "goa-tour": {
+    "goa-sightseeing-tour": {
       file_name: "3-day-goa-Trip-plan.html",
       page: {
         slug: "3-day-goa-Trip-plan",
@@ -4073,7 +4085,7 @@ export const ru = {
         },
       ],
     },
-    "ajanta-ellora-caves-tour": {
+    "ajanta-ellora-caves-tour-from-goa": {
       file_name: "ajanta-ellora-tour-from-goa.html",
       page: {
         slug: "ajanta-ellora-tour",
@@ -4298,10 +4310,10 @@ export const ru = {
         },
       ],
     },
-    "amritsar-tour-package": {
-      file_name: "amritsar-tour-package-2n3d-from-goa.html",
+    "amritsar-tour-package-from-goa": {
+      file_name: "amritsar-tour-package-from-goa-2n3d-from-goa.html",
       page: {
-        slug: "amritsar-tour-package-2n3d",
+        slug: "amritsar-tour-package-from-goa-2n3d",
         type: "domestic-trip",
         hero: {
           title: "Турпакет в Амритсар 3д/2н – Золотой храм и граница Вагах",
@@ -4430,7 +4442,7 @@ export const ru = {
         },
       ],
     },
-    "andaman-islands-tour": {
+    "andaman-islands-tour-from-goa": {
       file_name: "andaman-tour-for-goa.html",
       page: {
         slug: "andaman-nicobar-tour-for-goa",
@@ -4592,10 +4604,10 @@ export const ru = {
         },
       ],
     },
-    "bijapur-tour-package": {
-      file_name: "bijapur-tour-package-from-goa.html",
+    "bijapur-heritage-tour-from-goa": {
+      file_name: "bijapur-heritage-tour-from-goa-from-goa.html",
       page: {
-        slug: "bijapur-tour-package",
+        slug: "bijapur-heritage-tour-from-goa",
         type: "domestic-trip",
         hero: {
           title: "Турпакет в Биджапур 2д/1н из Гоа | Айхоле и Паттадакал",
@@ -4716,7 +4728,7 @@ export const ru = {
         },
       ],
     },
-    "goa-serai-cabo-retreat": {
+    "goa-luxury-retreat-serai-cabo": {
       file_name: "Cabo-Serai-2N-3D-Luxury-Getaway.html",
       page: {
         slug: "Cabo-Serai-2N-3D-Luxury-Getaway",
@@ -4898,10 +4910,10 @@ export const ru = {
         },
       ],
     },
-    "2-days-dandeli-tour-package": {
-      file_name: "2-days-dandeli-tour-package-from-goa.html",
+    "dandeli-2-day-tour-from-goa": {
+      file_name: "dandeli-2-day-tour-from-goa-from-goa.html",
       page: {
-        slug: "2-days-dandeli-tour-package",
+        slug: "dandeli-2-day-tour-from-goa",
         type: "domestic-trip",
         hero: {
           title: "Турпакет в Дандели – сафари на слонах и тиграх 2д/1н из Гоа",
@@ -5112,7 +5124,7 @@ export const ru = {
         },
       ],
     },
-    "delhi-agra-trip": {
+    "delhi-agra-tour-from-goa": {
       file_name: "Delhi-Agra-1N-2D-Trip-Package.html",
       page: {
         slug: "Delhi-Agra-1N-2D-Trip-Package",
@@ -5314,10 +5326,10 @@ export const ru = {
         },
       ],
     },
-    "4D-golden-triangle-tour": {
-      file_name: "4D-golden-triangle-tour-3n4d.html",
+    "golden-triangle-4-day-tour-from-goa": {
+      file_name: "golden-triangle-4-day-tour-from-goa-3n4d.html",
       page: {
-        slug: "4D-golden-triangle-tour-3N4D",
+        slug: "golden-triangle-4-day-tour-from-goa-3N4D",
         type: "domestic-trip",
         hero: {
           title: "Турпакет 4д/3н Золотой треугольник – Дели, Агра, Джайпур",
@@ -5564,10 +5576,10 @@ export const ru = {
         },
       ],
     },
-    "golden-triangle-tour-special": {
-      file_name: "4D-golden-triangle-tour-package.html",
+    "golden-triangle-tour-from-goa": {
+      file_name: "golden-triangle-4-day-tour-from-goa-package.html",
       page: {
-        slug: "4D-golden-triangle-tour-package",
+        slug: "golden-triangle-4-day-tour-from-goa-package",
         type: "domestic-trip",
         hero: {
           title: "Тур Золотой треугольник - Дели, Агра, Джайпур | Global Tourist Centre",
@@ -5716,7 +5728,7 @@ export const ru = {
         },
       ],
     },
-    "hampi-badami-tour-package": {
+    "hampi-badami-heritage-tour-from-goa": {
       file_name: "Hampi-1N-2D-Trip-Package.html",
       page: {
         slug: "Hampi-1N-2D-Trip-Package",
@@ -5960,7 +5972,7 @@ export const ru = {
         },
       ],
     },
-    "hyderabad-tour-package": {
+    "hyderabad-tour-package-from-goa": {
       file_name: "hyderabad-trip-1n2d.html",
       page: {
         slug: "Hyderabad-Trip-1N2D",
@@ -6183,10 +6195,10 @@ export const ru = {
         },
       ],
     },
-    "jodhpur-tour-package": {
-      file_name: "jodhpur-tour-package-3n4d.html",
+    "jodhpur-tour-package-from-goa": {
+      file_name: "jodhpur-tour-package-from-goa-3n4d.html",
       page: {
-        slug: "jodhpur-tour-package-3N4D",
+        slug: "jodhpur-tour-package-from-goa-3N4D",
         type: "domestic-trip",
         hero: {
           title: "Турпакет в Джодхпур – Тур Джодхпур и Джайсалмер 3н/4д",
@@ -6457,7 +6469,7 @@ export const ru = {
         },
       ],
     },
-    "jodhpur-udaipur-tour": {
+    "odhpur-udaipur-tour-from-goa": {
       file_name: "jodhpur-udaipur-trip-4n5d.html",
       page: {
         slug: "Jodhpur-Udaipur-tour-package",
@@ -6732,7 +6744,7 @@ export const ru = {
         },
       ],
     },
-    "exotic-kashmir-tour": {
+    "kashmir-tour-package-from-goa": {
       file_name: "Kashmir-5N6D-Trip.html",
       page: {
         slug: "Kashmir-5N6D-Trip",
@@ -6890,7 +6902,7 @@ export const ru = {
         },
       ],
     },
-    "kerala-tour": {
+    "kerala-tour-package-from-goa": {
       file_name: "Kerala-5N6D-Trip.html",
       page: {
         slug: "Kerala-5N6D-Trip",
@@ -7047,10 +7059,10 @@ export const ru = {
         },
       ],
     },
-    "ladakh-tour": {
-      file_name: "ladakh-tour-for-goa.html",
+    "ladakh-tour-package-from-goa": {
+      file_name: "ladakh-tour-package-from-goa-for-goa.html",
       page: {
-        slug: "ladakh-tour-for-goa",
+        slug: "ladakh-tour-package-from-goa-for-goa",
         type: "domestic-trip",
         hero: {
           title: "Турпакет в Ладакх из Гоа",
@@ -7204,7 +7216,7 @@ export const ru = {
         },
       ],
     },
-    "lakshadweep-islands": {
+    "lakshadweep-islands-tour-from-goa": {
       file_name: "Lakshadweep-Trip.html",
       page: {
         slug: "Lakshadweep-Trip",
@@ -7342,10 +7354,10 @@ export const ru = {
         },
       ],
     },
-    "mathura-tour-package": {
+    "mathura-vrindavan-tour-from-goa": {
       file_name: "mathura-vrindavan-trip-2n3d.html",
       page: {
-        slug: "mathura-tour-package",
+        slug: "mathura-vrindavan-tour-from-goa",
         type: "",
         hero: {
           title: "Тур в Матхуру и Вриндаван (2 ночи – 3 дня)",
@@ -7638,7 +7650,7 @@ export const ru = {
         },
       ],
     },
-    "north-india-heritage-tour": {
+    "north-india-heritage-tour-from-goa": {
       file_name: "North-India-Trip.html",
       page: {
         slug: "North-India-Trip",
@@ -7818,7 +7830,7 @@ export const ru = {
         },
       ],
     },
-    "rajasthan-royal": {
+    "rajasthan-royal-tour-from-goa": {
       file_name: "Rajasthan-Trip-Package.html",
       page: {
         slug: "Rajasthan-Trip-Package",
@@ -7978,7 +7990,7 @@ export const ru = {
         },
       ],
     },
-    "shimoga-nature-safari": {
+    "shimoga-nature-tour-from-goa": {
       file_name: "Shimoga-trip-package.html",
       page: {
         slug: "Shimoga-trip-package",
@@ -8167,7 +8179,7 @@ export const ru = {
         },
       ],
     },
-    "sikkim-darjeeling-gangtok-tour": {
+    "sikkim-darjeeling-gangtok-tour-from-goa": {
       file_name: "sikkim-tour-for-goa.html",
       page: {
         slug: "sikkim-tour-for-goa",
@@ -8329,7 +8341,7 @@ export const ru = {
         },
       ],
     },
-    "tamil-nadu-tour": {
+    "tamil-nadu-tour-package-from-goa": {
       file_name: "Tamil-Nadu-trip.html",
       page: {
         slug: "Tamil-Nadu-trip",
@@ -8492,7 +8504,7 @@ export const ru = {
         },
       ],
     },
-    "varanasi-tour-package": {
+    "varanasi-tour-package-from-goa": {
       file_name: "varanasi-2n3d-trip.html",
       page: {
         slug: "Varanasi-2N3D",

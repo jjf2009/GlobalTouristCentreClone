@@ -14,7 +14,7 @@ export const translations = {
 
 export type Locale = keyof typeof translations;
 type RawTranslationKeys = typeof translations.en;
-export type TourDataItem = RawTranslationKeys["tourData"]["aurangabad-heritage"];
+export type TourDataItem = RawTranslationKeys["tourData"]["aurangabad-heritage-tour-from-goa"];
 
 export interface TranslationKeys extends Omit<RawTranslationKeys, "tourData"> {
   tourData: Record<string, TourDataItem>;

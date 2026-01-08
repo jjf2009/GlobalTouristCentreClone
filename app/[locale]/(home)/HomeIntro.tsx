@@ -22,23 +22,23 @@ const travelCollections: TravelCollection[] = [
   /* ================= DAY TRIPS ================= */
 
   {
-    id: "full-day-south-goa-tour",
-    href: "/destinations/day-trips/full-day-south-goa-tour", // matches day-south-goa-cultural-007.slug
+    id: "south-goa-full-day-tour",
+    href: "/destinations/day-trips/south-goa-full-day-tour", // matches day-south-goa-cultural-007.slug
     imageUrl: "/assets/destinations/Goa/basilica-bom-jesus.webp",
   },
   {
-    id: "north-goa-day-tour",
-    href: "/destinations/day-trips/north-goa-day-tour", // matches day-north-goa-009.slug
+    id: "north-goa-full-day-tour",
+    href: "/destinations/day-trips/north-goa-full-day-tour", // matches day-north-goa-009.slug
     imageUrl: "/assets/destinations/Thumbnails/NorthGoa.webp",
   },
   {
-    id: "dudhsagar-spice-plantation",
-    href: "/destinations/day-trips/dudhsagar-spice-plantation", // matches day-dudhsagar-spice-010.slug
+    id: "dudhsagar-waterfall-spice-plantation",
+    href: "/destinations/day-trips/dudhsagar-waterfall-spice-plantation", // matches day-dudhsagar-spice-010.slug
     imageUrl: "/assets/destinations/Thumbnails/Dudhsagar.webp",
   },
   {
-    id: "palolem-cola-beach-dolphin-spotting",
-    href: "/destinations/day-trips/palolem-cola-beach-dolphin-spotting", // matches day-palolem-cola-011.slug
+    id: "palolem-cola-beach-dolphin-tour",
+    href: "/destinations/day-trips/palolem-cola-beach-dolphin-tour", // matches day-palolem-cola-011.slug
     imageUrl: "/assets/destinations/Thumbnails/Palolem.webp",
   },
   // {
@@ -47,8 +47,8 @@ const travelCollections: TravelCollection[] = [
   //   imageUrl: "/assets/destinations/Thumbnails/Crocodile.webp",
   // },
   {
-    id: "yacht-day-tour",
-    href: "/destinations/day-trips/yacht-day-tour", // matches day-yacht-013.slug
+    id: "luxury-yacht-day-tour-goa",
+    href: "/destinations/day-trips/luxury-yacht-day-tour-goa", // matches day-yacht-013.slug
     imageUrl: "/assets/destinations/Thumbnails/Yacht.webp",
   },
   // {
@@ -57,26 +57,26 @@ const travelCollections: TravelCollection[] = [
   //   imageUrl: "/assets/destinations/Thumbnails/GrandIsland.webp",
   // },
   {
-    id: "gokarna-murdeshwar-trip",
-    href: "/destinations/day-trips/gokarna-murdeshwar-trip", // matches day-gokarna-005.slug (updated from old -tour)
+    id: "gokarna-murdeshwar-day-trip",
+    href: "/destinations/day-trips/gokarna-murdeshwar-day-trip", // matches day-gokarna-005.slug (updated from old -tour)
     imageUrl: "/assets/destinations/Thumbnails/Gokarna.webp",
   },
   {
-    id: "2-days-dandeli-tour-package",
-    href: "/destinations/domestic/2-days-dandeli-tour-package", // matches day-dandeli-001.slug
+    id: "dandeli-2-day-tour-from-goa",
+    href: "/destinations/domestic/dandeli-2-day-tour-from-goa", // matches day-dandeli-001.slug
     imageUrl: "/assets/destinations/Thumbnails/Dandeli.webp",
   },
 
   /* ================= SHORT STAYS ================= */
 
   {
-    id: "goa-serai-cabo-retreat",
-    href: "/destinations/domestic/goa-serai-cabo-retreat", // matches dom-goa-serai-018.slug
+    id: "goa-luxury-retreat-serai-cabo",
+    href: "/destinations/domestic/goa-luxury-retreat-serai-cabo", // matches dom-goa-serai-018.slug
     imageUrl: "/assets/destinations/Thumbnails/SeraiCabo.webp",
   },
   {
-    id: "hampi-badami-tour-package",
-    href: "/destinations/domestic/hampi-badami-tour-package", // matches dom-hampi-019.slug
+    id: "hampi-badami-heritage-tour-from-goa",
+    href: "/destinations/domestic/hampi-badami-heritage-tour-from-goa", // matches dom-hampi-019.slug
     imageUrl: "/assets/destinations/Thumbnails/Hampi.webp",
   },
   // removed hampi-badami because that trip is commented out in domesticTrips source of truth
@@ -86,13 +86,13 @@ const travelCollections: TravelCollection[] = [
   //   imageUrl: "/assets/destinations/Thumbnails/Ooty.webp",
   // },
   {
-    id: "mumbai-day-trip",
-    href: "/destinations/day-trips/mumbai-day-trip", // matches dom-mumbai-021.slug
+    id: "mumbai-one-day-tour-from-goa",
+    href: "/destinations/day-trips/mumbai-one-day-tour-from-goa", // matches dom-mumbai-021.slug
     imageUrl: "/assets/destinations/Thumbnails/Mumbai.webp",
   },
   {
-    id: "ajanta-ellora-caves-tour",
-    href: "/destinations/domestic/ajanta-ellora-caves-tour", // matches dom-ajanta-ellora-022.slug
+    id: "ajanta-ellora-caves-tour-from-goa",
+    href: "/destinations/domestic/ajanta-ellora-caves-tour-from-goa", // matches dom-ajanta-ellora-022.slug
     imageUrl: "/assets/destinations/Thumbnails/Ellora.webp",
   },
   // {
@@ -107,28 +107,28 @@ const travelCollections: TravelCollection[] = [
   // removed kerala-4n5d because kerala-backwaters-hills is commented out
   // removed golden-triangle-3n4d because golden-triangle-tour is commented out
   {
-    id: "kerala-tour",
-    href: "/destinations/domestic/kerala-tour", // matches dom-kerala-024.slug
+    id: "kerala-tour-package-from-goa",
+    href: "/destinations/domestic/kerala-tour-package-from-goa", // matches dom-kerala-024.slug
     imageUrl: "/assets/destinations/Thumbnails/Kerala.webp",
   },
   {
-    id: "4D-golden-triangle-tour",
-    href: "/destinations/domestic/4D-golden-triangle-tour", // matches dom-golden-triangle-025.slug
+    id: "golden-triangle-4-day-tour-from-goa",
+    href: "/destinations/domestic/golden-triangle-4-day-tour-from-goa", // matches dom-golden-triangle-025.slug
     imageUrl: "/assets/destinations/Thumbnails/GoldenTriangle.webp",
   },
   {
-    id: "jodhpur-udaipur-tour",
-    href: "/destinations/domestic/jodhpur-udaipur-tour", // matches dom-udaipur-jodhpur-026.slug
+    id: "odhpur-udaipur-tour-from-goa",
+    href: "/destinations/domestic/odhpur-udaipur-tour-from-goa", // matches dom-udaipur-jodhpur-026.slug
     imageUrl: "/assets/destinations/Thumbnails/Udaipur.webp",
   },
   {
-    id: "varanasi-tour-package",
-    href: "/destinations/domestic/varanasi-tour-package", // matches dom-varanasi-027.slug
+    id: "varanasi-tour-package-from-goa",
+    href: "/destinations/domestic/varanasi-tour-package-from-goa", // matches dom-varanasi-027.slug
     imageUrl: "/assets/destinations/Thumbnails/Varanasi.webp",
   },
   {
-    id: "mathura-tour-package",
-    href: "/destinations/domestic/mathura-tour-package", // matches dom-mathura-vrindavan-028.slug
+    id: "mathura-vrindavan-tour-from-goa",
+    href: "/destinations/domestic/mathura-vrindavan-tour-from-goa", // matches dom-mathura-vrindavan-028.slug
     imageUrl: "/assets/destinations/Thumbnails/Mathura.webp",
   },
 
@@ -136,8 +136,8 @@ const travelCollections: TravelCollection[] = [
 
   // removed andaman-islands-5n6d because that itinerary is commented out
   {
-    id: "andaman-islands-tour",
-    href: "/destinations/international/andaman-islands-tour", // matches int-andaman-021.slug
+    id: "andaman-islands-tour-from-goa",
+    href: "/destinations/international/andaman-islands-tour-from-goa", // matches int-andaman-021.slug
     imageUrl: "/assets/destinations/Thumbnails/Andaman.webp",
   },
   {

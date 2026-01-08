@@ -2,79 +2,79 @@
 
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/context";
-import { Instagram, Facebook,  } from "lucide-react";
+import { Instagram, Facebook, } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import { useEffect, useRef } from "react";
 
 
 export function Footer() {
-  const { t,locale } = useI18n();
+  const { t, locale } = useI18n();
   const instagramRef = useRef<HTMLDivElement>(null);
 
-useEffect(() => {
-  if (!instagramRef.current) return;
+  useEffect(() => {
+    if (!instagramRef.current) return;
 
-  const setupInstagram = () => {
-    if (window.innerWidth < 1024) return;
+    const setupInstagram = () => {
+      if (window.innerWidth < 1024) return;
 
-    instagramRef.current!.innerHTML = "";
+      instagramRef.current!.innerHTML = "";
 
-    const blockquote = document.createElement("blockquote");
-    blockquote.className = "instagram-media";
-    blockquote.setAttribute(
-      "data-instgrm-permalink",
-      "https://www.instagram.com/globaltouristcentre/"
-    );
-    blockquote.setAttribute("data-instgrm-version", "14");
+      const blockquote = document.createElement("blockquote");
+      blockquote.className = "instagram-media";
+      blockquote.setAttribute(
+        "data-instgrm-permalink",
+        "https://www.instagram.com/globaltouristcentre/"
+      );
+      blockquote.setAttribute("data-instgrm-version", "14");
 
-    instagramRef.current!.appendChild(blockquote);
+      instagramRef.current!.appendChild(blockquote);
 
-    if (!(window as any).instgrm) {
-      const script = document.createElement("script");
-      script.src = "https://www.instagram.com/embed.js";
-      script.async = true;
-      script.onload = () => {
+      if (!(window as any).instgrm) {
+        const script = document.createElement("script");
+        script.src = "https://www.instagram.com/embed.js";
+        script.async = true;
+        script.onload = () => {
+          (window as any).instgrm?.Embeds.process();
+        };
+        document.body.appendChild(script);
+      } else {
+        (window as any).instgrm.Embeds.process();
+      }
+    };
+
+    // Initial load
+    setupInstagram();
+
+    // Resize handler
+    const handleResize = () => {
+      if (window.innerWidth >= 1024) {
         (window as any).instgrm?.Embeds.process();
-      };
-      document.body.appendChild(script);
-    } else {
-      (window as any).instgrm.Embeds.process();
-    }
-  };
+      }
+    };
 
-  // Initial load
-  setupInstagram();
+    window.addEventListener("resize", handleResize);
 
-  // Resize handler
-  const handleResize = () => {
-    if (window.innerWidth >= 1024) {
-      (window as any).instgrm?.Embeds.process();
-    }
-  };
-
-  window.addEventListener("resize", handleResize);
-
-  // Cleanup (CRITICAL)
-  return () => {
-    window.removeEventListener("resize", handleResize);
-  };
-}, []);
+    // Cleanup (CRITICAL)
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
 
 
   const popularTours = [
     {
       label: t.footer.goaBeach,
-      href: `/${locale}/destinations/day-trips/full-day-south-goa-tour`,
+      href: `/${locale}/destinations/day-trips/south-goa-full-day-tour`,
     },
     {
       label: t.footer.exploreSikkim,
-      href: `/${locale}/destinations/domestic/sikkim-darjeeling-gangtok-tour`,
+      href: `/${locale}/destinations/domestic/sikkim-darjeeling-gangtok-tour-from-goa`,
     },
     {
       label: t.footer.keralaBackwaters,
-      href: `/${locale}/destinations/domestic/kerala-tour/`,
+      href: `/${locale}/destinations/domestic/kerala-tour-package-from-goa/`,
     },
   ];
   return (
