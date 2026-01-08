@@ -14410,4 +14410,14 @@ export const de = {
       ],
     },
   },
+  notfound: {
+    title: "Das Abenteuer wartet, aber Sie haben einen Umweg gemacht!",
+    description: "Selbst die erfahrensten Entdecker kommen manchmal vom Weg ab. Keine Sorge – sich zu verirren gehört zur Reise dazu. Lassen Sie sich von uns zu unglaublichen Zielen und unvergesslichen Erlebnissen zurückführen!",
+    buttons: {
+      home: "Zurück zum Basislager",
+      destinations: "Neue Pfade entdecken",
+      contact: "Einen Guide anfordern",
+    },
+    metaTitle: "Im Abenteuer verloren | 404 Fehler - Global Tourist Centre",
+  },
 } as const;

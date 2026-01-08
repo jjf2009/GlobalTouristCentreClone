@@ -13881,4 +13881,14 @@ export const en = {
       ],
     },
   },
+  notfound: {
+    title: "Adventure Awaits, But You've Taken a Detour!",
+    description: "Even the most seasoned explorers sometimes wander off the path. Don't worry - getting lost is just part of the journey. Let us guide you back to incredible destinations and unforgettable experiences!",
+    buttons: {
+      home: "Return to Base Camp",
+      destinations: "Discover New Trails",
+      contact: "Request a Guide",
+    },
+    metaTitle: "Lost in Adventure | 404 Error - Global Tourist Centre",
+  },
 } as const;

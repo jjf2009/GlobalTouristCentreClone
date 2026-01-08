@@ -14646,4 +14646,14 @@ export const fr = {
       ],
     },
   },
+  notfound: {
+    title: "L'aventure vous attend, mais vous avez fait un détour !",
+    description: "Même les explorateurs les plus aguerris s'égarent parfois. Ne vous inquiétez pas, se perdre fait partie du voyage. Laissez-nous vous guider vers des destinations incroyables et des expériences inoubliables !",
+    buttons: {
+      home: "Retour au camp de base",
+      destinations: "Découvrir de nouveaux sentiers",
+      contact: "Demander un guide",
+    },
+    metaTitle: "Perdu dans l'aventure | Erreur 404 - Global Tourist Centre",
+  },
 } as const;

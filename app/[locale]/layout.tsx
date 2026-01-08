@@ -9,9 +9,9 @@ import { Footer } from "@/components/footer";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { locales } from "@/lib/i18n/config";
 import type { Locale } from "@/lib/i18n/translations";
-import { notFound } from "next/navigation";
 import "../globals.css";
 import Script from "next/script";
+import { notFound } from "next/navigation";
 
 
 
@@ -84,9 +84,11 @@ export default function LocaleLayout({
 }) {
   const locale = params.locale as Locale;
 
-  if (!locales.includes(locale as any)) {
-    notFound();
-  }
+// app/[locale]/layout.tsx
+if (!locales.includes(locale)) {
+  notFound();
+}
+
   const travelAgencySchema = {
     "@context": "https://schema.org",
     "@type": "TravelAgency",

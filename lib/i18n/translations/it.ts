@@ -14600,4 +14600,14 @@ export const it = {
       ],
     },
   },
+  notfound: {
+    title: "L'avventura attende, ma hai preso una deviazione!",
+    description: "Anche gli esploratori più esperti a volte si allontanano dal sentiero. Non preoccuparti: perdersi fa parte del viaggio. Lasciati guidare verso destinazioni incredibili ed esperienze indimenticabili!",
+    buttons: {
+      home: "Ritorna al Campo Base",
+      destinations: "Scopri Nuovi Sentieri",
+      contact: "Richiedi una Guida",
+    },
+    metaTitle: "Perso nell'Avventura | Errore 404 - Global Tourist Centre",
+  },
 } as const;
