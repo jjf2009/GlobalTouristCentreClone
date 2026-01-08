@@ -11874,7 +11874,7 @@ export const en = {
         discountBadge: "Up to 20% OFF on Early Bookings",
         image: "/assets/Luxury/Mumbai/mumbai-hero.webp",
       },
-      metadata: {
+      "metadata": {
         title: "Mumbai Luxury Trip Package | Global Tourist Centre – Premium Mumbai Getaway",
         description: "Explore the exclusive Mumbai luxury trip package from Global Tourist Centre. Experience 5-star hotels, private chauffeur drives, premium dining and curated city tours in India’s City of Dreams "
       },
@@ -11929,7 +11929,7 @@ export const en = {
         discountBadge: "Up to 25% OFF on Early Bookings",
         image: "/assets/Luxury/Golden Triangle/hero.webp",
       },
-      meta: {
+      "metadata": {
         title: "Luxury Golden Triangle Tour | Premium Delhi-Agra-Jaipur Circuit – Global Tourist Centre",
         description: "Enjoy an exclusive luxury Golden Triangle tour with Global Tourist Centre: indulgent stays in heritage palaces, private chauffeur transfers, VIP sightseeing of Delhi, Agra & Jaipur, and curated experiences for discerning travellers."
       },
@@ -11994,7 +11994,7 @@ export const en = {
         discountBadge: "Up to 30% OFF on Early Bookings",
         image: "/assets/Luxury/Kerala/hero-backwaters.webp",
       },
-      meta: {
+      "metadata": {
         title: "Kerala Luxury Tour Package | Global Tourist Centre – Premium Kerala Getaway",
         description: "Our exclusive Kerala luxury tour package with Global Tourist Centre. Experience opulent stays, private houseboats, scenic hill-stations and backwaters, along with personalized service and unforgettable moments in “God’s Own Country”"
       },
@@ -12057,7 +12057,7 @@ export const en = {
         discountBadge: "Up to 30% OFF on Early Bookings",
         image: "/assets/Luxury/Rajasthan/Rajasthan-Luxury.webp",
       },
-      meta: {
+      "metadata": {
         title: "Luxury Rajasthan Tour | Global Tourist Centre – Royal Heritage & 5‑Star Comfort",
         description: "Explore the ultimate Rajasthan luxury tour package with Global Tourist Centre — stay in palaces & heritage hotels, enjoy private guides, curated experiences and seamless transfers across Jaipur, Udaipur, Jodhpur and more. Book your royal journey now!"
       },
@@ -12129,7 +12129,7 @@ export const en = {
         discountBadge: "Up to 25% OFF on Early Bookings",
         image: "/assets/Luxury/Karnataka/hero.webp",
       },
-      meta: {
+      "metadata": {
         title: "Karnataka Luxury Tour – Bespoke Heritage & Wildlife Experience | Global Tourist Centre",
         description: "Embark on an unforgettable karnataka luxury tour with Global Tourist Centre. Stay in royal palaces, explore Mysore’s regal heritage, delve into Bandipur’s wild safaris, unwind in the Western Ghats, and enjoy private guides plus gourmet dining in style."
       },
