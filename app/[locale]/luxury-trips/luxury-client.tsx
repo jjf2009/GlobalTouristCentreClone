@@ -89,10 +89,10 @@ export default function LuxuryDestinationsPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#1a2332]/90 via-[#1a2332]/70 to-transparent" />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 w-full">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 py-22 w-full">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="font-serif text-4xl md:text-6xl font-bold text-white mb-4">
+              <h1 className="font-serif text-3xl md:text-5xl font-bold text-white mb-4">
                 {t.luxury.heroTitle}
               </h1>
 
