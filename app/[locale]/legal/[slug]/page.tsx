@@ -2,7 +2,9 @@ import { notFound } from "next/navigation";
 import LegalHero from "@/components/LegalHero";
 import LegalPageContent from "@/components/LegalPageContent";
 import { legalPages } from "@/lib/legalPages";
+import type { Metadata } from "next";
 import { locales } from "@/lib/i18n/config";
+import { getTranslations } from "@/lib/i18n/getTranslations";
 
 type Props = {
     params: {
@@ -21,21 +23,57 @@ export function generateStaticParams() {
     return params;
 }
 
-export async function generateMetadata({ params }: Props) {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale, slug } = params;
     const pageData = legalPages[slug as keyof typeof legalPages];
+    const t = getTranslations(locale);
 
     if (!pageData) {
-        return {};
+        return {
+            title: "Legal | Global Tourist Centre",
+            description: "Legal information and resources for Global Tourist Centre.",
+        };
     }
 
-    // Fallback to English if translation is missing
-    // @ts-ignore
     const translation = pageData.translations[locale as keyof typeof pageData.translations] || pageData.translations.en;
+        
+    const image = pageData.heroImage;
+
+    const canonical = `https://globaltouristcentre.com/${locale}/legal/${slug}`;
 
     return {
-        title: `${translation.title} | Global Tourist Centre`,
+        title: translation.title,
         description: translation.subtitle,
+        alternates: {
+            canonical,
+        },  
+        openGraph: {
+            title: translation.title,
+            description: translation.subtitle,
+            images: [image],
+            siteName: t.metadata.brandname,
+            type: "website",
+            url: canonical,
+        },
+        twitter: {
+            title: translation.title,
+            description: translation.subtitle,
+            card: "summary_large_image",
+            images: [
+                {
+                    url: image,
+                    width: 1200,
+                    height: 630,
+                    alt: translation.title,
+                },
+            ],
+            site: t.metadata.brandname,
+        },
+        // keywords: t.metadata.keywords,
+        robots: {
+            index: true,
+            follow: true,
+        },
     };
 }
 

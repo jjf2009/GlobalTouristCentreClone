@@ -27,6 +27,8 @@ export const ru = {
   },
   // Page Metadata for SEO
   metadata: {
+    brandname: "Global Tourist Centre",
+    brandtagline: "Luxury Travel Experiences",
     home: {
       title: "Турагентство №1 в Индии для внутренних и международных путешествий в Гоа | GTC",
       description: "Спланируйте идеальный отпуск с GTC — ведущим турагентством Гоа. От туров по Индии до международных путешествий — персонализированные пакеты и экспертная поддержка.",
@@ -314,6 +316,7 @@ export const ru = {
     viewAllDestinations: "Посмотреть все направления",
     nights: "Ночей",
     days: "Дней",
+    noResults: "Нет доступных направлений для выбранного фильтра.",
     tour: {
       itinerarytitle: "Ваш день приключений",
       itinararysubtitle:
@@ -1300,7 +1303,7 @@ export const ru = {
         "Откройте для себя Гангток, Дарджилинг, Пеллинг с озером Цомго, горными видами и буддийскими монастырями в Восточных Гималаях.",
       duration: "6 Ночей / 7 Дней",
     },
-    "mystic-meghalaya-tour": {
+    "meghalaya-tour": {
       title: "Мистический Мегхалая",
       description:
         "Исследуйте живые корневые мосты, кристально чистые реки в Дawki, самую чистую деревню Азии и сафари в Казиранге на северо-востоке Индии.",
@@ -1658,12 +1661,12 @@ export const ru = {
           subtitle:
             "Насладитесь встречами с дикой природой и захватывающими водными приключениями среди пышных пейзажей Дандели.",
           backgroundImage: "/assets/hero/Dandeli-hero.webp",
-            "meta": {
-          "duration": "1 дн.",
-          "locations": 4,
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "1 дн.",
+            "locations": 4,
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Сафари на слонах в Дандели и приключенческий тур",
@@ -1834,12 +1837,12 @@ export const ru = {
           subtitle:
             "Посетите величественный водопад Дудхсагар и исследуйте плантации ароматных специй за один незабываемый день.",
           backgroundImage: "/assets/hero/Dudhsagar-hero.webp",
-            "meta": {
-          "duration": "1 дн.",
-          "locations": 3,
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "1 дн.",
+            "locations": 3,
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур на водопады Дудхсагар и плантацию специй для иностранцев",
@@ -1999,12 +2002,12 @@ export const ru = {
           title: "Однодневный тур в Гокарну и Мурдешвар из Гоа",
           subtitle: "Откройте для себя пляжи и храмы за один день",
           backgroundImage: "/assets/hero/Gokarna-hero.webp",
-            "meta": {
-          "duration": "1 дн.",
-          "locations": 5,
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "1 дн.",
+            "locations": 5,
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Однодневный тур в Гокарну и Мурдешвар из Гоа для иностранцев",
@@ -2180,12 +2183,12 @@ export const ru = {
           subtitle:
             "Эксклюзивный 6-часовой опыт премиум-класса с пейзажным бассейном, живым диджеем, изысканной кухней и видом на закат.",
           backgroundImage: "/assets/hero/Luxury-Yacht-Goa-hero.webp",
-            "meta": {
-          "duration": "6 Hours",
-          "rating": "4.9/5 Rating",
-          "description": "Experience a premium 3D/2N Yacht Day Tour Package with sunset cruise, infinity pool, live DJ, gourmet dinner, and hotel transfers."
-        }
-          },
+          "meta": {
+            "duration": "6 Hours",
+            "rating": "4.9/5 Rating",
+            "description": "Experience a premium 3D/2N Yacht Day Tour Package with sunset cruise, infinity pool, live DJ, gourmet dinner, and hotel transfers."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Люкс-тур на яхте в Гоа - закат и ужин",
@@ -2366,12 +2369,12 @@ export const ru = {
           subtitle:
             "Экскурсия на целый день из Гоа в Мумбаи, включая авиабилеты, Ворота Индии, дворец Тадж-Махал и англоговорящий гид.",
           backgroundImage: "/assets/hero/mumbai-hero.webp",
-            "meta": {
-          "duration": "Full Day",
-          "rating": "4.7/5 Rating",
-          "description": "Book a Mumbai Day Tour Package from Goa featuring flights, breakfast, Taj Tea, guided sightseeing, Dharavi tour, markets & iconic landmarks."
-        }
-          },
+          "meta": {
+            "duration": "Full Day",
+            "rating": "4.7/5 Rating",
+            "description": "Book a Mumbai Day Tour Package from Goa featuring flights, breakfast, Taj Tea, guided sightseeing, Dharavi tour, markets & iconic landmarks."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Однодневный тур в Мумбаи из Гоа для иностранных туристов",
@@ -2577,12 +2580,12 @@ export const ru = {
           subtitle:
             "Погрузитесь в природную красоту и культурное богатство внутренних районов Гоа.",
           backgroundImage: "/assets/hero/Netravali-hero.webp",
-            "meta": {
-          "duration": "1 дн.",
-          "locations": 5,
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "1 дн.",
+            "locations": 5,
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур в Нетравали: природа, водопады и деревни Гоа",
@@ -2773,11 +2776,11 @@ export const ru = {
           subtitle:
             "Экскурсия на целый день по пляжам, фортам и португальскому наследию Северного Гоа",
           backgroundImage: "/assets/hero/Goa-1-hero.jpg",
-            "meta": {
-          "duration": "Full Day",
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "Full Day",
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Северный Гоа – Португальское Гоа",
@@ -2950,13 +2953,13 @@ export const ru = {
           subtitle:
             "Посетите нетронутые пляжи и скрытые жемчужины Южного Гоа за один незабываемый день.",
           backgroundImage: "/assets/hero/Goa-1-hero.webp",
-            "meta": {
-          "duration": "1 дн.",
-          "locations": 6,
-          "rating": "4.9/5 Rating",
-          "description": "Book the South Goa Full Day Tour Package with temples, Old Goa churches, Miramar Beach, Dona Paula viewpoint & Panjim market."
-        }
-          },
+          "meta": {
+            "duration": "1 дн.",
+            "locations": 6,
+            "rating": "4.9/5 Rating",
+            "description": "Book the South Goa Full Day Tour Package with temples, Old Goa churches, Miramar Beach, Dona Paula viewpoint & Panjim market."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Однодневный тур по Южному Гоа для иностранных туристов в Индии",
@@ -3134,10 +3137,10 @@ export const ru = {
           subtitle:
             "Погружение на целый день в богатую историю, архитектуру и духовное наследие Южного Гоа.",
           backgroundImage: "/assets/hero/Goa-Sightseeing-hero.webp",
-            "meta": {
-          "duration": "Full Day (8:00 AM – 5:30 PM)"
-        }
-          },
+          "meta": {
+            "duration": "Full Day (8:00 AM – 5:30 PM)"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур по Южному Гоа: наследие, пляжи и ужин-круиз",
@@ -3292,11 +3295,11 @@ export const ru = {
           subtitle:
             "Прогулки по островам, наблюдение за дельфинами, катание на каяках в Голубой лагуне и исследование скрытых жемчужин Южного Гоа",
           backgroundImage: "/assets/destinations/South-goa/palolem-beach.webp",
-            "meta": {
-          "duration": "Full Day",
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "Full Day",
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур Палолем-Кола: дельфины и прогулки по островам",
@@ -3495,10 +3498,10 @@ export const ru = {
           subtitle:
             "Поездка на целый день (8:00 – 20:00) с круизом на закате по реке Мандови",
           backgroundImage: "/assets/hero/Sunset-Cruise-Goa-hero.webp",
-            "meta": {
-          "duration": "Full Day Trip (08:00 – 20:00)"
-        }
-          },
+          "meta": {
+            "duration": "Full Day Trip (08:00 – 20:00)"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Экскурсия по Южному Гоа с круизом на закате",
@@ -3678,8 +3681,8 @@ export const ru = {
           title: "Турпакет в Аурангабад",
           subtitle: "",
           backgroundImage: "/assets/hero/aurangabad-hero.webp",
-            "meta": {}
-          },
+          "meta": {}
+        },
         language: "ru",
         "metadata": {
           "title": "2-дневный турпакет в Аурангабад из Гоа с пещерами Аджанта и Эллора",
@@ -3877,12 +3880,12 @@ export const ru = {
           subtitle:
             "Погрузитесь в природную красоту Гоа, совершив лесные походы, культурные мероприятия и роскошные номера.",
           backgroundImage: "/assets/hero/wildernest-hero.webp",
-            "meta": {
-          "duration": "Full Day",
-          "rating": "4.8/5 Rating",
-          "description": "Book a North Goa tour package covering Calangute, Baga, Anjuna, Aguada Fort, churches & flea markets with breakfast, transport & guide included."
-        }
-          },
+          "meta": {
+            "duration": "Full Day",
+            "rating": "4.8/5 Rating",
+            "description": "Book a North Goa tour package covering Calangute, Baga, Anjuna, Aguada Fort, churches & flea markets with breakfast, transport & guide included."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Северный Гоа – Португальское Гоа",
@@ -4081,12 +4084,12 @@ export const ru = {
           subtitle:
             "1 ночь 2 дня знакомства с объектами всемирного наследия ЮНЕСКО, пещерами Аджанты и Эллоры из Гоа",
           backgroundImage: "/assets/hero/Ajanta-hero.webp",
-            "meta": {
-          "duration": "2 дн.",
-          "rating": "4.8/5 Rating",
-          "description": "Book a 2D/1N Ajanta Ellora tour from Goa with flights, 3-star stay, breakfast, entrance tickets, guide & sightseeing to Bibi Ka Maqbara, Ajanta & Ellora Caves"
-        }
-          },
+          "meta": {
+            "duration": "2 дн.",
+            "rating": "4.8/5 Rating",
+            "description": "Book a 2D/1N Ajanta Ellora tour from Goa with flights, 3-star stay, breakfast, entrance tickets, guide & sightseeing to Bibi Ka Maqbara, Ajanta & Ellora Caves"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур в Аджанту и Эллору",
@@ -4306,12 +4309,12 @@ export const ru = {
           subtitle:
             "2 ночи 3 дня с посещением Золотого храма, границы Вагах, Джаллианвала Бага и культурного наследия Амритсара.",
           backgroundImage: "/assets/hero/Amritsar-hero.webp",
-            "meta": {
-          "duration": "3 дн.",
-          "rating": "4.7/5 Rating",
-          "description": "Experience Amritsar with our 3D/2N tour package—Golden Temple, Jallianwala Bagh, Partition Museum, Wagah Border ceremony & city sightseeing."
-        }
-          },
+          "meta": {
+            "duration": "3 дн.",
+            "rating": "4.7/5 Rating",
+            "description": "Experience Amritsar with our 3D/2N tour package—Golden Temple, Jallianwala Bagh, Partition Museum, Wagah Border ceremony & city sightseeing."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Амритсар - Золотой Храм и граница Вагах",
@@ -4437,11 +4440,11 @@ export const ru = {
           subtitle:
             "Откройте для себя нетронутые пляжи и богатую историю Андаманских островов за 7 дней.",
           backgroundImage: "/assets/hero/Andaman-hero.webp",
-            "meta": {
-          "duration": "7 дн.",
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "7 дн.",
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Путешествие на Андаманские острова - 6 ночей/7 дней",
@@ -4600,12 +4603,12 @@ export const ru = {
           subtitle:
             "1 ночь / 2 дня, посвящённые историческому Биджапуру, объекту Всемирного наследия ЮНЕСКО Паттадаккал и древним храмам Айхоле",
           backgroundImage: "/assets/hero/Bijapur-hero.webp",
-            "meta": {
-          "duration": "2 дн.",
-          "rating": "4.5/5 Rating",
-          "description": "Explore Gol Gumbaz, Aihole & Pattadakal with our 2D/1N Bijapur tour package from Goa. Includes hotel stay, guide, taxi & sightseeing for a perfect heritage getaway"
-        }
-          },
+          "meta": {
+            "duration": "2 дн.",
+            "rating": "4.5/5 Rating",
+            "description": "Explore Gol Gumbaz, Aihole & Pattadakal with our 2D/1N Bijapur tour package from Goa. Includes hotel stay, guide, taxi & sightseeing for a perfect heritage getaway"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Биджапур и наследие Карнатаки",
@@ -4723,11 +4726,11 @@ export const ru = {
           subtitle:
             "Откройте для себя самый сокровенный секрет Гоа — роскошные коттеджи с захватывающим видом на Аравийское море.",
           backgroundImage: "/assets/hero/Cabo-hero.webp",
-            "meta": {
-          "duration": "2 Nights / 3 дн.",
-          "rating": "5.0/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "2 Nights / 3 дн.",
+            "rating": "5.0/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Люксовый побег в Cabo Serai: Гоа 2н/3д",
@@ -4906,12 +4909,12 @@ export const ru = {
           subtitle:
             "1 ночь / 2 дня знакомства с заповедником дикой природы Дандели, включая общение со слонами и тигровое сафари",
           backgroundImage: "/assets/hero/Dandeli-hero.webp",
-            "meta": {
-          "duration": "2 дн.",
-          "rating": "4.6/5 Rating",
-          "description": "Experience a 2D/1N Dandeli tour package with elephant interaction, tiger safari, nature walks, Syntheri Rocks, meals, transport & stay. Perfect wildlife getaway from Goa."
-        }
-          },
+          "meta": {
+            "duration": "2 дн.",
+            "rating": "4.6/5 Rating",
+            "description": "Experience a 2D/1N Dandeli tour package with elephant interaction, tiger safari, nature walks, Syntheri Rocks, meals, transport & stay. Perfect wildlife getaway from Goa."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Сафари на слонах и тиграх в Дандели 2д/1н",
@@ -5119,12 +5122,12 @@ export const ru = {
           subtitle:
             "Испытайте волшебство Тадж-Махала и архитектуры Великих Моголов в этом незабываемом путешествии.",
           backgroundImage: "/assets/hero/Agra-hero.webp",
-            "meta": {
-          "duration": "2 дн.",
-          "locations": 6,
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "2 дн.",
+            "locations": 6,
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур 1н/2д из Дели в Агру с Тадж-Махалом и фортом Агры",
@@ -5322,12 +5325,12 @@ export const ru = {
           subtitle:
             "3 ночи / 4 дня знакомства с Дели, Агрой и Джайпуром с экскурсиями и культурными впечатлениями",
           backgroundImage: "/assets/hero/Golden-Triangle-hero.webp",
-            "meta": {
-          "duration": "4 дн.",
-          "rating": "4.8/5 Rating",
-          "description": "Experience India’s iconic Golden Triangle with our 4D/3N tour package covering Delhi, Agra & Jaipur. Includes sightseeing, hotels, transfers & guided tours."
-        }
-          },
+          "meta": {
+            "duration": "4 дн.",
+            "rating": "4.8/5 Rating",
+            "description": "Experience India’s iconic Golden Triangle with our 4D/3N tour package covering Delhi, Agra & Jaipur. Includes sightseeing, hotels, transfers & guided tours."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур Золотой треугольник Индии 4 дня",
@@ -5571,12 +5574,12 @@ export const ru = {
           subtitle:
             "Откройте для себя самые знаковые места Индии — Дели, Агру и Джайпур в этом 6-дневном культурном путешествии.",
           backgroundImage: "/assets/hero/Golden-Triangle-hero.webp",
-            "meta": {
-          "duration": "6 дн.",
-          "locations": 20,
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "6 дн.",
+            "locations": 20,
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Специальный турпакет Золотой треугольник Индии",
@@ -5724,13 +5727,13 @@ export const ru = {
           subtitle:
             "Откройте для себя объект Всемирного наследия ЮНЕСКО Хампи с его древними руинами и живописными пейзажами",
           backgroundImage: "/assets/hero/Hampi-hero.webp",
-            "meta": {
-          "duration": "2 дн.",
-          "locations": 15,
-          "rating": "4.8/5 Rating",
-          "description": "Explore Karnataka’s heritage with our 2D/1N Hampi & Badami tour package from Goa. Includes hotel, breakfast, guides, cave temples, Stone Chariot & sightseeing"
-        }
-          },
+          "meta": {
+            "duration": "2 дн.",
+            "locations": 15,
+            "rating": "4.8/5 Rating",
+            "description": "Explore Karnataka’s heritage with our 2D/1N Hampi & Badami tour package from Goa. Includes hotel, breakfast, guides, cave temples, Stone Chariot & sightseeing"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет Хампи 1н/2д из Гоа с проживанием и экскурсиями",
@@ -5968,12 +5971,12 @@ export const ru = {
           subtitle:
             "1 ночь / 2 дня знакомства с историческим наследием Хайдарабада, включая форт Голконда, Чарминар и дворец Чоумахалла",
           backgroundImage: "/assets/hero/Hyderabad-hero.webp",
-            "meta": {
-          "duration": "2 дн.",
-          "rating": "4.6/5 Rating",
-          "description": " Book a 1N/2D Hyderabad tour package covering Golconda Fort,Charminar, Chowmahalla Palace, Salar Jung Museum, Hussain Sagar Lake & more"
-        }
-          },
+          "meta": {
+            "duration": "2 дн.",
+            "rating": "4.6/5 Rating",
+            "description": " Book a 1N/2D Hyderabad tour package covering Golconda Fort,Charminar, Chowmahalla Palace, Salar Jung Museum, Hussain Sagar Lake & more"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур в Хайдарабад 1н/2д",
@@ -6191,12 +6194,12 @@ export const ru = {
           subtitle:
             "3 ночи 4 дня, знакомство с Голубым городом и Золотым городом Раджастана с сафари по пустыне и культурными впечатлениями.",
           backgroundImage: "/assets/hero/Jodhpur-Jaisalmer-hero.webp",
-            "meta": {
-          "duration": "4 дн.",
-          "rating": "4.7/5 Rating",
-          "description": "Explore Jodhpur and Jaisalmer with our 3N/4D Jodhpur tour package. Visit forts, dunes, temples, and enjoy guided sightseeing with comfortable stays."
-        }
-          },
+          "meta": {
+            "duration": "4 дн.",
+            "rating": "4.7/5 Rating",
+            "description": "Explore Jodhpur and Jaisalmer with our 3N/4D Jodhpur tour package. Visit forts, dunes, temples, and enjoy guided sightseeing with comfortable stays."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Приключение в пустыне: Джодхпур и Джайсалмер",
@@ -6465,12 +6468,12 @@ export const ru = {
           subtitle:
             "4 ночи 5 дней знакомства с Джодхпуром и Удайпуром с экскурсиями и культурными впечатлениями",
           backgroundImage: "/assets/hero/Jodhpur-Udaipur-hero.webp",
-            "meta": {
-          "duration": "5 дн.",
-          "rating": "4.7/5 Rating",
-          "description": "Experience Rajasthan with our 4N/5D Jodhpur & Udaipur tour package. Explore forts, palaces, lakes and heritage sites with hotels, transfers and guided sightseeing."
-        }
-          },
+          "meta": {
+            "duration": "5 дн.",
+            "rating": "4.7/5 Rating",
+            "description": "Experience Rajasthan with our 4N/5D Jodhpur & Udaipur tour package. Explore forts, palaces, lakes and heritage sites with hotels, transfers and guided sightseeing."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Джодхпур и Удайпур (4 ночи - 5 дней)",
@@ -6739,12 +6742,12 @@ export const ru = {
           subtitle:
             "Испытайте захватывающую дух красоту Кашмира в этом путешествии по Шринагару, Гульмаргу, Пахалгаму и Сонамаргу.",
           backgroundImage: "/assets/hero/kashmir-5n6d-hero.webp",
-            "meta": {
-          "duration": "6 дн.",
-          "locations": 4,
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "6 дн.",
+            "locations": 4,
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Кашмир 5н/6д",
@@ -6897,12 +6900,12 @@ export const ru = {
           subtitle:
             "Испытайте безмятежную красоту Кералы в этом путешествии на 5 ночей и 6 дней через Кочин, Муннар, Теккади и Аллеппи.",
           backgroundImage: "/assets/hero/Kerala-hero.webp",
-            "meta": {
-          "duration": "6 дн.",
-          "locations": 4,
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "6 дн.",
+            "locations": 4,
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Кералу 5н/6д | Global Tourist Centre",
@@ -7054,8 +7057,8 @@ export const ru = {
           subtitle:
             "Познакомьтесь с величественными пейзажами и богатой культурой Ладакха в этом 7-дневном путешествии по Гималаям.",
           backgroundImage: "/assets/hero/ladakh-hero.webp",
-            "meta": {}
-          },
+          "meta": {}
+        },
         language: "ru",
         "metadata": {
           "title": "7д/6н тур в Ладакх из Гоа от Global Tourist Centre",
@@ -7211,11 +7214,11 @@ export const ru = {
           subtitle:
             "Откройте для себя первозданную красоту коралловых островов Индии с нашим пакетом услуг на 3 ночи и 4 дня.",
           backgroundImage: "/assets/hero/Lakshadweep-hero.webp",
-            "meta": {
-          "duration": "3 Nights / 4 дн.",
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "3 Nights / 4 дн.",
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет на Лакшадвип 3н/4д | Global Tourist Centre",
@@ -7350,12 +7353,12 @@ export const ru = {
           subtitle:
             "Духовное путешествие на 2 ночи и 3 дня к месту рождения Господа Кришны с экскурсиями и культурными впечатлениями.",
           backgroundImage: "/assets/hero/Mathura-Vrindavan-hero.webp",
-            "meta": {
-          "duration": "3 дн.",
-          "rating": "4.8/5 Rating",
-          "description": "Book a 3D/2N Mathura Tour Package covering Vrindavan, Govardhan & top Krishna temples. Includes transfers, sightseeing & hotel stay. Perfect spiritual getaway."
-        }
-          },
+          "meta": {
+            "duration": "3 дн.",
+            "rating": "4.8/5 Rating",
+            "description": "Book a 3D/2N Mathura Tour Package covering Vrindavan, Govardhan & top Krishna temples. Includes transfers, sightseeing & hotel stay. Perfect spiritual getaway."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур в Матхуру и Вриндаван (2 ночи – 3 дня)",
@@ -7484,11 +7487,11 @@ export const ru = {
           subtitle:
             "Откройте для себя Восточную Шотландию с живыми корневыми мостами, кристально чистыми реками и сафари по дикой природе.",
           backgroundImage: "/assets/hero/Meghalaya-hero.webp",
-            "meta": {
-          "duration": "7 дн.",
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "7 дн.",
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Мегхалаю 6н7д | Шотландия Востока",
@@ -7644,11 +7647,11 @@ export const ru = {
           title: "Культурное путешествие по Северной Индии",
           subtitle: "",
           backgroundImage: "/assets/hero/North-india-hero.webp",
-            "meta": {
-          "duration": "10 дн.",
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "10 дн.",
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет 10 дней по Северной Индии | Global Tourist Centre",
@@ -7825,11 +7828,11 @@ export const ru = {
           subtitle:
             "Откройте для себя величественные форты, дворцы и культуру Раджастана за 7 дней.",
           backgroundImage: "/assets/hero/Rajasthan-hero.webp",
-            "meta": {
-          "duration": "7 дн.",
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "7 дн.",
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Раджастхан – Королевский опыт 7 дней | Global Tourist Centre",
@@ -7984,12 +7987,12 @@ export const ru = {
           title: "2-дневное приключение-сафари из Гоа в Шимогу",
           subtitle: "",
           backgroundImage: "/assets/hero/Shimoga-hero.webp",
-            "meta": {
-          "duration": "1 Night / 2 дн.",
-          "locations": 5,
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "1 Night / 2 дн.",
+            "locations": 5,
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Шимогу из Гоа – побег на природу 1н/2д | Global Tourist Centre",
@@ -8174,11 +8177,11 @@ export const ru = {
           subtitle:
             "Откройте для себя страну монастырей, ледниковых озер и захватывающих дух горных перевалов.",
           backgroundImage: "/assets/hero/Sikkim-hero.webp",
-            "meta": {
-          "duration": "7 дн.",
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "7 дн.",
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур в Сикким из Гоа – 6 ночей и 7 дней | Global Tourist Centre",
@@ -8336,12 +8339,12 @@ export const ru = {
           subtitle:
             "Познакомьтесь с богатым наследием, храмами и природной красотой Тамил Наду в этом 7-дневном исследовании.",
           backgroundImage: "/assets/hero/tamil-nadu-hero.webp",
-            "meta": {
-          "duration": "7 дн.",
-          "locations": 15,
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "7 дн.",
+            "locations": 15,
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "7-дневный тур в Тамилнад | Global Tourist Centre",
@@ -8500,12 +8503,12 @@ export const ru = {
           subtitle:
             "Духовное путешествие в древний город Варанаси с Сарнатхом, Ганга Аарти, экскурсиями по храмам и поездкой на лодке по Ганге.",
           backgroundImage: "/assets/hero/Varanasi-hero.webp",
-            "meta": {
-          "duration": "2 Nights / 3 дн.",
-          "description": "Explore Kashi Vishwanath, Sarnath, sunrise Ganga boat ride & Ganga Aarti with our 3D/2N Varanasi tour package. Includes hotel stay, transfers & sightseeing.",
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "2 Nights / 3 дн.",
+            "description": "Explore Kashi Vishwanath, Sarnath, sunrise Ganga boat ride & Ganga Aarti with our 3D/2N Varanasi tour package. Includes hotel stay, transfers & sightseeing.",
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур в Варанаси (2 ночи - 3 дня)",
@@ -8720,11 +8723,11 @@ export const ru = {
           subtitle:
             "Испытайте бурную ночную жизнь, красивые острова и культурные чудеса Таиланда.",
           backgroundImage: "/assets/hero/Bangkok3-hero.webp",
-            "meta": {
-          "duration": "4 дн.",
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "4 дн.",
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет 3н/4д Бангкок и Паттайя со скидкой 30% только из Гоа",
@@ -8860,11 +8863,11 @@ export const ru = {
           subtitle:
             "Познакомьтесь с яркими городами и тропическими пляжами Таиланда за 5 захватывающих дней.",
           backgroundImage: "/assets/hero/Bangkok-hero.webp",
-            "meta": {
-          "duration": "4 Nights / 5 дн.",
-          "rating": "4.6/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "4 Nights / 5 дн.",
+            "rating": "4.6/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Забронируйте тур 4н/5д в Бангкок и Паттайю со скидкой 30% только из Гоа",
@@ -9005,11 +9008,11 @@ export const ru = {
           subtitle:
             "Познакомьтесь с яркими городами, потрясающим горизонтом и культурными чудесами Гонконга и Макао.",
           backgroundImage: "/assets/hero/HongKong-hero.webp",
-            "meta": {
-          "duration": "6 дн.",
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "6 дн.",
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Тур в Гонконг 5н/6д – скидка 30% только для жителей Гоа",
@@ -9157,11 +9160,11 @@ export const ru = {
           subtitle:
             "Откройте для себя страну Громового Дракона – монастыри, крепости и захватывающие дух пейзажи.",
           backgroundImage: "/assets/hero/Bhutan-hero.webp",
-            "meta": {
-          "duration": "8 дн.",
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "8 дн.",
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет 7н/8д в Бутан | Приключение в Гималайском королевстве",
@@ -9326,11 +9329,11 @@ export const ru = {
           subtitle:
             "Исследуйте Ханой, Ниньбинь, залив Халонг, Дананг, Хойан и Хошимин с помощью круизов, туров и трансферов.",
           backgroundImage: "/assets/hero/Vietnam-7n-hero.webp",
-            "meta": {
-          "duration": "8 дн.",
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "8 дн.",
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет во Вьетнам 7н/8д со скидкой 30% только из Гоа",
@@ -9494,11 +9497,11 @@ export const ru = {
           subtitle:
             "Откройте для себя лучшее из Таиланда: Бангкок, Паттайю, Краби и Пхукет в одном незабываемом путешествии.",
           backgroundImage: "/assets/hero/Thailand-hero.webp",
-            "meta": {
-          "duration": "8 дн.",
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "8 дн.",
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Забронируйте турпакет 7н/8д в Таиланд со скидкой 30% только из Гоа",
@@ -9672,11 +9675,11 @@ export const ru = {
           subtitle:
             "Исследуйте Стамбул, Каппадокию, Анталию и Памуккале с помощью рейсов, отелей, туров и частных трансферов.",
           backgroundImage: "/assets/hero/Turkey-hero.webp",
-            "meta": {
-          "duration": "9 дн.",
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "9 дн.",
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Турцию 8н/9д со скидкой 30% только из Гоа",
@@ -9847,11 +9850,11 @@ export const ru = {
           subtitle:
             "Откройте для себя идеальное сочетание древней истории и современной архитектуры в оживленной столице Азербайджана.",
           backgroundImage: "/assets/hero/Baku-hero.webp",
-            "meta": {
-          "duration": "7 дн.",
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "7 дн.",
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Баку 6н/7д – скидка 30% только для жителей Гоа",
@@ -10021,11 +10024,11 @@ export const ru = {
           subtitle:
             "Откройте для себя Остров Богов с потрясающими пляжами, культурными чудесами и приключенческими мероприятиями.",
           backgroundImage: "/assets/hero/Bali-hero.webp",
-            "meta": {
-          "duration": "5 дн.",
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "5 дн.",
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Люкс-тур на Бали 4н/5д – скидка 30% для жителей Гоа | Global Tourist Centre",
@@ -10168,11 +10171,11 @@ export const ru = {
           subtitle:
             "Откройте для себя древние храмы, пышные пейзажи и богатое культурное наследие двух невероятных стран Юго-Восточной Азии.",
           backgroundImage: "/assets/hero/Cambodia-hero.webp",
-            "meta": {
-          "duration": "9 дн.",
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "9 дн.",
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Камбоджу 8н/9д из Индии | Эксклюзивное путешествие",
@@ -10346,10 +10349,10 @@ export const ru = {
           subtitle:
             "5 ночей 6 дней, посвященных изучению знаковых достопримечательностей Дубая, со скидкой 30% по специальному предложению",
           backgroundImage: "/assets/hero/dubai-hero.webp",
-            "meta": {
-          "duration": "6 дн."
-        }
-          },
+          "meta": {
+            "duration": "6 дн."
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Забронируйте турпакет в Дубай со скидкой 30% только из Гоа",
@@ -10501,11 +10504,11 @@ export const ru = {
           subtitle:
             "Откройте для себя древние церкви, винную страну, горные пейзажи и теплое гостеприимство Кавказа.",
           backgroundImage: "/assets/hero/Georgia-hero.webp",
-            "meta": {
-          "duration": "8 дн.",
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "8 дн.",
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Грузию из Индии – Откройте магию Кавказа с Global Tourist Centre",
@@ -10668,11 +10671,11 @@ export const ru = {
           subtitle:
             "Испытайте идеальное сочетание традиционной культуры и современных инноваций в Токио, Осаке, Киото и за его пределами.",
           backgroundImage: "/assets/hero/Japan-hero.webp",
-            "meta": {
-          "duration": "8 дн.",
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "8 дн.",
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Люкс-турпакет 7н/8д в Японию – скидка 30% только для Гоа",
@@ -10835,11 +10838,11 @@ export const ru = {
           subtitle:
             "Откройте для себя город тысячи цветов с горными приключениями, культурным опытом и современным очарованием.",
           backgroundImage: "/assets/hero/Almaty-hero.webp",
-            "meta": {
-          "duration": "5 дн.",
-          "rating": "4.6/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "5 дн.",
+            "rating": "4.6/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Казахстан 4н/5д – скидка 30% для жителей Гоа | Global Tourist Centre",
@@ -10984,11 +10987,11 @@ export const ru = {
           subtitle:
             "Откройте для себя Гималайское королевство с нашей эксклюзивной скидкой 30 % из Гоа.",
           backgroundImage: "/assets/hero/Nepal-6N-hero.webp",
-            "meta": {
-          "duration": "7 дн.",
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "7 дн.",
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Непал 6н/7д со скидкой 30% только из Гоа",
@@ -11148,11 +11151,11 @@ export const ru = {
           subtitle:
             "Духовное путешествие по Гималаям с древними храмами и захватывающими дух пейзажами.",
           backgroundImage: "/assets/hero/Muktinath-hero.webp",
-            "meta": {
-          "duration": "7 дн.",
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "7 дн.",
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Непал 6н/7д со скидкой 30% только из Гоа",
@@ -11307,11 +11310,11 @@ export const ru = {
           subtitle:
             "Откройте для себя тропический рай Таиланда с нашей эксклюзивной скидкой 30 % из Гоа.",
           backgroundImage: "/assets/hero/Phuket-hero.webp",
-            "meta": {
-          "duration": "5 дн.",
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "5 дн.",
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет 4н/5д Пхукет и Краби со скидкой 30% из Гоа",
@@ -11457,11 +11460,11 @@ export const ru = {
           subtitle:
             "Откройте для себя лучшее из Сингапура и Куала-Лумпура в одной незабываемой поездке.",
           backgroundImage: "/assets/hero/Singapore-hero.webp",
-            "meta": {
-          "duration": "7 дн.",
-          "rating": "4.8/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "7 дн.",
+            "rating": "4.8/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет Сингапур и Малайзия 6н/7д",
@@ -11629,11 +11632,11 @@ export const ru = {
           subtitle:
             "Откройте для себя жемчужину Индийского океана с чудесами культуры, приключениями в дикой природе и нетронутыми пляжами.",
           backgroundImage: "/assets/hero/SriLanka-hero.webp",
-            "meta": {
-          "duration": "8 дн.",
-          "rating": "4.6/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "8 дн.",
+            "rating": "4.6/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Люкс-тур 7н/8д в Шри-Ланку – скидка 30% для жителей Гоа",
@@ -11798,11 +11801,11 @@ export const ru = {
           subtitle:
             "От сказочных дымоходов Каппадокии до исторических чудес Стамбула.",
           backgroundImage: "/assets/hero/Turkey2-hero.webp",
-            "meta": {
-          "duration": "6 дн.",
-          "rating": "4.9/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "6 дн.",
+            "rating": "4.9/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Турпакет в Турцию 5н/6д со скидкой 30% только из Гоа",
@@ -11951,11 +11954,11 @@ export const ru = {
           subtitle:
             "5 ночей и 6 дней знакомства с Ханоем, заливом Халонг, Данангом и Хойаном с экскурсиями и культурным опытом",
           backgroundImage: "/assets/hero/Vietnam-hero.webp",
-            "meta": {
-          "duration": "6 дн.",
-          "rating": "4.7/5 Rating"
-        }
-          },
+          "meta": {
+            "duration": "6 дн.",
+            "rating": "4.7/5 Rating"
+          }
+        },
         language: "ru",
         "metadata": {
           "title": "Культурный и живописный Вьетнам",

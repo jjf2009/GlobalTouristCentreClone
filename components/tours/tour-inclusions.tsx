@@ -7,12 +7,12 @@ type InclusionItem = {
 };
 
 interface TourInclusionsProps {
-  items: InclusionItem[];
+  items: readonly InclusionItem[];
 }
 
 
 
-export  function TourInclusions({
+export function TourInclusions({
   items
 }: TourInclusionsProps) {
   const { t } = useI18n();
@@ -30,7 +30,6 @@ export  function TourInclusions({
           </p>
         </div>
 
-        {/* GRID - Auto-fit layout that adapts to content */}
         {/* GRID - Auto-fit layout that adapts to content */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 auto-rows-fr">
           {items.map((item, idx) => {

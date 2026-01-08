@@ -7,7 +7,7 @@ import { metaData } from "@/lib/data/metaData";
 
 import { DetailedTourHero } from "@/components/tours/detailed-tour-hero";
 import { TourCtaBar } from "@/components/tours/tour-cta-bar";
-import { TourQuickInfo } from "@/components/tours/ tour-quick-info";
+import { TourQuickInfo } from "@/components/tours/tour-quick-info";
 import  TourItinerary  from "@/components/tours/tour-itinerary";
 import { TourVisualJourney } from "@/components/tours/tour-visual-journey";
 import { TourInclusions } from "@/components/tours/tour-inclusions";
@@ -48,9 +48,9 @@ export default function TourClient({ tourId }: TourClientProps) {
           HERO
       ======================================================= */}
       <DetailedTourHero
-        title={page.hero.herotitle ?? page.hero.title}
-        subtitle={page.hero.subtitle}
-        backgroundImage={page.hero.backgroundImage}
+        title={page.hero?.herotitle ?? page.hero.title}
+        subtitle={page.hero?.subtitle}
+        backgroundImage={page.hero?.backgroundImage}
         meta={meta}
       />
 
@@ -84,11 +84,7 @@ export default function TourClient({ tourId }: TourClientProps) {
       ======================================================= */}
       {inclusions?.length > 0 && (
         <TourInclusions
-          subtitle={
-            t.tours?.inclusionsSubtitle ??
-            "Everything included for a smooth and memorable experience"
-          }
-          items={inclusions}
+items={inclusions}
         />
       )}
     </main>

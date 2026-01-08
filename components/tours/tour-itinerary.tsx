@@ -10,7 +10,7 @@ type ItineraryItem = {
 };
 
 interface TourItineraryProps {
-  items: ItineraryItem[];
+  items: readonly ItineraryItem[];
 }
 
 export default function TourItinerary({ items }: TourItineraryProps) {
@@ -58,10 +58,9 @@ export default function TourItinerary({ items }: TourItineraryProps) {
                     className={`
                       bg-white rounded-2xl p-6 w-full
                       transition-all duration-300
-                      ${
-                        item.highlight
-                          ? "shadow-lg shadow-emerald-100 border-2 border-emerald-200"
-                          : isExpanded
+                      ${item.highlight
+                        ? "shadow-lg shadow-emerald-100 border-2 border-emerald-200"
+                        : isExpanded
                           ? "shadow-lg shadow-slate-200 border-2 border-emerald-100"
                           : "shadow-sm border border-slate-100 hover:shadow-md"
                       }
@@ -75,10 +74,9 @@ export default function TourItinerary({ items }: TourItineraryProps) {
                           inline-flex items-center gap-2
                           px-3 py-1.5 rounded-full text-xs font-semibold
                           transition-colors duration-300
-                          ${
-                            item.highlight
-                              ? "bg-emerald-600 text-white"
-                              : "bg-slate-100 text-slate-700 group-hover:bg-emerald-50 group-hover:text-emerald-700"
+                          ${item.highlight
+                            ? "bg-emerald-600 text-white"
+                            : "bg-slate-100 text-slate-700 group-hover:bg-emerald-50 group-hover:text-emerald-700"
                           }
                         `}
                       >

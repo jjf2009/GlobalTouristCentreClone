@@ -3,12 +3,18 @@ import { getTranslations } from "@/lib/i18n/getTranslations";
 import { LOCALES } from "@/lib/data/tour-slugs";
 import CustomizeTripPackagePage from "./customizedtripclient";
 
+
+/* ================================
+   Static Params (required for SSG)
+================================ */
 type PageProps = {
   params: {
     locale: string;
   };
 };
-
+/* ================================
+   SEO Metadata
+================================ */
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
 }
@@ -20,16 +26,26 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const title = t.servicePages.customizeTripPackage.heroTitle;
   const description = t.servicePages.customizeTripPackage.aboutDesc;
 
+    /** 2️⃣ Page hero image (ABSOLUTE URL preferred) */ 
+  const image = "/assets/services/custom-tour-about.webp";
+
+  /** 3️⃣ Canonical URL */
+  const canonical = `https://globaltouristcentre.com/${locale}/customized-trip-package`;
+
+
   return {
-    title,
+    title,  
     description,
+    alternates: {
+      canonical,
+    },
     openGraph: {
       title,
       description,
       type: "article",
       images: [
         {
-          url: "/assets/hero/custom-tour-hero.webp",
+          url: image,
           width: 1200,
           height: 630,
           alt: title,
@@ -40,7 +56,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
       card: "summary_large_image",
       title,
       description,
-      images: ["/assets/hero/custom-tour-hero.webp"],
+      images: [image],
     },
   };
 }

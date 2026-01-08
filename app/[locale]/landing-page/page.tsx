@@ -1,76 +1,70 @@
 import type React from "react"
 import { OfferBanner } from "@/components/offer-banner"
-
+import { getTranslations } from "@/lib/i18n/getTranslations";
 import Testimonials from "./Testimonials"
 import Memories from "./Memories"
 import Services from "./Services"
 import CuratedTravel from "./CuratedTravel"
 import Signature from "./Signature"
 import Hero from "./Hero"
-
 import type { Metadata } from "next";
+import { LOCALES } from "@/lib/data/tour-slugs";
 
-export const generateMetadata = ({
-  params,
-}: {
-  params: { locale: string };
-}): Metadata => {
+/* ------------------------------------------------------------------ */
+/* TYPES */
+/* ------------------------------------------------------------------ */
+type PageProps = {
+  params: {
+    locale: string;
+  };
+};
+
+export function generateStaticParams() {
+  return LOCALES.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const locale = params.locale || "en";
+  const t = getTranslations(locale);
 
-  const baseUrl = "https://globaltouristcentreclone.vercel.app";
+  const image ="/assets/luxury-travel-destination-mountains-sunset.jpg";
+  const canonical = `https://globaltouristcentre.com/${locale}/landing-page`;
+
+  const meta = t.metadata.landingPage;
 
   return {
-    title:
-      "Luxury Goa Tour Packages with Free Airport Pickup | Global Tourist Centre",
-
-    description:
-      "Discover luxury Goa tour packages with free airport pickup. Trusted travel experts since 2010 offering curated journeys, UNESCO tours, and premium experiences.",
-
+    title: meta.title,
+    description: meta.description,
     alternates: {
-      canonical: `${baseUrl}/${locale}/landing-page`,
-      languages: {
-        "en-IN": `${baseUrl}/en/landing-page`,
-        "ru-RU": `${baseUrl}/ru/landing-page`,
-        "de-DE": `${baseUrl}/de/landing-page`,
-        "fr-FR": `${baseUrl}/fr/landing-page`,
-        "it-IT": `${baseUrl}/it/landing-page`,
-      },
+      canonical,
     },
-
     openGraph: {
-      title: "Luxury Goa Tours with Free Airport Transfer",
-      description:
-        "Luxury tours in Goa with curated experiences and free airport pickup. Trusted travel partner since 2010.",
-      url: `${baseUrl}/${locale}/landing-page`,
-      siteName: "Global Tourist Centre",
-      images: [
+      title: meta.title,
+      description: meta.description,
+      images: [image],
+      siteName: t.metadata.brandname,
+      type: "website",
+      url: canonical,
+    },
+    twitter: {
+      title: meta.title,
+      description: meta.description,
+      card: "summary_large_image",
+      images: [ 
         {
-          url: `${baseUrl}/og/luxury-goa-tour.jpg`,
+          url: image,
           width: 1200,
           height: 630,
-          alt: "Luxury Goa tour with free airport pickup",
+          alt: meta.title,
         },
       ],
-      locale: locale,
-      type: "website",
-    },
-
-    twitter: {
-      card: "summary_large_image",
-      title: "Luxury Goa Tours with Free Airport Pickup",
-      description:
-        "Handcrafted luxury journeys, premium services, and trusted travel expertise since 2010.",
-      images: [`${baseUrl}/og/luxury-goa-tour.jpg`],
     },
     robots: {
       index: true,
       follow: true,
     },
   };
-};
-
-
-
+}
 
 
 export default function LandingPage() {

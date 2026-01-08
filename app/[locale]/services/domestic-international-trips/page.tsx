@@ -3,22 +3,39 @@ import { getTranslations } from "@/lib/i18n/getTranslations";
 import { LOCALES } from "@/lib/data/tour-slugs";
 import DomesticInternationalTripsPage from "./domesticleint";
 
+/* ================================
+   Types
+================================ */
 type PageProps = {
   params: {
     locale: string;
   };
 };
 
+/* ================================
+   Static Params (required for SSG)
+================================ */
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
 }
 
+/* ================================
+   SEO Metadata (i18n-aware)
+================================ */
 export function generateMetadata({ params }: PageProps): Metadata {
   const { locale } = params;
   const t = getTranslations(locale);
 
-  const title = t.servicePages.domesticInternational.heroTitle;
-  const description = t.servicePages.domesticInternational.aboutDec;
+  const title = t.servicePages.domesticInternational.hero.title;
+  const description = t.servicePages.domesticInternational.about.description;
+
+
+  /** 2️⃣ Page hero image (ABSOLUTE URL preferred) */
+  const image = "/assets/hero/domestic-international-hero.webp";
+
+  /** 3️⃣ Canonical URL */
+  const canonical = `https://globaltouristcentre.com/${locale}/domestic-international-trips`;
+
 
   return {
     title,

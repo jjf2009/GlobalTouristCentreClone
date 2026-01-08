@@ -3,18 +3,12 @@ import DestinationsClient from "./DestinationsClient";
 import type { Metadata } from "next";
 import { getTranslations } from "@/lib/i18n/getTranslations";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { locale: string };
-}): Promise<Metadata> {
-  const t = getTranslations(params.locale);
-
-  return {
-    title: t.metadata?.destinations?.title || t.destinations.herotitle,
-    description: t.metadata?.destinations?.description || "Discover handpicked domestic and international destinations with Global Tourist Centre.",
+type PageProps = {
+  params: {
+    locale: string;
   };
-}
+};
+
 /* ---------- STATIC PARAMS (REQUIRED FOR EXPORT) ---------- */
 export async function generateStaticParams() {
   const params: { locale: string }[] = [];
@@ -26,6 +20,50 @@ export async function generateStaticParams() {
   }
 
   return params;
+}
+
+
+export async function generateMetadata({params}: PageProps): Promise<Metadata> {
+  const locale = params.locale || "en";
+  const t = getTranslations(locale);
+
+  const image ="/assets/hero/Destinations-hero.webp";
+  const canonical = `https://globaltouristcentre.com/${locale}/destinations`;
+
+  const meta = t.metadata.destinations;
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      images: [image],
+      siteName: t.metadata.brandname,
+      type: "website",
+      url: canonical,
+    },
+    twitter: {
+      title: meta.title,
+      description: meta.description,
+      card: "summary_large_image",
+      images: [ 
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
 }
 
 /* ---------- SERVER COMPONENT ---------- */

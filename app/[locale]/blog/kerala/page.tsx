@@ -25,17 +25,22 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
   const title = t.blogKerala.heroTitle;
   const description = t.blogKerala.introParagraph;
+  const image = "/assets/hero/Kerala-hero.webp";
+  const canonical = `https://globaltouristcentre.com/${locale}/blog/kerala`;
 
   return {
     title,
     description,
+    alternates: {
+      canonical,
+    },
     openGraph: {
       title,
       description,
       type: "article",
       images: [
         {
-          url: "/assets/hero/Kerala-hero.webp",
+          url: image,
           width: 1200,
           height: 630,
           alt: title,
@@ -46,7 +51,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
       card: "summary_large_image",
       title,
       description,
-      images: ["/assets/hero/Kerala-hero.webp"],
+      images: [image],
     },
   };
 }

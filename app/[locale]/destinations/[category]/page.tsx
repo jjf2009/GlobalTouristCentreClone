@@ -89,23 +89,56 @@ function getHeroContent(
 /* ------------------------------------------------------------------ */
 /* SEO METADATA (i18n-aware, slug-based) */
 /* ------------------------------------------------------------------ */
-export function generateMetadata({ params }: PageProps): Metadata {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, category } = params;
   const t = getTranslations(locale);
 
   const content = getCategoryContent(category, t);
+  const data = getDestinationBySlug(category);
 
-  if (!content) {
+  if (!content || !data) {
     return {
       title: t.common?.notFoundTitle ?? "Destinations Not Found",
       description:
-        t.common?.notFoundDescription ??
-        "The requested destination category does not exist.",
+        t.common?.notFoundDescription ?? "The requested destination category does not exist.",
     };
   }
 
+  const image = `/assets/hero/${data.heroImageQuery}`;
+  const canonical = `https://globaltouristcentre.com/${locale}/destinations/${category}`;
+
+
   return {
-    title: content.heroTitle,
+    title: `${content.heroTitle} |${t.metadata.brandname}`,
+    description: content.subtitle,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title: `${content.heroTitle} |${t.metadata.brandname}`,
+      description: content.subtitle,
+      images: [image],
+      siteName: t.metadata.brandname,
+      type: "website",
+      url: canonical,
+    },
+    twitter: {
+      title: `${content.heroTitle} |${t.metadata.brandname}`,
+      description: content.subtitle,
+      card: "summary_large_image",
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: content.heroTitle,
+        },
+      ],
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
 }
 

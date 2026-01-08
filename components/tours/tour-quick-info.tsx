@@ -23,7 +23,7 @@ type QuickInfoItem = {
 };
 
 interface TourQuickInfoProps {
-  items: QuickInfoItem[];
+  items: readonly QuickInfoItem[];
 }
 
 const ICONS = {
@@ -113,8 +113,7 @@ const TITLE_ICON_MAP: Record<string, React.ReactNode> = {
   Kayaking: ICONS.WATER,
 
   // ── NATURE / WILDLIFE ──────────────────
-  "Nature Activities": ICONS.NATURE,
-  Naturaktivitäten: ICONS.NATURE,
+  "Naturaktivitäten": ICONS.NATURE,
   "Nature Trek": ICONS.NATURE,
   "Jungle Safari": ICONS.NATURE,
   "Wildlife Safari": ICONS.NATURE,
@@ -297,7 +296,6 @@ const TITLE_ICON_MAP: Record<string, React.ReactNode> = {
   "Transport individuel": ICONS.TRANSPORT,
   Transport: ICONS.TRANSPORT,
   Transports: ICONS.TRANSPORT,
-  Transferts: ICONS.TRANSPORT,
 
   // ── REPAS ──────────────────────────────
   "Tous les repas": ICONS.MEALS,
@@ -311,7 +309,6 @@ const TITLE_ICON_MAP: Record<string, React.ReactNode> = {
   "Déjeuner inclus": ICONS.MEALS,
   "Dîner gastronomique": ICONS.MEALS,
   "Tous les repas": ICONS.MEALS,
-  "Repas compris": ICONS.MEALS,
 
   // ── HÔTEL / SÉJOUR ─────────────────────
   "Séjour à l’hôtel": ICONS.HOTEL,

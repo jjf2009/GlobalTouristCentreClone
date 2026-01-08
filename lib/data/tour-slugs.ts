@@ -38,7 +38,6 @@ export const TOUR_CATEGORIES = {
     "tamil-nadu-tour", //verified
     "exotic-kashmir-tour", // verified
     "sikkim-darjeeling-gangtok-tour", // verified
-    // "mystic-meghalaya-tour",
     "lakshadweep-islands", // verified
     "andaman-islands-tour", // verified
     // "wondrous-wilderness",
@@ -77,7 +76,7 @@ export const TOUR_CATEGORIES = {
     "cambodia-laos-discovery", // verified
     "georgia-caucasus-adventure", // verified
     "japan-luxury-experience", // verified
-    //  "mystic-meghalaya-tour", // temporarily removed (used in en.ts)
+    "meghalaya-tour", // temporarily removed (used in en.ts)
     "kazakhstan-almaty-explorer", // temporarily removed (used in destination.ts) // verified
     // "nepal-tour", // temporarily removed (used in en.ts) // verified
   ],

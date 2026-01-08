@@ -19,23 +19,28 @@ export function generateStaticParams() {
 /* ------------------------------------------------------------------ */
 /* SEO METADATA (i18n-aware) */
 /* ------------------------------------------------------------------ */
-export function generateMetadata({ params }: PageProps): Metadata {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = params;
   const t = getTranslations(locale);
 
   const title = t.blogAndaman.heroTitle;
   const description = t.blogAndaman.introParagraph;
+  const image = "/assets/hero/Andaman-hero.webp";
+  const canonical = `https://globaltouristcentre.com/${locale}/blog/andaman`;
 
   return {
     title,
     description,
+    alternates: {
+      canonical,
+    },
     openGraph: {
       title,
       description,
       type: "article",
       images: [
         {
-          url: "/assets/hero/Andaman-hero.webp",
+          url: image,
           width: 1200,
           height: 630,
           alt: title,
@@ -46,7 +51,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
       card: "summary_large_image",
       title,
       description,
-      images: ["/assets/hero/Andaman-hero.webp"],
+      images: [image],
     },
   };
 }

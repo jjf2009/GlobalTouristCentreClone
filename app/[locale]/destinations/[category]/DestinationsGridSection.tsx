@@ -104,8 +104,7 @@ export function DestinationsGridSection({ slug, items }: Props) {
           </div>
         ) : (
           <p className="text-muted-foreground text-sm">
-            {t.destinations.noResults ??
-              "No destinations available for this filter."}
+            {t.destinations.noResults ?? "No destinations available for this filter."}
           </p>
         )}
       </div>

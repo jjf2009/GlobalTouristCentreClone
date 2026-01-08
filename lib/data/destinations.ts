@@ -35,14 +35,14 @@ export const domesticTrips: Destination[] = [
     category: "domestic",
     zone: "east",
   },
-  // {
-  //   id: "dom-meghalaya-004",
-  //   slug: "mystic-meghalaya-tour",
-  //   rating: 4.7,
-  //   imageQuery: "/destinations/Thumbnails/Meghalaya.webp",
-  //   category: "domestic",
-  //   zone: "east",
-  // },
+  {
+    id: "dom-meghalaya-004",
+    slug: "meghalaya-tour",
+    rating: 4.7,
+    imageQuery: "/destinations/Thumbnails/Meghalaya.webp",
+    category: "domestic",
+    zone: "east",
+  },
   {
     id: "dom-north-heritage-005",
     slug: "north-india-heritage-tour",
