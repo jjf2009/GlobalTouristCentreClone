@@ -12,7 +12,7 @@ export const metaData: Record<string, any> = {
       rating: "4.8/5 Rating",
     },
   },
-  "north-goa-full-day-tour": {
+  "north-goa-day-excursion": {
     meta: {
       duration: "Full Day",
       rating: "4.8/5 Rating",
@@ -96,7 +96,7 @@ export const metaData: Record<string, any> = {
       rating: "4.7/5 Rating",
     },
   },
-  "dandeli-elephant-safari-day-trip": {
+  "dandeli-day-excursion": {
     meta: {
       duration: "1 Day",
       locations: 4,
@@ -121,7 +121,7 @@ export const metaData: Record<string, any> = {
       duration: "6 Days",
     },
   },
-  "dudhsagar-waterfall-spice-plantation": {
+  "dudhsagar-waterfal-excursion": {
     meta: {
       duration: "1 Day",
       locations: 3,
@@ -134,7 +134,7 @@ export const metaData: Record<string, any> = {
       rating: "4.8/5 Rating",
     },
   },
-  "gokarna-murdeshwar-day-trip": {
+  "gokarna-murdeshwar-day-excursion": {
     meta: {
       duration: "1 Day",
       locations: 5,
@@ -186,20 +186,20 @@ export const metaData: Record<string, any> = {
       rating: "4.6/5 Rating",
     },
   },
-  "mumbai-one-day-tour-from-goa": {
+  "mumbai-one-day-excursion": {
     meta: {
       duration: "Full Day",
       rating: "4.7/5 Rating",
     },
   },
-  "netravali-wildlife-day-trip": {
+  "netravali-wildlife-day-excursion": {
     meta: {
       duration: "1 Day",
       locations: 5,
       rating: "4.7/5 Rating",
     },
   },
-  "south-goa-full-day-tour": {
+  "south-goa-day-exursion": {
     meta: {
       duration: "Full Day (8:00 AM – 5:30 PM)",
     },

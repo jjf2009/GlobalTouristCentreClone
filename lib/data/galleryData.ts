@@ -86,7 +86,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "north-goa-full-day-tour": {
+  "north-goa-day-excursion": {
     gallery: [
       {
         title: "Calangute Beach",
@@ -502,7 +502,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "dandeli-elephant-safari-day-trip": {
+  "dandeli-day-excursion": {
     gallery: [
       {
         title: "Dandeli Forests",
@@ -618,7 +618,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "dudhsagar-waterfall-spice-plantation": {
+  "dudhsagar-waterfal-excursion": {
     gallery: [
       {
         title: "Dudhsagar Falls",
@@ -671,7 +671,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "gokarna-murdeshwar-day-trip": {
+  "gokarna-murdeshwar-day-excursion": {
     gallery: [
       {
         title: "Gokarna Beaches",
@@ -927,7 +927,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "mumbai-one-day-tour-from-goa": {
+  "mumbai-one-day-excursion": {
     gallery: [
       {
         title: "Gateway of India",
@@ -956,7 +956,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "netravali-wildlife-day-trip": {
+  "netravali-wildlife-day-excursion": {
     gallery: [
       {
         title: "Netravali Waterfalls",
@@ -985,7 +985,7 @@ export const galleryData: Record<string, any> = {
       },
     ],
   },
-  "south-goa-full-day-tour": {
+  "south-goa-day-exursion": {
     gallery: [
       {
         title: "Old Goa Churches",

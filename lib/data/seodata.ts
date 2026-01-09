@@ -9,7 +9,7 @@ export const seoData = {
     duration: "3D/2N",
     category_match: true,
   },
-  "mumbai-one-day-tour-from-goa": {
+  "mumbai-one-day-excursion": {
     google_drive_link:
       "https://drive.google.com/file/d/1Jr-hAY-49RWzG8XIvctR2A3mRQLa1O71/view?usp=drive_link",
     actual_url:
@@ -21,7 +21,7 @@ export const seoData = {
     duration: "1 Day",
     category_match: true,
   },
-  "dandeli-elephant-safari-day-trip": {
+  "dandeli-day-excursion": {
     google_drive_link:
       "https://drive.google.com/file/d/1l2FvgLkPk6Bb5MaUIu8IM4c-ygN-V7cl/view?usp=drive_link",
     actual_url:
@@ -33,11 +33,11 @@ export const seoData = {
     duration: "2D/1N",
     category_match: true,
   },
-  "north-goa-full-day-tour": {
+  "north-goa-day-excursion": {
     google_drive_link:
       "https://drive.google.com/file/d/1EmKQMhsiVRNsnfZGz78VpIXf2d4pzZML/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/north-goa-full-day-tour",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/north-goa-day-excursion",
     title: "North Goa day Tour Package – Beaches, Forts & Churches",
     meta_description:
       "Book a North Goa tour package covering Calangute, Baga, Anjuna, Aguada Fort, churches & flea markets with breakfast, transport & guide included.",
@@ -45,11 +45,11 @@ export const seoData = {
     duration: "1 Day",
     category_match: true,
   },
-  "south-goa-full-day-tour": {
+  "south-goa-day-exursion": {
     google_drive_link:
       "https://drive.google.com/file/d/1BMm-PzyKjRjKuqQRdQ9PI8SXAKd6NY8B/view?usp=drive_link",
     actual_url:
-      "https://globaltouristcentre.com/en/destinations/domestic-trips/south-goa-full-day-tour",
+      "https://globaltouristcentre.com/en/destinations/domestic-trips/south-goa-day-exursion",
     title: "South Goa Full Day Tour Package – Cultural Sightseeing Trip",
     meta_description:
       "Book the South Goa Full Day Tour Package with temples, Old Goa churches, Miramar Beach, Dona Paula viewpoint & Panjim market. Includes guide, transport & breakfast.",

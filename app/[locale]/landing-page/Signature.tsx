@@ -28,7 +28,7 @@ const Signature = () => {
         id: "all-goa",
         imageUrl: "/assets/destinations/Thumbnails/Goa3.webp",
         price: "$70",
-        link: `/${locale}/destinations/day-trips/south-goa-full-day-tour`,
+        link: `/${locale}/destinations/day-trips/south-goa-day-exursion`,
         popular: false,
       },
       {
@@ -42,7 +42,7 @@ const Signature = () => {
         id: "mumbai",
         imageUrl: "/assets/destinations/Thumbnails/mumbai.webp",
         price: "$360",
-        link: `/${locale}/destinations/day-trips/mumbai-one-day-tour-from-goa`,
+        link: `/${locale}/destinations/day-trips/mumbai-one-day-excursion`,
         popular: true,
       },
       {

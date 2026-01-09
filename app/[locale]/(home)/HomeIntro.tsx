@@ -22,18 +22,18 @@ const travelCollections: TravelCollection[] = [
   /* ================= DAY TRIPS ================= */
 
   {
-    id: "south-goa-full-day-tour",
-    href: "/destinations/day-trips/south-goa-full-day-tour", // matches day-south-goa-cultural-007.slug
+    id: "south-goa-day-exursion",
+    href: "/destinations/day-trips/south-goa-day-exursion", // matches day-south-goa-cultural-007.slug
     imageUrl: "/assets/destinations/Goa/basilica-bom-jesus.webp",
   },
   {
-    id: "north-goa-full-day-tour",
-    href: "/destinations/day-trips/north-goa-full-day-tour", // matches day-north-goa-009.slug
+    id: "north-goa-day-excursion",
+    href: "/destinations/day-trips/north-goa-day-excursion", // matches day-north-goa-009.slug
     imageUrl: "/assets/destinations/Thumbnails/NorthGoa.webp",
   },
   {
-    id: "dudhsagar-waterfall-spice-plantation",
-    href: "/destinations/day-trips/dudhsagar-waterfall-spice-plantation", // matches day-dudhsagar-spice-010.slug
+    id: "dudhsagar-waterfal-excursion",
+    href: "/destinations/day-trips/dudhsagar-waterfal-excursion", // matches day-dudhsagar-spice-010.slug
     imageUrl: "/assets/destinations/Thumbnails/Dudhsagar.webp",
   },
   {
@@ -57,8 +57,8 @@ const travelCollections: TravelCollection[] = [
   //   imageUrl: "/assets/destinations/Thumbnails/GrandIsland.webp",
   // },
   {
-    id: "gokarna-murdeshwar-day-trip",
-    href: "/destinations/day-trips/gokarna-murdeshwar-day-trip", // matches day-gokarna-005.slug (updated from old -tour)
+    id: "gokarna-murdeshwar-day-excursion",
+    href: "/destinations/day-trips/gokarna-murdeshwar-day-excursion", // matches day-gokarna-005.slug (updated from old -tour)
     imageUrl: "/assets/destinations/Thumbnails/Gokarna.webp",
   },
   {
@@ -86,8 +86,8 @@ const travelCollections: TravelCollection[] = [
   //   imageUrl: "/assets/destinations/Thumbnails/Ooty.webp",
   // },
   {
-    id: "mumbai-one-day-tour-from-goa",
-    href: "/destinations/day-trips/mumbai-one-day-tour-from-goa", // matches dom-mumbai-021.slug
+    id: "mumbai-one-day-excursion",
+    href: "/destinations/day-trips/mumbai-one-day-excursion", // matches dom-mumbai-021.slug
     imageUrl: "/assets/destinations/Thumbnails/Mumbai.webp",
   },
   {

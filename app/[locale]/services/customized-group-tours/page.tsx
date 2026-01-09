@@ -25,8 +25,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const { locale } = params;
   const t = getTranslations(locale);
 
-  const title = t.servicePages.groupTrip.heroTitle;
-  const description = t.servicePages.groupTrip.aboutDesc;
+  const title = t.servicePages.groupTrip.metadata.title;
+  const description = t.servicePages.groupTrip.metadata.title;
 
     /** 2️⃣ Page hero image (ABSOLUTE URL preferred) */
   const image = "/assets/services/group-tour-about.webp";

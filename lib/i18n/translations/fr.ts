@@ -41,22 +41,22 @@ export const fr = {
       title: "Contactez Global Tourist Centre – Réservez Votre Forfait Voyage Personnalisé",
       description: "Contactez Global Tourist Centre — le partenaire de voyage de confiance de Goa Sud avec plus de 25 ans d’expertise. Appelez, envoyez un e-mail ou remplissez un formulaire pour commencer l’élaboration de votre circuit sur mesure.",
     },
-destinations: {
-  title: "Découvrez les plus belles destinations de l’Inde – Global Tourist Centre",
-  description: "Des escapades indiennes incontournables comme le Kerala, Goa, les Andaman, le Rajasthan, Sikkim-Darjeeling, Hampi et bien plus avec Global Tourist Centre."
-},
-    domestic: {
-      title: "Voyages Nationaux - Global Tourist Centre",
-      description: "Explorez la beauté diverse de l’Inde avec nos destinations nationales sélectionnées. Des backwaters du Kerala aux vallées du Cachemire.",
+    destinations: {
+      title: "Découvrez les plus belles destinations de l’Inde – Global Tourist Centre",
+      description: "Des escapades indiennes incontournables comme le Kerala, Goa, les Andaman, le Rajasthan, Sikkim-Darjeeling, Hampi et bien plus avec Global Tourist Centre."
     },
-    international: {
-      title: "Voyages Internationaux - Global Tourist Centre",
-      description: "Découvrez des destinations exotiques à travers le monde avec nos forfaits de voyages internationaux. Du Vietnam à la Turquie et au-delà.",
-    },
-    "day-trips": {
-      title: "Excursions d’une Journée - Global Tourist Centre",
-      description: "Des escapades courtes parfaites au départ des grandes villes. Explorez les attractions à proximité avec nos expériences d’excursions d’une journée soigneusement choisies.",
-    },
+  "domestic": {
+    "title": "Voyages domestiques en Inde | Meilleurs forfaits – Global Tourist Centre",
+    "description": "Découvrez les meilleurs voyages domestiques en Inde avec Global Tourist Centre. Forfaits soigneusement sélectionnés vers des destinations emblématiques comme Kerala, Cachemire ou Rajasthan — pour des aventures mémorables, des expériences culturelles et des escapades panoramiques."
+  },
+  "international": {
+    "title": "Voyages internationaux & Forfaits mondiaux | Explorez le monde – Global Tourist Centre",
+    "description": "Découvrez des voyages internationaux inoubliables avec Global Tourist Centre. Forfaits experts vers la Turquie, la Thaïlande, Singapour et d’autres destinations — parfaits pour des aventures culturelles, des escapades balnéaires, des city breaks et des expériences haut de gamme."
+  },
+  "day-trips": {
+    "title": "Excursions d'une journée – Meilleures visites pour voyageurs étrangers",
+    "description": "Découvrez les meilleures excursions d’une journée pour voyageurs internationaux — cascades, faune, plages, temples et culture. Réservez votre aventure idéale d’une journée!"
+  },
     services: {
       title: "Global Tourist Centre – Services : Visa, Hôtels & Forfaits Voyage",
       description: "Explorez des solutions de voyage sur mesure avec Global Tourist Centre — assistance visa, réservations d’hôtels et forfaits de circuits nationaux/internationaux à Goa Sud.",
@@ -92,19 +92,19 @@ destinations: {
     subtitle:
       "Partagez vos informations et nous créerons l’itinéraire parfait pour vous.",
     items: {
-      "south-goa-full-day-tour": {
+      "south-goa-day-exursion": {
         title: "Sud de Goa – Goa Culturel",
         duration: "1 jour",
         description:
           "Découvrez le riche patrimoine du sud de Goa avec les églises du Vieux Goa, la tour Saint-Augustin, les temples Shantadurga et Mangeshi, les plages de Miramar, Colva et Dona Paula, le marché de Panjim et une croisière-dîner sur la rivière Mandovi.",
       },
-      "north-goa-full-day-tour": {
+      "north-goa-day-excursion": {
         title: "Visite du Nord de Goa",
         duration: "1 jour",
         description:
           "Explorez le côté animé du nord de Goa avec les plages célèbres de Baga, Calangute et Anjuna, ainsi que des forts historiques, des marchés aux puces, une vie nocturne dynamique et des églises de l’époque portugaise.",
       },
-      "dudhsagar-waterfall-spice-plantation": {
+      "dudhsagar-waterfal-excursion": {
         title: "Cascade de Dudhsagar et Plantation d’Épices",
         duration: "1 jour",
         description:
@@ -140,7 +140,7 @@ destinations: {
         description:
           "Détendez-vous dans un complexe de luxe situé sur les falaises de Cabo de Rama, offrant des vues paisibles sur la mer et un hébergement haut de gamme.",
       },
-      "gokarna-murdeshwar-day-trip": {
+      "gokarna-murdeshwar-day-excursion": {
         title: "Gokarna et Murdeshwar",
         duration: "1 jour",
         description:
@@ -441,6 +441,10 @@ destinations: {
   },
   servicePages: {
     customizeTripPackage: {
+      metadata: {
+        title: "Voyages sur Mesure - Global Tourist Centre",
+        description: "Des circuits personnalisés conçus selon vos envies et préférences."
+      },
       heroTitle: "Forfaits Sur Mesure",
       aboutTitle: "Votre Voyage, À Votre Façon",
       aboutDesc:
@@ -503,6 +507,10 @@ destinations: {
         "Absolument. Notre service de planification d'itinéraire est gratuit lorsque vous réservez votre voyage avec nous. Notez cependant que pour les itinéraires complexes nécessitant des recherches importantes, des frais de planification nominaux peuvent s'appliquer, entièrement déductibles du montant final de votre réservation.",
     },
     visaAgent: {
+      metadata: {
+        title: "Service de Visa - Global Tourist Centre",
+        description: "Assistance professionnelle pour vos visas et documents de voyage."
+      },
       heroTitle: "Services de Visa et Documentation",
       aboutTitle: "Simplifiez Votre Processus de Visa",
       aboutDesc:
@@ -569,6 +577,10 @@ destinations: {
         "Cela dépend entièrement des règles du pays de destination. Certains pays autorisent la prolongation sur place si votre type de visa le permet. Nous vous conseillons de vérifier cela à l'avance.",
     },
     hotelBooking: {
+      metadata: {
+        title: "Réservation d'Hôtels - Global Tourist Centre",
+        description: "Réservez les meilleurs hôtels aux meilleurs prix avec GTC."
+      },
       heroTitle: "Réservations d'Hôtels",
       aboutTitle: "Trouvez Votre Séjour Parfait",
       aboutDesc:
@@ -629,6 +641,10 @@ destinations: {
         "Absolument. Par exemple, si votre voyage vous emmène de Mumbai au Sikkim puis aux Andaman, nous réserverons chaque hôtel pour les bonnes nuits tout au long de votre voyage. Pour rendre votre voyage fluide, nous sommes là si vous souhaitez modifier vos plans ou ajouter une étape plus tard.",
     },
     flightBooking: {
+      metadata: {
+        title: "Billets d'Avion - Global Tourist Centre",
+        description: "Vols nationaux et internationaux à prix compétitifs."
+      },
       heroTitle: "Réservations de Vols",
       aboutTitle: "Volez en Toute Facilité",
       aboutDesc:
@@ -694,6 +710,10 @@ destinations: {
         "En cas de retard ou d'annulation, nous sommes là pour vous aider. Vous pouvez nous contacter et nous vous guiderons sur la marche à suivre. Cela peut être une nouvelle réservation, obtenir de l'aide à l'aéroport ou prendre d'autres vols. Nous vous aidons à rester calme et à continuer d'avancer.",
     },
     groupTrip: {
+      metadata: {
+        title: "Voyages de Groupe - Global Tourist Centre",
+        description: "Rejoignez nos circuits de groupe pour des aventures inoubliables."
+      },
       heroTitle: "Tours de Groupe",
       aboutTitle: "Voyagez Ensemble, Économisez Ensemble",
       aboutDesc:
@@ -773,6 +793,10 @@ destinations: {
       submitting: "Envoi en cours...",
     },
     domesticInternational: {
+      metadata: {
+        title: "Circuits Nationaux et Internationaux - GTC",
+        description: "Explorez l'Inde et le monde avec nos forfaits exclusifs."
+      },
       hero: {
         title: "Forfaits de Voyages Nationaux et Internationaux",
       },
@@ -1044,6 +1068,10 @@ destinations: {
   },
   // Andaman Blog Detail Page
   blogAndaman: {
+    "metadata": {
+  "title": "Lieux Instagrammables aux Andaman pour des photos parfaites | Global Tourist Centre",
+  "description": "Découvrez les meilleurs spots Instagram aux Andaman — de la plage de Kalapathar aux ruines de Ross Island. Lieux parfaits pour photos, couchers de soleil et souvenirs sous-marins."
+},
     heroTitle:
       "Cliquez, Capturez et Détendez-vous : Les Lieux les Plus Instagrammables des Andaman",
     heroSubtitle: "Juillet 2025 • Photographie",
@@ -1148,6 +1176,10 @@ destinations: {
   },
   // Kerala Blog Detail Page
   blogKerala: {
+    "metadata": {
+  "title": "Forfaits Kerala depuis Goa pour jeunes voyageurs actifs | Global Tourist Centre",
+  "description": "Le forfait Goa–Kerala offre escapades de mousson, voyages en groupe, backwaters et stations de montagne. Idéal pour les jeunes voyageurs en quête de calme et d’aventure."
+},
     heroTitle: "De Goa au Pays de Dieu",
     heroSubtitle: "Un voyage au Kerala pour jeunes explorateurs",
     introTitle: "Pourquoi le Kerala?",
@@ -1316,7 +1348,7 @@ destinations: {
         "Explorez Srinagar, Sonamarg, Gulmarg et Pahalgam avec jardins moghols, séjour en bateau-maison et paysages himalayens époustouflants.",
       duration: "5 Nuits / 6 Jours",
     },
-    "ladakh-tour-package-from-goa": {
+    "ladakh-tour-package-from-goa ": {
       title: "Leh, Turtuk & Pangong",
       description:
         "Vivez le col Khardung La, vallée de Nubra, lac Pangong et village de Turtuk dans cette aventure himalayenne en haute altitude.",
@@ -1536,31 +1568,31 @@ destinations: {
     },
 
     // Excursions d'une journée (Day Trips)
-    "dandeli-elephant-safari-day-trip": {
+    "dandeli-day-excursion": {
       title: "Safari éléphants Dandeli",
       description:
         "Aventure faune palpitante avec safaris éléphants, rafting eaux vives et exploration jungle dans paysages luxuriants Dandeli.",
       duration: "1 Jour",
     },
-    "dudhsagar-waterfall-spice-plantation": {
+    "dudhsagar-waterfal-excursion": {
       title: "Chute Dudhsagar & plantation épices",
       description:
         "Vivez majestueuses chutes Dudhsagar avec safari jeep Sanctuaire Bhagwan Mahaveer suivi déjeuner goanais authentique plantation épices.",
       duration: "1 Jour",
     },
-    "mumbai-one-day-tour-from-goa": {
+    "mumbai-one-day-excursion": {
       title: "Mumbai en une journée",
       description:
         "Tour complet Mumbai couvrant landmarks iconiques : Gateway of India, bidonville Dharavi, Dhobi Ghat et train nuit retour Goa.",
       duration: "1 Jour",
     },
-    "netravali-wildlife-day-trip": {
+    "netravali-wildlife-day-excursion": {
       title: "Excursion Netravali",
       description:
         "Explorez lac bouillonnant mystique Netravali, randonnée chutes préservées et découvrez riche biodiversité sanctuaire faune intact.",
       duration: "1 Jour",
     },
-    "gokarna-murdeshwar-day-trip": {
+    "gokarna-murdeshwar-day-excursion": {
       title: "Excursion Gokarna Murdeshwar",
       description:
         "Voyage spirituel visitant ancien temple Mahabaleshwar Gokarna et magnifique temple Murdeshwar avec statue Shiva plus haute monde.",
@@ -1572,7 +1604,7 @@ destinations: {
         "Expérience complète Sud Goa : observation dauphins, tour bateau 4 points, kayak lagunes bleues et coucher soleil fort Cabo de Rama.",
       duration: "1 Jour",
     },
-    "south-goa-full-day-tour": {
+    "south-goa-day-exursion": {
       title: "Sud Goa culturel & côtier",
       description:
         "Expérience complète Sud Goa : sites UNESCO Vieux Goa, temples anciens, observation dauphins, plages préservées, coucher soleil Cabo de Rama Fort avec croisière dîner rivière Mandovi.",
@@ -1584,7 +1616,7 @@ destinations: {
       description:
         "Découvrez l’importance spirituelle et historique d’Amritsar avec des visites du Temple d’Or, de Jallianwala Bagh et d’autres sites emblématiques.",
     },
-    "bijapur-heritage-tour-from-goa": {
+    "bijapur-heritage-tour-from-goa ": {
       title: "Circuit Patrimoine de Bijapur",
       duration: "1 nuit / 2 jours",
       description:
@@ -1602,7 +1634,7 @@ destinations: {
       description:
         "Découvrez l’importance spirituelle et historique de Jodhpur avec des visites du fort de Mehrangarh, du palais Umaid Bhawan et d’autres lieux emblématiques.",
     },
-    "north-goa-full-day-tour": {
+    "north-goa-day-excursion": {
       title: "Visite touristique de Goa Nord",
       duration: "1 jour",
       description:
@@ -1677,10 +1709,10 @@ destinations: {
   },
 
   tourData: {
-    "dandeli-elephant-safari-day-trip": {
-      file_name: "Dandeli-Elephant-Safari-Day-Trip-package.html",
+    "dandeli-day-excursion": {
+      file_name: "dandeli-day-excursion-package.html",
       page: {
-        slug: "Dandeli-Elephant-Safari-Day-Trip-package",
+        slug: "dandeli-day-excursion-package",
         type: "day-trip",
         hero: {
           title: "Safari en Éléphant à Dandeli & Journée d'Aventure",
@@ -1856,7 +1888,7 @@ destinations: {
         },
       ],
     },
-    "dudhsagar-waterfall-spice-plantation": {
+    "dudhsagar-waterfal-excursion": {
       file_name: "Dudhsagar-and-Spice-Plantation-Day-Trip-package.html",
       page: {
         slug: "Dudhsagar-and-Spice-Plantation-Day-Trip-package",
@@ -2026,7 +2058,7 @@ destinations: {
         },
       ],
     },
-    "gokarna-murdeshwar-day-trip": {
+    "gokarna-murdeshwar-day-excursion": {
       file_name: "Gokarna-Murdeshwar-one-day-trip-package.html",
       page: {
         slug: "Gokarna-Murdeshwar-one-day-trip-package",
@@ -2392,7 +2424,7 @@ destinations: {
         },
       ],
     },
-    "mumbai-one-day-tour-from-goa": {
+    "mumbai-one-day-excursion": {
       file_name: "Mumbai-day-trip-package.html",
       page: {
         slug: "Mumbai-day-trip-package",
@@ -2612,7 +2644,7 @@ destinations: {
         },
       ],
     },
-    "netravali-wildlife-day-trip": {
+    "netravali-wildlife-day-excursion": {
       file_name: "Netravali-day-trip-package.html",
       page: {
         slug: "Netravali-day-trip-package",
@@ -2807,7 +2839,7 @@ destinations: {
         },
       ],
     },
-    "north-goa-full-day-tour": {
+    "north-goa-day-excursion": {
       file_name: "north-goa-english-tour.html",
       page: {
         slug: "North-Goa-English-tour",
@@ -2824,8 +2856,8 @@ destinations: {
         },
         language: "fr",
         "metadata": {
-          "title": "Nord de Goa – Goa Portugaise",
-          "description": "Réservez une visite d'une journée complète au nord de Goa couvrant Calangute, Baga, les plages d'Anjuna, le fort d'Aguada et les églises portugaises avec un guide parlant russe."
+          "title": "Excursion d'une journée au Nord de Goa : Plages & Patrimoine",
+          "description": "Tour complet du Nord de Goa : Plages de Calangute, Baga, Anjuna, Fort Aguada, marchés et églises portugaises. Guide inclus."
         }
       },
       cta: {
@@ -3171,7 +3203,7 @@ destinations: {
         },
       ],
     },
-    "south-goa-full-day-tour": {
+    "south-goa-day-exursion": {
       file_name: "South-Goa-1-Day-Cultural-and-Beach-Tour-package.html",
       page: {
         slug: "South-Goa-1-Day-Cultural-and-Beach-Tour-package",
@@ -4646,7 +4678,7 @@ destinations: {
         },
       ],
     },
-    "bijapur-heritage-tour-from-goa": {
+    "bijapur-heritage-tour-from-goa ": {
       file_name: "bijapur-heritage-tour-from-goa-from-goa.html",
       page: {
         slug: "bijapur-heritage-tour-from-goa",
@@ -4664,8 +4696,8 @@ destinations: {
         },
         language: "fr",
         "metadata": {
-          "title": "Bijapur et Patrimoine du Karnataka",
-          "description": "Visitez le Gol Gumbaz, l'Ibrahim Rauza et les temples anciens d'Aihole et Pattadakal. Transferts et séjour inclus."
+          "title": "Bijapur, Pattadakal & Aihole - Circuit Patrimoine",
+          "description": "Explorez Gol Gumbaz, les temples de Pattadakal (UNESCO) et Aihole. Circuit 2J/1N depuis Goa. Hébergement et transferts inclus."
         }
       },
       cta: {
@@ -5996,9 +6028,9 @@ destinations: {
       ],
     },
     "hyderabad-tour-package-from-goa": {
-      file_name: "hyderabad-trip-1n2d.html",
+      file_name: "hyderabad-tour-package-from-goa.html",
       page: {
-        slug: "Hyderabad-Trip-1N2D",
+        slug: "hyderabad-tour-package-from-goa",
         type: "domestic-trip",
         hero: {
           title: "Voyage à Hyderabad",
@@ -6013,8 +6045,8 @@ destinations: {
         },
         language: "fr",
         "metadata": {
-          "title": "Voyage à Hyderabad 1N/2D",
-          "description": "Réservez un voyage de 2 jours à Hyderabad : fort de Golconde, Charminar, palais de Chowmahalla, etc. Visites guidées et patrimoine."
+          "title": "Voyage à Hyderabad (1N/2J) - Charminar & Ramoji",
+          "description": "Réservez un voyage d'1 nuit et 2 jours à Hyderabad depuis Goa. Visites : Charminar, Fort Golconda, Ramoji Film City et Lac Hussain Sagar."
         }
       },
       cta: {
@@ -6234,8 +6266,8 @@ destinations: {
         },
         language: "fr",
         "metadata": {
-          "title": "Aventure dans le Désert : Jodhpur et Jaisalmer",
-          "description": "Découvrez la Ville Bleue et la Ville d'Or avec camping dans le désert, safari à dos de chameau et forts."
+          "title": "Voyage Jodhpur & Jaisalmer 3N/4J - Rajasthan",
+          "description": "Réservez un circuit de 3 nuits et 4 jours. Visitez la Ville Bleue, la Ville d'Or, le désert de Thar, le Fort Mehrangarh et les Havelis."
         }
       },
       cta: {
@@ -6943,8 +6975,8 @@ destinations: {
         },
         language: "fr",
         "metadata": {
-          "title": "Forfait Kerala 5N/6D | Global Tourist Centre",
-          "description": "Découvrez la beauté sereine du Kerala avec ce voyage de 6 jours à travers Cochin, Munnar, Thekkady et Alleppey."
+          "title": "Voyage au Kerala 5N/6J - Munnar, Thekkady, Alleppey",
+          "description": "Réservez un circuit de 5 nuits et 6 jours au Kerala depuis Goa. Visitez les jardins de thé de Munnar, la réserve de Thekkady et les backwaters d'Alleppey."
         }
       },
       cta: {
@@ -7083,7 +7115,7 @@ destinations: {
         },
       ],
     },
-    "ladakh-tour-package-from-goa": {
+    "ladakh-tour-package-from-goa ": {
       file_name: "ladakh-tour-package-from-goa-for-goa.html",
       page: {
         slug: "ladakh-tour-package-from-goa-for-goa",
@@ -7097,8 +7129,8 @@ destinations: {
         },
         language: "fr",
         "metadata": {
-          "title": "Tour de 7J/6N au Ladakh au départ de Goa par Global Tourist Centre",
-          "description": "Réservez votre place pour un voyage inoubliable de 7 jours à travers l'Himalaya."
+          "title": "Voyage au Ladakh 6N/7J - Aventure Himalayenne",
+          "description": "Réservez un circuit de 6 nuits et 7 jours au Ladakh. Visitez Shanti Stupa, Palais de Leh, Vallée de Nubra, Lac Pangong et Khardung La."
         }
       },
       cta: {
@@ -8145,8 +8177,8 @@ destinations: {
         },
         language: "fr",
         "metadata": {
-          "title": "Forfait Shimoga au départ de Goa – Évasion Nature 1N/2D | Global Tourist Centre",
-          "description": "Réservez votre voyage inoubliable de 2 jours au départ de Goa pour la nature sauvage."
+          "title": "Voyage Shimoga & Chutes de Jog (1N/2J)",
+          "description": "Réservez un circuit d'1 nuit et 2 jours à Shimoga. Visitez les chutes de Jog, le safari lions/tigres de Tyavarekoppa et le camp d'éléphants de Sakrebailu."
         }
       },
       cta: {
@@ -8339,8 +8371,8 @@ destinations: {
         },
         language: "fr",
         "metadata": {
-          "title": "Tour au Sikkim au départ de Goa – 6 Nuits & 7 Jours | Global Tourist Centre",
-          "description": "Explorez le paradis himalayen avec des guides experts. Réservez dès maintenant."
+          "title": "Voyage Sikkim Darjeeling Gangtok 6N/7J",
+          "description": "Réservez un circuit de 6 nuits et 7 jours au Sikkim, Darjeeling et Gangtok. Visitez le lac Tsomgo, Baba Mandir et Tiger Hill."
         }
       },
       cta: {
@@ -8502,8 +8534,8 @@ destinations: {
         },
         language: "fr",
         "metadata": {
-          "title": "Voyage de 7 jours au Tamil Nadu | Global Tourist Centre",
-          "description": "Réservez une exploration inoubliable de 7 jours du patrimoine culturel du Tamil Nadu."
+          "title": "Voyage au Tamil Nadu 6N/7J - Temples & Culture",
+          "description": "Réservez un circuit de 6 nuits et 7 jours au Tamil Nadu. Visitez Madurai, Rameshwaram, Kanyakumari, Ooty et les temples de Chettinad."
         }
       },
       cta: {

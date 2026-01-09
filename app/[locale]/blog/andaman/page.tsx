@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale } = params;
   const t = getTranslations(locale);
 
-  const title = t.blogAndaman.heroTitle;
-  const description = t.blogAndaman.introParagraph;
+  const title = t.blogAndaman.metadata.title;
+  const description = t.blogAndaman.metadata.description;
   const image = "/assets/hero/Andaman-hero.webp";
   const canonical = `https://globaltouristcentre.com/${locale}/blog/andaman`;
 

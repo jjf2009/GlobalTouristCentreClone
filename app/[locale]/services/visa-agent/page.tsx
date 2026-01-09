@@ -27,8 +27,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const t = getTranslations(locale);
 
   /** 1️⃣ Page-specific SEO values */
-  const title = t.servicePages.visaAgent.heroTitle;
-  const description = t.servicePages.visaAgent.aboutDec;
+  const title = t.servicePages.visaAgent.metadata.title;
+  const description = t.servicePages.visaAgent.metadata.description;
 
   /** 2️⃣ Page hero image (ABSOLUTE URL preferred) */
   const image = "/assets/hero/visa-hero.webp";

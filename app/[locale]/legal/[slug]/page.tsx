@@ -42,29 +42,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const canonical = `https://globaltouristcentre.com/${locale}/legal/${slug}`;
 
     return {
-        title: translation.title,
-        description: translation.subtitle,
+        title: translation.metadata.title,
+        description: translation.metadata.description,
         alternates: {
             canonical,
         },  
         openGraph: {
-            title: translation.title,
-            description: translation.subtitle,
+            title: translation.metadata.title,
+            description: translation.metadata.description,
             images: [image],
             siteName: t.metadata.brandname,
             type: "website",
             url: canonical,
         },
         twitter: {
-            title: translation.title,
-            description: translation.subtitle,
+            title: translation.metadata.title,
+            description: translation.metadata.description,
             card: "summary_large_image",
             images: [
                 {
                     url: image,
                     width: 1200,
                     height: 630,
-                    alt: translation.title,
+                    alt: translation.metadata.title,
                 },
             ],
             site: t.metadata.brandname,

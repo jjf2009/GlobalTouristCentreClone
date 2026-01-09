@@ -26,8 +26,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const { locale } = params;
   const t = getTranslations(locale);
 
-  const title = t.servicePages.hotelBooking.heroTitle;
-  const description = t.servicePages.hotelBooking.aboutDesc;
+  const title = t.servicePages.hotelBooking.metadata.title;
+  const description = t.servicePages.hotelBooking.metadata.description;
 
   /** 2️⃣ Page hero image (ABSOLUTE URL preferred) */
   const image = "/assets/hero/hotel-booking-hero.webp";

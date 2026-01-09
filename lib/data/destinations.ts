@@ -168,7 +168,7 @@ export const domesticTrips: Destination[] = [
   // },
   // {
   //   id: "dom-mumbai-021",
-  //   slug: "mumbai-one-day-tour-from-goa",
+  //   slug: "mumbai-one-day-excursion",
   //   rating: 4.6,
   //   imageQuery: "/destinations/Thumbnails/Mumbai.webp",
   //   category: "domestic",
@@ -444,35 +444,35 @@ export const internationalTrips: Destination[] = [
 export const dayTrips: Destination[] = [
   {
     id: "day-dandeli-001",
-    slug: "dandeli-elephant-safari-day-trip",
+    slug: "dandeli-day-excursion",
     rating: 4.9,
     imageQuery: "/destinations/Dandeli/elephant-safari.webp",
     category: "day-trips",
   },
   {
     id: "day-dudhsagar-002",
-    slug: "dudhsagar-waterfall-spice-plantation",
+    slug: "dudhsagar-waterfal-excursion",
     rating: 4.4,
     imageQuery: "/destinations/Thumbnails/Dudhsagar.webp",
     category: "day-trips",
   },
   {
     id: "day-mumbai-003",
-    slug: "mumbai-one-day-tour-from-goa",
+    slug: "mumbai-one-day-excursion",
     rating: 4.6,
     imageQuery: "/hero/mumbai-hero.webp",
     category: "day-trips",
   },
   {
     id: "day-netravali-004",
-    slug: "netravali-wildlife-day-trip",
+    slug: "netravali-wildlife-day-excursion",
     rating: 4.9,
     imageQuery: "/destinations/Thumbnails/netravali.webp",
     category: "day-trips",
   },
   {
     id: "day-gokarna-005",
-    slug: "gokarna-murdeshwar-day-trip",
+    slug: "gokarna-murdeshwar-day-excursion",
     rating: 4.1,
     imageQuery: "/destinations/Thumbnails/Gokarna.webp",
     category: "day-trips",
@@ -486,7 +486,7 @@ export const dayTrips: Destination[] = [
   },
   {
     id: "day-south-goa-cultural-007",
-    slug: "south-goa-full-day-tour",
+    slug: "south-goa-day-exursion",
     rating: 4.2,
     imageQuery: "/destinations/Thumbnails/Goa3.webp",
     category: "day-trips",
@@ -496,7 +496,7 @@ export const dayTrips: Destination[] = [
 
   {
     id: "day-north-goa-009",
-    slug: "north-goa-full-day-tour",
+    slug: "north-goa-day-excursion",
     rating: 4.6,
     imageQuery: "/destinations/Thumbnails/NorthGoa.webp",
     category: "day-trips",

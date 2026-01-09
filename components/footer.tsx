@@ -66,7 +66,7 @@ export function Footer() {
   const popularTours = [
     {
       label: t.footer.goaBeach,
-      href: `/${locale}/destinations/day-trips/south-goa-full-day-tour`,
+      href: `/${locale}/destinations/day-trips/south-goa-day-exursion`,
     },
     {
       label: t.footer.exploreSikkim,

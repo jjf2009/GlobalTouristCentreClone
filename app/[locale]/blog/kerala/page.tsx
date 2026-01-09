@@ -23,8 +23,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const { locale } = params;
   const t = getTranslations(locale);
 
-  const title = t.blogKerala.heroTitle;
-  const description = t.blogKerala.introParagraph;
+  const title = t.blogKerala.metadata.title;
+  const description = t.blogKerala.metadata.description;
   const image = "/assets/hero/Kerala-hero.webp";
   const canonical = `https://globaltouristcentre.com/${locale}/blog/kerala`;
 

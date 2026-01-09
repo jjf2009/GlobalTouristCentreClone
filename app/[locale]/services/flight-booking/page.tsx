@@ -26,8 +26,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const { locale } = params;
   const t = getTranslations(locale);
 
-  const title = t.servicePages.flightBooking.heroTitle;
-  const description = t.servicePages.flightBooking.aboutDesc;
+  const title = t.servicePages.flightBooking.metadata.title;
+  const description = t.servicePages.flightBooking.metadata.description;
 
   /** 2️⃣ Page hero image (ABSOLUTE URL preferred) */
   const image = "/assets/hero/flight-booking-hero.webp";

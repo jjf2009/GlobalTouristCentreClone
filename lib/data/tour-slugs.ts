@@ -2,21 +2,21 @@ export const LOCALES = ["en", "fr", "it", "de", "ru"] as const;
 
 export const TOUR_CATEGORIES = {
   "day-trips": [
-    "south-goa-full-day-tour", // verified
+    "south-goa-day-exursion", // verified
     "south-goa-sightseeing-tour", // verified // peresnt in en.ts
     "south-goa-sunset-cruise", // verified // peresnt in en.ts
     "goa-one-day-sightseeing-tour", // verified // peresnt in en.ts
-    "dudhsagar-waterfall-spice-plantation", // verified
+    "dudhsagar-waterfal-excursion", // verified
     "palolem-cola-beach-dolphin-tour", // verified
-    "north-goa-full-day-tour", // verified
+    "north-goa-day-excursion", // verified
     "goa-sightseeing-tour", // verified //prent in en.ts
     //"crocodile-sightseeing-trip", // temporarily removed (used in home)
     "luxury-yacht-day-tour-goa", // verified
     // "grand-island-water-sports", // temporarily removed (used in home)
-    "gokarna-murdeshwar-day-trip", // verified
-    "dandeli-elephant-safari-day-trip",
-    "netravali-wildlife-day-trip", //verified
-    "mumbai-one-day-tour-from-goa", // verified
+    "gokarna-murdeshwar-day-excursion", // verified
+    "dandeli-day-excursion",
+    "netravali-wildlife-day-excursion", //verified
+    "mumbai-one-day-excursion", // verified
   ],
 
   domestic: [
