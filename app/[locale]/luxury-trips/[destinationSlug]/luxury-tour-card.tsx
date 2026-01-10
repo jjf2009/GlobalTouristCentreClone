@@ -97,7 +97,7 @@ export function LuxuryTourCard({
         </p>
 
         {/* CTA */}
-        <Link href={`/${locale}/${href}`} className="mt-auto">
+        <Link href={`/${locale}${href}`} className="mt-auto">
           <Button
             className="
               w-full bg-[#d4af37] hover:bg-[#b8962e]

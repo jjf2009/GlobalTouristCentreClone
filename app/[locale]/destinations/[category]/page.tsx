@@ -137,20 +137,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 
   return {
-    title: `${content.title} |${t.metadata.brandname}`,
+    title: `${content.title}`,
     description: content.description,
     alternates: {
       canonical,
     },
     openGraph: {
-      title: `${content.title} |${t.metadata.brandname}`,
+      title: `${content.title}`,
       description: content.description,
       images: [image],
       type: "website",
       url: canonical,
     },
     twitter: {
-      title: `${content.title} |${t.metadata.brandname}`,
+      title: `${content.title}`,
       description: content.description,
       card: "summary_large_image",
       images: [
