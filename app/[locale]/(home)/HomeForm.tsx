@@ -6,7 +6,7 @@ import { useI18n } from "@/lib/i18n/context";
 const WHATSAPP_NUMBER = "919067972295";
 
 const HomeForm: React.FC = () => {
-  const { t } = useI18n();
+  const { t,locale } = useI18n();
 
   const [formData, setFormData] = useState({
     name: "",
@@ -115,20 +115,20 @@ Phone: ${formData.phone}
                   shadow-md hover:shadow-lg
                 "
               >
-                {t.form.submit}
+                {t.form.submit}sitema
               </button>
 
               <p className="text-center text-xs text-slate-500 mt-4">
                 {t.form.privacyNote}{" "}
                 <a
-                  href="/privacy-policy"
+                  href={`${locale}/legal/privacy-policy`}
                   className="text-teal-600 hover:underline"
                 >
                   {t.form.privacyPolicy}
                 </a>{" "}
                 {t.form.and}{" "}
                 <a
-                  href="/terms-of-use"
+                  href={`${locale}/legal/terms-and-conditions`}
                   className="text-teal-600 hover:underline"
                 >
                   {t.form.termsOfUse}

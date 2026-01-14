@@ -1299,9 +1299,10 @@ export const it = {
     goaBeach: "Fuga alle Spiagge di Goa",
     exploreSikkim: "Esplora Sikkim",
     keralaBackwaters: "Kerala Backwaters",
-    copyright: "© 2023 Global Tourist Centre. Tutti i diritti riservati.",
     craftingJourneys: "Creiamo viaggi indimenticabili dal 2010",
     termsConditions: "Termini e Condizioni",
+    copyright: "© 2026 Global Tourist Centre. Tutti i diritti riservati.",
+     sitemap: "Mappa del sito"
   },
   // FAQ
   faq: {
@@ -2413,10 +2414,11 @@ export const it = {
           }
         },
         language: "it",
-        "metadata": {
-          "title": "Giornata a Mumbai da Goa per i viaggiatori stranieri",
-          "description": "Volo da Goa per un giorno a Mumbai. Esplora Gateway of India, Dharavi, Dhobi Ghat e siti UNESCO — ideale per gli stranieri."
-        }
+"metadata": {
+  "title": "Escursione di un giorno a Mumbai da Goa – I principali punti salienti della città",
+  "description": "Vola da Goa per un’escursione giornaliera a Mumbai con luoghi iconici come la Gateway of India, Marine Drive e le Grotte di Elephanta. Vivi cultura, storia e la vita frenetica della metropoli!"
+}
+
       },
       cta: {
         headline: "Pronto per esplorare Mumbai?",

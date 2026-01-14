@@ -1343,9 +1343,10 @@ export const en = {
     goaBeach: "Goa Beach Escape",
     exploreSikkim: "Explore Sikkim",
     keralaBackwaters: "Kerala Backwaters",
-    copyright: "© 2023 Global Tourist Centre. All rights reserved.",
     craftingJourneys: "Crafting unforgettable journeys since 2010",
     termsConditions: "Terms & Conditions",
+    copyright: "© 2026 Global Tourist Centre. All rights reserved.",
+    sitemap:"Sitemap"
   },
   // FAQ
   faq: {

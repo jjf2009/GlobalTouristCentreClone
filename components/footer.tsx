@@ -241,6 +241,12 @@ export function Footer() {
             >
               {t.footer.termsConditions}
             </Link>
+              <Link
+              href={`/${locale}/sitemap.xml`}
+              className="hover:text-[#f8d56b]"
+            >
+              {t.footer.sitemap}
+            </Link>
           </div>
 
           <p className="hidden lg:block">{t.footer.craftingJourneys}</p>
